@@ -1,6 +1,6 @@
 site_name: Research Memo
 site_url: https://ck10100713.github.io/research-memo/
-site_description: AI Agent 技術研究筆記
+site_description: 技術研究筆記
 repo_url: https://github.com/ck10100713/research-memo
 repo_name: ck10100713/research-memo
 
@@ -71,9 +71,35 @@ markdown_extensions:
 
 nav:
   - 首頁: index.md
-  - 研究筆記:
+  - AI Agent 框架:
+      - Autoresearch: autoresearch.md
+      - AutoGPT: autogpt.md
+      - CrewAI: crewai.md
+      - LangChain: langchain.md
+      - Page Agent: page-agent.md
       - Paperclip: paperclip.md
+      - 多 Agent 辯論會: multi-agent-debate.md
+  - Coding Agent 工具:
+      - Claude Code Showcase: claude-code-showcase.md
+      - Claude Skills Guide: claude-skills-guide.md
+      - Learn Claude Code: learn-claude-code.md
+      - GitHub Copilot CLI: copilot-cli.md
+      - GitHub Copilot Configs: github-copilot-configs.md
+      - GitHub Copilot SDK: github-copilot-sdk.md
+      - Copilot Ralph: copilot-ralph.md
       - gstack: gstack.md
+      - MCP CLI: mcp-cli.md
+  - 量化交易:
+      - OpenStock: openstock.md
+      - StockStats: stockstats.md
+      - TEJAPI Python Quant: tejapi_python_medium_quant.md
+      - TradingAgents: tradingagents.md
+  - 社群行銷:
+      - Insta-Booster: insta-booster.md
+  - 學習資源:
+      - AI Agents (黃佳): ai-agents.md
+      - LLM Course: llm-course.md
+      - Reference 快速參考: reference.md
 
 extra:
   social:

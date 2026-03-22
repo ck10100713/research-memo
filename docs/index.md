@@ -1,53 +1,235 @@
-# Headless AI Agent Research
+# Research Memo
 
-研究與整理 AI Agent 相關的開源專案、架構模式與工具鏈。
+研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 ---
 
-## 研究主題
+## AI Agent 框架
 
 <div class="grid cards" markdown>
+
+-   :material-flask:{ .lg .middle } **Autoresearch**
+
+    ---
+
+    Karpathy 的自主 AI 研究代理，讓 Agent 整夜跑 LLM 實驗
+
+    [:octicons-arrow-right-24: 閱讀筆記](autoresearch.md)
+
+-   :material-brain:{ .lg .middle } **AutoGPT**
+
+    ---
+
+    自主 AI Agent 先驅專案
+
+    [:octicons-arrow-right-24: 閱讀筆記](autogpt.md)
+
+-   :material-account-group:{ .lg .middle } **CrewAI**
+
+    ---
+
+    多 Agent 角色扮演協作框架
+
+    [:octicons-arrow-right-24: 閱讀筆記](crewai.md)
+
+-   :material-link-variant:{ .lg .middle } **LangChain**
+
+    ---
+
+    LLM 應用開發框架
+
+    [:octicons-arrow-right-24: 閱讀筆記](langchain.md)
 
 -   :material-office-building:{ .lg .middle } **Paperclip**
 
     ---
 
-    開源的 AI Agent 編排控制平面，把多個 Agent 組織成「零人公司」
+    開源 AI Agent 編排控制平面，把多個 Agent 組織成「零人公司」
 
-    [:octicons-arrow-right-24: 閱讀研究筆記](paperclip.md)
+    [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
 
--   :material-hammer-wrench:{ .lg .middle } **gstack**
+-   :material-cursor-default-click:{ .lg .middle } **Page Agent**
 
     ---
 
-    Garry Tan (YC CEO) 的 Claude Code 工作流系統，18 個 slash command 虛擬工程團隊
+    阿里巴巴的網頁內嵌 GUI Agent，用自然語言控制網頁介面
 
-    [:octicons-arrow-right-24: 閱讀研究筆記](gstack.md)
+    [:octicons-arrow-right-24: 閱讀筆記](page-agent.md)
+
+-   :material-forum:{ .lg .middle } **多 Agent 辯論會**
+
+    ---
+
+    使用 Copilot SDK 建構的多 Agent 辯論系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](multi-agent-debate.md)
 
 </div>
 
 ---
 
-## 研究角度
+## Coding Agent 工具
 
-這些專案從不同層級解決 AI Agent 的問題：
+<div class="grid cards" markdown>
 
-```mermaid
-graph TD
-    A[公司編排層] -->|Paperclip| B[多 Agent 協作<br/>Org Chart / Budget / Governance]
-    C[工作流層] -->|gstack| D[單 Agent 流程強化<br/>Think → Plan → Build → Ship]
-    E[Agent 執行層] -->|各 Agent Runtime| F[Claude Code / Codex / Cursor<br/>OpenClaw / Gemini]
+-   :material-star-shooting:{ .lg .middle } **Claude Code Showcase**
 
-    B --> D
-    D --> F
+    ---
 
-    style A fill:#4051b5,color:#fff
-    style C fill:#7c4dff,color:#fff
-    style E fill:#00897b,color:#fff
-```
+    Claude Code 使用案例展示
 
-| 層級 | 代表專案 | 解決的問題 |
-|------|---------|-----------|
-| **公司編排層** | Paperclip | 多個 Agent 如何協作運營、預算控制、治理審批 |
-| **工作流層** | gstack | 單個 Agent 如何按流程高效開發 |
-| **Agent 執行層** | Claude Code, Codex, OpenClaw | Agent 本身如何理解與執行任務 |
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-showcase.md)
+
+-   :material-puzzle:{ .lg .middle } **Claude Skills Guide**
+
+    ---
+
+    Claude Skills 建構完整指南
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-skills-guide.md)
+
+-   :material-school:{ .lg .middle } **Learn Claude Code**
+
+    ---
+
+    Claude Code 學習資源
+
+    [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
+
+-   :material-console:{ .lg .middle } **GitHub Copilot CLI**
+
+    ---
+
+    GitHub Copilot 命令列工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](copilot-cli.md)
+
+-   :material-cog:{ .lg .middle } **GitHub Copilot Configs**
+
+    ---
+
+    GitHub Copilot 設定與自訂指令
+
+    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-configs.md)
+
+-   :material-code-braces:{ .lg .middle } **GitHub Copilot SDK**
+
+    ---
+
+    GitHub Copilot SDK 開發研究
+
+    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
+
+-   :material-refresh:{ .lg .middle } **Copilot Ralph**
+
+    ---
+
+    Copilot Ralph 自主迭代開發模式
+
+    [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
+
+-   :material-hammer-wrench:{ .lg .middle } **gstack**
+
+    ---
+
+    Garry Tan (YC CEO) 的 Claude Code 工作流系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
+-   :material-connection:{ .lg .middle } **MCP CLI**
+
+    ---
+
+    Model Context Protocol CLI 工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcp-cli.md)
+
+</div>
+
+---
+
+## 量化交易
+
+<div class="grid cards" markdown>
+
+-   :material-finance:{ .lg .middle } **OpenStock**
+
+    ---
+
+    開源股票分析工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](openstock.md)
+
+-   :material-chart-bar:{ .lg .middle } **StockStats**
+
+    ---
+
+    股票統計分析工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](stockstats.md)
+
+-   :material-database:{ .lg .middle } **TEJAPI Python Quant**
+
+    ---
+
+    TEJ API 量化交易 Python 教學
+
+    [:octicons-arrow-right-24: 閱讀筆記](tejapi_python_medium_quant.md)
+
+-   :material-chart-line:{ .lg .middle } **TradingAgents**
+
+    ---
+
+    多 Agent 協作的量化交易決策系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](tradingagents.md)
+
+</div>
+
+---
+
+## 社群行銷
+
+<div class="grid cards" markdown>
+
+-   :material-instagram:{ .lg .middle } **Insta-Booster**
+
+    ---
+
+    Instagram Reels 自動化互動工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](insta-booster.md)
+
+</div>
+
+---
+
+## 學習資源
+
+<div class="grid cards" markdown>
+
+-   :material-robot:{ .lg .middle } **AI Agents (黃佳)**
+
+    ---
+
+    《動手做AI Agent》書籍配套程式碼與教學
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
+
+-   :material-book-open-variant:{ .lg .middle } **LLM Course**
+
+    ---
+
+    LLM 學習課程資源
+
+    [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
+
+-   :material-bookmark:{ .lg .middle } **Reference 快速參考**
+
+    ---
+
+    常用參考手冊
+
+    [:octicons-arrow-right-24: 閱讀筆記](reference.md)
+
+</div>
