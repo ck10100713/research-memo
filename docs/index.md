@@ -72,6 +72,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account-multiple:{ .lg .middle } **Agency Agents**
+
+    ---
+
+    144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
+
 -   :material-send:{ .lg .middle } **Claude Cowork Dispatch**
 
     ---
