@@ -1,8 +1,8 @@
-site_name: Headless AI Agent Research
-site_url: https://ck10100713.github.io/headless-ai-agent-research/
+site_name: Research Memo
+site_url: https://ck10100713.github.io/research-memo/
 site_description: AI Agent 技術研究筆記
-repo_url: https://github.com/ck10100713/headless-ai-agent-research
-repo_name: ck10100713/headless-ai-agent-research
+repo_url: https://github.com/ck10100713/research-memo
+repo_name: ck10100713/research-memo
 
 theme:
   name: material
