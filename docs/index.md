@@ -72,6 +72,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-send:{ .lg .middle } **Claude Cowork Dispatch**
+
+    ---
+
+    用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
+
+    [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
+
 -   :material-star-shooting:{ .lg .middle } **Claude Code Showcase**
 
     ---
