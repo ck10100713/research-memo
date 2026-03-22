@@ -104,6 +104,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
 
+-   :material-package-variant-closed:{ .lg .middle } **Everything Claude Code**
+
+    ---
+
+    97K stars 的 Agent Harness 效能優化系統：28 agents、116 skills、59 commands
+
+    [:octicons-arrow-right-24: 閱讀筆記](everything-claude-code.md)
+
 -   :material-star-shooting:{ .lg .middle } **Claude Code Showcase**
 
     ---
