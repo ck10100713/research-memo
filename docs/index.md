@@ -176,6 +176,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-cli.md)
 
+-   :material-swap-horizontal:{ .lg .middle } **OpenClaw Claude Proxy**
+
+    ---
+
+    將 Claude Max 訂閱轉為 OpenAI 相容 API，驅動 Agent 群免費用 Opus 4.6
+
+    [:octicons-arrow-right-24: 閱讀筆記](openclaw-claude-proxy.md)
+
 </div>
 
 ---

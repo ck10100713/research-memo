@@ -93,6 +93,7 @@ nav:
       - Copilot Ralph: copilot-ralph.md
       - gstack: gstack.md
       - MCP CLI: mcp-cli.md
+      - OpenClaw Claude Proxy: openclaw-claude-proxy.md
   - 量化交易:
       - OpenStock: openstock.md
       - StockStats: stockstats.md
