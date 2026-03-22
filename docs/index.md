@@ -72,6 +72,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-airplane-takeoff:{ .lg .middle } **App Store Preflight**
+
+    ---
+
+    AI Agent Skill，提交前自動掃描 iOS/macOS 專案的 App Store 審核風險
+
+    [:octicons-arrow-right-24: 閱讀筆記](app-store-preflight.md)
+
 -   :material-account-multiple:{ .lg .middle } **Agency Agents**
 
     ---

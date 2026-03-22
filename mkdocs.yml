@@ -80,6 +80,7 @@ nav:
       - Paperclip: paperclip.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
+      - App Store Preflight: app-store-preflight.md
       - Agency Agents: agency-agents.md
       - Claude Cowork Dispatch: dispatch.md
       - Claude Code Showcase: claude-code-showcase.md
