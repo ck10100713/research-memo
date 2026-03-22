@@ -1,8 +1,8 @@
 site_name: Headless AI Agent Research
-site_url: https://pochen-jpg.github.io/headless-ai-agent-research/
+site_url: https://ck10100713.github.io/headless-ai-agent-research/
 site_description: AI Agent 技術研究筆記
-repo_url: https://github.com/Pochen-jpg/headless-ai-agent-research
-repo_name: Pochen-jpg/headless-ai-agent-research
+repo_url: https://github.com/ck10100713/headless-ai-agent-research
+repo_name: ck10100713/headless-ai-agent-research
 
 theme:
   name: material
@@ -78,4 +78,4 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Pochen-jpg
+      link: https://github.com/ck10100713
