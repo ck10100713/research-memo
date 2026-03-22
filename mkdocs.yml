@@ -78,6 +78,7 @@ nav:
       - LangChain: langchain.md
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
+      - Project Golem: project-golem.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
       - App Store Preflight: app-store-preflight.md

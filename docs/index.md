@@ -56,6 +56,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](page-agent.md)
 
+-   :material-robot-outline:{ .lg .middle } **Project Golem**
+
+    ---
+
+    Browser-in-the-Loop 自主 AI 代理，金字塔記憶可存 50 年對話精華
+
+    [:octicons-arrow-right-24: 閱讀筆記](project-golem.md)
+
 -   :material-forum:{ .lg .middle } **多 Agent 辯論會**
 
     ---
