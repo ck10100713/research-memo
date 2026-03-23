@@ -192,6 +192,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openclaw-claude-proxy.md)
 
+-   :material-shield-star:{ .lg .middle } **Superpowers**
+
+    ---
+
+    106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
+
+    [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
+
 </div>
 
 ---
