@@ -104,6 +104,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
 
+-   :material-monitor-dashboard:{ .lg .middle } **Claude HUD**
+
+    ---
+
+    11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-hud.md)
+
 -   :material-send:{ .lg .middle } **Claude Cowork Dispatch**
 
     ---
