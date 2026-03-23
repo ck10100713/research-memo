@@ -40,6 +40,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langchain.md)
 
+-   :material-fishbowl:{ .lg .middle } **MiroFish**
+
+    ---
+
+    40K stars 群體智能預測引擎，用數千 AI Agent 模擬平行社會推演未來
+
+    [:octicons-arrow-right-24: 閱讀筆記](mirofish.md)
+
 -   :material-office-building:{ .lg .middle } **Paperclip**
 
     ---

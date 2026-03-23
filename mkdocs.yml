@@ -76,6 +76,7 @@ nav:
       - AutoGPT: autogpt.md
       - CrewAI: crewai.md
       - LangChain: langchain.md
+      - MiroFish: mirofish.md
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
       - Project Golem: project-golem.md
