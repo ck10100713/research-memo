@@ -144,6 +144,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
+-   :material-lightning-bolt:{ .lg .middle } **Lightpanda Browser**
+
+    ---
+
+    用 Zig 從零打造的 headless browser，比 Chrome 快 11x、省 9x 記憶體，專為 AI Agent 設計
+
+    [:octicons-arrow-right-24: 閱讀筆記](lightpanda-browser.md)
+
 -   :material-console:{ .lg .middle } **GitHub Copilot CLI**
 
     ---
