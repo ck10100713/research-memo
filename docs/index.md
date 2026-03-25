@@ -104,6 +104,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
 
+-   :material-file-compare:{ .lg .middle } **Difftastic**
+
+    ---
+
+    24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動
+
+    [:octicons-arrow-right-24: 閱讀筆記](difftastic.md)
+
 -   :material-monitor-dashboard:{ .lg .middle } **Claude HUD**
 
     ---

@@ -84,6 +84,7 @@ nav:
   - Coding Agent 工具:
       - App Store Preflight: app-store-preflight.md
       - Agency Agents: agency-agents.md
+      - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
       - Claude Cowork Dispatch: dispatch.md
       - Everything Claude Code: everything-claude-code.md
