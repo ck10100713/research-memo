@@ -144,6 +144,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-hud.md)
 
+-   :material-finance:{ .lg .middle } **Claude Financial Services Plugins**
+
+    ---
+
+    Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
+
 -   :material-send:{ .lg .middle } **Claude Cowork Dispatch**
 
     ---
