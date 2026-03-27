@@ -84,6 +84,7 @@ nav:
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
       - App Store Preflight: app-store-preflight.md
+      - Anthropic Harness Design: harness-design-long-running-apps.md
       - Agency Agents: agency-agents.md
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md

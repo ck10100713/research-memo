@@ -104,6 +104,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](app-store-preflight.md)
 
+-   :material-cogs:{ .lg .middle } **Anthropic Harness Design**
+
+    ---
+
+    Anthropic 的 GAN 啟發三 Agent Harness 架構，讓 Claude 自主建構完整全端應用
+
+    [:octicons-arrow-right-24: 閱讀筆記](harness-design-long-running-apps.md)
+
 -   :material-account-multiple:{ .lg .middle } **Agency Agents**
 
     ---
