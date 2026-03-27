@@ -352,6 +352,22 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](reference.md)
 
+</div>
+
+---
+
+## AI 創作資源
+
+<div class="grid cards" markdown>
+
+-   :material-image-multiple:{ .lg .middle } **AI 圖像 Prompt Gallery 生態**
+
+    ---
+
+    Civitai、PromptHero、Lexica 等 15+ 平台全景比較，涵蓋 SFW/NSFW、選擇決策樹
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-image-prompt-galleries.md)
+
 -   :material-palette:{ .lg .middle } **Uniform Map AI Prompts**
 
     ---

@@ -111,11 +111,13 @@ nav:
       - TradingAgents: tradingagents.md
   - 社群行銷:
       - Insta-Booster: insta-booster.md
+  - AI 創作資源:
+      - AI 圖像 Prompt Gallery 生態: ai-image-prompt-galleries.md
+      - Uniform Map AI Prompts: uniform-map-prompts.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - LLM Course: llm-course.md
       - Reference 快速參考: reference.md
-      - Uniform Map AI Prompts: uniform-map-prompts.md
 
 extra:
   social:
