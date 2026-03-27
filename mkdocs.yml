@@ -71,6 +71,7 @@ markdown_extensions:
 
 nav:
   - 首頁: index.md
+  - 研究更新: news.md
   - AI Agent 框架:
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md

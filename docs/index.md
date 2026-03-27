@@ -4,6 +4,50 @@
 
 ---
 
+## 研究更新
+
+最近新增或整理完成的研究筆記。
+
+<div class="grid cards" markdown>
+
+-   :material-newspaper-variant-outline:{ .lg .middle } **Claude Cowork Dispatch**
+
+    ---
+
+    `2026-03-17` 用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
+
+    [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
+
+-   :material-hammer-wrench:{ .lg .middle } **gstack**
+
+    ---
+
+    `2026-03-11` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
+
+    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
+-   :material-office-building:{ .lg .middle } **Paperclip**
+
+    ---
+
+    `2026-03-02` 開源 AI Agent 編排控制平面，把多個 Agent 組織成一間零人公司
+
+    [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
+
+-   :material-finance:{ .lg .middle } **Claude Financial Services Plugins**
+
+    ---
+
+    `2026-02-23` Anthropic 官方金融服務 Plugin，覆蓋投行、股研、PE 與財管工作流
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
+
+</div>
+
+[查看研究索引](news.md)
+
+---
+
 ## AI Agent 框架
 
 <div class="grid cards" markdown>
