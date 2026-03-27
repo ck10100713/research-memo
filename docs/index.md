@@ -48,6 +48,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langgraph-state-api.md)
 
+-   :material-hub:{ .lg .middle } **LobeHub**
+
+    ---
+
+    74K stars 的 AI Agent 協作平台，Supervisor + Executor 多 Agent 架構、39K+ MCP 市集、White-Box Memory
+
+    [:octicons-arrow-right-24: 閱讀筆記](lobehub.md)
+
 -   :material-fishbowl:{ .lg .middle } **MiroFish**
 
     ---
