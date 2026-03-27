@@ -40,6 +40,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langchain.md)
 
+-   :material-state-machine:{ .lg .middle } **LangGraph State API**
+
+    ---
+
+    LangGraph 圖狀態機核心 API：State、Reducer、Channel、MessagesState 完整解析
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-state-api.md)
+
 -   :material-fishbowl:{ .lg .middle } **MiroFish**
 
     ---
