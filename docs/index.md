@@ -352,4 +352,12 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](reference.md)
 
+-   :material-palette:{ .lg .middle } **Uniform Map AI Prompts**
+
+    ---
+
+    台灣制服地圖的 3,000+ AI 圖像生成 prompt 資料庫，視覺預覽 + 跨維度快速組合
+
+    [:octicons-arrow-right-24: 閱讀筆記](uniform-map-prompts.md)
+
 </div>

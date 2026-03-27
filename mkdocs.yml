@@ -115,6 +115,7 @@ nav:
       - AI Agents (黃佳): ai-agents.md
       - LLM Course: llm-course.md
       - Reference 快速參考: reference.md
+      - Uniform Map AI Prompts: uniform-map-prompts.md
 
 extra:
   social:
