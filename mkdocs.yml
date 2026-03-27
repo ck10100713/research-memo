@@ -102,6 +102,7 @@ nav:
       - GitHub Copilot SDK: github-copilot-sdk.md
       - Copilot Ralph: copilot-ralph.md
       - gstack: gstack.md
+      - Agent Orchestrator: agent-orchestrator.md
       - MCP CLI: mcp-cli.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Superpowers: superpowers.md

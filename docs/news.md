@@ -14,12 +14,12 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-03-27 | Coding Agent 工具 | [Agent Orchestrator](agent-orchestrator.md) |
 | 2026-03-17 | Coding Agent 工具 | [Claude Cowork Dispatch](dispatch.md) |
 | 2026-03-11 | Coding Agent 工具 | [gstack](gstack.md) |
 | 2026-03-02 | AI Agent 框架 | [Paperclip](paperclip.md) |
 | 2026-02-23 | Coding Agent 工具 | [Claude Financial Services Plugins](claude-financial-services-plugins.md) |
 | 2026-02-09 | Coding Agent 工具 | [GitHub Copilot Configs](github-copilot-configs.md) |
-| 2026-02-04 | AI Agent 框架 | [多 Agent 辯論會](multi-agent-debate.md) |
 
 ## 按年份 / 月份
 
@@ -27,6 +27,8 @@
 
 #### 03 月
 
+- `2026-03-27` [Agent Orchestrator](agent-orchestrator.md)  
+  Composio 的多 agent 控制平面，核心是 issue、worktree、PR、CI、review 的自動閉環。
 - `2026-03-17` [Claude Cowork Dispatch](dispatch.md)  
   用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務。
 - `2026-03-11` [gstack](gstack.md)  
@@ -66,7 +68,7 @@
 
 ### Coding Agent 工具
 
-[App Store Preflight](app-store-preflight.md)、[Anthropic Harness Design](harness-design-long-running-apps.md)、[Agency Agents](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Claude Skills Guide](claude-skills-guide.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[MCP CLI](mcp-cli.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)
+[App Store Preflight](app-store-preflight.md)、[Anthropic Harness Design](harness-design-long-running-apps.md)、[Agency Agents](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Claude Skills Guide](claude-skills-guide.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)
 
 ### 量化交易
 

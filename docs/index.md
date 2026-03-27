@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-source-branch:{ .lg .middle } **Agent Orchestrator**
+
+    ---
+
+    `2026-03-27` Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動接住 CI 與 review feedback
+
+    [:octicons-arrow-right-24: 閱讀筆記](agent-orchestrator.md)
+
 -   :material-newspaper-variant-outline:{ .lg .middle } **Claude Cowork Dispatch**
 
     ---
@@ -283,6 +291,14 @@
     Garry Tan (YC CEO) 的 Claude Code 工作流系統
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
+-   :material-source-branch:{ .lg .middle } **Agent Orchestrator**
+
+    ---
+
+    Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動處理 CI 與 review feedback
+
+    [:octicons-arrow-right-24: 閱讀筆記](agent-orchestrator.md)
 
 -   :material-connection:{ .lg .middle } **MCP CLI**
 
