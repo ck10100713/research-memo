@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-robot-excited:{ .lg .middle } **NOFX**
+
+    ---
+
+    `2026-03-29` Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單
+
+    [:octicons-arrow-right-24: 閱讀筆記](nofx.md)
+
 -   :material-bank:{ .lg .middle } **AI Hedge Fund**
 
     ---
@@ -347,6 +355,14 @@
     12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
+-   :material-robot-excited:{ .lg .middle } **NOFX**
+
+    ---
+
+    Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單
+
+    [:octicons-arrow-right-24: 閱讀筆記](nofx.md)
 
 -   :material-finance:{ .lg .middle } **OpenStock**
 

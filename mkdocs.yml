@@ -108,6 +108,7 @@ nav:
       - Superpowers: superpowers.md
   - 量化交易:
       - AI Hedge Fund: ai-hedge-fund.md
+      - NOFX: nofx.md
       - OpenStock: openstock.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md
