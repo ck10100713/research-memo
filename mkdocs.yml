@@ -110,6 +110,7 @@ nav:
       - AI Hedge Fund: ai-hedge-fund.md
       - NOFX: nofx.md
       - OpenStock: openstock.md
+      - Prediction Market Analysis: prediction-market-analysis.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md
       - TradingAgents: tradingagents.md

@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-chart-scatter-plot:{ .lg .middle } **Prediction Market Analysis**
+
+    ---
+
+    `2026-03-29` 2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
+
+    [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
 -   :material-robot-excited:{ .lg .middle } **NOFX**
 
     ---
@@ -387,6 +395,14 @@
     TEJ API 量化交易 Python 教學
 
     [:octicons-arrow-right-24: 閱讀筆記](tejapi_python_medium_quant.md)
+
+-   :material-chart-scatter-plot:{ .lg .middle } **Prediction Market Analysis**
+
+    ---
+
+    2.92 億筆 Polymarket/Kalshi 公開數據集，揭示預測市場財富轉移微結構
+
+    [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
 
 -   :material-chart-line:{ .lg .middle } **TradingAgents**
 
