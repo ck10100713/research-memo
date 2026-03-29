@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-bank:{ .lg .middle } **AI Hedge Fund**
+
+    ---
+
+    `2026-03-29` 12 位傳奇投資人 AI 分身協同分析股票的多 Agent 對沖基金模擬系統（49K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
 -   :material-source-branch:{ .lg .middle } **Agent Orchestrator**
 
     ---
@@ -331,6 +339,14 @@
 ## 量化交易
 
 <div class="grid cards" markdown>
+
+-   :material-bank:{ .lg .middle } **AI Hedge Fund**
+
+    ---
+
+    12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
 
 -   :material-finance:{ .lg .middle } **OpenStock**
 
