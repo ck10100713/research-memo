@@ -1,3 +1,9 @@
+---
+date: "2026-03-30"
+category: "學習資源"
+icon: "material-clipboard-list-outline"
+oneliner: "Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集"
+---
 # Claude Use Cases Gallery 研究筆記
 
 ## 資料來源

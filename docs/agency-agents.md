@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-account-multiple"
+oneliner: "144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具"
+---
 # The Agency: AI Specialists 研究筆記
 
 ## 資料來源

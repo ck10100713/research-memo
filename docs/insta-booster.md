@@ -1,3 +1,9 @@
+---
+date: ""
+category: "社群行銷"
+icon: "material-instagram"
+oneliner: "Instagram Reels 自動化互動工具"
+---
 # Insta-Booster 研究筆記
 
 ## 資料來源

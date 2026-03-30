@@ -1,3 +1,9 @@
+---
+date: ""
+category: "學習資源"
+icon: "material-book-open-variant"
+oneliner: "LLM 學習課程資源"
+---
 # LLM Course 研究筆記
 
 ## 資料來源

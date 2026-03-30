@@ -1,3 +1,9 @@
+---
+date: ""
+category: "量化交易"
+icon: "material-chart-bar"
+oneliner: "股票統計分析工具"
+---
 # StockStats 研究筆記
 
 ## 資料來源

@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-connection"
+oneliner: "Model Context Protocol CLI 工具"
+---
 # MCP CLI 研究筆記
 
 ## 資料來源

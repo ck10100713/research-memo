@@ -35,7 +35,23 @@ user_invocable: true
 
 寫入 `docs/<slug>.md`，slug 用小寫 kebab-case。
 
-**筆記結構模板：**
+**必須在檔案最開頭加上 YAML frontmatter：**
+
+```yaml
+---
+date: "YYYY-MM-DD"
+category: "分類名稱"
+icon: "material-icon-name"
+oneliner: "一句話描述，用於卡片和表格"
+---
+```
+
+- `date` — 研究日期（ISO 格式，如 `2026-03-30`）
+- `category` — **必須完全匹配** `mkdocs.yml` nav 的分類名稱（如「Coding Agent 工具」）
+- `icon` — Material Design icon 名稱（如 `material-robot`），不含冒號語法
+- `oneliner` — 卡片和表格中使用的一句話描述
+
+**筆記結構模板（frontmatter 之後）：**
 
 ```markdown
 # <主題名稱> 研究筆記
@@ -79,84 +95,31 @@ user_invocable: true
 - 表格和 ASCII 圖表優先於大段文字
 - 「研究價值與啟示」是最重要的段落——不要只是搬運資訊，要提煉洞見
 
-### Step 3：判斷分類
+### Step 3：判斷分類並更新 mkdocs.yml
 
-根據筆記內容，選擇最適合的分類。參考 `mkdocs.yml` 中現有的 nav 分類：
-
-讀取 `mkdocs.yml` 的 nav 段落，將新筆記放入最匹配的分類。如果沒有合適的現有分類，可以新增一個（但要先跟使用者確認）。
+根據筆記內容，選擇最適合的分類。讀取 `mkdocs.yml` 的 nav 段落，將新筆記放入最匹配的分類。如果沒有合適的現有分類，可以新增一個（但要先跟使用者確認）。
 
 **分類判斷原則：按內容本質分類，不按實作技術。** 例如：
 - 一個用 AI Agent 做交易的專案 → 歸「量化交易」而非「AI Agent 框架」
 - 一本教 AI Agent 的書 → 歸「學習資源」而非「AI Agent 框架」
 
-### Step 4：更新 mkdocs.yml
-
 在對應分類中，按字母順序插入新條目。
 
-### Step 5：更新 index.md 首頁
-
-需要更新 `index.md` 的**兩個位置**：
-
-**A. 研究更新區塊（頁面最上方的時間軸卡片）**
-
-在「研究更新」section 的 `<div class="grid cards">` 最前面插入新卡片，附上日期：
-
-```markdown
--   :material-<icon>:{ .lg .middle } **<標題>**
-
-    ---
-
-    `<YYYY-MM-DD>` <一句話描述>
-
-    [:octicons-arrow-right-24: 閱讀筆記](<slug>.md)
-```
-
-**B. 對應分類區塊**
-
-在該筆記所屬分類的 `<div class="grid cards">` 區塊中新增卡片（不含日期）：
-
-```markdown
--   :material-<icon>:{ .lg .middle } **<標題>**
-
-    ---
-
-    <一句話描述>
-
-    [:octicons-arrow-right-24: 閱讀筆記](<slug>.md)
-```
-
-選擇語意相近的 Material Design icon。
-
-### Step 6：更新 news.md 研究更新索引
-
-在 `docs/news.md` 的「最新整理」表格**最上方**插入一行：
-
-```markdown
-| <YYYY-MM-DD> | <分類名稱> | [<標題>](<slug>.md) |
-```
-
-分類名稱應與 `mkdocs.yml` nav 中的分類一致。
-
-### Step 7：驗證一致性
-
-Commit 前執行檢查，確保所有索引都已更新：
+### Step 4：執行 sync.py 自動更新索引
 
 ```bash
-# 檢查新檔案是否已加入 mkdocs.yml nav
-for f in docs/*.md; do
-  name=$(basename "$f")
-  grep -q "$name" mkdocs.yml || echo "NOT in nav: $name"
-done
+python3 scripts/sync.py
 ```
 
-如果有任何 `docs/*.md` 不在 `mkdocs.yml` nav 中，該頁面在網站上會 404。必須全部補齊後才能 commit。
+這支腳本會自動：
+- 讀取所有 `docs/*.md` 的 frontmatter + `mkdocs.yml` nav
+- 重新生成 `docs/index.md`（研究更新卡片 + 各分類卡片）
+- 重新生成 `docs/news.md`（最新整理表格 + 按年份/月份 + 按主題）
+- 驗證所有 docs 都在 nav 中（如果有遺漏會報錯並 exit 1）
 
-同時確認以下三處都有更新：
-- [ ] `mkdocs.yml` nav — 新條目已插入對應分類
-- [ ] `docs/index.md` — 研究更新卡片 + 分類區塊卡片都已新增
-- [ ] `docs/news.md` — 最新整理表格已插入新行
+**不需要手動編輯 `index.md` 和 `news.md`。**
 
-### Step 8：Commit 並 Push
+### Step 5：Commit 並 Push
 
 ```bash
 git add docs/<slug>.md docs/index.md docs/news.md mkdocs.yml
@@ -170,3 +133,4 @@ git push
 - 如果主題已經有對應的 `docs/*.md`，問使用者要覆寫還是更新
 - 資料來源不限 GitHub repo，可以是網路文章、論文、影片、文件等任何來源
 - commit 前先用 `gh auth status` 確認 GitHub 帳號正確
+- GitHub Actions 的 `deploy.yml` 也會在 build 前執行 `sync.py`，作為兜底保護

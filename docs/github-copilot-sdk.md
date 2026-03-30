@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-code-braces"
+oneliner: "GitHub Copilot SDK 開發研究"
+---
 # GitHub Copilot SDK 研究筆記
 
 ## 資料來源

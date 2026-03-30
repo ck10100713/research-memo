@@ -1,3 +1,9 @@
+---
+date: ""
+category: "AI Agent 框架"
+icon: "material-cursor-default-click"
+oneliner: "阿里巴巴的網頁內嵌 GUI Agent，用自然語言控制網頁介面"
+---
 # Page Agent 研究筆記
 
 ## 資料來源

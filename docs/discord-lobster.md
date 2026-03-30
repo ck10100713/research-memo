@@ -1,3 +1,9 @@
+---
+date: ""
+category: "社群行銷"
+icon: "material-robot-happy"
+oneliner: "台灣一人公司的 Discord AI 社群管家——零依賴、$0/月、三支 cron 腳本管理 146 人社群"
+---
 # Discord Lobster 研究筆記
 
 ## 資料來源

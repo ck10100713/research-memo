@@ -1,3 +1,9 @@
+---
+date: "2026-03-02"
+category: "AI Agent 框架"
+icon: "material-office-building"
+oneliner: "開源 AI Agent 編排控制平面，把多個 Agent 組織成一間零人公司"
+---
 # Paperclip 研究筆記
 
 > **Repository:** [paperclipai/paperclip](https://github.com/paperclipai/paperclip)

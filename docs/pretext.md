@@ -1,3 +1,9 @@
+---
+date: "2026-03-29"
+category: "開發工具"
+icon: "material-format-text"
+oneliner: "Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）"
+---
 # Pretext 研究筆記
 
 ## 資料來源

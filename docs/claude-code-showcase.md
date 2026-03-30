@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-star-shooting"
+oneliner: "Claude Code 使用案例展示"
+---
 # Claude Code Showcase 研究筆記
 
 ## 資料來源

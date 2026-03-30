@@ -1,3 +1,9 @@
+---
+date: "2026-02-09"
+category: "Coding Agent 工具"
+icon: "material-cog"
+oneliner: "GitHub Copilot 設定與自訂指令"
+---
 # GitHub Copilot Configs 研究筆記
 
 ## 基本資訊

@@ -1,3 +1,9 @@
+---
+date: ""
+category: "學習資源"
+icon: "material-robot"
+oneliner: "《動手做AI Agent》書籍配套程式碼與教學"
+---
 # AI Agents (黃佳) 研究筆記
 
 ## 資料來源

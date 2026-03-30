@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-airplane-search"
+oneliner: "四層架構拆解：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights 機票"
+---
 # Browser-Bound MCP 機票查詢工具 研究筆記
 
 ## 資料來源

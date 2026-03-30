@@ -1,3 +1,9 @@
+---
+date: ""
+category: "AI Agent 框架"
+icon: "material-flask"
+oneliner: "Karpathy 的自主 AI 研究代理，讓 Agent 整夜跑 LLM 實驗"
+---
 # Autoresearch 研究筆記
 
 ## 資料來源

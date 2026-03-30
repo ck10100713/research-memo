@@ -1,3 +1,9 @@
+---
+date: "2026-03-29"
+category: "量化交易"
+icon: "material-swap-horizontal-bold"
+oneliner: "預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK"
+---
 # pmxt 研究筆記
 
 ## 資料來源

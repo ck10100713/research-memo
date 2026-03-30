@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-console"
+oneliner: "GitHub Copilot 命令列工具"
+---
 # GitHub Copilot CLI 研究筆記
 
 ## 資料來源

@@ -10,15 +10,23 @@
 
 <div class="grid cards" markdown>
 
--   :material-clipboard-list-outline:{ .lg .middle } **Claude Use Cases Gallery**
+-   :material-shield-star:{{ .lg .middle }} **Superpowers**
 
     ---
 
-    `2026-03-30` Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
+    `2026-03-30` 106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
 
-    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+    [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
 
--   :material-palette-outline:{ .lg .middle } **UI UX Pro Max Skill**
+-   :material-hammer-wrench:{{ .lg .middle }} **gstack**
+
+    ---
+
+    `2026-03-30` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
+
+    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
+-   :material-palette-outline:{{ .lg .middle }} **UI UX Pro Max Skill**
 
     ---
 
@@ -26,39 +34,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
 
--   :material-ghost:{ .lg .middle } **claude-better**
+-   :material-clipboard-list-outline:{{ .lg .middle }} **Claude Use Cases Gallery**
 
     ---
 
-    `2026-03-30` 369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+    `2026-03-30` Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
 
-    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
+    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
 
--   :material-airplane-search:{ .lg .middle } **Browser-Bound MCP Flights**
-
-    ---
-
-    `2026-03-30` 四層架構拆解：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights 機票
-
-    [:octicons-arrow-right-24: 閱讀筆記](browser-bound-mcp-flights.md)
-
--   :material-robot-happy:{ .lg .middle } **Discord Lobster**
-
-    ---
-
-    `2026-03-30` 台灣一人公司的 Discord AI 社群管家——零依賴、$0/月、三支 cron 腳本管理 146 人社群
-
-    [:octicons-arrow-right-24: 閱讀筆記](discord-lobster.md)
-
--   :material-suitcase:{ .lg .middle } **MCPorter**
-
-    ---
-
-    `2026-03-30` MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
-
-    [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
-
--   :material-format-text:{ .lg .middle } **Pretext**
+-   :material-format-text:{{ .lg .middle }} **Pretext**
 
     ---
 
@@ -66,7 +50,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
 
--   :material-swap-horizontal-bold:{ .lg .middle } **pmxt**
+-   :material-swap-horizontal-bold:{{ .lg .middle }} **pmxt**
 
     ---
 
@@ -74,7 +58,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
 
--   :material-chart-areaspline:{ .lg .middle } **The Alchemy of Multibagger Stocks**
+-   :material-chart-areaspline:{{ .lg .middle }} **The Alchemy of Multibagger Stocks**
 
     ---
 
@@ -82,31 +66,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
 
--   :material-chart-scatter-plot:{ .lg .middle } **Prediction Market Analysis**
-
-    ---
-
-    `2026-03-29` 2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
-
-    [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
-
--   :material-robot-excited:{ .lg .middle } **NOFX**
-
-    ---
-
-    `2026-03-29` Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單
-
-    [:octicons-arrow-right-24: 閱讀筆記](nofx.md)
-
--   :material-bank:{ .lg .middle } **AI Hedge Fund**
-
-    ---
-
-    `2026-03-29` 12 位傳奇投資人 AI 分身協同分析股票的多 Agent 對沖基金模擬系統（49K stars）
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
-
--   :material-source-branch:{ .lg .middle } **Agent Orchestrator**
+-   :material-source-branch:{{ .lg .middle }} **Agent Orchestrator**
 
     ---
 
@@ -114,7 +74,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](agent-orchestrator.md)
 
--   :material-newspaper-variant-outline:{ .lg .middle } **Claude Cowork Dispatch**
+-   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
     ---
 
@@ -122,15 +82,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
 
--   :material-hammer-wrench:{ .lg .middle } **gstack**
-
-    ---
-
-    `2026-03-11` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
-
-    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
-
--   :material-office-building:{ .lg .middle } **Paperclip**
+-   :material-office-building:{{ .lg .middle }} **Paperclip**
 
     ---
 
@@ -138,13 +90,53 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
 
--   :material-finance:{ .lg .middle } **Claude Financial Services Plugins**
+-   :material-finance:{{ .lg .middle }} **Claude Financial Services Plugins**
 
     ---
 
-    `2026-02-23` Anthropic 官方金融服務 Plugin，覆蓋投行、股研、PE 與財管工作流
+    `2026-02-23` Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
+
+-   :material-cog:{{ .lg .middle }} **GitHub Copilot Configs**
+
+    ---
+
+    `2026-02-09` GitHub Copilot 設定與自訂指令
+
+    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-configs.md)
+
+-   :material-forum:{{ .lg .middle }} **多 Agent 辯論會系統**
+
+    ---
+
+    `2026-02-04` 使用 Copilot SDK 建構的多 Agent 辯論系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](multi-agent-debate.md)
+
+-   :material-brain:{{ .lg .middle }} **AutoGPT**
+
+    ---
+
+    `2026-02-03` 自主 AI Agent 先驅專案
+
+    [:octicons-arrow-right-24: 閱讀筆記](autogpt.md)
+
+-   :material-chart-line:{{ .lg .middle }} **TradingAgents**
+
+    ---
+
+    `2024-12-28` 多 Agent 協作的量化交易決策系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](tradingagents.md)
+
+-   :material-file-compare:{{ .lg .middle }} **Difftastic**
+
+    ---
+
+    `2018-12-18` 24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動
+
+    [:octicons-arrow-right-24: 閱讀筆記](difftastic.md)
 
 </div>
 
@@ -156,7 +148,23 @@
 
 <div class="grid cards" markdown>
 
--   :material-flask:{ .lg .middle } **Autoresearch**
+-   :material-file-document-outline:{{ .lg .middle }} **Agent GoFundMe**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](agent-gofundme.md)
+
+-   :material-file-document-outline:{{ .lg .middle }} **AgentBnB**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](agentbnb.md)
+
+-   :material-flask:{{ .lg .middle }} **Autoresearch**
 
     ---
 
@@ -164,7 +172,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](autoresearch.md)
 
--   :material-brain:{ .lg .middle } **AutoGPT**
+-   :material-brain:{{ .lg .middle }} **AutoGPT**
 
     ---
 
@@ -172,7 +180,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](autogpt.md)
 
--   :material-account-group:{ .lg .middle } **CrewAI**
+-   :material-account-group:{{ .lg .middle }} **CrewAI**
 
     ---
 
@@ -180,7 +188,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](crewai.md)
 
--   :material-link-variant:{ .lg .middle } **LangChain**
+-   :material-file-document-outline:{{ .lg .middle }} **DeerFlow**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](deer-flow.md)
+
+-   :material-link-variant:{{ .lg .middle }} **LangChain**
 
     ---
 
@@ -188,7 +204,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langchain.md)
 
--   :material-state-machine:{ .lg .middle } **LangGraph State API**
+-   :material-state-machine:{{ .lg .middle }} **LangGraph State API**
 
     ---
 
@@ -196,7 +212,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langgraph-state-api.md)
 
--   :material-hub:{ .lg .middle } **LobeHub**
+-   :material-hub:{{ .lg .middle }} **LobeHub**
 
     ---
 
@@ -204,7 +220,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](lobehub.md)
 
--   :material-fishbowl:{ .lg .middle } **MiroFish**
+-   :material-fishbowl:{{ .lg .middle }} **MiroFish**
 
     ---
 
@@ -212,15 +228,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mirofish.md)
 
--   :material-office-building:{ .lg .middle } **Paperclip**
+-   :material-file-document-outline:{{ .lg .middle }} **OpenClaw（龍蝦）**
 
     ---
 
-    開源 AI Agent 編排控制平面，把多個 Agent 組織成「零人公司」
+    
 
-    [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
+    [:octicons-arrow-right-24: 閱讀筆記](openclaw.md)
 
--   :material-cursor-default-click:{ .lg .middle } **Page Agent**
+-   :material-cursor-default-click:{{ .lg .middle }} **Page Agent**
 
     ---
 
@@ -228,7 +244,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](page-agent.md)
 
--   :material-robot-outline:{ .lg .middle } **Project Golem**
+-   :material-office-building:{{ .lg .middle }} **Paperclip**
+
+    ---
+
+    開源 AI Agent 編排控制平面，把多個 Agent 組織成一間零人公司
+
+    [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
+
+-   :material-robot-outline:{{ .lg .middle }} **Project Golem**
 
     ---
 
@@ -236,7 +260,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](project-golem.md)
 
--   :material-forum:{ .lg .middle } **多 Agent 辯論會**
+-   :material-forum:{{ .lg .middle }} **多 Agent 辯論會系統**
 
     ---
 
@@ -252,7 +276,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-airplane-takeoff:{ .lg .middle } **App Store Preflight**
+-   :material-airplane-takeoff:{{ .lg .middle }} **App Store Preflight Skills**
 
     ---
 
@@ -260,23 +284,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](app-store-preflight.md)
 
--   :material-airplane-search:{ .lg .middle } **Browser-Bound MCP Flights**
+-   :material-airplane-search:{{ .lg .middle }} **Browser-Bound MCP 機票查詢工具**
 
     ---
 
-    四層架構：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights
+    四層架構拆解：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights 機票
 
     [:octicons-arrow-right-24: 閱讀筆記](browser-bound-mcp-flights.md)
 
--   :material-ghost:{ .lg .middle } **claude-better**
-
-    ---
-
-    369 stars、0 行程式碼——CryptoSwift 作者用完美 README 諷刺 AI 工具 hype cycle
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
-
--   :material-cogs:{ .lg .middle } **Anthropic Harness Design**
+-   :material-cogs:{{ .lg .middle }} **Harness Design for Long-Running Apps**
 
     ---
 
@@ -284,31 +300,23 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](harness-design-long-running-apps.md)
 
--   :material-account-multiple:{ .lg .middle } **Agency Agents**
+-   :material-ghost:{{ .lg .middle }} **claude-better**
 
     ---
 
-    144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
+    369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
 
-    [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
+    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 
--   :material-file-compare:{ .lg .middle } **Difftastic**
-
-    ---
-
-    24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動
-
-    [:octicons-arrow-right-24: 閱讀筆記](difftastic.md)
-
--   :material-monitor-dashboard:{ .lg .middle } **Claude HUD**
+-   :material-file-document-outline:{{ .lg .middle }} **Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流**
 
     ---
 
-    11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態
+    
 
-    [:octicons-arrow-right-24: 閱讀筆記](claude-hud.md)
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-boris-cherny-tips.md)
 
--   :material-finance:{ .lg .middle } **Claude Financial Services Plugins**
+-   :material-finance:{{ .lg .middle }} **Claude Financial Services Plugins**
 
     ---
 
@@ -316,7 +324,31 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
 
--   :material-send:{ .lg .middle } **Claude Cowork Dispatch**
+-   :material-account-multiple:{{ .lg .middle }} **The Agency: AI Specialists**
+
+    ---
+
+    144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
+
+-   :material-file-compare:{{ .lg .middle }} **Difftastic**
+
+    ---
+
+    24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動
+
+    [:octicons-arrow-right-24: 閱讀筆記](difftastic.md)
+
+-   :material-monitor-dashboard:{{ .lg .middle }} **Claude HUD**
+
+    ---
+
+    11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-hud.md)
+
+-   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
     ---
 
@@ -324,7 +356,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
 
--   :material-package-variant-closed:{ .lg .middle } **Everything Claude Code**
+-   :material-package-variant-closed:{{ .lg .middle }} **Everything Claude Code**
 
     ---
 
@@ -332,7 +364,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](everything-claude-code.md)
 
--   :material-star-shooting:{ .lg .middle } **Claude Code Showcase**
+-   :material-star-shooting:{{ .lg .middle }} **Claude Code Showcase**
 
     ---
 
@@ -340,7 +372,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-showcase.md)
 
--   :material-puzzle:{ .lg .middle } **Claude Skills Guide**
+-   :material-puzzle:{{ .lg .middle }} **The Complete Guide to Building Skills for Claude —**
 
     ---
 
@@ -348,7 +380,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-skills-guide.md)
 
--   :material-school:{ .lg .middle } **Learn Claude Code**
+-   :material-school:{{ .lg .middle }} **Learn Claude Code**
 
     ---
 
@@ -356,7 +388,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
--   :material-lightning-bolt:{ .lg .middle } **Lightpanda Browser**
+-   :material-lightning-bolt:{{ .lg .middle }} **Lightpanda Browser**
 
     ---
 
@@ -364,7 +396,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](lightpanda-browser.md)
 
--   :material-console:{ .lg .middle } **GitHub Copilot CLI**
+-   :material-console:{{ .lg .middle }} **GitHub Copilot CLI**
 
     ---
 
@@ -372,7 +404,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](copilot-cli.md)
 
--   :material-cog:{ .lg .middle } **GitHub Copilot Configs**
+-   :material-cog:{{ .lg .middle }} **GitHub Copilot Configs**
 
     ---
 
@@ -380,7 +412,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](github-copilot-configs.md)
 
--   :material-code-braces:{ .lg .middle } **GitHub Copilot SDK**
+-   :material-code-braces:{{ .lg .middle }} **GitHub Copilot SDK**
 
     ---
 
@@ -388,7 +420,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
 
--   :material-refresh:{ .lg .middle } **Copilot Ralph**
+-   :material-refresh:{{ .lg .middle }} **Copilot Ralph**
 
     ---
 
@@ -396,23 +428,23 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
 
--   :material-hammer-wrench:{ .lg .middle } **gstack**
+-   :material-hammer-wrench:{{ .lg .middle }} **gstack**
 
     ---
 
-    Garry Tan (YC CEO) 的 Claude Code 工作流系統
+    Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
 
--   :material-source-branch:{ .lg .middle } **Agent Orchestrator**
+-   :material-source-branch:{{ .lg .middle }} **Agent Orchestrator**
 
     ---
 
-    Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動處理 CI 與 review feedback
+    Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動接住 CI 與 review feedback
 
     [:octicons-arrow-right-24: 閱讀筆記](agent-orchestrator.md)
 
--   :material-connection:{ .lg .middle } **MCP CLI**
+-   :material-connection:{{ .lg .middle }} **MCP CLI**
 
     ---
 
@@ -420,15 +452,15 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-cli.md)
 
--   :material-suitcase:{ .lg .middle } **MCPorter**
+-   :material-suitcase:{{ .lg .middle }} **MCPorter**
 
     ---
 
-    3.4K stars 的 MCP 萬用工具：TypeScript Runtime + CLI + Code-Gen，一行呼叫任何 MCP server
+    MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
 
--   :material-swap-horizontal:{ .lg .middle } **OpenClaw Claude Proxy**
+-   :material-swap-horizontal:{{ .lg .middle }} **OpenClaw Claude Proxy**
 
     ---
 
@@ -436,7 +468,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openclaw-claude-proxy.md)
 
--   :material-shield-star:{ .lg .middle } **Superpowers**
+-   :material-shield-star:{{ .lg .middle }} **Superpowers**
 
     ---
 
@@ -444,11 +476,11 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
 
--   :material-palette-outline:{ .lg .middle } **UI UX Pro Max Skill**
+-   :material-palette-outline:{{ .lg .middle }} **UI UX Pro Max Skill**
 
     ---
 
-    54K stars 的 AI 設計智慧注入系統，161 條行業推理規則讓 Coding Agent 寫出有品味的 UI
+    54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI
 
     [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
 
@@ -460,7 +492,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-bank:{ .lg .middle } **AI Hedge Fund**
+-   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
 
     ---
 
@@ -468,7 +500,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
 
--   :material-robot-excited:{ .lg .middle } **NOFX**
+-   :material-robot-excited:{{ .lg .middle }} **NOFX**
 
     ---
 
@@ -476,7 +508,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](nofx.md)
 
--   :material-finance:{ .lg .middle } **OpenStock**
+-   :material-finance:{{ .lg .middle }} **OpenStock**
 
     ---
 
@@ -484,7 +516,31 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openstock.md)
 
--   :material-chart-bar:{ .lg .middle } **StockStats**
+-   :material-swap-horizontal-bold:{{ .lg .middle }} **pmxt**
+
+    ---
+
+    預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK
+
+    [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
+
+-   :material-chart-scatter-plot:{{ .lg .middle }} **Prediction Market Analysis**
+
+    ---
+
+    2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
+
+    [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
+-   :material-chart-areaspline:{{ .lg .middle }} **The Alchemy of Multibagger Stocks**
+
+    ---
+
+    464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
+
+    [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
+
+-   :material-chart-bar:{{ .lg .middle }} **StockStats**
 
     ---
 
@@ -492,7 +548,7 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](stockstats.md)
 
--   :material-database:{ .lg .middle } **TEJAPI Python Quant**
+-   :material-database:{{ .lg .middle }} **TEJAPI Python Medium Quant**
 
     ---
 
@@ -500,37 +556,13 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](tejapi_python_medium_quant.md)
 
--   :material-chart-scatter-plot:{ .lg .middle } **Prediction Market Analysis**
-
-    ---
-
-    2.92 億筆 Polymarket/Kalshi 公開數據集，揭示預測市場財富轉移微結構
-
-    [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
-
--   :material-chart-line:{ .lg .middle } **TradingAgents**
+-   :material-chart-line:{{ .lg .middle }} **TradingAgents**
 
     ---
 
     多 Agent 協作的量化交易決策系統
 
     [:octicons-arrow-right-24: 閱讀筆記](tradingagents.md)
-
--   :material-chart-areaspline:{ .lg .middle } **The Alchemy of Multibagger Stocks**
-
-    ---
-
-    464 支美股 10-bagger 實證研究：Fama-French 延伸動態面板模型，FCF/P 是最強因子
-
-    [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
-
--   :material-swap-horizontal-bold:{ .lg .middle } **pmxt**
-
-    ---
-
-    預測市場的 CCXT — 統一 API 連接 Polymarket/Kalshi 等 7 個交易所，Python + TS 雙語言 SDK
-
-    [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
 
 </div>
 
@@ -540,15 +572,15 @@
 
 <div class="grid cards" markdown>
 
--   :material-robot-happy:{ .lg .middle } **Discord Lobster**
+-   :material-robot-happy:{{ .lg .middle }} **Discord Lobster**
 
     ---
 
-    台灣一人公司的 Discord AI 社群管家，Gemini Flash 驅動，零依賴 $0/月運行
+    台灣一人公司的 Discord AI 社群管家——零依賴、$0/月、三支 cron 腳本管理 146 人社群
 
     [:octicons-arrow-right-24: 閱讀筆記](discord-lobster.md)
 
--   :material-instagram:{ .lg .middle } **Insta-Booster**
+-   :material-instagram:{{ .lg .middle }} **Insta-Booster**
 
     ---
 
@@ -560,51 +592,11 @@
 
 ---
 
-## 學習資源
-
-<div class="grid cards" markdown>
-
--   :material-robot:{ .lg .middle } **AI Agents (黃佳)**
-
-    ---
-
-    《動手做AI Agent》書籍配套程式碼與教學
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
-
--   :material-clipboard-list-outline:{ .lg .middle } **Claude Use Cases Gallery**
-
-    ---
-
-    Anthropic 官方 Use Cases 資料庫：13 行業 × 7 功能 × 4 產品線的全景案例集
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
-
--   :material-book-open-variant:{ .lg .middle } **LLM Course**
-
-    ---
-
-    LLM 學習課程資源
-
-    [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
-
--   :material-bookmark:{ .lg .middle } **Reference 快速參考**
-
-    ---
-
-    常用參考手冊
-
-    [:octicons-arrow-right-24: 閱讀筆記](reference.md)
-
-</div>
-
----
-
 ## AI 創作資源
 
 <div class="grid cards" markdown>
 
--   :material-image-multiple:{ .lg .middle } **AI 圖像 Prompt Gallery 生態**
+-   :material-image-multiple:{{ .lg .middle }} **AI 圖像生成 Prompt Gallery 生態**
 
     ---
 
@@ -612,12 +604,108 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-image-prompt-galleries.md)
 
--   :material-palette:{ .lg .middle } **Uniform Map AI Prompts**
+-   :material-palette:{{ .lg .middle }} **Uniform Map AI Prompts Database**
 
     ---
 
     台灣制服地圖的 3,000+ AI 圖像生成 prompt 資料庫，視覺預覽 + 跨維度快速組合
 
     [:octicons-arrow-right-24: 閱讀筆記](uniform-map-prompts.md)
+
+</div>
+
+---
+
+## AI 應用
+
+<div class="grid cards" markdown>
+
+-   :material-file-document-outline:{{ .lg .middle }} **Deep-Live-Cam**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](deep-live-cam.md)
+
+-   :material-file-document-outline:{{ .lg .middle }} **OpenClam**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](openclam.md)
+
+-   :material-file-document-outline:{{ .lg .middle }} **OpenDataLoader PDF**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](opendataloader-pdf.md)
+
+-   :material-file-document-outline:{{ .lg .middle }} **Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切**
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: 閱讀筆記](ramp-ai-agents.md)
+
+</div>
+
+---
+
+## 開發工具
+
+<div class="grid cards" markdown>
+
+-   :material-format-text:{{ .lg .middle }} **Pretext**
+
+    ---
+
+    Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
+
+    [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
+
+</div>
+
+---
+
+## 學習資源
+
+<div class="grid cards" markdown>
+
+-   :material-robot:{{ .lg .middle }} **AI Agents (黃佳)**
+
+    ---
+
+    《動手做AI Agent》書籍配套程式碼與教學
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
+
+-   :material-clipboard-list-outline:{{ .lg .middle }} **Claude Use Cases Gallery**
+
+    ---
+
+    Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
+-   :material-book-open-variant:{{ .lg .middle }} **LLM Course**
+
+    ---
+
+    LLM 學習課程資源
+
+    [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
+
+-   :material-bookmark:{{ .lg .middle }} **Reference 快速參考手冊**
+
+    ---
+
+    常用參考手冊
+
+    [:octicons-arrow-right-24: 閱讀筆記](reference.md)
 
 </div>

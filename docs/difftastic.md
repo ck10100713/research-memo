@@ -1,3 +1,9 @@
+---
+date: "2018-12-18"
+category: "Coding Agent 工具"
+icon: "material-file-compare"
+oneliner: "24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動"
+---
 # Difftastic 研究筆記
 
 ## 資料來源

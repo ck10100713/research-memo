@@ -1,3 +1,9 @@
+---
+date: "2026-03-30"
+category: "AI Agent 框架"
+icon: "material-file-document-outline"
+oneliner: ""
+---
 # OpenClaw（龍蝦）研究筆記
 
 > 本筆記源自 [AILogora「Openclaw 龍蝦養殖大全」收藏集](https://ailogora.com/library/collection/4245753b-a7f1-43c7-8408-6e65f5770f60)的研究延伸。

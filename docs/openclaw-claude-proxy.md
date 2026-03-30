@@ -1,3 +1,9 @@
+---
+date: ""
+category: "Coding Agent 工具"
+icon: "material-swap-horizontal"
+oneliner: "將 Claude Max 訂閱轉為 OpenAI 相容 API，驅動 Agent 群免費用 Opus 4.6"
+---
 # OpenClaw Claude Proxy 研究筆記
 
 ## 資料來源

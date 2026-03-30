@@ -1,3 +1,9 @@
+---
+date: ""
+category: "AI Agent 框架"
+icon: "material-state-machine"
+oneliner: "LangGraph 圖狀態機核心 API：State、Reducer、Channel、MessagesState 完整解析"
+---
 # LangGraph State API 研究筆記
 
 ## 資料來源

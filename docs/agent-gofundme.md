@@ -1,3 +1,9 @@
+---
+date: "2026-03-30"
+category: "AI Agent 框架"
+icon: "material-file-document-outline"
+oneliner: ""
+---
 # Agent GoFundMe 研究筆記
 
 ## 資料來源

@@ -1,3 +1,9 @@
+---
+date: "2026-03-30"
+category: "Coding Agent 工具"
+icon: "material-palette-outline"
+oneliner: "54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI"
+---
 # UI UX Pro Max Skill 研究筆記
 
 ## 資料來源
