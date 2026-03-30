@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-palette-outline:{ .lg .middle } **UI UX Pro Max Skill**
+
+    ---
+
+    `2026-03-30` 54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI
+
+    [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
+
 -   :material-ghost:{ .lg .middle } **claude-better**
 
     ---
@@ -427,6 +435,14 @@
     106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
 
     [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
+
+-   :material-palette-outline:{ .lg .middle } **UI UX Pro Max Skill**
+
+    ---
+
+    54K stars 的 AI 設計智慧注入系統，161 條行業推理規則讓 Coding Agent 寫出有品味的 UI
+
+    [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
 
 </div>
 
