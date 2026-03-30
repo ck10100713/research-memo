@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account-supervisor:{{ .lg .middle }} **LangGraph Supervisor**
+
+    ---
+
+    `2026-03-30` LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-supervisor-py.md)
+
 -   :material-shield-star:{{ .lg .middle }} **Superpowers**
 
     ---
@@ -25,6 +33,30 @@
     `2026-03-30` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
+-   :material-account-group-outline:{{ .lg .middle }} **LangGraph Multi-Agent Research Assistant**
+
+    ---
+
+    `2026-03-30` LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-multi-agent.md)
+
+-   :material-code-braces-box:{{ .lg .middle }} **Open SWE**
+
+    ---
+
+    `2026-03-30` LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-swe.md)
+
+-   :material-swap-horizontal-circle:{{ .lg .middle }} **LangGraph Swarm**
+
+    ---
+
+    `2026-03-30` LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-swarm-py.md)
 
 -   :material-palette-outline:{{ .lg .middle }} **UI UX Pro Max Skill**
 
@@ -114,30 +146,6 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](multi-agent-debate.md)
 
--   :material-brain:{{ .lg .middle }} **AutoGPT**
-
-    ---
-
-    `2026-02-03` 自主 AI Agent 先驅專案
-
-    [:octicons-arrow-right-24: 閱讀筆記](autogpt.md)
-
--   :material-chart-line:{{ .lg .middle }} **TradingAgents**
-
-    ---
-
-    `2024-12-28` 多 Agent 協作的量化交易決策系統
-
-    [:octicons-arrow-right-24: 閱讀筆記](tradingagents.md)
-
--   :material-file-compare:{{ .lg .middle }} **Difftastic**
-
-    ---
-
-    `2018-12-18` 24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動
-
-    [:octicons-arrow-right-24: 閱讀筆記](difftastic.md)
-
 </div>
 
 [查看研究索引](news.md)
@@ -195,6 +203,30 @@
     
 
     [:octicons-arrow-right-24: 閱讀筆記](deer-flow.md)
+
+-   :material-account-group-outline:{{ .lg .middle }} **LangGraph Multi-Agent Research Assistant**
+
+    ---
+
+    LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-multi-agent.md)
+
+-   :material-account-supervisor:{{ .lg .middle }} **LangGraph Supervisor**
+
+    ---
+
+    LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-supervisor-py.md)
+
+-   :material-swap-horizontal-circle:{{ .lg .middle }} **LangGraph Swarm**
+
+    ---
+
+    LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](langgraph-swarm-py.md)
 
 -   :material-link-variant:{{ .lg .middle }} **LangChain**
 
@@ -459,6 +491,14 @@
     MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
+-   :material-code-braces-box:{{ .lg .middle }} **Open SWE**
+
+    ---
+
+    LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-swe.md)
 
 -   :material-swap-horizontal:{{ .lg .middle }} **OpenClaw Claude Proxy**
 

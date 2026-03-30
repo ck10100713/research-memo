@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-03-30 | AI Agent 框架 | [LangGraph Supervisor](langgraph-supervisor-py.md) |
 | 2026-03-30 | Coding Agent 工具 | [Superpowers](superpowers.md) |
 | 2026-03-30 | Coding Agent 工具 | [gstack](gstack.md) |
 | 2026-03-30 | AI Agent 框架 | [Agent GoFundMe](agent-gofundme.md) |
@@ -16,8 +17,11 @@
 | 2026-03-30 | AI Agent 框架 | [OpenClaw（龍蝦）](openclaw.md) |
 | 2026-03-30 | AI 應用 | [Deep-Live-Cam](deep-live-cam.md) |
 | 2026-03-30 | AI Agent 框架 | [AgentBnB](agentbnb.md) |
+| 2026-03-30 | AI Agent 框架 | [LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md) |
 | 2026-03-30 | AI 應用 | [OpenClam](openclam.md) |
+| 2026-03-30 | Coding Agent 工具 | [Open SWE](open-swe.md) |
 | 2026-03-30 | AI 應用 | [OpenDataLoader PDF](opendataloader-pdf.md) |
+| 2026-03-30 | AI Agent 框架 | [LangGraph Swarm](langgraph-swarm-py.md) |
 | 2026-03-30 | Coding Agent 工具 | [Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md) |
 | 2026-03-30 | Coding Agent 工具 | [UI UX Pro Max Skill](ui-ux-pro-max-skill.md) |
 | 2026-03-30 | 學習資源 | [Claude Use Cases Gallery](claude-use-cases.md) |
@@ -40,6 +44,8 @@
 
 #### 03 月
 
+- `2026-03-30` [LangGraph Supervisor](langgraph-supervisor-py.md)  
+  LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
 - `2026-03-30` [Superpowers](superpowers.md)  
   106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
 - `2026-03-30` [gstack](gstack.md)  
@@ -50,8 +56,14 @@
 - `2026-03-30` [OpenClaw（龍蝦）](openclaw.md)
 - `2026-03-30` [Deep-Live-Cam](deep-live-cam.md)
 - `2026-03-30` [AgentBnB](agentbnb.md)
+- `2026-03-30` [LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)  
+  LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
 - `2026-03-30` [OpenClam](openclam.md)
+- `2026-03-30` [Open SWE](open-swe.md)  
+  LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
 - `2026-03-30` [OpenDataLoader PDF](opendataloader-pdf.md)
+- `2026-03-30` [LangGraph Swarm](langgraph-swarm-py.md)  
+  LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）
 - `2026-03-30` [Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)
 - `2026-03-30` [UI UX Pro Max Skill](ui-ux-pro-max-skill.md)  
   54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI
@@ -99,11 +111,11 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[DeerFlow](deer-flow.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 
-[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
+[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
 
 ### 量化交易
 

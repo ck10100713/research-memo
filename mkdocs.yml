@@ -79,6 +79,9 @@ nav:
       - AutoGPT: autogpt.md
       - CrewAI: crewai.md
       - DeerFlow: deer-flow.md
+      - LangGraph Multi-Agent: langgraph-multi-agent.md
+      - LangGraph Supervisor: langgraph-supervisor-py.md
+      - LangGraph Swarm: langgraph-swarm-py.md
       - LangChain: langchain.md
       - LangGraph State API: langgraph-state-api.md
       - LobeHub: lobehub.md
@@ -112,6 +115,7 @@ nav:
       - Agent Orchestrator: agent-orchestrator.md
       - MCP CLI: mcp-cli.md
       - MCPorter: mcporter.md
+      - Open SWE: open-swe.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Superpowers: superpowers.md
       - UI UX Pro Max Skill: ui-ux-pro-max-skill.md
