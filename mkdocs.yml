@@ -73,13 +73,17 @@ nav:
   - 首頁: index.md
   - 研究更新: news.md
   - AI Agent 框架:
+      - Agent GoFundMe: agent-gofundme.md
+      - AgentBnB: agentbnb.md
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
       - CrewAI: crewai.md
+      - DeerFlow: deer-flow.md
       - LangChain: langchain.md
       - LangGraph State API: langgraph-state-api.md
       - LobeHub: lobehub.md
       - MiroFish: mirofish.md
+      - OpenClaw: openclaw.md
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
       - Project Golem: project-golem.md
@@ -89,6 +93,7 @@ nav:
       - Browser-Bound MCP Flights: browser-bound-mcp-flights.md
       - Anthropic Harness Design: harness-design-long-running-apps.md
       - claude-better: claude-better.md
+      - Claude Code Boris Cherny 57 Tips: claude-code-boris-cherny-tips.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
       - Difftastic: difftastic.md
@@ -114,7 +119,9 @@ nav:
       - AI Hedge Fund: ai-hedge-fund.md
       - NOFX: nofx.md
       - OpenStock: openstock.md
+      - pmxt: pmxt.md
       - Prediction Market Analysis: prediction-market-analysis.md
+      - The Alchemy of Multibagger Stocks: multibagger-stocks.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md
       - TradingAgents: tradingagents.md
@@ -124,6 +131,13 @@ nav:
   - AI 創作資源:
       - AI 圖像 Prompt Gallery 生態: ai-image-prompt-galleries.md
       - Uniform Map AI Prompts: uniform-map-prompts.md
+  - AI 應用:
+      - Deep-Live-Cam: deep-live-cam.md
+      - OpenClam: openclam.md
+      - OpenDataLoader PDF: opendataloader-pdf.md
+      - Ramp AI Agents: ramp-ai-agents.md
+  - 開發工具:
+      - Pretext: pretext.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - LLM Course: llm-course.md

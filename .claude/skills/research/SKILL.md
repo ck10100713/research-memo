@@ -137,7 +137,26 @@ user_invocable: true
 
 分類名稱應與 `mkdocs.yml` nav 中的分類一致。
 
-### Step 7：Commit 並 Push
+### Step 7：驗證一致性
+
+Commit 前執行檢查，確保所有索引都已更新：
+
+```bash
+# 檢查新檔案是否已加入 mkdocs.yml nav
+for f in docs/*.md; do
+  name=$(basename "$f")
+  grep -q "$name" mkdocs.yml || echo "NOT in nav: $name"
+done
+```
+
+如果有任何 `docs/*.md` 不在 `mkdocs.yml` nav 中，該頁面在網站上會 404。必須全部補齊後才能 commit。
+
+同時確認以下三處都有更新：
+- [ ] `mkdocs.yml` nav — 新條目已插入對應分類
+- [ ] `docs/index.md` — 研究更新卡片 + 分類區塊卡片都已新增
+- [ ] `docs/news.md` — 最新整理表格已插入新行
+
+### Step 8：Commit 並 Push
 
 ```bash
 git add docs/<slug>.md docs/index.md docs/news.md mkdocs.yml
