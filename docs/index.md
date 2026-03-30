@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-airplane-search:{ .lg .middle } **Browser-Bound MCP Flights**
+
+    ---
+
+    `2026-03-30` 四層架構拆解：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights 機票
+
+    [:octicons-arrow-right-24: 閱讀筆記](browser-bound-mcp-flights.md)
+
 -   :material-robot-happy:{ .lg .middle } **Discord Lobster**
 
     ---
@@ -227,6 +235,14 @@
     AI Agent Skill，提交前自動掃描 iOS/macOS 專案的 App Store 審核風險
 
     [:octicons-arrow-right-24: 閱讀筆記](app-store-preflight.md)
+
+-   :material-airplane-search:{ .lg .middle } **Browser-Bound MCP Flights**
+
+    ---
+
+    四層架構：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights
+
+    [:octicons-arrow-right-24: 閱讀筆記](browser-bound-mcp-flights.md)
 
 -   :material-cogs:{ .lg .middle } **Anthropic Harness Design**
 

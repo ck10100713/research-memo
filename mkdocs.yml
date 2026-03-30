@@ -86,6 +86,7 @@ nav:
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
       - App Store Preflight: app-store-preflight.md
+      - Browser-Bound MCP Flights: browser-bound-mcp-flights.md
       - Anthropic Harness Design: harness-design-long-running-apps.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
