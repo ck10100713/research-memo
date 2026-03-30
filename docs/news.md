@@ -14,6 +14,21 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-03-30 | Coding Agent 工具 | [UI UX Pro Max Skill](ui-ux-pro-max-skill.md) |
+| 2026-03-30 | AI Agent 經濟 | [Agent GoFundMe — Agent 群眾募資平台](agent-gofundme.md) |
+| 2026-03-30 | 桌面 AI 工具 | [OpenClam — Windows 浮動 AI 啟動器](openclam.md) |
+| 2026-03-30 | Coding Agent 工具 | [Claude Code Boris Cherny 57 Tips](claude-code-boris-cherny-tips.md) |
+| 2026-03-30 | AI Agent 基礎設施 | [AgentBnB — Agent-to-Agent 勞務市場](agentbnb.md) |
+| 2026-03-30 | AI 組織實戰 | [Ramp AI Agents — $32B 公司如何讓 AI 主導一切](ramp-ai-agents.md) |
+| 2026-03-30 | AI Agent / 個人助理 | [OpenClaw 龍蝦](openclaw.md) |
+| 2026-03-30 | Deepfake / 電腦視覺 | [Deep-Live-Cam](deep-live-cam.md) |
+| 2026-03-30 | AI Agent 框架 | [DeerFlow](deer-flow.md) |
+| 2026-03-30 | PDF 解析 / RAG | [OpenDataLoader PDF](opendataloader-pdf.md) |
+| 2026-03-30 | Coding Agent 工具 | [Superpowers](superpowers.md)（更新 v5.0 + 124K stars） |
+| 2026-03-30 | Coding Agent 工具 | [gstack](gstack.md)（更新 56K stars + 新 skills） |
+| 2026-03-29 | 前端工具 | [Pretext](pretext.md) |
+| 2026-03-29 | 量化交易 | [pmxt](pmxt.md) |
+| 2026-03-29 | 量化交易 / 學術研究 | [The Alchemy of Multibagger Stocks](multibagger-stocks.md) |
 | 2026-03-27 | Coding Agent 工具 | [Agent Orchestrator](agent-orchestrator.md) |
 | 2026-03-17 | Coding Agent 工具 | [Claude Cowork Dispatch](dispatch.md) |
 | 2026-03-11 | Coding Agent 工具 | [gstack](gstack.md) |
@@ -27,7 +42,13 @@
 
 #### 03 月
 
-- `2026-03-27` [Agent Orchestrator](agent-orchestrator.md)  
+- `2026-03-29` [Pretext](pretext.md)
+  Cheng Lou 的零 DOM 文字排版引擎，layout() 比 DOM 測量快 480-1240x，17+ 語言深度支援，3 天 4.6K stars。
+- `2026-03-29` [pmxt](pmxt.md)
+  預測市場的 CCXT — 統一 API 連接 Polymarket/Kalshi 等 7 個交易所，Sidecar + OpenAPI 雙語言 SDK。
+- `2026-03-29` [The Alchemy of Multibagger Stocks](multibagger-stocks.md)
+  464 支美股 10-bagger 實證研究，FCF/P 是最強預測因子、EPS 成長統計不顯著，動態面板模型挑戰多個投資界「常識」。
+- `2026-03-27` [Agent Orchestrator](agent-orchestrator.md)
   Composio 的多 agent 控制平面，核心是 issue、worktree、PR、CI、review 的自動閉環。
 - `2026-03-17` [Claude Cowork Dispatch](dispatch.md)  
   用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務。

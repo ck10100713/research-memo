@@ -95,7 +95,25 @@ user_invocable: true
 
 ### Step 5：更新 index.md 首頁
 
-在對應分類的 `<div class="grid cards">` 區塊中新增卡片：
+需要更新 `index.md` 的**兩個位置**：
+
+**A. 研究更新區塊（頁面最上方的時間軸卡片）**
+
+在「研究更新」section 的 `<div class="grid cards">` 最前面插入新卡片，附上日期：
+
+```markdown
+-   :material-<icon>:{ .lg .middle } **<標題>**
+
+    ---
+
+    `<YYYY-MM-DD>` <一句話描述>
+
+    [:octicons-arrow-right-24: 閱讀筆記](<slug>.md)
+```
+
+**B. 對應分類區塊**
+
+在該筆記所屬分類的 `<div class="grid cards">` 區塊中新增卡片（不含日期）：
 
 ```markdown
 -   :material-<icon>:{ .lg .middle } **<標題>**
@@ -109,10 +127,20 @@ user_invocable: true
 
 選擇語意相近的 Material Design icon。
 
-### Step 6：Commit 並 Push
+### Step 6：更新 news.md 研究更新索引
+
+在 `docs/news.md` 的「最新整理」表格**最上方**插入一行：
+
+```markdown
+| <YYYY-MM-DD> | <分類名稱> | [<標題>](<slug>.md) |
+```
+
+分類名稱應與 `mkdocs.yml` nav 中的分類一致。
+
+### Step 7：Commit 並 Push
 
 ```bash
-git add docs/<slug>.md docs/index.md mkdocs.yml
+git add docs/<slug>.md docs/index.md docs/news.md mkdocs.yml
 git commit -m "Add research note: <主題名稱>"
 git push
 ```
