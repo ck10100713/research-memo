@@ -10,6 +10,38 @@
 
 <div class="grid cards" markdown>
 
+-   :material-suitcase:{ .lg .middle } **MCPorter**
+
+    ---
+
+    `2026-03-30` MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
+-   :material-format-text:{ .lg .middle } **Pretext**
+
+    ---
+
+    `2026-03-29` Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
+
+    [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
+
+-   :material-swap-horizontal-bold:{ .lg .middle } **pmxt**
+
+    ---
+
+    `2026-03-29` 預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK
+
+    [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
+
+-   :material-chart-areaspline:{ .lg .middle } **The Alchemy of Multibagger Stocks**
+
+    ---
+
+    `2026-03-29` 464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
+
+    [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
+
 -   :material-chart-scatter-plot:{ .lg .middle } **Prediction Market Analysis**
 
     ---
@@ -332,6 +364,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-cli.md)
 
+-   :material-suitcase:{ .lg .middle } **MCPorter**
+
+    ---
+
+    3.4K stars 的 MCP 萬用工具：TypeScript Runtime + CLI + Code-Gen，一行呼叫任何 MCP server
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
 -   :material-swap-horizontal:{ .lg .middle } **OpenClaw Claude Proxy**
 
     ---
@@ -411,6 +451,22 @@
     多 Agent 協作的量化交易決策系統
 
     [:octicons-arrow-right-24: 閱讀筆記](tradingagents.md)
+
+-   :material-chart-areaspline:{ .lg .middle } **The Alchemy of Multibagger Stocks**
+
+    ---
+
+    464 支美股 10-bagger 實證研究：Fama-French 延伸動態面板模型，FCF/P 是最強因子
+
+    [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
+
+-   :material-swap-horizontal-bold:{ .lg .middle } **pmxt**
+
+    ---
+
+    預測市場的 CCXT — 統一 API 連接 Polymarket/Kalshi 等 7 個交易所，Python + TS 雙語言 SDK
+
+    [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
 
 </div>
 

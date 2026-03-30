@@ -104,6 +104,7 @@ nav:
       - gstack: gstack.md
       - Agent Orchestrator: agent-orchestrator.md
       - MCP CLI: mcp-cli.md
+      - MCPorter: mcporter.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Superpowers: superpowers.md
   - 量化交易:
