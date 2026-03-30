@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "Coding Agent 工具"
-icon: "material-cogs"
+card_icon: "material-cogs"
 oneliner: "Anthropic 的 GAN 啟發三 Agent Harness 架構，讓 Claude 自主建構完整全端應用"
 ---
 # Harness Design for Long-Running Apps 研究筆記

@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "量化交易"
-icon: "material-database"
+card_icon: "material-database"
 oneliner: "TEJ API 量化交易 Python 教學"
 ---
 # TEJAPI Python Medium Quant 研究筆記

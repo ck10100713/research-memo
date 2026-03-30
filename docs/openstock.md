@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "量化交易"
-icon: "material-finance"
+card_icon: "material-finance"
 oneliner: "開源股票分析工具"
 ---
 # OpenStock 研究筆記

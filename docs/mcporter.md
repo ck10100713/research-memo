@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "Coding Agent 工具"
-icon: "material-suitcase"
+card_icon: "material-suitcase"
 oneliner: "MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）"
 ---
 # MCPorter 研究筆記

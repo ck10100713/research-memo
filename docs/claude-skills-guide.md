@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "Coding Agent 工具"
-icon: "material-puzzle"
+card_icon: "material-puzzle"
 oneliner: "Claude Skills 建構完整指南"
 ---
 # The Complete Guide to Building Skills for Claude — 研究筆記

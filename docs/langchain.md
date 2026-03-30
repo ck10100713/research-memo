@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "AI Agent 框架"
-icon: "material-link-variant"
+card_icon: "material-link-variant"
 oneliner: "LLM 應用開發框架"
 ---
 # LangChain 研究筆記

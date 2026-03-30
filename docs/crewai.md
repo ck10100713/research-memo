@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "AI Agent 框架"
-icon: "material-account-group"
+card_icon: "material-account-group"
 oneliner: "多 Agent 角色扮演協作框架"
 ---
 # CrewAI 研究筆記

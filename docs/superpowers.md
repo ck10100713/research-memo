@@ -1,7 +1,7 @@
 ---
 date: "2026-03-30"
 category: "Coding Agent 工具"
-icon: "material-shield-star"
+card_icon: "material-shield-star"
 oneliner: "106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律"
 ---
 # Superpowers 研究筆記

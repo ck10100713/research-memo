@@ -1,7 +1,7 @@
 ---
 date: "2026-02-04"
 category: "AI Agent 框架"
-icon: "material-forum"
+card_icon: "material-forum"
 oneliner: "使用 Copilot SDK 建構的多 Agent 辯論系統"
 ---
 # 多 Agent 辯論會系統

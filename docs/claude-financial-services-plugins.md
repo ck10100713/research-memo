@@ -1,7 +1,7 @@
 ---
 date: "2026-02-23"
 category: "Coding Agent 工具"
-icon: "material-finance"
+card_icon: "material-finance"
 oneliner: "Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流"
 ---
 # Claude Financial Services Plugins 研究筆記

@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "AI Agent 框架"
-icon: "material-hub"
+card_icon: "material-hub"
 oneliner: "74K stars 的 AI Agent 協作平台，Supervisor + Executor 多 Agent 架構、39K+ MCP 市集、White-Box Memory"
 ---
 # LobeHub 研究筆記

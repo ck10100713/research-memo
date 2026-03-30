@@ -1,7 +1,7 @@
 ---
 date: "2026-03-30"
 category: "Coding Agent 工具"
-icon: "material-hammer-wrench"
+card_icon: "material-hammer-wrench"
 oneliner: "Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊"
 ---
 # gstack 研究筆記

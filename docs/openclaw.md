@@ -1,7 +1,7 @@
 ---
 date: "2026-03-30"
 category: "AI Agent 框架"
-icon: "material-file-document-outline"
+card_icon: "material-file-document-outline"
 oneliner: ""
 ---
 # OpenClaw（龍蝦）研究筆記

@@ -1,7 +1,7 @@
 ---
 date: "2026-03-30"
 category: "AI 應用"
-icon: "material-file-document-outline"
+card_icon: "material-file-document-outline"
 oneliner: ""
 ---
 # Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切

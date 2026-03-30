@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "社群行銷"
-icon: "material-instagram"
+card_icon: "material-instagram"
 oneliner: "Instagram Reels 自動化互動工具"
 ---
 # Insta-Booster 研究筆記

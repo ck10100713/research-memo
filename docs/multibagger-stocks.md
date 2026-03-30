@@ -1,7 +1,7 @@
 ---
 date: "2026-03-29"
 category: "量化交易"
-icon: "material-chart-areaspline"
+card_icon: "material-chart-areaspline"
 oneliner: "464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）"
 ---
 # The Alchemy of Multibagger Stocks 研究筆記

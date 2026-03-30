@@ -1,7 +1,7 @@
 ---
 date: "2026-03-30"
 category: "AI 應用"
-icon: "material-file-document-outline"
+card_icon: "material-file-document-outline"
 oneliner: ""
 ---
 # OpenClam 研究筆記

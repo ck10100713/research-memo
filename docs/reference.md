@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "學習資源"
-icon: "material-bookmark"
+card_icon: "material-bookmark"
 oneliner: "常用參考手冊"
 ---
 # Reference 快速參考手冊 研究筆記

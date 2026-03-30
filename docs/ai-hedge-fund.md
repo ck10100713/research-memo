@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "量化交易"
-icon: "material-bank"
+card_icon: "material-bank"
 oneliner: "12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統"
 ---
 # AI Hedge Fund 研究筆記

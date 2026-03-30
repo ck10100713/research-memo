@@ -41,14 +41,14 @@ user_invocable: true
 ---
 date: "YYYY-MM-DD"
 category: "分類名稱"
-icon: "material-icon-name"
+card_icon: "material-icon-name"
 oneliner: "一句話描述，用於卡片和表格"
 ---
 ```
 
 - `date` — 研究日期（ISO 格式，如 `2026-03-30`）
 - `category` — **必須完全匹配** `mkdocs.yml` nav 的分類名稱（如「Coding Agent 工具」）
-- `icon` — Material Design icon 名稱（如 `material-robot`），不含冒號語法
+- `card_icon` — Material Design icon 名稱（如 `material-robot`），不含冒號語法
 - `oneliner` — 卡片和表格中使用的一句話描述
 
 **筆記結構模板（frontmatter 之後）：**

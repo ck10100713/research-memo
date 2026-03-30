@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "AI Agent 框架"
-icon: "material-robot-outline"
+card_icon: "material-robot-outline"
 oneliner: "Browser-in-the-Loop 自主 AI 代理，金字塔記憶可存 50 年對話精華"
 ---
 # Project Golem 研究筆記

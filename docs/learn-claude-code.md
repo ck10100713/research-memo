@@ -1,7 +1,7 @@
 ---
 date: ""
 category: "Coding Agent 工具"
-icon: "material-school"
+card_icon: "material-school"
 oneliner: "Claude Code 學習資源"
 ---
 # Learn Claude Code 研究筆記

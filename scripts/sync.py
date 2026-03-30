@@ -129,7 +129,7 @@ def validate(categories, all_docs_meta):
             warnings.append(f"WARNING: {slug} 缺少 frontmatter date")
         if not meta.get("category"):
             warnings.append(f"WARNING: {slug} 缺少 frontmatter category")
-        if not meta.get("icon"):
+        if not meta.get("card_icon"):
             warnings.append(f"WARNING: {slug} 缺少 frontmatter icon")
         if not meta.get("oneliner"):
             warnings.append(f"WARNING: {slug} 缺少 frontmatter oneliner")
@@ -160,12 +160,12 @@ def generate_index(categories, all_docs_meta):
     # 收集所有有日期的 docs，按日期降序
     dated_docs = []
     for slug, (meta, title) in all_docs_meta.items():
-        if meta.get("date") and meta.get("icon") and meta.get("oneliner"):
+        if meta.get("date") and meta.get("card_icon") and meta.get("oneliner"):
             dated_docs.append((meta["date"], slug, meta, title))
     dated_docs.sort(key=lambda x: x[0], reverse=True)
 
     for date, slug, meta, title in dated_docs[:RECENT_CARDS_LIMIT]:
-        lines.append(f'-   :{meta["icon"]}:{{{{ .lg .middle }}}} **{title}**')
+        lines.append(f'-   :{meta["card_icon"]}:{{{{ .lg .middle }}}} **{title}**')
         lines.append("")
         lines.append("    ---")
         lines.append("")
@@ -190,7 +190,7 @@ def generate_index(categories, all_docs_meta):
 
         for doc_title, slug in docs_in_cat:
             meta, title = all_docs_meta.get(slug, ({}, doc_title))
-            icon = meta.get("icon", "material-file-document-outline")
+            icon = meta.get("card_icon", "material-file-document-outline")
             oneliner = meta.get("oneliner", "")
             display_title = title or doc_title
 

@@ -46,7 +46,7 @@ def parse_nav_categories(mkdocs_yml: Path) -> dict[str, str]:
 
 def parse_index_cards(index_md: Path) -> dict[str, dict]:
     """從 index.md 的 grid cards 提取 icon 和 oneliner。
-    回傳 {slug: {"icon": ..., "oneliner": ...}}"""
+    回傳 {slug: {"card_icon": ..., "oneliner": ...}}"""
     text = index_md.read_text(encoding="utf-8")
     result = {}
 
@@ -76,7 +76,7 @@ def parse_index_cards(index_md: Path) -> dict[str, dict]:
             oneliner = raw
 
         if slug not in result or len(oneliner) > len(result[slug].get("oneliner", "")):
-            result[slug] = {"icon": icon, "oneliner": oneliner}
+            result[slug] = {"card_icon": icon, "oneliner": oneliner}
 
     return result
 
@@ -120,7 +120,7 @@ def add_frontmatter(filepath: Path, meta: dict, dry_run: bool = False):
     fm_lines = ["---"]
     fm_lines.append(f'date: "{meta.get("date", "")}"')
     fm_lines.append(f'category: "{meta.get("category", "")}"')
-    fm_lines.append(f'icon: "{meta.get("icon", "material-file-document-outline")}"')
+    fm_lines.append(f'icon: "{meta.get("card_icon", "material-file-document-outline")}"')
     # oneliner 可能含引號，用 YAML block scalar 或轉義
     oneliner = meta.get("oneliner", "").replace('"', '\\"')
     fm_lines.append(f'oneliner: "{oneliner}"')
@@ -175,7 +175,7 @@ def main():
         meta = {
             "date": slug_to_date.get(slug, ""),
             "category": slug_to_cat.get(slug, ""),
-            "icon": slug_to_card.get(slug, {}).get("icon", "material-file-document-outline"),
+            "card_icon": slug_to_card.get(slug, {}).get("card_icon", "material-file-document-outline"),
             "oneliner": slug_to_card.get(slug, {}).get("oneliner", ""),
         }
 
