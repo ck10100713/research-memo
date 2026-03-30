@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-ghost:{ .lg .middle } **claude-better**
+
+    ---
+
+    `2026-03-30` 369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
+
 -   :material-airplane-search:{ .lg .middle } **Browser-Bound MCP Flights**
 
     ---
@@ -243,6 +251,14 @@
     四層架構：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights
 
     [:octicons-arrow-right-24: 閱讀筆記](browser-bound-mcp-flights.md)
+
+-   :material-ghost:{ .lg .middle } **claude-better**
+
+    ---
+
+    369 stars、0 行程式碼——CryptoSwift 作者用完美 README 諷刺 AI 工具 hype cycle
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 
 -   :material-cogs:{ .lg .middle } **Anthropic Harness Design**
 

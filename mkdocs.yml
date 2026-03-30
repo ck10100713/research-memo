@@ -88,6 +88,7 @@ nav:
       - App Store Preflight: app-store-preflight.md
       - Browser-Bound MCP Flights: browser-bound-mcp-flights.md
       - Anthropic Harness Design: harness-design-long-running-apps.md
+      - claude-better: claude-better.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
       - Difftastic: difftastic.md
