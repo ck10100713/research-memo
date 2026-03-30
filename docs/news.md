@@ -14,6 +14,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-03-30 | 學習資源 | [Claude Use Cases Gallery](claude-use-cases.md) |
 | 2026-03-30 | Coding Agent 工具 | [UI UX Pro Max Skill](ui-ux-pro-max-skill.md) |
 | 2026-03-30 | AI Agent 經濟 | [Agent GoFundMe — Agent 群眾募資平台](agent-gofundme.md) |
 | 2026-03-30 | 桌面 AI 工具 | [OpenClam — Windows 浮動 AI 啟動器](openclam.md) |
@@ -85,24 +86,32 @@
 
 ### AI Agent 框架
 
-[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[Paperclip](paperclip.md)、[Page Agent](page-agent.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[DeerFlow](deer-flow.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會](multi-agent-debate.md)
 
 ### Coding Agent 工具
 
-[App Store Preflight](app-store-preflight.md)、[Anthropic Harness Design](harness-design-long-running-apps.md)、[Agency Agents](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Claude Skills Guide](claude-skills-guide.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)
+[Agency Agents](agency-agents.md)、[Agent Orchestrator](agent-orchestrator.md)、[Anthropic Harness Design](harness-design-long-running-apps.md)、[App Store Preflight](app-store-preflight.md)、[Browser-Bound MCP Flights](browser-bound-mcp-flights.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips](claude-code-boris-cherny-tips.md)、[Claude Code Showcase](claude-code-showcase.md)、[Claude Cowork Dispatch](dispatch.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[Claude HUD](claude-hud.md)、[Claude Skills Guide](claude-skills-guide.md)、[Copilot Ralph](copilot-ralph.md)、[Difftastic](difftastic.md)、[Everything Claude Code](everything-claude-code.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[gstack](gstack.md)、[Learn Claude Code](learn-claude-code.md)、[Lightpanda Browser](lightpanda-browser.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
 
 ### 量化交易
 
-[OpenStock](openstock.md)、[StockStats](stockstats.md)、[TEJAPI Python Quant](tejapi_python_medium_quant.md)、[TradingAgents](tradingagents.md)
+[AI Hedge Fund](ai-hedge-fund.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[StockStats](stockstats.md)、[TEJAPI Python Quant](tejapi_python_medium_quant.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
-[Insta-Booster](insta-booster.md)
+[Discord Lobster](discord-lobster.md)、[Insta-Booster](insta-booster.md)
 
 ### AI 創作資源
 
 [AI 圖像 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Uniform Map AI Prompts](uniform-map-prompts.md)
 
+### AI 應用
+
+[Deep-Live-Cam](deep-live-cam.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents](ramp-ai-agents.md)
+
+### 開發工具
+
+[Pretext](pretext.md)
+
 ### 學習資源
 
-[AI Agents（黃佳）](ai-agents.md)、[LLM Course](llm-course.md)、[Reference 快速參考](reference.md)
+[AI Agents（黃佳）](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[LLM Course](llm-course.md)、[Reference 快速參考](reference.md)

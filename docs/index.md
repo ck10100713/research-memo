@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-clipboard-list-outline:{ .lg .middle } **Claude Use Cases Gallery**
+
+    ---
+
+    `2026-03-30` Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
 -   :material-palette-outline:{ .lg .middle } **UI UX Pro Max Skill**
 
     ---
@@ -563,6 +571,14 @@
     《動手做AI Agent》書籍配套程式碼與教學
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
+
+-   :material-clipboard-list-outline:{ .lg .middle } **Claude Use Cases Gallery**
+
+    ---
+
+    Anthropic 官方 Use Cases 資料庫：13 行業 × 7 功能 × 4 產品線的全景案例集
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
 
 -   :material-book-open-variant:{ .lg .middle } **LLM Course**
 

@@ -140,6 +140,7 @@ nav:
       - Pretext: pretext.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
+      - Claude Use Cases Gallery: claude-use-cases.md
       - LLM Course: llm-course.md
       - Reference 快速參考: reference.md
 
