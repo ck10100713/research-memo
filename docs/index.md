@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-robot-happy:{ .lg .middle } **Discord Lobster**
+
+    ---
+
+    `2026-03-30` 台灣一人公司的 Discord AI 社群管家——零依賴、$0/月、三支 cron 腳本管理 146 人社群
+
+    [:octicons-arrow-right-24: 閱讀筆記](discord-lobster.md)
+
 -   :material-suitcase:{ .lg .middle } **MCPorter**
 
     ---
@@ -475,6 +483,14 @@
 ## 社群行銷
 
 <div class="grid cards" markdown>
+
+-   :material-robot-happy:{ .lg .middle } **Discord Lobster**
+
+    ---
+
+    台灣一人公司的 Discord AI 社群管家，Gemini Flash 驅動，零依賴 $0/月運行
+
+    [:octicons-arrow-right-24: 閱讀筆記](discord-lobster.md)
 
 -   :material-instagram:{ .lg .middle } **Insta-Booster**
 
