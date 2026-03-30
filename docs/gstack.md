@@ -4,14 +4,15 @@
 > **作者:** Garry Tan（Y Combinator 總裁兼 CEO）
 > **授權:** MIT
 > **語言:** TypeScript (Bun)
-> **Stars:** ~37.2K (截至 2026-03-23)
+> **Stars:** 56.1K（截至 2026-03-30）
+> **Forks:** 7.3K
 > **建立日期:** 2026-03-11
 
 ---
 
 ## 一句話總結
 
-gstack 是 Garry Tan 開源的 **Claude Code 工作流系統**，把 AI coding agent 組織成一個虛擬工程團隊（CEO、Eng Manager、Designer、QA Lead、Release Engineer），透過 18 個 slash command skill 實現完整的軟體開發 sprint 流程。
+gstack 是 Garry Tan 開源的 **Claude Code 工作流系統**，把 AI coding agent 組織成一個虛擬工程團隊（CEO、Eng Manager、Designer、QA Lead、CSO、Release Engineer），透過 29 個 slash command skill 實現完整的軟體開發 sprint 流程。
 
 > **"Not a copilot. That is a team."**
 
@@ -123,9 +124,9 @@ gstack/
 
 ---
 
-## 18 個 Specialist Skills
+## 29 個 Specialist Skills（截至 2026-03-30）
 
-### Sprint 流程：Think → Plan → Build → Review → Test → Ship → Reflect
+### Sprint 流程：Think → Plan → Build → Review → Test → Secure → Ship → Reflect
 
 | 階段 | Skill | 角色 | 功能 |
 |------|-------|------|------|
@@ -133,22 +134,25 @@ gstack/
 | **Plan** | `/plan-ceo-review` | CEO / Founder | 重新思考問題，找出 10-star product，四種模式（擴展/選擇性擴展/維持/縮減） |
 | **Plan** | `/plan-eng-review` | Eng Manager | 鎖定架構、資料流圖、邊界案例、測試矩陣 |
 | **Plan** | `/plan-design-review` | Senior Designer | 每個設計維度 0-10 評分，說明 10 分長什麼樣，AI Slop 偵測 |
-| **Plan** | `/design-consultation` | Design Partner | 從零建立完整設計系統，研究市場、提出創意風險 |
+| **Plan** | `/plan-design-consultation` | Design Partner | 從零建立完整設計系統，研究市場、提出創意風險 |
+| **Plan** | `/autoplan` | Planner | 自動產生開發計畫（新增） |
 | **Review** | `/review` | Staff Engineer | 找 CI 過但 production 會爆的 bug，自動修簡單的，標記完整性缺口 |
 | **Review** | `/design-review` | Designer Who Codes | 同 /plan-design-review 的審計，但會修改程式碼 |
+| **Review** | `/design-shotgun` | Design Explorer | 產生多組 AI 設計方案供比較（新增） |
 | **Debug** | `/investigate` | Debugger | 系統性根因除錯，Iron Law：不調查不修，3 次失敗後停止 |
 | **Test** | `/qa` | QA Lead | 開真實瀏覽器測試，找 bug → 修復 → 產生回歸測試 → 驗證 |
 | **Test** | `/qa-only` | QA Reporter | 同 /qa 但只報告不修 |
 | **Test** | `/benchmark` | Performance Engineer | 頁面載入時間、Core Web Vitals、資源大小的基準測試 |
+| **Security** | `/cso` | Chief Security Officer | OWASP Top 10 + STRIDE 威脅建模（新增） |
 | **Ship** | `/ship` | Release Engineer | sync main → 跑測試 → 審計覆蓋率 → push → 開 PR |
 | **Ship** | `/land-and-deploy` | Release Engineer | merge PR → 等 CI → 部署 → 驗證 production |
 | **Monitor** | `/canary` | SRE | 部署後監控迴圈：console error、性能回歸、截圖異常偵測 |
 | **Docs** | `/document-release` | Technical Writer | 更新所有文件以匹配剛發佈的內容 |
-| **Reflect** | `/retro` | Eng Manager | 團隊感知的週回顧，per-person breakdown |
+| **Reflect** | `/retro` | Eng Manager | 團隊感知的週回顧，per-person breakdown；支援 `/retro global` 跨 Agent 彙總 |
 | **Browse** | `/browse` | QA Engineer | 真實 Chromium 瀏覽器，~100ms/command |
 | **Cookies** | `/setup-browser-cookies` | Session Manager | 從 Chrome/Arc/Brave/Edge 匯入 cookies |
 
-### 7 個 Power Tools
+### 8 個 Power Tools
 
 | Skill | 功能 |
 |-------|------|
@@ -157,6 +161,7 @@ gstack/
 | `/freeze` | 鎖定編輯範圍到特定目錄 |
 | `/guard` | /careful + /freeze 合一 |
 | `/unfreeze` | 解除 /freeze |
+| `/connect-chrome` | 連接 headed Chrome 處理 CAPTCHA/MFA（新增） |
 | `/setup-deploy` | 一次性部署設定 |
 | `/gstack-upgrade` | 自我更新 |
 
@@ -311,14 +316,42 @@ gstack 的幾個設計理念值得 Fluffy 生態系參考：
 
 ---
 
+## 成長數據
+
+| 時間點 | Stars |
+|--------|-------|
+| 前 48 小時（2026-03-13） | 10K |
+| 第 1 週（2026-03-18） | 23K |
+| 第 11 天（2026-03-22） | 39K |
+| 第 16 天（2026-03-27） | 50K |
+| 第 19 天（2026-03-30） | 56.1K |
+
+## 與 Superpowers 的比較
+
+| 面向 | gstack | Superpowers |
+|------|--------|-------------|
+| **Stars** | 56.1K（19 天） | 124K（6 個月） |
+| **觸發方式** | 手動 slash command | 自動強制執行（1% Rule） |
+| **TDD** | 可選（透過 `/qa`） | 強制（未測試的程式碼會被刪除） |
+| **Planning** | 可選（`/office-hours`） | 強制（brainstorming 階段） |
+| **Visual QA** | 真實 Chromium daemon + live 測試 | v5.0+ HTML mockup in browser |
+| **安全** | `/cso` OWASP + STRIDE 掃描 | 非核心焦點 |
+| **部署** | `/ship` 自動化發佈流程 | 手動 PR/merge |
+| **Overhead** | 低：只呼叫需要的命令 | 高：10-20 分鐘規劃階段 |
+| **Token 消耗** | 較低（按需呼叫） | 較高（每任務 50K+ tokens） |
+| **最佳場景** | 產品思維 + visual QA + 完整 sprint | 強制 TDD + 長時間自主 session |
+
+**互補使用**：gstack 負責 planning/QA/security/deploy 階段，Superpowers 負責 implementation 紀律。
+
 ## 關鍵洞察
 
 1. **Markdown is all you need** — 除了 browser daemon，gstack 的核心就是精心撰寫的 Markdown prompt，證明 prompt engineering 的投資報酬率極高
 2. **Browser 是真正的技術護城河** — daemon 模式、ref 系統、cookie 安全模型，這是非平凡的工程
 3. **流程比工具重要** — gstack 的價值在於它定義了 sprint 流程，不是個別 skill 有多厲害
-4. **2 週 37K stars** — 結合 Garry Tan 的個人品牌 + YC 背書 + 實際生產力數據，爆發力驚人
-5. **跨 Agent 相容** — `.agents/skills/` 標準讓 skill 可在 Claude/Codex/Gemini/Cursor 間共用
+4. **19 天 56K stars** — 結合 Garry Tan 的個人品牌 + YC 背書 + 實際生產力數據，成長速度驚人
+5. **跨 Agent 相容** — `.agents/skills/` 標準讓 skill 可在 Claude/Codex/Gemini/Cursor/Factory Droid 間共用
 6. **First Principles > Best Practices** — ETHOS.md 的三層知識體系是值得深思的方法論
+7. **安全 skill 是差異化亮點** — `/cso` 提供 OWASP + STRIDE 掃描，早期使用者已報告找到真實 XSS 漏洞，這是 Superpowers 缺乏的面向
 
 ---
 
