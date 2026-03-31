@@ -78,6 +78,8 @@ nav:
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
       - CrewAI: crewai.md
+      - Google ADK: google-adk.md
+      - OpenAI Agents SDK: openai-agents-sdk.md
       - DeerFlow: deer-flow.md
       - LangGraph Multi-Agent: langgraph-multi-agent.md
       - LangGraph Supervisor: langgraph-supervisor-py.md
@@ -99,6 +101,7 @@ nav:
       - claude-better: claude-better.md
       - Claude Code Boris Cherny 57 Tips: claude-code-boris-cherny-tips.md
       - Claude Code Reverse: claude-code-reverse.md
+      - Claude Agent SDK: claude-agent-sdk.md
       - Claude Code SDK (cloclo): claude-code-sdk.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
@@ -150,6 +153,7 @@ nav:
       - Claude Use Cases Gallery: claude-use-cases.md
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md
+      - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md
 
 extra:

@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
+
+    ---
+
+    `2026-03-31` Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-agent-sdk.md)
+
 -   :material-ghost:{{ .lg .middle }} **claude-better**
 
     ---
@@ -17,6 +25,22 @@
     `2026-03-31` CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
+
+-   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
+
+    ---
+
+    `2026-03-31` OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
+
+-   :material-google:{{ .lg .middle }} **Google Agent Development Kit (ADK)**
+
+    ---
+
+    `2026-03-31` Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件
+
+    [:octicons-arrow-right-24: 閱讀筆記](google-adk.md)
 
 -   :material-code-braces-box:{{ .lg .middle }} **cloclo (claude-code-sdk)**
 
@@ -34,6 +58,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
+-   :material-school:{{ .lg .middle }} **LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統**
+
+    ---
+
+    `2026-03-31` LY Corporation 技術部落格 — Google ADK 入門系列，從單一 Agent 到多代理人系統的實戰教學
+
+    [:octicons-arrow-right-24: 閱讀筆記](ly-corp-adk-agent.md)
+
 -   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
 
     ---
@@ -49,6 +81,14 @@
     `2026-03-31` Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
 
     [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
+
+-   :material-github:{{ .lg .middle }} **GitHub Copilot SDK**
+
+    ---
+
+    `2026-03-31` GitHub 官方 Agent SDK — 把 Copilot CLI 的 Agent 引擎以 JSON-RPC 暴露為可嵌入的多語言函式庫
+
+    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
 
 -   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
 
@@ -106,46 +146,6 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](langgraph-swarm-py.md)
 
--   :material-palette-outline:{{ .lg .middle }} **UI UX Pro Max Skill**
-
-    ---
-
-    `2026-03-30` 54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI
-
-    [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
-
--   :material-clipboard-list-outline:{{ .lg .middle }} **Claude Use Cases Gallery**
-
-    ---
-
-    `2026-03-30` Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
-
--   :material-format-text:{{ .lg .middle }} **Pretext**
-
-    ---
-
-    `2026-03-29` Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
-
-    [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
-
--   :material-swap-horizontal-bold:{{ .lg .middle }} **pmxt**
-
-    ---
-
-    `2026-03-29` 預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK
-
-    [:octicons-arrow-right-24: 閱讀筆記](pmxt.md)
-
--   :material-chart-areaspline:{{ .lg .middle }} **The Alchemy of Multibagger Stocks**
-
-    ---
-
-    `2026-03-29` 464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
-
-    [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
-
 </div>
 
 [查看研究索引](news.md)
@@ -195,6 +195,22 @@
     多 Agent 角色扮演協作框架
 
     [:octicons-arrow-right-24: 閱讀筆記](crewai.md)
+
+-   :material-google:{{ .lg .middle }} **Google Agent Development Kit (ADK)**
+
+    ---
+
+    Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件
+
+    [:octicons-arrow-right-24: 閱讀筆記](google-adk.md)
+
+-   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
+
+    ---
+
+    OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **DeerFlow**
 
@@ -364,6 +380,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
 
+-   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
+
+    ---
+
+    Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-agent-sdk.md)
+
 -   :material-code-braces-box:{{ .lg .middle }} **cloclo (claude-code-sdk)**
 
     ---
@@ -460,11 +484,11 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](github-copilot-configs.md)
 
--   :material-code-braces:{{ .lg .middle }} **GitHub Copilot SDK**
+-   :material-github:{{ .lg .middle }} **GitHub Copilot SDK**
 
     ---
 
-    GitHub Copilot SDK 開發研究
+    GitHub 官方 Agent SDK — 把 Copilot CLI 的 Agent 引擎以 JSON-RPC 暴露為可嵌入的多語言函式庫
 
     [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
 
@@ -771,6 +795,14 @@
     LLM 學習課程資源
 
     [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
+
+-   :material-school:{{ .lg .middle }} **LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統**
+
+    ---
+
+    LY Corporation 技術部落格 — Google ADK 入門系列，從單一 Agent 到多代理人系統的實戰教學
+
+    [:octicons-arrow-right-24: 閱讀筆記](ly-corp-adk-agent.md)
 
 -   :material-bookmark:{{ .lg .middle }} **Reference 快速參考手冊**
 
