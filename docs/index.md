@@ -14,7 +14,7 @@
 
     ---
 
-    `2026-03-31` 369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+    `2026-03-31` CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 
@@ -336,7 +336,7 @@
 
     ---
 
-    369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+    CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 

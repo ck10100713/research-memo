@@ -47,7 +47,7 @@
 #### 03 月
 
 - `2026-03-31` [claude-better](claude-better.md)  
-  369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+  CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 - `2026-03-31` [ITA Matrix 機票搜尋引擎](ita-matrix.md)  
   Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 - `2026-03-30` [LangGraph Supervisor](langgraph-supervisor-py.md)  

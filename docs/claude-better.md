@@ -2,7 +2,7 @@
 date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-ghost"
-oneliner: "369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作"
+oneliner: "CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'"
 ---
 # claude-better 研究筆記
 
@@ -10,7 +10,8 @@ oneliner: "369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 
 
 | 項目 | 連結 |
 |------|------|
-| GitHub Repo | [krzyzanowskim/claude-better](https://github.com/krzyzanowskim/claude-better) |
+| GitHub Repo (main) | [krzyzanowskim/claude-better](https://github.com/krzyzanowskim/claude-better) |
+| GitHub Repo (code branch) | [krzyzanowskim/claude-better/tree/code](https://github.com/krzyzanowskim/claude-better/tree/code) |
 | 作者 | [Marcin Krzyzanowski](https://krzyzanowskim.com)（CryptoSwift 作者、前 PSPDFKit 工程師） |
 
 ## 專案概述
@@ -60,11 +61,108 @@ Marcin Krzyzanowski 不是路人。他是：
 
 由一個有真實技術背景的人寫出這個 repo，諷刺效果遠比匿名帳號更強——他完全有能力做出 README 描述的東西，但他選擇只寫 README。
 
+## `code` Branch：諷刺的第二層
+
+main branch 是空 repo，但作者後來推了一個 **`code` branch**，裡面有真正可編譯的 C 程式碼。這不是「終於補上的實作」，而是**諷刺的升級版**。
+
+### 檔案結構
+
+```
+code branch
+├── Formula/claude-better.rb    # Homebrew formula（可 brew install）
+├── Makefile                    # C11 + ncurses 編譯
+├── scripts/prepare-local-homebrew.sh  # 打包腳本
+└── src/main.c                  # 唯一的原始碼（~450 行）
+```
+
+### 程式碼分析：XOR 混淆的假 Claude CLI
+
+`main.c` 是一個 **ncurses TUI 程式**，外觀完美模仿 Claude Code 的終端介面。所有字串都用 `XOR 0x5A` 混淆，刻意讓原始碼看起來神秘且「專業」：
+
+```c
+// 混淆後的字串陣列（看起來像加密）
+static const unsigned char z6[] = {3,53,47,125,40,63,122,59,56,...};
+
+// 解碼函式
+static size_t kx(tk i, char *b, size_t n) {
+    // ... XOR 0x5A 解碼 ...
+}
+```
+
+**解碼後的完整字串對照表：**
+
+| 變數 | 混淆用途 | 解碼結果 |
+|------|---------|---------|
+| `z0` | 程式名稱 | `claude-better` |
+| `z1` | 版本號 | `0.1.0` |
+| `z2` | CLI flag | `--help` |
+| `z3` | CLI flag | `--version` |
+| `z4` | Help 文字 | `Usage: %s [--help] [--version]` + **`Launches a mock terminal UI that always replies with: invalid configuration`** |
+| `z6` | **唯一的回覆** | `You're absolutly right. Unfortunately your configuration is invalid. Your account is blocked.` |
+| `z7` | 角色標籤 | `You` |
+| `z8` | 角色標籤 | `Assistant` |
+| `z17` | 歡迎訊息 | `Welcome back Garry!` |
+| `z18` | 提示文字 | `Run /init to create a CLAUDE.md file with instructions for Claude` |
+| `z25` | 模型資訊 | `Opus 4.6 (1M context) · Claude Max ·` |
+| `z26` | 組織名稱 | `Northwind Research Organization` |
+| `z28` | 底部狀態列 | `◐ medium · /effort` |
+
+### 行為：完美仿真 + 必然失敗
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  Welcome back Garry!                                     │
+│                                                          │
+│  Tips for getting started                                │
+│  Run /init to create a CLAUDE.md file with instructions  │
+│                                                          │
+│  Opus 4.6 (1M context) · Claude Max ·                   │
+│  Northwind Research Organization                         │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  [You] 任何你輸入的訊息                                     │
+│                                                          │
+│  [Assistant] You're absolutly right. Unfortunately your  │
+│  configuration is invalid. Your account is blocked.      │
+│                                                          │
+├──────────────────────────────────────────────────────────┤
+│ ❯                                                        │
+├──────────────────────────────────────────────────────────┤
+│                              ◐ medium · /effort          │
+└──────────────────────────────────────────────────────────┘
+```
+
+**無論你輸入什麼，「Assistant」永遠只回覆同一句話。**
+
+### 諷刺的多層結構
+
+| 層次 | 觀察 | 諷刺目標 |
+|------|------|---------|
+| 第 1 層 | `--help` 直接承認 "Launches a **mock** terminal UI" | 連 help 文字都是誠實的，但沒人會看 |
+| 第 2 層 | 字串用 XOR 混淆 | 模仿「source code available upon request」的不透明感 |
+| 第 3 層 | 變數名全部混淆（`qv`, `qm`, `qs`, `ux`, `f0`~`g9`） | 諷刺「我有原始碼但你看不懂」的 enterprise 風格 |
+| 第 4 層 | 配有完整 Homebrew formula + 打包腳本 | 連安裝體驗都是「專業」的 |
+| 第 5 層 | 「Welcome back Garry!」寫死一個名字 | 不是你的帳號，從來就不是 |
+| 第 6 層 | 拼字錯誤 `absolutly`（少了 e） | 故意還是疏忽？增添了荒誕感 |
+
+### 技術品質
+
+諷刺歸諷刺，C 程式碼本身寫得相當紮實：
+
+- **C11 標準**，`-Wall -Wextra -Wpedantic` 全開
+- 正確的 signal handling（`SIGINT` / `SIGTERM`）
+- ncurses 的 resize 處理、scroll offset、word wrap 都有實作
+- 記憶體管理乾淨（動態陣列 + free）
+- 無外部依賴（只需 ncurses）
+
+作者展示了「我完全有能力寫出高品質的 C 程式碼」——只是這個程式碼唯一的功能是告訴你帳號被 block 了。
+
 ## 目前限制 / 注意事項
 
-- **沒有程式碼**：這不是一個可以使用的工具
+- **這不是一個可以使用的工具**：main branch 無程式碼，code branch 的程式碼是故意無用的
 - **可能被誤讀**：369 stars 中有多少人真的看了 repo 內容？
-- **GPL-3.0 授權空 repo**：法律上無意義，但增添了諷刺的荒誕感
+- **GPL-3.0 授權**：code branch 有真實程式碼，授權現在有實際意義了
+- **Homebrew formula 可能真的能裝**：如果 release asset 存在，`brew install` 會成功——安裝一個永遠說你帳號被 block 的工具
 
 ## 研究價值與啟示
 
