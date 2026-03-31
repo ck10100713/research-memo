@@ -1,8 +1,8 @@
 ---
-date: ""
-category: "Coding Agent 工具"
+date: "2026-03-31"
+category: "學習資源"
 card_icon: "material-school"
-oneliner: "Claude Code 學習資源"
+oneliner: "44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台"
 ---
 # Learn Claude Code 研究筆記
 
@@ -10,170 +10,164 @@ oneliner: "Claude Code 學習資源"
 
 | 項目 | 連結 |
 |------|------|
-| GitHub | https://github.com/shareAI-lab/learn-claude-code |
-| 作者 | shareAI Lab (@baicai003) |
-| 相關專案 | [Kode CLI](https://github.com/shareAI-lab/Kode), [Agent Skills Spec](https://agentskills.io/specification) |
+| GitHub Repo | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) |
+| 作者 | shareAI-Lab (@baicai003) |
+| 相關專案 | [Kode CLI](https://github.com/shareAI-lab/Kode-cli), [Kode Agent SDK](https://github.com/shareAI-lab/Kode-agent-sdk), [claw0](https://github.com/shareAI-lab/claw0) |
+| 文件 | [English](https://github.com/shareAI-lab/learn-claude-code/tree/main/docs/en) / [中文](https://github.com/shareAI-lab/learn-claude-code/tree/main/docs/zh) / [日本語](https://github.com/shareAI-lab/learn-claude-code/tree/main/docs/ja) |
 | 授權 | MIT |
 
 ## 專案概述
 
-Learn Claude Code 是一個教育性專案，透過從零開始建構 AI Agent 來教導現代 AI Agent 的運作原理。這個專案的核心理念是「Bash is all you & agent need」— 展示 AI coding agent 的核心其實非常簡單。
+| 指標 | 數值 |
+|------|------|
+| Stars | **44,053** |
+| Forks | 6,729 |
+| 語言 | TypeScript (Web) + Python (Agents) |
+| 建立日期 | 2025-06-29 |
 
-這個專案解決的問題是讓開發者理解「為什麼 Claude Code 這麼強大」。透過 5 個版本的漸進式學習（v0 到 v4），從最簡單的 50 行程式碼 Bash Agent 開始，逐步加入工具、規劃、子代理和技能系統。
+Learn Claude Code 是目前 **GitHub 上最受歡迎的 AI Agent 教學專案**。核心理念：
 
-適合場景：
-- 想理解 AI Agent 運作原理的開發者
-- 希望從零建構 Agent 的學習者
-- 需要教學案例的 AI 教育者
-- 想擴展 Claude Code/Kode CLI 功能的使用者
+> **The model IS the agent. The code IS the harness. Build great harnesses. The agent will do the rest.**
 
-## 核心功能
-
-1. **Agent Loop 核心模式**：展示所有 AI coding agent 的基本運作迴圈
-2. **工具設計**：教導如何讓 AI 模型與真實世界互動
-3. **顯式規劃**：使用約束讓 AI 行為可預測
-4. **上下文管理**：透過子代理隔離保持 Agent 記憶乾淨
-5. **知識注入**：無需重新訓練即可載入領域專業知識
-6. **完整的學習路徑**：從 16 行到 550 行的漸進式學習
-
-## 技術架構
+### 核心哲學：Harness Engineering
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    學習路徑概覽                              │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  ┌──────────────┐                                            │
-│  │ v0: Bash     │ ────▶ "One tool is enough"                │
-│  │ Agent        │       ~16-50 行，1 個工具                  │
-│  │ (起點)       │       遞迴子代理                           │
-│  └──────┬───────┘                                            │
-│         │                                                    │
-│         ▼                                                    │
-│  ┌──────────────┐                                            │
-│  │ v1: Basic    │ ────▶ "The complete agent pattern"        │
-│  │ Agent        │       ~200 行，4 個工具                    │
-│  │              │       bash, read, write, edit              │
-│  └──────┬───────┘                                            │
-│         │                                                    │
-│         ▼                                                    │
-│  ┌──────────────┐                                            │
-│  │ v2: Todo     │ ────▶ "Make plans explicit"               │
-│  │ Agent        │       ~300 行，+TodoManager                │
-│  │              │       結構化規劃                           │
-│  └──────┬───────┘                                            │
-│         │                                                    │
-│         ▼                                                    │
-│  ┌──────────────┐                                            │
-│  │ v3: Subagent │ ────▶ "Divide and conquer"                │
-│  │              │       ~450 行，+Task tool                  │
-│  │              │       上下文隔離                           │
-│  └──────┬───────┘                                            │
-│         │                                                    │
-│         ▼                                                    │
-│  ┌──────────────┐                                            │
-│  │ v4: Skills   │ ────▶ "Domain expertise on-demand"        │
-│  │ Agent        │       ~550 行，+Skill tool                 │
-│  │ (終點)       │       SkillLoader                          │
-│  └──────────────┘                                            │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
+Agent = Model（已訓練好的 LLM）
+Harness = Tools + Knowledge + Observation + Action + Permissions
 
-┌─────────────────────────────────────────────────────────────┐
-│                    核心 Agent Loop                           │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│   while True:                                                │
-│       response = model(messages, tools)                      │
-│       if response.stop_reason != "tool_use":                 │
-│           return response.text                               │
-│       results = execute(response.tool_calls)                 │
-│       messages.append(results)                               │
-│                                                              │
-│   # 就這樣。模型呼叫工具直到完成。                             │
-│   # 其他所有東西都只是改進。                                   │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
+你的工作不是「開發 Agent」，而是「建造 Harness」——
+給模型工具、知識、觀察介面、行動能力和權限邊界，然後閃開。
 ```
 
-## 安裝與使用
+這個專案**不是教你用框架**（LangChain, CrewAI），而是教你理解**為什麼 Claude Code 選擇不用框架**——因為 Agent 的核心只有一個 loop。
 
-### 安裝方式
+## 12 Session 學習路徑
+
+```
+Phase 1: THE LOOP              Phase 2: PLANNING & KNOWLEDGE
+═══════════════════             ═══════════════════════════════
+s01  Agent Loop         [1]     s03  TodoWrite              [5]
+     while + stop_reason              規劃 + nag reminder
+     │                                │
+     └→ s02  Tool Use        [4]     s04  Subagents           [5]
+              dispatch map               獨立 messages[] 隔離
+                                         │
+                                    s05  Skills               [5]
+                                         SKILL.md via tool_result
+                                         │
+                                    s06  Context Compact       [5]
+                                         三層壓縮策略
+
+Phase 3: PERSISTENCE            Phase 4: TEAMS
+═══════════════════             ═══════════════════════
+s07  Tasks               [8]    s09  Agent Teams             [9]
+     file-based CRUD + deps          teammates + JSONL mailboxes
+     │                                │
+s08  Background Tasks    [6]    s10  Team Protocols          [12]
+     daemon threads + notify          shutdown + plan approval FSM
+                                      │
+                                 s11  Autonomous Agents       [14]
+                                      idle cycle + auto-claim
+                                      │
+                                 s12  Worktree Isolation      [16]
+                                      task coord + isolated lanes
+
+                                 [N] = number of tools
+```
+
+### 每個 Session 的 Motto
+
+| Session | 主題 | Motto |
+|---------|------|-------|
+| s01 | Agent Loop | *One loop & Bash is all you need* |
+| s02 | Tool Use | *Adding a tool means adding one handler* |
+| s03 | TodoWrite | *An agent without a plan drifts* |
+| s04 | Subagents | *Break big tasks down; each subtask gets a clean context* |
+| s05 | Skills | *Load knowledge when you need it, not upfront* |
+| s06 | Context Compact | *Context will fill up; you need a way to make room* |
+| s07 | Tasks | *Break big goals into small tasks, order them, persist to disk* |
+| s08 | Background Tasks | *Run slow operations in the background; the agent keeps thinking* |
+| s09 | Agent Teams | *When the task is too big for one, delegate to teammates* |
+| s10 | Team Protocols | *Teammates need shared communication rules* |
+| s11 | Autonomous Agents | *Teammates scan the board and claim tasks themselves* |
+| s12 | Worktree Isolation | *Each works in its own directory, no interference* |
+
+## 核心 Agent Loop（全部 12 Session 的不變基礎）
+
+```python
+def agent_loop(messages):
+    while True:
+        response = client.messages.create(
+            model=MODEL, system=SYSTEM,
+            messages=messages, tools=TOOLS,
+        )
+        messages.append({"role": "assistant", "content": response.content})
+
+        if response.stop_reason != "tool_use":
+            return  # 模型決定停止
+
+        results = []
+        for block in response.content:
+            if block.type == "tool_use":
+                output = TOOL_HANDLERS[block.name](**block.input)
+                results.append({
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": output,
+                })
+        messages.append({"role": "user", "content": results})
+```
+
+**每個 Session 只加一個 harness 機制，loop 本身永遠不變。**
+
+## 專案結構
+
+```
+learn-claude-code/
+├── agents/              # Python 實作（s01-s12 + s_full capstone）
+├── docs/{en,zh,ja}/     # 三語文件
+├── web/                 # Next.js 互動學習平台
+├── skills/              # s05 的 Skill 檔案
+└── .github/workflows/   # CI: typecheck + build
+```
+
+### 快速開始
 
 ```bash
-# 克隆專案
 git clone https://github.com/shareAI-lab/learn-claude-code
 cd learn-claude-code
-
-# 安裝依賴
 pip install -r requirements.txt
+cp .env.example .env   # 設定 ANTHROPIC_API_KEY
 
-# 設定 API 金鑰
-cp .env.example .env
-# 編輯 .env 設定 ANTHROPIC_API_KEY
+python agents/s01_agent_loop.py        # 從這裡開始
+python agents/s12_worktree_task_isolation.py  # 終點
+python agents/s_full.py                # Capstone：所有機制合一
 ```
 
-### 執行各版本
+## 目前限制 / 注意事項
 
-```bash
-# v0: 最小化 Bash Agent（從這裡開始！）
-python v0_bash_agent.py
+- **教學為主，非生產級**：刻意簡化了 event bus、permission governance、session lifecycle 等
+- **Team JSONL mailbox 是教學實作**：不代表 Claude Code 的實際內部機制
+- **需要 Anthropic API Key**：無法用本地模型
+- **Scope 聲明明確**：README 清楚列出刻意省略的生產級功能
 
-# v1: 核心 Agent Loop
-python v1_basic_agent.py
+## 研究價值與啟示
 
-# v2: + Todo 規劃
-python v2_todo_agent.py
+### 關鍵洞察
 
-# v3: + 子代理
-python v3_subagent.py
+1. **「Model IS the Agent」是這個時代最重要的認知轉換**：從 DQN 到 AlphaStar 到 LLM，agent 永遠是模型本身。框架和 pipeline 不是 agent，它們是 harness。大量「no-code AI agent platform」本質上是帶 LLM 的 Rube Goldberg machine。
 
-# v4: + Skills
-python v4_skills_agent.py
-```
+2. **12 Session 的設計是教學天才**：每個 session 只加一個概念，loop 不變。這讓學習者清楚看到「哪些是 Agent 核心（loop），哪些是 Harness 擴展（其他一切）」。
 
-### 環境設定
+3. **Sub Agent 的真正價值是 Context 衛生**（s04）：不是為了並行或分工，而是為了隔離 dirty context。搜尋 10 個檔案只為找一個函式——9 個無用結果不該污染 main context。
 
-```bash
-# .env 檔案
-ANTHROPIC_API_KEY=sk-ant-xxx      # 必要
-ANTHROPIC_BASE_URL=https://...    # 可選：API 代理
-MODEL_ID=claude-sonnet-4-5-20250929  # 可選：模型選擇
-```
+4. **Skills = Knowledge on demand**（s05）：不在 system prompt 塞所有知識，而是讓模型需要時才載入。這是 RAG 的 Agent 版本。
 
-## 與其他教學資源的比較
+5. **從 s09 到 s12 的團隊演進**：s09 引入 teammates，s10 加協議，s11 讓 agent 自主認領任務，s12 用 worktree 隔離。這四步精確對應了 Claude Code 從單 agent 到 multi-agent 的演進。
 
-| 特性 | Learn Claude Code | LangChain 教學 | AutoGPT 文件 |
-|------|------------------|---------------|--------------|
-| 學習曲線 | ✅ 極低（50行起步） | ⚠️ 中等 | ⚠️ 較陡 |
-| 程式碼量 | ✅ 16-550 行 | ❌ 複雜框架 | ❌ 大型專案 |
-| 核心原理 | ✅ 清晰展示 | ⚠️ 被框架包裝 | ⚠️ 被框架包裝 |
-| 漸進學習 | ✅ 5 個版本 | ⚠️ 有限 | ❌ 無 |
-| 生產就緒 | ⚠️ 教育為主 | ✅ 生產級 | ✅ 生產級 |
+### 與其他專案的關聯
 
-## 研究心得
-
-Learn Claude Code 是目前最好的 AI Agent 原理教學資源之一，展示了「Model as Agent」的核心理念。
-
-**核心洞見：**
-1. **Agent 本質很簡單**：核心 loop 只有 5 行程式碼
-2. **模型占 80%**：現代 agent 之所以強大是因為模型被訓練成 agent
-3. **工程占 20%**：我們的工作是給模型工具，然後閃開
-
-**學習價值：**
-1. 從 v0 的 16 行程式碼理解 Agent 核心
-2. 透過比較各版本理解工具、規劃、子代理的價值
-3. 最終理解 Skills 機制如何提供領域專業知識
-
-**對 Agent 開發的啟示：**
-- 不要過度工程化，保持簡單
-- 工具設計是關鍵（bash, read, write, edit 就夠了）
-- 子代理用於上下文隔離，避免記憶污染
-- Skills 用於注入領域知識，不需要微調模型
-
-**中文資源價值：**
-- 提供 README_zh.md 中文說明
-- 對於中文開發者理解 Agent 原理非常有幫助
-
----
-研究日期：2026-02-03
+- **analysis_claude_code**（`docs/analysis-claude-code.md`）：同一作者（ShareAI-Lab），analysis 是「拆解 Claude Code」，learn 是「從零重建」
+- **claude-code-reverse**（`docs/claude-code-reverse.md`）：Runtime 逆向方法，與 learn 的「正向建構」互補
+- **cloclo**（`docs/claude-code-sdk.md`）：learn 教原理，cloclo 給你一個可用的多 Provider 實作
+- **LangChain**（`docs/langchain.md`）：learn 的立場是「框架隱藏了 Agent 的本質」，與 LangChain 的框架化路線形成對比

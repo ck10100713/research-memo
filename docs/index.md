@@ -18,6 +18,22 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 
+-   :material-code-braces-box:{{ .lg .middle }} **cloclo (claude-code-sdk)**
+
+    ---
+
+    `2026-03-31` 單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-sdk.md)
+
+-   :material-school:{{ .lg .middle }} **Learn Claude Code**
+
+    ---
+
+    `2026-03-31` 44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台
+
+    [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
+
 -   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
 
     ---
@@ -25,6 +41,22 @@
     `2026-03-31` Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 
     [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
+
+-   :material-file-search-outline:{{ .lg .middle }} **Analysis Claude Code**
+
+    ---
+
+    `2026-03-31` Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
+
+    [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
+
+-   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
+
+    ---
+
+    `2026-03-31` 2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
 
 -   :material-account-supervisor:{{ .lg .middle }} **LangGraph Supervisor**
 
@@ -113,38 +145,6 @@
     `2026-03-29` 464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
 
     [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
-
--   :material-source-branch:{{ .lg .middle }} **Agent Orchestrator**
-
-    ---
-
-    `2026-03-27` Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動接住 CI 與 review feedback
-
-    [:octicons-arrow-right-24: 閱讀筆記](agent-orchestrator.md)
-
--   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
-
-    ---
-
-    `2026-03-17` 用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
-
-    [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
-
--   :material-office-building:{{ .lg .middle }} **Paperclip**
-
-    ---
-
-    `2026-03-02` 開源 AI Agent 編排控制平面，把多個 Agent 組織成一間零人公司
-
-    [:octicons-arrow-right-24: 閱讀筆記](paperclip.md)
-
--   :material-finance:{{ .lg .middle }} **Claude Financial Services Plugins**
-
-    ---
-
-    `2026-02-23` Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
 
 </div>
 
@@ -308,6 +308,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-file-search-outline:{{ .lg .middle }} **Analysis Claude Code**
+
+    ---
+
+    Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
+
+    [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
+
 -   :material-airplane-takeoff:{{ .lg .middle }} **App Store Preflight Skills**
 
     ---
@@ -347,6 +355,22 @@
     
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-boris-cherny-tips.md)
+
+-   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
+
+    ---
+
+    2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
+
+-   :material-code-braces-box:{{ .lg .middle }} **cloclo (claude-code-sdk)**
+
+    ---
+
+    單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-sdk.md)
 
 -   :material-finance:{{ .lg .middle }} **Claude Financial Services Plugins**
 
@@ -411,14 +435,6 @@
     Claude Skills 建構完整指南
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-skills-guide.md)
-
--   :material-school:{{ .lg .middle }} **Learn Claude Code**
-
-    ---
-
-    Claude Code 學習資源
-
-    [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
 -   :material-lightning-bolt:{{ .lg .middle }} **Lightpanda Browser**
 
@@ -739,6 +755,14 @@
     Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
+-   :material-school:{{ .lg .middle }} **Learn Claude Code**
+
+    ---
+
+    44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台
+
+    [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
 -   :material-book-open-variant:{{ .lg .middle }} **LLM Course**
 
