@@ -11,6 +11,7 @@
 | 2026-03-31 | Coding Agent 工具 | [Claude Agent SDK](claude-agent-sdk.md) |
 | 2026-03-31 | Coding Agent 工具 | [claude-better](claude-better.md) |
 | 2026-03-31 | AI Agent 框架 | [OpenAI Agents SDK](openai-agents-sdk.md) |
+| 2026-03-31 | Coding Agent 工具 | [Copilot Ralph](copilot-ralph.md) |
 | 2026-03-31 | AI Agent 框架 | [Google Agent Development Kit (ADK)](google-adk.md) |
 | 2026-03-31 | Coding Agent 工具 | [cloclo (claude-code-sdk)](claude-code-sdk.md) |
 | 2026-03-31 | 學習資源 | [Learn Claude Code](learn-claude-code.md) |
@@ -61,6 +62,8 @@
   CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 - `2026-03-31` [OpenAI Agents SDK](openai-agents-sdk.md)  
   OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
+- `2026-03-31` [Copilot Ralph](copilot-ralph.md)  
+  保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
 - `2026-03-31` [Google Agent Development Kit (ADK)](google-adk.md)  
   Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件
 - `2026-03-31` [cloclo (claude-code-sdk)](claude-code-sdk.md)  

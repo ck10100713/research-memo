@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
 
+-   :material-refresh:{{ .lg .middle }} **Copilot Ralph**
+
+    ---
+
+    `2026-03-31` 保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
+
+    [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
+
 -   :material-google:{{ .lg .middle }} **Google Agent Development Kit (ADK)**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-30` LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](open-swe.md)
-
--   :material-swap-horizontal-circle:{{ .lg .middle }} **LangGraph Swarm**
-
-    ---
-
-    `2026-03-30` LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）
-
-    [:octicons-arrow-right-24: 閱讀筆記](langgraph-swarm-py.md)
 
 </div>
 
@@ -496,7 +496,7 @@
 
     ---
 
-    Copilot Ralph 自主迭代開發模式
+    保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
 
     [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
 
