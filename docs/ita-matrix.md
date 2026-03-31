@@ -1,6 +1,6 @@
 ---
 date: "2026-03-31"
-category: "旅行工具"
+category: "AI 應用"
 card_icon: "material-airplane-search"
 oneliner: "Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它"
 ---

@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-ghost"
 oneliner: "369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作"

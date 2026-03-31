@@ -10,6 +10,22 @@
 
 <div class="grid cards" markdown>
 
+-   :material-ghost:{{ .lg .middle }} **claude-better**
+
+    ---
+
+    `2026-03-31` 369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
+
+-   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
+
+    ---
+
+    `2026-03-31` Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
+
+    [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
+
 -   :material-account-supervisor:{{ .lg .middle }} **LangGraph Supervisor**
 
     ---
@@ -129,22 +145,6 @@
     `2026-02-23` Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
-
--   :material-cog:{{ .lg .middle }} **GitHub Copilot Configs**
-
-    ---
-
-    `2026-02-09` GitHub Copilot 設定與自訂指令
-
-    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-configs.md)
-
--   :material-forum:{{ .lg .middle }} **多 Agent 辯論會系統**
-
-    ---
-
-    `2026-02-04` 使用 Copilot SDK 建構的多 Agent 辯論系統
-
-    [:octicons-arrow-right-24: 閱讀筆記](multi-agent-debate.md)
 
 </div>
 
@@ -667,6 +667,14 @@
     
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-live-cam.md)
+
+-   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
+
+    ---
+
+    Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
+
+    [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **OpenClam**
 

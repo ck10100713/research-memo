@@ -8,6 +8,8 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-03-31 | Coding Agent 工具 | [claude-better](claude-better.md) |
+| 2026-03-31 | AI 應用 | [ITA Matrix 機票搜尋引擎](ita-matrix.md) |
 | 2026-03-30 | AI Agent 框架 | [LangGraph Supervisor](langgraph-supervisor-py.md) |
 | 2026-03-30 | Coding Agent 工具 | [Superpowers](superpowers.md) |
 | 2026-03-30 | Coding Agent 工具 | [gstack](gstack.md) |
@@ -44,6 +46,10 @@
 
 #### 03 月
 
+- `2026-03-31` [claude-better](claude-better.md)  
+  369 stars、0 行程式碼——CryptoSwift 作者用完美企業級 README 諷刺 AI 工具 hype cycle 的傑作
+- `2026-03-31` [ITA Matrix 機票搜尋引擎](ita-matrix.md)  
+  Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 - `2026-03-30` [LangGraph Supervisor](langgraph-supervisor-py.md)  
   LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
 - `2026-03-30` [Superpowers](superpowers.md)  
@@ -131,7 +137,7 @@
 
 ### AI 應用
 
-[Deep-Live-Cam](deep-live-cam.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### 開發工具
 
