@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
+
+    ---
+
+    `2026-04-01` Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
+
+    [:octicons-arrow-right-24: 閱讀筆記](xorespesp-claude-code.md)
+
 -   :material-claw:{{ .lg .middle }} **Claw Code**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-30` 106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
 
     [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
-
--   :material-hammer-wrench:{{ .lg .middle }} **gstack**
-
-    ---
-
-    `2026-03-30` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
-
-    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
 
 </div>
 
@@ -387,6 +387,14 @@
     Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
 
     [:octicons-arrow-right-24: 閱讀筆記](kuberwastaken-claude-code.md)
+
+-   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
+
+    ---
+
+    Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
+
+    [:octicons-arrow-right-24: 閱讀筆記](xorespesp-claude-code.md)
 
 -   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
 
