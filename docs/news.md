@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-04-01 | Coding Agent 工具 | [Claw Code](claw-code.md) |
+| 2026-04-01 | Coding Agent 工具 | [Kuberwastaken Claude Code](kuberwastaken-claude-code.md) |
 | 2026-03-31 | Coding Agent 工具 | [Claude Agent SDK](claude-agent-sdk.md) |
 | 2026-03-31 | Coding Agent 工具 | [claude-better](claude-better.md) |
 | 2026-03-31 | AI Agent 框架 | [OpenAI Agents SDK](openai-agents-sdk.md) |
@@ -59,6 +60,8 @@
 
 - `2026-04-01` [Claw Code](claw-code.md)  
   Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
+- `2026-04-01` [Kuberwastaken Claude Code](kuberwastaken-claude-code.md)  
+  Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
 
 #### 03 月
 
@@ -157,7 +160,7 @@
 
 ### Coding Agent 工具
 
-[Analysis Claude Code](analysis-claude-code.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
+[Analysis Claude Code](analysis-claude-code.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Kuberwastaken Claude Code](kuberwastaken-claude-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
 
 ### 量化交易
 

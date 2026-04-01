@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
 
+-   :material-magnify-scan:{{ .lg .middle }} **Kuberwastaken Claude Code**
+
+    ---
+
+    `2026-04-01` Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](kuberwastaken-claude-code.md)
+
 -   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-30` Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
-
--   :material-account-group-outline:{{ .lg .middle }} **LangGraph Multi-Agent Research Assistant**
-
-    ---
-
-    `2026-03-30` LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
-
-    [:octicons-arrow-right-24: 閱讀筆記](langgraph-multi-agent.md)
 
 </div>
 
@@ -379,6 +379,14 @@
     Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
 
     [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
+
+-   :material-magnify-scan:{{ .lg .middle }} **Kuberwastaken Claude Code**
+
+    ---
+
+    Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
+
+    [:octicons-arrow-right-24: 閱讀筆記](kuberwastaken-claude-code.md)
 
 -   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
 

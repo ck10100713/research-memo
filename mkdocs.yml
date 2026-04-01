@@ -101,6 +101,7 @@ nav:
       - claude-better: claude-better.md
       - Claude Code Boris Cherny 57 Tips: claude-code-boris-cherny-tips.md
       - Claw Code: claw-code.md
+      - Claude Code Leak Breakdown (Kuberwastaken): kuberwastaken-claude-code.md
       - Claude Code Reverse: claude-code-reverse.md
       - Claude Agent SDK: claude-agent-sdk.md
       - Claude Code SDK (cloclo): claude-code-sdk.md
