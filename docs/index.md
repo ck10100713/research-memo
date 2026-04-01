@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-claw:{{ .lg .middle }} **Claw Code**
+
+    ---
+
+    `2026-04-01` Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
+
+    [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
+
 -   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-30` LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
 
     [:octicons-arrow-right-24: 閱讀筆記](langgraph-multi-agent.md)
-
--   :material-code-braces-box:{{ .lg .middle }} **Open SWE**
-
-    ---
-
-    `2026-03-30` LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
-
-    [:octicons-arrow-right-24: 閱讀筆記](open-swe.md)
 
 </div>
 
@@ -371,6 +371,14 @@
     
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-boris-cherny-tips.md)
+
+-   :material-claw:{{ .lg .middle }} **Claw Code**
+
+    ---
+
+    Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
+
+    [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
 
 -   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
 

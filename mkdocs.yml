@@ -100,6 +100,7 @@ nav:
       - Anthropic Harness Design: harness-design-long-running-apps.md
       - claude-better: claude-better.md
       - Claude Code Boris Cherny 57 Tips: claude-code-boris-cherny-tips.md
+      - Claw Code: claw-code.md
       - Claude Code Reverse: claude-code-reverse.md
       - Claude Agent SDK: claude-agent-sdk.md
       - Claude Code SDK (cloclo): claude-code-sdk.md
