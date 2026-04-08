@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-04-02 | AI 應用 | [MemPalace](mempalace.md) |
+| 2026-04-02 | AI 應用 | [Career-Ops](career-ops.md) |
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
 | 2026-04-02 | OSINT / 情報工具 | [OsintRadar](osint-radar.md) |
 | 2026-04-02 | 學習資源 | [Karpathy LLM Wiki](karpathy-llm-wiki.md) |
@@ -66,6 +67,8 @@
 
 - `2026-04-02` [MemPalace](mempalace.md)  
   Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
+- `2026-04-02` [Career-Ops](career-ops.md)  
+  Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺
 - `2026-04-02` [OpenHarness](open-harness.md)  
   香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
 - `2026-04-02` [OsintRadar](osint-radar.md)  
@@ -194,7 +197,7 @@
 
 ### AI 應用
 
-[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### OSINT / 情報工具
 

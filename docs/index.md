@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
 
+-   :material-briefcase-search:{{ .lg .middle }} **Career-Ops**
+
+    ---
+
+    `2026-04-02` Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺
+
+    [:octicons-arrow-right-24: 閱讀筆記](career-ops.md)
+
 -   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` LY Corporation 技術部落格 — Google ADK 入門系列，從單一 Agent 到多代理人系統的實戰教學
 
     [:octicons-arrow-right-24: 閱讀筆記](ly-corp-adk-agent.md)
-
--   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
-
-    ---
-
-    `2026-03-31` Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
-
-    [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
 
 </div>
 
@@ -731,6 +731,14 @@
 ## AI 應用
 
 <div class="grid cards" markdown>
+
+-   :material-briefcase-search:{{ .lg .middle }} **Career-Ops**
+
+    ---
+
+    Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺
+
+    [:octicons-arrow-right-24: 閱讀筆記](career-ops.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **Deep-Live-Cam**
 
