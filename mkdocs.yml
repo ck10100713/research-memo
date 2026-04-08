@@ -155,6 +155,7 @@ nav:
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - Claude Use Cases Gallery: claude-use-cases.md
+      - Karpathy LLM Wiki: karpathy-llm-wiki.md
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md

@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
 
+-   :material-brain:{{ .lg .middle }} **Karpathy LLM Wiki**
+
+    ---
+
+    `2026-04-02` Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
+
+    [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
+
 -   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` 2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
-
--   :material-account-supervisor:{{ .lg .middle }} **LangGraph Supervisor**
-
-    ---
-
-    `2026-03-30` LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
-
-    [:octicons-arrow-right-24: 閱讀筆記](langgraph-supervisor-py.md)
 
 </div>
 
@@ -811,6 +811,14 @@
     Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
+-   :material-brain:{{ .lg .middle }} **Karpathy LLM Wiki**
+
+    ---
+
+    Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
+
+    [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
 
 -   :material-school:{{ .lg .middle }} **Learn Claude Code**
 

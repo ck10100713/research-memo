@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
+| 2026-04-02 | 學習資源 | [Karpathy LLM Wiki](karpathy-llm-wiki.md) |
 | 2026-04-01 | Coding Agent 工具 | [xorespesp Claude Code](xorespesp-claude-code.md) |
 | 2026-04-01 | Coding Agent 工具 | [Claw Code](claw-code.md) |
 | 2026-04-01 | Coding Agent 工具 | [Kuberwastaken Claude Code](kuberwastaken-claude-code.md) |
@@ -62,6 +63,8 @@
 
 - `2026-04-02` [OpenHarness](open-harness.md)  
   香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
+- `2026-04-02` [Karpathy LLM Wiki](karpathy-llm-wiki.md)  
+  Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
 - `2026-04-01` [xorespesp Claude Code](xorespesp-claude-code.md)  
   Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
 - `2026-04-01` [Claw Code](claw-code.md)  
@@ -190,4 +193,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
