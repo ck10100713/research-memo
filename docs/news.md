@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-04-02 | AI 應用 | [MemPalace](mempalace.md) |
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
+| 2026-04-02 | OSINT / 情報工具 | [OsintRadar](osint-radar.md) |
 | 2026-04-02 | 學習資源 | [Karpathy LLM Wiki](karpathy-llm-wiki.md) |
 | 2026-04-01 | Coding Agent 工具 | [xorespesp Claude Code](xorespesp-claude-code.md) |
 | 2026-04-01 | Coding Agent 工具 | [Claw Code](claw-code.md) |
@@ -66,6 +67,8 @@
   Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
 - `2026-04-02` [OpenHarness](open-harness.md)  
   香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
+- `2026-04-02` [OsintRadar](osint-radar.md)  
+  社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
 - `2026-04-02` [Karpathy LLM Wiki](karpathy-llm-wiki.md)  
   Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
 - `2026-04-01` [xorespesp Claude Code](xorespesp-claude-code.md)  
@@ -189,6 +192,10 @@
 ### AI 應用
 
 [Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+
+### OSINT / 情報工具
+
+[OsintRadar](osint-radar.md)
 
 ### 開發工具
 

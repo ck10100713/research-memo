@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
 
+-   :material-radar:{{ .lg .middle }} **OsintRadar**
+
+    ---
+
+    `2026-04-02` 社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
+
+    [:octicons-arrow-right-24: 閱讀筆記](osint-radar.md)
+
 -   :material-brain:{{ .lg .middle }} **Karpathy LLM Wiki**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
 
     [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
-
--   :material-github:{{ .lg .middle }} **GitHub Copilot SDK**
-
-    ---
-
-    `2026-03-31` GitHub 官方 Agent SDK — 把 Copilot CLI 的 Agent 引擎以 JSON-RPC 暴露為可嵌入的多語言函式庫
-
-    [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
 
 </div>
 
@@ -779,6 +779,22 @@
     
 
     [:octicons-arrow-right-24: 閱讀筆記](ramp-ai-agents.md)
+
+</div>
+
+---
+
+## OSINT / 情報工具
+
+<div class="grid cards" markdown>
+
+-   :material-radar:{{ .lg .middle }} **OsintRadar**
+
+    ---
+
+    社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
+
+    [:octicons-arrow-right-24: 閱讀筆記](osint-radar.md)
 
 </div>
 
