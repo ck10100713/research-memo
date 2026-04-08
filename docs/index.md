@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
+
+    ---
+
+    `2026-04-02` 香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
+
 -   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-30` LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](langgraph-supervisor-py.md)
-
--   :material-shield-star:{{ .lg .middle }} **Superpowers**
-
-    ---
-
-    `2026-03-30` 106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
-
-    [:octicons-arrow-right-24: 閱讀筆記](superpowers.md)
 
 </div>
 
@@ -555,6 +555,14 @@
     MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
+-   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
+
+    ---
+
+    香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
 
 -   :material-code-braces-box:{{ .lg .middle }} **Open SWE**
 
