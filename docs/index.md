@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
+
+    ---
+
+    `2026-04-02` Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
+
+    [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
+
 -   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` GitHub 官方 Agent SDK — 把 Copilot CLI 的 Agent 引擎以 JSON-RPC 暴露為可嵌入的多語言函式庫
 
     [:octicons-arrow-right-24: 閱讀筆記](github-copilot-sdk.md)
-
--   :material-magnify-scan:{{ .lg .middle }} **Claude Code Reverse Engineering**
-
-    ---
-
-    `2026-03-31` 2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
 
 </div>
 
@@ -747,6 +747,14 @@
     Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 
     [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
+
+-   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
+
+    ---
+
+    Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
+
+    [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **OpenClam**
 

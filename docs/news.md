@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-02 | AI 應用 | [MemPalace](mempalace.md) |
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
 | 2026-04-02 | 學習資源 | [Karpathy LLM Wiki](karpathy-llm-wiki.md) |
 | 2026-04-01 | Coding Agent 工具 | [xorespesp Claude Code](xorespesp-claude-code.md) |
@@ -61,6 +62,8 @@
 
 #### 04 月
 
+- `2026-04-02` [MemPalace](mempalace.md)  
+  Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
 - `2026-04-02` [OpenHarness](open-harness.md)  
   香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
 - `2026-04-02` [Karpathy LLM Wiki](karpathy-llm-wiki.md)  
@@ -185,7 +188,7 @@
 
 ### AI 應用
 
-[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### 開發工具
 
