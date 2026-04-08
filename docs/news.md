@@ -12,6 +12,7 @@
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
 | 2026-04-02 | OSINT / 情報工具 | [OsintRadar](osint-radar.md) |
 | 2026-04-02 | 學習資源 | [Karpathy LLM Wiki](karpathy-llm-wiki.md) |
+| 2026-04-02 | 學習資源 | [Gemma 4 與 Local LLM](gemma-4-local-llm.md) |
 | 2026-04-01 | Coding Agent 工具 | [xorespesp Claude Code](xorespesp-claude-code.md) |
 | 2026-04-01 | Coding Agent 工具 | [Claw Code](claw-code.md) |
 | 2026-04-01 | Coding Agent 工具 | [Kuberwastaken Claude Code](kuberwastaken-claude-code.md) |
@@ -71,6 +72,8 @@
   社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
 - `2026-04-02` [Karpathy LLM Wiki](karpathy-llm-wiki.md)  
   Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
+- `2026-04-02` [Gemma 4 與 Local LLM](gemma-4-local-llm.md)  
+  Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）
 - `2026-04-01` [xorespesp Claude Code](xorespesp-claude-code.md)  
   Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
 - `2026-04-01` [Claw Code](claw-code.md)  
@@ -203,4 +206,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)

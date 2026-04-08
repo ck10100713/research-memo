@@ -42,6 +42,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
 
+-   :material-memory:{{ .lg .middle }} **Gemma 4 與 Local LLM**
+
+    ---
+
+    `2026-04-02` Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）
+
+    [:octicons-arrow-right-24: 閱讀筆記](gemma-4-local-llm.md)
+
 -   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 
     [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
-
--   :material-file-search-outline:{{ .lg .middle }} **Analysis Claude Code**
-
-    ---
-
-    `2026-03-31` Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
-
-    [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
 
 </div>
 
@@ -835,6 +835,14 @@
     Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
+-   :material-memory:{{ .lg .middle }} **Gemma 4 與 Local LLM**
+
+    ---
+
+    Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）
+
+    [:octicons-arrow-right-24: 閱讀筆記](gemma-4-local-llm.md)
 
 -   :material-brain:{{ .lg .middle }} **Karpathy LLM Wiki**
 
