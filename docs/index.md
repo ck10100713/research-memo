@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
 
+-   :material-book-open-variant:{{ .lg .middle }} **Context Hub — Coding Agent 的策展 API 文件中心**
+
+    ---
+
+    `2026-04-09` Andrew Ng 開源 CLI — 讓 Coding Agent 取得最新 API 文件，不再幻覺
+
+    [:octicons-arrow-right-24: 閱讀筆記](context-hub.md)
+
 -   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` 單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-sdk.md)
-
--   :material-school:{{ .lg .middle }} **Learn Claude Code**
-
-    ---
-
-    `2026-03-31` 44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台
-
-    [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
 
 </div>
 
@@ -475,6 +475,14 @@
     Claude Code 使用案例展示
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-showcase.md)
+
+-   :material-book-open-variant:{{ .lg .middle }} **Context Hub — Coding Agent 的策展 API 文件中心**
+
+    ---
+
+    Andrew Ng 開源 CLI — 讓 Coding Agent 取得最新 API 文件，不再幻覺
+
+    [:octicons-arrow-right-24: 閱讀筆記](context-hub.md)
 
 -   :material-puzzle:{{ .lg .middle }} **The Complete Guide to Building Skills for Claude —**
 
