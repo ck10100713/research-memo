@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
 
+-   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
+
+    ---
+
+    `2026-04-09` Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini Coding Agent
+
+    [:octicons-arrow-right-24: 閱讀筆記](openab.md)
+
 -   :material-book-open-variant:{{ .lg .middle }} **Context Hub — Coding Agent 的策展 API 文件中心**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件
 
     [:octicons-arrow-right-24: 閱讀筆記](google-adk.md)
-
--   :material-code-braces-box:{{ .lg .middle }} **cloclo (claude-code-sdk)**
-
-    ---
-
-    `2026-03-31` 單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-code-sdk.md)
 
 </div>
 
@@ -563,6 +563,14 @@
     MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
+-   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
+
+    ---
+
+    Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini Coding Agent
+
+    [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
 -   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
 
