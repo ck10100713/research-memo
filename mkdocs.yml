@@ -159,6 +159,7 @@ nav:
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - Claude Use Cases Gallery: claude-use-cases.md
+      - DeepTutor: deep-tutor.md
       - Gemma 4 與 Local LLM: gemma-4-local-llm.md
       - Karpathy LLM Wiki: karpathy-llm-wiki.md
       - Learn Claude Code: learn-claude-code.md

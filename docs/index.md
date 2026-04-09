@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-school:{{ .lg .middle }} **DeepTutor**
+
+    ---
+
+    `2026-04-09` 港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
+
+    [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
+
 -   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` 44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台
 
     [:octicons-arrow-right-24: 閱讀筆記](learn-claude-code.md)
-
--   :material-school:{{ .lg .middle }} **LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統**
-
-    ---
-
-    `2026-03-31` LY Corporation 技術部落格 — Google ADK 入門系列，從單一 Agent 到多代理人系統的實戰教學
-
-    [:octicons-arrow-right-24: 閱讀筆記](ly-corp-adk-agent.md)
 
 </div>
 
@@ -843,6 +843,14 @@
     Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-use-cases.md)
+
+-   :material-school:{{ .lg .middle }} **DeepTutor**
+
+    ---
+
+    港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
+
+    [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
 
 -   :material-memory:{{ .lg .middle }} **Gemma 4 與 Local LLM**
 

@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-09 | 學習資源 | [DeepTutor](deep-tutor.md) |
 | 2026-04-02 | AI 應用 | [MemPalace](mempalace.md) |
 | 2026-04-02 | AI 應用 | [Career-Ops](career-ops.md) |
 | 2026-04-02 | Coding Agent 工具 | [OpenHarness](open-harness.md) |
@@ -65,6 +66,8 @@
 
 #### 04 月
 
+- `2026-04-09` [DeepTutor](deep-tutor.md)  
+  港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
 - `2026-04-02` [MemPalace](mempalace.md)  
   Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
 - `2026-04-02` [Career-Ops](career-ops.md)  
@@ -209,4 +212,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
