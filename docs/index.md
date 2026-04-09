@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
+-   :material-book-check:{{ .lg .middle }} **Slavingia Skills — 書本即 Skill 的先驅實驗**
+
+    ---
+
+    `2026-04-09` Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
+
+    [:octicons-arrow-right-24: 閱讀筆記](slavingia-skills.md)
+
 -   :material-book-open-variant:{{ .lg .middle }} **Context Hub — Coding Agent 的策展 API 文件中心**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` 保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
 
     [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
-
--   :material-google:{{ .lg .middle }} **Google Agent Development Kit (ADK)**
-
-    ---
-
-    `2026-03-31` Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件
-
-    [:octicons-arrow-right-24: 閱讀筆記](google-adk.md)
 
 </div>
 
@@ -595,6 +595,14 @@
     將 Claude Max 訂閱轉為 OpenAI 相容 API，驅動 Agent 群免費用 Opus 4.6
 
     [:octicons-arrow-right-24: 閱讀筆記](openclaw-claude-proxy.md)
+
+-   :material-book-check:{{ .lg .middle }} **Slavingia Skills — 書本即 Skill 的先驅實驗**
+
+    ---
+
+    Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
+
+    [:octicons-arrow-right-24: 閱讀筆記](slavingia-skills.md)
 
 -   :material-shield-star:{{ .lg .middle }} **Superpowers**
 
