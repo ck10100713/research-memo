@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
 
+-   :material-palette-swatch:{{ .lg .middle }} **Awesome DESIGN.md — AI Agent 的設計系統資料庫**
+
+    ---
+
+    `2026-04-10` 58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-md.md)
+
 -   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-01` Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
 
     [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
-
--   :material-magnify-scan:{{ .lg .middle }} **Kuberwastaken Claude Code**
-
-    ---
-
-    `2026-04-01` Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
-
-    [:octicons-arrow-right-24: 閱讀筆記](kuberwastaken-claude-code.md)
 
 </div>
 
@@ -331,6 +331,14 @@
     Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮
 
     [:octicons-arrow-right-24: 閱讀筆記](analysis-claude-code.md)
+
+-   :material-palette-swatch:{{ .lg .middle }} **Awesome DESIGN.md — AI Agent 的設計系統資料庫**
+
+    ---
+
+    58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-md.md)
 
 -   :material-airplane-takeoff:{{ .lg .middle }} **App Store Preflight Skills**
 

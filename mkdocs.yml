@@ -95,6 +95,7 @@ nav:
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
       - Analysis Claude Code: analysis-claude-code.md
+      - Awesome DESIGN.md: awesome-design-md.md
       - App Store Preflight: app-store-preflight.md
       - Browser-Bound MCP Flights: browser-bound-mcp-flights.md
       - Anthropic Harness Design: harness-design-long-running-apps.md
