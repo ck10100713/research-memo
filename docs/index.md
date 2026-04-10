@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-file-cabinet:{{ .lg .middle }} **Cabinet — AI-First 知識庫與新創作業系統**
+
+    ---
+
+    `2026-04-10` AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](cabinet.md)
+
 -   :material-magnify-scan:{{ .lg .middle }} **pyWhat — 「這是什麼？」的萬用辨識器**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-01` Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統
 
     [:octicons-arrow-right-24: 閱讀筆記](kuberwastaken-claude-code.md)
-
--   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
-
-    ---
-
-    `2026-03-31` Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-agent-sdk.md)
 
 </div>
 
@@ -771,6 +771,14 @@
     開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
 
     [:octicons-arrow-right-24: 閱讀筆記](appflowy.md)
+
+-   :material-file-cabinet:{{ .lg .middle }} **Cabinet — AI-First 知識庫與新創作業系統**
+
+    ---
+
+    AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](cabinet.md)
 
 -   :material-briefcase-search:{{ .lg .middle }} **Career-Ops**
 

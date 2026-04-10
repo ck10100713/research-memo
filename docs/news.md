@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-10 | AI 應用 | [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md) |
 | 2026-04-10 | OSINT / 情報工具 | [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md) |
 | 2026-04-10 | Coding Agent 工具 | [KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md) |
 | 2026-04-10 | AI 應用 | [AppFlowy — 開源 AI 協作工作區](appflowy.md) |
@@ -72,6 +73,8 @@
 
 #### 04 月
 
+- `2026-04-10` [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)  
+  AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
 - `2026-04-10` [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md)  
   Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
 - `2026-04-10` [KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)  
@@ -218,7 +221,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### OSINT / 情報工具
 
