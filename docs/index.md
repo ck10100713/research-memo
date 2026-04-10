@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](pywhat.md)
 
+-   :material-toolbox:{{ .lg .middle }} **KC AI Skills — 真的會做事的 AI Skill 合集**
+
+    ---
+
+    `2026-04-10` 12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
+
+    [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
+
 -   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-agent-sdk.md)
-
--   :material-ghost:{{ .lg .middle }} **claude-better**
-
-    ---
-
-    `2026-03-31` CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
 
 </div>
 
@@ -491,6 +491,14 @@
     Claude Skills 建構完整指南
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-skills-guide.md)
+
+-   :material-toolbox:{{ .lg .middle }} **KC AI Skills — 真的會做事的 AI Skill 合集**
+
+    ---
+
+    12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
+
+    [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
 
 -   :material-lightning-bolt:{{ .lg .middle }} **Lightpanda Browser**
 
