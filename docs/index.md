@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
+
+    ---
+
+    `2026-04-10` 開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
+
+    [:octicons-arrow-right-24: 閱讀筆記](appflowy.md)
+
 -   :material-school:{{ .lg .middle }} **DeepTutor**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
 
     [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
-
--   :material-refresh:{{ .lg .middle }} **Copilot Ralph**
-
-    ---
-
-    `2026-03-31` 保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
-
-    [:octicons-arrow-right-24: 閱讀筆記](copilot-ralph.md)
 
 </div>
 
@@ -755,6 +755,14 @@
 ## AI 應用
 
 <div class="grid cards" markdown>
+
+-   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
+
+    ---
+
+    開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
+
+    [:octicons-arrow-right-24: 閱讀筆記](appflowy.md)
 
 -   :material-briefcase-search:{{ .lg .middle }} **Career-Ops**
 

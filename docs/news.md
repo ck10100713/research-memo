@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-10 | AI 應用 | [AppFlowy — 開源 AI 協作工作區](appflowy.md) |
 | 2026-04-09 | 學習資源 | [DeepTutor](deep-tutor.md) |
 | 2026-04-09 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-09 | Coding Agent 工具 | [Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md) |
@@ -69,6 +70,8 @@
 
 #### 04 月
 
+- `2026-04-10` [AppFlowy — 開源 AI 協作工作區](appflowy.md)  
+  開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
 - `2026-04-09` [DeepTutor](deep-tutor.md)  
   港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
 - `2026-04-09` [OpenAB — Open Agent Broker](openab.md)  
@@ -209,7 +212,7 @@
 
 ### AI 應用
 
-[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### OSINT / 情報工具
 
