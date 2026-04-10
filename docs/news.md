@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-10 | OSINT / 情報工具 | [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md) |
 | 2026-04-10 | AI 應用 | [AppFlowy — 開源 AI 協作工作區](appflowy.md) |
 | 2026-04-09 | 學習資源 | [DeepTutor](deep-tutor.md) |
 | 2026-04-09 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
@@ -70,6 +71,8 @@
 
 #### 04 月
 
+- `2026-04-10` [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md)  
+  Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
 - `2026-04-10` [AppFlowy — 開源 AI 協作工作區](appflowy.md)  
   開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
 - `2026-04-09` [DeepTutor](deep-tutor.md)  
@@ -216,7 +219,7 @@
 
 ### OSINT / 情報工具
 
-[OsintRadar](osint-radar.md)
+[OsintRadar](osint-radar.md)、[pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md)
 
 ### 開發工具
 

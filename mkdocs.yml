@@ -158,6 +158,7 @@ nav:
       - Ramp AI Agents: ramp-ai-agents.md
   - OSINT / 情報工具:
       - OsintRadar: osint-radar.md
+      - pyWhat: pywhat.md
   - 開發工具:
       - Pretext: pretext.md
   - 學習資源:

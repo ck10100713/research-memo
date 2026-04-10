@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-magnify-scan:{{ .lg .middle }} **pyWhat — 「這是什麼？」的萬用辨識器**
+
+    ---
+
+    `2026-04-10` Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
+
+    [:octicons-arrow-right-24: 閱讀筆記](pywhat.md)
+
 -   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
 
     ---
@@ -137,14 +145,6 @@
     `2026-03-31` CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-better.md)
-
--   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
-
-    ---
-
-    `2026-03-31` OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
-
-    [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
 
 </div>
 
@@ -835,6 +835,14 @@
     社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
 
     [:octicons-arrow-right-24: 閱讀筆記](osint-radar.md)
+
+-   :material-magnify-scan:{{ .lg .middle }} **pyWhat — 「這是什麼？」的萬用辨識器**
+
+    ---
+
+    Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
+
+    [:octicons-arrow-right-24: 閱讀筆記](pywhat.md)
 
 </div>
 
