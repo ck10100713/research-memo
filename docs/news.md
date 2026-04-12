@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-12 | 學習資源 | [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md) |
 | 2026-04-10 | AI 應用 | [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md) |
 | 2026-04-10 | OSINT / 情報工具 | [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md) |
 | 2026-04-10 | Coding Agent 工具 | [KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md) |
@@ -74,6 +75,8 @@
 
 #### 04 月
 
+- `2026-04-12` [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)  
+  18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
 - `2026-04-10` [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)  
   AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
 - `2026-04-10` [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md)  
@@ -236,4 +239,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)

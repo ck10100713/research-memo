@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-book-open-page-variant:{{ .lg .middle }} **Claude Code from Source — 逆向工程架構全書**
+
+    ---
+
+    `2026-04-12` 18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-from-source.md)
+
 -   :material-file-cabinet:{{ .lg .middle }} **Cabinet — AI-First 知識庫與新創作業系統**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-01` Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
 
     [:octicons-arrow-right-24: 閱讀筆記](xorespesp-claude-code.md)
-
--   :material-claw:{{ .lg .middle }} **Claw Code**
-
-    ---
-
-    `2026-04-01` Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
-
-    [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
 
 </div>
 
@@ -899,6 +899,14 @@
     《動手做AI Agent》書籍配套程式碼與教學
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
+
+-   :material-book-open-page-variant:{{ .lg .middle }} **Claude Code from Source — 逆向工程架構全書**
+
+    ---
+
+    18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-from-source.md)
 
 -   :material-clipboard-list-outline:{{ .lg .middle }} **Claude Use Cases Gallery**
 

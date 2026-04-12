@@ -166,6 +166,7 @@ nav:
       - Pretext: pretext.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
+      - Claude Code from Source: claude-code-from-source.md
       - Claude Use Cases Gallery: claude-use-cases.md
       - DeepTutor: deep-tutor.md
       - Gemma 4 與 Local LLM: gemma-4-local-llm.md
