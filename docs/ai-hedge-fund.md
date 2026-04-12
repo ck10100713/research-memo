@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-29"
 category: "量化交易"
 card_icon: "material-bank"
 oneliner: "12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統"

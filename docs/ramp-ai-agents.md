@@ -2,7 +2,7 @@
 date: "2026-03-30"
 category: "AI 應用"
 card_icon: "material-file-document-outline"
-oneliner: ""
+oneliner: "Ramp $32B 公司如何讓 AI Agent 主導 30% 的 PR"
 ---
 # Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切
 

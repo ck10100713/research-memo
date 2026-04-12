@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-27"
 category: "Coding Agent 工具"
 card_icon: "material-cogs"
 oneliner: "Anthropic 的 GAN 啟發三 Agent Harness 架構，讓 Claude 自主建構完整全端應用"

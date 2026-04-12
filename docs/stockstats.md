@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "量化交易"
 card_icon: "material-chart-bar"
 oneliner: "股票統計分析工具"

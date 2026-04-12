@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "學習資源"
 card_icon: "material-book-open-variant"
 oneliner: "LLM 學習課程資源"

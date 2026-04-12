@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "AI Agent 框架"
 card_icon: "material-cursor-default-click"
 oneliner: "阿里巴巴的網頁內嵌 GUI Agent，用自然語言控制網頁介面"

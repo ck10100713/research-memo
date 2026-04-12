@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-connection"
 oneliner: "Model Context Protocol CLI 工具"

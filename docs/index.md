@@ -160,7 +160,7 @@
 
     ---
 
-    
+    Agent 群眾募資平台 — AI Agent 的 GoFundMe
 
     [:octicons-arrow-right-24: 閱讀筆記](agent-gofundme.md)
 
@@ -168,7 +168,7 @@
 
     ---
 
-    
+    Agent 短租市場 — AI Agent 的 Airbnb 託管協議
 
     [:octicons-arrow-right-24: 閱讀筆記](agentbnb.md)
 
@@ -216,7 +216,7 @@
 
     ---
 
-    
+    ByteDance 開源多 Agent 深度研究框架
 
     [:octicons-arrow-right-24: 閱讀筆記](deer-flow.md)
 
@@ -280,7 +280,7 @@
 
     ---
 
-    
+    開源 AI Agent 框架 — 支援本地 LLM 的 Claude Code 替代品
 
     [:octicons-arrow-right-24: 閱讀筆記](openclaw.md)
 
@@ -376,7 +376,7 @@
 
     ---
 
-    
+    Boris Cherny 57 個 Claude Code 進階工作流技巧
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-boris-cherny-tips.md)
 
@@ -800,7 +800,7 @@
 
     ---
 
-    
+    開源即時 AI 換臉工具 — 單張照片即可驅動
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-live-cam.md)
 
@@ -824,7 +824,7 @@
 
     ---
 
-    
+    台灣資安研究員開發的開源惡意程式分析工具
 
     [:octicons-arrow-right-24: 閱讀筆記](openclam.md)
 
@@ -832,7 +832,7 @@
 
     ---
 
-    
+    Hancom 開源 PDF 資料載入器 — LangChain 整合、Benchmark 第一
 
     [:octicons-arrow-right-24: 閱讀筆記](opendataloader-pdf.md)
 
@@ -840,7 +840,7 @@
 
     ---
 
-    
+    Ramp $32B 公司如何讓 AI Agent 主導 30% 的 PR
 
     [:octicons-arrow-right-24: 閱讀筆記](ramp-ai-agents.md)
 

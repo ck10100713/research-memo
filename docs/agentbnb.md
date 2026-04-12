@@ -2,7 +2,7 @@
 date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-file-document-outline"
-oneliner: ""
+oneliner: "Agent 短租市場 — AI Agent 的 Airbnb 託管協議"
 ---
 # AgentBnB 研究筆記
 

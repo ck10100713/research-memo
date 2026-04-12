@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-29"
 category: "量化交易"
 card_icon: "material-robot-excited"
 oneliner: "Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單"

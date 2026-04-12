@@ -50,16 +50,50 @@
 | 2026-03-30 | AI Agent 框架 | [AgentBnB](agentbnb.md) |
 | 2026-03-30 | AI Agent 框架 | [LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md) |
 | 2026-03-30 | AI 應用 | [OpenClam](openclam.md) |
+| 2026-03-30 | Coding Agent 工具 | [Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md) |
 | 2026-03-30 | Coding Agent 工具 | [Open SWE](open-swe.md) |
+| 2026-03-30 | 社群行銷 | [Discord Lobster](discord-lobster.md) |
 | 2026-03-30 | AI 應用 | [OpenDataLoader PDF](opendataloader-pdf.md) |
 | 2026-03-30 | AI Agent 框架 | [LangGraph Swarm](langgraph-swarm-py.md) |
 | 2026-03-30 | Coding Agent 工具 | [Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md) |
+| 2026-03-30 | Coding Agent 工具 | [MCPorter](mcporter.md) |
 | 2026-03-30 | Coding Agent 工具 | [UI UX Pro Max Skill](ui-ux-pro-max-skill.md) |
 | 2026-03-30 | 學習資源 | [Claude Use Cases Gallery](claude-use-cases.md) |
+| 2026-03-29 | 量化交易 | [Prediction Market Analysis](prediction-market-analysis.md) |
+| 2026-03-29 | 量化交易 | [NOFX](nofx.md) |
 | 2026-03-29 | 開發工具 | [Pretext](pretext.md) |
+| 2026-03-29 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
 | 2026-03-29 | 量化交易 | [pmxt](pmxt.md) |
 | 2026-03-29 | 量化交易 | [The Alchemy of Multibagger Stocks](multibagger-stocks.md) |
+| 2026-03-27 | AI 創作資源 | [Uniform Map AI Prompts Database](uniform-map-prompts.md) |
+| 2026-03-27 | AI Agent 框架 | [LangGraph State API](langgraph-state-api.md) |
 | 2026-03-27 | Coding Agent 工具 | [Agent Orchestrator](agent-orchestrator.md) |
+| 2026-03-27 | AI Agent 框架 | [LobeHub](lobehub.md) |
+| 2026-03-27 | Coding Agent 工具 | [Harness Design for Long-Running Apps](harness-design-long-running-apps.md) |
+| 2026-03-27 | AI 創作資源 | [AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md) |
+| 2026-03-23 | Coding Agent 工具 | [MCP CLI](mcp-cli.md) |
+| 2026-03-23 | 社群行銷 | [Insta-Booster](insta-booster.md) |
+| 2026-03-23 | Coding Agent 工具 | [GitHub Copilot CLI](copilot-cli.md) |
+| 2026-03-23 | 量化交易 | [OpenStock](openstock.md) |
+| 2026-03-23 | 學習資源 | [Reference 快速參考手冊](reference.md) |
+| 2026-03-23 | Coding Agent 工具 | [Claude Code Showcase](claude-code-showcase.md) |
+| 2026-03-23 | Coding Agent 工具 | [The Agency: AI Specialists](agency-agents.md) |
+| 2026-03-23 | 學習資源 | [LLM Course](llm-course.md) |
+| 2026-03-23 | Coding Agent 工具 | [The Complete Guide to Building Skills for Claude —](claude-skills-guide.md) |
+| 2026-03-23 | 學習資源 | [AI Agents (黃佳)](ai-agents.md) |
+| 2026-03-23 | AI Agent 框架 | [LangChain](langchain.md) |
+| 2026-03-23 | Coding Agent 工具 | [Claude HUD](claude-hud.md) |
+| 2026-03-23 | Coding Agent 工具 | [OpenClaw Claude Proxy](openclaw-claude-proxy.md) |
+| 2026-03-23 | AI Agent 框架 | [MiroFish](mirofish.md) |
+| 2026-03-23 | 量化交易 | [TEJAPI Python Medium Quant](tejapi_python_medium_quant.md) |
+| 2026-03-23 | Coding Agent 工具 | [Everything Claude Code](everything-claude-code.md) |
+| 2026-03-23 | AI Agent 框架 | [Project Golem](project-golem.md) |
+| 2026-03-23 | Coding Agent 工具 | [App Store Preflight Skills](app-store-preflight.md) |
+| 2026-03-23 | AI Agent 框架 | [Page Agent](page-agent.md) |
+| 2026-03-23 | 量化交易 | [StockStats](stockstats.md) |
+| 2026-03-23 | Coding Agent 工具 | [Lightpanda Browser](lightpanda-browser.md) |
+| 2026-03-23 | AI Agent 框架 | [Autoresearch](autoresearch.md) |
+| 2026-03-23 | AI Agent 框架 | [CrewAI](crewai.md) |
 | 2026-03-17 | Coding Agent 工具 | [Claude Cowork Dispatch](dispatch.md) |
 | 2026-03-02 | AI Agent 框架 | [Paperclip](paperclip.md) |
 | 2026-02-23 | Coding Agent 工具 | [Claude Financial Services Plugins](claude-financial-services-plugins.md) |
@@ -146,33 +180,110 @@
   106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
 - `2026-03-30` [gstack](gstack.md)  
   Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
-- `2026-03-30` [Agent GoFundMe](agent-gofundme.md)
-- `2026-03-30` [DeerFlow](deer-flow.md)
-- `2026-03-30` [Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
-- `2026-03-30` [OpenClaw（龍蝦）](openclaw.md)
-- `2026-03-30` [Deep-Live-Cam](deep-live-cam.md)
-- `2026-03-30` [AgentBnB](agentbnb.md)
+- `2026-03-30` [Agent GoFundMe](agent-gofundme.md)  
+  Agent 群眾募資平台 — AI Agent 的 GoFundMe
+- `2026-03-30` [DeerFlow](deer-flow.md)  
+  ByteDance 開源多 Agent 深度研究框架
+- `2026-03-30` [Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)  
+  Ramp $32B 公司如何讓 AI Agent 主導 30% 的 PR
+- `2026-03-30` [OpenClaw（龍蝦）](openclaw.md)  
+  開源 AI Agent 框架 — 支援本地 LLM 的 Claude Code 替代品
+- `2026-03-30` [Deep-Live-Cam](deep-live-cam.md)  
+  開源即時 AI 換臉工具 — 單張照片即可驅動
+- `2026-03-30` [AgentBnB](agentbnb.md)  
+  Agent 短租市場 — AI Agent 的 Airbnb 託管協議
 - `2026-03-30` [LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)  
   LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop
-- `2026-03-30` [OpenClam](openclam.md)
+- `2026-03-30` [OpenClam](openclam.md)  
+  台灣資安研究員開發的開源惡意程式分析工具
+- `2026-03-30` [Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)  
+  四層架構拆解：Rust Bridge + Chrome Extension + Tailscale，讓 AI Agent 在真實瀏覽器查 Google Flights 機票
 - `2026-03-30` [Open SWE](open-swe.md)  
   LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）
-- `2026-03-30` [OpenDataLoader PDF](opendataloader-pdf.md)
+- `2026-03-30` [Discord Lobster](discord-lobster.md)  
+  台灣一人公司的 Discord AI 社群管家——零依賴、$0/月、三支 cron 腳本管理 146 人社群
+- `2026-03-30` [OpenDataLoader PDF](opendataloader-pdf.md)  
+  Hancom 開源 PDF 資料載入器 — LangChain 整合、Benchmark 第一
 - `2026-03-30` [LangGraph Swarm](langgraph-swarm-py.md)  
   LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）
-- `2026-03-30` [Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)
+- `2026-03-30` [Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)  
+  Boris Cherny 57 個 Claude Code 進階工作流技巧
+- `2026-03-30` [MCPorter](mcporter.md)  
+  MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 - `2026-03-30` [UI UX Pro Max Skill](ui-ux-pro-max-skill.md)  
   54K stars 的 AI 設計智慧注入系統——161 條行業推理規則 + 67 種 UI 風格，讓 Coding Agent 寫出有品味的 UI
 - `2026-03-30` [Claude Use Cases Gallery](claude-use-cases.md)  
   Anthropic 官方 Use Cases 資料庫——13 行業 × 7 功能 × 4 產品線，從 Cowork 桌面代理到法務合約紅線的全景案例集
+- `2026-03-29` [Prediction Market Analysis](prediction-market-analysis.md)  
+  2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
+- `2026-03-29` [NOFX](nofx.md)  
+  Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單
 - `2026-03-29` [Pretext](pretext.md)  
   Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
+- `2026-03-29` [AI Hedge Fund](ai-hedge-fund.md)  
+  12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
 - `2026-03-29` [pmxt](pmxt.md)  
   預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK
 - `2026-03-29` [The Alchemy of Multibagger Stocks](multibagger-stocks.md)  
   464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
+- `2026-03-27` [Uniform Map AI Prompts Database](uniform-map-prompts.md)  
+  台灣制服地圖的 3,000+ AI 圖像生成 prompt 資料庫，視覺預覽 + 跨維度快速組合
+- `2026-03-27` [LangGraph State API](langgraph-state-api.md)  
+  LangGraph 圖狀態機核心 API：State、Reducer、Channel、MessagesState 完整解析
 - `2026-03-27` [Agent Orchestrator](agent-orchestrator.md)  
   Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動接住 CI 與 review feedback
+- `2026-03-27` [LobeHub](lobehub.md)  
+  74K stars 的 AI Agent 協作平台，Supervisor + Executor 多 Agent 架構、39K+ MCP 市集、White-Box Memory
+- `2026-03-27` [Harness Design for Long-Running Apps](harness-design-long-running-apps.md)  
+  Anthropic 的 GAN 啟發三 Agent Harness 架構，讓 Claude 自主建構完整全端應用
+- `2026-03-27` [AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)  
+  Civitai、PromptHero、Lexica 等 15+ 平台全景比較，涵蓋 SFW/NSFW、選擇決策樹
+- `2026-03-23` [MCP CLI](mcp-cli.md)  
+  Model Context Protocol CLI 工具
+- `2026-03-23` [Insta-Booster](insta-booster.md)  
+  Instagram Reels 自動化互動工具
+- `2026-03-23` [GitHub Copilot CLI](copilot-cli.md)  
+  GitHub Copilot 命令列工具
+- `2026-03-23` [OpenStock](openstock.md)  
+  開源股票分析工具
+- `2026-03-23` [Reference 快速參考手冊](reference.md)  
+  常用參考手冊
+- `2026-03-23` [Claude Code Showcase](claude-code-showcase.md)  
+  Claude Code 使用案例展示
+- `2026-03-23` [The Agency: AI Specialists](agency-agents.md)  
+  144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
+- `2026-03-23` [LLM Course](llm-course.md)  
+  LLM 學習課程資源
+- `2026-03-23` [The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)  
+  Claude Skills 建構完整指南
+- `2026-03-23` [AI Agents (黃佳)](ai-agents.md)  
+  《動手做AI Agent》書籍配套程式碼與教學
+- `2026-03-23` [LangChain](langchain.md)  
+  LLM 應用開發框架
+- `2026-03-23` [Claude HUD](claude-hud.md)  
+  11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態
+- `2026-03-23` [OpenClaw Claude Proxy](openclaw-claude-proxy.md)  
+  將 Claude Max 訂閱轉為 OpenAI 相容 API，驅動 Agent 群免費用 Opus 4.6
+- `2026-03-23` [MiroFish](mirofish.md)  
+  40K stars 群體智能預測引擎，用數千 AI Agent 模擬平行社會推演未來
+- `2026-03-23` [TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)  
+  TEJ API 量化交易 Python 教學
+- `2026-03-23` [Everything Claude Code](everything-claude-code.md)  
+  97K stars 的 Agent Harness 效能優化系統：28 agents、116 skills、59 commands
+- `2026-03-23` [Project Golem](project-golem.md)  
+  Browser-in-the-Loop 自主 AI 代理，金字塔記憶可存 50 年對話精華
+- `2026-03-23` [App Store Preflight Skills](app-store-preflight.md)  
+  AI Agent Skill，提交前自動掃描 iOS/macOS 專案的 App Store 審核風險
+- `2026-03-23` [Page Agent](page-agent.md)  
+  阿里巴巴的網頁內嵌 GUI Agent，用自然語言控制網頁介面
+- `2026-03-23` [StockStats](stockstats.md)  
+  股票統計分析工具
+- `2026-03-23` [Lightpanda Browser](lightpanda-browser.md)  
+  用 Zig 從零打造的 headless browser，比 Chrome 快 11x、省 9x 記憶體，專為 AI Agent 設計
+- `2026-03-23` [Autoresearch](autoresearch.md)  
+  Karpathy 的自主 AI 研究代理，讓 Agent 整夜跑 LLM 實驗
+- `2026-03-23` [CrewAI](crewai.md)  
+  多 Agent 角色扮演協作框架
 - `2026-03-17` [Claude Cowork Dispatch](dispatch.md)  
   用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
 - `2026-03-02` [Paperclip](paperclip.md)  

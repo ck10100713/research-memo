@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-monitor-dashboard"
 oneliner: "11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態"

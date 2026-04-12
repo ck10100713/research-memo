@@ -2,7 +2,7 @@
 date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-file-document-outline"
-oneliner: ""
+oneliner: "Agent 群眾募資平台 — AI Agent 的 GoFundMe"
 ---
 # Agent GoFundMe 研究筆記
 

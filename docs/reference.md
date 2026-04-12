@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "學習資源"
 card_icon: "material-bookmark"
 oneliner: "常用參考手冊"

@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-23"
 category: "量化交易"
 card_icon: "material-finance"
 oneliner: "開源股票分析工具"

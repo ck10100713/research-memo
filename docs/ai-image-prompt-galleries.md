@@ -1,5 +1,5 @@
 ---
-date: ""
+date: "2026-03-27"
 category: "AI 創作資源"
 card_icon: "material-image-multiple"
 oneliner: "Civitai、PromptHero、Lexica 等 15+ 平台全景比較，涵蓋 SFW/NSFW、選擇決策樹"

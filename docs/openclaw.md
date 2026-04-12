@@ -2,7 +2,7 @@
 date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-file-document-outline"
-oneliner: ""
+oneliner: "開源 AI Agent 框架 — 支援本地 LLM 的 Claude Code 替代品"
 ---
 # OpenClaw（龍蝦）研究筆記
 
