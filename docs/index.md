@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-chart-line:{{ .lg .middle }} **Kronos**
+
+    ---
+
+    `2026-04-12` 首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測
+
+    [:octicons-arrow-right-24: 閱讀筆記](kronos.md)
+
 -   :material-book-open-page-variant:{{ .lg .middle }} **Claude Code from Source — 逆向工程架構全書**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-02` Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）
 
     [:octicons-arrow-right-24: 閱讀筆記](gemma-4-local-llm.md)
-
--   :material-source-branch:{{ .lg .middle }} **xorespesp Claude Code**
-
-    ---
-
-    `2026-04-01` Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules
-
-    [:octicons-arrow-right-24: 閱讀筆記](xorespesp-claude-code.md)
 
 </div>
 
@@ -651,6 +651,14 @@
     12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
+-   :material-chart-line:{{ .lg .middle }} **Kronos**
+
+    ---
+
+    首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測
+
+    [:octicons-arrow-right-24: 閱讀筆記](kronos.md)
 
 -   :material-robot-excited:{{ .lg .middle }} **NOFX**
 

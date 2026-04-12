@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-12 | 量化交易 | [Kronos](kronos.md) |
 | 2026-04-12 | 學習資源 | [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md) |
 | 2026-04-10 | AI 應用 | [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md) |
 | 2026-04-10 | OSINT / 情報工具 | [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md) |
@@ -109,6 +110,8 @@
 
 #### 04 月
 
+- `2026-04-12` [Kronos](kronos.md)  
+  首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測
 - `2026-04-12` [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)  
   18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
 - `2026-04-10` [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)  
@@ -326,7 +329,7 @@
 
 ### 量化交易
 
-[AI Hedge Fund](ai-hedge-fund.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[TradingAgents](tradingagents.md)
+[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
