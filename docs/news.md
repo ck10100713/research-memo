@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-13 | Coding Agent 工具 | [Multica](multica.md) |
 | 2026-04-12 | 量化交易 | [Kronos](kronos.md) |
 | 2026-04-12 | 學習資源 | [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md) |
 | 2026-04-10 | AI 應用 | [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md) |
@@ -110,6 +111,8 @@
 
 #### 04 月
 
+- `2026-04-13` [Multica](multica.md)  
+  開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
 - `2026-04-12` [Kronos](kronos.md)  
   首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測
 - `2026-04-12` [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)  
@@ -325,7 +328,7 @@
 
 ### Coding Agent 工具
 
-[Analysis Claude Code](analysis-claude-code.md)、[Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Kuberwastaken Claude Code](kuberwastaken-claude-code.md)、[xorespesp Claude Code](xorespesp-claude-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[OpenAB — Open Agent Broker](openab.md)、[OpenHarness](open-harness.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
+[Analysis Claude Code](analysis-claude-code.md)、[Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Kuberwastaken Claude Code](kuberwastaken-claude-code.md)、[xorespesp Claude Code](xorespesp-claude-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Multica](multica.md)、[OpenAB — Open Agent Broker](openab.md)、[OpenHarness](open-harness.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
 
 ### 量化交易
 

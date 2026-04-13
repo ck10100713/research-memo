@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account-group:{{ .lg .middle }} **Multica**
+
+    ---
+
+    `2026-04-13` 開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
+
+    [:octicons-arrow-right-24: 閱讀筆記](multica.md)
+
 -   :material-chart-line:{{ .lg .middle }} **Kronos**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-02` Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
 
     [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
-
--   :material-memory:{{ .lg .middle }} **Gemma 4 與 Local LLM**
-
-    ---
-
-    `2026-04-02` Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）
-
-    [:octicons-arrow-right-24: 閱讀筆記](gemma-4-local-llm.md)
 
 </div>
 
@@ -579,6 +579,14 @@
     MCP 萬用工具——TypeScript Runtime + CLI + Code-Gen，自動發現 IDE 設定、一行呼叫任何 MCP server（3.4K stars）
 
     [:octicons-arrow-right-24: 閱讀筆記](mcporter.md)
+
+-   :material-account-group:{{ .lg .middle }} **Multica**
+
+    ---
+
+    開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
+
+    [:octicons-arrow-right-24: 閱讀筆記](multica.md)
 
 -   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
 
