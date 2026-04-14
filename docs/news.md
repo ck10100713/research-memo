@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI Agent 框架 | [開源 AI Agent 框架比較](open-source-agent-frameworks.md) |
 | 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
@@ -113,6 +114,8 @@
 
 #### 04 月
 
+- `2026-04-14` [TestPilot.AI](testpilot-ai.md)  
+  用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 - `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
   Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 - `2026-04-14` [開源 AI Agent 框架比較](open-source-agent-frameworks.md)  
@@ -358,7 +361,7 @@
 
 ### 開發工具
 
-[Pretext](pretext.md)
+[Pretext](pretext.md)、[TestPilot.AI](testpilot-ai.md)
 
 ### 學習資源
 

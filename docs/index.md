@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
+
+    ---
+
+    `2026-04-14` 用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
+
+    [:octicons-arrow-right-24: 閱讀筆記](testpilot-ai.md)
+
 -   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-02` Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺
 
     [:octicons-arrow-right-24: 閱讀筆記](career-ops.md)
-
--   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
-
-    ---
-
-    `2026-04-02` 香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider
-
-    [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
 
 </div>
 
@@ -915,6 +915,14 @@
     Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
 
     [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
+
+-   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
+
+    ---
+
+    用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
+
+    [:octicons-arrow-right-24: 閱讀筆記](testpilot-ai.md)
 
 </div>
 
