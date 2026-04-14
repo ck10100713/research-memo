@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI Agent 框架 | [開源 AI Agent 框架比較](open-source-agent-frameworks.md) |
 | 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
 | 2026-04-13 | Coding Agent 工具 | [Multica](multica.md) |
@@ -19,7 +20,6 @@
 | 2026-04-10 | Coding Agent 工具 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md) |
 | 2026-04-10 | AI 應用 | [AppFlowy — 開源 AI 協作工作區](appflowy.md) |
 | 2026-04-09 | 學習資源 | [DeepTutor](deep-tutor.md) |
-| 2026-04-09 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-09 | Coding Agent 工具 | [Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md) |
 | 2026-04-09 | Coding Agent 工具 | [Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md) |
 | 2026-04-02 | AI 應用 | [MemPalace](mempalace.md) |
@@ -113,6 +113,8 @@
 
 #### 04 月
 
+- `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
+  Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 - `2026-04-14` [開源 AI Agent 框架比較](open-source-agent-frameworks.md)  
   2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
 - `2026-04-13` [n8n-workflows](n8n-workflows.md)  
@@ -135,8 +137,6 @@
   開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
 - `2026-04-09` [DeepTutor](deep-tutor.md)  
   港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
-- `2026-04-09` [OpenAB — Open Agent Broker](openab.md)  
-  Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini Coding Agent
 - `2026-04-09` [Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md)  
   Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
 - `2026-04-09` [Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md)  

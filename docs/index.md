@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
+
+    ---
+
+    `2026-04-14` Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
+
+    [:octicons-arrow-right-24: 閱讀筆記](openab.md)
+
 -   :material-compare-horizontal:{{ .lg .middle }} **開源 AI Agent 框架比較**
 
     ---
@@ -97,14 +105,6 @@
     `2026-04-09` 港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
-
--   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
-
-    ---
-
-    `2026-04-09` Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini Coding Agent
-
-    [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
 -   :material-book-check:{{ .lg .middle }} **Slavingia Skills — 書本即 Skill 的先驅實驗**
 
@@ -600,7 +600,7 @@
 
     ---
 
-    Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini Coding Agent
+    Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
