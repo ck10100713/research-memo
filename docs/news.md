@@ -11,6 +11,7 @@
 | 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI Agent 框架 | [開源 AI Agent 框架比較](open-source-agent-frameworks.md) |
+| 2026-04-14 | 開發工具 | [VirtEngine](virtengine.md) |
 | 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
 | 2026-04-13 | Coding Agent 工具 | [Multica](multica.md) |
 | 2026-04-12 | 量化交易 | [Kronos](kronos.md) |
@@ -120,6 +121,8 @@
   Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 - `2026-04-14` [開源 AI Agent 框架比較](open-source-agent-frameworks.md)  
   2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
+- `2026-04-14` [VirtEngine](virtengine.md)  
+  去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器
 - `2026-04-13` [n8n-workflows](n8n-workflows.md)  
   4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 - `2026-04-13` [Multica](multica.md)  
@@ -361,7 +364,7 @@
 
 ### 開發工具
 
-[Pretext](pretext.md)、[TestPilot.AI](testpilot-ai.md)
+[Pretext](pretext.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)
 
 ### 學習資源
 

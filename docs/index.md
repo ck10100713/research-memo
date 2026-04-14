@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](open-source-agent-frameworks.md)
 
+-   :material-cloud-sync:{{ .lg .middle }} **VirtEngine**
+
+    ---
+
+    `2026-04-14` 去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器
+
+    [:octicons-arrow-right-24: 閱讀筆記](virtengine.md)
+
 -   :material-cog-transfer:{{ .lg .middle }} **n8n-workflows**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-02` Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
 
     [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
-
--   :material-briefcase-search:{{ .lg .middle }} **Career-Ops**
-
-    ---
-
-    `2026-04-02` Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺
-
-    [:octicons-arrow-right-24: 閱讀筆記](career-ops.md)
 
 </div>
 
@@ -923,6 +923,14 @@
     用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 
     [:octicons-arrow-right-24: 閱讀筆記](testpilot-ai.md)
+
+-   :material-cloud-sync:{{ .lg .middle }} **VirtEngine**
+
+    ---
+
+    去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器
+
+    [:octicons-arrow-right-24: 閱讀筆記](virtengine.md)
 
 </div>
 
