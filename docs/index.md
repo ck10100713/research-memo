@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-cog-transfer:{{ .lg .middle }} **n8n-workflows**
+
+    ---
+
+    `2026-04-13` 4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
+
+    [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
+
 -   :material-account-group:{{ .lg .middle }} **Multica**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-02` 社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
 
     [:octicons-arrow-right-24: 閱讀筆記](osint-radar.md)
-
--   :material-brain:{{ .lg .middle }} **Karpathy LLM Wiki**
-
-    ---
-
-    `2026-04-02` Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
-
-    [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
 
 </div>
 
@@ -835,6 +835,14 @@
     Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
 
     [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
+
+-   :material-cog-transfer:{{ .lg .middle }} **n8n-workflows**
+
+    ---
+
+    4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
+
+    [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **OpenClam**
 

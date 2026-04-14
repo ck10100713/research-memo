@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
 | 2026-04-13 | Coding Agent 工具 | [Multica](multica.md) |
 | 2026-04-12 | 量化交易 | [Kronos](kronos.md) |
 | 2026-04-12 | 學習資源 | [Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md) |
@@ -111,6 +112,8 @@
 
 #### 04 月
 
+- `2026-04-13` [n8n-workflows](n8n-workflows.md)  
+  4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 - `2026-04-13` [Multica](multica.md)  
   開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
 - `2026-04-12` [Kronos](kronos.md)  
@@ -344,7 +347,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
 
 ### OSINT / 情報工具
 
