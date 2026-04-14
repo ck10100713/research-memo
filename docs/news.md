@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
+| 2026-04-14 | AI 應用 | [tw-house-ops](tw-house-ops.md) |
 | 2026-04-14 | AI Agent 框架 | [開源 AI Agent 框架比較](open-source-agent-frameworks.md) |
 | 2026-04-14 | 開發工具 | [VirtEngine](virtengine.md) |
 | 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
@@ -119,6 +120,8 @@
   用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 - `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
   Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
+- `2026-04-14` [tw-house-ops](tw-house-ops.md)  
+  台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍
 - `2026-04-14` [開源 AI Agent 框架比較](open-source-agent-frameworks.md)  
   2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
 - `2026-04-14` [VirtEngine](virtengine.md)  
@@ -356,7 +359,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

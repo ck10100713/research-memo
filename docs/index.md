@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
+-   :material-home-search:{{ .lg .middle }} **tw-house-ops**
+
+    ---
+
+    `2026-04-14` 台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍
+
+    [:octicons-arrow-right-24: 閱讀筆記](tw-house-ops.md)
+
 -   :material-compare-horizontal:{{ .lg .middle }} **開源 AI Agent 框架比較**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-09` Andrew Ng 開源 CLI — 讓 Coding Agent 取得最新 API 文件，不再幻覺
 
     [:octicons-arrow-right-24: 閱讀筆記](context-hub.md)
-
--   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
-
-    ---
-
-    `2026-04-02` Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval
-
-    [:octicons-arrow-right-24: 閱讀筆記](mempalace.md)
 
 </div>
 
@@ -875,6 +875,14 @@
     Ramp $32B 公司如何讓 AI Agent 主導 30% 的 PR
 
     [:octicons-arrow-right-24: 閱讀筆記](ramp-ai-agents.md)
+
+-   :material-home-search:{{ .lg .middle }} **tw-house-ops**
+
+    ---
+
+    台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍
+
+    [:octicons-arrow-right-24: 閱讀筆記](tw-house-ops.md)
 
 </div>
 

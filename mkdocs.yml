@@ -163,6 +163,7 @@ nav:
       - OpenClam: openclam.md
       - OpenDataLoader PDF: opendataloader-pdf.md
       - Ramp AI Agents: ramp-ai-agents.md
+      - tw-house-ops: tw-house-ops.md
   - OSINT / 情報工具:
       - OsintRadar: osint-radar.md
       - pyWhat: pywhat.md
