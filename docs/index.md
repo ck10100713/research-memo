@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-compare-horizontal:{{ .lg .middle }} **開源 AI Agent 框架比較**
+
+    ---
+
+    `2026-04-14` 2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-source-agent-frameworks.md)
+
 -   :material-cog-transfer:{{ .lg .middle }} **n8n-workflows**
 
     ---
@@ -138,14 +146,6 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](open-harness.md)
 
--   :material-radar:{{ .lg .middle }} **OsintRadar**
-
-    ---
-
-    `2026-04-02` 社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織
-
-    [:octicons-arrow-right-24: 閱讀筆記](osint-radar.md)
-
 </div>
 
 [查看研究索引](news.md)
@@ -163,6 +163,14 @@
     Agent 群眾募資平台 — AI Agent 的 GoFundMe
 
     [:octicons-arrow-right-24: 閱讀筆記](agent-gofundme.md)
+
+-   :material-compare-horizontal:{{ .lg .middle }} **開源 AI Agent 框架比較**
+
+    ---
+
+    2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-source-agent-frameworks.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **AgentBnB**
 

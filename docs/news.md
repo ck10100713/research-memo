@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-14 | AI Agent 框架 | [開源 AI Agent 框架比較](open-source-agent-frameworks.md) |
 | 2026-04-13 | AI 應用 | [n8n-workflows](n8n-workflows.md) |
 | 2026-04-13 | Coding Agent 工具 | [Multica](multica.md) |
 | 2026-04-12 | 量化交易 | [Kronos](kronos.md) |
@@ -112,6 +113,8 @@
 
 #### 04 月
 
+- `2026-04-14` [開源 AI Agent 框架比較](open-source-agent-frameworks.md)  
+  2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
 - `2026-04-13` [n8n-workflows](n8n-workflows.md)  
   4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 - `2026-04-13` [Multica](multica.md)  
@@ -327,7 +330,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 

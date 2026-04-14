@@ -74,6 +74,7 @@ nav:
   - 研究更新: news.md
   - AI Agent 框架:
       - Agent GoFundMe: agent-gofundme.md
+      - 開源 Agent 框架比較: open-source-agent-frameworks.md
       - AgentBnB: agentbnb.md
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
