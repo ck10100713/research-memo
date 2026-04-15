@@ -98,6 +98,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](code-review-graph.md)
 
+-   :material-book-open-variant:{{ .lg .middle }} **OpenAI: A Practical Guide to Building Agents**
+
+    ---
+
+    `2026-04-15` OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐
+
+    [:octicons-arrow-right-24: 閱讀筆記](openai-practical-guide-building-agents.md)
+
 -   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-14` 去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器
 
     [:octicons-arrow-right-24: 閱讀筆記](virtengine.md)
-
--   :material-cog-transfer:{{ .lg .middle }} **n8n-workflows**
-
-    ---
-
-    `2026-04-13` 4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
-
-    [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
 
 </div>
 
@@ -1099,6 +1099,14 @@
     LLM 學習課程資源
 
     [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
+
+-   :material-book-open-variant:{{ .lg .middle }} **OpenAI: A Practical Guide to Building Agents**
+
+    ---
+
+    OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐
+
+    [:octicons-arrow-right-24: 閱讀筆記](openai-practical-guide-building-agents.md)
 
 -   :material-school:{{ .lg .middle }} **LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統**
 

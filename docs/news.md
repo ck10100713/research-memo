@@ -19,6 +19,7 @@
 | 2026-04-15 | 開發工具 | [Scrapling](scrapling.md) |
 | 2026-04-15 | 開發工具 | [MCP Toolbox for Databases](mcp-toolbox.md) |
 | 2026-04-15 | Coding Agent 工具 | [Code Review Graph](code-review-graph.md) |
+| 2026-04-15 | 學習資源 | [OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md) |
 | 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI 應用 | [tw-house-ops](tw-house-ops.md) |
@@ -149,6 +150,8 @@
   Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
 - `2026-04-15` [Code Review Graph](code-review-graph.md)  
   本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
+- `2026-04-15` [OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)  
+  OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐
 - `2026-04-14` [TestPilot.AI](testpilot-ai.md)  
   用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 - `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
@@ -404,4 +407,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
