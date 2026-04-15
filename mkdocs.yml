@@ -148,6 +148,7 @@ nav:
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md
       - AI-Trader: ai-trader.md
+      - TimesFM: timesfm.md
       - TradingAgents: tradingagents.md
   - 社群行銷:
       - Claude Ads: claude-ads.md

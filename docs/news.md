@@ -12,6 +12,7 @@
 | 2026-04-15 | AI 創作資源 | [Awesome Design Systems](awesome-design-systems.md) |
 | 2026-04-15 | Coding Agent 工具 | [wshobson/agents](wshobson-agents.md) |
 | 2026-04-15 | 學習資源 | [AI Engineering from Scratch](ai-engineering-from-scratch.md) |
+| 2026-04-15 | 量化交易 | [TimesFM](timesfm.md) |
 | 2026-04-15 | 學習資源 | [dotLLM](dotllm.md) |
 | 2026-04-15 | 社群行銷 | [Claude Ads](claude-ads.md) |
 | 2026-04-15 | 量化交易 | [AI-Trader](ai-trader.md) |
@@ -134,6 +135,8 @@
   77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
 - `2026-04-15` [AI Engineering from Scratch](ai-engineering-from-scratch.md)  
   從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
+- `2026-04-15` [TimesFM](timesfm.md)  
+  Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery
 - `2026-04-15` [dotLLM](dotllm.md)  
   用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache
 - `2026-04-15` [Claude Ads](claude-ads.md)  
@@ -377,7 +380,7 @@
 
 ### 量化交易
 
-[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TradingAgents](tradingagents.md)
+[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 

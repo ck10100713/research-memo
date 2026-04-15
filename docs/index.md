@@ -42,6 +42,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
 
+-   :material-chart-timeline-variant:{{ .lg .middle }} **TimesFM**
+
+    ---
+
+    `2026-04-15` Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery
+
+    [:octicons-arrow-right-24: 閱讀筆記](timesfm.md)
+
 -   :material-language-csharp:{{ .lg .middle }} **dotLLM**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-13` 4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 
     [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
-
--   :material-account-group:{{ .lg .middle }} **Multica**
-
-    ---
-
-    `2026-04-13` 開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
-
-    [:octicons-arrow-right-24: 閱讀筆記](multica.md)
 
 </div>
 
@@ -755,6 +755,14 @@
     港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-trader.md)
+
+-   :material-chart-timeline-variant:{{ .lg .middle }} **TimesFM**
+
+    ---
+
+    Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery
+
+    [:octicons-arrow-right-24: 閱讀筆記](timesfm.md)
 
 -   :material-chart-line:{{ .lg .middle }} **TradingAgents**
 
