@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-cellphone-link:{{ .lg .middle }} **WebToApp**
+
+    ---
+
+    `2026-04-15` 在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
+
+    [:octicons-arrow-right-24: 閱讀筆記](web-to-app.md)
+
 -   :material-palette-swatch:{{ .lg .middle }} **Awesome Design Systems**
 
     ---
@@ -18,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-design-systems.md)
 
+-   :material-account-supervisor:{{ .lg .middle }} **wshobson/agents**
+
+    ---
+
+    `2026-04-15` 77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
+
+    [:octicons-arrow-right-24: 閱讀筆記](wshobson-agents.md)
+
 -   :material-school:{{ .lg .middle }} **AI Engineering from Scratch**
 
     ---
@@ -25,6 +41,14 @@
     `2026-04-15` 從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
+
+-   :material-language-csharp:{{ .lg .middle }} **dotLLM**
+
+    ---
+
+    `2026-04-15` 用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache
+
+    [:octicons-arrow-right-24: 閱讀筆記](dotllm.md)
 
 -   :material-bullhorn:{{ .lg .middle }} **Claude Ads**
 
@@ -121,30 +145,6 @@
     `2026-04-13` 開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
 
     [:octicons-arrow-right-24: 閱讀筆記](multica.md)
-
--   :material-chart-line:{{ .lg .middle }} **Kronos**
-
-    ---
-
-    `2026-04-12` 首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測
-
-    [:octicons-arrow-right-24: 閱讀筆記](kronos.md)
-
--   :material-book-open-page-variant:{{ .lg .middle }} **Claude Code from Source — 逆向工程架構全書**
-
-    ---
-
-    `2026-04-12` 18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-code-from-source.md)
-
--   :material-file-cabinet:{{ .lg .middle }} **Cabinet — AI-First 知識庫與新創作業系統**
-
-    ---
-
-    `2026-04-10` AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
-
-    [:octicons-arrow-right-24: 閱讀筆記](cabinet.md)
 
 </div>
 
@@ -660,6 +660,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ui-ux-pro-max-skill.md)
 
+-   :material-account-supervisor:{{ .lg .middle }} **wshobson/agents**
+
+    ---
+
+    77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
+
+    [:octicons-arrow-right-24: 閱讀筆記](wshobson-agents.md)
+
 </div>
 
 ---
@@ -988,6 +996,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](virtengine.md)
 
+-   :material-cellphone-link:{{ .lg .middle }} **WebToApp**
+
+    ---
+
+    在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
+
+    [:octicons-arrow-right-24: 閱讀筆記](web-to-app.md)
+
 </div>
 
 ---
@@ -1051,6 +1067,14 @@
     從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
+
+-   :material-language-csharp:{{ .lg .middle }} **dotLLM**
+
+    ---
+
+    用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache
+
+    [:octicons-arrow-right-24: 閱讀筆記](dotllm.md)
 
 -   :material-school:{{ .lg .middle }} **Learn Claude Code**
 

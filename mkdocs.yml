@@ -136,6 +136,7 @@ nav:
       - Slavingia Skills: slavingia-skills.md
       - Superpowers: superpowers.md
       - UI UX Pro Max Skill: ui-ux-pro-max-skill.md
+      - wshobson agents: wshobson-agents.md
   - 量化交易:
       - AI Hedge Fund: ai-hedge-fund.md
       - Kronos: kronos.md
@@ -177,6 +178,7 @@ nav:
       - Scrapling: scrapling.md
       - TestPilot.AI: testpilot-ai.md
       - VirtEngine: virtengine.md
+      - WebToApp: web-to-app.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - Claude Code from Source: claude-code-from-source.md
@@ -185,6 +187,7 @@ nav:
       - Gemma 4 與 Local LLM: gemma-4-local-llm.md
       - Karpathy LLM Wiki: karpathy-llm-wiki.md
       - AI Engineering from Scratch: ai-engineering-from-scratch.md
+      - dotLLM: dotllm.md
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
