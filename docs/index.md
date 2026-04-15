@@ -10,6 +10,22 @@
 
 <div class="grid cards" markdown>
 
+-   :material-palette-swatch:{{ .lg .middle }} **Awesome Design Systems**
+
+    ---
+
+    `2026-04-15` 200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-systems.md)
+
+-   :material-school:{{ .lg .middle }} **AI Engineering from Scratch**
+
+    ---
+
+    `2026-04-15` 從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
+
 -   :material-bullhorn:{{ .lg .middle }} **Claude Ads**
 
     ---
@@ -17,6 +33,38 @@
     `2026-04-15` Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-ads.md)
+
+-   :material-robot-outline:{{ .lg .middle }} **AI-Trader**
+
+    ---
+
+    `2026-04-15` 港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-trader.md)
+
+-   :material-spider-web:{{ .lg .middle }} **Scrapling**
+
+    ---
+
+    `2026-04-15` 自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server
+
+    [:octicons-arrow-right-24: 閱讀筆記](scrapling.md)
+
+-   :material-database-cog:{{ .lg .middle }} **MCP Toolbox for Databases**
+
+    ---
+
+    `2026-04-15` Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
+
+-   :material-graph:{{ .lg .middle }} **Code Review Graph**
+
+    ---
+
+    `2026-04-15` 本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
+
+    [:octicons-arrow-right-24: 閱讀筆記](code-review-graph.md)
 
 -   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
 
@@ -97,54 +145,6 @@
     `2026-04-10` AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署
 
     [:octicons-arrow-right-24: 閱讀筆記](cabinet.md)
-
--   :material-magnify-scan:{{ .lg .middle }} **pyWhat — 「這是什麼？」的萬用辨識器**
-
-    ---
-
-    `2026-04-10` Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
-
-    [:octicons-arrow-right-24: 閱讀筆記](pywhat.md)
-
--   :material-toolbox:{{ .lg .middle }} **KC AI Skills — 真的會做事的 AI Skill 合集**
-
-    ---
-
-    `2026-04-10` 12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
-
-    [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
-
--   :material-palette-swatch:{{ .lg .middle }} **Awesome DESIGN.md — AI Agent 的設計系統資料庫**
-
-    ---
-
-    `2026-04-10` 58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI
-
-    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-md.md)
-
--   :material-note-edit:{{ .lg .middle }} **AppFlowy — 開源 AI 協作工作區**
-
-    ---
-
-    `2026-04-10` 開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
-
-    [:octicons-arrow-right-24: 閱讀筆記](appflowy.md)
-
--   :material-school:{{ .lg .middle }} **DeepTutor**
-
-    ---
-
-    `2026-04-09` 港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生
-
-    [:octicons-arrow-right-24: 閱讀筆記](deep-tutor.md)
-
--   :material-book-check:{{ .lg .middle }} **Slavingia Skills — 書本即 Skill 的先驅實驗**
-
-    ---
-
-    `2026-04-09` Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
-
-    [:octicons-arrow-right-24: 閱讀筆記](slavingia-skills.md)
 
 </div>
 
@@ -395,6 +395,14 @@
     Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿
 
     [:octicons-arrow-right-24: 閱讀筆記](claw-code.md)
+
+-   :material-graph:{{ .lg .middle }} **Code Review Graph**
+
+    ---
+
+    本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
+
+    [:octicons-arrow-right-24: 閱讀筆記](code-review-graph.md)
 
 -   :material-magnify-scan:{{ .lg .middle }} **Kuberwastaken Claude Code**
 
@@ -732,6 +740,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](tejapi_python_medium_quant.md)
 
+-   :material-robot-outline:{{ .lg .middle }} **AI-Trader**
+
+    ---
+
+    港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-trader.md)
+
 -   :material-chart-line:{{ .lg .middle }} **TradingAgents**
 
     ---
@@ -787,6 +803,14 @@
     Civitai、PromptHero、Lexica 等 15+ 平台全景比較，涵蓋 SFW/NSFW、選擇決策樹
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-image-prompt-galleries.md)
+
+-   :material-palette-swatch:{{ .lg .middle }} **Awesome Design Systems**
+
+    ---
+
+    200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-systems.md)
 
 -   :material-palette:{{ .lg .middle }} **Uniform Map AI Prompts Database**
 
@@ -924,6 +948,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-database-cog:{{ .lg .middle }} **MCP Toolbox for Databases**
+
+    ---
+
+    Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
+
 -   :material-format-text:{{ .lg .middle }} **Pretext**
 
     ---
@@ -931,6 +963,14 @@
     Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
 
     [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
+
+-   :material-spider-web:{{ .lg .middle }} **Scrapling**
+
+    ---
+
+    自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server
+
+    [:octicons-arrow-right-24: 閱讀筆記](scrapling.md)
 
 -   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
 
@@ -1003,6 +1043,14 @@
     Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG
 
     [:octicons-arrow-right-24: 閱讀筆記](karpathy-llm-wiki.md)
+
+-   :material-school:{{ .lg .middle }} **AI Engineering from Scratch**
+
+    ---
+
+    從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
 
 -   :material-school:{{ .lg .middle }} **Learn Claude Code**
 

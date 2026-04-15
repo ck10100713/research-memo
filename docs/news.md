@@ -8,7 +8,13 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-15 | AI 創作資源 | [Awesome Design Systems](awesome-design-systems.md) |
+| 2026-04-15 | 學習資源 | [AI Engineering from Scratch](ai-engineering-from-scratch.md) |
 | 2026-04-15 | 社群行銷 | [Claude Ads](claude-ads.md) |
+| 2026-04-15 | 量化交易 | [AI-Trader](ai-trader.md) |
+| 2026-04-15 | 開發工具 | [Scrapling](scrapling.md) |
+| 2026-04-15 | 開發工具 | [MCP Toolbox for Databases](mcp-toolbox.md) |
+| 2026-04-15 | Coding Agent 工具 | [Code Review Graph](code-review-graph.md) |
 | 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI 應用 | [tw-house-ops](tw-house-ops.md) |
@@ -117,8 +123,20 @@
 
 #### 04 月
 
+- `2026-04-15` [Awesome Design Systems](awesome-design-systems.md)  
+  200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府
+- `2026-04-15` [AI Engineering from Scratch](ai-engineering-from-scratch.md)  
+  從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
 - `2026-04-15` [Claude Ads](claude-ads.md)  
   Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
+- `2026-04-15` [AI-Trader](ai-trader.md)  
+  港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
+- `2026-04-15` [Scrapling](scrapling.md)  
+  自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server
+- `2026-04-15` [MCP Toolbox for Databases](mcp-toolbox.md)  
+  Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
+- `2026-04-15` [Code Review Graph](code-review-graph.md)  
+  本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
 - `2026-04-14` [TestPilot.AI](testpilot-ai.md)  
   用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 - `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
@@ -346,11 +364,11 @@
 
 ### Coding Agent 工具
 
-[Analysis Claude Code](analysis-claude-code.md)、[Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Kuberwastaken Claude Code](kuberwastaken-claude-code.md)、[xorespesp Claude Code](xorespesp-claude-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Multica](multica.md)、[OpenAB — Open Agent Broker](openab.md)、[OpenHarness](open-harness.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
+[Analysis Claude Code](analysis-claude-code.md)、[Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)、[App Store Preflight Skills](app-store-preflight.md)、[Browser-Bound MCP 機票查詢工具](browser-bound-mcp-flights.md)、[Harness Design for Long-Running Apps](harness-design-long-running-apps.md)、[claude-better](claude-better.md)、[Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流](claude-code-boris-cherny-tips.md)、[Claw Code](claw-code.md)、[Code Review Graph](code-review-graph.md)、[Kuberwastaken Claude Code](kuberwastaken-claude-code.md)、[xorespesp Claude Code](xorespesp-claude-code.md)、[Claude Code Reverse Engineering](claude-code-reverse.md)、[Claude Agent SDK](claude-agent-sdk.md)、[cloclo (claude-code-sdk)](claude-code-sdk.md)、[Claude Financial Services Plugins](claude-financial-services-plugins.md)、[The Agency: AI Specialists](agency-agents.md)、[Difftastic](difftastic.md)、[Claude HUD](claude-hud.md)、[Claude Cowork Dispatch](dispatch.md)、[Everything Claude Code](everything-claude-code.md)、[Claude Code Showcase](claude-code-showcase.md)、[Context Hub — Coding Agent 的策展 API 文件中心](context-hub.md)、[The Complete Guide to Building Skills for Claude —](claude-skills-guide.md)、[KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)、[Lightpanda Browser](lightpanda-browser.md)、[GitHub Copilot CLI](copilot-cli.md)、[GitHub Copilot Configs](github-copilot-configs.md)、[GitHub Copilot SDK](github-copilot-sdk.md)、[Copilot Ralph](copilot-ralph.md)、[gstack](gstack.md)、[Agent Orchestrator](agent-orchestrator.md)、[MCP CLI](mcp-cli.md)、[MCPorter](mcporter.md)、[Multica](multica.md)、[OpenAB — Open Agent Broker](openab.md)、[OpenHarness](open-harness.md)、[Open SWE](open-swe.md)、[OpenClaw Claude Proxy](openclaw-claude-proxy.md)、[Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md)、[Superpowers](superpowers.md)、[UI UX Pro Max Skill](ui-ux-pro-max-skill.md)
 
 ### 量化交易
 
-[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[TradingAgents](tradingagents.md)
+[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
@@ -358,7 +376,7 @@
 
 ### AI 創作資源
 
-[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)
+[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)
 
 ### AI 應用
 
@@ -370,8 +388,8 @@
 
 ### 開發工具
 
-[Pretext](pretext.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
