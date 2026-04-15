@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-bullhorn:{{ .lg .middle }} **Claude Ads**
+
+    ---
+
+    `2026-04-15` Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-ads.md)
+
 -   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-09` Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
 
     [:octicons-arrow-right-24: 閱讀筆記](slavingia-skills.md)
-
--   :material-book-open-variant:{{ .lg .middle }} **Context Hub — Coding Agent 的策展 API 文件中心**
-
-    ---
-
-    `2026-04-09` Andrew Ng 開源 CLI — 讓 Coding Agent 取得最新 API 文件，不再幻覺
-
-    [:octicons-arrow-right-24: 閱讀筆記](context-hub.md)
 
 </div>
 
@@ -747,6 +747,14 @@
 ## 社群行銷
 
 <div class="grid cards" markdown>
+
+-   :material-bullhorn:{{ .lg .middle }} **Claude Ads**
+
+    ---
+
+    Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-ads.md)
 
 -   :material-robot-happy:{{ .lg .middle }} **Discord Lobster**
 

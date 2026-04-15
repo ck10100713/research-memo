@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-15 | 社群行銷 | [Claude Ads](claude-ads.md) |
 | 2026-04-14 | 開發工具 | [TestPilot.AI](testpilot-ai.md) |
 | 2026-04-14 | Coding Agent 工具 | [OpenAB — Open Agent Broker](openab.md) |
 | 2026-04-14 | AI 應用 | [tw-house-ops](tw-house-ops.md) |
@@ -116,6 +117,8 @@
 
 #### 04 月
 
+- `2026-04-15` [Claude Ads](claude-ads.md)  
+  Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
 - `2026-04-14` [TestPilot.AI](testpilot-ai.md)  
   用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 - `2026-04-14` [OpenAB — Open Agent Broker](openab.md)  
@@ -351,7 +354,7 @@
 
 ### 社群行銷
 
-[Discord Lobster](discord-lobster.md)、[Insta-Booster](insta-booster.md)
+[Claude Ads](claude-ads.md)、[Discord Lobster](discord-lobster.md)、[Insta-Booster](insta-booster.md)
 
 ### AI 創作資源
 
