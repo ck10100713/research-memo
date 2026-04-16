@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-shield-check:{{ .lg .middle }} **andrej-karpathy-skills**
+
+    ---
+
+    `2026-04-16` Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](andrej-karpathy-skills.md)
+
 -   :material-bookshelf:{{ .lg .middle }} **Asgard Skills**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-14` 台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍
 
     [:octicons-arrow-right-24: 閱讀筆記](tw-house-ops.md)
-
--   :material-compare-horizontal:{{ .lg .middle }} **開源 AI Agent 框架比較**
-
-    ---
-
-    `2026-04-14` 2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
-
-    [:octicons-arrow-right-24: 閱讀筆記](open-source-agent-frameworks.md)
 
 </div>
 
@@ -459,6 +459,14 @@
     144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
 
     [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
+
+-   :material-shield-check:{{ .lg .middle }} **andrej-karpathy-skills**
+
+    ---
+
+    Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](andrej-karpathy-skills.md)
 
 -   :material-bookshelf:{{ .lg .middle }} **Asgard Skills**
 
