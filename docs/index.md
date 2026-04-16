@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](asgard-skills.md)
 
+-   :material-fingerprint-off:{{ .lg .middle }} **reverse-SynthID**
+
+    ---
+
+    `2026-04-16` 逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
+
+    [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
+
 -   :material-cellphone-link:{{ .lg .middle }} **WebToApp**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-14` Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](openab.md)
-
--   :material-home-search:{{ .lg .middle }} **tw-house-ops**
-
-    ---
-
-    `2026-04-14` 台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍
-
-    [:octicons-arrow-right-24: 閱讀筆記](tw-house-ops.md)
 
 </div>
 
@@ -1139,5 +1139,13 @@
     常用參考手冊
 
     [:octicons-arrow-right-24: 閱讀筆記](reference.md)
+
+-   :material-fingerprint-off:{{ .lg .middle }} **reverse-SynthID**
+
+    ---
+
+    逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
+
+    [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
 
 </div>

@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-04-16 | Coding Agent 工具 | [andrej-karpathy-skills](andrej-karpathy-skills.md) |
 | 2026-04-16 | Coding Agent 工具 | [Asgard Skills](asgard-skills.md) |
+| 2026-04-16 | 學習資源 | [reverse-SynthID](reverse-synthid.md) |
 | 2026-04-15 | 開發工具 | [WebToApp](web-to-app.md) |
 | 2026-04-15 | AI 創作資源 | [Awesome Design Systems](awesome-design-systems.md) |
 | 2026-04-15 | Coding Agent 工具 | [wshobson/agents](wshobson-agents.md) |
@@ -134,6 +135,8 @@
   Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars
 - `2026-04-16` [Asgard Skills](asgard-skills.md)  
   263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本
+- `2026-04-16` [reverse-SynthID](reverse-synthid.md)  
+  逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
 - `2026-04-15` [WebToApp](web-to-app.md)  
   在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
 - `2026-04-15` [Awesome Design Systems](awesome-design-systems.md)  
@@ -413,4 +416,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)

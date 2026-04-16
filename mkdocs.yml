@@ -196,6 +196,7 @@ nav:
       - OpenAI Agent 建構指南: openai-practical-guide-building-agents.md
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md
+      - Reverse-SynthID: reverse-synthid.md
 
 extra:
   social:
