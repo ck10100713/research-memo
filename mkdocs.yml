@@ -111,6 +111,7 @@ nav:
       - Claude Code SDK (cloclo): claude-code-sdk.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
+      - Asgard Skills: asgard-skills.md
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
       - Claude Cowork Dispatch: dispatch.md

@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-bookshelf:{{ .lg .middle }} **Asgard Skills**
+
+    ---
+
+    `2026-04-16` 263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本
+
+    [:octicons-arrow-right-24: 閱讀筆記](asgard-skills.md)
+
 -   :material-cellphone-link:{{ .lg .middle }} **WebToApp**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-14` 2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南
 
     [:octicons-arrow-right-24: 閱讀筆記](open-source-agent-frameworks.md)
-
--   :material-cloud-sync:{{ .lg .middle }} **VirtEngine**
-
-    ---
-
-    `2026-04-14` 去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器
-
-    [:octicons-arrow-right-24: 閱讀筆記](virtengine.md)
 
 </div>
 
@@ -459,6 +459,14 @@
     144 個專業化 AI Agent 人格庫，橫跨 12 部門，支援 10 個 AI 工具
 
     [:octicons-arrow-right-24: 閱讀筆記](agency-agents.md)
+
+-   :material-bookshelf:{{ .lg .middle }} **Asgard Skills**
+
+    ---
+
+    263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本
+
+    [:octicons-arrow-right-24: 閱讀筆記](asgard-skills.md)
 
 -   :material-file-compare:{{ .lg .middle }} **Difftastic**
 
