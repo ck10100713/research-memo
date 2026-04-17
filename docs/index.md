@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
+
+    ---
+
+    `2026-04-17` Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-cookbooks.md)
+
 -   :material-brain:{{ .lg .middle }} **Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
 
     [:octicons-arrow-right-24: 閱讀筆記](code-review-graph.md)
-
--   :material-book-open-variant:{{ .lg .middle }} **OpenAI: A Practical Guide to Building Agents**
-
-    ---
-
-    `2026-04-15` OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐
-
-    [:octicons-arrow-right-24: 閱讀筆記](openai-practical-guide-building-agents.md)
 
 </div>
 
@@ -1067,6 +1067,14 @@
     18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-from-source.md)
+
+-   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
+
+    ---
+
+    Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-cookbooks.md)
 
 -   :material-clipboard-list-outline:{{ .lg .middle }} **Claude Use Cases Gallery**
 
