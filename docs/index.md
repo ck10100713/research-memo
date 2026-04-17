@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-brain:{{ .lg .middle }} **Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧**
+
+    ---
+
+    `2026-04-17` Claude Code 創辦人 Boris Cherny 在 Opus 4.7 發表當天公開的 6 個生產力技巧與行為差異全解析
+
+    [:octicons-arrow-right-24: 閱讀筆記](boris-cherny-opus-4-7.md)
+
 -   :material-head-lightbulb:{{ .lg .middle }} **女娲.skill（nuwa-skill）**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐
 
     [:octicons-arrow-right-24: 閱讀筆記](openai-practical-guide-building-agents.md)
-
--   :material-test-tube:{{ .lg .middle }} **TestPilot.AI**
-
-    ---
-
-    `2026-04-14` 用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
-
-    [:octicons-arrow-right-24: 閱讀筆記](testpilot-ai.md)
 
 </div>
 
@@ -387,6 +387,14 @@
     Boris Cherny 57 個 Claude Code 進階工作流技巧
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-boris-cherny-tips.md)
+
+-   :material-brain:{{ .lg .middle }} **Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧**
+
+    ---
+
+    Claude Code 創辦人 Boris Cherny 在 Opus 4.7 發表當天公開的 6 個生產力技巧與行為差異全解析
+
+    [:octicons-arrow-right-24: 閱讀筆記](boris-cherny-opus-4-7.md)
 
 -   :material-claw:{{ .lg .middle }} **Claw Code**
 
