@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-head-lightbulb:{{ .lg .middle }} **女娲.skill（nuwa-skill）**
+
+    ---
+
+    `2026-04-17` 蒸餾任何人的思維方式 — 6 路並行調研 → 三重驗證 → 心智模型 + 決策啟發式 + 表達 DNA，11.8K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](nuwa-skill.md)
+
 -   :material-shield-check:{{ .lg .middle }} **andrej-karpathy-skills**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-14` 用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件
 
     [:octicons-arrow-right-24: 閱讀筆記](testpilot-ai.md)
-
--   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
-
-    ---
-
-    `2026-04-14` Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
-
-    [:octicons-arrow-right-24: 閱讀筆記](openab.md)
 
 </div>
 
@@ -619,6 +619,14 @@
     開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
 
     [:octicons-arrow-right-24: 閱讀筆記](multica.md)
+
+-   :material-head-lightbulb:{{ .lg .middle }} **女娲.skill（nuwa-skill）**
+
+    ---
+
+    蒸餾任何人的思維方式 — 6 路並行調研 → 三重驗證 → 心智模型 + 決策啟發式 + 表達 DNA，11.8K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](nuwa-skill.md)
 
 -   :material-chat-processing:{{ .lg .middle }} **OpenAB — Open Agent Broker**
 
