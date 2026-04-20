@@ -116,6 +116,7 @@ nav:
       - Asgard Skills: asgard-skills.md
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
+      - cc-statusline: cc-statusline.md
       - Claude Cowork Dispatch: dispatch.md
       - Everything Claude Code: everything-claude-code.md
       - Claude Code Showcase: claude-code-showcase.md

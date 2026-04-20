@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
 
+-   :material-view-dashboard-variant:{{ .lg .middle }} **cc-statusline — Claude Code 的全能 statusline 儀表板**
+
+    ---
+
+    `2026-04-20` Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合
+
+    [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
+
 -   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server
 
     [:octicons-arrow-right-24: 閱讀筆記](scrapling.md)
-
--   :material-database-cog:{{ .lg .middle }} **MCP Toolbox for Databases**
-
-    ---
-
-    `2026-04-15` Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
-
-    [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
 
 </div>
 
@@ -499,6 +499,14 @@
     11.5K stars 的 Claude Code 狀態列 plugin，即時顯示 context 用量、工具活動、Agent 狀態
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-hud.md)
+
+-   :material-view-dashboard-variant:{{ .lg .middle }} **cc-statusline — Claude Code 的全能 statusline 儀表板**
+
+    ---
+
+    Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合
+
+    [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
 
 -   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
