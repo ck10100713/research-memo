@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
 
+-   :material-account-group:{{ .lg .middle }} **my-claude-devteam**
+
+    ---
+
+    `2026-04-20` 台灣交大 NYCU-Chung 作品，把 Claude Code 變成 12 人工程團隊，9 天衝 218 stars 的 P7/P9/P10 企業職級方法論
+
+    [:octicons-arrow-right-24: 閱讀筆記](my-claude-devteam.md)
+
 -   :material-account-voice:{{ .lg .middle }} **khazix-skills**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache
 
     [:octicons-arrow-right-24: 閱讀筆記](dotllm.md)
-
--   :material-bullhorn:{{ .lg .middle }} **Claude Ads**
-
-    ---
-
-    `2026-04-15` Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-ads.md)
 
 </div>
 
@@ -643,6 +643,14 @@
     開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用
 
     [:octicons-arrow-right-24: 閱讀筆記](multica.md)
+
+-   :material-account-group:{{ .lg .middle }} **my-claude-devteam**
+
+    ---
+
+    台灣交大 NYCU-Chung 作品，把 Claude Code 變成 12 人工程團隊，9 天衝 218 stars 的 P7/P9/P10 企業職級方法論
+
+    [:octicons-arrow-right-24: 閱讀筆記](my-claude-devteam.md)
 
 -   :material-head-lightbulb:{{ .lg .middle }} **女娲.skill（nuwa-skill）**
 
