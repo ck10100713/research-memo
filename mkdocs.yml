@@ -110,6 +110,7 @@ nav:
       - Claude Code Reverse: claude-code-reverse.md
       - Claude Agent SDK: claude-agent-sdk.md
       - Claude Code SDK (cloclo): claude-code-sdk.md
+      - Claude Design: claude-design.md
       - Claude Financial Services Plugins: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
       - Andrej Karpathy Skills: andrej-karpathy-skills.md

@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
 
+-   :material-pencil-ruler:{{ .lg .middle }} **Claude Design 系統提示詞**
+
+    ---
+
+    `2026-04-20` Anthropic 新推出的「設計專用 Claude」完整中文系統提示詞 — 用 HTML 做設計交付，具備 Tweaks、Starter Components、Verifier 與反 AI slop 的完整工程骨架
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-design.md)
+
 -   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
-
--   :material-chart-timeline-variant:{{ .lg .middle }} **TimesFM**
-
-    ---
-
-    `2026-04-15` Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery
-
-    [:octicons-arrow-right-24: 閱讀筆記](timesfm.md)
 
 </div>
 
@@ -451,6 +451,14 @@
     單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-sdk.md)
+
+-   :material-pencil-ruler:{{ .lg .middle }} **Claude Design 系統提示詞**
+
+    ---
+
+    Anthropic 新推出的「設計專用 Claude」完整中文系統提示詞 — 用 HTML 做設計交付，具備 Tweaks、Starter Components、Verifier 與反 AI slop 的完整工程骨架
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-design.md)
 
 -   :material-finance:{{ .lg .middle }} **Claude Financial Services Plugins**
 
