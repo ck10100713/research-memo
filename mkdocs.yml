@@ -118,6 +118,7 @@ nav:
       - Claude HUD: claude-hud.md
       - cc-statusline: cc-statusline.md
       - Claude Cowork Dispatch: dispatch.md
+      - dot-skill: dot-skill.md
       - Everything Claude Code: everything-claude-code.md
       - Claude Code Showcase: claude-code-showcase.md
       - Context Hub: context-hub.md

@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
 
+-   :material-dna:{{ .lg .middle }} **dot-skill**
+
+    ---
+
+    `2026-04-20` 上海 AI Lab × titanwings 出品，從 colleague.skill 升級的通用人物蒸餾器 — 21 天衝 15.5K stars，三家族 × 四宿主把任何人變 AI Skill
+
+    [:octicons-arrow-right-24: 閱讀筆記](dot-skill.md)
+
 -   :material-account-group:{{ .lg .middle }} **my-claude-devteam**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery
 
     [:octicons-arrow-right-24: 閱讀筆記](timesfm.md)
-
--   :material-language-csharp:{{ .lg .middle }} **dotLLM**
-
-    ---
-
-    `2026-04-15` 用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache
-
-    [:octicons-arrow-right-24: 閱讀筆記](dotllm.md)
 
 </div>
 
@@ -515,6 +515,14 @@
     用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
 
     [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
+
+-   :material-dna:{{ .lg .middle }} **dot-skill**
+
+    ---
+
+    上海 AI Lab × titanwings 出品，從 colleague.skill 升級的通用人物蒸餾器 — 21 天衝 15.5K stars，三家族 × 四宿主把任何人變 AI Skill
+
+    [:octicons-arrow-right-24: 閱讀筆記](dot-skill.md)
 
 -   :material-package-variant-closed:{{ .lg .middle }} **Everything Claude Code**
 
