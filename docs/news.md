@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-20 | 開發工具 | [Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md) |
 | 2026-04-17 | 學習資源 | [Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md) |
 | 2026-04-17 | Coding Agent 工具 | [Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧](boris-cherny-opus-4-7.md) |
 | 2026-04-17 | Coding Agent 工具 | [女娲.skill（nuwa-skill）](nuwa-skill.md) |
@@ -134,6 +135,8 @@
 
 #### 04 月
 
+- `2026-04-20` [Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)  
+  Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
 - `2026-04-17` [Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)  
   Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例
 - `2026-04-17` [Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧](boris-cherny-opus-4-7.md)  
@@ -421,7 +424,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### 學習資源
 

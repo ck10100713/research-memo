@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
+
+    ---
+
+    `2026-04-20` Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
+
+    [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
+
 -   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
-
--   :material-graph:{{ .lg .middle }} **Code Review Graph**
-
-    ---
-
-    `2026-04-15` 本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token
-
-    [:octicons-arrow-right-24: 閱讀筆記](code-review-graph.md)
 
 </div>
 
@@ -1003,6 +1003,14 @@
     Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
+
+-   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
+
+    ---
+
+    Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
+
+    [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
 
 -   :material-format-text:{{ .lg .middle }} **Pretext**
 

@@ -179,6 +179,7 @@ nav:
       - pyWhat: pywhat.md
   - 開發工具:
       - MCP Toolbox for Databases: mcp-toolbox.md
+      - Optuna: optuna.md
       - Pretext: pretext.md
       - Scrapling: scrapling.md
       - TestPilot.AI: testpilot-ai.md
