@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-20 | Coding Agent 工具 | [gstack](gstack.md) |
 | 2026-04-20 | 開發工具 | [Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md) |
 | 2026-04-20 | Coding Agent 工具 | [cc-statusline — Claude Code 的全能 statusline 儀表板](cc-statusline.md) |
 | 2026-04-20 | Coding Agent 工具 | [khazix-skills](khazix-skills.md) |
@@ -69,7 +70,6 @@
 | 2026-03-31 | Coding Agent 工具 | [Claude Code Reverse Engineering](claude-code-reverse.md) |
 | 2026-03-30 | AI Agent 框架 | [LangGraph Supervisor](langgraph-supervisor-py.md) |
 | 2026-03-30 | Coding Agent 工具 | [Superpowers](superpowers.md) |
-| 2026-03-30 | Coding Agent 工具 | [gstack](gstack.md) |
 | 2026-03-30 | AI Agent 框架 | [Agent GoFundMe](agent-gofundme.md) |
 | 2026-03-30 | AI Agent 框架 | [DeerFlow](deer-flow.md) |
 | 2026-03-30 | AI 應用 | [Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md) |
@@ -137,6 +137,8 @@
 
 #### 04 月
 
+- `2026-04-20` [gstack](gstack.md)  
+  Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援
 - `2026-04-20` [Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)  
   Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
 - `2026-04-20` [cc-statusline — Claude Code 的全能 statusline 儀表板](cc-statusline.md)  
@@ -262,8 +264,6 @@
   LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）
 - `2026-03-30` [Superpowers](superpowers.md)  
   106K stars 的 agentic skills 框架，用心理學說服原則強制 coding agent 遵守開發紀律
-- `2026-03-30` [gstack](gstack.md)  
-  Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
 - `2026-03-30` [Agent GoFundMe](agent-gofundme.md)  
   Agent 群眾募資平台 — AI Agent 的 GoFundMe
 - `2026-03-30` [DeerFlow](deer-flow.md)  

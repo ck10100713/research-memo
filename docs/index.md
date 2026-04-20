@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-hammer-wrench:{{ .lg .middle }} **gstack**
+
+    ---
+
+    `2026-04-20` Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援
+
+    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
+
 -   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-ads.md)
-
--   :material-robot-outline:{{ .lg .middle }} **AI-Trader**
-
-    ---
-
-    `2026-04-15` 港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-trader.md)
 
 </div>
 
@@ -608,7 +608,7 @@
 
     ---
 
-    Garry Tan 的 Claude Code 工作流系統，將 AI coding agent 組織成虛擬工程團隊
+    Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
 
