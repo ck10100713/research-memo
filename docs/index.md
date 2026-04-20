@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
 
+-   :material-account-voice:{{ .lg .middle }} **khazix-skills**
+
+    ---
+
+    `2026-04-20` 数字生命卡兹克開源個人 AI 方法論 — 14 天 5.4K stars，1 個 Prompt + 2 個 Skill 把寫作風格與研究框架蒸餾成可執行指令集
+
+    [:octicons-arrow-right-24: 閱讀筆記](khazix-skills.md)
+
 -   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-trader.md)
-
--   :material-spider-web:{{ .lg .middle }} **Scrapling**
-
-    ---
-
-    `2026-04-15` 自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server
-
-    [:octicons-arrow-right-24: 閱讀筆記](scrapling.md)
 
 </div>
 
@@ -555,6 +555,14 @@
     12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
 
     [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
+
+-   :material-account-voice:{{ .lg .middle }} **khazix-skills**
+
+    ---
+
+    数字生命卡兹克開源個人 AI 方法論 — 14 天 5.4K stars，1 個 Prompt + 2 個 Skill 把寫作風格與研究框架蒸餾成可執行指令集
+
+    [:octicons-arrow-right-24: 閱讀筆記](khazix-skills.md)
 
 -   :material-lightning-bolt:{{ .lg .middle }} **Lightpanda Browser**
 

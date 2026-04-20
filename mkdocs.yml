@@ -123,6 +123,7 @@ nav:
       - Context Hub: context-hub.md
       - Claude Skills Guide: claude-skills-guide.md
       - KC AI Skills: kc-ai-skills.md
+      - khazix-skills: khazix-skills.md
       - Lightpanda Browser: lightpanda-browser.md
       - GitHub Copilot CLI: copilot-cli.md
       - GitHub Copilot Configs: github-copilot-configs.md
