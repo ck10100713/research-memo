@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-palette-swatch:{{ .lg .middle }} **design-md-chrome**
+
+    ---
+
+    `2026-04-21` Chrome 擴充套件，一鍵擷取任意網站設計系統生成 DESIGN.md / SKILL.md，7 天 756 stars，TypeUI 生態系的瀏覽器前端
+
+    [:octicons-arrow-right-24: 閱讀筆記](design-md-chrome.md)
+
 -   :material-hammer-wrench:{{ .lg .middle }} **gstack**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
 
     [:octicons-arrow-right-24: 閱讀筆記](wshobson-agents.md)
-
--   :material-school:{{ .lg .middle }} **AI Engineering from Scratch**
-
-    ---
-
-    `2026-04-15` 從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-from-scratch.md)
 
 </div>
 
@@ -523,6 +523,14 @@
     用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務
 
     [:octicons-arrow-right-24: 閱讀筆記](dispatch.md)
+
+-   :material-palette-swatch:{{ .lg .middle }} **design-md-chrome**
+
+    ---
+
+    Chrome 擴充套件，一鍵擷取任意網站設計系統生成 DESIGN.md / SKILL.md，7 天 756 stars，TypeUI 生態系的瀏覽器前端
+
+    [:octicons-arrow-right-24: 閱讀筆記](design-md-chrome.md)
 
 -   :material-dna:{{ .lg .middle }} **dot-skill**
 
