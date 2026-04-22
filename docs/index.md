@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-console:{{ .lg .middle }} **Better Agent Terminal**
+
+    ---
+
+    `2026-04-22` tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](better-agent-terminal.md)
+
 -   :material-palette-swatch:{{ .lg .middle }} **design-md-chrome**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-design-systems.md)
-
--   :material-account-supervisor:{{ .lg .middle }} **wshobson/agents**
-
-    ---
-
-    `2026-04-15` 77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
-
-    [:octicons-arrow-right-24: 閱讀筆記](wshobson-agents.md)
 
 </div>
 
@@ -347,6 +347,14 @@
     58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-design-md.md)
+
+-   :material-console:{{ .lg .middle }} **Better Agent Terminal**
+
+    ---
+
+    tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](better-agent-terminal.md)
 
 -   :material-airplane-takeoff:{{ .lg .middle }} **App Store Preflight Skills**
 
