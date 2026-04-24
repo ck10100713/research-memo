@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
+
+    ---
+
+    `2026-04-24` 13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
 -   :material-school:{{ .lg .middle }} **MCP for Beginners**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-16` 逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
 
     [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
-
--   :material-cellphone-link:{{ .lg .middle }} **WebToApp**
-
-    ---
-
-    `2026-04-15` 在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
-
-    [:octicons-arrow-right-24: 閱讀筆記](web-to-app.md)
 
 </div>
 
@@ -768,7 +768,7 @@
 
     ---
 
-    12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
+    13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
 

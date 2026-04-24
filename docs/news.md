@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-24 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
 | 2026-04-24 | 學習資源 | [MCP for Beginners](mcp-for-beginners.md) |
 | 2026-04-22 | Coding Agent 工具 | [Better Agent Terminal](better-agent-terminal.md) |
 | 2026-04-21 | Coding Agent 工具 | [design-md-chrome](design-md-chrome.md) |
@@ -96,7 +97,6 @@
 | 2026-03-29 | 量化交易 | [Prediction Market Analysis](prediction-market-analysis.md) |
 | 2026-03-29 | 量化交易 | [NOFX](nofx.md) |
 | 2026-03-29 | 開發工具 | [Pretext](pretext.md) |
-| 2026-03-29 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
 | 2026-03-29 | 量化交易 | [pmxt](pmxt.md) |
 | 2026-03-29 | 量化交易 | [The Alchemy of Multibagger Stocks](multibagger-stocks.md) |
 | 2026-03-27 | AI 創作資源 | [Uniform Map AI Prompts Database](uniform-map-prompts.md) |
@@ -143,6 +143,8 @@
 
 #### 04 月
 
+- `2026-04-24` [AI Hedge Fund](ai-hedge-fund.md)  
+  13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 - `2026-04-24` [MCP for Beginners](mcp-for-beginners.md)  
   微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
 - `2026-04-22` [Better Agent Terminal](better-agent-terminal.md)  
@@ -322,8 +324,6 @@
   Go 撰寫的全自主 AI 交易助理，x402 USDC 微支付取代 API key，連接 9 個交易所執行真實訂單
 - `2026-03-29` [Pretext](pretext.md)  
   Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
-- `2026-03-29` [AI Hedge Fund](ai-hedge-fund.md)  
-  12 位傳奇投資人 AI 分身協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統
 - `2026-03-29` [pmxt](pmxt.md)  
   預測市場的 CCXT — 統一 API 連接 7 個交易所（Polymarket/Kalshi 等），Sidecar + OpenAPI 雙語言 SDK
 - `2026-03-29` [The Alchemy of Multibagger Stocks](multibagger-stocks.md)  
