@@ -186,6 +186,7 @@ nav:
       - pyWhat: pywhat.md
   - 開發工具:
       - MCP Toolbox for Databases: mcp-toolbox.md
+      - Mole: mole.md
       - Optuna: optuna.md
       - Pretext: pretext.md
       - Scrapling: scrapling.md

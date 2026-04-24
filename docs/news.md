@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-04-24 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
 | 2026-04-24 | 學習資源 | [MCP for Beginners](mcp-for-beginners.md) |
+| 2026-04-24 | 開發工具 | [Mole](mole.md) |
 | 2026-04-22 | Coding Agent 工具 | [Better Agent Terminal](better-agent-terminal.md) |
 | 2026-04-21 | Coding Agent 工具 | [design-md-chrome](design-md-chrome.md) |
 | 2026-04-20 | Coding Agent 工具 | [gstack](gstack.md) |
@@ -147,6 +148,8 @@
   13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 - `2026-04-24` [MCP for Beginners](mcp-for-beginners.md)  
   微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
+- `2026-04-24` [Mole](mole.md)  
+  tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源
 - `2026-04-22` [Better Agent Terminal](better-agent-terminal.md)  
   tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
 - `2026-04-21` [design-md-chrome](design-md-chrome.md)  
@@ -448,7 +451,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### 學習資源
 

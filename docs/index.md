@@ -26,6 +26,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-for-beginners.md)
 
+-   :material-broom:{{ .lg .middle }} **Mole**
+
+    ---
+
+    `2026-04-24` tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源
+
+    [:octicons-arrow-right-24: 閱讀筆記](mole.md)
+
 -   :material-console:{{ .lg .middle }} **Better Agent Terminal**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-16` 263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本
 
     [:octicons-arrow-right-24: 閱讀筆記](asgard-skills.md)
-
--   :material-fingerprint-off:{{ .lg .middle }} **reverse-SynthID**
-
-    ---
-
-    `2026-04-16` 逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
-
-    [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
 
 </div>
 
@@ -1059,6 +1059,14 @@
     Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-toolbox.md)
+
+-   :material-broom:{{ .lg .middle }} **Mole**
+
+    ---
+
+    tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源
+
+    [:octicons-arrow-right-24: 閱讀筆記](mole.md)
 
 -   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
 
