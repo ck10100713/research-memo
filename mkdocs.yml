@@ -204,6 +204,7 @@ nav:
       - dotLLM: dotllm.md
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md
+      - MCP for Beginners: mcp-for-beginners.md
       - OpenAI Agent 建構指南: openai-practical-guide-building-agents.md
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md

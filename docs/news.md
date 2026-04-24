@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-04-24 | 學習資源 | [MCP for Beginners](mcp-for-beginners.md) |
 | 2026-04-22 | Coding Agent 工具 | [Better Agent Terminal](better-agent-terminal.md) |
 | 2026-04-21 | Coding Agent 工具 | [design-md-chrome](design-md-chrome.md) |
 | 2026-04-20 | Coding Agent 工具 | [gstack](gstack.md) |
@@ -142,6 +143,8 @@
 
 #### 04 月
 
+- `2026-04-24` [MCP for Beginners](mcp-for-beginners.md)  
+  微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
 - `2026-04-22` [Better Agent Terminal](better-agent-terminal.md)  
   tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
 - `2026-04-21` [design-md-chrome](design-md-chrome.md)  
@@ -449,4 +452,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)
+[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)

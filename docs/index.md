@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-school:{{ .lg .middle }} **MCP for Beginners**
+
+    ---
+
+    `2026-04-24` 微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcp-for-beginners.md)
+
 -   :material-console:{{ .lg .middle }} **Better Agent Terminal**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-15` 在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
 
     [:octicons-arrow-right-24: 閱讀筆記](web-to-app.md)
-
--   :material-palette-swatch:{{ .lg .middle }} **Awesome Design Systems**
-
-    ---
-
-    `2026-04-15` 200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府
-
-    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-systems.md)
 
 </div>
 
@@ -1203,6 +1203,14 @@
     LLM 學習課程資源
 
     [:octicons-arrow-right-24: 閱讀筆記](llm-course.md)
+
+-   :material-school:{{ .lg .middle }} **MCP for Beginners**
+
+    ---
+
+    微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](mcp-for-beginners.md)
 
 -   :material-book-open-variant:{{ .lg .middle }} **OpenAI: A Practical Guide to Building Agents**
 
