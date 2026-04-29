@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-presentation:{{ .lg .middle }} **Claude Slide Editor**
+
+    ---
+
+    `2026-04-29` garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭
+
+    [:octicons-arrow-right-24: 閱讀筆記](slide-editor.md)
+
 -   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-16` Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars
 
     [:octicons-arrow-right-24: 閱讀筆記](andrej-karpathy-skills.md)
-
--   :material-bookshelf:{{ .lg .middle }} **Asgard Skills**
-
-    ---
-
-    `2026-04-16` 263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本
-
-    [:octicons-arrow-right-24: 閱讀筆記](asgard-skills.md)
 
 </div>
 
@@ -731,6 +731,14 @@
     Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills
 
     [:octicons-arrow-right-24: 閱讀筆記](slavingia-skills.md)
+
+-   :material-presentation:{{ .lg .middle }} **Claude Slide Editor**
+
+    ---
+
+    garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭
+
+    [:octicons-arrow-right-24: 閱讀筆記](slide-editor.md)
 
 -   :material-shield-star:{{ .lg .middle }} **Superpowers**
 
