@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-05 | AI 應用 | [FlyAI Skill](flyai-skill.md) |
 | 2026-04-29 | Coding Agent 工具 | [Claude Slide Editor](slide-editor.md) |
 | 2026-04-24 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
 | 2026-04-24 | 學習資源 | [MCP for Beginners](mcp-for-beginners.md) |
@@ -142,6 +143,11 @@
 ## 按年份 / 月份
 
 ### 2026 年
+
+#### 05 月
+
+- `2026-05-05` [FlyAI Skill](flyai-skill.md)  
+  阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
 
 #### 04 月
 
@@ -446,7 +452,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-airplane:{{ .lg .middle }} **FlyAI Skill**
+
+    ---
+
+    `2026-05-05` 阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](flyai-skill.md)
+
 -   :material-presentation:{{ .lg .middle }} **Claude Slide Editor**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-17` 蒸餾任何人的思維方式 — 6 路並行調研 → 三重驗證 → 心智模型 + 決策啟發式 + 表達 DNA，11.8K stars
 
     [:octicons-arrow-right-24: 閱讀筆記](nuwa-skill.md)
-
--   :material-shield-check:{{ .lg .middle }} **andrej-karpathy-skills**
-
-    ---
-
-    `2026-04-16` Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](andrej-karpathy-skills.md)
 
 </div>
 
@@ -971,6 +971,14 @@
     開源即時 AI 換臉工具 — 單張照片即可驅動
 
     [:octicons-arrow-right-24: 閱讀筆記](deep-live-cam.md)
+
+-   :material-airplane:{{ .lg .middle }} **FlyAI Skill**
+
+    ---
+
+    阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](flyai-skill.md)
 
 -   :material-airplane-search:{{ .lg .middle }} **ITA Matrix 機票搜尋引擎**
 
