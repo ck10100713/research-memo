@@ -42,6 +42,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
 
+-   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
+
+    ---
+
+    `2026-05-07` Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
+
+    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
+
 -   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
-
--   :material-dna:{{ .lg .middle }} **dot-skill**
-
-    ---
-
-    `2026-04-20` 上海 AI Lab × titanwings 出品，從 colleague.skill 升級的通用人物蒸餾器 — 21 天衝 15.5K stars，三家族 × 四宿主把任何人變 AI Skill
-
-    [:octicons-arrow-right-24: 閱讀筆記](dot-skill.md)
 
 </div>
 
@@ -803,6 +803,14 @@
     Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
 
     [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
+
+-   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
+
+    ---
+
+    Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
+
+    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
 
 -   :material-chart-line:{{ .lg .middle }} **Kronos**
 

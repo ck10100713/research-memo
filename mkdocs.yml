@@ -154,6 +154,7 @@ nav:
       - AI Hedge Fund: ai-hedge-fund.md
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
+      - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - Kronos: kronos.md
       - NOFX: nofx.md
       - OpenStock: openstock.md
