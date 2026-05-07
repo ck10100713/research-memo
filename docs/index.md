@@ -50,6 +50,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-with-transaction-costs.md)
 
+-   :material-function-variant:{{ .lg .middle }} **On Feedback Control in Kelly Betting: An Approximation Approach**
+
+    ---
+
+    `2026-05-07` Hsieh 2020 CCTA：Kelly betting 用 Taylor 近似化為 quadratic programming，得到閉式近似解，並分析績效、變異數、survivability 等性質
+
+    [:octicons-arrow-right-24: 閱讀筆記](feedback-control-kelly-betting-approximation.md)
+
 -   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Gubner × Barmish 2018 CDC：把再平衡頻率明確當參數放進 Kelly-optimal 框架，證明 dominant 條件下績效對頻率為常數函數，HFT 不必然改善
 
     [:octicons-arrow-right-24: 閱讀筆記](rebalancing-frequency-kelly-portfolios.md)
-
--   :material-timer-sand:{{ .lg .middle }} **The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
-
-    [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
 
 </div>
 
@@ -851,6 +851,14 @@
     Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
 
     [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
+
+-   :material-function-variant:{{ .lg .middle }} **On Feedback Control in Kelly Betting: An Approximation Approach**
+
+    ---
+
+    Hsieh 2020 CCTA：Kelly betting 用 Taylor 近似化為 quadratic programming，得到閉式近似解，並分析績效、變異數、survivability 等性質
+
+    [:octicons-arrow-right-24: 閱讀筆記](feedback-control-kelly-betting-approximation.md)
 
 -   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
 
