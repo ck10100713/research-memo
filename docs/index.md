@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-speedometer:{{ .lg .middle }} **On Accelerating Large-Scale Robust Portfolio Optimization**
+
+    ---
+
+    `2026-05-07` Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
+
+    [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
+
 -   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-17` Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-cookbooks.md)
-
--   :material-brain:{{ .lg .middle }} **Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧**
-
-    ---
-
-    `2026-04-17` Claude Code 創辦人 Boris Cherny 在 Opus 4.7 發表當天公開的 6 個生產力技巧與行為差異全解析
-
-    [:octicons-arrow-right-24: 閱讀筆記](boris-cherny-opus-4-7.md)
 
 </div>
 
@@ -771,6 +771,14 @@
 ## 量化交易
 
 <div class="grid cards" markdown>
+
+-   :material-speedometer:{{ .lg .middle }} **On Accelerating Large-Scale Robust Portfolio Optimization**
+
+    ---
+
+    Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
+
+    [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
 
 -   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
 
