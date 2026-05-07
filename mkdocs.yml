@@ -156,6 +156,7 @@ nav:
       - OpenStock: openstock.md
       - pmxt: pmxt.md
       - Prediction Market Analysis: prediction-market-analysis.md
+      - Robust Trading in Lattice Market: robust-trading-lattice-market.md
       - The Alchemy of Multibagger Stocks: multibagger-stocks.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md

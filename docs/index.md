@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
+
+    ---
+
+    `2026-05-07` Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-trading-lattice-market.md)
+
 -   :material-airplane:{{ .lg .middle }} **FlyAI Skill**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-17` Claude Code 創辦人 Boris Cherny 在 Opus 4.7 發表當天公開的 6 個生產力技巧與行為差異全解析
 
     [:octicons-arrow-right-24: 閱讀筆記](boris-cherny-opus-4-7.md)
-
--   :material-head-lightbulb:{{ .lg .middle }} **女娲.skill（nuwa-skill）**
-
-    ---
-
-    `2026-04-17` 蒸餾任何人的思維方式 — 6 路並行調研 → 三重驗證 → 心智模型 + 決策啟發式 + 表達 DNA，11.8K stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](nuwa-skill.md)
 
 </div>
 
@@ -819,6 +819,14 @@
     2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
 
     [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
+-   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
+
+    ---
+
+    Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-trading-lattice-market.md)
 
 -   :material-chart-areaspline:{{ .lg .middle }} **The Alchemy of Multibagger Stocks**
 

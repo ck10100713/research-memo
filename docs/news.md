@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-07 | 量化交易 | [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md) |
 | 2026-05-05 | AI 應用 | [FlyAI Skill](flyai-skill.md) |
 | 2026-04-29 | Coding Agent 工具 | [Claude Slide Editor](slide-editor.md) |
 | 2026-04-24 | 量化交易 | [AI Hedge Fund](ai-hedge-fund.md) |
@@ -146,6 +147,8 @@
 
 #### 05 月
 
+- `2026-05-07` [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)  
+  Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
 - `2026-05-05` [FlyAI Skill](flyai-skill.md)  
   阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
 
@@ -440,7 +443,7 @@
 
 ### 量化交易
 
-[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
+[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
