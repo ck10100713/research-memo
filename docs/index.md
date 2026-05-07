@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
 
+-   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
+
+    ---
+
+    `2026-05-07` Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
+
+    [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
+
 -   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` 上海 AI Lab × titanwings 出品，從 colleague.skill 升級的通用人物蒸餾器 — 21 天衝 15.5K stars，三家族 × 四宿主把任何人變 AI Skill
 
     [:octicons-arrow-right-24: 閱讀筆記](dot-skill.md)
-
--   :material-account-group:{{ .lg .middle }} **my-claude-devteam**
-
-    ---
-
-    `2026-04-20` 台灣交大 NYCU-Chung 作品，把 Claude Code 變成 12 人工程團隊，9 天衝 218 stars 的 P7/P9/P10 企業職級方法論
-
-    [:octicons-arrow-right-24: 閱讀筆記](my-claude-devteam.md)
 
 </div>
 
@@ -787,6 +787,14 @@
     13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
+-   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
+
+    ---
+
+    Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
+
+    [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
 
 -   :material-cash-multiple:{{ .lg .middle }} **On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio**
 
