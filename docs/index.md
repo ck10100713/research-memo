@@ -82,6 +82,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
 
+-   :material-shield-check:{{ .lg .middle }} **On Drawdown-Modulated Feedback Control in Stock Trading**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish 2017 IFAC：Drawdown Modulation Lemma 刻畫「以機率 1 維持 max drawdown 上限」的投資族，並在此族內最大化 Kelly ELG，給出 drawdown-constrained Kelly 的最佳投資
+
+    [:octicons-arrow-right-24: 閱讀筆記](drawdown-modulated-stock-trading.md)
+
 -   :material-dice-multiple:{{ .lg .middle }} **At What Frequency Should the Kelly Bettor Bet?**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-trading-lattice-market.md)
-
--   :material-airplane:{{ .lg .middle }} **FlyAI Skill**
-
-    ---
-
-    `2026-05-05` 阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](flyai-skill.md)
 
 </div>
 
@@ -827,6 +827,14 @@
     Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
+
+-   :material-shield-check:{{ .lg .middle }} **On Drawdown-Modulated Feedback Control in Stock Trading**
+
+    ---
+
+    Hsieh × Barmish 2017 IFAC：Drawdown Modulation Lemma 刻畫「以機率 1 維持 max drawdown 上限」的投資族，並在此族內最大化 Kelly ELG，給出 drawdown-constrained Kelly 的最佳投資
+
+    [:octicons-arrow-right-24: 閱讀筆記](drawdown-modulated-stock-trading.md)
 
 -   :material-timer-sand:{{ .lg .middle }} **The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold**
 

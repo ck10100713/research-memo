@@ -157,6 +157,7 @@ nav:
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md
       - DLP with Transaction Costs: dlp-with-transaction-costs.md
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
+      - Drawdown-Modulated Stock Trading: drawdown-modulated-stock-trading.md
       - Execution Delay on Kelly Trading: execution-delay-kelly-trading.md
       - Frequency-Based Kelly Optimal Portfolio: frequency-based-kelly-portfolio.md
       - Kelly Bettor Frequency: kelly-bettor-frequency.md
