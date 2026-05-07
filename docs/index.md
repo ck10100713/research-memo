@@ -66,6 +66,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
 
+-   :material-format-vertical-align-bottom:{{ .lg .middle }} **Kelly Betting Can Be Too Conservative**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
+
 -   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2022 / 2025 修訂：DLP 結構派的源頭論文，把 semi-infinite constraints 化成 balanced / complementary 兩種結構策略，廣義化 mean-variance 並提供圖形求解法
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
-
--   :material-sync:{{ .lg .middle }} **Rebalancing Frequency Considerations for Kelly-Optimal Stock Portfolios in a Control-Theoretic Framework**
-
-    ---
-
-    `2026-05-07` Hsieh × Gubner × Barmish 2018 CDC：把再平衡頻率明確當參數放進 Kelly-optimal 框架，證明 dominant 條件下績效對頻率為常數函數，HFT 不必然改善
-
-    [:octicons-arrow-right-24: 閱讀筆記](rebalancing-frequency-kelly-portfolios.md)
 
 </div>
 
@@ -875,6 +875,14 @@
     Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
+
+-   :material-format-vertical-align-bottom:{{ .lg .middle }} **Kelly Betting Can Be Too Conservative**
+
+    ---
+
+    Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
 
 -   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
 
