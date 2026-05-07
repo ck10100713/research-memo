@@ -159,6 +159,7 @@ nav:
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
       - Execution Delay on Kelly Trading: execution-delay-kelly-trading.md
       - Frequency-Based Kelly Optimal Portfolio: frequency-based-kelly-portfolio.md
+      - Kelly Bettor Frequency: kelly-bettor-frequency.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - Kronos: kronos.md
       - NOFX: nofx.md

@@ -74,6 +74,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
 
+-   :material-dice-multiple:{{ .lg .middle }} **At What Frequency Should the Kelly Bettor Bet?**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
+
 -   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-29` garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭
 
     [:octicons-arrow-right-24: 閱讀筆記](slide-editor.md)
-
--   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
-
-    ---
-
-    `2026-04-24` 13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
 
 </div>
 
@@ -843,6 +843,14 @@
     Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
 
     [:octicons-arrow-right-24: 閱讀筆記](frequency-based-kelly-portfolio.md)
+
+-   :material-dice-multiple:{{ .lg .middle }} **At What Frequency Should the Kelly Bettor Bet?**
+
+    ---
+
+    Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
 
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 
