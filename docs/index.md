@@ -98,6 +98,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-limitations.md)
 
+-   :material-trending-neutral:{{ .lg .middle }} **Compounding Effects in Leveraged ETFs: Beyond the Volatility Drag Paradigm**
+
+    ---
+
+    `2026-05-07` Hsieh × Chang × Chen 2025：挑戰「LETF 必受 volatility drag」教條，AR(1) + AR-GARCH + regime switching 分析顯示獨立報酬下 LETF 可正複利、動能市每日再平衡有利、均值回復期低頻再平衡反而保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](leveraged-etf-compounding.md)
+
 -   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
-
--   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
-
-    ---
-
-    `2026-05-07` Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
-
-    [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
 
 </div>
 
@@ -891,6 +891,14 @@
     Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
+
+-   :material-trending-neutral:{{ .lg .middle }} **Compounding Effects in Leveraged ETFs: Beyond the Volatility Drag Paradigm**
+
+    ---
+
+    Hsieh × Chang × Chen 2025：挑戰「LETF 必受 volatility drag」教條，AR(1) + AR-GARCH + regime switching 分析顯示獨立報酬下 LETF 可正複利、動能市每日再平衡有利、均值回復期低頻再平衡反而保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](leveraged-etf-compounding.md)
 
 -   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
 
