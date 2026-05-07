@@ -66,6 +66,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
 
+-   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
+
+    ---
+
+    `2026-05-07` Li × Hsieh 2023：把 dynamic Black-Litterman + 因子模型 + Elastic Net + 動態 sliding window 整合成一個 adaptive portfolio 框架，S&P 500 前 100 大十年實證含 turnover 成本仍有效
+
+    [:octicons-arrow-right-24: 閱讀筆記](unified-adaptive-portfolio-management.md)
+
 -   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
 
     [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
-
--   :material-school:{{ .lg .middle }} **A Jump Start to Stock Trading Research for the Uninitiated Control Scientist: A Tutorial**
-
-    ---
-
-    `2026-05-07` Barmish × Formentin × Hsieh × Proskurnikov × Warnick 2024 CDC tutorial：寫給控制論研究者的股票交易入門指南，把交易研究的核心問題、方法論、未解難題系統性地展示給 control 社群
-
-    [:octicons-arrow-right-24: 閱讀筆記](jump-start-stock-trading-tutorial.md)
 
 </div>
 
@@ -971,6 +971,14 @@
     464 支美股 10-bagger 實證研究：FCF/P 是最強因子、EPS 成長不顯著、動量呈反轉型態（CAFE Working Paper No.33）
 
     [:octicons-arrow-right-24: 閱讀筆記](multibagger-stocks.md)
+
+-   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
+
+    ---
+
+    Li × Hsieh 2023：把 dynamic Black-Litterman + 因子模型 + Elastic Net + 動態 sliding window 整合成一個 adaptive portfolio 框架，S&P 500 前 100 大十年實證含 turnover 成本仍有效
+
+    [:octicons-arrow-right-24: 閱讀筆記](unified-adaptive-portfolio-management.md)
 
 -   :material-chart-bar:{{ .lg .middle }} **StockStats**
 
