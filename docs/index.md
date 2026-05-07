@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
 
+-   :material-cash-minus:{{ .lg .middle }} **On Robustness of Double Linear Trading with Transaction Costs**
+
+    ---
+
+    `2026-05-07` Hsieh 2022 L-CSS：DLP 加上交易成本後 robust positive expected gain 可能消失，本篇給出保留正期望的條件、用 GBM with jumps 模擬與 BTC-USD 回測驗證
+
+    [:octicons-arrow-right-24: 閱讀筆記](dlp-with-transaction-costs.md)
+
 -   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援
 
     [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
-
--   :material-pencil-ruler:{{ .lg .middle }} **Claude Design 系統提示詞**
-
-    ---
-
-    `2026-04-20` Anthropic 新推出的「設計專用 Claude」完整中文系統提示詞 — 用 HTML 做設計交付，具備 Tweaks、Starter Components、Verifier 與反 AI slop 的完整工程骨架
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-design.md)
 
 </div>
 
@@ -811,6 +811,14 @@
     Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
+
+-   :material-cash-minus:{{ .lg .middle }} **On Robustness of Double Linear Trading with Transaction Costs**
+
+    ---
+
+    Hsieh 2022 L-CSS：DLP 加上交易成本後 robust positive expected gain 可能消失，本篇給出保留正期望的條件、用 GBM with jumps 模擬與 BTC-USD 回測驗證
+
+    [:octicons-arrow-right-24: 閱讀筆記](dlp-with-transaction-costs.md)
 
 -   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
 
