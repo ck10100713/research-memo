@@ -82,6 +82,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
 
+-   :material-source-branch:{{ .lg .middle }} **From Semi-Infinite Constraints to Structured Robust Policies: Optimal Gain Selection for Financial Systems**
+
+    ---
+
+    `2026-05-07` Hsieh 2022 / 2025 修訂：DLP 結構派的源頭論文，把 semi-infinite constraints 化成 balanced / complementary 兩種結構策略，廣義化 mean-variance 並提供圖形求解法
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
+
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-24` tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源
 
     [:octicons-arrow-right-24: 閱讀筆記](mole.md)
-
--   :material-console:{{ .lg .middle }} **Better Agent Terminal**
-
-    ---
-
-    `2026-04-22` tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](better-agent-terminal.md)
 
 </div>
 
@@ -891,6 +891,14 @@
     Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-log-optimal-hyperplane.md)
+
+-   :material-source-branch:{{ .lg .middle }} **From Semi-Infinite Constraints to Structured Robust Policies: Optimal Gain Selection for Financial Systems**
+
+    ---
+
+    Hsieh 2022 / 2025 修訂：DLP 結構派的源頭論文，把 semi-infinite constraints 化成 balanced / complementary 兩種結構策略，廣義化 mean-variance 並提供圖形求解法
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
 
 -   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
 

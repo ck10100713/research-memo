@@ -165,6 +165,7 @@ nav:
       - pmxt: pmxt.md
       - Prediction Market Analysis: prediction-market-analysis.md
       - Robust Log-Optimal Hyperplane: robust-log-optimal-hyperplane.md
+      - Robust Optimal Linear Feedback Trading: robust-optimal-linear-feedback-trading.md
       - Robust Trading in Lattice Market: robust-trading-lattice-market.md
       - Sliding Window Log-Optimal Portfolio: sliding-window-log-optimal-portfolio.md
       - The Alchemy of Multibagger Stocks: multibagger-stocks.md
