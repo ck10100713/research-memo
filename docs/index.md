@@ -90,6 +90,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
 
+-   :material-sync:{{ .lg .middle }} **Rebalancing Frequency Considerations for Kelly-Optimal Stock Portfolios in a Control-Theoretic Framework**
+
+    ---
+
+    `2026-05-07` Hsieh × Gubner × Barmish 2018 CDC：把再平衡頻率明確當參數放進 Kelly-optimal 框架，證明 dominant 條件下績效對頻率為常數函數，HFT 不必然改善
+
+    [:octicons-arrow-right-24: 閱讀筆記](rebalancing-frequency-kelly-portfolios.md)
+
 -   :material-timer-sand:{{ .lg .middle }} **The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-24` 13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
-
--   :material-school:{{ .lg .middle }} **MCP for Beginners**
-
-    ---
-
-    `2026-04-24` 微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](mcp-for-beginners.md)
 
 </div>
 
@@ -891,6 +891,14 @@
     2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
 
     [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
+-   :material-sync:{{ .lg .middle }} **Rebalancing Frequency Considerations for Kelly-Optimal Stock Portfolios in a Control-Theoretic Framework**
+
+    ---
+
+    Hsieh × Gubner × Barmish 2018 CDC：把再平衡頻率明確當參數放進 Kelly-optimal 框架，證明 dominant 條件下績效對頻率為常數函數，HFT 不必然改善
+
+    [:octicons-arrow-right-24: 閱讀筆記](rebalancing-frequency-kelly-portfolios.md)
 
 -   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
 
