@@ -948,6 +948,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](rebalancing-frequency-kelly-portfolios.md)
 
+-   :material-decision-tree:{{ .lg .middle }} **On Risk-Sensitive Decision Making Under Uncertainty**
+
+    ---
+
+    Hsieh × Wong 2025 ACC：固定階段、含確定與隨機選項的 risk-sensitive 多階段決策，導出最佳性必要條件，示範用於最佳押注與庫存管理
+
+    [:octicons-arrow-right-24: 閱讀筆記](risk-sensitive-decision-making.md)
+
 -   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
 
     ---

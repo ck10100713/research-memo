@@ -172,6 +172,7 @@ nav:
       - pmxt: pmxt.md
       - Prediction Market Analysis: prediction-market-analysis.md
       - Rebalancing Frequency for Kelly Portfolios: rebalancing-frequency-kelly-portfolios.md
+      - Risk-Sensitive Decision Making: risk-sensitive-decision-making.md
       - Robust Log-Optimal Hyperplane: robust-log-optimal-hyperplane.md
       - Robust Optimal Linear Feedback Trading: robust-optimal-linear-feedback-trading.md
       - Robust Trading in Lattice Market: robust-trading-lattice-market.md
