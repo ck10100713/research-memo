@@ -90,6 +90,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](affine-feedback-stop-loss.md)
 
+-   :material-alert-circle:{{ .lg .middle }} **On Kelly Betting: Some Limitations**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish 2015 Allerton：Kelly 系列研究的開山批判篇—點出 Taylor 近似失準與 drawdown 過大兩個 Kelly 主結論的限制，定調作者後續整條 Kelly 研究線的問題清單
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-limitations.md)
+
 -   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
-
--   :material-source-branch:{{ .lg .middle }} **From Semi-Infinite Constraints to Structured Robust Policies: Optimal Gain Selection for Financial Systems**
-
-    ---
-
-    `2026-05-07` Hsieh 2022 / 2025 修訂：DLP 結構派的源頭論文，把 semi-infinite constraints 化成 balanced / complementary 兩種結構策略，廣義化 mean-variance 並提供圖形求解法
-
-    [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
 
 </div>
 
@@ -875,6 +875,14 @@
     Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
+
+-   :material-alert-circle:{{ .lg .middle }} **On Kelly Betting: Some Limitations**
+
+    ---
+
+    Hsieh × Barmish 2015 Allerton：Kelly 系列研究的開山批判篇—點出 Taylor 近似失準與 drawdown 過大兩個 Kelly 主結論的限制，定調作者後續整條 Kelly 研究線的問題清單
+
+    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-limitations.md)
 
 -   :material-format-vertical-align-bottom:{{ .lg .middle }} **Kelly Betting Can Be Too Conservative**
 
