@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
+
+    ---
+
+    `2026-05-07` Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-log-optimal-hyperplane.md)
+
 -   :material-speedometer:{{ .lg .middle }} **On Accelerating Large-Scale Robust Portfolio Optimization**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` 数字生命卡兹克開源個人 AI 方法論 — 14 天 5.4K stars，1 個 Prompt + 2 個 Skill 把寫作風格與研究框架蒸餾成可執行指令集
 
     [:octicons-arrow-right-24: 閱讀筆記](khazix-skills.md)
-
--   :material-notebook-multiple:{{ .lg .middle }} **Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫**
-
-    ---
-
-    `2026-04-17` Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-cookbooks.md)
 
 </div>
 
@@ -827,6 +827,14 @@
     2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
 
     [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
+-   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
+
+    ---
+
+    Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
+
+    [:octicons-arrow-right-24: 閱讀筆記](robust-log-optimal-hyperplane.md)
 
 -   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
 
