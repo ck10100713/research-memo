@@ -74,6 +74,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
 
+-   :material-help-circle-outline:{{ .lg .middle }} **Asset Pricing Theory with Ambiguity（工作中 working paper）**
+
+    ---
+
+    `2026-05-07` Hsieh × Po-Hsuan Hsu 工作中：把 ambiguity（Knightian 不確定性）放進資產定價框架，預期接續作者整條 distributionally robust 路線推到 pricing 層級
+
+    [:octicons-arrow-right-24: 閱讀筆記](asset-pricing-with-ambiguity.md)
+
 -   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish 2017 IFAC：Drawdown Modulation Lemma 刻畫「以機率 1 維持 max drawdown 上限」的投資族，並在此族內最大化 Kelly ELG，給出 drawdown-constrained Kelly 的最佳投資
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-modulated-stock-trading.md)
-
--   :material-dice-multiple:{{ .lg .middle }} **At What Frequency Should the Kelly Bettor Bet?**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
-
-    [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
 
 </div>
 
@@ -795,6 +795,14 @@
     13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
+-   :material-help-circle-outline:{{ .lg .middle }} **Asset Pricing Theory with Ambiguity（工作中 working paper）**
+
+    ---
+
+    Hsieh × Po-Hsuan Hsu 工作中：把 ambiguity（Knightian 不確定性）放進資產定價框架，預期接續作者整條 distributionally robust 路線推到 pricing 層級
+
+    [:octicons-arrow-right-24: 閱讀筆記](asset-pricing-with-ambiguity.md)
 
 -   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
 
