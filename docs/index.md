@@ -66,6 +66,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
 
+-   :material-stop-circle:{{ .lg .middle }} **Generalization of Affine Feedback Stock Trading Results to Include Stop-Loss Orders**
+
+    ---
+
+    `2026-05-07` Hsieh 2022 Automatica：把 affine feedback stock trading 結果擴張至含 stop-loss 訂單，GBM 下給出累積 P&L 的閉式 CDF，含 stop-loss 涵蓋無 stop 為特例
+
+    [:octicons-arrow-right-24: 閱讀筆記](affine-feedback-stop-loss.md)
+
 -   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
 
     [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
-
--   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
-
-    ---
-
-    `2026-05-07` Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
-
-    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
 
 </div>
 
@@ -779,6 +779,14 @@
     Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
 
     [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
+
+-   :material-stop-circle:{{ .lg .middle }} **Generalization of Affine Feedback Stock Trading Results to Include Stop-Loss Orders**
+
+    ---
+
+    Hsieh 2022 Automatica：把 affine feedback stock trading 結果擴張至含 stop-loss 訂單，GBM 下給出累積 P&L 的閉式 CDF，含 stop-loss 涵蓋無 stop 為特例
+
+    [:octicons-arrow-right-24: 閱讀筆記](affine-feedback-stop-loss.md)
 
 -   :material-bank:{{ .lg .middle }} **AI Hedge Fund**
 

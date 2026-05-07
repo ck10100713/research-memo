@@ -151,6 +151,7 @@ nav:
       - wshobson agents: wshobson-agents.md
   - 量化交易:
       - Accelerating Robust Portfolio: accelerating-robust-portfolio-optimization.md
+      - Affine Feedback Stop-Loss: affine-feedback-stop-loss.md
       - AI Hedge Fund: ai-hedge-fund.md
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
