@@ -90,6 +90,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-optimal-linear-feedback-trading.md)
 
+-   :material-timer-sand:{{ .lg .middle }} **The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
+
+    [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
+
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-24` 微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars
 
     [:octicons-arrow-right-24: 閱讀筆記](mcp-for-beginners.md)
-
--   :material-broom:{{ .lg .middle }} **Mole**
-
-    ---
-
-    `2026-04-24` tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源
-
-    [:octicons-arrow-right-24: 閱讀筆記](mole.md)
 
 </div>
 
@@ -827,6 +827,14 @@
     Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
+
+-   :material-timer-sand:{{ .lg .middle }} **The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold**
+
+    ---
+
+    Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
+
+    [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
 
 -   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
 
