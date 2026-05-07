@@ -58,6 +58,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
 
+-   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
+
+    ---
+
+    `2026-05-07` Hsieh × Barmish 2017 CDC：以 drawdown 取代 variance 當風險指標時，古典 Markowitz LTI 反饋策略不效率，drawdown modulator 時變反饋以機率 1 提供 worst-case drawdown 保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
+
 -   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-05` 阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars
 
     [:octicons-arrow-right-24: 閱讀筆記](flyai-skill.md)
-
--   :material-presentation:{{ .lg .middle }} **Claude Slide Editor**
-
-    ---
-
-    `2026-04-29` garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭
-
-    [:octicons-arrow-right-24: 閱讀筆記](slide-editor.md)
 
 </div>
 
@@ -851,6 +851,14 @@
     Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-bettor-frequency.md)
+
+-   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
+
+    ---
+
+    Hsieh × Barmish 2017 CDC：以 drawdown 取代 variance 當風險指標時，古典 Markowitz LTI 反饋策略不效率，drawdown modulator 時變反饋以機率 1 提供 worst-case drawdown 保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
 
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 

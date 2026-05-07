@@ -160,6 +160,7 @@ nav:
       - Execution Delay on Kelly Trading: execution-delay-kelly-trading.md
       - Frequency-Based Kelly Optimal Portfolio: frequency-based-kelly-portfolio.md
       - Kelly Bettor Frequency: kelly-bettor-frequency.md
+      - Markowitz Inefficiency Drawdown: markowitz-inefficiency-drawdown.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - Kronos: kronos.md
       - NOFX: nofx.md
