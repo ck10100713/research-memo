@@ -138,13 +138,13 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
 
--   :material-chart-multiline:{{ .lg .middle }} **Robust Trading in a Generalized Lattice Market**
+-   :material-school:{{ .lg .middle }} **A Jump Start to Stock Trading Research for the Uninitiated Control Scientist: A Tutorial**
 
     ---
 
-    `2026-05-07` Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
+    `2026-05-07` Barmish × Formentin × Hsieh × Proskurnikov × Warnick 2024 CDC tutorial：寫給控制論研究者的股票交易入門指南，把交易研究的核心問題、方法論、未解難題系統性地展示給 control 社群
 
-    [:octicons-arrow-right-24: 閱讀筆記](robust-trading-lattice-market.md)
+    [:octicons-arrow-right-24: 閱讀筆記](jump-start-stock-trading-tutorial.md)
 
 </div>
 
@@ -875,6 +875,14 @@
     Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
 
     [:octicons-arrow-right-24: 閱讀筆記](frequency-based-optimal-portfolio-costs.md)
+
+-   :material-school:{{ .lg .middle }} **A Jump Start to Stock Trading Research for the Uninitiated Control Scientist: A Tutorial**
+
+    ---
+
+    Barmish × Formentin × Hsieh × Proskurnikov × Warnick 2024 CDC tutorial：寫給控制論研究者的股票交易入門指南，把交易研究的核心問題、方法論、未解難題系統性地展示給 control 社群
+
+    [:octicons-arrow-right-24: 閱讀筆記](jump-start-stock-trading-tutorial.md)
 
 -   :material-chart-line:{{ .lg .middle }} **Kronos**
 
