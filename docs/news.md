@@ -14,6 +14,7 @@
 | 2026-05-07 | 量化交易 | [On Robustness of Double Linear Trading with Transaction Costs](dlp-with-transaction-costs.md) |
 | 2026-05-07 | 量化交易 | [On Data-Driven Drawdown Control with Restart Mechanism in Trading](drawdown-control-restart-mechanism.md) |
 | 2026-05-07 | 量化交易 | [On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md) |
+| 2026-05-07 | 量化交易 | [On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach](sliding-window-log-optimal-portfolio.md) |
 | 2026-05-07 | 量化交易 | [On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md) |
 | 2026-05-07 | 量化交易 | [On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md) |
 | 2026-05-07 | 量化交易 | [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md) |
@@ -167,6 +168,8 @@
   Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
 - `2026-05-07` [On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)  
   Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
+- `2026-05-07` [On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach](sliding-window-log-optimal-portfolio.md)  
+  Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal
 - `2026-05-07` [On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)  
   Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
 - `2026-05-07` [On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)  
@@ -467,7 +470,7 @@
 
 ### 量化交易
 
-[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)、[On Robustness of Double Linear Trading with Transaction Costs](dlp-with-transaction-costs.md)、[On Data-Driven Drawdown Control with Restart Mechanism in Trading](drawdown-control-restart-mechanism.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
+[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)、[On Robustness of Double Linear Trading with Transaction Costs](dlp-with-transaction-costs.md)、[On Data-Driven Drawdown Control with Restart Mechanism in Trading](drawdown-control-restart-mechanism.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach](sliding-window-log-optimal-portfolio.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 

@@ -165,6 +165,7 @@ nav:
       - Prediction Market Analysis: prediction-market-analysis.md
       - Robust Log-Optimal Hyperplane: robust-log-optimal-hyperplane.md
       - Robust Trading in Lattice Market: robust-trading-lattice-market.md
+      - Sliding Window Log-Optimal Portfolio: sliding-window-log-optimal-portfolio.md
       - The Alchemy of Multibagger Stocks: multibagger-stocks.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md

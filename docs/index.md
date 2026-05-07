@@ -58,6 +58,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
 
+-   :material-window-restore:{{ .lg .middle }} **On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach**
+
+    ---
+
+    `2026-05-07` Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal
+
+    [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
+
 -   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-21` Chrome 擴充套件，一鍵擷取任意網站設計系統生成 DESIGN.md / SKILL.md，7 天 756 stars，TypeUI 生態系的瀏覽器前端
 
     [:octicons-arrow-right-24: 閱讀筆記](design-md-chrome.md)
-
--   :material-hammer-wrench:{{ .lg .middle }} **gstack**
-
-    ---
-
-    `2026-04-20` Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援
-
-    [:octicons-arrow-right-24: 閱讀筆記](gstack.md)
 
 </div>
 
@@ -891,6 +891,14 @@
     Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-trading-lattice-market.md)
+
+-   :material-window-restore:{{ .lg .middle }} **On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach**
+
+    ---
+
+    Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal
+
+    [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
 
 -   :material-chart-areaspline:{{ .lg .middle }} **The Alchemy of Multibagger Stocks**
 
