@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
+
+    ---
+
+    `2026-05-07` Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
+
+    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-kelly-portfolio.md)
+
 -   :material-cash-multiple:{{ .lg .middle }} **On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-22` tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars
 
     [:octicons-arrow-right-24: 閱讀筆記](better-agent-terminal.md)
-
--   :material-palette-swatch:{{ .lg .middle }} **design-md-chrome**
-
-    ---
-
-    `2026-04-21` Chrome 擴充套件，一鍵擷取任意網站設計系統生成 DESIGN.md / SKILL.md，7 天 756 stars，TypeUI 生態系的瀏覽器前端
-
-    [:octicons-arrow-right-24: 閱讀筆記](design-md-chrome.md)
 
 </div>
 
@@ -827,6 +827,14 @@
     Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
+
+-   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
+
+    ---
+
+    Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
+
+    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-kelly-portfolio.md)
 
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 

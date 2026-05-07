@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-07 | 量化交易 | [Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio](frequency-based-kelly-portfolio.md) |
 | 2026-05-07 | 量化交易 | [On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md) |
 | 2026-05-07 | 量化交易 | [On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md) |
 | 2026-05-07 | 量化交易 | [On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md) |
@@ -156,6 +157,8 @@
 
 #### 05 月
 
+- `2026-05-07` [Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio](frequency-based-kelly-portfolio.md)  
+  Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
 - `2026-05-07` [On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)  
   Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
 - `2026-05-07` [On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)  
@@ -470,7 +473,7 @@
 
 ### 量化交易
 
-[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)、[On Robustness of Double Linear Trading with Transaction Costs](dlp-with-transaction-costs.md)、[On Data-Driven Drawdown Control with Restart Mechanism in Trading](drawdown-control-restart-mechanism.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach](sliding-window-log-optimal-portfolio.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
+[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)、[On Robustness of Double Linear Trading with Transaction Costs](dlp-with-transaction-costs.md)、[On Data-Driven Drawdown Control with Restart Mechanism in Trading](drawdown-control-restart-mechanism.md)、[Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio](frequency-based-kelly-portfolio.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach](sliding-window-log-optimal-portfolio.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 

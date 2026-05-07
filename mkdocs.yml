@@ -157,6 +157,7 @@ nav:
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md
       - DLP with Transaction Costs: dlp-with-transaction-costs.md
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
+      - Frequency-Based Kelly Optimal Portfolio: frequency-based-kelly-portfolio.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - Kronos: kronos.md
       - NOFX: nofx.md
