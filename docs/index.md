@@ -42,6 +42,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
 
+-   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
+
+    ---
+
+    `2026-05-07` Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
+
+    [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
+
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
 
     [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
-
--   :material-view-dashboard-variant:{{ .lg .middle }} **cc-statusline — Claude Code 的全能 statusline 儀表板**
-
-    ---
-
-    `2026-04-20` Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合
-
-    [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
 
 </div>
 
@@ -803,6 +803,14 @@
     Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
 
     [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
+
+-   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
+
+    ---
+
+    Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
+
+    [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
 
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 

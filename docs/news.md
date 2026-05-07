@@ -12,6 +12,7 @@
 | 2026-05-07 | 量化交易 | [On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md) |
 | 2026-05-07 | 量化交易 | [On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md) |
 | 2026-05-07 | 量化交易 | [On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md) |
+| 2026-05-07 | 量化交易 | [On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md) |
 | 2026-05-07 | 量化交易 | [On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md) |
 | 2026-05-07 | 量化交易 | [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md) |
 | 2026-05-05 | AI 應用 | [FlyAI Skill](flyai-skill.md) |
@@ -160,6 +161,8 @@
   Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
 - `2026-05-07` [On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)  
   Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
+- `2026-05-07` [On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)  
+  Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
 - `2026-05-07` [On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)  
   Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解
 - `2026-05-07` [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)  
@@ -458,7 +461,7 @@
 
 ### 量化交易
 
-[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
+[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Asymptotic Log-Optimal Buy-and-Hold Strategy](asymptotic-log-optimal-buy-hold.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[On Robustness of Double Linear Policy with Time-Varying Weights](dlp-time-varying-weights.md)、[On Frequency-Based Optimal Portfolio with Transaction Costs](frequency-based-optimal-portfolio-costs.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
