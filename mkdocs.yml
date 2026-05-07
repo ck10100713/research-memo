@@ -155,6 +155,7 @@ nav:
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md
+      - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - Kronos: kronos.md
       - NOFX: nofx.md

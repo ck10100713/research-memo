@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
 
+-   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
+
+    ---
+
+    `2026-05-07` Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
+
+    [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
+
 -   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` Anthropic 新推出的「設計專用 Claude」完整中文系統提示詞 — 用 HTML 做設計交付，具備 Tweaks、Starter Components、Verifier 與反 AI slop 的完整工程骨架
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-design.md)
-
--   :material-tune-variant:{{ .lg .middle }} **Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代**
-
-    ---
-
-    `2026-04-20` Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
-
-    [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
 
 </div>
 
@@ -811,6 +811,14 @@
     Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-time-varying-weights.md)
+
+-   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
+
+    ---
+
+    Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
+
+    [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
 
 -   :material-clock-fast:{{ .lg .middle }} **On Frequency-Based Optimal Portfolio with Transaction Costs**
 
