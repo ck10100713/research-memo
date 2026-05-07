@@ -152,6 +152,7 @@ nav:
   - 量化交易:
       - Accelerating Robust Portfolio: accelerating-robust-portfolio-optimization.md
       - AI Hedge Fund: ai-hedge-fund.md
+      - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
       - Kronos: kronos.md
       - NOFX: nofx.md
       - OpenStock: openstock.md

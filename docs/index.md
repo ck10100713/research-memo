@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-cash-multiple:{{ .lg .middle }} **On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio**
+
+    ---
+
+    `2026-05-07` Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
+
+    [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
+
 -   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
 
     ---
@@ -137,14 +145,6 @@
     `2026-04-20` 台灣交大 NYCU-Chung 作品，把 Claude Code 變成 12 人工程團隊，9 天衝 218 stars 的 P7/P9/P10 企業職級方法論
 
     [:octicons-arrow-right-24: 閱讀筆記](my-claude-devteam.md)
-
--   :material-account-voice:{{ .lg .middle }} **khazix-skills**
-
-    ---
-
-    `2026-04-20` 数字生命卡兹克開源個人 AI 方法論 — 14 天 5.4K stars，1 個 Prompt + 2 個 Skill 把寫作風格與研究框架蒸餾成可執行指令集
-
-    [:octicons-arrow-right-24: 閱讀筆記](khazix-skills.md)
 
 </div>
 
@@ -787,6 +787,14 @@
     13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-hedge-fund.md)
+
+-   :material-cash-multiple:{{ .lg .middle }} **On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio**
+
+    ---
+
+    Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
+
+    [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
 
 -   :material-chart-line:{{ .lg .middle }} **Kronos**
 

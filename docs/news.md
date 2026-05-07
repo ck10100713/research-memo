@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-07 | 量化交易 | [On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md) |
 | 2026-05-07 | 量化交易 | [On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md) |
 | 2026-05-07 | 量化交易 | [On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md) |
 | 2026-05-07 | 量化交易 | [Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md) |
@@ -149,6 +150,8 @@
 
 #### 05 月
 
+- `2026-05-07` [On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)  
+  Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
 - `2026-05-07` [On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)  
   Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
 - `2026-05-07` [On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)  
@@ -449,7 +452,7 @@
 
 ### 量化交易
 
-[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
+[On Accelerating Large-Scale Robust Portfolio Optimization](accelerating-robust-portfolio-optimization.md)、[AI Hedge Fund](ai-hedge-fund.md)、[On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio](cost-sensitive-distributionally-robust-portfolio.md)、[Kronos](kronos.md)、[NOFX](nofx.md)、[OpenStock](openstock.md)、[pmxt](pmxt.md)、[Prediction Market Analysis](prediction-market-analysis.md)、[On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach](robust-log-optimal-hyperplane.md)、[Robust Trading in a Generalized Lattice Market](robust-trading-lattice-market.md)、[The Alchemy of Multibagger Stocks](multibagger-stocks.md)、[StockStats](stockstats.md)、[TEJAPI Python Medium Quant](tejapi_python_medium_quant.md)、[AI-Trader](ai-trader.md)、[TimesFM](timesfm.md)、[TradingAgents](tradingagents.md)
 
 ### 社群行銷
 
