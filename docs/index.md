@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-memory:{{ .lg .middle }} **abdixere-api**
+
+    ---
+
+    `2026-05-13` Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](abdixere-api.md)
+
 -   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal
 
     [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
-
--   :material-shield-check:{{ .lg .middle }} **On Drawdown-Modulated Feedback Control in Stock Trading**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish 2017 IFAC：Drawdown Modulation Lemma 刻畫「以機率 1 維持 max drawdown 上限」的投資族，並在此族內最大化 Kelly ELG，給出 drawdown-constrained Kelly 的最佳投資
-
-    [:octicons-arrow-right-24: 閱讀筆記](drawdown-modulated-stock-trading.md)
 
 </div>
 
@@ -331,6 +331,14 @@
 ## Coding Agent 工具
 
 <div class="grid cards" markdown>
+
+-   :material-memory:{{ .lg .middle }} **abdixere-api**
+
+    ---
+
+    Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護
+
+    [:octicons-arrow-right-24: 閱讀筆記](abdixere-api.md)
 
 -   :material-file-search-outline:{{ .lg .middle }} **Analysis Claude Code**
 

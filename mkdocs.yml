@@ -95,6 +95,7 @@ nav:
       - Project Golem: project-golem.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
+      - abdixere-api: abdixere-api.md
       - Analysis Claude Code: analysis-claude-code.md
       - Awesome DESIGN.md: awesome-design-md.md
       - Better Agent Terminal: better-agent-terminal.md
