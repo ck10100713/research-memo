@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-brain:{{ .lg .middle }} **Why Your AI Is Dumbing Down**
+
+    ---
+
+    `2026-05-13` Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token
+
+    [:octicons-arrow-right-24: 閱讀筆記](why-your-ai-is-dumbing-down.md)
+
 -   :material-memory:{{ .lg .middle }} **abdixere-api**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
 
     [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
-
--   :material-window-restore:{{ .lg .middle }} **On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach**
-
-    ---
-
-    `2026-05-07` Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal
-
-    [:octicons-arrow-right-24: 閱讀筆記](sliding-window-log-optimal-portfolio.md)
 
 </div>
 
@@ -771,6 +771,14 @@
     77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合
 
     [:octicons-arrow-right-24: 閱讀筆記](wshobson-agents.md)
+
+-   :material-brain:{{ .lg .middle }} **Why Your AI Is Dumbing Down**
+
+    ---
+
+    Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token
+
+    [:octicons-arrow-right-24: 閱讀筆記](why-your-ai-is-dumbing-down.md)
 
 </div>
 
