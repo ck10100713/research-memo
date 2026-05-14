@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-14 | 開發工具 | [RAG-Anything](rag-anything.md) |
 | 2026-05-14 | 學習資源 | [AI Agents for Beginners](ai-agents-for-beginners.md) |
 | 2026-05-13 | Coding Agent 工具 | [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md) |
 | 2026-05-13 | Coding Agent 工具 | [abdixere-api](abdixere-api.md) |
@@ -176,6 +177,8 @@
 
 #### 05 月
 
+- `2026-05-14` [RAG-Anything](rag-anything.md)  
+  HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
 - `2026-05-14` [AI Agents for Beginners](ai-agents-for-beginners.md)  
   Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
 - `2026-05-13` [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md)  
@@ -550,7 +553,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### 學習資源
 

@@ -220,6 +220,7 @@ nav:
       - Mole: mole.md
       - Optuna: optuna.md
       - Pretext: pretext.md
+      - RAG-Anything: rag-anything.md
       - Scrapling: scrapling.md
       - TestPilot.AI: testpilot-ai.md
       - VirtEngine: virtengine.md

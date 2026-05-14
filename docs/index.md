@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-file-search:{{ .lg .middle }} **RAG-Anything**
+
+    ---
+
+    `2026-05-14` HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
+
+    [:octicons-arrow-right-24: 閱讀筆記](rag-anything.md)
+
 -   :material-school:{{ .lg .middle }} **AI Agents for Beginners**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Chang × Chen 2025：挑戰「LETF 必受 volatility drag」教條，AR(1) + AR-GARCH + regime switching 分析顯示獨立報酬下 LETF 可正複利、動能市每日再平衡有利、均值回復期低頻再平衡反而保護
 
     [:octicons-arrow-right-24: 閱讀筆記](leveraged-etf-compounding.md)
-
--   :material-puzzle:{{ .lg .middle }} **On Unified Adaptive Portfolio Management**
-
-    ---
-
-    `2026-05-07` Li × Hsieh 2023：把 dynamic Black-Litterman + 因子模型 + Elastic Net + 動態 sliding window 整合成一個 adaptive portfolio 框架，S&P 500 前 100 大十年實證含 turnover 成本仍有效
-
-    [:octicons-arrow-right-24: 閱讀筆記](unified-adaptive-portfolio-management.md)
 
 </div>
 
@@ -1331,6 +1331,14 @@
     Cheng Lou 的零 DOM 文字排版引擎 — `layout()` 比 DOM 測量快 480-1240x，17+ 語言深度支援（4.6K stars / 3 天）
 
     [:octicons-arrow-right-24: 閱讀筆記](pretext.md)
+
+-   :material-file-search:{{ .lg .middle }} **RAG-Anything**
+
+    ---
+
+    HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
+
+    [:octicons-arrow-right-24: 閱讀筆記](rag-anything.md)
 
 -   :material-spider-web:{{ .lg .middle }} **Scrapling**
 
