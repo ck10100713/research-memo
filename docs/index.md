@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-school:{{ .lg .middle }} **AI Agents for Beginners**
+
+    ---
+
+    `2026-05-14` Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-agents-for-beginners.md)
+
 -   :material-brain:{{ .lg .middle }} **Why Your AI Is Dumbing Down**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Li × Hsieh 2023：把 dynamic Black-Litterman + 因子模型 + Elastic Net + 動態 sliding window 整合成一個 adaptive portfolio 框架，S&P 500 前 100 大十年實證含 turnover 成本仍有效
 
     [:octicons-arrow-right-24: 閱讀筆記](unified-adaptive-portfolio-management.md)
-
--   :material-trending-up:{{ .lg .middle }} **On Asymptotic Log-Optimal Buy-and-Hold Strategy**
-
-    ---
-
-    `2026-05-07` Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有
-
-    [:octicons-arrow-right-24: 閱讀筆記](asymptotic-log-optimal-buy-hold.md)
 
 </div>
 
@@ -1379,6 +1379,14 @@
     《動手做AI Agent》書籍配套程式碼與教學
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-agents.md)
+
+-   :material-school:{{ .lg .middle }} **AI Agents for Beginners**
+
+    ---
+
+    Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-agents-for-beginners.md)
 
 -   :material-book-open-page-variant:{{ .lg .middle }} **Claude Code from Source — 逆向工程架構全書**
 

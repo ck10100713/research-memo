@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-14 | 學習資源 | [AI Agents for Beginners](ai-agents-for-beginners.md) |
 | 2026-05-13 | Coding Agent 工具 | [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md) |
 | 2026-05-13 | Coding Agent 工具 | [abdixere-api](abdixere-api.md) |
 | 2026-05-07 | 量化交易 | [Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio](frequency-based-kelly-portfolio.md) |
@@ -175,6 +176,8 @@
 
 #### 05 月
 
+- `2026-05-14` [AI Agents for Beginners](ai-agents-for-beginners.md)  
+  Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
 - `2026-05-13` [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md)  
   Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token
 - `2026-05-13` [abdixere-api](abdixere-api.md)  
@@ -551,4 +554,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)
+[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)
