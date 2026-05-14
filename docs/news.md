@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-05-14 | 開發工具 | [RAG-Anything](rag-anything.md) |
+| 2026-05-14 | AI 應用 | [LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md) |
 | 2026-05-14 | 學習資源 | [AI Agents for Beginners](ai-agents-for-beginners.md) |
 | 2026-05-13 | Coding Agent 工具 | [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md) |
 | 2026-05-13 | Coding Agent 工具 | [abdixere-api](abdixere-api.md) |
@@ -179,6 +180,8 @@
 
 - `2026-05-14` [RAG-Anything](rag-anything.md)  
   HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
+- `2026-05-14` [LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)  
+  kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署
 - `2026-05-14` [AI Agents for Beginners](ai-agents-for-beginners.md)  
   Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
 - `2026-05-13` [Why Your AI Is Dumbing Down](why-your-ai-is-dumbing-down.md)  
@@ -545,7 +548,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

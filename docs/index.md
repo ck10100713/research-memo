@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](rag-anything.md)
 
+-   :material-chat-question:{{ .lg .middle }} **LINE Bot Multimodal RAG (kkdai)**
+
+    ---
+
+    `2026-05-14` kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](linebot-multimodal-rag.md)
+
 -   :material-school:{{ .lg .middle }} **AI Agents for Beginners**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish 2015 Allerton：Kelly 系列研究的開山批判篇—點出 Taylor 近似失準與 drawdown 過大兩個 Kelly 主結論的限制，定調作者後續整條 Kelly 研究線的問題清單
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-limitations.md)
-
--   :material-trending-neutral:{{ .lg .middle }} **Compounding Effects in Leveraged ETFs: Beyond the Volatility Drag Paradigm**
-
-    ---
-
-    `2026-05-07` Hsieh × Chang × Chen 2025：挑戰「LETF 必受 volatility drag」教條，AR(1) + AR-GARCH + regime switching 分析顯示獨立報酬下 LETF 可正複利、動能市每日再平衡有利、均值回復期低頻再平衡反而保護
-
-    [:octicons-arrow-right-24: 閱讀筆記](leveraged-etf-compounding.md)
 
 </div>
 
@@ -1219,6 +1219,14 @@
     Google 旗下最強機票研究引擎——Routing Code + Extension Code + 日曆比價 + Open Jaw，Skyscanner 做不到的進階查詢全靠它
 
     [:octicons-arrow-right-24: 閱讀筆記](ita-matrix.md)
+
+-   :material-chat-question:{{ .lg .middle }} **LINE Bot Multimodal RAG (kkdai)**
+
+    ---
+
+    kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](linebot-multimodal-rag.md)
 
 -   :material-head-lightbulb:{{ .lg .middle }} **MemPalace**
 
