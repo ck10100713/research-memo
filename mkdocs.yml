@@ -245,6 +245,7 @@ nav:
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md
       - Reverse-SynthID: reverse-synthid.md
+      - Claude Code 最佳實踐報告 (zeuikli): zeuikli-claude-code-best-practices.md
 
 extra:
   social:

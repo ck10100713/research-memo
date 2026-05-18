@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-15 | 學習資源 | [Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md) |
 | 2026-05-15 | Coding Agent 工具 | [Casper × Claude Code Skill 設計風格圖鑑](casper-claude-skill-design-gallery.md) |
 | 2026-05-14 | 開發工具 | [RAG-Anything](rag-anything.md) |
 | 2026-05-14 | AI 應用 | [LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md) |
@@ -179,6 +180,8 @@
 
 #### 05 月
 
+- `2026-05-15` [Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)  
+  zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程
 - `2026-05-15` [Casper × Claude Code Skill 設計風格圖鑑](casper-claude-skill-design-gallery.md)  
   卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
 - `2026-05-14` [RAG-Anything](rag-anything.md)  
@@ -563,4 +566,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)
+[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)

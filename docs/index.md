@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
+
+    ---
+
+    `2026-05-15` zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程
+
+    [:octicons-arrow-right-24: 閱讀筆記](zeuikli-claude-code-best-practices.md)
+
 -   :material-palette:{{ .lg .middle }} **Casper × Claude Code Skill 設計風格圖鑑**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish 2017 CDC：以 drawdown 取代 variance 當風險指標時，古典 Markowitz LTI 反饋策略不效率，drawdown modulator 時變反饋以機率 1 提供 worst-case drawdown 保護
 
     [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
-
--   :material-stop-circle:{{ .lg .middle }} **Generalization of Affine Feedback Stock Trading Results to Include Stop-Loss Orders**
-
-    ---
-
-    `2026-05-07` Hsieh 2022 Automatica：把 affine feedback stock trading 結果擴張至含 stop-loss 訂單，GBM 下給出累積 P&L 的閉式 CDF，含 stop-loss 涵蓋無 stop 為特例
-
-    [:octicons-arrow-right-24: 閱讀筆記](affine-feedback-stop-loss.md)
 
 </div>
 
@@ -1531,5 +1531,13 @@
     逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
 
     [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
+
+-   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
+
+    ---
+
+    zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程
+
+    [:octicons-arrow-right-24: 閱讀筆記](zeuikli-claude-code-best-practices.md)
 
 </div>
