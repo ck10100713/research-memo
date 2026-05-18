@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
+
+    ---
+
+    `2026-05-15` Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
+
 -   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Po-Hsuan Hsu 工作中：把 ambiguity（Knightian 不確定性）放進資產定價框架，預期接續作者整條 distributionally robust 路線推到 pricing 層級
 
     [:octicons-arrow-right-24: 閱讀筆記](asset-pricing-with-ambiguity.md)
-
--   :material-trending-down:{{ .lg .middle }} **On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish 2017 CDC：以 drawdown 取代 variance 當風險指標時，古典 Markowitz LTI 反饋策略不效率，drawdown modulator 時變反饋以機率 1 提供 worst-case drawdown 保護
-
-    [:octicons-arrow-right-24: 閱讀筆記](markowitz-inefficiency-drawdown.md)
 
 </div>
 
@@ -539,6 +539,14 @@
     卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
 
     [:octicons-arrow-right-24: 閱讀筆記](casper-claude-skill-design-gallery.md)
+
+-   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
+
+    ---
+
+    Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
 
 -   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
