@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-palette:{{ .lg .middle }} **Casper × Claude Code Skill 設計風格圖鑑**
+
+    ---
+
+    `2026-05-15` 卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
+
+    [:octicons-arrow-right-24: 閱讀筆記](casper-claude-skill-design-gallery.md)
+
 -   :material-file-search:{{ .lg .middle }} **RAG-Anything**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2022 Automatica：把 affine feedback stock trading 結果擴張至含 stop-loss 訂單，GBM 下給出累積 P&L 的閉式 CDF，含 stop-loss 涵蓋無 stop 為特例
 
     [:octicons-arrow-right-24: 閱讀筆記](affine-feedback-stop-loss.md)
-
--   :material-alert-circle:{{ .lg .middle }} **On Kelly Betting: Some Limitations**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish 2015 Allerton：Kelly 系列研究的開山批判篇—點出 Taylor 近似失準與 drawdown 過大兩個 Kelly 主結論的限制，定調作者後續整條 Kelly 研究線的問題清單
-
-    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-limitations.md)
 
 </div>
 
@@ -531,6 +531,14 @@
     Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-statusline.md)
+
+-   :material-palette:{{ .lg .middle }} **Casper × Claude Code Skill 設計風格圖鑑**
+
+    ---
+
+    卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
+
+    [:octicons-arrow-right-24: 閱讀筆記](casper-claude-skill-design-gallery.md)
 
 -   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
