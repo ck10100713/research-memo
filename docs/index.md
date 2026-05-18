@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
 
+-   :material-chart-multiple:{{ .lg .middle }} **Fincept Terminal**
+
+    ---
+
+    `2026-05-15` Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0
+
+    [:octicons-arrow-right-24: 閱讀筆記](fincept-terminal.md)
+
 -   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極
 
     [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
-
--   :material-help-circle-outline:{{ .lg .middle }} **Asset Pricing Theory with Ambiguity（工作中 working paper）**
-
-    ---
-
-    `2026-05-07` Hsieh × Po-Hsuan Hsu 工作中：把 ambiguity（Knightian 不確定性）放進資產定價框架，預期接續作者整條 distributionally robust 路線推到 pricing 層級
-
-    [:octicons-arrow-right-24: 閱讀筆記](asset-pricing-with-ambiguity.md)
 
 </div>
 
@@ -891,6 +891,14 @@
     Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本
 
     [:octicons-arrow-right-24: 閱讀筆記](execution-delay-kelly-trading.md)
+
+-   :material-chart-multiple:{{ .lg .middle }} **Fincept Terminal**
+
+    ---
+
+    Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0
+
+    [:octicons-arrow-right-24: 閱讀筆記](fincept-terminal.md)
 
 -   :material-function-variant:{{ .lg .middle }} **On Feedback Control in Kelly Betting: An Approximation Approach**
 

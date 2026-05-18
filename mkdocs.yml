@@ -165,6 +165,7 @@ nav:
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
       - Drawdown-Modulated Stock Trading: drawdown-modulated-stock-trading.md
       - Execution Delay on Kelly Trading: execution-delay-kelly-trading.md
+      - Fincept Terminal: fincept-terminal.md
       - Feedback Control in Kelly Betting: feedback-control-kelly-betting-approximation.md
       - Frequency-Based Kelly Optimal Portfolio: frequency-based-kelly-portfolio.md
       - Kelly Bettor Frequency: kelly-bettor-frequency.md
