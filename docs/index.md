@@ -34,6 +34,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](daily-stock-analysis.md)
 
+-   :material-shield-check:{{ .lg .middle }} **Tech Leads Club Agent Skills**
+
+    ---
+
+    `2026-05-19` Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](tlc-agent-skills.md)
+
 -   :material-console-line:{{ .lg .middle }} **CLI-Anything**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
 
     [:octicons-arrow-right-24: 閱讀筆記](robust-log-optimal-hyperplane.md)
-
--   :material-speedometer:{{ .lg .middle }} **On Accelerating Large-Scale Robust Portfolio Optimization**
-
-    ---
-
-    `2026-05-07` Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
-
-    [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
 
 </div>
 
@@ -555,6 +555,14 @@
     aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板
 
     [:octicons-arrow-right-24: 閱讀筆記](aqua-usage-menubar.md)
+
+-   :material-shield-check:{{ .lg .middle }} **Tech Leads Club Agent Skills**
+
+    ---
+
+    Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](tlc-agent-skills.md)
 
 -   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
