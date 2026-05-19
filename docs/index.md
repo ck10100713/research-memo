@@ -10,6 +10,22 @@
 
 <div class="grid cards" markdown>
 
+-   :material-account-heart:{{ .lg .middle }} **OpenHuman**
+
+    ---
+
+    `2026-05-19` tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶
+
+    [:octicons-arrow-right-24: 閱讀筆記](openhuman.md)
+
+-   :material-finance:{{ .lg .middle }} **Daily Stock Analysis**
+
+    ---
+
+    `2026-05-19` ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」
+
+    [:octicons-arrow-right-24: 閱讀筆記](daily-stock-analysis.md)
+
 -   :material-console-line:{{ .lg .middle }} **CLI-Anything**
 
     ---
@@ -129,22 +145,6 @@
     `2026-05-07` Hsieh 2022 L-CSS：DLP 加上交易成本後 robust positive expected gain 可能消失，本篇給出保留正期望的條件、用 GBM with jumps 模擬與 BTC-USD 回測驗證
 
     [:octicons-arrow-right-24: 閱讀筆記](dlp-with-transaction-costs.md)
-
--   :material-function-variant:{{ .lg .middle }} **On Feedback Control in Kelly Betting: An Approximation Approach**
-
-    ---
-
-    `2026-05-07` Hsieh 2020 CCTA：Kelly betting 用 Taylor 近似化為 quadratic programming，得到閉式近似解，並分析績效、變異數、survivability 等性質
-
-    [:octicons-arrow-right-24: 閱讀筆記](feedback-control-kelly-betting-approximation.md)
-
--   :material-restart:{{ .lg .middle }} **On Data-Driven Drawdown Control with Restart Mechanism in Trading**
-
-    ---
-
-    `2026-05-07` Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
-
-    [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
 
 </div>
 
@@ -852,6 +852,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
 
+-   :material-finance:{{ .lg .middle }} **Daily Stock Analysis**
+
+    ---
+
+    ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」
+
+    [:octicons-arrow-right-24: 閱讀筆記](daily-stock-analysis.md)
+
 -   :material-chart-line-variant:{{ .lg .middle }} **On Robustness of Double Linear Policy with Time-Varying Weights**
 
     ---
@@ -1267,6 +1275,14 @@
     4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 
     [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
+
+-   :material-account-heart:{{ .lg .middle }} **OpenHuman**
+
+    ---
+
+    tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶
+
+    [:octicons-arrow-right-24: 閱讀筆記](openhuman.md)
 
 -   :material-file-document-outline:{{ .lg .middle }} **OpenClam**
 

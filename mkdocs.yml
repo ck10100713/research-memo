@@ -160,6 +160,7 @@ nav:
       - Asset Pricing with Ambiguity: asset-pricing-with-ambiguity.md
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
+      - Daily Stock Analysis: daily-stock-analysis.md
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md
       - DLP with Transaction Costs: dlp-with-transaction-costs.md
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
@@ -212,6 +213,7 @@ nav:
       - LINE Bot Multimodal RAG (kkdai): linebot-multimodal-rag.md
       - MemPalace: mempalace.md
       - n8n Workflows: n8n-workflows.md
+      - OpenHuman: openhuman.md
       - OpenClam: openclam.md
       - OpenDataLoader PDF: opendataloader-pdf.md
       - Ramp AI Agents: ramp-ai-agents.md
