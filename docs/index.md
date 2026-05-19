@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](openhuman.md)
 
+-   :material-counter:{{ .lg .middle }} **usage (aqua5230)**
+
+    ---
+
+    `2026-05-19` aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板
+
+    [:octicons-arrow-right-24: 閱讀筆記](aqua-usage-menubar.md)
+
 -   :material-finance:{{ .lg .middle }} **Daily Stock Analysis**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股
 
     [:octicons-arrow-right-24: 閱讀筆記](accelerating-robust-portfolio-optimization.md)
-
--   :material-cash-minus:{{ .lg .middle }} **On Robustness of Double Linear Trading with Transaction Costs**
-
-    ---
-
-    `2026-05-07` Hsieh 2022 L-CSS：DLP 加上交易成本後 robust positive expected gain 可能消失，本篇給出保留正期望的條件、用 GBM with jumps 模擬與 BTC-USD 回測驗證
-
-    [:octicons-arrow-right-24: 閱讀筆記](dlp-with-transaction-costs.md)
 
 </div>
 
@@ -547,6 +547,14 @@
     Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
 
     [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
+
+-   :material-counter:{{ .lg .middle }} **usage (aqua5230)**
+
+    ---
+
+    aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板
+
+    [:octicons-arrow-right-24: 閱讀筆記](aqua-usage-menubar.md)
 
 -   :material-newspaper-variant-outline:{{ .lg .middle }} **Claude Cowork Dispatch**
 
