@@ -223,6 +223,7 @@ nav:
       - MCP Toolbox for Databases: mcp-toolbox.md
       - Mole: mole.md
       - Optuna: optuna.md
+      - CLI-Anything: cli-anything.md
       - Pretext: pretext.md
       - RAG-Anything: rag-anything.md
       - Scrapling: scrapling.md

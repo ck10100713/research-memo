@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-console-line:{{ .lg .middle }} **CLI-Anything**
+
+    ---
+
+    `2026-05-19` HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
+
+    [:octicons-arrow-right-24: 閱讀筆記](cli-anything.md)
+
 -   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限
 
     [:octicons-arrow-right-24: 閱讀筆記](drawdown-control-restart-mechanism.md)
-
--   :material-format-vertical-align-bottom:{{ .lg .middle }} **Kelly Betting Can Be Too Conservative**
-
-    ---
-
-    `2026-05-07` Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極
-
-    [:octicons-arrow-right-24: 閱讀筆記](kelly-betting-too-conservative.md)
 
 </div>
 
@@ -1355,6 +1355,14 @@
     Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server
 
     [:octicons-arrow-right-24: 閱讀筆記](optuna.md)
+
+-   :material-console-line:{{ .lg .middle }} **CLI-Anything**
+
+    ---
+
+    HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
+
+    [:octicons-arrow-right-24: 閱讀筆記](cli-anything.md)
 
 -   :material-format-text:{{ .lg .middle }} **Pretext**
 

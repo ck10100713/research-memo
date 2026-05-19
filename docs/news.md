@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-19 | 開發工具 | [CLI-Anything](cli-anything.md) |
 | 2026-05-15 | Coding Agent 工具 | [mattpocock/skills](mattpocock-skills.md) |
 | 2026-05-15 | 量化交易 | [Fincept Terminal](fincept-terminal.md) |
 | 2026-05-15 | 學習資源 | [Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md) |
@@ -182,6 +183,8 @@
 
 #### 05 月
 
+- `2026-05-19` [CLI-Anything](cli-anything.md)  
+  HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
 - `2026-05-15` [mattpocock/skills](mattpocock-skills.md)  
   Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
 - `2026-05-15` [Fincept Terminal](fincept-terminal.md)  
@@ -568,7 +571,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### 學習資源
 
