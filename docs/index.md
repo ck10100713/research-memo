@@ -42,6 +42,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](tlc-agent-skills.md)
 
+-   :material-server-network:{{ .lg .middle }} **QuantDinger**
+
+    ---
+
+    `2026-05-19` brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS
+
+    [:octicons-arrow-right-24: 閱讀筆記](quantdinger.md)
+
 -   :material-console-line:{{ .lg .middle }} **CLI-Anything**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
 
     [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
-
--   :material-vector-line:{{ .lg .middle }} **On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach**
-
-    ---
-
-    `2026-05-07` Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件
-
-    [:octicons-arrow-right-24: 閱讀筆記](robust-log-optimal-hyperplane.md)
 
 </div>
 
@@ -1043,6 +1043,14 @@
     2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文
 
     [:octicons-arrow-right-24: 閱讀筆記](prediction-market-analysis.md)
+
+-   :material-server-network:{{ .lg .middle }} **QuantDinger**
+
+    ---
+
+    brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS
+
+    [:octicons-arrow-right-24: 閱讀筆記](quantdinger.md)
 
 -   :material-sync:{{ .lg .middle }} **Rebalancing Frequency Considerations for Kelly-Optimal Stock Portfolios in a Control-Theoretic Framework**
 

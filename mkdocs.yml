@@ -184,6 +184,7 @@ nav:
       - OpenStock: openstock.md
       - pmxt: pmxt.md
       - Prediction Market Analysis: prediction-market-analysis.md
+      - QuantDinger: quantdinger.md
       - Rebalancing Frequency for Kelly Portfolios: rebalancing-frequency-kelly-portfolios.md
       - Risk-Sensitive Decision Making: risk-sensitive-decision-making.md
       - Robust Log-Optimal Hyperplane: robust-log-optimal-hyperplane.md
