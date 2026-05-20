@@ -229,6 +229,7 @@ nav:
       - Mole: mole.md
       - Optuna: optuna.md
       - CLI-Anything: cli-anything.md
+      - LiteLLM: litellm.md
       - Pretext: pretext.md
       - RAG-Anything: rag-anything.md
       - Scrapling: scrapling.md

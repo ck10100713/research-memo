@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-20 | 開發工具 | [LiteLLM](litellm.md) |
 | 2026-05-19 | AI 應用 | [OpenHuman](openhuman.md) |
 | 2026-05-19 | Coding Agent 工具 | [usage (aqua5230)](aqua-usage-menubar.md) |
 | 2026-05-19 | 量化交易 | [Daily Stock Analysis](daily-stock-analysis.md) |
@@ -188,6 +189,8 @@
 
 #### 05 月
 
+- `2026-05-20` [LiteLLM](litellm.md)  
+  BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars
 - `2026-05-19` [OpenHuman](openhuman.md)  
   tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶
 - `2026-05-19` [usage (aqua5230)](aqua-usage-menubar.md)  
@@ -586,7 +589,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### 學習資源
 

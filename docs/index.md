@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-router-network:{{ .lg .middle }} **LiteLLM**
+
+    ---
+
+    `2026-05-20` BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](litellm.md)
+
 -   :material-account-heart:{{ .lg .middle }} **OpenHuman**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-07` Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
 
     [:octicons-arrow-right-24: 閱讀筆記](frequency-based-kelly-portfolio.md)
-
--   :material-cash-multiple:{{ .lg .middle }} **On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio**
-
-    ---
-
-    `2026-05-07` Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移
-
-    [:octicons-arrow-right-24: 閱讀筆記](cost-sensitive-distributionally-robust-portfolio.md)
 
 </div>
 
@@ -1403,6 +1403,14 @@
     HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
 
     [:octicons-arrow-right-24: 閱讀筆記](cli-anything.md)
+
+-   :material-router-network:{{ .lg .middle }} **LiteLLM**
+
+    ---
+
+    BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](litellm.md)
 
 -   :material-format-text:{{ .lg .middle }} **Pretext**
 
