@@ -146,6 +146,7 @@ nav:
       - my-claude-devteam: my-claude-devteam.md
       - Nuwa Skill: nuwa-skill.md
       - OpenAB: openab.md
+      - OpenCode: opencode.md
       - OpenHarness: open-harness.md
       - Open SWE: open-swe.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md

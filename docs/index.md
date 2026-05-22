@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-console-line:{{ .lg .middle }} **OpenCode (anomalyco/opencode)**
+
+    ---
+
+    `2026-05-22` Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品
+
+    [:octicons-arrow-right-24: 閱讀筆記](opencode.md)
+
 -   :material-router-network:{{ .lg .middle }} **LiteLLM**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-13` Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護
 
     [:octicons-arrow-right-24: 閱讀筆記](abdixere-api.md)
-
--   :material-format-list-checks:{{ .lg .middle }} **Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio**
-
-    ---
-
-    `2026-05-07` Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點
-
-    [:octicons-arrow-right-24: 閱讀筆記](frequency-based-kelly-portfolio.md)
 
 </div>
 
@@ -739,6 +739,14 @@
     Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent
 
     [:octicons-arrow-right-24: 閱讀筆記](openab.md)
+
+-   :material-console-line:{{ .lg .middle }} **OpenCode (anomalyco/opencode)**
+
+    ---
+
+    Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品
+
+    [:octicons-arrow-right-24: 閱讀筆記](opencode.md)
 
 -   :material-cog-outline:{{ .lg .middle }} **OpenHarness**
 
