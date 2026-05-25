@@ -228,6 +228,7 @@ nav:
       - pyWhat: pywhat.md
   - 軟體工程知識:
       - Laws of Software Engineering: laws-of-software-engineering.md
+      - 軟體工程 56 大定律（中文版）: laws-of-software-engineering-zh.md
   - 開發工具:
       - MCP Toolbox for Databases: mcp-toolbox.md
       - Mole: mole.md

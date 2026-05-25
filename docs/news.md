@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-05-25 | AI 應用 | [notebooklm-py](notebooklm-py.md) |
+| 2026-05-25 | 軟體工程知識 | [軟體工程 56 大定律（完整中文版）](laws-of-software-engineering-zh.md) |
 | 2026-05-25 | 軟體工程知識 | [Laws of Software Engineering](laws-of-software-engineering.md) |
 | 2026-05-22 | Coding Agent 工具 | [OpenCode (anomalyco/opencode)](opencode.md) |
 | 2026-05-20 | 開發工具 | [LiteLLM](litellm.md) |
@@ -194,6 +195,8 @@
 
 - `2026-05-25` [notebooklm-py](notebooklm-py.md)  
   teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
+- `2026-05-25` [軟體工程 56 大定律（完整中文版）](laws-of-software-engineering-zh.md)  
+  56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源
 - `2026-05-25` [Laws of Software Engineering](laws-of-software-engineering.md)  
   Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
 - `2026-05-22` [OpenCode (anomalyco/opencode)](opencode.md)  
@@ -598,7 +601,7 @@
 
 ### 軟體工程知識
 
-[Laws of Software Engineering](laws-of-software-engineering.md)
+[Laws of Software Engineering](laws-of-software-engineering.md)、[軟體工程 56 大定律（完整中文版）](laws-of-software-engineering-zh.md)
 
 ### 開發工具
 

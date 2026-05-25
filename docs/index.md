@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
 
+-   :material-translate:{{ .lg .middle }} **軟體工程 56 大定律（完整中文版）**
+
+    ---
+
+    `2026-05-25` 56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源
+
+    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering-zh.md)
+
 -   :material-book-open-variant:{{ .lg .middle }} **Laws of Software Engineering**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-14` kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署
 
     [:octicons-arrow-right-24: 閱讀筆記](linebot-multimodal-rag.md)
-
--   :material-school:{{ .lg .middle }} **AI Agents for Beginners**
-
-    ---
-
-    `2026-05-14` Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-agents-for-beginners.md)
 
 </div>
 
@@ -1395,6 +1395,14 @@
     Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
 
     [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering.md)
+
+-   :material-translate:{{ .lg .middle }} **軟體工程 56 大定律（完整中文版）**
+
+    ---
+
+    56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源
+
+    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering-zh.md)
 
 </div>
 
