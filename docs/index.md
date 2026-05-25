@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
 
+-   :material-book-open-variant:{{ .lg .middle }} **Laws of Software Engineering**
+
+    ---
+
+    `2026-05-25` Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
+
+    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering.md)
+
 -   :material-console-line:{{ .lg .middle }} **OpenCode (anomalyco/opencode)**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-14` Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-agents-for-beginners.md)
-
--   :material-brain:{{ .lg .middle }} **Why Your AI Is Dumbing Down**
-
-    ---
-
-    `2026-05-13` Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token
-
-    [:octicons-arrow-right-24: 閱讀筆記](why-your-ai-is-dumbing-down.md)
 
 </div>
 
@@ -1379,6 +1379,22 @@
     Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
 
     [:octicons-arrow-right-24: 閱讀筆記](pywhat.md)
+
+</div>
+
+---
+
+## 軟體工程知識
+
+<div class="grid cards" markdown>
+
+-   :material-book-open-variant:{{ .lg .middle }} **Laws of Software Engineering**
+
+    ---
+
+    Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
+
+    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering.md)
 
 </div>
 

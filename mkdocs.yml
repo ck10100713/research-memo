@@ -226,6 +226,8 @@ nav:
   - OSINT / 情報工具:
       - OsintRadar: osint-radar.md
       - pyWhat: pywhat.md
+  - 軟體工程知識:
+      - Laws of Software Engineering: laws-of-software-engineering.md
   - 開發工具:
       - MCP Toolbox for Databases: mcp-toolbox.md
       - Mole: mole.md
