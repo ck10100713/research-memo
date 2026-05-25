@@ -217,6 +217,7 @@ nav:
       - LINE Bot Multimodal RAG (kkdai): linebot-multimodal-rag.md
       - MemPalace: mempalace.md
       - n8n Workflows: n8n-workflows.md
+      - notebooklm-py: notebooklm-py.md
       - OpenHuman: openhuman.md
       - OpenClam: openclam.md
       - OpenDataLoader PDF: opendataloader-pdf.md

@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-notebook-multiple:{{ .lg .middle }} **notebooklm-py**
+
+    ---
+
+    `2026-05-25` teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
+
+    [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
+
 -   :material-console-line:{{ .lg .middle }} **OpenCode (anomalyco/opencode)**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-13` Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token
 
     [:octicons-arrow-right-24: 閱讀筆記](why-your-ai-is-dumbing-down.md)
-
--   :material-memory:{{ .lg .middle }} **abdixere-api**
-
-    ---
-
-    `2026-05-13` Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護
-
-    [:octicons-arrow-right-24: 閱讀筆記](abdixere-api.md)
 
 </div>
 
@@ -1307,6 +1307,14 @@
     4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用
 
     [:octicons-arrow-right-24: 閱讀筆記](n8n-workflows.md)
+
+-   :material-notebook-multiple:{{ .lg .middle }} **notebooklm-py**
+
+    ---
+
+    teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
+
+    [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
 
 -   :material-account-heart:{{ .lg .middle }} **OpenHuman**
 

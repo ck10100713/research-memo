@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-25 | AI 應用 | [notebooklm-py](notebooklm-py.md) |
 | 2026-05-22 | Coding Agent 工具 | [OpenCode (anomalyco/opencode)](opencode.md) |
 | 2026-05-20 | 開發工具 | [LiteLLM](litellm.md) |
 | 2026-05-19 | AI 應用 | [OpenHuman](openhuman.md) |
@@ -190,6 +191,8 @@
 
 #### 05 月
 
+- `2026-05-25` [notebooklm-py](notebooklm-py.md)  
+  teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
 - `2026-05-22` [OpenCode (anomalyco/opencode)](opencode.md)  
   Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品
 - `2026-05-20` [LiteLLM](litellm.md)  
@@ -584,7 +587,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 
