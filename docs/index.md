@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-gamepad-variant:{{ .lg .middle }} **Claude Code Game Studios**
+
+    ---
+
+    `2026-05-26` Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-game-studios.md)
+
 -   :material-notebook-multiple:{{ .lg .middle }} **notebooklm-py**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-14` HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
 
     [:octicons-arrow-right-24: 閱讀筆記](rag-anything.md)
-
--   :material-chat-question:{{ .lg .middle }} **LINE Bot Multimodal RAG (kkdai)**
-
-    ---
-
-    `2026-05-14` kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署
-
-    [:octicons-arrow-right-24: 閱讀筆記](linebot-multimodal-rag.md)
 
 </div>
 
@@ -451,6 +451,14 @@
     2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-reverse.md)
+
+-   :material-gamepad-variant:{{ .lg .middle }} **Claude Code Game Studios**
+
+    ---
+
+    Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-code-game-studios.md)
 
 -   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
 
