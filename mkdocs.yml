@@ -112,6 +112,7 @@ nav:
       - Claude Code Reconstructed (xorespesp): xorespesp-claude-code.md
       - Claude Code Reverse: claude-code-reverse.md
       - Claude Code Game Studios: claude-code-game-studios.md
+      - Claude-Mem: claude-mem.md
       - Claude Agent SDK: claude-agent-sdk.md
       - Claude Code SDK (cloclo): claude-code-sdk.md
       - Claude Design: claude-design.md

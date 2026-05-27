@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
 
+-   :material-brain:{{ .lg .middle }} **Claude-Mem**
+
+    ---
+
+    `2026-05-27` thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-mem.md)
+
 -   :material-briefcase-variant:{{ .lg .middle }} **Knowledge Work Plugins**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-15` Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0
 
     [:octicons-arrow-right-24: 閱讀筆記](fincept-terminal.md)
-
--   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
-
-    ---
-
-    `2026-05-15` zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程
-
-    [:octicons-arrow-right-24: 閱讀筆記](zeuikli-claude-code-best-practices.md)
 
 </div>
 
@@ -467,6 +467,14 @@
     Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-game-studios.md)
+
+-   :material-brain:{{ .lg .middle }} **Claude-Mem**
+
+    ---
+
+    thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-mem.md)
 
 -   :material-robot-outline:{{ .lg .middle }} **Claude Agent SDK**
 
