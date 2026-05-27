@@ -245,6 +245,8 @@ nav:
       - TestPilot.AI: testpilot-ai.md
       - VirtEngine: virtengine.md
       - WebToApp: web-to-app.md
+  - 資源彙整 / Awesome List:
+      - Awesome Free Apps: awesome-free-apps.md
   - 學習資源:
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md

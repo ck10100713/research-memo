@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-apps:{{ .lg .middle }} **Awesome Free Apps**
+
+    ---
+
+    `2026-05-27` Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-free-apps.md)
+
 -   :material-web:{{ .lg .middle }} **Webwright**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-15` Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
 
     [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
-
--   :material-chart-multiple:{{ .lg .middle }} **Fincept Terminal**
-
-    ---
-
-    `2026-05-15` Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0
-
-    [:octicons-arrow-right-24: 閱讀筆記](fincept-terminal.md)
 
 </div>
 
@@ -1531,6 +1531,22 @@
     在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio
 
     [:octicons-arrow-right-24: 閱讀筆記](web-to-app.md)
+
+</div>
+
+---
+
+## 資源彙整 / Awesome List
+
+<div class="grid cards" markdown>
+
+-   :material-apps:{{ .lg .middle }} **Awesome Free Apps**
+
+    ---
+
+    Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-free-apps.md)
 
 </div>
 

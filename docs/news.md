@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-27 | 資源彙整 / Awesome List | [Awesome Free Apps](awesome-free-apps.md) |
 | 2026-05-27 | AI Agent 框架 | [Webwright](webwright.md) |
 | 2026-05-27 | Coding Agent 工具 | [Claude-Mem](claude-mem.md) |
 | 2026-05-27 | Coding Agent 工具 | [Knowledge Work Plugins](knowledge-work-plugins.md) |
@@ -197,6 +198,8 @@
 
 #### 05 月
 
+- `2026-05-27` [Awesome Free Apps](awesome-free-apps.md)  
+  Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
 - `2026-05-27` [Webwright](webwright.md)  
   Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill
 - `2026-05-27` [Claude-Mem](claude-mem.md)  
@@ -618,6 +621,10 @@
 ### 開發工具
 
 [MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+
+### 資源彙整 / Awesome List
+
+[Awesome Free Apps](awesome-free-apps.md)
 
 ### 學習資源
 
