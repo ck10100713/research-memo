@@ -93,6 +93,7 @@ nav:
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
       - Project Golem: project-golem.md
+      - Webwright: webwright.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
       - abdixere-api: abdixere-api.md

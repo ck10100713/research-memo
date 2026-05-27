@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-web:{{ .lg .middle }} **Webwright**
+
+    ---
+
+    `2026-05-27` Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill
+
+    [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
+
 -   :material-gamepad-variant:{{ .lg .middle }} **Claude Code Game Studios**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-15` 卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
 
     [:octicons-arrow-right-24: 閱讀筆記](casper-claude-skill-design-gallery.md)
-
--   :material-file-search:{{ .lg .middle }} **RAG-Anything**
-
-    ---
-
-    `2026-05-14` HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph
-
-    [:octicons-arrow-right-24: 閱讀筆記](rag-anything.md)
 
 </div>
 
@@ -315,6 +315,14 @@
     Browser-in-the-Loop 自主 AI 代理，金字塔記憶可存 50 年對話精華
 
     [:octicons-arrow-right-24: 閱讀筆記](project-golem.md)
+
+-   :material-web:{{ .lg .middle }} **Webwright**
+
+    ---
+
+    Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill
+
+    [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
 
 -   :material-forum:{{ .lg .middle }} **多 Agent 辯論會系統**
 
