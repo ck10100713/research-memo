@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
 
+-   :material-briefcase-variant:{{ .lg .middle }} **Knowledge Work Plugins**
+
+    ---
+
+    `2026-05-27` Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」
+
+    [:octicons-arrow-right-24: 閱讀筆記](knowledge-work-plugins.md)
+
 -   :material-gamepad-variant:{{ .lg .middle }} **Claude Code Game Studios**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-15` zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程
 
     [:octicons-arrow-right-24: 閱讀筆記](zeuikli-claude-code-best-practices.md)
-
--   :material-palette:{{ .lg .middle }} **Casper × Claude Code Skill 設計風格圖鑑**
-
-    ---
-
-    `2026-05-15` 卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流
-
-    [:octicons-arrow-right-24: 閱讀筆記](casper-claude-skill-design-gallery.md)
 
 </div>
 
@@ -643,6 +643,14 @@
     12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
 
     [:octicons-arrow-right-24: 閱讀筆記](kc-ai-skills.md)
+
+-   :material-briefcase-variant:{{ .lg .middle }} **Knowledge Work Plugins**
+
+    ---
+
+    Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」
+
+    [:octicons-arrow-right-24: 閱讀筆記](knowledge-work-plugins.md)
 
 -   :material-account-voice:{{ .lg .middle }} **khazix-skills**
 
