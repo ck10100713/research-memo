@@ -93,6 +93,7 @@ nav:
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
       - Project Golem: project-golem.md
+      - SkillOpt: skillopt.md
       - Webwright: webwright.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
@@ -265,6 +266,7 @@ nav:
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md
       - Reverse-SynthID: reverse-synthid.md
+      - skillopt-qa（SkillOpt 教學重現）: skillopt-qa.md
       - Claude Code 最佳實踐報告 (zeuikli): zeuikli-claude-code-best-practices.md
 
 extra:

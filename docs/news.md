@@ -8,6 +8,8 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-28 | AI Agent 框架 | [SkillOpt](skillopt.md) |
+| 2026-05-28 | 學習資源 | [skillopt-qa](skillopt-qa.md) |
 | 2026-05-27 | 資源彙整 / Awesome List | [Awesome Free Apps](awesome-free-apps.md) |
 | 2026-05-27 | AI Agent 框架 | [Webwright](webwright.md) |
 | 2026-05-27 | Coding Agent 工具 | [Claude-Mem](claude-mem.md) |
@@ -198,6 +200,10 @@
 
 #### 05 月
 
+- `2026-05-28` [SkillOpt](skillopt.md)  
+  Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
+- `2026-05-28` [skillopt-qa](skillopt-qa.md)  
+  joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
 - `2026-05-27` [Awesome Free Apps](awesome-free-apps.md)  
   Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
 - `2026-05-27` [Webwright](webwright.md)  
@@ -588,7 +594,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 
@@ -628,4 +634,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
+[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)

@@ -10,6 +10,22 @@
 
 <div class="grid cards" markdown>
 
+-   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
+
+    ---
+
+    `2026-05-28` Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
+
+    [:octicons-arrow-right-24: 閱讀筆記](skillopt.md)
+
+-   :material-school-outline:{{ .lg .middle }} **skillopt-qa**
+
+    ---
+
+    `2026-05-28` joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
+
+    [:octicons-arrow-right-24: 閱讀筆記](skillopt-qa.md)
+
 -   :material-apps:{{ .lg .middle }} **Awesome Free Apps**
 
     ---
@@ -129,22 +145,6 @@
     `2026-05-19` brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS
 
     [:octicons-arrow-right-24: 閱讀筆記](quantdinger.md)
-
--   :material-console-line:{{ .lg .middle }} **CLI-Anything**
-
-    ---
-
-    `2026-05-19` HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
-
-    [:octicons-arrow-right-24: 閱讀筆記](cli-anything.md)
-
--   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
-
-    ---
-
-    `2026-05-15` Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
 
 </div>
 
@@ -315,6 +315,14 @@
     Browser-in-the-Loop 自主 AI 代理，金字塔記憶可存 50 年對話精華
 
     [:octicons-arrow-right-24: 閱讀筆記](project-golem.md)
+
+-   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
+
+    ---
+
+    Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
+
+    [:octicons-arrow-right-24: 閱讀筆記](skillopt.md)
 
 -   :material-web:{{ .lg .middle }} **Webwright**
 
@@ -1691,6 +1699,14 @@
     逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除
 
     [:octicons-arrow-right-24: 閱讀筆記](reverse-synthid.md)
+
+-   :material-school-outline:{{ .lg .middle }} **skillopt-qa**
+
+    ---
+
+    joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
+
+    [:octicons-arrow-right-24: 閱讀筆記](skillopt-qa.md)
 
 -   :material-clipboard-list:{{ .lg .middle }} **Claude Code 最佳實踐完整研究報告（zeuikli）**
 
