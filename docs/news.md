@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
 | 2026-05-28 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-05-28 | 學習資源 | [skillopt-qa](skillopt-qa.md) |
 | 2026-05-27 | 資源彙整 / Awesome List | [Awesome Free Apps](awesome-free-apps.md) |
@@ -200,6 +201,8 @@
 
 #### 05 月
 
+- `2026-05-29` [Awesome OpenClaw Skills](awesome-openclaw-skills.md)  
+  VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
 - `2026-05-28` [SkillOpt](skillopt.md)  
   Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
 - `2026-05-28` [skillopt-qa](skillopt-qa.md)  
@@ -630,7 +633,7 @@
 
 ### 資源彙整 / Awesome List
 
-[Awesome Free Apps](awesome-free-apps.md)
+[Awesome Free Apps](awesome-free-apps.md)、[Awesome OpenClaw Skills](awesome-openclaw-skills.md)
 
 ### 學習資源
 

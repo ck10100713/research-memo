@@ -10,6 +10,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-shaker-outline:{{ .lg .middle }} **Awesome OpenClaw Skills**
+
+    ---
+
+    `2026-05-29` VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-openclaw-skills.md)
+
 -   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-19` Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars
 
     [:octicons-arrow-right-24: 閱讀筆記](tlc-agent-skills.md)
-
--   :material-server-network:{{ .lg .middle }} **QuantDinger**
-
-    ---
-
-    `2026-05-19` brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS
-
-    [:octicons-arrow-right-24: 閱讀筆記](quantdinger.md)
 
 </div>
 
@@ -1555,6 +1555,14 @@
     Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-free-apps.md)
+
+-   :material-shaker-outline:{{ .lg .middle }} **Awesome OpenClaw Skills**
+
+    ---
+
+    VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-openclaw-skills.md)
 
 </div>
 
