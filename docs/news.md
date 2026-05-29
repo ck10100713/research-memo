@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
+| 2026-05-29 | AI 應用 | [Trend Monitor](trend-monitor.md) |
 | 2026-05-28 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-05-28 | 學習資源 | [skillopt-qa](skillopt-qa.md) |
 | 2026-05-27 | 資源彙整 / Awesome List | [Awesome Free Apps](awesome-free-apps.md) |
@@ -203,6 +204,8 @@
 
 - `2026-05-29` [Awesome OpenClaw Skills](awesome-openclaw-skills.md)  
   VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
+- `2026-05-29` [Trend Monitor](trend-monitor.md)  
+  dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
 - `2026-05-28` [SkillOpt](skillopt.md)  
   Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
 - `2026-05-28` [skillopt-qa](skillopt-qa.md)  
@@ -617,7 +620,7 @@
 
 ### AI 應用
 
-[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[tw-house-ops](tw-house-ops.md)
+[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

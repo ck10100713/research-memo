@@ -18,6 +18,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-openclaw-skills.md)
 
+-   :material-trending-up:{{ .lg .middle }} **Trend Monitor**
+
+    ---
+
+    `2026-05-29` dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
+
+    [:octicons-arrow-right-24: 閱讀筆記](trend-monitor.md)
+
 -   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
 
     ---
@@ -137,14 +145,6 @@
     `2026-05-19` ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」
 
     [:octicons-arrow-right-24: 閱讀筆記](daily-stock-analysis.md)
-
--   :material-shield-check:{{ .lg .middle }} **Tech Leads Club Agent Skills**
-
-    ---
-
-    `2026-05-19` Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](tlc-agent-skills.md)
 
 </div>
 
@@ -1387,6 +1387,14 @@
     Ramp $32B 公司如何讓 AI Agent 主導 30% 的 PR
 
     [:octicons-arrow-right-24: 閱讀筆記](ramp-ai-agents.md)
+
+-   :material-trending-up:{{ .lg .middle }} **Trend Monitor**
+
+    ---
+
+    dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
+
+    [:octicons-arrow-right-24: 閱讀筆記](trend-monitor.md)
 
 -   :material-home-search:{{ .lg .middle }} **tw-house-ops**
 
