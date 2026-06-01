@@ -107,9 +107,12 @@ tags:
 - 一個用 AI Agent 做交易的專案 → 歸「量化交易」而非「AI Agent 框架」
 - 一本教 AI Agent 的書 → 歸「學習資源」而非「AI Agent 框架」
 
-在對應分類中，按字母順序插入新條目。
+在對應分類中，按字母順序插入新條目（每個分類第一行是 `- topics/<slug>.md` 總覽頁，新條目插在它**之後**、其餘標題條目之間）。
 
-**若新增了 `mkdocs.yml` 原本沒有的分類，同時要在 `scripts/sync.py` 的 `CATEGORY_ICONS` 補一個對應圖示**，否則首頁「分類導覽」卡片會用通用資料夾圖示（`material-folder-outline`）。
+**若新增了 `mkdocs.yml` 原本沒有的分類，必須同步補三處**（漏任一個，新分類的總覽頁就不會生成或側欄點不進去）：
+1. `mkdocs.yml`：在該分類底下第一行加 `- topics/<slug>.md`（slug 用小寫 kebab-case，作為 navigation.indexes 的 section index）
+2. `scripts/sync.py` 的 `CATEGORY_SLUGS`：補 `"分類名稱": "slug"`（要與上面 nav 的 slug 一致）
+3. `scripts/sync.py` 的 `CATEGORY_ICONS`：補一個對應圖示，否則首頁「分類導覽」卡片會用通用資料夾圖示（`material-folder-outline`）
 
 ### Step 4：執行 sync.py 自動更新索引
 
