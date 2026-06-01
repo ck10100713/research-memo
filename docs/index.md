@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">187</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">188</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-05-29</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-01</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    64 篇筆記
+    65 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -109,6 +109,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
+
+    ---
+
+    `2026-06-01` Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
+
+    [:octicons-arrow-right-24: 閱讀筆記](codex-complexity-optimizer.md)
 
 -   :material-shaker-outline:{{ .lg .middle }} **Awesome OpenClaw Skills**
 
@@ -237,14 +245,6 @@
     `2026-05-19` aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板
 
     [:octicons-arrow-right-24: 閱讀筆記](aqua-usage-menubar.md)
-
--   :material-finance:{{ .lg .middle }} **Daily Stock Analysis**
-
-    ---
-
-    `2026-05-19` ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」
-
-    [:octicons-arrow-right-24: 閱讀筆記](daily-stock-analysis.md)
 
 </div>
 

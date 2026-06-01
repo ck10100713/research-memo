@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 64 篇研究筆記。
+本分類收錄 65 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-06-01 | [Codex Complexity Optimizer](../codex-complexity-optimizer.md) | Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告 |
 | 2026-05-27 | [Claude-Mem](../claude-mem.md) | thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host |
 | 2026-05-27 | [Knowledge Work Plugins](../knowledge-work-plugins.md) | Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」 |
 | 2026-05-26 | [Claude Code Game Studios](../claude-code-game-studios.md) | Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist） |
