@@ -1,0 +1,28 @@
+/* 首頁統計數字 bar */
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.stats-bar .stat {
+  flex: 1 1 140px;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.stats-bar .stat-num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--md-primary-fg-color);
+}
+
+.stats-bar .stat-label {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}

@@ -105,6 +105,8 @@ oneliner: "一句話描述，用於卡片和表格"
 
 在對應分類中，按字母順序插入新條目。
 
+**若新增了 `mkdocs.yml` 原本沒有的分類，同時要在 `scripts/sync.py` 的 `CATEGORY_ICONS` 補一個對應圖示**，否則首頁「分類導覽」卡片會用通用資料夾圖示（`material-folder-outline`）。
+
 ### Step 4：執行 sync.py 自動更新索引
 
 ```bash

@@ -20,6 +20,22 @@ RECENT_CARDS_LIMIT = 17  # 研究更新區塊顯示的最大卡片數
 # 不需要 frontmatter 的特殊頁面
 SKIP_FILES = {"index.md", "news.md"}
 
+# 首頁「分類導覽」卡片用的圖示（找不到時用 DEFAULT_CAT_ICON）
+CATEGORY_ICONS = {
+    "AI Agent 框架": "material-robot-outline",
+    "Coding Agent 工具": "material-code-tags",
+    "量化交易": "material-chart-line",
+    "社群行銷": "material-bullhorn-outline",
+    "AI 創作資源": "material-palette-outline",
+    "AI 應用": "material-apps",
+    "OSINT / 情報工具": "material-radar",
+    "軟體工程知識": "material-book-open-variant",
+    "開發工具": "material-wrench-outline",
+    "資源彙整 / Awesome List": "material-star-outline",
+    "學習資源": "material-school-outline",
+}
+DEFAULT_CAT_ICON = "material-folder-outline"
+
 # ── Frontmatter 解析 ─────────────────────────────────
 
 def parse_frontmatter(filepath: Path) -> tuple[dict, str]:
@@ -146,6 +162,36 @@ def generate_index(categories, all_docs_meta):
     lines.append("")
     lines.append("研究與整理感興趣的技術專案、架構模式與工具鏈。")
     lines.append("")
+
+    # ── 統計數字 bar（全部自動計算）──
+    total = len(all_docs_meta)
+    num_cats = len(categories)
+    all_dates = [m["date"] for m, _ in all_docs_meta.values() if m.get("date")]
+    latest = max(all_dates) if all_dates else "—"
+    lines.append('<div class="stats-bar">')
+    lines.append(f'  <div class="stat"><div class="stat-num">{total}</div><div class="stat-label">研究筆記</div></div>')
+    lines.append(f'  <div class="stat"><div class="stat-num">{num_cats}</div><div class="stat-label">主題分類</div></div>')
+    lines.append(f'  <div class="stat"><div class="stat-num">{latest}</div><div class="stat-label">最近更新</div></div>')
+    lines.append("</div>")
+    lines.append("")
+
+    # ── 分類導覽（跳至同頁各分類區塊）──
+    lines.append("## 分類導覽")
+    lines.append("")
+    lines.append('<div class="grid cards" markdown>')
+    lines.append("")
+    for i, (cat_name, docs_in_cat) in enumerate(categories, 1):
+        icon = CATEGORY_ICONS.get(cat_name, DEFAULT_CAT_ICON)
+        lines.append(f'-   :{icon}:{{{{ .lg .middle }}}} **{cat_name}**')
+        lines.append("")
+        lines.append("    ---")
+        lines.append("")
+        lines.append(f"    {len(docs_in_cat)} 篇筆記")
+        lines.append("")
+        lines.append(f"    [:octicons-arrow-right-24: 前往](#cat-{i})")
+        lines.append("")
+    lines.append("</div>")
+    lines.append("")
     lines.append("---")
     lines.append("")
 
@@ -180,10 +226,10 @@ def generate_index(categories, all_docs_meta):
     lines.append("")
 
     # ── 各分類區塊 ──
-    for cat_name, docs_in_cat in categories:
+    for i, (cat_name, docs_in_cat) in enumerate(categories, 1):
         lines.append("---")
         lines.append("")
-        lines.append(f"## {cat_name}")
+        lines.append(f"## {cat_name} {{#cat-{i}}}")
         lines.append("")
         lines.append('<div class="grid cards" markdown>')
         lines.append("")

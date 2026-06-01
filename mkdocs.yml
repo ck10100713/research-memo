@@ -31,6 +31,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -44,6 +45,10 @@ plugins:
         - zh
         - en
   - tags
+  - git-revision-date-localized:
+      type: date
+      locale: zh
+      fallback_to_build_date: true
 
 markdown_extensions:
   - admonition
@@ -270,6 +275,9 @@ nav:
       - Reverse-SynthID: reverse-synthid.md
       - skillopt-qa（SkillOpt 教學重現）: skillopt-qa.md
       - Claude Code 最佳實踐報告 (zeuikli): zeuikli-claude-code-best-practices.md
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   social:

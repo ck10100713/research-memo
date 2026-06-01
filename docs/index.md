@@ -2,6 +2,106 @@
 
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num">187</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
+  <div class="stat"><div class="stat-num">2026-05-29</div><div class="stat-label">最近更新</div></div>
+</div>
+
+## 分類導覽
+
+<div class="grid cards" markdown>
+
+-   :material-robot-outline:{{ .lg .middle }} **AI Agent 框架**
+
+    ---
+
+    23 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-1)
+
+-   :material-code-tags:{{ .lg .middle }} **Coding Agent 工具**
+
+    ---
+
+    64 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-2)
+
+-   :material-chart-line:{{ .lg .middle }} **量化交易**
+
+    ---
+
+    42 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-3)
+
+-   :material-bullhorn-outline:{{ .lg .middle }} **社群行銷**
+
+    ---
+
+    3 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-4)
+
+-   :material-palette-outline:{{ .lg .middle }} **AI 創作資源**
+
+    ---
+
+    3 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-5)
+
+-   :material-apps:{{ .lg .middle }} **AI 應用**
+
+    ---
+
+    16 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-6)
+
+-   :material-radar:{{ .lg .middle }} **OSINT / 情報工具**
+
+    ---
+
+    2 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-7)
+
+-   :material-book-open-variant:{{ .lg .middle }} **軟體工程知識**
+
+    ---
+
+    2 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-8)
+
+-   :material-wrench-outline:{{ .lg .middle }} **開發工具**
+
+    ---
+
+    11 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-9)
+
+-   :material-star-outline:{{ .lg .middle }} **資源彙整 / Awesome List**
+
+    ---
+
+    2 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-10)
+
+-   :material-school-outline:{{ .lg .middle }} **學習資源**
+
+    ---
+
+    19 篇筆記
+
+    [:octicons-arrow-right-24: 前往](#cat-11)
+
+</div>
+
 ---
 
 ## 研究更新
@@ -152,7 +252,7 @@
 
 ---
 
-## AI Agent 框架
+## AI Agent 框架 {#cat-1}
 
 <div class="grid cards" markdown>
 
@@ -344,7 +444,7 @@
 
 ---
 
-## Coding Agent 工具
+## Coding Agent 工具 {#cat-2}
 
 <div class="grid cards" markdown>
 
@@ -864,7 +964,7 @@
 
 ---
 
-## 量化交易
+## 量化交易 {#cat-3}
 
 <div class="grid cards" markdown>
 
@@ -1208,7 +1308,7 @@
 
 ---
 
-## 社群行銷
+## 社群行銷 {#cat-4}
 
 <div class="grid cards" markdown>
 
@@ -1240,7 +1340,7 @@
 
 ---
 
-## AI 創作資源
+## AI 創作資源 {#cat-5}
 
 <div class="grid cards" markdown>
 
@@ -1272,7 +1372,7 @@
 
 ---
 
-## AI 應用
+## AI 應用 {#cat-6}
 
 <div class="grid cards" markdown>
 
@@ -1408,7 +1508,7 @@
 
 ---
 
-## OSINT / 情報工具
+## OSINT / 情報工具 {#cat-7}
 
 <div class="grid cards" markdown>
 
@@ -1432,7 +1532,7 @@
 
 ---
 
-## 軟體工程知識
+## 軟體工程知識 {#cat-8}
 
 <div class="grid cards" markdown>
 
@@ -1456,7 +1556,7 @@
 
 ---
 
-## 開發工具
+## 開發工具 {#cat-9}
 
 <div class="grid cards" markdown>
 
@@ -1552,7 +1652,7 @@
 
 ---
 
-## 資源彙整 / Awesome List
+## 資源彙整 / Awesome List {#cat-10}
 
 <div class="grid cards" markdown>
 
@@ -1576,7 +1676,7 @@
 
 ---
 
-## 學習資源
+## 學習資源 {#cat-11}
 
 <div class="grid cards" markdown>
 
