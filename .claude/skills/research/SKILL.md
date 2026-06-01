@@ -53,7 +53,7 @@ tags:
 - `category` — **必須完全匹配** `mkdocs.yml` nav 的分類名稱（如「Coding Agent 工具」）
 - `card_icon` — Material Design icon 名稱（如 `material-robot`），不含冒號語法
 - `oneliner` — 卡片和表格中使用的一句話描述
-- `tags` — 2-4 個**跨分類**主題標籤，會出現在「標籤索引」頁。標籤是橫向的（與 `category` 縱向劃分互補），目的是串起散落在不同分類的相關筆記。**優先沿用既有標籤、不要造同義詞**。目前已使用的標籤：`agent-framework`、`automation`、`awesome-list`、`browser-agent`、`claude-code`、`github-actions`、`learning`、`llm-training`、`mcp`、`multi-agent`、`prompt-engineering`、`quant`、`rag`、`skills`（不夠用時可新增，用小寫 kebab-case）
+- `tags` — 2-4 個**跨分類**主題標籤，會出現在「標籤索引」頁。標籤是橫向的（與 `category` 縱向劃分互補），目的是串起散落在不同分類的相關筆記。**優先沿用既有標籤、不要造同義詞**。目前全站已使用的標籤（用小寫 kebab-case；不夠用時才新增）：`agent-framework`、`automation`、`awesome-list`、`benchmark`、`browser-agent`、`claude-code`、`code-review`、`control-theory`、`copilot`、`design`、`desktop-app`、`drawdown`、`finance`、`forecasting`、`github-actions`、`harness`、`image-generation`、`kelly`、`knowledge-base`、`knowledge-distillation`、`learning`、`llm-gateway`、`llm-training`、`marketing`、`mcp`、`memory`、`multi-agent`、`osint`、`plugin`、`portfolio-optimization`、`prediction-market`、`prompt-engineering`、`quant`、`rag`、`reverse-engineering`、`security`、`self-hosted`、`skills`、`software-engineering`、`taiwan`、`terminal`、`travel`
 
 **筆記結構模板（frontmatter 之後）：**
 
