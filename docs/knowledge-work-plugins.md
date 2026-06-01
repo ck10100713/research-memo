@@ -3,6 +3,10 @@ date: "2026-05-27"
 category: "Coding Agent 工具"
 card_icon: "material-briefcase-variant"
 oneliner: "Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」"
+tags:
+  - claude-code
+  - plugin
+  - skills
 ---
 
 # Knowledge Work Plugins 研究筆記

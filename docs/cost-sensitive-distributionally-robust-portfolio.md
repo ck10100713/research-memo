@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-cash-multiple"
 oneliner: "Hsieh × Yu 2024：用 Wasserstein ball 量化分布不確定性，加上一般凸交易成本模型，證明無成本時收斂等權重、有成本時資金往無風險資產偏移"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # On Cost-Sensitive Distributionally Robust Log-Optimal Portfolio

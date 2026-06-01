@@ -3,6 +3,10 @@ date: "2026-05-19"
 category: "Coding Agent 工具"
 card_icon: "material-shield-check"
 oneliner: "Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars"
+tags:
+  - skills
+  - security
+  - mcp
 ---
 
 # Tech Leads Club Agent Skills 研究筆記

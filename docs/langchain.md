@@ -3,6 +3,8 @@ date: "2026-03-23"
 category: "AI Agent 框架"
 card_icon: "material-link-variant"
 oneliner: "LLM 應用開發框架"
+tags:
+  - agent-framework
 ---
 # LangChain 研究筆記
 

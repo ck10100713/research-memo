@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "從零學 AI 工程 — 20 Phases、260+ 課、290 小時，從數學到多 Agent Swarm 全覆蓋"
+tags:
+  - learning
+  - multi-agent
 ---
 
 # AI Engineering from Scratch 研究筆記

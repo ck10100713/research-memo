@@ -3,6 +3,10 @@ date: "2026-04-17"
 category: "學習資源"
 card_icon: "material-notebook-multiple"
 oneliner: "Anthropic 官方 40.8K stars 的 Claude 食譜庫，從 RAG 到 Managed Agents 的完整可執行範例"
+tags:
+  - learning
+  - rag
+  - claude-code
 ---
 # Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫
 

@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-school"
 oneliner: "Barmish × Formentin × Hsieh × Proskurnikov × Warnick 2024 CDC tutorial：寫給控制論研究者的股票交易入門指南，把交易研究的核心問題、方法論、未解難題系統性地展示給 control 社群"
+tags:
+  - quant
+  - control-theory
+  - learning
 ---
 
 # A Jump Start to Stock Trading Research for the Uninitiated Control Scientist: A Tutorial

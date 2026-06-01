@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "學習資源"
 card_icon: "material-robot"
 oneliner: "《動手做AI Agent》書籍配套程式碼與教學"
+tags:
+  - learning
+  - agent-framework
 ---
 # AI Agents (黃佳) 研究筆記
 

@@ -3,6 +3,9 @@ date: "2026-04-02"
 category: "AI 應用"
 card_icon: "material-head-lightbulb"
 oneliner: "Milla Jovovich 的 AI 記憶宮殿系統 — 本地 ChromaDB 全文儲存 + 空間隱喻導航，96.6% LongMemEval"
+tags:
+  - memory
+  - rag
 ---
 
 # MemPalace 研究筆記

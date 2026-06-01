@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-trending-down"
 oneliner: "Hsieh × Barmish 2017 CDC：以 drawdown 取代 variance 當風險指標時，古典 Markowitz LTI 反饋策略不效率，drawdown modulator 時變反饋以機率 1 提供 worst-case drawdown 保護"
+tags:
+  - quant
+  - drawdown
+  - control-theory
 ---
 
 # On Inefficiency of Markowitz-Style Investment Strategies When Drawdown is Important

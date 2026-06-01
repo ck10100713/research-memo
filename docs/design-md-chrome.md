@@ -3,6 +3,9 @@ date: "2026-04-21"
 category: "Coding Agent 工具"
 card_icon: "material-palette-swatch"
 oneliner: "Chrome 擴充套件，一鍵擷取任意網站設計系統生成 DESIGN.md / SKILL.md，7 天 756 stars，TypeUI 生態系的瀏覽器前端"
+tags:
+  - design
+  - skills
 ---
 
 # design-md-chrome 研究筆記

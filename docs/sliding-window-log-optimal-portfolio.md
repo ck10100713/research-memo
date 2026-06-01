@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-window-restore"
 oneliner: "Wang × Hsieh 2022 IFAC：用 sliding window 解 log-optimal portfolio，產生時變權重而非靜態配置，累積報酬率超越傳統常數權重 log-optimal"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # On Data-Driven Log-Optimal Portfolio: A Sliding Window Approach

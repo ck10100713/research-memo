@@ -3,6 +3,8 @@ date: "2026-04-15"
 category: "量化交易"
 card_icon: "material-chart-timeline-variant"
 oneliner: "Google 時間序列基礎模型 — 200M 參數、16K context、zero-shot 預測，已整合 BigQuery"
+tags:
+  - forecasting
 ---
 
 # TimesFM 研究筆記

@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-clock-fast"
 oneliner: "Wong × Hsieh 2023：把 frequency-dependent log-optimal portfolio 加上交易成本後仍保持為 concave program，用兩基金定理 + sliding window 解出每期可實作的解"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # On Frequency-Based Optimal Portfolio with Transaction Costs

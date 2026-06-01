@@ -3,6 +3,9 @@ date: "2026-04-13"
 category: "AI 應用"
 card_icon: "material-cog-transfer"
 oneliner: "4,343 個免費 n8n 自動化工作流模板庫 — 從 AI Agent 到行銷自動化，一鍵匯入即用"
+tags:
+  - automation
+  - self-hosted
 ---
 
 # n8n-workflows 研究筆記

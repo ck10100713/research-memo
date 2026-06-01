@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-speedometer"
 oneliner: "Hsieh × Lu 2024：把 distributionally robust portfolio 的求解時間從幾千秒壓到個位數秒，extended supporting hyperplane approximation 用在 S&P 500 全成分股"
+tags:
+  - quant
+  - portfolio-optimization
+  - control-theory
 ---
 
 # On Accelerating Large-Scale Robust Portfolio Optimization

@@ -3,6 +3,10 @@ date: "2026-05-15"
 category: "Coding Agent 工具"
 card_icon: "material-palette"
 oneliner: "卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流"
+tags:
+  - skills
+  - design
+  - taiwan
 ---
 
 # Casper × Claude Code Skill 設計風格圖鑑 研究筆記

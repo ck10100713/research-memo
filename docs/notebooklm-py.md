@@ -3,6 +3,9 @@ date: "2026-05-25"
 category: "AI 應用"
 card_icon: "material-notebook-multiple"
 oneliner: "teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力"
+tags:
+  - rag
+  - skills
 ---
 
 # notebooklm-py 研究筆記

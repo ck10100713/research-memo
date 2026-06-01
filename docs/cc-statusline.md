@@ -3,6 +3,9 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-view-dashboard-variant"
 oneliner: "Claude Code 一眼看穿全貌的 statusline：quota 條、agent tracker、MCP 健康、全 session 成本聚合"
+tags:
+  - claude-code
+  - terminal
 ---
 # cc-statusline — Claude Code 的全能 statusline 儀表板
 

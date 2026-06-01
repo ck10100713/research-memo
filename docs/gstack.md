@@ -3,6 +3,10 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-hammer-wrench"
 oneliner: "Garry Tan 的 Claude Code 工作流系統，40 天衝到 77.7K stars，v1.3 新增 taste engine、context save/restore、10 個 host 支援"
+tags:
+  - claude-code
+  - harness
+  - skills
 ---
 # gstack 研究筆記
 

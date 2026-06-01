@@ -3,6 +3,9 @@ date: "2026-03-29"
 category: "量化交易"
 card_icon: "material-chart-scatter-plot"
 oneliner: "2.92 億筆 Polymarket/Kalshi 交易的公開最大數據集，附學術研究框架與「財富轉移微結構」論文"
+tags:
+  - prediction-market
+  - benchmark
 ---
 # Prediction Market Analysis 研究筆記
 

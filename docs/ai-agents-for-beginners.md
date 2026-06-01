@@ -3,6 +3,9 @@ date: "2026-05-14"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言"
+tags:
+  - learning
+  - agent-framework
 ---
 
 # AI Agents for Beginners 研究筆記

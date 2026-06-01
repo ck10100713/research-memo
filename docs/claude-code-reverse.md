@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-magnify-scan"
 oneliner: "2.3K stars 的 Claude Code 逆向工程——v2 基於 Runtime Monkey Patch 攔截 API 請求，附帶 Log 視覺化工具和完整 Prompt 解碼"
+tags:
+  - claude-code
+  - reverse-engineering
 ---
 # Claude Code Reverse Engineering 研究筆記
 

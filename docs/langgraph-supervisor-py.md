@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-account-supervisor"
 oneliner: "LangGraph 官方 Supervisor 多 Agent 庫——中央調度器模式，支援多層階層與訊息歷史控制（1.5K stars）"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 # LangGraph Supervisor 研究筆記
 

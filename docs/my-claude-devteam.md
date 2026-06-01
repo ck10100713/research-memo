@@ -3,6 +3,10 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-account-group"
 oneliner: "台灣交大 NYCU-Chung 作品，把 Claude Code 變成 12 人工程團隊，9 天衝 218 stars 的 P7/P9/P10 企業職級方法論"
+tags:
+  - claude-code
+  - multi-agent
+  - taiwan
 ---
 
 # my-claude-devteam 研究筆記

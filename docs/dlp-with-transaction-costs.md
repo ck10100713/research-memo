@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-cash-minus"
 oneliner: "Hsieh 2022 L-CSS：DLP 加上交易成本後 robust positive expected gain 可能消失，本篇給出保留正期望的條件、用 GBM with jumps 模擬與 BTC-USD 回測驗證"
+tags:
+  - quant
+  - control-theory
 ---
 
 # On Robustness of Double Linear Trading with Transaction Costs

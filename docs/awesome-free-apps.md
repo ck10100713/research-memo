@@ -3,6 +3,8 @@ date: "2026-05-27"
 category: "資源彙整 / Awesome List"
 card_icon: "material-apps"
 oneliner: "Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖"
+tags:
+  - awesome-list
 ---
 
 # Awesome Free Apps 研究筆記

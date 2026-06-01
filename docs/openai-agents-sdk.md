@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "AI Agent 框架"
 card_icon: "material-robot-industrial"
 oneliner: "OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 
 # OpenAI Agents SDK 研究筆記

@@ -3,6 +3,9 @@ date: "2026-04-16"
 category: "Coding Agent 工具"
 card_icon: "material-shield-check"
 oneliner: "Karpathy 的 LLM 編程痛點轉化為一份 CLAUDE.md — 四大原則讓 AI 少犯愚蠢錯誤，44K stars"
+tags:
+  - claude-code
+  - skills
 ---
 
 # andrej-karpathy-skills 研究筆記

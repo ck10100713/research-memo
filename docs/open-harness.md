@@ -3,6 +3,9 @@ date: "2026-04-02"
 category: "Coding Agent 工具"
 card_icon: "material-cog-outline"
 oneliner: "香港大學開源 Agent Harness — 11,700 行 Python 重現 98% Claude Code 工具能力，支援多 LLM Provider"
+tags:
+  - harness
+  - agent-framework
 ---
 
 # OpenHarness 研究筆記

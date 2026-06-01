@@ -3,6 +3,10 @@ date: "2026-05-19"
 category: "Coding Agent 工具"
 card_icon: "material-counter"
 oneliner: "aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板"
+tags:
+  - claude-code
+  - terminal
+  - taiwan
 ---
 
 # usage (aqua5230) 研究筆記

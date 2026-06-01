@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-source-branch"
 oneliner: "Hsieh 2022 / 2025 修訂：DLP 結構派的源頭論文，把 semi-infinite constraints 化成 balanced / complementary 兩種結構策略，廣義化 mean-variance 並提供圖形求解法"
+tags:
+  - quant
+  - control-theory
+  - portfolio-optimization
 ---
 
 # From Semi-Infinite Constraints to Structured Robust Policies: Optimal Gain Selection for Financial Systems

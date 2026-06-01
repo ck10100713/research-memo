@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-help-circle-outline"
 oneliner: "Hsieh × Po-Hsuan Hsu 工作中：把 ambiguity（Knightian 不確定性）放進資產定價框架，預期接續作者整條 distributionally robust 路線推到 pricing 層級"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # Asset Pricing Theory with Ambiguity（工作中 working paper）

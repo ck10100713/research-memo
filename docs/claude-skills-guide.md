@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-puzzle"
 oneliner: "Claude Skills 建構完整指南"
+tags:
+  - skills
+  - learning
 ---
 # The Complete Guide to Building Skills for Claude — 研究筆記
 

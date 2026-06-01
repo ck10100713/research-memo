@@ -3,6 +3,10 @@ date: "2026-03-27"
 category: "AI 創作資源"
 card_icon: "material-image-multiple"
 oneliner: "Civitai、PromptHero、Lexica 等 15+ 平台全景比較，涵蓋 SFW/NSFW、選擇決策樹"
+tags:
+  - image-generation
+  - prompt-engineering
+  - design
 ---
 # AI 圖像生成 Prompt Gallery 生態研究筆記
 

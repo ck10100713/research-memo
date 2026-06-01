@@ -3,6 +3,9 @@ date: "2026-04-16"
 category: "學習資源"
 card_icon: "material-fingerprint-off"
 oneliner: "逆向工程 Google SynthID 圖像浮水印 — 頻譜分析發現載波結構，90% 偵測率 + 91% 相位去除"
+tags:
+  - reverse-engineering
+  - security
 ---
 
 # reverse-SynthID 研究筆記

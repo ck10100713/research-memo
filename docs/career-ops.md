@@ -3,6 +3,10 @@ date: "2026-04-02"
 category: "AI 應用"
 card_icon: "material-briefcase-search"
 oneliner: "Claude Code 驅動的 AI 求職系統 — 14 個 skill modes、A-F 評分、ATS 履歷生成、批次處理 740+ 職缺"
+tags:
+  - claude-code
+  - skills
+  - automation
 ---
 
 # Career-Ops 研究筆記

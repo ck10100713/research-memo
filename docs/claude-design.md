@@ -3,6 +3,10 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-pencil-ruler"
 oneliner: "Anthropic 新推出的「設計專用 Claude」完整中文系統提示詞 — 用 HTML 做設計交付，具備 Tweaks、Starter Components、Verifier 與反 AI slop 的完整工程骨架"
+tags:
+  - design
+  - claude-code
+  - prompt-engineering
 ---
 
 # Claude Design 系統提示詞研究筆記

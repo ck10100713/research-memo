@@ -3,6 +3,10 @@ date: "2026-03-27"
 category: "AI 創作資源"
 card_icon: "material-palette"
 oneliner: "台灣制服地圖的 3,000+ AI 圖像生成 prompt 資料庫，視覺預覽 + 跨維度快速組合"
+tags:
+  - image-generation
+  - prompt-engineering
+  - taiwan
 ---
 # Uniform Map AI Prompts Database 研究筆記
 

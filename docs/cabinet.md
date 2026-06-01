@@ -3,6 +3,10 @@ date: "2026-04-10"
 category: "AI 應用"
 card_icon: "material-file-cabinet"
 oneliner: "AI-first 知識庫 + 新創 OS — Markdown on disk、AI Agent 團隊、排程任務、自架部署"
+tags:
+  - knowledge-base
+  - self-hosted
+  - multi-agent
 ---
 
 # Cabinet — AI-First 知識庫與新創作業系統

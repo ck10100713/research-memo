@@ -3,6 +3,11 @@ date: "2026-04-15"
 category: "Coding Agent 工具"
 card_icon: "material-account-supervisor"
 oneliner: "77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合"
+tags:
+  - claude-code
+  - plugin
+  - skills
+  - multi-agent
 ---
 
 # wshobson/agents 研究筆記

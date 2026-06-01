@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "社群行銷"
 card_icon: "material-instagram"
 oneliner: "Instagram Reels 自動化互動工具"
+tags:
+  - marketing
+  - automation
 ---
 # Insta-Booster 研究筆記
 

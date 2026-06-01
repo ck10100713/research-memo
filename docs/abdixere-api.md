@@ -3,6 +3,9 @@ date: "2026-05-13"
 category: "Coding Agent 工具"
 card_icon: "material-memory"
 oneliner: "Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護"
+tags:
+  - mcp
+  - memory
 ---
 
 # abdixere-api 研究筆記

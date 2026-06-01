@@ -3,6 +3,9 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-dna"
 oneliner: "上海 AI Lab × titanwings 出品，從 colleague.skill 升級的通用人物蒸餾器 — 21 天衝 15.5K stars，三家族 × 四宿主把任何人變 AI Skill"
+tags:
+  - skills
+  - knowledge-distillation
 ---
 
 # dot-skill 研究筆記

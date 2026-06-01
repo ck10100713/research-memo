@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-shield-check"
 oneliner: "Hsieh × Barmish 2017 IFAC：Drawdown Modulation Lemma 刻畫「以機率 1 維持 max drawdown 上限」的投資族，並在此族內最大化 Kelly ELG，給出 drawdown-constrained Kelly 的最佳投資"
+tags:
+  - quant
+  - drawdown
+  - kelly
 ---
 
 # On Drawdown-Modulated Feedback Control in Stock Trading

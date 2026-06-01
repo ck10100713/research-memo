@@ -3,6 +3,10 @@ date: "2026-04-02"
 category: "OSINT / 情報工具"
 card_icon: "material-radar"
 oneliner: "社群策展的 OSINT 工具目錄 — 335 個工具、21 個分類，按調查工作流組織"
+tags:
+  - osint
+  - awesome-list
+  - security
 ---
 
 # OsintRadar 研究筆記

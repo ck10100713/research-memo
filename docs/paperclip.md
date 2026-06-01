@@ -3,6 +3,9 @@ date: "2026-03-02"
 category: "AI Agent 框架"
 card_icon: "material-office-building"
 oneliner: "開源 AI Agent 編排控制平面，把多個 Agent 組織成一間零人公司"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 # Paperclip 研究筆記
 

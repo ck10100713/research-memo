@@ -3,6 +3,9 @@ date: "2026-04-02"
 category: "學習資源"
 card_icon: "material-memory"
 oneliner: "Google Gemma 4 模型全解析 + 2026 Local LLM 推論工具對比（Ollama / llama.cpp / vLLM / LM Studio）"
+tags:
+  - learning
+  - llm-training
 ---
 
 # Gemma 4 與 Local LLM 研究筆記

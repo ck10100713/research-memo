@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-chart-line-variant"
 oneliner: "Wang × Hsieh 2023 CDC：把 Double Linear Policy 從常數權重推廣到 time-varying 權重，用 elementary symmetric polynomials 證明 robust positive expectation，可接 moving average 訊號"
+tags:
+  - quant
+  - control-theory
 ---
 
 # On Robustness of Double Linear Policy with Time-Varying Weights

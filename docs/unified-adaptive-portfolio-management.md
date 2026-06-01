@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-puzzle"
 oneliner: "Li × Hsieh 2023：把 dynamic Black-Litterman + 因子模型 + Elastic Net + 動態 sliding window 整合成一個 adaptive portfolio 框架，S&P 500 前 100 大十年實證含 turnover 成本仍有效"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # On Unified Adaptive Portfolio Management

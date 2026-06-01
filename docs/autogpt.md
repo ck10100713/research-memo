@@ -3,6 +3,8 @@ date: "2026-02-03"
 category: "AI Agent 框架"
 card_icon: "material-brain"
 oneliner: "自主 AI Agent 先驅專案"
+tags:
+  - agent-framework
 ---
 # AutoGPT 研究筆記
 

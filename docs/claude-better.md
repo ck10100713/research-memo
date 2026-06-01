@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-ghost"
 oneliner: "CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'"
+tags:
+  - claude-code
+  - reverse-engineering
 ---
 # claude-better 研究筆記
 

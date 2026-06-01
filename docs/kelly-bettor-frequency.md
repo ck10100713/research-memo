@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-dice-multiple"
 oneliner: "Hsieh × Barmish × Gubner 2018 ACC：Bernoulli 押注場景下，零成本時最優 ELG 對下注間隔 n 為非遞增、提出 sufficient attractiveness inequality 作為低頻匹配高頻的條件"
+tags:
+  - quant
+  - kelly
 ---
 
 # At What Frequency Should the Kelly Bettor Bet?

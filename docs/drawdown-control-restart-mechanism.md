@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-restart"
 oneliner: "Hsieh 2023 IFAC：drawdown modulation 觸發後不再像 stop-loss 那樣放棄，加 data-driven restart 自動重啟，含成本仍打敗原版且維持 max drawdown 上限"
+tags:
+  - quant
+  - drawdown
+  - control-theory
 ---
 
 # On Data-Driven Drawdown Control with Restart Mechanism in Trading

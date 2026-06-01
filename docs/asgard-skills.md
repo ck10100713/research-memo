@@ -3,6 +3,9 @@ date: "2026-04-16"
 category: "Coding Agent 工具"
 card_icon: "material-bookshelf"
 oneliner: "263 個 Coding Agent Skills 知識庫 — 從研究所理論、演算法到台灣在地知識，附 20 支確定性計算腳本"
+tags:
+  - skills
+  - taiwan
 ---
 
 # Asgard Skills 研究筆記

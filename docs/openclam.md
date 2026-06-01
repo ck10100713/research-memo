@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "AI 應用"
 card_icon: "material-file-document-outline"
 oneliner: "台灣資安研究員開發的開源惡意程式分析工具"
+tags:
+  - security
+  - taiwan
 ---
 # OpenClam 研究筆記
 

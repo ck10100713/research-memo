@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "AI Agent 框架"
 card_icon: "material-fishbowl"
 oneliner: "40K stars 群體智能預測引擎，用數千 AI Agent 模擬平行社會推演未來"
+tags:
+  - multi-agent
+  - agent-framework
 ---
 # MiroFish 研究筆記
 

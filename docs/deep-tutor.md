@@ -3,6 +3,10 @@ date: "2026-04-09"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "港大 HKUDS 開源 AI 學習助理 — RAG 知識庫 + 多 Agent 解題 + TutorBot 自主家教 + CLI 原生"
+tags:
+  - rag
+  - multi-agent
+  - learning
 ---
 
 # DeepTutor 研究筆記

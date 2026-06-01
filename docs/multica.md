@@ -3,6 +3,9 @@ date: "2026-04-13"
 category: "Coding Agent 工具"
 card_icon: "material-account-group"
 oneliner: "開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用"
+tags:
+  - multi-agent
+  - agent-framework
 ---
 
 # Multica 研究筆記

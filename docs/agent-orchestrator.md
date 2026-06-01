@@ -3,6 +3,10 @@ date: "2026-03-27"
 category: "Coding Agent 工具"
 card_icon: "material-source-branch"
 oneliner: "Composio 的多 agent 控制平面，為每個 issue 建立 worktree、branch、PR，並自動接住 CI 與 review feedback"
+tags:
+  - multi-agent
+  - harness
+  - automation
 ---
 # Agent Orchestrator 研究筆記
 

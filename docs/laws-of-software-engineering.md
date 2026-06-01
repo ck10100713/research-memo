@@ -3,6 +3,9 @@ date: "2026-05-25"
 category: "軟體工程知識"
 card_icon: "material-book-open-variant"
 oneliner: "Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書"
+tags:
+  - learning
+  - software-engineering
 ---
 
 # Laws of Software Engineering 研究筆記

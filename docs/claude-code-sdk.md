@@ -3,6 +3,10 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-code-braces-box"
 oneliner: "單檔 18,500 行的多 Provider Claude Code 替代品——13 個 LLM 後端 + Ink TUI + NDJSON Bridge + Skills Marketplace，npm 安裝即用"
+tags:
+  - claude-code
+  - llm-gateway
+  - terminal
 ---
 # cloclo (claude-code-sdk) 研究筆記
 

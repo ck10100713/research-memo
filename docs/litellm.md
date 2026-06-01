@@ -3,6 +3,8 @@ date: "2026-05-20"
 category: "開發工具"
 card_icon: "material-router-network"
 oneliner: "BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars"
+tags:
+  - llm-gateway
 ---
 
 # LiteLLM 研究筆記

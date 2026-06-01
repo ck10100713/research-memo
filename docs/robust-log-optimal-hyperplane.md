@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-vector-line"
 oneliner: "Hsieh 2024 EJOR：用 supporting hyperplane 把 distributionally robust log-optimal portfolio 化成線性規劃，可內建交易成本、槓桿、做空、survival、分散性條件"
+tags:
+  - quant
+  - portfolio-optimization
 ---
 
 # On Solving Robust Log-Optimal Portfolio: A Supporting Hyperplane Approximation Approach

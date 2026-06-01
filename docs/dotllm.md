@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "學習資源"
 card_icon: "material-language-csharp"
 oneliner: "用純 C#/.NET 10 從零打造 LLM 推論引擎 — Zero-GC、SIMD、CUDA、Paged KV-cache"
+tags:
+  - llm-training
+  - learning
 ---
 
 # dotLLM 研究筆記

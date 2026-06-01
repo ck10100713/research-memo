@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "學習資源"
 card_icon: "material-book-open-variant"
 oneliner: "OpenAI 官方 34 頁 Agent 建構指南 — 定義、設計基礎、編排模式、護欄，從客戶部署提煉的最佳實踐"
+tags:
+  - learning
+  - agent-framework
 ---
 
 # OpenAI: A Practical Guide to Building Agents 研究筆記

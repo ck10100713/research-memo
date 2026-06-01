@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-format-vertical-align-bottom"
 oneliner: "Hsieh × Barmish × Gubner 2016 CDC：跟主流「Kelly 太激進」相反，本篇證明 Kelly 常常太保守—Restricted Betting Theorem 顯示 unbounded support 分布下 Kelly 押注趨近 0、實證樣本反而更積極"
+tags:
+  - quant
+  - kelly
 ---
 
 # Kelly Betting Can Be Too Conservative

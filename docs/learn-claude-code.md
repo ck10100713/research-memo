@@ -3,6 +3,10 @@ date: "2026-03-31"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "44K stars 的 Agent Harness 工程教科書——12 個漸進 Session 從 1 個 loop + Bash 到 worktree 隔離多 Agent 協作，附 Next.js 互動學習平台"
+tags:
+  - claude-code
+  - harness
+  - learning
 ---
 # Learn Claude Code 研究筆記
 

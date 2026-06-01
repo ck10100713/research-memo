@@ -3,6 +3,10 @@ date: "2026-04-22"
 category: "Coding Agent 工具"
 card_icon: "material-console"
 oneliner: "tony1223 出品的跨平台 Electron 終端機聚合器，內建 Claude Code Agent 面板、cache 成本追蹤、worktree 隔離與 WebSocket 遠端控制，4 個月累積 339 stars"
+tags:
+  - terminal
+  - claude-code
+  - desktop-app
 ---
 
 # Better Agent Terminal 研究筆記

@@ -3,6 +3,9 @@ date: "2026-04-14"
 category: "開發工具"
 card_icon: "material-test-tube"
 oneliner: "用 GitHub Copilot SDK 分析網站並自動產生完整 Playwright 測試套件"
+tags:
+  - copilot
+  - automation
 ---
 
 # TestPilot.AI 研究筆記

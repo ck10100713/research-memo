@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-airplane-takeoff"
 oneliner: "AI Agent Skill，提交前自動掃描 iOS/macOS 專案的 App Store 審核風險"
+tags:
+  - skills
+  - automation
 ---
 # App Store Preflight Skills 研究筆記
 

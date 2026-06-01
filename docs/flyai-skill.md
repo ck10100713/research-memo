@@ -3,6 +3,10 @@ date: "2026-05-05"
 category: "AI 應用"
 card_icon: "material-airplane"
 oneliner: "阿里巴巴飛豬出品的 Claude Code / OpenClaw skill，把 Fliggy 機票飯店景點門票庫存接到 coding agent，2 個月衝 590 stars"
+tags:
+  - skills
+  - claude-code
+  - travel
 ---
 
 # FlyAI Skill 研究筆記

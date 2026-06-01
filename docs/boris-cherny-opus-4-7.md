@@ -3,6 +3,9 @@ date: "2026-04-17"
 category: "Coding Agent 工具"
 card_icon: "material-brain"
 oneliner: "Claude Code 創辦人 Boris Cherny 在 Opus 4.7 發表當天公開的 6 個生產力技巧與行為差異全解析"
+tags:
+  - claude-code
+  - learning
 ---
 # Boris Cherny × Claude Opus 4.7 — 發表當天的使用心得與 6 個新技巧
 

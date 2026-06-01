@@ -3,6 +3,8 @@ date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-star-shooting"
 oneliner: "Claude Code 使用案例展示"
+tags:
+  - claude-code
 ---
 # Claude Code Showcase 研究筆記
 

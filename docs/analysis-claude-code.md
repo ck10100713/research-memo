@@ -3,6 +3,10 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-file-search-outline"
 oneliner: "Claude Code v1.0.33 靜態逆向工程——50,000 行混淆碼拆解為 102 chunks，揭示 h2A 消息隊列、6 層權限驗證、92% 閾值上下文壓縮"
+tags:
+  - claude-code
+  - reverse-engineering
+  - harness
 ---
 # Analysis Claude Code 研究筆記
 

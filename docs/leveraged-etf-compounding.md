@@ -3,6 +3,8 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-trending-neutral"
 oneliner: "Hsieh × Chang × Chen 2025：挑戰「LETF 必受 volatility drag」教條，AR(1) + AR-GARCH + regime switching 分析顯示獨立報酬下 LETF 可正複利、動能市每日再平衡有利、均值回復期低頻再平衡反而保護"
+tags:
+  - quant
 ---
 
 # Compounding Effects in Leveraged ETFs: Beyond the Volatility Drag Paradigm

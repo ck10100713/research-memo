@@ -3,6 +3,10 @@ date: "2026-04-20"
 category: "開發工具"
 card_icon: "material-tune-variant"
 oneliner: "Python 超參數優化框架天花板，14K stars、define-by-run API，v5 將加上 Prompt Optimization 與 MCP Server"
+tags:
+  - llm-training
+  - prompt-engineering
+  - mcp
 ---
 # Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代
 

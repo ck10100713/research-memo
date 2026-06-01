@@ -3,6 +3,9 @@ date: "2026-04-01"
 category: "Coding Agent 工具"
 card_icon: "material-magnify-scan"
 oneliner: "Claude Code 洩漏源碼深度拆解 + clean-room Rust 重寫，揭露 BUDDY/KAIROS/Dream 等未公開系統"
+tags:
+  - claude-code
+  - reverse-engineering
 ---
 
 # Kuberwastaken Claude Code 研究筆記

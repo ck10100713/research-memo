@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "Coding Agent 工具"
 card_icon: "material-graph"
 oneliner: "本地程式碼知識圖譜 — Tree-sitter 解析 AST，MCP 提供 blast-radius 最小檔案集，省 8.2x token"
+tags:
+  - mcp
+  - code-review
 ---
 
 # Code Review Graph 研究筆記

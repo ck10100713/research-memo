@@ -3,6 +3,9 @@ date: "2026-04-10"
 category: "OSINT / 情報工具"
 card_icon: "material-magnify-scan"
 oneliner: "Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式"
+tags:
+  - osint
+  - security
 ---
 
 # pyWhat — 「這是什麼？」的萬用辨識器

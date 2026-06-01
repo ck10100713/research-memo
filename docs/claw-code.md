@@ -3,6 +3,10 @@ date: "2026-04-01"
 category: "Coding Agent 工具"
 card_icon: "material-claw"
 oneliner: "Claude Code 洩漏事件後的 clean-room Python/Rust 重寫，harness 工程研究標竿"
+tags:
+  - claude-code
+  - harness
+  - reverse-engineering
 ---
 
 # Claw Code 研究筆記

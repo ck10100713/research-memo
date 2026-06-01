@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "LY Corporation 技術部落格 — Google ADK 入門系列，從單一 Agent 到多代理人系統的實戰教學"
+tags:
+  - learning
+  - agent-framework
 ---
 
 # LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統

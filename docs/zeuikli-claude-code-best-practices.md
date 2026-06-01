@@ -3,6 +3,9 @@ date: "2026-05-15"
 category: "學習資源"
 card_icon: "material-clipboard-list"
 oneliner: "zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程"
+tags:
+  - claude-code
+  - learning
 ---
 
 # Claude Code 最佳實踐完整研究報告（zeuikli）研究筆記

@@ -3,6 +3,9 @@ date: "2026-05-27"
 category: "Coding Agent 工具"
 card_icon: "material-brain"
 oneliner: "thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host"
+tags:
+  - claude-code
+  - memory
 ---
 
 # Claude-Mem 研究筆記

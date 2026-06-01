@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-github"
 oneliner: "GitHub 官方 Agent SDK — 把 Copilot CLI 的 Agent 引擎以 JSON-RPC 暴露為可嵌入的多語言函式庫"
+tags:
+  - copilot
+  - agent-framework
 ---
 
 # GitHub Copilot SDK 研究筆記

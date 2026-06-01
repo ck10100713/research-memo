@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-chart-multiline"
 oneliner: "Chung-Han Hsieh × Xin-Yu Wang 把 Double Linear Policy 從單一資產推廣到多資產相關的 lattice market，理論證明在對稱市場仍能保證 survivability + 正期望報酬，S&P 500 前 30 大實證有效"
+tags:
+  - quant
+  - control-theory
 ---
 
 # Robust Trading in a Generalized Lattice Market 研究筆記

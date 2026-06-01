@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-stop-circle"
 oneliner: "Hsieh 2022 Automatica：把 affine feedback stock trading 結果擴張至含 stop-loss 訂單，GBM 下給出累積 P&L 的閉式 CDF，含 stop-loss 涵蓋無 stop 為特例"
+tags:
+  - quant
+  - control-theory
 ---
 
 # Generalization of Affine Feedback Stock Trading Results to Include Stop-Loss Orders

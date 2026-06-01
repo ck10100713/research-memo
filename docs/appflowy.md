@@ -3,6 +3,10 @@ date: "2026-04-10"
 category: "AI 應用"
 card_icon: "material-note-edit"
 oneliner: "開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主"
+tags:
+  - self-hosted
+  - knowledge-base
+  - desktop-app
 ---
 
 # AppFlowy — 開源 AI 協作工作區

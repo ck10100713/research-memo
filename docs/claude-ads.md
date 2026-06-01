@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "社群行銷"
 card_icon: "material-bullhorn"
 oneliner: "Claude Code Skill — 250+ 項廣告審計，跨 Google/Meta/YouTube/LinkedIn/TikTok/Apple 7 大平台"
+tags:
+  - skills
+  - marketing
 ---
 
 # Claude Ads 研究筆記

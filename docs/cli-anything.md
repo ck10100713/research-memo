@@ -3,6 +3,9 @@ date: "2026-05-19"
 category: "開發工具"
 card_icon: "material-console-line"
 oneliner: "HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月"
+tags:
+  - harness
+  - automation
 ---
 
 # CLI-Anything 研究筆記

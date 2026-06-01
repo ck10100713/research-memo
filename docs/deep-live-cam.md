@@ -3,6 +3,8 @@ date: "2026-03-30"
 category: "AI 應用"
 card_icon: "material-file-document-outline"
 oneliner: "開源即時 AI 換臉工具 — 單張照片即可驅動"
+tags:
+  - image-generation
 ---
 # Deep-Live-Cam 研究筆記
 

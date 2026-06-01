@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "開發工具"
 card_icon: "material-spider-web"
 oneliner: "自適應 Web Scraping 框架 — 網站改版後自動重新定位元素，內建繞過 Cloudflare + MCP Server"
+tags:
+  - automation
+  - mcp
 ---
 
 # Scrapling 研究筆記

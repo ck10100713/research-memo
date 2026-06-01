@@ -3,6 +3,8 @@ date: "2026-04-15"
 category: "開發工具"
 card_icon: "material-database-cog"
 oneliner: "Google 官方 MCP Server — 讓 AI Agent 直連 42 種資料庫，Go 核心 + 4 語言 SDK"
+tags:
+  - mcp
 ---
 
 # MCP Toolbox for Databases 研究筆記

@@ -3,6 +3,9 @@ date: "2026-05-19"
 category: "AI 應用"
 card_icon: "material-account-heart"
 oneliner: "tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶"
+tags:
+  - desktop-app
+  - memory
 ---
 
 # OpenHuman 研究筆記

@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "Coding Agent 工具"
 card_icon: "material-file-document-outline"
 oneliner: "Boris Cherny 57 個 Claude Code 進階工作流技巧"
+tags:
+  - claude-code
+  - learning
 ---
 # Claude Code Boris Cherny 57 Tips — 創辦人親授的進階工作流
 

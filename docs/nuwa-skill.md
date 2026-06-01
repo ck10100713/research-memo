@@ -3,6 +3,9 @@ date: "2026-04-17"
 category: "Coding Agent 工具"
 card_icon: "material-head-lightbulb"
 oneliner: "蒸餾任何人的思維方式 — 6 路並行調研 → 三重驗證 → 心智模型 + 決策啟發式 + 表達 DNA，11.8K stars"
+tags:
+  - knowledge-distillation
+  - skills
 ---
 
 # 女娲.skill（nuwa-skill）研究筆記

@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-account-cash"
 oneliner: "Hsieh × Barmish × Gubner 2020 IEEE TAC：把交易者帳戶價值寫成離散時間含延遲線性方程，找出 feedback gain α₋/α₊ 兩個門檻分別保證「永不破產」與「必破產」"
+tags:
+  - quant
+  - control-theory
 ---
 
 # On Positive Solutions of a Delay Equation Arising When Trading in Financial Markets

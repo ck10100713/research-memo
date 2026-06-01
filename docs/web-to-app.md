@@ -3,6 +3,8 @@ date: "2026-04-15"
 category: "開發工具"
 card_icon: "material-cellphone-link"
 oneliner: "在手機上直接將任意網站/HTML/React 打包成 Android APK — 不需 Android Studio"
+tags:
+  - automation
 ---
 
 # WebToApp 研究筆記

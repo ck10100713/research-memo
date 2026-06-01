@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-swap-horizontal-circle"
 oneliner: "LangGraph 官方 Swarm 多 Agent 庫——去中心化 handoff 模式，agent 間直接交接，延遲低 40%（1.4K stars）"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 # LangGraph Swarm 研究筆記
 

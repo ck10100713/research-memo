@@ -3,6 +3,9 @@ date: "2026-04-15"
 category: "AI 創作資源"
 card_icon: "material-palette-swatch"
 oneliner: "200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府"
+tags:
+  - design
+  - awesome-list
 ---
 
 # Awesome Design Systems 研究筆記

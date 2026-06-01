@@ -3,6 +3,10 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-refresh"
 oneliner: "保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成"
+tags:
+  - copilot
+  - automation
+  - taiwan
 ---
 
 # Copilot Ralph 研究筆記

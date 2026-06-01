@@ -3,6 +3,10 @@ date: "2026-04-14"
 category: "AI 應用"
 card_icon: "material-home-search"
 oneliner: "台灣看房 AI 管線 — Claude Code 驅動，自動掃描 591/信義/永慶，評估、追蹤、議價一條龍"
+tags:
+  - claude-code
+  - taiwan
+  - automation
 ---
 
 # tw-house-ops 研究筆記

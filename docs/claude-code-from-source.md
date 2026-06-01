@@ -3,6 +3,10 @@ date: "2026-04-12"
 category: "學習資源"
 card_icon: "material-book-open-page-variant"
 oneliner: "18 章深度逆向工程 Claude Code 架構 — 從 npm source map 解析 2,000 個 TypeScript 檔案"
+tags:
+  - claude-code
+  - reverse-engineering
+  - learning
 ---
 
 # Claude Code from Source — 逆向工程架構全書

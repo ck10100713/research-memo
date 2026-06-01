@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-timer-sand"
 oneliner: "Hsieh × Barmish × Gubner 2019 CDC：證明無延遲時 high-frequency trading 嚴格優於 buy-and-hold，但執行延遲存在時 buy-and-hold 反過來勝出 — 即使零成本"
+tags:
+  - quant
+  - kelly
+  - control-theory
 ---
 
 # The Impact of Execution Delay on Kelly-Based Stock Trading: High-Frequency Versus Buy and Hold

@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "Coding Agent 工具"
 card_icon: "material-code-braces-box"
 oneliner: "LangChain 開源的企業內部 Coding Agent 框架——複製 Stripe/Ramp/Coinbase 的內部架構（8.8K stars）"
+tags:
+  - agent-framework
+  - harness
 ---
 # Open SWE 研究筆記
 

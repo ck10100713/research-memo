@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "AI Agent 框架"
 card_icon: "material-google"
 oneliner: "Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 
 # Google Agent Development Kit (ADK) 研究筆記

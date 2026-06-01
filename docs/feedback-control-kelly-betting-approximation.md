@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-function-variant"
 oneliner: "Hsieh 2020 CCTA：Kelly betting 用 Taylor 近似化為 quadratic programming，得到閉式近似解，並分析績效、變異數、survivability 等性質"
+tags:
+  - quant
+  - kelly
+  - control-theory
 ---
 
 # On Feedback Control in Kelly Betting: An Approximation Approach

@@ -3,6 +3,9 @@ date: "2026-05-14"
 category: "AI 應用"
 card_icon: "material-chat-question"
 oneliner: "kkdai 的 LINE Bot + Gemini File Search API 多模態 RAG 範例，靠 metadata_filter 在單一 store 做多租戶隔離、Cloud Run 部署"
+tags:
+  - rag
+  - taiwan
 ---
 
 # LINE Bot Multimodal RAG (kkdai) 研究筆記

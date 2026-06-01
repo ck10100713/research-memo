@@ -3,6 +3,8 @@ date: "2026-04-09"
 category: "Coding Agent 工具"
 card_icon: "material-book-check"
 oneliner: "Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills"
+tags:
+  - skills
 ---
 
 # Slavingia Skills — 書本即 Skill 的先驅實驗

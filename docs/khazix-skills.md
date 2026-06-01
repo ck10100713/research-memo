@@ -3,6 +3,9 @@ date: "2026-04-20"
 category: "Coding Agent 工具"
 card_icon: "material-account-voice"
 oneliner: "数字生命卡兹克開源個人 AI 方法論 — 14 天 5.4K stars，1 個 Prompt + 2 個 Skill 把寫作風格與研究框架蒸餾成可執行指令集"
+tags:
+  - skills
+  - knowledge-distillation
 ---
 
 # khazix-skills 研究筆記

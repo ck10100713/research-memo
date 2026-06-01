@@ -3,6 +3,9 @@ date: "2026-05-13"
 category: "Coding Agent 工具"
 card_icon: "material-brain"
 oneliner: "Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token"
+tags:
+  - reverse-engineering
+  - prompt-engineering
 ---
 
 # Why Your AI Is Dumbing Down 研究筆記

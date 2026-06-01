@@ -3,6 +3,8 @@ date: "2026-03-23"
 category: "Coding Agent 工具"
 card_icon: "material-console"
 oneliner: "GitHub Copilot 命令列工具"
+tags:
+  - copilot
 ---
 # GitHub Copilot CLI 研究筆記
 

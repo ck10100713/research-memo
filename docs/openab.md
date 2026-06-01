@@ -3,6 +3,9 @@ date: "2026-04-14"
 category: "Coding Agent 工具"
 card_icon: "material-chat-processing"
 oneliner: "Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent"
+tags:
+  - harness
+  - multi-agent
 ---
 
 # OpenAB — Open Agent Broker

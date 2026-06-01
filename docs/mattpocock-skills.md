@@ -3,6 +3,9 @@ date: "2026-05-15"
 category: "Coding Agent 工具"
 card_icon: "material-account-tie"
 oneliner: "Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars"
+tags:
+  - skills
+  - claude-code
 ---
 
 # mattpocock/skills 研究筆記

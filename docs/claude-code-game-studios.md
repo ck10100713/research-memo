@@ -3,6 +3,10 @@ date: "2026-05-26"
 category: "Coding Agent 工具"
 card_icon: "material-gamepad-variant"
 oneliner: "Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）"
+tags:
+  - claude-code
+  - multi-agent
+  - skills
 ---
 
 # Claude Code Game Studios 研究筆記

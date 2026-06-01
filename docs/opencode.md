@@ -3,6 +3,9 @@ date: "2026-05-22"
 category: "Coding Agent 工具"
 card_icon: "material-console-line"
 oneliner: "Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品"
+tags:
+  - agent-framework
+  - terminal
 ---
 
 # OpenCode (anomalyco/opencode) 研究筆記

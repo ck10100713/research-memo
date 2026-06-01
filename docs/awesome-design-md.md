@@ -3,6 +3,10 @@ date: "2026-04-10"
 category: "Coding Agent 工具"
 card_icon: "material-palette-swatch"
 oneliner: "58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI"
+tags:
+  - design
+  - awesome-list
+  - skills
 ---
 
 # Awesome DESIGN.md — AI Agent 的設計系統資料庫

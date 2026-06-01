@@ -3,6 +3,9 @@ date: "2026-04-10"
 category: "Coding Agent 工具"
 card_icon: "material-toolbox"
 oneliner: "12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集"
+tags:
+  - skills
+  - security
 ---
 
 # KC AI Skills — 真的會做事的 AI Skill 合集

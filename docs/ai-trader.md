@@ -3,6 +3,10 @@ date: "2026-04-15"
 category: "量化交易"
 card_icon: "material-robot-outline"
 oneliner: "港大 AI 交易 Benchmark + Agent-Native 社交交易平台 — 真實市場、MCP 工具鏈、多 Agent 協作"
+tags:
+  - quant
+  - multi-agent
+  - benchmark
 ---
 
 # AI-Trader 研究筆記

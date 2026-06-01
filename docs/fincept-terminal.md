@@ -3,6 +3,9 @@ date: "2026-05-15"
 category: "量化交易"
 card_icon: "material-chart-multiple"
 oneliner: "Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0"
+tags:
+  - finance
+  - multi-agent
 ---
 
 # Fincept Terminal 研究筆記

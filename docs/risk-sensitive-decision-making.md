@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-decision-tree"
 oneliner: "Hsieh × Wong 2025 ACC：固定階段、含確定與隨機選項的 risk-sensitive 多階段決策，導出最佳性必要條件，示範用於最佳押注與庫存管理"
+tags:
+  - quant
+  - control-theory
 ---
 
 # On Risk-Sensitive Decision Making Under Uncertainty

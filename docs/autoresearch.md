@@ -3,6 +3,9 @@ date: "2026-03-23"
 category: "AI Agent 框架"
 card_icon: "material-flask"
 oneliner: "Karpathy 的自主 AI 研究代理，讓 Agent 整夜跑 LLM 實驗"
+tags:
+  - agent-framework
+  - automation
 ---
 # Autoresearch 研究筆記
 

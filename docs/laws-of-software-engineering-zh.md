@@ -3,6 +3,9 @@ date: "2026-05-25"
 category: "軟體工程知識"
 card_icon: "material-translate"
 oneliner: "56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源"
+tags:
+  - learning
+  - software-engineering
 ---
 
 # 軟體工程 56 大定律（完整中文版）

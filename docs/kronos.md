@@ -3,6 +3,9 @@ date: "2026-04-12"
 category: "量化交易"
 card_icon: "material-chart-line"
 oneliner: "首個金融 K 線基礎模型，將 OHLCV 離散化為階層式 Token 進行自回歸預測"
+tags:
+  - finance
+  - forecasting
 ---
 
 # Kronos 研究筆記

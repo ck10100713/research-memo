@@ -3,6 +3,9 @@ date: "2026-03-27"
 category: "AI Agent 框架"
 card_icon: "material-state-machine"
 oneliner: "LangGraph 圖狀態機核心 API：State、Reducer、Channel、MessagesState 完整解析"
+tags:
+  - agent-framework
+  - learning
 ---
 # LangGraph State API 研究筆記
 

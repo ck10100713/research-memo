@@ -3,6 +3,9 @@ date: "2026-03-17"
 category: "Coding Agent 工具"
 card_icon: "material-newspaper-variant-outline"
 oneliner: "用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務"
+tags:
+  - claude-code
+  - automation
 ---
 # Claude Cowork Dispatch 研究筆記
 

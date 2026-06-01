@@ -3,6 +3,9 @@ date: "2026-04-29"
 category: "Coding Agent 工具"
 card_icon: "material-presentation"
 oneliner: "garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭"
+tags:
+  - design
+  - taiwan
 ---
 
 # Claude Slide Editor 研究筆記

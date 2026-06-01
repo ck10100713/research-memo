@@ -3,6 +3,8 @@ date: "2026-03-30"
 category: "AI 應用"
 card_icon: "material-file-document-outline"
 oneliner: "Hancom 開源 PDF 資料載入器 — LangChain 整合、Benchmark 第一"
+tags:
+  - rag
 ---
 # OpenDataLoader PDF 研究筆記
 

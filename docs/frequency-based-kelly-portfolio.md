@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-format-list-checks"
 oneliner: "Hsieh 2021 L-CSS：給出 frequency-based Kelly 最佳組合的充分必要條件、Extended Dominant Asset Theorem，並提出顯式 trading algorithm 用 dominant asset 條件決定下單時點"
+tags:
+  - quant
+  - kelly
+  - portfolio-optimization
 ---
 
 # Necessary and Sufficient Conditions for Frequency-Based Kelly Optimal Portfolio

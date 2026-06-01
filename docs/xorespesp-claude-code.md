@@ -3,6 +3,9 @@ date: "2026-04-01"
 category: "Coding Agent 工具"
 card_icon: "material-source-branch"
 oneliner: "Claude Code 洩漏原始碼的可運行 TypeScript 復原版，含 shims 替代 native modules"
+tags:
+  - claude-code
+  - reverse-engineering
 ---
 
 # xorespesp Claude Code 研究筆記

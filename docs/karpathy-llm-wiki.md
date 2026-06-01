@@ -3,6 +3,9 @@ date: "2026-04-02"
 category: "學習資源"
 card_icon: "material-brain"
 oneliner: "Karpathy 提出的 LLM 知識庫模式 — 用 AI Agent 編譯、維護持久化 Markdown Wiki，取代傳統 RAG"
+tags:
+  - knowledge-base
+  - rag
 ---
 
 # Karpathy LLM Wiki 研究筆記

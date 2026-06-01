@@ -3,6 +3,8 @@ date: "2026-03-23"
 category: "學習資源"
 card_icon: "material-bookmark"
 oneliner: "常用參考手冊"
+tags:
+  - learning
 ---
 # Reference 快速參考手冊 研究筆記
 

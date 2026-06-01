@@ -3,6 +3,9 @@ date: "2026-04-24"
 category: "開發工具"
 card_icon: "material-broom"
 oneliner: "tw93 打造的單一 binary Mac 深度清理工具，一條 `mo` 命令包辦 CleanMyMac + AppCleaner + DaisyDisk + iStat Menus，7 個月從 0 衝到 48.9K stars、MIT 開源"
+tags:
+  - terminal
+  - taiwan
 ---
 
 # Mole 研究筆記

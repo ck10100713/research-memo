@@ -3,6 +3,9 @@ date: "2026-04-14"
 category: "開發工具"
 card_icon: "material-cloud-sync"
 oneliner: "去中心化 Serverless 雲端市場（Akash fork）+ Bosun AI Agent 協調器"
+tags:
+  - self-hosted
+  - multi-agent
 ---
 
 # VirtEngine 研究筆記

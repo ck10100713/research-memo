@@ -3,6 +3,9 @@ date: "2026-04-14"
 category: "AI Agent 框架"
 card_icon: "material-compare-horizontal"
 oneliner: "2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南"
+tags:
+  - agent-framework
+  - learning
 ---
 
 # 開源 AI Agent 框架比較 研究筆記

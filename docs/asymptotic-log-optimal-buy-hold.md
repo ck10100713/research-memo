@@ -3,6 +3,10 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-trending-up"
 oneliner: "Hsieh 2023 Automatica：證明只要存在 dominant asset，buy-and-hold 就是 asymptotically log-optimal，且 frequency-based 高頻再平衡無法超越被動持有"
+tags:
+  - quant
+  - portfolio-optimization
+  - control-theory
 ---
 
 # On Asymptotic Log-Optimal Buy-and-Hold Strategy

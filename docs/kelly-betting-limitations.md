@@ -3,6 +3,9 @@ date: "2026-05-07"
 category: "量化交易"
 card_icon: "material-alert-circle"
 oneliner: "Hsieh × Barmish 2015 Allerton：Kelly 系列研究的開山批判篇—點出 Taylor 近似失準與 drawdown 過大兩個 Kelly 主結論的限制，定調作者後續整條 Kelly 研究線的問題清單"
+tags:
+  - quant
+  - kelly
 ---
 
 # On Kelly Betting: Some Limitations
