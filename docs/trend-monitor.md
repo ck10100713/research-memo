@@ -3,6 +3,9 @@ date: "2026-05-29"
 category: "AI 應用"
 card_icon: "material-trending-up"
 oneliner: "dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析"
+tags:
+  - github-actions
+  - automation
 ---
 
 # Trend Monitor 研究筆記

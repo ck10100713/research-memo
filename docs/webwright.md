@@ -3,6 +3,9 @@ date: "2026-05-27"
 category: "AI Agent 框架"
 card_icon: "material-web"
 oneliner: "Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill"
+tags:
+  - browser-agent
+  - agent-framework
 ---
 
 # Webwright 研究筆記

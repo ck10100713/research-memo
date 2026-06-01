@@ -3,6 +3,10 @@ date: "2026-05-28"
 category: "AI Agent 框架"
 card_icon: "material-tune-variant"
 oneliner: "Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904"
+tags:
+  - skills
+  - llm-training
+  - prompt-engineering
 ---
 
 # SkillOpt 研究筆記

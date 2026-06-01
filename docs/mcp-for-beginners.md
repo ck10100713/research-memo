@@ -3,6 +3,9 @@ date: "2026-04-24"
 category: "學習資源"
 card_icon: "material-school"
 oneliner: "微軟官方 MCP 入門課程，12 模組 × 6 種語言 (.NET / Java / JS / TS / Python / Rust)，對齊 MCP 規範 2025-11-25，模組 11 含 13 個 PostgreSQL 整合實作實驗室，20 天衝到 15.9K stars"
+tags:
+  - mcp
+  - learning
 ---
 
 # MCP for Beginners 研究筆記

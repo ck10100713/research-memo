@@ -3,6 +3,9 @@ date: "2026-05-19"
 category: "量化交易"
 card_icon: "material-finance"
 oneliner: "ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」"
+tags:
+  - quant
+  - github-actions
 ---
 
 # Daily Stock Analysis 研究筆記

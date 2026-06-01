@@ -3,6 +3,9 @@ date: "2026-05-28"
 category: "學習資源"
 card_icon: "material-school-outline"
 oneliner: "joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路"
+tags:
+  - skills
+  - llm-training
 ---
 
 # skillopt-qa 研究筆記

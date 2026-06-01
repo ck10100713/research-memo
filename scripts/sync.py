@@ -18,7 +18,7 @@ NEWS_MD = DOCS / "news.md"
 RECENT_CARDS_LIMIT = 17  # 研究更新區塊顯示的最大卡片數
 
 # 不需要 frontmatter 的特殊頁面
-SKIP_FILES = {"index.md", "news.md"}
+SKIP_FILES = {"index.md", "news.md", "tags.md"}
 
 # 首頁「分類導覽」卡片用的圖示（找不到時用 DEFAULT_CAT_ICON）
 CATEGORY_ICONS = {
@@ -35,6 +35,22 @@ CATEGORY_ICONS = {
     "學習資源": "material-school-outline",
 }
 DEFAULT_CAT_ICON = "material-folder-outline"
+
+# 分類總覽頁（navigation.indexes）的 slug；新增分類時要同步補一筆，
+# 並在 mkdocs.yml 該分類下加 `- topics/<slug>.md` 作為第一個項目。
+CATEGORY_SLUGS = {
+    "AI Agent 框架": "agent-frameworks",
+    "Coding Agent 工具": "coding-agent-tools",
+    "量化交易": "quant-trading",
+    "社群行銷": "social-marketing",
+    "AI 創作資源": "ai-creative",
+    "AI 應用": "ai-apps",
+    "OSINT / 情報工具": "osint",
+    "軟體工程知識": "software-engineering",
+    "開發工具": "dev-tools",
+    "資源彙整 / Awesome List": "awesome-lists",
+    "學習資源": "learning",
+}
 
 # ── Frontmatter 解析 ─────────────────────────────────
 
@@ -175,20 +191,22 @@ def generate_index(categories, all_docs_meta):
     lines.append("</div>")
     lines.append("")
 
-    # ── 分類導覽（跳至同頁各分類區塊）──
+    # ── 分類導覽（連到各分類總覽頁）──
     lines.append("## 分類導覽")
     lines.append("")
     lines.append('<div class="grid cards" markdown>')
     lines.append("")
-    for i, (cat_name, docs_in_cat) in enumerate(categories, 1):
+    for cat_name, docs_in_cat in categories:
         icon = CATEGORY_ICONS.get(cat_name, DEFAULT_CAT_ICON)
+        slug = CATEGORY_SLUGS.get(cat_name)
+        link = f"topics/{slug}.md" if slug else "news.md"
         lines.append(f'-   :{icon}:{{{{ .lg .middle }}}} **{cat_name}**')
         lines.append("")
         lines.append("    ---")
         lines.append("")
         lines.append(f"    {len(docs_in_cat)} 篇筆記")
         lines.append("")
-        lines.append(f"    [:octicons-arrow-right-24: 前往](#cat-{i})")
+        lines.append(f"    [:octicons-arrow-right-24: 前往]({link})")
         lines.append("")
     lines.append("</div>")
     lines.append("")
@@ -225,34 +243,45 @@ def generate_index(categories, all_docs_meta):
     lines.append("[查看研究索引](news.md)")
     lines.append("")
 
-    # ── 各分類區塊 ──
-    for i, (cat_name, docs_in_cat) in enumerate(categories, 1):
-        lines.append("---")
-        lines.append("")
-        lines.append(f"## {cat_name} {{#cat-{i}}}")
-        lines.append("")
-        lines.append('<div class="grid cards" markdown>')
-        lines.append("")
-
-        for doc_title, slug in docs_in_cat:
-            meta, title = all_docs_meta.get(slug, ({}, doc_title))
-            icon = meta.get("card_icon", "material-file-document-outline")
-            oneliner = meta.get("oneliner", "")
-            display_title = title or doc_title
-
-            lines.append(f"-   :{icon}:{{{{ .lg .middle }}}} **{display_title}**")
-            lines.append("")
-            lines.append("    ---")
-            lines.append("")
-            lines.append(f"    {oneliner}")
-            lines.append("")
-            lines.append(f"    [:octicons-arrow-right-24: 閱讀筆記]({slug})")
-            lines.append("")
-
-        lines.append("</div>")
-        lines.append("")
-
     return "\n".join(lines)
+
+
+# ── 分類總覽頁生成（navigation.indexes）────────────────
+
+def generate_topic_pages(categories, all_docs_meta):
+    """為每個分類生成 docs/topics/<slug>.md 總覽頁，回傳已生成的 slug 數"""
+    topics_dir = DOCS / "topics"
+    topics_dir.mkdir(exist_ok=True)
+
+    count = 0
+    for cat_name, docs_in_cat in categories:
+        slug = CATEGORY_SLUGS.get(cat_name)
+        if not slug:
+            print(f"WARNING: 分類「{cat_name}」缺少 CATEGORY_SLUGS 對應，未生成總覽頁",
+                  file=sys.stderr)
+            continue
+
+        # 收集該分類所有筆記，按日期降序（無日期排最後）
+        rows = []
+        for doc_title, dslug in docs_in_cat:
+            meta, title = all_docs_meta.get(dslug, ({}, doc_title))
+            rows.append((meta.get("date", ""), title or doc_title, dslug,
+                         meta.get("oneliner", "")))
+        rows.sort(key=lambda r: r[0], reverse=True)
+
+        lines = [f"# {cat_name}", "", f"本分類收錄 {len(docs_in_cat)} 篇研究筆記。", ""]
+        lines.append("| 日期 | 筆記 | 摘要 |")
+        lines.append("| --- | --- | --- |")
+        for date, title, dslug, oneliner in rows:
+            d = date or "—"
+            cell = oneliner.replace("|", "\\|")  # 避免摘要中的 | 破壞表格
+            lines.append(f"| {d} | [{title}](../{dslug}) | {cell} |")
+        lines.append("")
+
+        (topics_dir / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
+        count += 1
+
+    return count
 
 
 # ── news.md 生成 ─────────────────────────────────────
@@ -368,6 +397,10 @@ def main():
     news_content = generate_news(categories, all_docs_meta)
     NEWS_MD.write_text(news_content, encoding="utf-8")
     print(f"✓ Generated {NEWS_MD.relative_to(ROOT)}")
+
+    # 6. 生成各分類總覽頁
+    n_topics = generate_topic_pages(categories, all_docs_meta)
+    print(f"✓ Generated {n_topics} topic page(s) in docs/topics/")
 
     print(f"✓ {len(all_docs_meta)} docs processed, 0 errors")
 

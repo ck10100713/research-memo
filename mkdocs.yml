@@ -29,6 +29,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.top
     - navigation.footer
@@ -44,7 +45,8 @@ plugins:
       lang:
         - zh
         - en
-  - tags
+  - tags:
+      tags_file: tags.md
   - git-revision-date-localized:
       type: date
       locale: zh
@@ -77,7 +79,9 @@ markdown_extensions:
 nav:
   - 首頁: index.md
   - 研究更新: news.md
+  - 標籤索引: tags.md
   - AI Agent 框架:
+      - topics/agent-frameworks.md
       - Agent GoFundMe: agent-gofundme.md
       - 開源 Agent 框架比較: open-source-agent-frameworks.md
       - AgentBnB: agentbnb.md
@@ -102,6 +106,7 @@ nav:
       - Webwright: webwright.md
       - 多 Agent 辯論會: multi-agent-debate.md
   - Coding Agent 工具:
+      - topics/coding-agent-tools.md
       - abdixere-api: abdixere-api.md
       - Analysis Claude Code: analysis-claude-code.md
       - Awesome DESIGN.md: awesome-design-md.md
@@ -167,6 +172,7 @@ nav:
       - wshobson agents: wshobson-agents.md
       - Why Your AI Is Dumbing Down: why-your-ai-is-dumbing-down.md
   - 量化交易:
+      - topics/quant-trading.md
       - Accelerating Robust Portfolio: accelerating-robust-portfolio-optimization.md
       - Affine Feedback Stop-Loss: affine-feedback-stop-loss.md
       - AI Hedge Fund: ai-hedge-fund.md
@@ -210,14 +216,17 @@ nav:
       - TimesFM: timesfm.md
       - TradingAgents: tradingagents.md
   - 社群行銷:
+      - topics/social-marketing.md
       - Claude Ads: claude-ads.md
       - Discord Lobster: discord-lobster.md
       - Insta-Booster: insta-booster.md
   - AI 創作資源:
+      - topics/ai-creative.md
       - AI 圖像 Prompt Gallery 生態: ai-image-prompt-galleries.md
       - Awesome Design Systems: awesome-design-systems.md
       - Uniform Map AI Prompts: uniform-map-prompts.md
   - AI 應用:
+      - topics/ai-apps.md
       - AppFlowy: appflowy.md
       - Cabinet: cabinet.md
       - Career-Ops: career-ops.md
@@ -235,12 +244,15 @@ nav:
       - Trend Monitor: trend-monitor.md
       - tw-house-ops: tw-house-ops.md
   - OSINT / 情報工具:
+      - topics/osint.md
       - OsintRadar: osint-radar.md
       - pyWhat: pywhat.md
   - 軟體工程知識:
+      - topics/software-engineering.md
       - Laws of Software Engineering: laws-of-software-engineering.md
       - 軟體工程 56 大定律（中文版）: laws-of-software-engineering-zh.md
   - 開發工具:
+      - topics/dev-tools.md
       - MCP Toolbox for Databases: mcp-toolbox.md
       - Mole: mole.md
       - Optuna: optuna.md
@@ -253,9 +265,11 @@ nav:
       - VirtEngine: virtengine.md
       - WebToApp: web-to-app.md
   - 資源彙整 / Awesome List:
+      - topics/awesome-lists.md
       - Awesome Free Apps: awesome-free-apps.md
       - Awesome OpenClaw Skills: awesome-openclaw-skills.md
   - 學習資源:
+      - topics/learning.md
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md
       - Claude Code from Source: claude-code-from-source.md

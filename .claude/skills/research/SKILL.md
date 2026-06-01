@@ -43,6 +43,9 @@ date: "YYYY-MM-DD"
 category: "分類名稱"
 card_icon: "material-icon-name"
 oneliner: "一句話描述，用於卡片和表格"
+tags:
+  - tag-a
+  - tag-b
 ---
 ```
 
@@ -50,6 +53,7 @@ oneliner: "一句話描述，用於卡片和表格"
 - `category` — **必須完全匹配** `mkdocs.yml` nav 的分類名稱（如「Coding Agent 工具」）
 - `card_icon` — Material Design icon 名稱（如 `material-robot`），不含冒號語法
 - `oneliner` — 卡片和表格中使用的一句話描述
+- `tags` — 2-4 個**跨分類**主題標籤，會出現在「標籤索引」頁。標籤是橫向的（與 `category` 縱向劃分互補），目的是串起散落在不同分類的相關筆記。**優先沿用既有標籤、不要造同義詞**。目前已使用的標籤：`agent-framework`、`automation`、`awesome-list`、`browser-agent`、`claude-code`、`github-actions`、`learning`、`llm-training`、`mcp`、`multi-agent`、`prompt-engineering`、`quant`、`rag`、`skills`（不夠用時可新增，用小寫 kebab-case）
 
 **筆記結構模板（frontmatter 之後）：**
 
@@ -115,16 +119,17 @@ python3 scripts/sync.py
 
 這支腳本會自動：
 - 讀取所有 `docs/*.md` 的 frontmatter + `mkdocs.yml` nav
-- 重新生成 `docs/index.md`（研究更新卡片 + 各分類卡片）
+- 重新生成 `docs/index.md`（統計數字 bar + 分類導覽卡 + 研究更新卡片）
 - 重新生成 `docs/news.md`（最新整理表格 + 按年份/月份 + 按主題）
+- 重新生成 `docs/topics/<slug>.md`（每個分類的總覽頁，navigation.indexes 用）
 - 驗證所有 docs 都在 nav 中（如果有遺漏會報錯並 exit 1）
 
-**不需要手動編輯 `index.md` 和 `news.md`。**
+**不需要手動編輯 `index.md`、`news.md`、`docs/topics/`。**
 
 ### Step 5：Commit 並 Push
 
 ```bash
-git add docs/<slug>.md docs/index.md docs/news.md mkdocs.yml
+git add docs/<slug>.md docs/index.md docs/news.md docs/topics/ mkdocs.yml
 git commit -m "Add research note: <主題名稱>"
 git push
 ```

@@ -3,6 +3,9 @@ date: "2024-12-28"
 category: "量化交易"
 card_icon: "material-chart-line"
 oneliner: "多 Agent 協作的量化交易決策系統"
+tags:
+  - multi-agent
+  - quant
 ---
 # TradingAgents 研究筆記
 

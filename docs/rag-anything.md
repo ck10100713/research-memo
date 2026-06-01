@@ -3,6 +3,8 @@ date: "2026-05-14"
 category: "開發工具"
 card_icon: "material-file-search"
 oneliner: "HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph"
+tags:
+  - rag
 ---
 
 # RAG-Anything 研究筆記

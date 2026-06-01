@@ -3,6 +3,9 @@ date: "2026-04-24"
 category: "量化交易"
 card_icon: "material-bank"
 oneliner: "13 位傳奇投資人 + 6 個分析/管理 Agent 協同分析股票，LangGraph 驅動的多 Agent 對沖基金模擬系統，2026-04 衝到 57K stars 且新增 Nassim Taleb 黑天鵝 Agent"
+tags:
+  - multi-agent
+  - quant
 ---
 # AI Hedge Fund 研究筆記
 

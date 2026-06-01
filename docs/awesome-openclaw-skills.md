@@ -3,6 +3,9 @@ date: "2026-05-29"
 category: "資源彙整 / Awesome List"
 card_icon: "material-shaker-outline"
 oneliner: "VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」"
+tags:
+  - skills
+  - awesome-list
 ---
 
 # Awesome OpenClaw Skills 研究筆記

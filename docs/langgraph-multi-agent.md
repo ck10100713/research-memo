@@ -3,6 +3,9 @@ date: "2026-03-30"
 category: "AI Agent 框架"
 card_icon: "material-account-group-outline"
 oneliner: "LangGraph Supervisor 模式教學範例——Researcher/Writer/Reviewer 三 Agent 研究助理，附 human-in-the-loop"
+tags:
+  - agent-framework
+  - multi-agent
 ---
 # LangGraph Multi-Agent Research Assistant 研究筆記
 

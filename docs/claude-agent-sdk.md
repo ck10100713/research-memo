@@ -3,6 +3,9 @@ date: "2026-03-31"
 category: "Coding Agent 工具"
 card_icon: "material-robot-outline"
 oneliner: "Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫"
+tags:
+  - claude-code
+  - agent-framework
 ---
 
 # Claude Agent SDK 研究筆記

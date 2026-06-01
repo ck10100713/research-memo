@@ -19,7 +19,7 @@ from collections import defaultdict
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 MKDOCS_YML = ROOT / "mkdocs.yml"
-SKIP_FILES = {"index.md", "news.md"}
+SKIP_FILES = {"index.md", "news.md", "tags.md"}
 
 REQUIRED_FIELDS = ["date", "category", "card_icon", "oneliner"]
 

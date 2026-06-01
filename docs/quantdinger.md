@@ -3,6 +3,8 @@ date: "2026-05-19"
 category: "量化交易"
 card_icon: "material-server-network"
 oneliner: "brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS"
+tags:
+  - quant
 ---
 
 # QuantDinger 研究筆記
