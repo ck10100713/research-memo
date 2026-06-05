@@ -8,13 +8,13 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-05 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
 | 2026-06-05 | 軟體工程知識 | [HighScalability.com](highscalability.md) |
 | 2026-06-05 | 開發工具 | [Microsoft PowerToys](powertoys.md) |
 | 2026-06-01 | Coding Agent 工具 | [Codex Complexity Optimizer](codex-complexity-optimizer.md) |
 | 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
 | 2026-05-29 | AI 應用 | [Trend Monitor](trend-monitor.md) |
-| 2026-05-28 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-05-28 | 學習資源 | [skillopt-qa](skillopt-qa.md) |
 | 2026-05-27 | 資源彙整 / Awesome List | [Awesome Free Apps](awesome-free-apps.md) |
 | 2026-05-27 | AI Agent 框架 | [Webwright](webwright.md) |
@@ -206,6 +206,8 @@
 
 #### 06 月
 
+- `2026-06-05` [SkillOpt](skillopt.md)  
+  Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904
 - `2026-06-05` [The System Design Primer](system-design-primer.md)  
   GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
 - `2026-06-05` [HighScalability.com](highscalability.md)  
@@ -221,8 +223,6 @@
   VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
 - `2026-05-29` [Trend Monitor](trend-monitor.md)  
   dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
-- `2026-05-28` [SkillOpt](skillopt.md)  
-  Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
 - `2026-05-28` [skillopt-qa](skillopt-qa.md)  
   joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
 - `2026-05-27` [Awesome Free Apps](awesome-free-apps.md)  

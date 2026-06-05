@@ -110,6 +110,14 @@
 
 <div class="grid cards" markdown>
 
+-   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
+
+    ---
+
+    `2026-06-05` Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904
+
+    [:octicons-arrow-right-24: 閱讀筆記](skillopt.md)
+
 -   :material-sitemap:{{ .lg .middle }} **The System Design Primer**
 
     ---
@@ -157,14 +165,6 @@
     `2026-05-29` dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
 
     [:octicons-arrow-right-24: 閱讀筆記](trend-monitor.md)
-
--   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
-
-    ---
-
-    `2026-05-28` Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md，弱模型上可達 +20 分級提升，arXiv:2605.23904
-
-    [:octicons-arrow-right-24: 閱讀筆記](skillopt.md)
 
 -   :material-school-outline:{{ .lg .middle }} **skillopt-qa**
 
