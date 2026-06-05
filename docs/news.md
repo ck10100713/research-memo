@@ -12,6 +12,7 @@
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
 | 2026-06-05 | 軟體工程知識 | [HighScalability.com](highscalability.md) |
 | 2026-06-05 | 開發工具 | [Microsoft PowerToys](powertoys.md) |
+| 2026-06-05 | Agent Skills | [research（研究筆記產生器）](skill-research.md) |
 | 2026-06-01 | Coding Agent 工具 | [Codex Complexity Optimizer](codex-complexity-optimizer.md) |
 | 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
 | 2026-05-29 | AI 應用 | [Trend Monitor](trend-monitor.md) |
@@ -214,6 +215,8 @@
   經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
 - `2026-06-05` [Microsoft PowerToys](powertoys.md)  
   微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿
+- `2026-06-05` [research（研究筆記產生器）](skill-research.md)  
+  本站自用的研究筆記產生器 skill：搜集資料 → 結構化筆記 → 更新索引 → 部署
 - `2026-06-01` [Codex Complexity Optimizer](codex-complexity-optimizer.md)  
   Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
 
@@ -648,6 +651,10 @@
 ### 開發工具
 
 [MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[Microsoft PowerToys](powertoys.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+
+### Agent Skills
+
+[research（研究筆記產生器）](skill-research.md)
 
 ### 資源彙整 / Awesome List
 

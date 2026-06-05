@@ -267,6 +267,9 @@ nav:
       - TestPilot.AI: testpilot-ai.md
       - VirtEngine: virtengine.md
       - WebToApp: web-to-app.md
+  - Agent Skills:
+      - topics/agent-skills.md
+      - research（研究筆記產生器）: skill-research.md
   - 資源彙整 / Awesome List:
       - topics/awesome-lists.md
       - Awesome Free Apps: awesome-free-apps.md

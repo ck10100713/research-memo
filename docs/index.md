@@ -3,8 +3,8 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">191</div><div class="stat-label">研究筆記</div></div>
-  <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
+  <div class="stat"><div class="stat-num">192</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-05</div><div class="stat-label">最近更新</div></div>
 </div>
 
@@ -84,6 +84,14 @@
 
     [:octicons-arrow-right-24: 前往](topics/dev-tools.md)
 
+-   :material-puzzle-outline:{{ .lg .middle }} **Agent Skills**
+
+    ---
+
+    1 篇筆記
+
+    [:octicons-arrow-right-24: 前往](topics/agent-skills.md)
+
 -   :material-star-outline:{{ .lg .middle }} **資源彙整 / Awesome List**
 
     ---
@@ -141,6 +149,14 @@
     `2026-06-05` 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿
 
     [:octicons-arrow-right-24: 閱讀筆記](powertoys.md)
+
+-   :material-text-box-search-outline:{{ .lg .middle }} **research（研究筆記產生器）**
+
+    ---
+
+    `2026-06-05` 本站自用的研究筆記產生器 skill：搜集資料 → 結構化筆記 → 更新索引 → 部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](skill-research.md)
 
 -   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
 
@@ -237,14 +253,6 @@
     `2026-05-25` Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
 
     [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering.md)
-
--   :material-console-line:{{ .lg .middle }} **OpenCode (anomalyco/opencode)**
-
-    ---
-
-    `2026-05-22` Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品
-
-    [:octicons-arrow-right-24: 閱讀筆記](opencode.md)
 
 </div>
 
