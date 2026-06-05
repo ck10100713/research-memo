@@ -261,6 +261,7 @@ nav:
       - CLI-Anything: cli-anything.md
       - LiteLLM: litellm.md
       - Pretext: pretext.md
+      - PowerToys: powertoys.md
       - RAG-Anything: rag-anything.md
       - Scrapling: scrapling.md
       - TestPilot.AI: testpilot-ai.md

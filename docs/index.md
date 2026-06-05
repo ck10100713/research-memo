@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">190</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">191</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-05</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -80,7 +80,7 @@
 
     ---
 
-    11 篇筆記
+    12 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/dev-tools.md)
 
@@ -125,6 +125,14 @@
     `2026-06-05` 經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
 
     [:octicons-arrow-right-24: 閱讀筆記](highscalability.md)
+
+-   :material-microsoft-windows:{{ .lg .middle }} **Microsoft PowerToys**
+
+    ---
+
+    `2026-06-05` 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿
+
+    [:octicons-arrow-right-24: 閱讀筆記](powertoys.md)
 
 -   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
 
@@ -237,14 +245,6 @@
     `2026-05-22` Anomaly (前 SST 團隊) 開源 AI coding agent，163k stars/19k forks，TUI 為主、支援 75+ LLM provider、MCP、桌面 App、GitHub Action、SDK，與 Claude Code 同級的多 provider 替代品
 
     [:octicons-arrow-right-24: 閱讀筆記](opencode.md)
-
--   :material-router-network:{{ .lg .middle }} **LiteLLM**
-
-    ---
-
-    `2026-05-20` BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars
-
-    [:octicons-arrow-right-24: 閱讀筆記](litellm.md)
 
 </div>
 

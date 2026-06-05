@@ -1,9 +1,10 @@
 # 開發工具
 
-本分類收錄 11 篇研究筆記。
+本分類收錄 12 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-06-05 | [Microsoft PowerToys](../powertoys.md) | 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿 |
 | 2026-05-20 | [LiteLLM](../litellm.md) | BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars |
 | 2026-05-19 | [CLI-Anything](../cli-anything.md) | HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月 |
 | 2026-05-14 | [RAG-Anything](../rag-anything.md) | HKUDS All-in-One Multimodal RAG 框架，以 LightRAG 為核心 + MinerU 解析，支援 PDF/Office/影像/公式/表格與 multimodal knowledge graph |
