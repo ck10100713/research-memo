@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
 | 2026-06-01 | Coding Agent 工具 | [Codex Complexity Optimizer](codex-complexity-optimizer.md) |
 | 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
 | 2026-05-29 | AI 應用 | [Trend Monitor](trend-monitor.md) |
@@ -203,6 +204,8 @@
 
 #### 06 月
 
+- `2026-06-05` [The System Design Primer](system-design-primer.md)  
+  GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
 - `2026-06-01` [Codex Complexity Optimizer](codex-complexity-optimizer.md)  
   Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
 
@@ -646,4 +649,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
+[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[The System Design Primer](system-design-primer.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)

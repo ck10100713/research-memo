@@ -289,6 +289,7 @@ nav:
       - Reference 快速參考: reference.md
       - Reverse-SynthID: reverse-synthid.md
       - skillopt-qa（SkillOpt 教學重現）: skillopt-qa.md
+      - System Design Primer: system-design-primer.md
       - Claude Code 最佳實踐報告 (zeuikli): zeuikli-claude-code-best-practices.md
 
 extra_css:

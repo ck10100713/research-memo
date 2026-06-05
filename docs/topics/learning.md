@@ -1,9 +1,10 @@
 # 學習資源
 
-本分類收錄 19 篇研究筆記。
+本分類收錄 20 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-06-05 | [The System Design Primer](../system-design-primer.md) | GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片 |
 | 2026-05-28 | [skillopt-qa](../skillopt-qa.md) | joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路 |
 | 2026-05-15 | [Claude Code 最佳實踐完整研究報告（zeuikli）](../zeuikli-claude-code-best-practices.md) | zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程 |
 | 2026-05-14 | [AI Agents for Beginners](../ai-agents-for-beginners.md) | Microsoft 官方 12 (+6) 課 AI Agent 入門課，以 Microsoft Agent Framework + Azure AI Foundry V2 為主軸，61k stars、50+ 語言 |

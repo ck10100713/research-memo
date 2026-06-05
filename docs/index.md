@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">188</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">189</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-01</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-05</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -96,7 +96,7 @@
 
     ---
 
-    19 篇筆記
+    20 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/learning.md)
 
@@ -109,6 +109,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-sitemap:{{ .lg .middle }} **The System Design Primer**
+
+    ---
+
+    `2026-06-05` GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
+
+    [:octicons-arrow-right-24: 閱讀筆記](system-design-primer.md)
 
 -   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
 
@@ -237,14 +245,6 @@
     `2026-05-19` tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶
 
     [:octicons-arrow-right-24: 閱讀筆記](openhuman.md)
-
--   :material-counter:{{ .lg .middle }} **usage (aqua5230)**
-
-    ---
-
-    `2026-05-19` aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板
-
-    [:octicons-arrow-right-24: 閱讀筆記](aqua-usage-menubar.md)
 
 </div>
 
