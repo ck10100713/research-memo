@@ -33,6 +33,7 @@ CATEGORY_ICONS = {
     "開發工具": "material-wrench-outline",
     "資源彙整 / Awesome List": "material-star-outline",
     "學習資源": "material-school-outline",
+    "Agent Skills": "material-puzzle-outline",
 }
 DEFAULT_CAT_ICON = "material-folder-outline"
 
@@ -50,6 +51,17 @@ CATEGORY_SLUGS = {
     "開發工具": "dev-tools",
     "資源彙整 / Awesome List": "awesome-lists",
     "學習資源": "learning",
+    "Agent Skills": "agent-skills",
+}
+
+# Agent Skills 分類的 skill_type 子類型顯示名；總覽頁按此順序分組
+SKILL_TYPE_NAMES = {
+    "coding": "Coding",
+    "design": "設計",
+    "automation": "自動化",
+    "research": "研究",
+    "security": "資安",
+    "other": "其他",
 }
 
 # ── Frontmatter 解析 ─────────────────────────────────
@@ -266,17 +278,34 @@ def generate_topic_pages(categories, all_docs_meta):
         for doc_title, dslug in docs_in_cat:
             meta, title = all_docs_meta.get(dslug, ({}, doc_title))
             rows.append((meta.get("date", ""), title or doc_title, dslug,
-                         meta.get("oneliner", "")))
+                         meta.get("oneliner", ""), meta.get("skill_type", "")))
         rows.sort(key=lambda r: r[0], reverse=True)
 
         lines = [f"# {cat_name}", "", f"本分類收錄 {len(docs_in_cat)} 篇研究筆記。", ""]
-        lines.append("| 日期 | 筆記 | 摘要 |")
-        lines.append("| --- | --- | --- |")
-        for date, title, dslug, oneliner in rows:
-            d = date or "—"
-            cell = oneliner.replace("|", "\\|")  # 避免摘要中的 | 破壞表格
-            lines.append(f"| {d} | [{title}](../{dslug}) | {cell} |")
-        lines.append("")
+
+        def emit_table(items):
+            lines.append("| 日期 | 筆記 | 摘要 |")
+            lines.append("| --- | --- | --- |")
+            for date, title, dslug, oneliner, _ in items:
+                d = date or "—"
+                cell = oneliner.replace("|", "\\|")  # 避免摘要中的 | 破壞表格
+                lines.append(f"| {d} | [{title}](../{dslug}) | {cell} |")
+            lines.append("")
+
+        if any(r[4] for r in rows):
+            # 有 skill_type 的分類（Agent Skills）：按子類型分組
+            groups = defaultdict(list)
+            for r in rows:
+                stype = r[4] if r[4] in SKILL_TYPE_NAMES else "other"
+                groups[stype].append(r)
+            for stype, display in SKILL_TYPE_NAMES.items():
+                if stype not in groups:
+                    continue
+                lines.append(f"## {display}")
+                lines.append("")
+                emit_table(groups[stype])
+        else:
+            emit_table(rows)
 
         (topics_dir / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
         count += 1
