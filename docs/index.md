@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">189</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">190</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">11</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-05</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -72,7 +72,7 @@
 
     ---
 
-    2 篇筆記
+    3 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/software-engineering.md)
 
@@ -117,6 +117,14 @@
     `2026-06-05` GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
 
     [:octicons-arrow-right-24: 閱讀筆記](system-design-primer.md)
+
+-   :material-server-network:{{ .lg .middle }} **HighScalability.com**
+
+    ---
+
+    `2026-06-05` 經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
+
+    [:octicons-arrow-right-24: 閱讀筆記](highscalability.md)
 
 -   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
 
@@ -237,14 +245,6 @@
     `2026-05-20` BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars
 
     [:octicons-arrow-right-24: 閱讀筆記](litellm.md)
-
--   :material-account-heart:{{ .lg .middle }} **OpenHuman**
-
-    ---
-
-    `2026-05-19` tinyhumansai 的個人 AI 桌面助理，Rust+Tauri 桌面 mascot 會說話/開會、118+ OAuth 整合 20 分鐘自動 fetch、Memory Tree + Obsidian Wiki 在地持久記憶
-
-    [:octicons-arrow-right-24: 閱讀筆記](openhuman.md)
 
 </div>
 

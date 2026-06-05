@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
+| 2026-06-05 | 軟體工程知識 | [HighScalability.com](highscalability.md) |
 | 2026-06-01 | Coding Agent 工具 | [Codex Complexity Optimizer](codex-complexity-optimizer.md) |
 | 2026-05-29 | 資源彙整 / Awesome List | [Awesome OpenClaw Skills](awesome-openclaw-skills.md) |
 | 2026-05-29 | AI 應用 | [Trend Monitor](trend-monitor.md) |
@@ -206,6 +207,8 @@
 
 - `2026-06-05` [The System Design Primer](system-design-primer.md)  
   GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
+- `2026-06-05` [HighScalability.com](highscalability.md)  
+  經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
 - `2026-06-01` [Codex Complexity Optimizer](codex-complexity-optimizer.md)  
   Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
 
@@ -637,7 +640,7 @@
 
 ### 軟體工程知識
 
-[Laws of Software Engineering](laws-of-software-engineering.md)、[軟體工程 56 大定律（完整中文版）](laws-of-software-engineering-zh.md)
+[HighScalability.com](highscalability.md)、[Laws of Software Engineering](laws-of-software-engineering.md)、[軟體工程 56 大定律（完整中文版）](laws-of-software-engineering-zh.md)
 
 ### 開發工具
 
