@@ -269,6 +269,7 @@ nav:
       - WebToApp: web-to-app.md
   - Agent Skills:
       - topics/agent-skills.md
+      - book-to-skill（書轉 Skill）: skill-book-to-skill.md
       - research（研究筆記產生器）: skill-research.md
   - 資源彙整 / Awesome List:
       - topics/awesome-lists.md

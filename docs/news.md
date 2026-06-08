@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-08 | Agent Skills | [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md) |
 | 2026-06-05 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
 | 2026-06-05 | 軟體工程知識 | [HighScalability.com](highscalability.md) |
@@ -207,6 +208,8 @@
 
 #### 06 月
 
+- `2026-06-08` [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)  
+  把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
 - `2026-06-05` [SkillOpt](skillopt.md)  
   Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904
 - `2026-06-05` [The System Design Primer](system-design-primer.md)  
@@ -654,7 +657,7 @@
 
 ### Agent Skills
 
-[research（研究筆記產生器）](skill-research.md)
+[book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)、[research（研究筆記產生器）](skill-research.md)
 
 ### 資源彙整 / Awesome List
 

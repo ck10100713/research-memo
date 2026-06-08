@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">192</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">193</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-05</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-08</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -88,7 +88,7 @@
 
     ---
 
-    1 篇筆記
+    2 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-skills.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-book-arrow-right-outline:{{ .lg .middle }} **book-to-skill（書轉 Skill 產生器）**
+
+    ---
+
+    `2026-06-08` 把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
+
+    [:octicons-arrow-right-24: 閱讀筆記](skill-book-to-skill.md)
 
 -   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
 
@@ -245,14 +253,6 @@
     `2026-05-25` 56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源
 
     [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering-zh.md)
-
--   :material-book-open-variant:{{ .lg .middle }} **Laws of Software Engineering**
-
-    ---
-
-    `2026-05-25` Dr. Milan Milanović 整理的 56 條軟體工程定律參考站，分七大類（團隊/規劃/架構/品質/設計/規模/決策），含書、海報、JSON API、50k 訂閱電子報，已成 Amazon 暢銷書
-
-    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering.md)
 
 </div>
 
