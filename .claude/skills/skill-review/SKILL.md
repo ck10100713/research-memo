@@ -81,13 +81,13 @@ tags:
 ```
 
 - 外部 skill（非本 repo）：折疊區放**原文全文**，方便日後原始來源失效仍可對照
-- in-repo skill（原文就在本 repo 且為繁中）：折疊區可只放指向 SKILL.md 的連結，不重複貼全文
+- in-repo skill（原文就在本 repo 且為繁中）：折疊區放指向 SKILL.md 的連結即可（不重複貼全文），但折疊區本身仍要保留作為來源錨點
 
 `tags` 沿用 research skill 的標籤詞彙表（`skills` 必加）。
 
 ### Step 4：更新 nav 並執行 sync
 
-1. `mkdocs.yml` 的「Agent Skills」分類下按字母順序插入新條目（第一行 `- topics/agent-skills.md` 之後）
+1. `mkdocs.yml` 的「Agent Skills」分類下，**按字母順序**將新條目插入既有條目之間（第一行 `- topics/agent-skills.md` 之後、其餘標題條目之間）
 2. 執行 `python3 scripts/sync.py`（會自動按 `skill_type` 分組重建總覽頁）
 
 ### Step 5：Commit 並 Push
