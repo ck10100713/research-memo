@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-09 | Agent Skills | [social-post](skill-social-post.md) |
 | 2026-06-08 | Agent Skills | [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md) |
 | 2026-06-05 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
@@ -208,6 +209,8 @@
 
 #### 06 月
 
+- `2026-06-09` [social-post](skill-social-post.md)  
+  駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（R1-R32 規則 + 4 種 Mode）
 - `2026-06-08` [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)  
   把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
 - `2026-06-05` [SkillOpt](skillopt.md)  
@@ -657,7 +660,7 @@
 
 ### Agent Skills
 
-[book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)、[research（研究筆記產生器）](skill-research.md)
+[book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)、[research（研究筆記產生器）](skill-research.md)、[social-post](skill-social-post.md)
 
 ### 資源彙整 / Awesome List
 

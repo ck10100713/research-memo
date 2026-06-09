@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">193</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">194</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-08</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-09</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -88,7 +88,7 @@
 
     ---
 
-    2 篇筆記
+    3 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-skills.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-bullhorn-outline:{{ .lg .middle }} **social-post**
+
+    ---
+
+    `2026-06-09` 駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（R1-R32 規則 + 4 種 Mode）
+
+    [:octicons-arrow-right-24: 閱讀筆記](skill-social-post.md)
 
 -   :material-book-arrow-right-outline:{{ .lg .middle }} **book-to-skill（書轉 Skill 產生器）**
 
@@ -245,14 +253,6 @@
     `2026-05-25` teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
 
     [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
-
--   :material-translate:{{ .lg .middle }} **軟體工程 56 大定律（完整中文版）**
-
-    ---
-
-    `2026-05-25` 56 條軟體工程定律完整中文版，每條附背景、實例、應用建議，搭配 laws-of-software-engineering.md 原版作為中文受眾學習資源
-
-    [:octicons-arrow-right-24: 閱讀筆記](laws-of-software-engineering-zh.md)
 
 </div>
 

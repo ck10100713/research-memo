@@ -271,6 +271,7 @@ nav:
       - topics/agent-skills.md
       - book-to-skill（書轉 Skill）: skill-book-to-skill.md
       - research（研究筆記產生器）: skill-research.md
+      - social-post（社群自動發文）: skill-social-post.md
   - 資源彙整 / Awesome List:
       - topics/awesome-lists.md
       - Awesome Free Apps: awesome-free-apps.md
