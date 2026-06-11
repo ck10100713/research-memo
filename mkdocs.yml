@@ -228,6 +228,7 @@ nav:
       - Uniform Map AI Prompts: uniform-map-prompts.md
   - AI 應用:
       - topics/ai-apps.md
+      - AI Avatar Bot (Live2D 虛擬人): ai-avatar-bot.md
       - AppFlowy: appflowy.md
       - Cabinet: cabinet.md
       - Career-Ops: career-ops.md

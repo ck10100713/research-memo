@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">194</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">195</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-09</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-11</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -56,7 +56,7 @@
 
     ---
 
-    16 篇筆記
+    17 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-account-voice:{{ .lg .middle }} **AI 虛擬人 Widget（ai-avatar-bot）**
+
+    ---
+
+    `2026-06-11` 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-avatar-bot.md)
 
 -   :material-bullhorn-outline:{{ .lg .middle }} **social-post**
 
@@ -245,14 +253,6 @@
     `2026-05-26` Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-code-game-studios.md)
-
--   :material-notebook-multiple:{{ .lg .middle }} **notebooklm-py**
-
-    ---
-
-    `2026-05-25` teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力
-
-    [:octicons-arrow-right-24: 閱讀筆記](notebooklm-py.md)
 
 </div>
 
