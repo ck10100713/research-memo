@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">197</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">198</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-11</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-12</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -56,7 +56,7 @@
 
     ---
 
-    17 篇筆記
+    18 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-message-processing-outline:{{ .lg .middle }} **LINE Chatbot Boilerplate**
+
+    ---
+
+    `2026-06-12` 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
+
+    [:octicons-arrow-right-24: 閱讀筆記](line-chatbot-boilerplate.md)
 
 -   :material-palette-swatch:{{ .lg .middle }} **Open Design**
 
@@ -245,14 +253,6 @@
     `2026-05-27` Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill
 
     [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
-
--   :material-brain:{{ .lg .middle }} **Claude-Mem**
-
-    ---
-
-    `2026-05-27` thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-mem.md)
 
 </div>
 

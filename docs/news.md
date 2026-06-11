@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-12 | AI 應用 | [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md) |
 | 2026-06-11 | AI 創作資源 | [Open Design](open-design.md) |
 | 2026-06-11 | AI 應用 | [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md) |
 | 2026-06-11 | Coding Agent 工具 | [soplint](soplint.md) |
@@ -212,6 +213,8 @@
 
 #### 06 月
 
+- `2026-06-12` [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)  
+  用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
 - `2026-06-11` [Open Design](open-design.md)  
   本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星
 - `2026-06-11` [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)  
@@ -653,7 +656,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

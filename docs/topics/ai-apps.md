@@ -1,9 +1,10 @@
 # AI 應用
 
-本分類收錄 17 篇研究筆記。
+本分類收錄 18 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-06-12 | [LINE Chatbot Boilerplate](../line-chatbot-boilerplate.md) | 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器） |
 | 2026-06-11 | [AI 虛擬人 Widget（ai-avatar-bot）](../ai-avatar-bot.md) | 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音 |
 | 2026-05-29 | [Trend Monitor](../trend-monitor.md) | dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析 |
 | 2026-05-25 | [notebooklm-py](../notebooklm-py.md) | teng-lin 非官方 NotebookLM Python API + agentic skill，15k stars/4.5 個月，CLI/Python/Claude Code/Codex/OpenClaw 三入口，能解鎖 web UI 沒有的批次下載/PPTX/JSON 心智圖等隱藏能力 |
