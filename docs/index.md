@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">198</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">199</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-12</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -80,7 +80,7 @@
 
     ---
 
-    12 篇筆記
+    13 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/dev-tools.md)
 
@@ -125,6 +125,14 @@
     `2026-06-12` 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
 
     [:octicons-arrow-right-24: 閱讀筆記](line-chatbot-boilerplate.md)
+
+-   :material-view-grid-outline:{{ .lg .middle }} **LINE Rich Menus Manager**
+
+    ---
+
+    `2026-06-12` 用滑鼠拖拉就能建/管 LINE Rich Menu 的本機 GUI 工具（Angular + Express，npm 一鍵啟動）
+
+    [:octicons-arrow-right-24: 閱讀筆記](line-richmenus-manager.md)
 
 -   :material-palette-swatch:{{ .lg .middle }} **Open Design**
 
@@ -245,14 +253,6 @@
     `2026-05-27` Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-free-apps.md)
-
--   :material-web:{{ .lg .middle }} **Webwright**
-
-    ---
-
-    `2026-05-27` Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill
-
-    [:octicons-arrow-right-24: 閱讀筆記](webwright.md)
 
 </div>
 

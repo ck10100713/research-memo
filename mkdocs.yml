@@ -263,6 +263,7 @@ nav:
       - Mole: mole.md
       - Optuna: optuna.md
       - CLI-Anything: cli-anything.md
+      - LINE Rich Menus Manager: line-richmenus-manager.md
       - LiteLLM: litellm.md
       - Pretext: pretext.md
       - PowerToys: powertoys.md

@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-06-12 | AI 應用 | [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md) |
+| 2026-06-12 | 開發工具 | [LINE Rich Menus Manager](line-richmenus-manager.md) |
 | 2026-06-11 | AI 創作資源 | [Open Design](open-design.md) |
 | 2026-06-11 | AI 應用 | [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md) |
 | 2026-06-11 | Coding Agent 工具 | [soplint](soplint.md) |
@@ -215,6 +216,8 @@
 
 - `2026-06-12` [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)  
   用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
+- `2026-06-12` [LINE Rich Menus Manager](line-richmenus-manager.md)  
+  用滑鼠拖拉就能建/管 LINE Rich Menu 的本機 GUI 工具（Angular + Express，npm 一鍵啟動）
 - `2026-06-11` [Open Design](open-design.md)  
   本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星
 - `2026-06-11` [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)  
@@ -668,7 +671,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[Microsoft PowerToys](powertoys.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LINE Rich Menus Manager](line-richmenus-manager.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[Microsoft PowerToys](powertoys.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### Agent Skills
 
