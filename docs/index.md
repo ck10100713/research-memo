@@ -146,7 +146,7 @@
 
     ---
 
-    `2026-06-09` 駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（R1-R32 規則 + 4 種 Mode）
+    `2026-06-11` 駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（v1.0.1：R1-R35 規則 + F1-F27 公式 + 4 種 Mode）
 
     [:octicons-arrow-right-24: 閱讀筆記](skill-social-post.md)
 

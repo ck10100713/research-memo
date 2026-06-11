@@ -11,7 +11,7 @@
 | 2026-06-11 | AI 創作資源 | [Open Design](open-design.md) |
 | 2026-06-11 | AI 應用 | [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md) |
 | 2026-06-11 | Coding Agent 工具 | [soplint](soplint.md) |
-| 2026-06-09 | Agent Skills | [social-post](skill-social-post.md) |
+| 2026-06-11 | Agent Skills | [social-post](skill-social-post.md) |
 | 2026-06-08 | Agent Skills | [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md) |
 | 2026-06-05 | AI Agent 框架 | [SkillOpt](skillopt.md) |
 | 2026-06-05 | 學習資源 | [The System Design Primer](system-design-primer.md) |
@@ -218,8 +218,8 @@
   一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
 - `2026-06-11` [soplint](soplint.md)  
   為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴
-- `2026-06-09` [social-post](skill-social-post.md)  
-  駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（R1-R32 規則 + 4 種 Mode）
+- `2026-06-11` [social-post](skill-social-post.md)  
+  駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（v1.0.1：R1-R35 規則 + F1-F27 公式 + 4 種 Mode）
 - `2026-06-08` [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)  
   把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
 - `2026-06-05` [SkillOpt](skillopt.md)  

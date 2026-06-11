@@ -1,9 +1,9 @@
 ---
-date: "2026-06-09"
+date: "2026-06-11"
 category: "Agent Skills"
 skill_type: "automation"
 card_icon: "material-bullhorn-outline"
-oneliner: "駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（R1-R32 規則 + 4 種 Mode）"
+oneliner: "駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（v1.0.1：R1-R35 規則 + F1-F27 公式 + 4 種 Mode）"
 tags:
   - skills
   - automation
@@ -22,7 +22,7 @@ tags:
 | 作者 FB | <https://www.facebook.com/lo.jain.hao> |
 | 姐妹 skill | [claude-skill-code-cleanup](https://github.com/Hao0321/claude-skill-code-cleanup)（用來維護本 skill 自己） |
 | License | MIT |
-| 版本 | v1.0.0（2026-05-31，41 天 / 25 case / 32 規則 / 14 release） |
+| 版本 | **v1.0.1（2026-06-10）**：R1-R35 規則 / F1-F27 公式 / Mode C 9 變體 / Cases 27-31（初稿收錄時為 v1.0.0） |
 
 ## Skill 概述
 
@@ -34,7 +34,9 @@ tags:
 
 ## 安全審查結果
 
-- **審查日期**：2026-06-09
+> **v1.0.1 複查（2026-06-11）**：新增的 R34（反 AI 腔寫作風格）、R35（keyword CTA）、F26/F27（giveaway 系列公式）改動僅在 `SKILL.md` / `rules.md` / `formulas.md` / `case_studies.md`，**全為發文內容策略文字，無新增可執行碼、無資料外洩、無新權限需求**。R35 的 DM 版 CTA 會觸發 FB 私訊限制（封號前兆）——但 skill 本身已點明此風險並把預設改為「公開 link 自助派發」以保帳號安全，且維持 R25（正文絕不附外部連結）。**安全姿態與初審一致，🟡 結論不變。**
+
+- **審查日期**：2026-06-09（v1.0.0 初審）/ 2026-06-11（v1.0.1 複查）
 - **檢查範圍**：全 repo 所有檔案——`SKILL.md`、`references/*.md`（含 facebook/instagram/threads/x/generate_and_publish/learn_style/rules/formulas/evaluation/case_studies/phase0_plan）、`docs/setup.md`、example 檔、README、CHANGELOG、LICENSE。**無 scripts/ 或 hooks/**，全為 markdown 文字。
 - **結果**：🟡 **通過（含灰色地帶備註）**
 - **無 🔴 項目**：未發現資料外洩（明列「外傳 `style_profile.md` / 使用者資料」於禁止清單）、無隱蔽執行 / base64 混淆 payload、無破壞性操作（`setup.md` 安裝僅 `git clone` 自家 repo + `cp`/`mv`，無 `curl|bash`）、無惡意 prompt injection。**反而內建強安全閘**：發佈前必須在對話取得明確「確認」字眼，且明文聲明即使用 `--dangerously-skip-permissions` 啟動也不 bypass。
@@ -78,6 +80,16 @@ tags:
 - **4 種 Mode**（funnel 互補）：A 日常（鐵粉黏著）/ B 純血 hype（擴散）/ C 深度反思（信任深化，8 變體）/ Thread F19 立場宣言（轉發擴散）
 - **平台差異化**：FB 長敘事、X 壓短 punchline、IG 必配圖、Threads 口語短句不分段（連續逗號流）——**嚴禁一稿多投**，每平台重新生成
 - **真 KPI**：分享 > 留言 > dwell > 讚；私訊分享為 2026 最強信號
+
+### v1.0.1 新增（2026-06-10，6/7+6/9 雙 mega-viral 實證）
+
+| 項 | 內容 | 重點 |
+|----|------|------|
+| **R34 真實 voice** 🚨 | 反 AI 腔硬規則 | 診斷出「AI 文」元兇是**抽象空詞**（護城河/本質/真正的 X）+ staged 開場 + over-narrate，**不是標點**；`──`/`！！！` 是 proven 爆款裝置照用。證明 R34 與 F6b mega-viral 相容 |
+| **R35 keyword CTA** 🏆 | broke 鐵粉圈引擎 | 「留言『關鍵詞』」= 留言磁鐵（每留言 5x 權重）。**公開 link 自助派發為最優預設**（精選留言、無 DM 天花板、account-safe）；DM 版有封號天花板（6/7 323 留言即觸發 FB 私訊限制）。仍守 R25 不導 GitHub 正文 |
+| **F26 / F27 giveaway** | 作品集 reveal / 單品 spotlight | F27 採 PWYW（可輸入 0 元）+ 條件開源 + 必加 R35 keyword CTA。6/9 F6b giveaway 衝 **42,103 觀眾 / 959 留言（史上最高）/ 93.1% 非追蹤** |
+
+> 規則/公式總數：**R1-R35**（R9/R21/R22 已廢除）/ **F1-F27** / Mode C 9 變體。
 
 ### 安裝與使用（摘自 `setup.md`）
 
