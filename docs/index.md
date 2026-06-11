@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">196</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">197</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-11</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -24,7 +24,7 @@
 
     ---
 
-    65 篇筆記
+    66 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -133,6 +133,14 @@
     `2026-06-11` 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-avatar-bot.md)
+
+-   :material-shield-check-outline:{{ .lg .middle }} **soplint**
+
+    ---
+
+    `2026-06-11` 為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴
+
+    [:octicons-arrow-right-24: 閱讀筆記](soplint.md)
 
 -   :material-bullhorn-outline:{{ .lg .middle }} **social-post**
 
@@ -245,14 +253,6 @@
     `2026-05-27` thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-mem.md)
-
--   :material-briefcase-variant:{{ .lg .middle }} **Knowledge Work Plugins**
-
-    ---
-
-    `2026-05-27` Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」
-
-    [:octicons-arrow-right-24: 閱讀筆記](knowledge-work-plugins.md)
 
 </div>
 
