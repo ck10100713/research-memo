@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">195</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">196</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-06-11</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -48,7 +48,7 @@
 
     ---
 
-    3 篇筆記
+    4 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-creative.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-palette-swatch:{{ .lg .middle }} **Open Design**
+
+    ---
+
+    `2026-06-11` 本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-design.md)
 
 -   :material-account-voice:{{ .lg .middle }} **AI 虛擬人 Widget（ai-avatar-bot）**
 
@@ -245,14 +253,6 @@
     `2026-05-27` Anthropic 官方開源的知識工作者 plugin 市集，為 Claude Cowork/Code 而生：~10 個職能 plugin（sales/finance/legal/data...）+ 數十個 partner-built，純 markdown+JSON 封裝 skills/commands/connectors，把 Claude 變成「你公司專屬的角色專家」
 
     [:octicons-arrow-right-24: 閱讀筆記](knowledge-work-plugins.md)
-
--   :material-gamepad-variant:{{ .lg .middle }} **Claude Code Game Studios**
-
-    ---
-
-    `2026-05-26` Donchitos 將 Claude Code 改造成完整遊戲開發工作室：49 agents + 73 skills + 12 hooks + 11 rules，鏡像真實 studio 三層階層（Director/Lead/Specialist）
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-code-game-studios.md)
 
 </div>
 

@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-11 | AI 創作資源 | [Open Design](open-design.md) |
 | 2026-06-11 | AI 應用 | [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md) |
 | 2026-06-09 | Agent Skills | [social-post](skill-social-post.md) |
 | 2026-06-08 | Agent Skills | [book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md) |
@@ -210,6 +211,8 @@
 
 #### 06 月
 
+- `2026-06-11` [Open Design](open-design.md)  
+  本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星
 - `2026-06-11` [AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)  
   一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
 - `2026-06-09` [social-post](skill-social-post.md)  
@@ -643,7 +646,7 @@
 
 ### AI 創作資源
 
-[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)
+[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)
 
 ### AI 應用
 
