@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-06-17 | Coding Agent 工具 | [Ponytail](ponytail.md) |
 | 2026-06-12 | AI 應用 | [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md) |
 | 2026-06-12 | 開發工具 | [LINE Rich Menus Manager](line-richmenus-manager.md) |
 | 2026-06-11 | AI 創作資源 | [Open Design](open-design.md) |
@@ -214,6 +215,8 @@
 
 #### 06 月
 
+- `2026-06-17` [Ponytail](ponytail.md)  
+  把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼
 - `2026-06-12` [LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)  
   用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
 - `2026-06-12` [LINE Rich Menus Manager](line-richmenus-manager.md)  
@@ -639,7 +642,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 

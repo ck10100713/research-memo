@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">199</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">200</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-12</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-06-17</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -16,7 +16,7 @@
 
     ---
 
-    23 篇筆記
+    24 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-frameworks.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-content-cut:{{ .lg .middle }} **Ponytail**
+
+    ---
+
+    `2026-06-17` 把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼
+
+    [:octicons-arrow-right-24: 閱讀筆記](ponytail.md)
 
 -   :material-message-processing-outline:{{ .lg .middle }} **LINE Chatbot Boilerplate**
 
@@ -245,14 +253,6 @@
     `2026-05-28` joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
 
     [:octicons-arrow-right-24: 閱讀筆記](skillopt-qa.md)
-
--   :material-apps:{{ .lg .middle }} **Awesome Free Apps**
-
-    ---
-
-    `2026-05-27` Axorax 維護的跨平台免費軟體 curated list（5.4k stars），涵蓋瀏覽器/音訊/開發/影音/安全等數十類別，每條附 Windows/macOS/Linux/開源/推薦 圖示標記，另有獨立 MOBILE.md 與多種 filter 視圖
-
-    [:octicons-arrow-right-24: 閱讀筆記](awesome-free-apps.md)
 
 </div>
 

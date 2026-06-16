@@ -1,9 +1,10 @@
 # AI Agent 框架
 
-本分類收錄 23 篇研究筆記。
+本分類收錄 24 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-06-17 | [Ponytail](../ponytail.md) | 把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼 |
 | 2026-06-05 | [SkillOpt](../skillopt.md) | Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904 |
 | 2026-05-27 | [Webwright](../webwright.md) | Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill |
 | 2026-04-14 | [開源 AI Agent 框架比較](../open-source-agent-frameworks.md) | 2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南 |
