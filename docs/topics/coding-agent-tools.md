@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 66 篇研究筆記。
+本分類收錄 67 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-06 | [ML Intern](../ml-intern.md) | Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code |
 | 2026-06-11 | [soplint](../soplint.md) | 為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴 |
 | 2026-06-01 | [Codex Complexity Optimizer](../codex-complexity-optimizer.md) | Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告 |
 | 2026-05-27 | [Claude-Mem](../claude-mem.md) | thedotmack 的跨 session 持久記憶系統（78k stars），自動捕捉 agent 行為→AI 壓縮成語義摘要→注入未來 session，3-layer 漸進揭露搜尋省 ~10x token，SQLite+Chroma 混合檢索，支援 Claude Code/OpenClaw/Codex/Gemini 等多 host |

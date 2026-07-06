@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">200</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">201</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-06-17</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-06</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    66 篇筆記
+    67 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-school:{{ .lg .middle }} **ML Intern**
+
+    ---
+
+    `2026-07-06` Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code
+
+    [:octicons-arrow-right-24: 閱讀筆記](ml-intern.md)
 
 -   :material-content-cut:{{ .lg .middle }} **Ponytail**
 
@@ -245,14 +253,6 @@
     `2026-05-29` dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
 
     [:octicons-arrow-right-24: 閱讀筆記](trend-monitor.md)
-
--   :material-school-outline:{{ .lg .middle }} **skillopt-qa**
-
-    ---
-
-    `2026-05-28` joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路
-
-    [:octicons-arrow-right-24: 閱讀筆記](skillopt-qa.md)
 
 </div>
 
