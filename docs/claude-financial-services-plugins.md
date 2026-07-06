@@ -1,22 +1,27 @@
 ---
-date: "2026-02-23"
+date: "2026-07-06"
 category: "Coding Agent 工具"
 card_icon: "material-finance"
-oneliner: "Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流"
+oneliner: "Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署"
 tags:
   - claude-code
   - finance
   - plugin
   - skills
 ---
-# Claude Financial Services Plugins 研究筆記
+# Claude for Financial Services 研究筆記
+
+> 2026-07-06 更新：repo 由 `financial-services-plugins` 改名為 **`financial-services`**，2026-05-05 新增 10 個 Named Agents、Managed Agents API 部署、fund-admin / operations 兩個新 vertical、Box connector 與 Microsoft 365 安裝工具。原 2026-02-23 筆記內容已據此改寫。
 
 ## 資料來源
 
 | 項目 | 連結 |
 |------|------|
-| BlockTempo 中文報導 | [Anthropic 開源金融分析外掛](https://www.blocktempo.com/anthropic-claude-financial-services-plugins-41-skills-11-data-providers/) |
-| GitHub Repo | [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins) |
+| GitHub Repo | [anthropics/financial-services](https://github.com/anthropics/financial-services)（原 `financial-services-plugins`，已改名） |
+| Anthropic 官方公告（2026-05） | [Agents for financial services](https://www.anthropic.com/news/finance-agents) |
+| Finextra 報導 | [Anthropic rolls out another 10 financial services agents](https://www.finextra.com/newsarticle/47704/anthropic-rolls-out-another-10-financial-services-agents) |
+| Markets Media | [Anthropic Introduces Agents for Financial Services](https://www.marketsmedia.com/anthropic-introduces-agents-for-financial-services/) |
+| BlockTempo 中文報導（首發） | [Anthropic 開源金融分析外掛](https://www.blocktempo.com/anthropic-claude-financial-services-plugins-41-skills-11-data-providers/) |
 | Claude Help Center | [Install financial services plugins for Cowork](https://support.claude.com/en/articles/13851150-install-financial-services-plugins-for-cowork) |
 | LSEG 整合文章 | [Supercharge Claude's Financial Skills With LSEG Data](https://www.lseg.com/en/insights/supercharge-claudes-financial-skills-with-lseg-data) |
 | Inc. 報導 | [Anthropic's New Claude Plugins Take Aim at Finance, HR, and More](https://www.inc.com/ben-sherry/anthropics-new-claude-plugins-take-aim-at-finance-hr-and-more-is-your-job-next/91307114) |
@@ -24,47 +29,66 @@ tags:
 
 ## 專案概述
 
-Anthropic 官方發布的 **金融服務 Plugin 套件**，將 Claude 從通用 AI 助手轉化為投資銀行、股票研究、私募股權、財富管理四大領域的專業分析師。全套件包含 **41 個 Skills**（自動觸發的領域知識）、**38 個 Commands**（使用者主動呼叫的斜線指令）、**11 個 MCP 資料源整合**。
+Anthropic 官方的 **Claude for Financial Services** 套件，2026-02 以「金融 Plugin 套件」首發，2026-05-05 大改版升級為完整的金融 agent 方案：在原有 vertical plugins（skills + commands + connectors）之上，新增 **10 個 Named Agents**——每個 agent 是自包含 plugin，端到端擁有一條工作流（如 Pitch Agent 從 comps 一路做到品牌化 pitch deck）。
 
-核心價值：不是做單點工具，而是實現 **端到端工作流** — 從研究 → 分析 → 建模 → 產出報告/簡報，無需 context switching。整個框架是 **純文字檔案**（Markdown + JSON），無需寫程式碼或搭建基礎設施。
+最大的架構賣點是 **「一份原始碼、兩種部署」**：同一套 system prompt 和 skills，既可裝成 [Claude Cowork](https://claude.com/product/cowork) plugin 跟著分析師互動使用，也可透過 **Claude Managed Agents API**（`/v1/agents`）部署成無頭自主 agent，跑整本 deal book 或夜間排程。整個框架仍是 **純文字檔案**（Markdown + JSON），no build step。
 
-| 指標 | 數值 |
-|------|------|
-| GitHub Stars | 6,949 |
-| Forks | 822 |
-| 語言 | Python |
-| License | Apache 2.0 |
-| 發布日期 | 2026-02-23 |
-| Skills | 41 |
-| Commands | 38 |
-| MCP 資料源 | 11 |
+| 指標 | 2026-02 首發 | 2026-07-06 現況 |
+|------|-------------|----------------|
+| GitHub Stars | 6,949 | 33,114 |
+| Forks | 822 | 4,842 |
+| Named Agents | — | 10 |
+| Vertical Plugins | 4 + core | 6 + core |
+| Skills（vertical 源頭） | 41 | 55 |
+| Commands | 38 | 39 |
+| MCP 資料源 | 11 | 12（新增 Box） |
+| 部署方式 | Cowork / Claude Code | + Managed Agents API、Microsoft 365 add-in |
 
-## 三層架構
+License：Apache 2.0 · 語言：Python
+
+## 架構：Agents 疊在 Verticals 之上
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  第三層：Partner-Built Plugins                               │
-│  ┌────────────────────┐  ┌────────────────────┐             │
-│  │ LSEG               │  │ S&P Global         │             │
-│  │ 債券定價、殖利率曲線 │  │ 公司分析、財報預覽  │             │
-│  │ FX、選擇權、宏觀    │  │ Capital IQ 資料     │             │
-│  └────────────────────┘  └────────────────────┘             │
+│  Named Agents（自包含 plugin，每個擁有一條端到端工作流）        │
+│  Coverage & advisory : Pitch Agent · Meeting Prep Agent      │
+│  Research & modeling : Market Researcher · Earnings Reviewer │
+│                        · Model Builder                       │
+│  Fund admin & ops    : Valuation Reviewer · GL Reconciler    │
+│                        · Month-End Closer · Statement Auditor│
+│  Onboarding          : KYC Screener                          │
+│  ── 每個 agent 同時提供 managed-agent-cookbook（agent.yaml）──│
 ├─────────────────────────────────────────────────────────────┤
-│  第二層：四大功能 Add-on Plugins                              │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐       │
-│  │投資銀行   │ │股票研究   │ │私募股權   │ │財富管理   │       │
-│  │CIM       │ │財報更新   │ │Deal      │ │客戶會議   │       │
-│  │買家清單   │ │報告生成   │ │Sourcing  │ │財務規劃   │       │
-│  │合併模型   │ │催化劑追蹤 │ │盡職調查   │ │組合再平衡 │       │
-│  │Deal Track │ │晨會整理   │ │IC Memo   │ │稅務優化   │       │
-│  └──────────┘ └──────────┘ └──────────┘ └──────────┘       │
+│  Partner-Built Plugins：LSEG（債券/FX/波動率）                │
+│                         S&P Global（Capital IQ tearsheets）  │
 ├─────────────────────────────────────────────────────────────┤
-│  第一層：Core Plugin — financial-analysis（必裝）             │
-│                                                             │
-│  Comps | DCF | LBO | 3-Statement | PPT QC | 模板           │
-│  ＋ 11 個 MCP 資料聯結器（所有 Add-on 共用）                  │
+│  Vertical Plugins（skills + commands 的源頭）                 │
+│  投資銀行 │ 股票研究 │ 私募股權 │ 財富管理 │ fund-admin │ ops │
+├─────────────────────────────────────────────────────────────┤
+│  Core Plugin — financial-analysis（必裝）                     │
+│  Comps | DCF | LBO | 3-Statement | Deck QC | Excel audit    │
+│  ＋ 12 個 MCP 資料聯結器（全部集中在 core、上層共用）           │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+Skills 只在 vertical 層撰寫一次，agent plugin 透過 `scripts/sync-agent-skills.py` 打包同步副本——單一事實來源、多處部署。
+
+## 10 個 Named Agents（2026-05 新增）
+
+| 職能 | Agent | 工作流 |
+|------|-------|--------|
+| 客戶覆蓋與顧問 | **Pitch Agent** | Comps、precedents、LBO → 品牌化 pitch deck 一條龍 |
+| | **Meeting Prep Agent** | 每次客戶會議前的 briefing pack |
+| 研究與建模 | **Market Researcher** | 產業/主題 → 產業概覽、競爭版圖、peer comps、想法清單 |
+| | **Earnings Reviewer** | 財報電話會 + filings → 模型更新 → 報告草稿 |
+| | **Model Builder** | DCF、LBO、3-statement、comps——直接在 Excel 裡 |
+| 基金行政與財務營運 | **Valuation Reviewer** | 讀取 GP packages、跑估值模板、備妥 LP 報告 |
+| | **GL Reconciler** | 找總帳差異、追根因、送簽核 |
+| | **Month-End Closer** | 應計、roll-forwards、差異說明 |
+| | **Statement Auditor** | LP 對帳單發放前稽核 |
+| 營運與開戶 | **KYC Screener** | 解析開戶文件、跑規則引擎、標記缺漏 |
+
+**Managed Agents 部署**：每個 agent 在 `managed-agent-cookbooks/` 有對應模板（`agent.yaml` + depth-1 leaf-worker subagents + steering-event 範例），`scripts/deploy-managed-agent.sh` 一鍵解析檔案引用、上傳 skills、建 subagents、POST 到 `/v1/agents`。`scripts/orchestrate.py` 提供跨 agent `handoff_request` 事件路由的參考實作。注意：subagent delegation（`callable_agents`）目前是 **research preview**。
 
 ## Plugin 功能詳解
 
@@ -125,6 +149,23 @@ Anthropic 官方發布的 **金融服務 Plugin 套件**，將 Claude 從通用 
 | Client Reports | 客戶報告生成 |
 | Tax-Loss Harvesting | 稅損收割機會識別 |
 
+### Add-on 5：Fund Admin（2026-05 新增）
+
+| Skill/Command | 說明 |
+|--------------|------|
+| GL Recon | 總帳與託管行對帳 |
+| Break Tracing | 差異根因追查 |
+| Accruals / Roll-forwards | 應計與滾動結轉 |
+| Variance Commentary | 差異說明撰寫 |
+| NAV Tie-out | 淨值勾稽 |
+
+### Add-on 6：Operations（2026-05 新增）
+
+| Skill/Command | 說明 |
+|--------------|------|
+| KYC Document Parsing | 開戶文件解析 |
+| Rules-Grid Evaluation | KYC 規則矩陣評估 |
+
 ### Partner：LSEG
 
 LSEG MCP Server 提供十個專業工具：
@@ -147,7 +188,7 @@ S&P Capital IQ 資料驅動，支援多種受眾類型：
 | Earnings Previews | 財報預覽 |
 | Funding Digests | 融資摘要 |
 
-## 11 個 MCP 資料源
+## 12 個 MCP 資料源
 
 | 供應商 | MCP Endpoint | 主要資料類型 |
 |--------|-------------|-------------|
@@ -162,6 +203,7 @@ S&P Capital IQ 資料驅動，支援多種受眾類型：
 | **PitchBook** | `premium.mcp.pitchbook.com/mcp` | 私募/創投交易數據 |
 | **Chronograph** | `ai.chronograph.pe/mcp` | PE/VC 投資組合分析 |
 | **Egnyte** | `mcp-server.egnyte.com/mcp` | 企業文件管理 |
+| **Box**（2026-05 新增） | `mcp.box.com` | 企業內容雲 |
 
 ⚠️ 各 MCP 資料源可能需要獨立的訂閱或 API key。
 
@@ -213,22 +255,36 @@ Claude 自動執行:
 ### Claude Code CLI
 
 ```bash
-# 加入市集
-claude plugin marketplace add anthropics/financial-services-plugins
+# 加入市集（repo 已改名，marketplace 名稱是 claude-for-financial-services）
+claude plugin marketplace add anthropics/financial-services
 
 # 安裝核心（必須先裝）
-claude plugin install financial-analysis@financial-services-plugins
+claude plugin install financial-analysis@claude-for-financial-services
 
-# 按需安裝功能模組
-claude plugin install investment-banking@financial-services-plugins
-claude plugin install equity-research@financial-services-plugins
-claude plugin install private-equity@financial-services-plugins
-claude plugin install wealth-management@financial-services-plugins
+# Named agents — 按需挑選
+claude plugin install pitch-agent@claude-for-financial-services
+claude plugin install gl-reconciler@claude-for-financial-services
+claude plugin install market-researcher@claude-for-financial-services
+
+# Vertical skill bundles
+claude plugin install investment-banking@claude-for-financial-services
+claude plugin install equity-research@claude-for-financial-services
 ```
 
 ### Claude Cowork
 
-直接從 [claude.com/plugins](https://claude.com/plugins/) 一鍵安裝。
+Settings → Plugins → Add plugin，貼上 repo URL 或直接把 `plugins/` 下任一目錄壓成 zip 上傳。
+
+### Claude Managed Agents（無頭部署）
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+scripts/deploy-managed-agent.sh gl-reconciler
+```
+
+### Microsoft 365 Add-in
+
+`claude-for-msft-365-install/` 是給 IT 管理員的 Claude Code plugin，把 Claude 裝進 Excel / PowerPoint / Word / Outlook，且可路由到**自家雲端**（Vertex AI、Bedrock、內部 LLM gateway）而非 Anthropic API——生成客製 manifest、Azure admin consent、透過 Microsoft Graph 寫入每使用者路由設定。
 
 ## 自訂化框架
 
@@ -245,30 +301,28 @@ Plugin 的 No-Code 架構讓金融機構可以輕鬆客製化：
 ## 檔案結構
 
 ```
-plugin-name/
-├── .claude-plugin/plugin.json   ← 清單（名稱、版本、描述）
-├── .mcp.json                    ← MCP 連接設定
-├── commands/                    ← 斜線指令（使用者主動觸發）
-│   ├── comps.md
-│   ├── dcf.md
-│   └── ...
-└── skills/                      ← 領域知識（自動觸發）
-    ├── valuation-principles.md
-    ├── financial-modeling.md
-    └── ...
+plugins/
+  agent-plugins/               ← Named agents，每個自包含一個 plugin
+  vertical-plugins/            ← Skills + commands 的源頭，按 FSI vertical 分包
+    financial-analysis/.mcp.json  ← 12 個 MCP connectors 集中於此
+  partner-built/               ← LSEG、S&P Global
+managed-agent-cookbooks/       ← 每個 agent 一個 headless 部署模板
+claude-for-msft-365-install/   ← Microsoft 365 add-in 佈建工具
+scripts/                       ← deploy-managed-agent.sh · orchestrate.py
+                                 · sync-agent-skills.py · validate.py
 ```
 
-關鍵：**全部是 Markdown + JSON**，不需要寫程式碼，不需要基礎設施。
+單一 plugin 內部仍是 `plugin.json` + `.mcp.json` + `commands/` + `skills/` 的組合。關鍵：**全部是 Markdown + JSON**，不需要寫程式碼，no build step。
 
 ## 目前限制 / 注意事項
 
 1. **MCP 資料源成本高** — 11 個資料源中 FactSet、Bloomberg、S&P Capital IQ 等都是企業級訂閱，個人開發者或小型機構難以負擔
 2. **資料延遲與即時性** — MCP endpoint 的資料更新頻率取決於各供應商，非所有資料都是 real-time
-3. **法規合規風險** — Disclaimer 明確聲明「不提供金融/投資建議」，但 AI 自動產出的分析報告在法規監管灰色地帶（特別是 MiFID II、SEC 規範下）
+3. **法規合規風險** — Disclaimer（2026-05 後大幅強化）明確定位：agents 只「起草分析師工作產出」，不做投資建議、不執行交易、不過帳、不核准開戶，**所有產出都停在 human sign-off 前一步**；但 AI 產出的分析在 MiFID II、SEC 規範下仍屬灰色地帶
 4. **模型幻覺風險** — 財務建模中的數字錯誤可能造成重大財務損失，所有 AI 產出必須由專業人員審核
 5. **客製化門檻** — 雖號稱 No-Code，但企業級客製化（換資料源、調整工作流）仍需要理解 MCP 協定和 Plugin 架構
-6. **Partner Plugin 有限** — 目前只有 LSEG 和 S&P Global 兩個合作夥伴，Bloomberg Terminal（金融業最大資料源）缺席
-7. **Claude Cowork 綁定** — 主要為 Claude Cowork 設計，雖相容 Claude Code，但企業部署可能需要 Anthropic Enterprise 方案
+6. **Partner Plugin 有限** — 目前仍只有 LSEG 和 S&P Global 兩個合作夥伴，Bloomberg Terminal（金融業最大資料源）持續缺席
+7. **Managed Agents 尚未完全成熟** — subagent delegation（`callable_agents`）還在 research preview，跨 agent handoff 需要自建 orchestration 層（官方只給 `orchestrate.py` 參考實作）
 
 ## 研究價值與啟示
 
@@ -284,9 +338,14 @@ plugin-name/
 
 5. **Apache 2.0 開源是企業信任的入口** — 在金融業（最保守的行業之一）推 AI 產品，開源是建立信任的最有效方式。企業可以審計每一行 skill 和 connector 的邏輯，確保沒有資料外洩風險。但 Apache 2.0 也意味著競爭對手可以 fork 並建立競品 — Anthropic 押注的是 Claude 模型本身的能力護城河，而非 Plugin 程式碼。
 
+6. **從「技能包」到「有名字的數位員工」是產品化的關鍵一步**（2026-05 改版）— 首發時賣的是「41 個 skills」，改版後賣的是「GL Reconciler」「KYC Screener」這種以工作流命名的 agent。同樣的底層 skills，包裝成有職稱的 agent 之後，買方（金融機構主管）可以直接對應到「這取代/輔助哪個崗位的哪件事」。而且擴張方向值得注意：從 front office（投行、研究）走向 **back office**（基金行政、月結、KYC）——規則明確、重複性高、天然有 sign-off 環節的後台作業，其實是 agent 更容易落地的地方。
+
+7. **「一份原始碼、兩種部署」是 agent 產品的可複用模式** — 同一套 system prompt + skills，既是 Cowork 互動 plugin，也是 Managed Agents API 的無頭模板（`agent.yaml` 包裝），靠 `sync-agent-skills.py` 維持單一事實來源。這解決了 agent 開發的經典分裂：互動版和自動化版通常是兩套程式碼、逐漸漂移。任何同時要做 copilot 模式和 pipeline 模式的 agent 產品都該抄這個結構。
+
 ### 與其他專案的關聯
 
 - **Anthropic Harness Design**（`harness-design-long-running-apps.md`）：Financial Services Plugins 是 Harness Engineering 在產業垂直場景的具體應用。Skills 編碼了「分析師應該怎麼做」的領域知識，Commands 定義了使用者互動介面，MCP connectors 提供資料基礎 — 三者組合就是一個金融分析師 Harness。
 - **LobeHub**（`lobehub.md`）：LobeHub 有 10K+ Skills 市集，但走的是通用路線；Anthropic 的 Financial Services Plugins 是少數由 AI 公司官方出品的垂直行業 Plugin，品質和整合深度遠超社群貢獻。兩者在 MCP 協定上完全互通。
 - **LangGraph State API**（`langgraph-state-api.md`）：Financial Services Plugins 的端到端工作流（research → analysis → modeling → output）如果要用 LangGraph 實現，每個步驟的中間結果需要透過 State channels 傳遞，reducer 的設計（累積 vs 覆寫）直接影響報告品質。
 - **TradingAgents**（`tradingagents.md`）：同樣是金融 AI 場景，TradingAgents 用多 Agent 辯論做交易決策，而 Financial Services Plugins 用單 Agent + 多 Skill 做分析報告。前者偏自主決策，後者偏人機協作。
+- **[ML Intern](ml-intern.md)**：兩者是「官方出品垂直 agent」的對照組——Hugging Face 押 ML 工程、Anthropic 押金融。共同策略都是**生態系深度整合**（HF 押 Hub/Jobs，Anthropic 押 12 家金融資料商的 MCP），差別在 ml-intern 是全自主長任務 harness，這裡是 human sign-off 前置的工作產出起草。

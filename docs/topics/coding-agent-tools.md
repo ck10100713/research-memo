@@ -4,6 +4,7 @@
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-06 | [Claude for Financial Services](../claude-financial-services-plugins.md) | Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署 |
 | 2026-07-06 | [ML Intern](../ml-intern.md) | Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code |
 | 2026-06-11 | [soplint](../soplint.md) | 為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴 |
 | 2026-06-01 | [Codex Complexity Optimizer](../codex-complexity-optimizer.md) | Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告 |
@@ -68,6 +69,5 @@
 | 2026-03-23 | [MCP CLI](../mcp-cli.md) | Model Context Protocol CLI 工具 |
 | 2026-03-23 | [OpenClaw Claude Proxy](../openclaw-claude-proxy.md) | 將 Claude Max 訂閱轉為 OpenAI 相容 API，驅動 Agent 群免費用 Opus 4.6 |
 | 2026-03-17 | [Claude Cowork Dispatch](../dispatch.md) | 用手機遠端遙控桌面 Claude Cowork，離開電腦也能派任務 |
-| 2026-02-23 | [Claude Financial Services Plugins](../claude-financial-services-plugins.md) | Anthropic 官方金融服務 Plugin：41 Skills、11 MCP 資料源，覆蓋投行/股研/PE/財管端到端工作流 |
 | 2026-02-09 | [GitHub Copilot Configs](../github-copilot-configs.md) | GitHub Copilot 設定與自訂指令 |
 | 2018-12-18 | [Difftastic](../difftastic.md) | 24.8K stars 的結構化 diff 工具，用 tree-sitter 解析語法樹，只顯示真正有意義的程式碼變動 |

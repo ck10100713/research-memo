@@ -126,6 +126,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ml-intern.md)
 
+-   :material-finance:{{ .lg .middle }} **Claude for Financial Services**
+
+    ---
+
+    `2026-07-06` Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
+
 -   :material-content-cut:{{ .lg .middle }} **Ponytail**
 
     ---
@@ -245,14 +253,6 @@
     `2026-05-29` VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-openclaw-skills.md)
-
--   :material-trending-up:{{ .lg .middle }} **Trend Monitor**
-
-    ---
-
-    `2026-05-29` dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析
-
-    [:octicons-arrow-right-24: 閱讀筆記](trend-monitor.md)
 
 </div>
 
