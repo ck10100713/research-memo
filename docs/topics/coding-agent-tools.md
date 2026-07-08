@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 68 篇研究筆記。
+本分類收錄 69 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-08 | [Advisor Tool（顧問工具）](../advisor-tool.md) | executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具 |
 | 2026-07-08 | [AI 使用量儀表板（danleetw/ai_usage_dashboard）](../ai-usage-dashboard.md) | 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴 |
 | 2026-07-06 | [Claude for Financial Services](../claude-financial-services-plugins.md) | Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署 |
 | 2026-07-06 | [ML Intern](../ml-intern.md) | Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code |

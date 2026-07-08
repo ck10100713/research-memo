@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">202</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">203</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-08</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -24,7 +24,7 @@
 
     ---
 
-    68 篇筆記
+    69 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -125,6 +125,14 @@
     `2026-07-08` 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-usage-dashboard.md)
+
+-   :material-head-lightbulb:{{ .lg .middle }} **Advisor Tool（顧問工具）**
+
+    ---
+
+    `2026-07-08` executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具
+
+    [:octicons-arrow-right-24: 閱讀筆記](advisor-tool.md)
 
 -   :material-school:{{ .lg .middle }} **ML Intern**
 
@@ -245,14 +253,6 @@
     `2026-06-05` 本站自用的研究筆記產生器 skill：搜集資料 → 結構化筆記 → 更新索引 → 部署
 
     [:octicons-arrow-right-24: 閱讀筆記](skill-research.md)
-
--   :material-speedometer:{{ .lg .middle }} **Codex Complexity Optimizer**
-
-    ---
-
-    `2026-06-01` Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
-
-    [:octicons-arrow-right-24: 閱讀筆記](codex-complexity-optimizer.md)
 
 </div>
 

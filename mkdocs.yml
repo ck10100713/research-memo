@@ -109,6 +109,7 @@ nav:
   - Coding Agent 工具:
       - topics/coding-agent-tools.md
       - abdixere-api: abdixere-api.md
+      - Advisor Tool（顧問工具）: advisor-tool.md
       - AI 使用量儀表板 (ai_usage_dashboard): ai-usage-dashboard.md
       - Analysis Claude Code: analysis-claude-code.md
       - Awesome DESIGN.md: awesome-design-md.md
