@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">201</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">202</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-06</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-08</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    67 篇筆記
+    68 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-heart-pulse:{{ .lg .middle }} **AI 使用量儀表板（danleetw/ai_usage_dashboard）**
+
+    ---
+
+    `2026-07-08` 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-usage-dashboard.md)
 
 -   :material-school:{{ .lg .middle }} **ML Intern**
 
@@ -245,14 +253,6 @@
     `2026-06-01` Codex skill：掃描 codebase 複雜度熱點、產生「只報告不亂改」的安全優化報告
 
     [:octicons-arrow-right-24: 閱讀筆記](codex-complexity-optimizer.md)
-
--   :material-shaker-outline:{{ .lg .middle }} **Awesome OpenClaw Skills**
-
-    ---
-
-    `2026-05-29` VoltAgent 策展的 OpenClaw skill 精選清單（49.5k stars），從 ClawHub 官方 13,729 個社群 skill 中過濾出 5,211 個分 31 類，標註 spam/duplicate/低品質/crypto/惡意各排除多少，附 VirusTotal/Snyk 等安全工具，可看作「OpenClaw 生態的 App Store 看板」
-
-    [:octicons-arrow-right-24: 閱讀筆記](awesome-openclaw-skills.md)
 
 </div>
 
