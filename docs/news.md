@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-07-17 | AI Agent 框架 | [OpenAI Agents SDK](openai-agents-sdk.md) |
 | 2026-07-08 | Coding Agent 工具 | [AI 使用量儀表板（danleetw/ai_usage_dashboard）](ai-usage-dashboard.md) |
 | 2026-07-08 | Coding Agent 工具 | [Advisor Tool（顧問工具）](advisor-tool.md) |
 | 2026-07-06 | Coding Agent 工具 | [ML Intern](ml-intern.md) |
@@ -141,7 +142,6 @@
 | 2026-04-01 | Coding Agent 工具 | [Kuberwastaken Claude Code](kuberwastaken-claude-code.md) |
 | 2026-03-31 | Coding Agent 工具 | [Claude Agent SDK](claude-agent-sdk.md) |
 | 2026-03-31 | Coding Agent 工具 | [claude-better](claude-better.md) |
-| 2026-03-31 | AI Agent 框架 | [OpenAI Agents SDK](openai-agents-sdk.md) |
 | 2026-03-31 | Coding Agent 工具 | [Copilot Ralph](copilot-ralph.md) |
 | 2026-03-31 | AI Agent 框架 | [Google Agent Development Kit (ADK)](google-adk.md) |
 | 2026-03-31 | Coding Agent 工具 | [cloclo (claude-code-sdk)](claude-code-sdk.md) |
@@ -218,6 +218,8 @@
 
 #### 07 月
 
+- `2026-07-17` [OpenAI Agents SDK](openai-agents-sdk.md)  
+  OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop
 - `2026-07-08` [AI 使用量儀表板（danleetw/ai_usage_dashboard）](ai-usage-dashboard.md)  
   本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴
 - `2026-07-08` [Advisor Tool（顧問工具）](advisor-tool.md)  
@@ -496,8 +498,6 @@
   Anthropic 官方 Agent SDK — 把 Claude Code 的工具與 Agent Loop 變成可程式化的 Python / TypeScript 函式庫
 - `2026-03-31` [claude-better](claude-better.md)  
   CryptoSwift 作者的多層諷刺——main branch 0 行程式碼配企業級 README，code branch 是 XOR 混淆的 C 假 CLI，永遠回覆 'Your account is blocked'
-- `2026-03-31` [OpenAI Agents SDK](openai-agents-sdk.md)  
-  OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統
 - `2026-03-31` [Copilot Ralph](copilot-ralph.md)  
   保哥的 Ralph 迭代式 AI 開發迴圈工具 — 基於 Copilot SDK，讓 AI 反覆執行任務直到完成
 - `2026-03-31` [Google Agent Development Kit (ADK)](google-adk.md)  

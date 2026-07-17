@@ -4,12 +4,12 @@
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-17 | [OpenAI Agents SDK](../openai-agents-sdk.md) | OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop |
 | 2026-06-17 | [Ponytail](../ponytail.md) | 把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼 |
 | 2026-06-05 | [SkillOpt](../skillopt.md) | Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904 |
 | 2026-05-27 | [Webwright](../webwright.md) | Microsoft Research 極簡瀏覽器 agent 框架（~1.5k LoC），核心理念『coding agent + terminal』把瀏覽器當可拋棄環境、用 code-as-action 寫 Playwright 腳本，Online-Mind2Web 86.7% SOTA，可當 Claude Code/Codex skill |
 | 2026-04-14 | [開源 AI Agent 框架比較](../open-source-agent-frameworks.md) | 2026 年功能完善的開源 Agent 框架橫向比較：從 Dify 到 LangGraph 的選型指南 |
 | 2026-03-31 | [Google Agent Development Kit (ADK)](../google-adk.md) | Google 官方 Agent 框架 — 以 LlmAgent + Workflow Agents 為核心的 code-first 多代理開發套件 |
-| 2026-03-31 | [OpenAI Agents SDK](../openai-agents-sdk.md) | OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統 |
 | 2026-03-30 | [Agent GoFundMe](../agent-gofundme.md) | Agent 群眾募資平台 — AI Agent 的 GoFundMe |
 | 2026-03-30 | [AgentBnB](../agentbnb.md) | Agent 短租市場 — AI Agent 的 Airbnb 託管協議 |
 | 2026-03-30 | [DeerFlow](../deer-flow.md) | ByteDance 開源多 Agent 深度研究框架 |

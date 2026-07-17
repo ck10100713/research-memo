@@ -5,7 +5,7 @@
 <div class="stats-bar">
   <div class="stat"><div class="stat-num">203</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-08</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-17</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
+
+    ---
+
+    `2026-07-17` OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop
+
+    [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
 
 -   :material-heart-pulse:{{ .lg .middle }} **AI 使用量儀表板（danleetw/ai_usage_dashboard）**
 
@@ -245,14 +253,6 @@
     `2026-06-05` 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿
 
     [:octicons-arrow-right-24: 閱讀筆記](powertoys.md)
-
--   :material-text-box-search-outline:{{ .lg .middle }} **research（研究筆記產生器）**
-
-    ---
-
-    `2026-06-05` 本站自用的研究筆記產生器 skill：搜集資料 → 結構化筆記 → 更新索引 → 部署
-
-    [:octicons-arrow-right-24: 閱讀筆記](skill-research.md)
 
 </div>
 

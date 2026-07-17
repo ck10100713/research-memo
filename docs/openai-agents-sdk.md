@@ -1,11 +1,12 @@
 ---
-date: "2026-03-31"
+date: "2026-07-17"
 category: "AI Agent 框架"
 card_icon: "material-robot-industrial"
-oneliner: "OpenAI 官方 Agent 框架 — 以 Handoffs + Guardrails 為核心的輕量多代理工作流系統"
+oneliner: "OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop"
 tags:
   - agent-framework
   - multi-agent
+  - mcp
 ---
 
 # OpenAI Agents SDK 研究筆記
@@ -26,9 +27,11 @@ tags:
 
 OpenAI Agents SDK 是 OpenAI 的官方 Agent 開發框架，前身為實驗性的 **Swarm** 專案，於 2025 年 3 月正式發布。它是一個輕量、抽象層極少的 Python-first 框架（也有 TypeScript 版本），設計哲學是「足夠的功能讓你值得用，但抽象層少到幾分鐘就能學會」。
 
-與 Claude Agent SDK 的「把產品能力變成函式庫」不同，OpenAI Agents SDK 更偏向「多代理協作框架」——核心不是內建工具，而是 Agent 間的 Handoff（委派）和 Guardrails（護欄）機制。
+與 Claude Agent SDK 的「把產品能力變成函式庫」不同，OpenAI Agents SDK 起家時更偏向「多代理協作框架」——核心不是內建工具，而是 Agent 間的 Handoff（委派）和 Guardrails（護欄）機制。但到了 2026 年中，它已補上 Sandbox Agents（容器化 coding harness）與 Human-in-the-loop，定位往通用 agent 平台擴張（見下方「2026 年重大新增」）。
 
-**GitHub 社群數據**：20.4k stars、3.3k forks、77 releases（最新 v0.13.2）、MIT License
+**GitHub 社群數據**（2026-07 更新）：27.9k stars、4.3k forks、108+ releases（最新 **v0.18.3**，2026-07-17）、MIT License
+
+> **本次更新（v0.13 → v0.18）重點**：新增 ① Sandbox Agents（beta，持久化工作區 + `apply_patch`/`ShellTool`）② Human-in-the-loop（`needs_approval` + `RunState` 續跑）③ Agents-as-tools（把 Agent 當工具呼叫）；Realtime 模型升至 `gpt-realtime-2.1`；模型層新增 `any-llm`（與 LiteLLM 並列）。
 
 ## 核心架構
 
@@ -135,6 +138,68 @@ async def math_homework_check(ctx, agent, input):
     )
 ```
 
+## 2026 年重大新增（v0.14 → v0.18）
+
+半年間，框架從「純多代理協作」擴張成涵蓋 coding agent 的完整 harness。README 現在把執行方式分成三種：**Sandbox Agent（長時任務）／Text Agent（一般）／Realtime Agent（語音）**。核心新增三塊：
+
+### Sandbox Agents（beta）— 容器化長時任務
+
+`SandboxAgent` 給模型一個**持久化工作區**：搜尋大量文件、編輯檔案、跑指令、產生產物、從存檔的 sandbox 狀態接續工作。你不用自己接檔案 staging、filesystem 工具、shell、sandbox 生命週期與快照——維持原本的 `Agent` / `Runner` 流程，加上 `Manifest` + `Capabilities` + `SandboxRunConfig` 即可。這正面回應了舊筆記「無內建檔案操作工具」的批評。
+
+```python
+from agents import Runner
+from agents.run import RunConfig
+from agents.sandbox import Manifest, SandboxAgent, SandboxRunConfig
+from agents.sandbox.entries import GitRepo
+from agents.sandbox.sandboxes import UnixLocalSandboxClient
+
+agent = SandboxAgent(
+    name="Workspace Assistant",
+    instructions="Inspect the sandbox workspace before answering.",
+    default_manifest=Manifest(entries={"repo": GitRepo(repo="openai/openai-agents-python", ref="main")}),
+)
+result = Runner.run_sync(
+    agent, "Inspect the repo README and summarize what this project does.",
+    run_config=RunConfig(sandbox=SandboxRunConfig(client=UnixLocalSandboxClient())),
+)
+```
+
+| 元件 | 角色 |
+|------|------|
+| `Manifest` | 定義工作區內容：`GitRepo`（clone repo）、`LocalDir`（掛載本地目錄） |
+| `Capabilities` | 開啟 sandbox 原生工具；含 `Skills` + lazy skill source，可把 Claude Skills 風格的技能**按需複製**進 sandbox |
+| `SandboxRunConfig` | 決定工作跑在哪：`UnixLocalSandboxClient`（本地）或 `openai-agents[docker]`（Docker） |
+| `apply_patch` / `ShellTool` | 模型在 sandbox 內編輯檔案、執行指令的內建工具 |
+
+> 官方範例用 `gpt-5.6-sol`（coding 導向模型）。功能仍是 **beta**，API、預設值與支援能力在正式版前會變。
+
+### Human-in-the-loop（HITL）— 敏感工具需人工核准
+
+工具用 `needs_approval=True`（或 async 判斷函式）宣告需審核。執行到該工具時**暫停**，`RunResult.interruptions` 冒出 `ToolApprovalItem`；把結果轉成 `RunState`（`result.to_state()`），呼叫 `state.approve()` / `state.reject()`，再 `Runner.run(agent, state)` 從斷點續跑。
+
+```python
+from agents import Agent, function_tool
+
+@function_tool(needs_approval=True)          # 也可傳 async 函式做逐次判斷
+async def cancel_order(order_id: int) -> str:
+    return f"Cancelled order {order_id}"
+```
+
+- **適用範圍廣**：`function_tool`、`Agent.as_tool`、`ShellTool`、`ApplyPatchTool` 皆支援 `needs_approval`；本地 MCP server 用 `require_approval`，Hosted MCP 用 `tool_config={"require_approval": "always"}`
+- **核准是跨整個 run 的**：handoff 之後的 agent、巢狀 `Agent.as_tool()` 內部工具冒出的核准，都在**最外層 run** 的 `RunState` 上核准並續跑
+- **黏著決定**：`always_approve=True` / `always_reject=True` 存進 run state，可隨 `to_json`/`from_json` 序列化，跨程序恢復同一個暫停的 run
+
+### Agents as tools — 把 Agent 當工具呼叫
+
+除了 Handoff（把對話**整個交出去**、不回頭），現在能用 `Agent.as_tool()` 把一個 Agent 包成工具，由主 Agent 呼叫、**取回結果後繼續**自己的流程。
+
+| 委派方式 | 語意 | 適合 |
+|---------|------|------|
+| **Handoff** | 換人接手，控制權轉移 | 客服轉接、分流到專責 Agent |
+| **Agent-as-tool** | 外包一段子任務再收回結果 | 翻譯／檢索／子分析等可組合的能力 |
+
+這補上了 Handoff「線性委派、交出去就不回來」的限制——也讓舊筆記提到的「多 Agent 辯論」這類需要收束結果的模式更容易實作。
+
 ## Runner（執行引擎）
 
 | 方法 | 類型 | 回傳 | 適用場景 |
@@ -197,7 +262,7 @@ result = await Runner.run(agent, input, run_config=config)
 
 ### Realtime Agents（即時語音）
 
-使用 `gpt-realtime-1.5` 模型建構語音 Agent，支援中斷偵測和完整 Agent 功能。
+使用 `gpt-realtime-2.1` 模型建構語音 Agent（透過 `RealtimeAgent` + `RealtimeRunner`，走 WebSocket），支援中斷偵測和完整 Agent 功能。
 
 ## 最小範例
 
@@ -237,9 +302,9 @@ print(result.final_output)
 ## 目前限制 / 注意事項
 
 - **Python-first 設計**：TypeScript 版本功能可能落後 Python 版
-- **無內建檔案操作工具**：不像 Claude Agent SDK 內建 Read/Write/Edit/Bash，需自行實作或使用 MCP
+- **檔案操作改善但仍 beta**：v0.18 起 Sandbox Agents 補上 `apply_patch`/`ShellTool` 與持久化工作區，回應了原本「無內建檔案工具」的缺口，但整套 sandbox 仍是 beta，API 與預設值會變
 - **Hosted Tools 僅限 OpenAI**：web search、file search、code interpreter 跑在 OpenAI 基礎設施上，無法自託管
-- **模型提供者鎖定風險**：雖聲稱支援 100+ LLM（透過 LiteLLM），但核心功能針對 OpenAI 模型優化
+- **模型提供者鎖定風險**：雖聲稱支援 100+ LLM（透過 `any-llm` / LiteLLM），但核心功能針對 OpenAI 模型優化；Sandbox/Realtime 更明顯綁定 OpenAI 最新模型（`gpt-5.6-sol`、`gpt-realtime-2.1`）
 - **Guardrails 可能消耗額外 token**：parallel 模式下 Agent 可能在 Guardrail 觸發前已執行部分工作
 
 ## 研究價值與啟示
@@ -252,13 +317,17 @@ print(result.final_output)
 
 3. **Swarm → Agents SDK 的演進路徑有參考價值**——從實驗性的 multi-agent 探索框架，演進為生產級 SDK，保留了核心理念（agents, handoffs）並加入企業級功能（guardrails, tracing, sessions）。這種「先驗證概念、再產品化」的路線值得關注。
 
-4. **「空工具箱」是刻意的設計選擇**——與 Claude Agent SDK 的「出廠 8 工具」相比，OpenAI 選擇不預設任何工具。好處是更通用（不綁定檔案系統操作），壞處是建構 coding agent 需要更多前置工作。兩種策略反映了產品定位差異：Claude = coding agent 框架，OpenAI = 通用 agent 框架。
+4. **「空工具箱」的設計選擇正在收斂**——舊筆記時 OpenAI 刻意不預設任何工具（通用但難做 coding agent），與 Claude Agent SDK 的「出廠內建工具」形成對比。但 v0.18 的 Sandbox Agents 直接補上 `apply_patch`/`ShellTool` + 持久化工作區，等於把 coding-agent harness 收進框架。兩家的產品定位正在互相靠攏：OpenAI 從「通用框架」往下補 coding，Claude 從「coding 框架」往上補通用編排。
 
 5. **Tracing 整合微調的閉環設計**——追蹤資料不只用於除錯，還能直接匯出為微調訓練資料。這形成了「部署 → 觀察 → 微調 → 改善」的閉環，是其他框架較少強調的功能。
 
+6. **HITL 把「核准」做成 run 層級的一等公民**——多數框架的人工核准是綁在單一工具或單一 agent 上；OpenAI 讓核准跨越 handoff 與巢狀 `Agent.as_tool()`，全部在最外層 `RunState` 上處理，且能序列化後跨程序續跑。對「暫停等人審 → 幾小時後恢復」的非同步審批流（如金融、退款、寄信）特別關鍵——這也是與 Sandbox（長時任務）搭配的必要安全閥。
+
+7. **Sandbox 的 Skills 機制呼應了 Claude Skills**——`Capabilities` 可掛 lazy skill source，把技能按需複製進 sandbox。這與 Anthropic 的 Agent Skills 是同一個方向：用「可插拔的技能包」擴充 agent，而非把所有能力寫死在 prompt/工具裡。
+
 ### 與其他專案的關聯
 
-- **vs [Claude Agent SDK](claude-agent-sdk.md)**：最直接的競品比較。Claude = 內建工具 + Hooks 生命週期控制；OpenAI = Handoffs + Guardrails 多代理協作。選擇取決於是 coding agent（Claude）還是通用多代理（OpenAI）
+- **vs [Claude Agent SDK](claude-agent-sdk.md)**：最直接的競品比較。原本分野是 Claude = 內建工具 + Hooks 生命週期控制、OpenAI = Handoffs + Guardrails 多代理協作；但 v0.18 的 Sandbox Agents（`apply_patch`/shell + Skills）讓 OpenAI 也踏進 coding-agent 地盤，兩者能力持續收斂，選型差異縮小到生態與模型偏好
 - **vs [CrewAI](crewai.md)**：CrewAI 也是多代理框架，但用 Role/Goal/Backstory 定義 Agent，更偏向「團隊模擬」。OpenAI Agents SDK 更輕量、更貼近 API
 - **vs [LangGraph](langgraph-multi-agent.md)**：LangGraph 用圖結構定義工作流，適合複雜的狀態機。OpenAI Agents SDK 的 Handoffs 更簡單但也更受限——適合線性委派，不適合複雜分支
 - **vs [TradingAgents](tradingagents.md)**：TradingAgents 的多 Agent 辯論模式可以用 Handoffs 實現，但需要額外抽象層
