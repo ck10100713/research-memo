@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-07-20 | AI 創作資源 | [video-autopilot-kit](video-autopilot-kit.md) |
 | 2026-07-17 | AI Agent 框架 | [OpenAI Agents SDK](openai-agents-sdk.md) |
 | 2026-07-08 | Coding Agent 工具 | [AI 使用量儀表板（danleetw/ai_usage_dashboard）](ai-usage-dashboard.md) |
 | 2026-07-08 | Coding Agent 工具 | [Advisor Tool（顧問工具）](advisor-tool.md) |
@@ -218,6 +219,8 @@
 
 #### 07 月
 
+- `2026-07-20` [video-autopilot-kit](video-autopilot-kit.md)  
+  填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
 - `2026-07-17` [OpenAI Agents SDK](openai-agents-sdk.md)  
   OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop
 - `2026-07-08` [AI 使用量儀表板（danleetw/ai_usage_dashboard）](ai-usage-dashboard.md)  
@@ -670,7 +673,7 @@
 
 ### AI 創作資源
 
-[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)
+[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)、[video-autopilot-kit](video-autopilot-kit.md)
 
 ### AI 應用
 

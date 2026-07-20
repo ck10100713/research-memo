@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">203</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">204</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-17</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-20</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -48,7 +48,7 @@
 
     ---
 
-    4 篇筆記
+    5 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-creative.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-movie-open-play-outline:{{ .lg .middle }} **video-autopilot-kit**
+
+    ---
+
+    `2026-07-20` 填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
+
+    [:octicons-arrow-right-24: 閱讀筆記](video-autopilot-kit.md)
 
 -   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
 
@@ -245,14 +253,6 @@
     `2026-06-05` 經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
 
     [:octicons-arrow-right-24: 閱讀筆記](highscalability.md)
-
--   :material-microsoft-windows:{{ .lg .middle }} **Microsoft PowerToys**
-
-    ---
-
-    `2026-06-05` 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿
-
-    [:octicons-arrow-right-24: 閱讀筆記](powertoys.md)
 
 </div>
 
