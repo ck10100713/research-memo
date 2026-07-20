@@ -138,6 +138,7 @@ nav:
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
       - cc-statusline: cc-statusline.md
+      - cc-to-grok-bridge: cc-to-grok-bridge.md
       - Casper Claude Skill Design Gallery: casper-claude-skill-design-gallery.md
       - mattpocock skills: mattpocock-skills.md
       - usage (aqua5230 menu bar tracker): aqua-usage-menubar.md

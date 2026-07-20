@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">204</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">205</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-20</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -24,7 +24,7 @@
 
     ---
 
-    69 篇筆記
+    70 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -125,6 +125,14 @@
     `2026-07-20` 填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
 
     [:octicons-arrow-right-24: 閱讀筆記](video-autopilot-kit.md)
+
+-   :material-bridge:{{ .lg .middle }} **cc-to-grok-bridge**
+
+    ---
+
+    `2026-07-20` 把 Claude Code 的 rules/skills/hooks/memory 搬到 Grok Build — 靠 thin adapter 讓 CC 資安 hook 在 Grok 上真正 hard-block
+
+    [:octicons-arrow-right-24: 閱讀筆記](cc-to-grok-bridge.md)
 
 -   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
 
@@ -245,14 +253,6 @@
     `2026-06-05` GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片
 
     [:octicons-arrow-right-24: 閱讀筆記](system-design-primer.md)
-
--   :material-server-network:{{ .lg .middle }} **HighScalability.com**
-
-    ---
-
-    `2026-06-05` 經營 17 年的大規模系統架構案例庫，2024 年由 ByteByteGo 收購接手
-
-    [:octicons-arrow-right-24: 閱讀筆記](highscalability.md)
 
 </div>
 
