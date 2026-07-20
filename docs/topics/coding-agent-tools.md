@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 70 篇研究筆記。
+本分類收錄 71 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-20 | [cc-to-antigravity-cli-bridge](../cc-to-antigravity-cli-bridge.md) | 從 Claude Code 驅動 Google Antigravity CLI (agy) — 靠 Gemini 抗反爬搜尋做雙軌查證 + 共享 system prompt |
 | 2026-07-20 | [cc-to-grok-bridge](../cc-to-grok-bridge.md) | 把 Claude Code 的 rules/skills/hooks/memory 搬到 Grok Build — 靠 thin adapter 讓 CC 資安 hook 在 Grok 上真正 hard-block |
 | 2026-07-08 | [Advisor Tool（顧問工具）](../advisor-tool.md) | executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具 |
 | 2026-07-08 | [AI 使用量儀表板（danleetw/ai_usage_dashboard）](../ai-usage-dashboard.md) | 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴 |
