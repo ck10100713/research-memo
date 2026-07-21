@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">206</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">207</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-20</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-21</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -80,7 +80,7 @@
 
     ---
 
-    13 篇筆記
+    14 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/dev-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-graph-outline:{{ .lg .middle }} **GraphRAG**
+
+    ---
+
+    `2026-07-21` 微軟研究院的 graph-based RAG — 用 LLM 把文件抽成知識圖譜 + 社群摘要，回答向量 RAG 答不了的『全局性』問題
+
+    [:octicons-arrow-right-24: 閱讀筆記](graphrag.md)
 
 -   :material-movie-open-play-outline:{{ .lg .middle }} **video-autopilot-kit**
 
@@ -245,14 +253,6 @@
     `2026-06-08` 把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
 
     [:octicons-arrow-right-24: 閱讀筆記](skill-book-to-skill.md)
-
--   :material-tune-variant:{{ .lg .middle }} **SkillOpt**
-
-    ---
-
-    `2026-06-05` Microsoft「文字空間優化器」：像訓練神經網路（epoch/batch/learning rate/validation gate）一樣訓練凍結 LLM agent 的自然語言技能，不動權重、產出可部署的 best_skill.md；52/52 評測格全勝，GPT-5.5 對 no-skill baseline +23.5 分，v0.1.0 已上 PyPI，arXiv:2605.23904
-
-    [:octicons-arrow-right-24: 閱讀筆記](skillopt.md)
 
 </div>
 

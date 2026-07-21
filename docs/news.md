@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-07-21 | 開發工具 | [GraphRAG](graphrag.md) |
 | 2026-07-20 | AI 創作資源 | [video-autopilot-kit](video-autopilot-kit.md) |
 | 2026-07-20 | Coding Agent 工具 | [cc-to-antigravity-cli-bridge](cc-to-antigravity-cli-bridge.md) |
 | 2026-07-20 | Coding Agent 工具 | [cc-to-grok-bridge](cc-to-grok-bridge.md) |
@@ -221,6 +222,8 @@
 
 #### 07 月
 
+- `2026-07-21` [GraphRAG](graphrag.md)  
+  微軟研究院的 graph-based RAG — 用 LLM 把文件抽成知識圖譜 + 社群摘要，回答向量 RAG 答不了的『全局性』問題
 - `2026-07-20` [video-autopilot-kit](video-autopilot-kit.md)  
   填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
 - `2026-07-20` [cc-to-antigravity-cli-bridge](cc-to-antigravity-cli-bridge.md)  
@@ -695,7 +698,7 @@
 
 ### 開發工具
 
-[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LINE Rich Menus Manager](line-richmenus-manager.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[Microsoft PowerToys](powertoys.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
+[MCP Toolbox for Databases](mcp-toolbox.md)、[Mole](mole.md)、[Optuna — Python 超參數優化天花板，正邁向 Prompt Optimization 時代](optuna.md)、[CLI-Anything](cli-anything.md)、[LINE Rich Menus Manager](line-richmenus-manager.md)、[LiteLLM](litellm.md)、[Pretext](pretext.md)、[Microsoft PowerToys](powertoys.md)、[GraphRAG](graphrag.md)、[RAG-Anything](rag-anything.md)、[Scrapling](scrapling.md)、[TestPilot.AI](testpilot-ai.md)、[VirtEngine](virtengine.md)、[WebToApp](web-to-app.md)
 
 ### Agent Skills
 

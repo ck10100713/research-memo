@@ -274,6 +274,7 @@ nav:
       - LiteLLM: litellm.md
       - Pretext: pretext.md
       - PowerToys: powertoys.md
+      - GraphRAG: graphrag.md
       - RAG-Anything: rag-anything.md
       - Scrapling: scrapling.md
       - TestPilot.AI: testpilot-ai.md

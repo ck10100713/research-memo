@@ -1,9 +1,10 @@
 # 開發工具
 
-本分類收錄 13 篇研究筆記。
+本分類收錄 14 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-21 | [GraphRAG](../graphrag.md) | 微軟研究院的 graph-based RAG — 用 LLM 把文件抽成知識圖譜 + 社群摘要，回答向量 RAG 答不了的『全局性』問題 |
 | 2026-06-12 | [LINE Rich Menus Manager](../line-richmenus-manager.md) | 用滑鼠拖拉就能建/管 LINE Rich Menu 的本機 GUI 工具（Angular + Express，npm 一鍵啟動） |
 | 2026-06-05 | [Microsoft PowerToys](../powertoys.md) | 微軟官方開源的 Windows 強化工具集：30+ 個生產力小工具，從 FancyZones 到 AI 剪貼簿 |
 | 2026-05-20 | [LiteLLM](../litellm.md) | BerriAI 開源 AI Gateway，把 100+ LLM provider 統一成 OpenAI 格式 + virtual keys + cost tracking + guardrails，YC W23，被 Stripe/Netflix/OpenAI Agents SDK 採用，47k stars |
