@@ -138,6 +138,25 @@ async def math_homework_check(ctx, agent, input):
     )
 ```
 
+## Agent 完整設定面（進階旋鈕）
+
+除了三原語，`Agent` 還有一批生產級設定（[agents.md](https://github.com/openai/openai-agents-python/blob/main/docs/agents.md)）：
+
+| 面向 | 重點 |
+|------|------|
+| **`context`（泛型 `Agent[T]`）** | 依賴注入的「雜物袋」，傳給每個 agent/tool/handoff——是**你程式碼的狀態，不進 LLM、不佔 token**（別跟對話歷史混淆） |
+| **`output_type`** | 設了就是叫模型用 structured outputs（Pydantic/dataclass/TypedDict…）取代純文字 |
+| **動態 `instructions` / `prompt`** | 可傳函式 `(context, agent) -> str`（sync/async），做個人化而不用重建 agent |
+| **`clone()`** | 複製 agent 並覆寫任意屬性，快速造變體 |
+| **hooks 兩 scope** | `RunHooks`（整個 run 含 handoff）vs `AgentHooks`（綁單一 agent 實例）；log/預抓/記 usage |
+
+**工具控制兩組旋鈕**：
+
+- `ModelSettings.tool_choice`：`auto` / `required` / `none` / `"指定工具"`
+- `tool_use_behavior`：`"run_llm_again"`（預設，工具結果回灌模型）/ `"stop_on_first_tool"`（第一個工具輸出直接當最終回覆，省一次 LLM）/ `StopAtTools([...])` / 自訂 `ToolsToFinalOutputFunction`
+
+> ⚠️ **`reset_tool_choice`（預設 `True`）防無限迴圈**：強制了 `tool_choice` 後，工具結果回灌 → LLM 又被迫產生工具呼叫 → 無限循環；框架在每次工具呼叫後自動把 `tool_choice` 重設回 `auto` 拆雷。這也是 `stop_on_first_tool`（不回灌）的價值之一。
+
 ## 2026 年重大新增（v0.14 → v0.18）
 
 半年間，框架從「純多代理協作」擴張成涵蓋 coding agent 的完整 harness。README 現在把執行方式分成三種：**Sandbox Agent（長時任務）／Text Agent（一般）／Realtime Agent（語音）**。核心新增三塊：
