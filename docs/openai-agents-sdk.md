@@ -189,6 +189,18 @@ result = Runner.run_sync(
 
 > 官方範例用 `gpt-5.6-sol`（coding 導向模型）。功能仍是 **beta**，API、預設值與支援能力在正式版前會變。
 
+**Sandbox client 選擇（工作跑在哪）**：靈魂是「**同一個 `SandboxAgent` 定義不變，只換 `SandboxRunConfig` 的 client**」——agent「做什麼」與「在哪執行」徹底解耦。
+
+| 層級 | client | 安裝 |
+|------|--------|------|
+| 本地最快迭代 | `UnixLocalSandboxClient` | 無 |
+| 容器隔離 / 環境對齊 | `DockerSandboxClient` | `openai-agents[docker]` |
+| Hosted / 正式級 | E2B / Modal / Cloudflare / Vercel / Blaxel / Daytona / Runloop | 各自 `openai-agents[<name>]` |
+
+- 可 Unix 開發 → Docker 對齊 → hosted 上線，**agent 定義一路不動**；7 家 hosted 都是第一方支援（執行層不綁 OpenAI 自家 sandbox）
+- 遠端儲存（S3/R2/GCS/Azure/Box）用 mount 掛入；`read_only` 預設 `True`
+- ⚠️ **陷阱**：mount 是 ephemeral，**不會進 snapshot**——別以為存檔會把遠端儲存內容一起存下來（詳見官方 [sandbox/clients.md](https://github.com/openai/openai-agents-python/blob/main/docs/sandbox/clients.md)）
+
 ### Human-in-the-loop（HITL）— 敏感工具需人工核准
 
 工具用 `needs_approval=True`（或 async 判斷函式）宣告需審核。執行到該工具時**暫停**，`RunResult.interruptions` 冒出 `ToolApprovalItem`；把結果轉成 `RunState`（`result.to_state()`），呼叫 `state.approve()` / `state.reject()`，再 `Runner.run(agent, state)` 從斷點續跑。
