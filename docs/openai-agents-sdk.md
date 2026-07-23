@@ -209,6 +209,16 @@ result = Runner.run_sync(
 - **隔離按 `MemoryLayoutConfig`（`memories_dir`）不按 agent 名**：不同 layout 各自獨立 `MEMORY.md`，即使同 sandbox
 - 這套「`MEMORY.md` 索引 + 漸進揭露 + 生成/整併 + 遺忘」**與 Claude Code / 本站 memory 模式同源**——業界記憶設計正在收斂（詳見 [sandbox/memory.md](https://github.com/openai/openai-agents-python/blob/main/docs/sandbox/memory.md)）
 
+**概念與生命週期**（[sandbox/guide.md](https://github.com/openai/openai-agents-python/blob/main/docs/sandbox/guide.md)）：`SandboxAgent` 仍是 `Agent`，變的只是**執行邊界**，權責二分——外層 runtime 管 approvals/tracing/handoffs/resume，sandbox session 管指令執行/檔案變動/隔離。整套圍繞正交三軸：**做什麼**（`SandboxAgent`）／**在哪跑**（`SandboxRunConfig`+client）／**怎麼接續**（snapshot / session_state），所以能換 client、換 workspace、換續跑來源而**不動 agent 定義**。
+
+| 面向 | 重點 |
+|------|------|
+| **生命週期** | **SDK-owned**（只傳 `client=`，runner 建→跑→存→關）vs **Developer-owned**（自己 `client.create()` + `session=`，`async with`，跨多 run 重用）；`stop()` 只存 snapshot 不拆、`aclose()` 才完整清理 |
+| **turn 語意** | turn ≠ sandbox 操作（一個 turn 是一次模型步，非一條指令）；`Agent.as_tool()` 的巢狀 run **不加**外層 turn 計數，handoff 則是同一 run 換 active agent |
+| **縱深防禦** | workspace 相對路徑（禁絕對/`..`）、`extra_path_grants` 屬受信設定**不可來自模型輸出**、`Permissions`+`User`+`run_as` 做最小權限、`archive_limits` 防解壓炸彈 |
+
+> 洞見：OpenAI 等於在 SDK 內重建了一套迷你「容器 OS」（users/權限/檔案系統/snapshot/生命週期）——給模型 shell 很危險，所以配了完整縱深防禦，比「丟個 Docker 給模型」謹慎得多。
+
 ### Human-in-the-loop（HITL）— 敏感工具需人工核准
 
 工具用 `needs_approval=True`（或 async 判斷函式）宣告需審核。執行到該工具時**暫停**，`RunResult.interruptions` 冒出 `ToolApprovalItem`；把結果轉成 `RunState`（`result.to_state()`），呼叫 `state.approve()` / `state.reject()`，再 `Runner.run(agent, state)` 從斷點續跑。
