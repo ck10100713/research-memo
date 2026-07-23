@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">207</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">209</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-21</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-23</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    71 篇筆記
+    73 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,22 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-hammer-wrench:{{ .lg .middle }} **建構型 Agent SDK Skills 對照**
+
+    ---
+
+    `2026-07-23` 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況
+
+    [:octicons-arrow-right-24: 閱讀筆記](agent-sdk-builder-skills.md)
+
+-   :material-microsoft:{{ .lg .middle }} **microsoft/skills**
+
+    ---
+
+    `2026-07-23` 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill
+
+    [:octicons-arrow-right-24: 閱讀筆記](microsoft-skills.md)
 
 -   :material-graph-outline:{{ .lg .middle }} **GraphRAG**
 
@@ -237,22 +253,6 @@
     `2026-06-11` 為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴
 
     [:octicons-arrow-right-24: 閱讀筆記](soplint.md)
-
--   :material-bullhorn-outline:{{ .lg .middle }} **social-post**
-
-    ---
-
-    `2026-06-11` 駱君昊（Hao）的 Claude Code skill：學使用者 FB 語氣 → 排 14 天內容日曆 → 透過 Claude in Chrome MCP 自動發到 FB/IG/Threads/X；內建「發佈前必打『確認』」硬安全閘，首發即 72K 觸及的實證 viral 框架（v1.0.1：R1-R35 規則 + F1-F27 公式 + 4 種 Mode）
-
-    [:octicons-arrow-right-24: 閱讀筆記](skill-social-post.md)
-
--   :material-book-arrow-right-outline:{{ .lg .middle }} **book-to-skill（書轉 Skill 產生器）**
-
-    ---
-
-    `2026-06-08` 把任何技術書/文件（PDF、EPUB、DOCX…）轉成結構化 Claude Code skill，隨用隨查
-
-    [:octicons-arrow-right-24: 閱讀筆記](skill-book-to-skill.md)
 
 </div>
 

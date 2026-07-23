@@ -1,9 +1,11 @@
 # Coding Agent 工具
 
-本分類收錄 71 篇研究筆記。
+本分類收錄 73 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-23 | [microsoft/skills](../microsoft-skills.md) | 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill |
+| 2026-07-23 | [建構型 Agent SDK Skills 對照](../agent-sdk-builder-skills.md) | 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況 |
 | 2026-07-20 | [cc-to-antigravity-cli-bridge](../cc-to-antigravity-cli-bridge.md) | 從 Claude Code 驅動 Google Antigravity CLI (agy) — 靠 Gemini 抗反爬搜尋做雙軌查證 + 共享 system prompt |
 | 2026-07-20 | [cc-to-grok-bridge](../cc-to-grok-bridge.md) | 把 Claude Code 的 rules/skills/hooks/memory 搬到 Grok Build — 靠 thin adapter 讓 CC 資安 hook 在 Grok 上真正 hard-block |
 | 2026-07-08 | [Advisor Tool（顧問工具）](../advisor-tool.md) | executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具 |

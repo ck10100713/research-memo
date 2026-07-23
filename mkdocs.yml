@@ -140,6 +140,8 @@ nav:
       - cc-statusline: cc-statusline.md
       - cc-to-antigravity-cli-bridge: cc-to-antigravity-cli-bridge.md
       - cc-to-grok-bridge: cc-to-grok-bridge.md
+      - microsoft/skills（官方 Skill 庫）: microsoft-skills.md
+      - 建構型 Agent SDK Skills 對照: agent-sdk-builder-skills.md
       - Casper Claude Skill Design Gallery: casper-claude-skill-design-gallery.md
       - mattpocock skills: mattpocock-skills.md
       - usage (aqua5230 menu bar tracker): aqua-usage-menubar.md
