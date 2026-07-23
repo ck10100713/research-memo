@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">209</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">210</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-23</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -24,7 +24,7 @@
 
     ---
 
-    73 篇筆記
+    74 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-toolbox:{{ .lg .middle }} **jezweb/claude-skills**
+
+    ---
+
+    `2026-07-23` Jezweb 的 63-skill / 10-plugin 生產型 skill 市集——核心價值在兩份把官方規範編輯化的 authoring 準則（SKILL_SHAPE.md / CLAUDE.md）
+
+    [:octicons-arrow-right-24: 閱讀筆記](jezweb-claude-skills.md)
 
 -   :material-hammer-wrench:{{ .lg .middle }} **建構型 Agent SDK Skills 對照**
 
@@ -245,14 +253,6 @@
     `2026-06-11` 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-avatar-bot.md)
-
--   :material-shield-check-outline:{{ .lg .middle }} **soplint**
-
-    ---
-
-    `2026-06-11` 為 AI agent 的「紀律」而非「程式碼」設計的 linter：用外部 belief-revision 稽核日誌、每日 CI discipline checks、PreToolUse AST gate 三機制，檢查 agent 是否真的遵守了你跟它定下的工作協議——把一年真實事故沉澱成可每日跑的回歸測試，PowerShell 零依賴
-
-    [:octicons-arrow-right-24: 閱讀筆記](soplint.md)
 
 </div>
 

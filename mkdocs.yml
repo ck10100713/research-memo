@@ -155,6 +155,7 @@ nav:
       - Claude Skills Guide: claude-skills-guide.md
       - KC AI Skills: kc-ai-skills.md
       - Knowledge Work Plugins: knowledge-work-plugins.md
+      - jezweb/claude-skills（生產型 skill 市集）: jezweb-claude-skills.md
       - khazix-skills: khazix-skills.md
       - Lightpanda Browser: lightpanda-browser.md
       - GitHub Copilot CLI: copilot-cli.md
