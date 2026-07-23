@@ -244,13 +244,20 @@ result = await Runner.run(agent, input, run_config=config)
 | MCP Tools | 透過 Model Context Protocol 連接外部系統 |
 | Hosted Tools | OpenAI 託管（web search、file search、code interpreter） |
 
-### Sessions（會話管理）
+### Sessions / 記憶策略（會話管理）
 
-自動管理跨 Agent 執行的對話歷史，支援三種策略：
+跨輪維持對話狀態有**四種策略**，差別在**狀態存哪、綁不綁 OpenAI、手動還是自動**：
 
-1. **手動**：`result.to_input_list()` 取得歷史
-2. **Session 持久化**：使用 Redis 等後端自動保存
-3. **伺服器端**：透過 `conversation_id` 或 `previous_response_id`
+| 策略 | 狀態存哪 | 適合場景 | 綁 OpenAI？ |
+|------|---------|---------|:---:|
+| `result.to_input_list()` | 你的 app 記憶體 | 小對話、要完全手控、任何 provider | ❌ 通用 |
+| `session`（如 `SQLiteSession`） | 儲存後端 + SDK 管理 | 需持久化、可續跑、自訂 store（SQLite/Redis/SQLAlchemy） | ❌ 通用 |
+| `conversation_id` | OpenAI Conversations API | 具名伺服器對話、跨服務共享 | ✅ 只限 OpenAI |
+| `previous_response_id` | OpenAI Responses API | 輕量接續、不建對話資源 | ✅ 只限 OpenAI |
+
+> ⚠️ 同一次 run，**session 持久化不能與 server 端對話設定（conversation_id / previous_response_id）混用**——歷史只能有一個真相來源。
+
+**真正的分水嶺是 provider lock-in**：`to_input_list()`/`session` 把歷史留在你這邊 → 換模型不受影響；`conversation_id`/`previous_response_id` 託管在 OpenAI 伺服器 → 省事但綁死 OpenAI。且「自動」（session）省掉手動接歷史，代價是放棄「這輪送多少 token」的直接控制——延遲/成本敏感時 `to_input_list()` 的囉唆反而是特點。
 
 ### Tracing（追蹤系統）
 
