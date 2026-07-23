@@ -326,11 +326,23 @@ result = await Runner.run(agent, input, run_config=config)
 
 ### Tools（工具系統）
 
-| 類型 | 說明 |
-|------|------|
-| Function Tools | 任何 Python function + 自動 schema 生成 |
-| MCP Tools | 透過 Model Context Protocol 連接外部系統 |
-| Hosted Tools | OpenAI 託管（web search、file search、code interpreter） |
+工具分**五類，差別在「執行發生在哪」**（[tools.md](https://github.com/openai/openai-agents-python/blob/main/docs/tools.md)）：
+
+| 類別 | 在哪執行 | 內容 |
+|------|---------|------|
+| **Hosted OpenAI tools** | OpenAI 伺服器 | `WebSearchTool`、`FileSearchTool`、`CodeInterpreterTool`、`HostedMCPTool`、`ImageGenerationTool`、`ToolSearchTool`（僅 Responses model） |
+| **Local/runtime tools** | 你的環境 | `ComputerTool`、`ApplyPatchTool`（你自己實作）；`ShellTool`（本地或 hosted 容器） |
+| **Function tools** | 你的程式 | `@function_tool` 包任何 Python 函式，自動由簽章+docstring 生 schema |
+| **Agents as tools** | 巢狀 run | `Agent.as_tool()`，呼叫子 agent 不 handoff |
+| **Codex tool**（experimental） | Codex CLI | 把工作區任務委派給 Codex |
+
+**Function tool 進階**：Pydantic `Field` 約束；逾時 `timeout=`（`error_as_result` 回訊息讓模型自救 vs `raise_exception` 讓 run 失敗）；錯誤處理 `failure_error_function`（傳 `None` = 例外原樣拋出）；可回傳圖片/檔案。
+
+**Hosted tool search（工具多時省 token）**：工具太多會爆 schema token、稀釋注意力。`@function_tool(defer_loading=True)` 先隱藏，配**恰好一個** `ToolSearchTool()`，模型按需載入當前 turn 需要的那撮；優先用 `tool_namespace()` 分組（**每組建議 < 10**），可混立即/延遲工具。（與 [microsoft/skills](microsoft-skills.md) 的「選擇性使用避免 context rot」同一洞見，只是在 tool schema 層挑。）
+
+**條件啟用 `is_enabled`**（`bool` / `(context, agent)->bool` / async）：被停用的工具**對 LLM 完全隱藏**——用於權限 gating、dev/prod、A/B。硬性移除比在 prompt 裡叮嚀「別用 X」可靠。
+
+**Agents-as-tools 客製**：`max_turns` / `run_config` / `hooks` / `needs_approval`；結構化輸入 `parameters`；`custom_output_extractor`（回傳前改寫子 agent 輸出）；`on_stream`（串流巢狀事件）。⚠️ **巢狀 run 不繼承父層對話狀態**，要共享得明確傳同一個 `session`（呼應「歷史只能有一個真相來源」）。
 
 ### Sessions / 記憶策略（會話管理）
 
