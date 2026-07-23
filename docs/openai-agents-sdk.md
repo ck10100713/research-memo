@@ -201,6 +201,14 @@ result = Runner.run_sync(
 - 遠端儲存（S3/R2/GCS/Azure/Box）用 mount 掛入；`read_only` 預設 `True`
 - ⚠️ **陷阱**：mount 是 ephemeral，**不會進 snapshot**——別以為存檔會把遠端儲存內容一起存下來（詳見官方 [sandbox/clients.md](https://github.com/openai/openai-agents-python/blob/main/docs/sandbox/clients.md)）
 
+**Agent memory（跨 run 學習）**：與 `Session`（存訊息歷史）不同，Agent memory 把**過去 run 的「教訓」提煉成檔案**存進 sandbox，讓未來的 run 少走冤枉路、記住使用者偏好、免重打背景。加 `Memory()` capability 啟用（讀需 `Shell()`、live update 需 `Filesystem()`）。
+
+- **讀取用 progressive disclosure**：run 開始注入小摘要 `memory_summary.md`，agent 判斷相關才搜 `MEMORY.md` 索引、需要細節才展開 `rollout_summaries/`
+- **生成兩階段**：Phase 1 對話萃取 → Phase 2 整併進 `MEMORY.md`；內建**遺忘機制**（raw memories 超上限〔預設 256〕就汰舊留新，反映最新環境）
+- **讀寫可分離**：`Memory(generate=None)` 只讀（checker/subagent）、`Memory(read=None)` 只寫（不想被舊記憶影響）
+- **隔離按 `MemoryLayoutConfig`（`memories_dir`）不按 agent 名**：不同 layout 各自獨立 `MEMORY.md`，即使同 sandbox
+- 這套「`MEMORY.md` 索引 + 漸進揭露 + 生成/整併 + 遺忘」**與 Claude Code / 本站 memory 模式同源**——業界記憶設計正在收斂（詳見 [sandbox/memory.md](https://github.com/openai/openai-agents-python/blob/main/docs/sandbox/memory.md)）
+
 ### Human-in-the-loop（HITL）— 敏感工具需人工核准
 
 工具用 `needs_approval=True`（或 async 判斷函式）宣告需審核。執行到該工具時**暫停**，`RunResult.interruptions` 冒出 `ToolApprovalItem`；把結果轉成 `RunState`（`result.to_state()`），呼叫 `state.approve()` / `state.reject()`，再 `Runner.run(agent, state)` 從斷點續跑。
