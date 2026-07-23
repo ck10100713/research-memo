@@ -171,6 +171,22 @@ result = Runner.run_sync(
 | `SandboxRunConfig` | 決定工作跑在哪：`UnixLocalSandboxClient`（本地）或 `openai-agents[docker]`（Docker） |
 | `apply_patch` / `ShellTool` | 模型在 sandbox 內編輯檔案、執行指令的內建工具 |
 
+**接下來會調的旋鈕**（Quickstart 的 "Key choices"）：
+
+| 旋鈕 | 作用 |
+|------|------|
+| `default_manifest` | 新 sandbox session 的初始檔案 / repo / 掛載 |
+| `instructions` | 跨 prompt 的短工作流規則 |
+| `base_instructions` | 進階逃生口：**整個換掉 SDK 的 sandbox 系統提示** |
+| `capabilities` | sandbox 原生工具：檔案編輯 / 看圖、shell、`Skills`、memory、compaction |
+| `run_as` | 模型面向工具用的 **sandbox 使用者身分** |
+| `SandboxRunConfig.client` | sandbox 後端：Unix-local / Docker / hosted provider |
+| `.session` / `.session_state` / `.snapshot` | 後續 run **怎麼接回**先前的工作（續跑的關鍵） |
+
+- `Skills` 用 **lazy 載入**：技能放 host 目錄，模型要用到才複製進 sandbox（對抗 context rot，呼應 [microsoft/skills](microsoft-skills.md) 的「啟動脈絡」哲學）
+- **何時用**：只是偶爾跑個 shell → 用 hosted shell 就好；當「工作區隔離、選 sandbox 後端、session 續跑」本身是設計的一環 → 才上 Sandbox Agent
+- `base_instructions` 這個逃生口透露：這層 harness 高度 **prompt-driven**，可深度客製，但也意味預設行為會隨版本變
+
 > 官方範例用 `gpt-5.6-sol`（coding 導向模型）。功能仍是 **beta**，API、預設值與支援能力在正式版前會變。
 
 ### Human-in-the-loop（HITL）— 敏感工具需人工核准
