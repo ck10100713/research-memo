@@ -246,6 +246,29 @@ async def cancel_order(order_id: int) -> str:
 
 這補上了 Handoff「線性委派、交出去就不回來」的限制——也讓舊筆記提到的「多 Agent 辯論」這類需要收束結果的模式更容易實作。
 
+## Agent 編排（orchestration）
+
+多 Agent 怎麼協作，官方分成**兩條路、可混用**（[multi_agent.md](https://github.com/openai/openai-agents-python/blob/main/docs/multi_agent.md)）：
+
+| | LLM 驅動 | 程式碼驅動 |
+|---|---------|-----------|
+| 誰決定流程 | LLM 自己 plan/reason/decide | 你的程式碼 |
+| 特性 | 彈性、靠模型智慧、處理開放式任務 | 確定、可預測（速度/成本/效能） |
+| 適合 | 步驟事先講不清 | 流程明確、要穩定可重現 |
+
+**LLM 驅動的兩個 pattern**（決策分水嶺＝誰對使用者負責最終答案）：
+
+| Pattern | 運作 | 何時用 |
+|---------|------|--------|
+| **Agents as tools** | manager 保有控制權，`Agent.as_tool()` 呼叫專家 | 一個 agent 擁有最終答案、綜合多專家、統一 guardrails |
+| **Handoffs** | triage 路由給專家，專家成 active | 專家直接回應使用者、prompt 聚焦、換指令不用轉述 |
+
+戰術：投資 prompt、監控迭代、讓 agent 自省（迴圈+自我批評）、**用專精 agent 而非全能 agent**、投資 evals。
+
+**程式碼驅動的四個 pattern**：① 結構化輸出分類 → 程式選下一個 agent ② chaining（前輸出→後輸入）③ `while` 評估迴圈（執行者+評估者跑到達標）④ `asyncio.gather` 平行。範例見 [`examples/agent_patterns`](https://github.com/openai/openai-agents-python/tree/main/examples/agent_patterns)。
+
+> 洞見：真正的軸線是「決策權交給 LLM 還是留給程式碼」。成熟系統多為**混用**——程式碼框住骨架（分類/路由/驗收迴圈），只在需要開放式推理處放手給 LLM（與 [LangGraph](langgraph-multi-agent.md) 用圖固定流程同取向）。「專精勝過全能」與 skill 生態的切小切專原則一致。
+
 ## Runner（執行引擎）
 
 | 方法 | 類型 | 回傳 | 適用場景 |
