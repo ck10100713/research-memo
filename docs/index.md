@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">210</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">211</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-23</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-24</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -32,7 +32,7 @@
 
     ---
 
-    42 篇筆記
+    43 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/quant-trading.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-robot-happy:{{ .lg .middle }} **Vibe-Trading（HKUDS）**
+
+    ---
+
+    `2026-07-24` HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 88 skill / 462 alpha / 8 回測引擎，安全設計靠結構性 paper/live 護欄而非 config flag
+
+    [:octicons-arrow-right-24: 閱讀筆記](vibe-trading.md)
 
 -   :material-toolbox:{{ .lg .middle }} **jezweb/claude-skills**
 
@@ -245,14 +253,6 @@
     `2026-06-11` 本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星
 
     [:octicons-arrow-right-24: 閱讀筆記](open-design.md)
-
--   :material-account-voice:{{ .lg .middle }} **AI 虛擬人 Widget（ai-avatar-bot）**
-
-    ---
-
-    `2026-06-11` 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-avatar-bot.md)
 
 </div>
 

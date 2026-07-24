@@ -1,9 +1,10 @@
 # 量化交易
 
-本分類收錄 42 篇研究筆記。
+本分類收錄 43 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-24 | [Vibe-Trading（HKUDS）](../vibe-trading.md) | HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 88 skill / 462 alpha / 8 回測引擎，安全設計靠結構性 paper/live 護欄而非 config flag |
 | 2026-05-19 | [Daily Stock Analysis](../daily-stock-analysis.md) | ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」 |
 | 2026-05-19 | [QuantDinger](../quantdinger.md) | brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS |
 | 2026-05-15 | [Fincept Terminal](../fincept-terminal.md) | Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0 |
