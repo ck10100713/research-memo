@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 74 篇研究筆記。
+本分類收錄 75 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-26 | [Mission Control Center](../mission-control-center.md) | 遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops |
 | 2026-07-23 | [microsoft/skills](../microsoft-skills.md) | 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill |
 | 2026-07-23 | [建構型 Agent SDK Skills 對照](../agent-sdk-builder-skills.md) | 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況 |
 | 2026-07-23 | [jezweb/claude-skills](../jezweb-claude-skills.md) | Jezweb 的 63-skill / 10-plugin 生產型 skill 市集——核心價值在兩份把官方規範編輯化的 authoring 準則（SKILL_SHAPE.md / CLAUDE.md） |

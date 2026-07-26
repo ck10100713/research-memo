@@ -166,6 +166,7 @@ nav:
       - Agent Orchestrator: agent-orchestrator.md
       - MCP CLI: mcp-cli.md
       - MCPorter: mcporter.md
+      - Mission Control Center (OpenClaw 儀表板): mission-control-center.md
       - ML Intern: ml-intern.md
       - Multica: multica.md
       - my-claude-devteam: my-claude-devteam.md
