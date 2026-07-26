@@ -126,6 +126,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](mission-control-center.md)
 
+-   :material-palette-swatch:{{ .lg .middle }} **Awesome DESIGN.md — AI Agent 的設計系統資料庫**
+
+    ---
+
+    `2026-07-26` 73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列）
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-design-md.md)
+
 -   :material-robot-happy:{{ .lg .middle }} **Vibe-Trading（HKUDS）**
 
     ---
@@ -245,14 +253,6 @@
     `2026-06-12` 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
 
     [:octicons-arrow-right-24: 閱讀筆記](line-chatbot-boilerplate.md)
-
--   :material-view-grid-outline:{{ .lg .middle }} **LINE Rich Menus Manager**
-
-    ---
-
-    `2026-06-12` 用滑鼠拖拉就能建/管 LINE Rich Menu 的本機 GUI 工具（Angular + Express，npm 一鍵啟動）
-
-    [:octicons-arrow-right-24: 閱讀筆記](line-richmenus-manager.md)
 
 </div>
 

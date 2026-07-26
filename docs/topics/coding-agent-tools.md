@@ -4,6 +4,7 @@
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-26 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](../awesome-design-md.md) | 73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列） |
 | 2026-07-26 | [Mission Control Center](../mission-control-center.md) | 遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops |
 | 2026-07-23 | [microsoft/skills](../microsoft-skills.md) | 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill |
 | 2026-07-23 | [建構型 Agent SDK Skills 對照](../agent-sdk-builder-skills.md) | 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況 |
@@ -43,7 +44,6 @@
 | 2026-04-15 | [wshobson/agents](../wshobson-agents.md) | 77 個 Claude Code 插件 + 182 個 Agent + 149 個 Skill — 最大的開源 Claude Code 生態集合 |
 | 2026-04-14 | [OpenAB — Open Agent Broker](../openab.md) | Rust 開源 ACP Harness — 在 Discord 操控 Kiro/Claude/Codex/Gemini/Copilot Coding Agent |
 | 2026-04-13 | [Multica](../multica.md) | 開源 Managed Agents 平台，把 Coding Agent 當隊友管理 — 派工、追蹤、技能複用 |
-| 2026-04-10 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](../awesome-design-md.md) | 58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI |
 | 2026-04-10 | [KC AI Skills — 真的會做事的 AI Skill 合集](../kc-ai-skills.md) | 12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集 |
 | 2026-04-09 | [Context Hub — Coding Agent 的策展 API 文件中心](../context-hub.md) | Andrew Ng 開源 CLI — 讓 Coding Agent 取得最新 API 文件，不再幻覺 |
 | 2026-04-09 | [Slavingia Skills — 書本即 Skill 的先驅實驗](../slavingia-skills.md) | Sahil Lavingia 將《The Minimalist Entrepreneur》轉為 10 個 Claude Code Skills |

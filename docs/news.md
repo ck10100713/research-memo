@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-07-26 | Coding Agent 工具 | [Mission Control Center](mission-control-center.md) |
+| 2026-07-26 | Coding Agent 工具 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md) |
 | 2026-07-24 | 量化交易 | [Vibe-Trading（HKUDS）](vibe-trading.md) |
 | 2026-07-23 | Coding Agent 工具 | [jezweb/claude-skills](jezweb-claude-skills.md) |
 | 2026-07-23 | Coding Agent 工具 | [建構型 Agent SDK Skills 對照](agent-sdk-builder-skills.md) |
@@ -135,7 +136,6 @@
 | 2026-04-10 | AI 應用 | [Cabinet — AI-First 知識庫與新創作業系統](cabinet.md) |
 | 2026-04-10 | OSINT / 情報工具 | [pyWhat — 「這是什麼？」的萬用辨識器](pywhat.md) |
 | 2026-04-10 | Coding Agent 工具 | [KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md) |
-| 2026-04-10 | Coding Agent 工具 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md) |
 | 2026-04-10 | AI 應用 | [AppFlowy — 開源 AI 協作工作區](appflowy.md) |
 | 2026-04-09 | 學習資源 | [DeepTutor](deep-tutor.md) |
 | 2026-04-09 | Coding Agent 工具 | [Slavingia Skills — 書本即 Skill 的先驅實驗](slavingia-skills.md) |
@@ -229,6 +229,8 @@
 
 - `2026-07-26` [Mission Control Center](mission-control-center.md)  
   遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops
+- `2026-07-26` [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)  
+  73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列）
 - `2026-07-24` [Vibe-Trading（HKUDS）](vibe-trading.md)  
   HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 88 skill / 462 alpha / 8 回測引擎，安全設計靠結構性 paper/live 護欄而非 config flag
 - `2026-07-23` [jezweb/claude-skills](jezweb-claude-skills.md)  
@@ -490,8 +492,6 @@
   Python CLI — 自動辨識文字/檔案中的 email、IP、API key、加密貨幣錢包等 141 種模式
 - `2026-04-10` [KC AI Skills — 真的會做事的 AI Skill 合集](kc-ai-skills.md)  
   12 個實戰型 Claude Code Skills — 從 repo 安全掃描到反指標分析，解決真實問題的 skill 合集
-- `2026-04-10` [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)  
-  58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI
 - `2026-04-10` [AppFlowy — 開源 AI 協作工作區](appflowy.md)  
   開源 Notion 替代品 — Flutter + Rust 打造，支援本地 AI、自架部署、資料自主
 - `2026-04-09` [DeepTutor](deep-tutor.md)  

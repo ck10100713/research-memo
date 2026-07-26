@@ -1,8 +1,8 @@
 ---
-date: "2026-04-10"
+date: "2026-07-26"
 category: "Coding Agent 工具"
 card_icon: "material-palette-swatch"
-oneliner: "58+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI"
+oneliner: "73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列）"
 tags:
   - design
   - awesome-list
@@ -27,7 +27,9 @@ Awesome DESIGN.md 是由 VoltAgent 團隊維護的策展合集，收錄 58+ 個�
 
 `DESIGN.md` 的概念類似 `AGENTS.md`（告訴 Agent 怎麼建專案）和 `CLAUDE.md`（告訴 Agent 專案慣例），但專注於視覺設計：色彩、字型、元件樣式、佈局原則。Markdown 是 LLM 最擅長閱讀的格式，所以不需要 Figma 匯出、JSON design token 或特殊工具——就是一個 `.md` 檔案。
 
-上線 3 天內累積 4,385 stars，截至研究時已達 38,975 stars。
+上線 3 天內累積 4,385 stars，2026-04 首次研究時 38,975 stars，**本次更新（2026-07）已達 104,530 stars（GitHub 全球排名 #150）**、品牌數從 58+ 成長到 **73+**。爆紅速度是本站少見的量級。
+
+> **2026-07 更新重點**：① 新增整個 **Automotive 超跑分類**（BMW M、Bugatti、Ferrari、Lamborghini、Tesla…7 台）；② 新增 **「Retro Web · DESIGN.md 懷舊系列」**——擷取 1990 年代網頁風格（Dell 1996、Nintendo.com 2001），讓 Agent 產出「時代精準」的復古 UI；③ 每個站點現在附 `preview.html` + `preview-dark.html` 視覺型錄；④ 推出 **LaunchKit**（`launchkit.getdesign.md`）配套 build 工具與 **贊助商業化**（sponsor #awesome-design-md）。
 
 ## DESIGN.md 檔案結構
 
@@ -57,25 +59,30 @@ Awesome DESIGN.md 是由 VoltAgent 團隊維護的策展合集，收錄 58+ 個�
   三者互補，形成完整的 Agent 上下文
 ```
 
-## 收錄品牌一覽（58+）
+## 收錄品牌一覽（73+，2026-07 更新）
 
 | 分類 | 品牌 |
 |------|------|
-| **AI & ML** | Claude、Cohere、ElevenLabs、Minimax、Mistral AI、Ollama、OpenCode AI、Replicate、RunwayML、Together AI、VoltAgent、xAI |
-| **開發工具** | Cursor、Expo、Linear、Lovable、Mintlify、PostHog、Raycast、Resend、Sentry、Supabase、Superhuman、Vercel、Warp、Zapier |
-| **基礎設施** | ClickHouse、Composio、HashiCorp、MongoDB、Sanity、Stripe |
-| **設計 & 生產力** | Airtable、Cal.com、Clay、Figma、Framer、Intercom、Miro、Notion、Pinterest、Webflow |
-| **金融 & 加密** | Coinbase、Kraken、Revolut、Wise |
-| **企業 & 消費** | Airbnb、Apple、IBM、NVIDIA、SpaceX、Spotify、Uber |
-| **汽車品牌** | BMW、Ferrari、Lamborghini、Renault、Tesla |
+| **AI & LLM 平台** | Claude、Cohere、ElevenLabs、Minimax、Mistral AI、Ollama、OpenCode AI、Replicate、Runway、Together AI、VoltAgent、xAI |
+| **開發工具 & IDE** | Cursor、Expo、Lovable、Raycast、Superhuman、Vercel、Warp |
+| **後端 / DB / DevOps** | ClickHouse、Composio、HashiCorp、MongoDB、PostHog、Sanity、Sentry、Supabase |
+| **生產力 & SaaS** | Cal.com、Intercom、Linear、Mintlify、Notion、Resend、Zapier |
+| **設計 & 創意工具** | Airtable、Clay、Figma、Framer、Miro、Webflow |
+| **金融 & 加密** | Binance、Coinbase、Kraken、Mastercard、Revolut、Stripe、Wise |
+| **電商 & 零售** 🆕 | Airbnb、Meta、Nike、Shopify、Starbucks |
+| **媒體 & 消費電子** | Apple、HP、IBM、NVIDIA、Pinterest、PlayStation、SpaceX、Spotify、The Verge、Uber、Vodafone、WIRED |
+| **汽車** 🆕擴充 | BMW、BMW M、Bugatti、Ferrari、Lamborghini、Renault、Tesla |
+| **Retro Web 懷舊系列** 🆕 | Dell (1996)、Nintendo.com (2001) |
 
 每個品牌的 DESIGN.md 都包含一句風格描述，例如：
 
 - **Stripe** — Signature purple gradients, weight-300 elegance
-- **Linear** — Ultra-minimal, precise, purple accent
-- **Vercel** — Black and white precision, Geist font
-- **Airbnb** — Warm coral accent, photography-driven, rounded UI
 - **Ferrari** — Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness
+- **Nike** — Monochrome UI, massive uppercase Futura, full-bleed photography
+- **Starbucks** — Four-tier earth-green system, warm cream canvas, 自有 SoDoSans 字型
+- **Nintendo.com (2001)** — Y2K「console chrome」風：拉絲金屬面板、halftone 碳纖維導覽、pixel Mario 歡迎泡泡
+
+> 每個站點資料夾含三個檔案：`DESIGN.md`（Agent 讀的設計系統）、`preview.html`、`preview-dark.html`（色票/字階/元件的視覺型錄，明暗兩版）。
 
 ## 使用方式
 
@@ -123,7 +130,7 @@ curl -o DESIGN.md https://raw.githubusercontent.com/VoltAgent/awesome-design-md/
 
 ### 關鍵洞察
 
-1. **DESIGN.md 是 AI-native 設計系統的起點**：傳統 design system（Figma token、Style Dictionary JSON）是為人類和建置工具設計的。DESIGN.md 是第一個「為 LLM 設計的設計系統格式」——Markdown 是 LLM 最擅長的格式，不需要 parser、不需要 SDK。39K stars 證明了這個需求的真實性。
+1. **DESIGN.md 是 AI-native 設計系統的起點**：傳統 design system（Figma token、Style Dictionary JSON）是為人類和建置工具設計的。DESIGN.md 是第一個「為 LLM 設計的設計系統格式」——Markdown 是 LLM 最擅長的格式，不需要 parser、不需要 SDK。**四個月從 39K 衝到 104K stars（全球 #150）**，證明這個需求的真實性與爆發力。
 
 2. **Google Stitch 的標準化效應**：DESIGN.md 不是社群自發的格式，而是 Google Stitch 正式引入的標準。這代表「AI Agent 需要讀取設計規範」已經被大廠認可為正式需求，而非 hack。有了 Google 背書，DESIGN.md 可能成為 `package.json`、`tsconfig.json` 一樣的專案標配檔案。
 
@@ -132,6 +139,10 @@ curl -o DESIGN.md https://raw.githubusercontent.com/VoltAgent/awesome-design-md/
 4. **策展價值 > 格式價值**：DESIGN.md 格式本身很簡單（就是 Markdown），但 Awesome DESIGN.md 的價值在於：有人幫你從 Stripe、Vercel、Linear 等知名品牌的網站中提取了完整的設計規範。這份策展工作（分析色彩系統、拆解字型層級、歸納元件樣式）才是耗時的部分。
 
 5. **「Request a DESIGN.md」是聰明的社群增長策略**：使用者可以請求特定品牌的 DESIGN.md，甚至付費獲得「私人專屬」版本。這讓合集不斷成長，同時建立了商業化管道。
+
+6. **從「工具」長成「平台/生意」（2026-07 觀察）**：短短四個月，它從一個 awesome-list 演化出 **LaunchKit（配套 build 工具）+ 贊助商模式（#150 全球流量變現）+ Request 付費客製**——這是 open-source awesome-list 少見的完整商業閉環。策展合集的護城河不是格式（Markdown 誰都會寫），而是**「持續策展 + 流量 + 生態工具」的飛輪**，值得任何想靠 awesome-list 起家的專案參考（對照本站 [awesome-openclaw-skills](awesome-openclaw-skills.md)、[awesome-design-systems](awesome-design-systems.md)）。
+
+7. **「Retro Web 懷舊系列」點出 DESIGN.md 的隱藏維度——風格是時間的函數**：把 1996 Dell、2001 Nintendo 的網頁美學抽成 DESIGN.md，讓 Agent 產出「時代精準」的復古 UI。這證明 DESIGN.md 捕捉的不只是「某品牌」，而是**任何可辨識的視覺語言（含歷史時期、藝術流派）**——這條路可以無限延伸（Bauhaus.md、Y2K.md、Brutalism.md）。
 
 ### 與其他專案的關聯
 
