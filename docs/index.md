@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">213</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">214</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-27</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -16,7 +16,7 @@
 
     ---
 
-    24 篇筆記
+    25 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-frameworks.md)
 
@@ -125,6 +125,14 @@
     `2026-07-27` 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案
 
     [:octicons-arrow-right-24: 閱讀筆記](i-have-adhd.md)
+
+-   :material-toy-brick-outline:{{ .lg .middle }} **Bring Your Own Agent (BYOA Core)**
+
+    ---
+
+    `2026-07-27` 台灣單人開發者用 5.5 週、90 commits 從零重建一套 Claude Code 等級的 agent harness（兩階段 compact、subagent 防遞迴、skill 漸進式載入、tool result 分頁、多 provider gateway），全繁中、Gherkin 規格先行、附 13 個 SWE eval task 量化每次 prompt 改動——0 star 但是最好讀的 harness 解剖圖
+
+    [:octicons-arrow-right-24: 閱讀筆記](bring-your-own-agent.md)
 
 -   :material-view-dashboard-variant:{{ .lg .middle }} **Mission Control Center**
 
@@ -245,14 +253,6 @@
     `2026-07-06` Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署
 
     [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
-
--   :material-content-cut:{{ .lg .middle }} **Ponytail**
-
-    ---
-
-    `2026-06-17` 把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼
-
-    [:octicons-arrow-right-24: 閱讀筆記](ponytail.md)
 
 </div>
 

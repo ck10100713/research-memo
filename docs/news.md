@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-07-27 | Coding Agent 工具 | [i-have-adhd](i-have-adhd.md) |
+| 2026-07-27 | AI Agent 框架 | [Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md) |
 | 2026-07-26 | Coding Agent 工具 | [Mission Control Center](mission-control-center.md) |
 | 2026-07-26 | Coding Agent 工具 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md) |
 | 2026-07-24 | 量化交易 | [Vibe-Trading（HKUDS）](vibe-trading.md) |
@@ -230,6 +231,8 @@
 
 - `2026-07-27` [i-have-adhd](i-have-adhd.md)  
   6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案
+- `2026-07-27` [Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)  
+  台灣單人開發者用 5.5 週、90 commits 從零重建一套 Claude Code 等級的 agent harness（兩階段 compact、subagent 防遞迴、skill 漸進式載入、tool result 分頁、多 provider gateway），全繁中、Gherkin 規格先行、附 13 個 SWE eval task 量化每次 prompt 改動——0 star 但是最好讀的 harness 解剖圖
 - `2026-07-26` [Mission Control Center](mission-control-center.md)  
   遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops
 - `2026-07-26` [Awesome DESIGN.md — AI Agent 的設計系統資料庫](awesome-design-md.md)  
@@ -684,7 +687,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 

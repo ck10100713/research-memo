@@ -87,6 +87,7 @@ nav:
       - AgentBnB: agentbnb.md
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
+      - Bring Your Own Agent (BYOA Core): bring-your-own-agent.md
       - CrewAI: crewai.md
       - Google ADK: google-adk.md
       - OpenAI Agents SDK: openai-agents-sdk.md
