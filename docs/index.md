@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">212</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">213</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-26</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-27</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    75 篇筆記
+    76 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-format-list-numbered:{{ .lg .middle }} **i-have-adhd**
+
+    ---
+
+    `2026-07-27` 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案
+
+    [:octicons-arrow-right-24: 閱讀筆記](i-have-adhd.md)
 
 -   :material-view-dashboard-variant:{{ .lg .middle }} **Mission Control Center**
 
@@ -245,14 +253,6 @@
     `2026-06-17` 把『最懶的資深工程師』裝進 AI agent 的跨平台 ruleset：寫程式前先過六層 YAGNI 篩子，少寫 80-94% 程式碼
 
     [:octicons-arrow-right-24: 閱讀筆記](ponytail.md)
-
--   :material-message-processing-outline:{{ .lg .middle }} **LINE Chatbot Boilerplate**
-
-    ---
-
-    `2026-06-12` 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器）
-
-    [:octicons-arrow-right-24: 閱讀筆記](line-chatbot-boilerplate.md)
 
 </div>
 

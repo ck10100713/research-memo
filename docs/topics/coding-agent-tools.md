@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 75 篇研究筆記。
+本分類收錄 76 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-27 | [i-have-adhd](../i-have-adhd.md) | 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案 |
 | 2026-07-26 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](../awesome-design-md.md) | 73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列） |
 | 2026-07-26 | [Mission Control Center](../mission-control-center.md) | 遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops |
 | 2026-07-23 | [microsoft/skills](../microsoft-skills.md) | 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill |

@@ -163,6 +163,7 @@ nav:
       - GitHub Copilot SDK: github-copilot-sdk.md
       - Copilot Ralph: copilot-ralph.md
       - gstack: gstack.md
+      - i-have-adhd: i-have-adhd.md
       - Agent Orchestrator: agent-orchestrator.md
       - MCP CLI: mcp-cli.md
       - MCPorter: mcporter.md
