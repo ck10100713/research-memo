@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-07-28 | AI 應用 | [AI Real Estate Assistant](ai-real-estate-assistant.md) |
 | 2026-07-28 | 量化交易 | [StockAgent](stockagent.md) |
+| 2026-07-28 | AI Agent 框架 | [crewAI-examples](crewai-examples.md) |
 | 2026-07-28 | 學習資源 | [GenAI Agents (NirDiamant)](genai-agents.md) |
 | 2026-07-27 | Coding Agent 工具 | [i-have-adhd](i-have-adhd.md) |
 | 2026-07-27 | AI Agent 框架 | [Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md) |
@@ -236,6 +237,8 @@
   單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README
 - `2026-07-28` [StockAgent](stockagent.md)  
   ACM TIST 論文的官方實作：用 LLM 多代理模擬股市，刻意不餵歷史行情以避開 test set leakage；核心結論是「換一個 LLM 就換一種市場」——GPT 交易少但單量大、個體分散，Gemini 頻繁交易且群體高度趨同。程式碼有多處已驗證的落差，預設參數下所有事件都不會觸發
+- `2026-07-28` [crewAI-examples](crewai-examples.md)  
+  CrewAI 官方 30 個完整範例（16 crews + 6 flows + 3 integrations + 5 notebooks），新舊兩代專案骨架並存可直接對照框架演進；但安全性做過一輪硬化、功能正確性沒有——stock_analysis 有重複方法、寫死 AMZN、README 與程式碼互相矛盾，SEC 工具的正則還會把財報數字的小數點和負號洗掉
 - `2026-07-28` [GenAI Agents (NirDiamant)](genai-agents.md)  
   23.5k ★、53 本可跑的 agent 教學 notebook，從對話機器人到多代理系統——但授權是「非商業限定 + 投稿者交出商業權利」的自訂條款，不是開源；且 requirements.txt 凍結在 2024-09，約三分之二內容其實是 LangGraph 應用集
 - `2026-07-27` [i-have-adhd](i-have-adhd.md)  
@@ -696,7 +699,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[CrewAI](crewai.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[CrewAI](crewai.md)、[crewAI-examples](crewai-examples.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 

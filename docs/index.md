@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">217</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">218</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -16,7 +16,7 @@
 
     ---
 
-    25 篇筆記
+    26 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-frameworks.md)
 
@@ -134,6 +134,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](stockagent.md)
 
+-   :material-account-group-outline:{{ .lg .middle }} **crewAI-examples**
+
+    ---
+
+    `2026-07-28` CrewAI 官方 30 個完整範例（16 crews + 6 flows + 3 integrations + 5 notebooks），新舊兩代專案骨架並存可直接對照框架演進；但安全性做過一輪硬化、功能正確性沒有——stock_analysis 有重複方法、寫死 AMZN、README 與程式碼互相矛盾，SEC 工具的正則還會把財報數字的小數點和負號洗掉
+
+    [:octicons-arrow-right-24: 閱讀筆記](crewai-examples.md)
+
 -   :material-notebook-multiple:{{ .lg .middle }} **GenAI Agents (NirDiamant)**
 
     ---
@@ -245,14 +253,6 @@
     `2026-07-17` OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop
 
     [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
-
--   :material-heart-pulse:{{ .lg .middle }} **AI 使用量儀表板（danleetw/ai_usage_dashboard）**
-
-    ---
-
-    `2026-07-08` 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-usage-dashboard.md)
 
 </div>
 

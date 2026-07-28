@@ -89,6 +89,7 @@ nav:
       - AutoGPT: autogpt.md
       - Bring Your Own Agent (BYOA Core): bring-your-own-agent.md
       - CrewAI: crewai.md
+      - crewAI-examples（官方範例集）: crewai-examples.md
       - Google ADK: google-adk.md
       - OpenAI Agents SDK: openai-agents-sdk.md
       - DeerFlow: deer-flow.md
