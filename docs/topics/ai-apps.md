@@ -1,9 +1,10 @@
 # AI 應用
 
-本分類收錄 18 篇研究筆記。
+本分類收錄 19 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-28 | [AI Real Estate Assistant](../ai-real-estate-assistant.md) | 單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README |
 | 2026-06-12 | [LINE Chatbot Boilerplate](../line-chatbot-boilerplate.md) | 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器） |
 | 2026-06-11 | [AI 虛擬人 Widget（ai-avatar-bot）](../ai-avatar-bot.md) | 一行 <script> 嵌入任何網站的右下角 Live2D 語音 AI 虛擬人 widget：皮（角色模型）／肉（引擎）／內容（知識庫）三分離，預設純前端、零後端、零金鑰，語音用瀏覽器內建、可選配神經語音 |
 | 2026-05-29 | [Trend Monitor](../trend-monitor.md) | dongzhang84 個人專案，每日自動聚合 6 個 AI/科技趨勢來源（Product Hunt/Toolify/TAAFT/Chrome ExtensionStore/GitHub Trending/HN），email + GitHub Pages dashboard 雙輸出，亮點是「Indie Opportunity Analysis」對每個產品做 4 維評分 + 前 5 名 8 題深度分析 |

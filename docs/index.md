@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">216</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">217</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -56,7 +56,7 @@
 
     ---
 
-    18 篇筆記
+    19 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-home-search-outline:{{ .lg .middle }} **AI Real Estate Assistant**
+
+    ---
+
+    `2026-07-28` 單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-real-estate-assistant.md)
 
 -   :material-flask-outline:{{ .lg .middle }} **StockAgent**
 
@@ -245,14 +253,6 @@
     `2026-07-08` 本機執行的 AI 用量儀表板，以電玩血條顯示 Claude/Codex/MiniMax/Antigravity/Kiro 使用率，零執行期依賴
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-usage-dashboard.md)
-
--   :material-head-lightbulb:{{ .lg .middle }} **Advisor Tool（顧問工具）**
-
-    ---
-
-    `2026-07-08` executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具
-
-    [:octicons-arrow-right-24: 閱讀筆記](advisor-tool.md)
 
 </div>
 

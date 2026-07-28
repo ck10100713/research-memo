@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-07-28 | AI 應用 | [AI Real Estate Assistant](ai-real-estate-assistant.md) |
 | 2026-07-28 | 量化交易 | [StockAgent](stockagent.md) |
 | 2026-07-28 | 學習資源 | [GenAI Agents (NirDiamant)](genai-agents.md) |
 | 2026-07-27 | Coding Agent 工具 | [i-have-adhd](i-have-adhd.md) |
@@ -231,6 +232,8 @@
 
 #### 07 月
 
+- `2026-07-28` [AI Real Estate Assistant](ai-real-estate-assistant.md)  
+  單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README
 - `2026-07-28` [StockAgent](stockagent.md)  
   ACM TIST 論文的官方實作：用 LLM 多代理模擬股市，刻意不餵歷史行情以避開 test set leakage；核心結論是「換一個 LLM 就換一種市場」——GPT 交易少但單量大、個體分散，Gemini 頻繁交易且群體高度趨同。程式碼有多處已驗證的落差，預設參數下所有事件都不會觸發
 - `2026-07-28` [GenAI Agents (NirDiamant)](genai-agents.md)  
@@ -713,7 +716,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 
