@@ -306,6 +306,7 @@ nav:
       - Claude Use Cases Gallery: claude-use-cases.md
       - DeepTutor: deep-tutor.md
       - Gemma 4 與 Local LLM: gemma-4-local-llm.md
+      - GenAI Agents (NirDiamant): genai-agents.md
       - Karpathy LLM Wiki: karpathy-llm-wiki.md
       - AI Engineering from Scratch: ai-engineering-from-scratch.md
       - dotLLM: dotllm.md

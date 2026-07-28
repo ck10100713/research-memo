@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">215</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">216</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -104,7 +104,7 @@
 
     ---
 
-    20 篇筆記
+    21 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/learning.md)
 
@@ -125,6 +125,14 @@
     `2026-07-28` ACM TIST 論文的官方實作：用 LLM 多代理模擬股市，刻意不餵歷史行情以避開 test set leakage；核心結論是「換一個 LLM 就換一種市場」——GPT 交易少但單量大、個體分散，Gemini 頻繁交易且群體高度趨同。程式碼有多處已驗證的落差，預設參數下所有事件都不會觸發
 
     [:octicons-arrow-right-24: 閱讀筆記](stockagent.md)
+
+-   :material-notebook-multiple:{{ .lg .middle }} **GenAI Agents (NirDiamant)**
+
+    ---
+
+    `2026-07-28` 23.5k ★、53 本可跑的 agent 教學 notebook，從對話機器人到多代理系統——但授權是「非商業限定 + 投稿者交出商業權利」的自訂條款，不是開源；且 requirements.txt 凍結在 2024-09，約三分之二內容其實是 LangGraph 應用集
+
+    [:octicons-arrow-right-24: 閱讀筆記](genai-agents.md)
 
 -   :material-format-list-numbered:{{ .lg .middle }} **i-have-adhd**
 
@@ -245,14 +253,6 @@
     `2026-07-08` executor（Sonnet/Haiku）生成中途諮詢 advisor（Opus）取得策略指引，近 Opus 品質、Sonnet 成本的 Anthropic beta 工具
 
     [:octicons-arrow-right-24: 閱讀筆記](advisor-tool.md)
-
--   :material-school:{{ .lg .middle }} **ML Intern**
-
-    ---
-
-    `2026-07-06` Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code
-
-    [:octicons-arrow-right-24: 閱讀筆記](ml-intern.md)
 
 </div>
 

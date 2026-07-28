@@ -1,9 +1,10 @@
 # 學習資源
 
-本分類收錄 20 篇研究筆記。
+本分類收錄 21 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-07-28 | [GenAI Agents (NirDiamant)](../genai-agents.md) | 23.5k ★、53 本可跑的 agent 教學 notebook，從對話機器人到多代理系統——但授權是「非商業限定 + 投稿者交出商業權利」的自訂條款，不是開源；且 requirements.txt 凍結在 2024-09，約三分之二內容其實是 LangGraph 應用集 |
 | 2026-06-05 | [The System Design Primer](../system-design-primer.md) | GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片 |
 | 2026-05-28 | [skillopt-qa](../skillopt-qa.md) | joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路 |
 | 2026-05-15 | [Claude Code 最佳實踐完整研究報告（zeuikli）](../zeuikli-claude-code-best-practices.md) | zeuikli 整理 29 篇 best-practices + 52 篇 Claude blog 的 Claude Code 九面向最佳實踐總報告，含 CLAUDE.md、Hook、Cache、Subagent、Skill、MCP、安全、Routines、成本工程 |
