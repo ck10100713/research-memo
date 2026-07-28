@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">214</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">215</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-27</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -32,7 +32,7 @@
 
     ---
 
-    43 篇筆記
+    44 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/quant-trading.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-flask-outline:{{ .lg .middle }} **StockAgent**
+
+    ---
+
+    `2026-07-28` ACM TIST 論文的官方實作：用 LLM 多代理模擬股市，刻意不餵歷史行情以避開 test set leakage；核心結論是「換一個 LLM 就換一種市場」——GPT 交易少但單量大、個體分散，Gemini 頻繁交易且群體高度趨同。程式碼有多處已驗證的落差，預設參數下所有事件都不會觸發
+
+    [:octicons-arrow-right-24: 閱讀筆記](stockagent.md)
 
 -   :material-format-list-numbered:{{ .lg .middle }} **i-have-adhd**
 
@@ -245,14 +253,6 @@
     `2026-07-06` Hugging Face 官方開源的自主 ML 工程師 agent：讀論文、訓練模型、上架模型，GPQA 表現超越 Claude Code
 
     [:octicons-arrow-right-24: 閱讀筆記](ml-intern.md)
-
--   :material-finance:{{ .lg .middle }} **Claude for Financial Services**
-
-    ---
-
-    `2026-07-06` Anthropic 官方金融方案：10 個 Named Agents + 7 大 vertical plugins、55 Skills、12 MCP 資料源，Cowork 與 Managed Agents API 雙軌部署
-
-    [:octicons-arrow-right-24: 閱讀筆記](claude-financial-services-plugins.md)
 
 </div>
 

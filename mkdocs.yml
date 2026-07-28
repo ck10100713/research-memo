@@ -224,6 +224,7 @@ nav:
       - Sliding Window Log-Optimal Portfolio: sliding-window-log-optimal-portfolio.md
       - The Alchemy of Multibagger Stocks: multibagger-stocks.md
       - Unified Adaptive Portfolio Management: unified-adaptive-portfolio-management.md
+      - StockAgent: stockagent.md
       - StockStats: stockstats.md
       - TEJAPI Python Quant: tejapi_python_medium_quant.md
       - AI-Trader: ai-trader.md
