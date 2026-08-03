@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-08-03 | AI 應用 | [pdf-inspector](pdf-inspector.md) |
 | 2026-07-28 | AI 應用 | [AI Real Estate Assistant](ai-real-estate-assistant.md) |
 | 2026-07-28 | 量化交易 | [StockAgent](stockagent.md) |
 | 2026-07-28 | AI Agent 框架 | [crewAI-examples](crewai-examples.md) |
@@ -230,6 +231,11 @@
 ## 按年份 / 月份
 
 ### 2026 年
+
+#### 08 月
+
+- `2026-08-03` [pdf-inspector](pdf-inspector.md)  
+  Firecrawl 開源 Rust PDF 解析器 — 免 OCR 分類文字/掃描檔，200ms 內轉乾淨 Markdown
 
 #### 07 月
 
@@ -719,7 +725,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

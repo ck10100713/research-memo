@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">218</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">219</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-08-03</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -56,7 +56,7 @@
 
     ---
 
-    19 篇筆記
+    20 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-file-search-outline:{{ .lg .middle }} **pdf-inspector**
+
+    ---
+
+    `2026-08-03` Firecrawl 開源 Rust PDF 解析器 — 免 OCR 分類文字/掃描檔，200ms 內轉乾淨 Markdown
+
+    [:octicons-arrow-right-24: 閱讀筆記](pdf-inspector.md)
 
 -   :material-home-search-outline:{{ .lg .middle }} **AI Real Estate Assistant**
 
@@ -245,14 +253,6 @@
     `2026-07-20` 把 Claude Code 的 rules/skills/hooks/memory 搬到 Grok Build — 靠 thin adapter 讓 CC 資安 hook 在 Grok 上真正 hard-block
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-to-grok-bridge.md)
-
--   :material-robot-industrial:{{ .lg .middle }} **OpenAI Agents SDK**
-
-    ---
-
-    `2026-07-17` OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop
-
-    [:octicons-arrow-right-24: 閱讀筆記](openai-agents-sdk.md)
 
 </div>
 

@@ -262,6 +262,7 @@ nav:
       - OpenHuman: openhuman.md
       - OpenClam: openclam.md
       - OpenDataLoader PDF: opendataloader-pdf.md
+      - pdf-inspector: pdf-inspector.md
       - Ramp AI Agents: ramp-ai-agents.md
       - Trend Monitor: trend-monitor.md
       - tw-house-ops: tw-house-ops.md
