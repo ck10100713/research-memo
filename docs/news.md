@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-08-04 | AI 應用 | [lecture-to-notes](lecture-to-notes.md) |
 | 2026-08-04 | Coding Agent 工具 | [Headroom](headroom.md) |
 | 2026-08-03 | AI 應用 | [pdf-inspector](pdf-inspector.md) |
 | 2026-07-28 | AI 應用 | [AI Real Estate Assistant](ai-real-estate-assistant.md) |
@@ -235,6 +236,8 @@
 
 #### 08 月
 
+- `2026-08-04` [lecture-to-notes](lecture-to-notes.md)  
+  演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI
 - `2026-08-04` [Headroom](headroom.md)  
   AI Agent 的 context 壓縮層：在 tool 輸出、log、RAG chunk 進入 LLM 前壓縮，JSON 省 60–95%、coding agent 省 15–20%，且可逆還原
 - `2026-08-03` [pdf-inspector](pdf-inspector.md)  
@@ -728,7 +731,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[lecture-to-notes](lecture-to-notes.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[tw-house-ops](tw-house-ops.md)
 
 ### OSINT / 情報工具
 

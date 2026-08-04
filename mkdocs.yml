@@ -255,6 +255,7 @@ nav:
       - Deep-Live-Cam: deep-live-cam.md
       - FlyAI Skill: flyai-skill.md
       - ITA Matrix: ita-matrix.md
+      - lecture-to-notes（演講影片轉筆記）: lecture-to-notes.md
       - LINE Chatbot Boilerplate: line-chatbot-boilerplate.md
       - LINE Bot Multimodal RAG (kkdai): linebot-multimodal-rag.md
       - MemPalace: mempalace.md

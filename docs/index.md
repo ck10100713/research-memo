@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">220</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">221</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-08-04</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -56,7 +56,7 @@
 
     ---
 
-    20 篇筆記
+    21 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-notebook-edit:{{ .lg .middle }} **lecture-to-notes**
+
+    ---
+
+    `2026-08-04` 演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI
+
+    [:octicons-arrow-right-24: 閱讀筆記](lecture-to-notes.md)
 
 -   :material-arrow-collapse-horizontal:{{ .lg .middle }} **Headroom**
 
@@ -245,14 +253,6 @@
     `2026-07-20` 填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
 
     [:octicons-arrow-right-24: 閱讀筆記](video-autopilot-kit.md)
-
--   :material-bridge:{{ .lg .middle }} **cc-to-antigravity-cli-bridge**
-
-    ---
-
-    `2026-07-20` 從 Claude Code 驅動 Google Antigravity CLI (agy) — 靠 Gemini 抗反爬搜尋做雙軌查證 + 共享 system prompt
-
-    [:octicons-arrow-right-24: 閱讀筆記](cc-to-antigravity-cli-bridge.md)
 
 </div>
 

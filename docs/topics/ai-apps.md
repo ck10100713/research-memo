@@ -1,9 +1,10 @@
 # AI 應用
 
-本分類收錄 20 篇研究筆記。
+本分類收錄 21 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-08-04 | [lecture-to-notes](../lecture-to-notes.md) | 演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI |
 | 2026-08-03 | [pdf-inspector](../pdf-inspector.md) | Firecrawl 開源 Rust PDF 解析器 — 免 OCR 分類文字/掃描檔，200ms 內轉乾淨 Markdown |
 | 2026-07-28 | [AI Real Estate Assistant](../ai-real-estate-assistant.md) | 單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README |
 | 2026-06-12 | [LINE Chatbot Boilerplate](../line-chatbot-boilerplate.md) | 用 decorator 註冊指令、Redis 存對話狀態的早期 LINE chatbot Python boilerplate（Wit.ai NLU、Yeoman 產生器） |
