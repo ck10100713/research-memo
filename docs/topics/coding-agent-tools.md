@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 76 篇研究筆記。
+本分類收錄 77 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-08-04 | [Headroom](../headroom.md) | AI Agent 的 context 壓縮層：在 tool 輸出、log、RAG chunk 進入 LLM 前壓縮，JSON 省 60–95%、coding agent 省 15–20%，且可逆還原 |
 | 2026-07-27 | [i-have-adhd](../i-have-adhd.md) | 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案 |
 | 2026-07-26 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](../awesome-design-md.md) | 73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列） |
 | 2026-07-26 | [Mission Control Center](../mission-control-center.md) | 遠振資訊 solo 維護的 OpenClaw 營運儀表板——server-resident、瀏覽器內操作 VPS，含晨報/備份/第二大腦/LINE 客服 ops |

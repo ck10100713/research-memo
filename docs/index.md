@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">219</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">220</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-08-03</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-08-04</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    76 篇筆記
+    77 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-arrow-collapse-horizontal:{{ .lg .middle }} **Headroom**
+
+    ---
+
+    `2026-08-04` AI Agent 的 context 壓縮層：在 tool 輸出、log、RAG chunk 進入 LLM 前壓縮，JSON 省 60–95%、coding agent 省 15–20%，且可逆還原
+
+    [:octicons-arrow-right-24: 閱讀筆記](headroom.md)
 
 -   :material-file-search-outline:{{ .lg .middle }} **pdf-inspector**
 
@@ -245,14 +253,6 @@
     `2026-07-20` 從 Claude Code 驅動 Google Antigravity CLI (agy) — 靠 Gemini 抗反爬搜尋做雙軌查證 + 共享 system prompt
 
     [:octicons-arrow-right-24: 閱讀筆記](cc-to-antigravity-cli-bridge.md)
-
--   :material-bridge:{{ .lg .middle }} **cc-to-grok-bridge**
-
-    ---
-
-    `2026-07-20` 把 Claude Code 的 rules/skills/hooks/memory 搬到 Grok Build — 靠 thin adapter 讓 CC 資安 hook 在 Grok 上真正 hard-block
-
-    [:octicons-arrow-right-24: 閱讀筆記](cc-to-grok-bridge.md)
 
 </div>
 

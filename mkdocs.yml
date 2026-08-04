@@ -119,6 +119,7 @@ nav:
       - App Store Preflight: app-store-preflight.md
       - Browser-Bound MCP Flights: browser-bound-mcp-flights.md
       - Anthropic Harness Design: harness-design-long-running-apps.md
+      - Headroom（context 壓縮層）: headroom.md
       - claude-better: claude-better.md
       - Claude Code Boris Cherny 57 Tips: claude-code-boris-cherny-tips.md
       - Boris Cherny × Opus 4.7 心得: boris-cherny-opus-4-7.md
