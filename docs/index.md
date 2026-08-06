@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">221</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">222</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-08-06</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -32,7 +32,7 @@
 
     ---
 
-    44 篇筆記
+    45 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/quant-trading.md)
 
@@ -125,6 +125,14 @@
     `2026-08-06` Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars
 
     [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
+
+-   :material-bank:{{ .lg .middle }} **GS Quant（gs-quant）**
+
+    ---
+
+    `2026-08-06` Goldman Sachs 官方量化金融 Python 工具包：把 GS 自家衍生品定價／風險引擎、跨資產回測、時間序列分析包成統一 API；近期加碼官方 MCP server 與 agent skills
+
+    [:octicons-arrow-right-24: 閱讀筆記](gs-quant.md)
 
 -   :material-notebook-edit:{{ .lg .middle }} **lecture-to-notes**
 
@@ -245,14 +253,6 @@
     `2026-07-23` 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill
 
     [:octicons-arrow-right-24: 閱讀筆記](microsoft-skills.md)
-
--   :material-graph-outline:{{ .lg .middle }} **GraphRAG**
-
-    ---
-
-    `2026-07-21` 微軟研究院的 graph-based RAG — 用 LLM 把文件抽成知識圖譜 + 社群摘要，回答向量 RAG 答不了的『全局性』問題
-
-    [:octicons-arrow-right-24: 閱讀筆記](graphrag.md)
 
 </div>
 

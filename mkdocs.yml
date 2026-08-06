@@ -211,6 +211,7 @@ nav:
       - Markowitz Inefficiency Drawdown: markowitz-inefficiency-drawdown.md
       - Positive Solutions of Delay Equation: positive-solutions-delay-equation.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
+      - GS Quant（Goldman Sachs 量化工具包）: gs-quant.md
       - Jump Start Stock Trading Tutorial: jump-start-stock-trading-tutorial.md
       - Kronos: kronos.md
       - NOFX: nofx.md
