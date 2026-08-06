@@ -5,7 +5,7 @@
 <div class="stats-bar">
   <div class="stat"><div class="stat-num">221</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-08-04</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-08-06</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
+
+    ---
+
+    `2026-08-06` Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars
+
+    [:octicons-arrow-right-24: 閱讀筆記](mattpocock-skills.md)
 
 -   :material-notebook-edit:{{ .lg .middle }} **lecture-to-notes**
 
@@ -245,14 +253,6 @@
     `2026-07-21` 微軟研究院的 graph-based RAG — 用 LLM 把文件抽成知識圖譜 + 社群摘要，回答向量 RAG 答不了的『全局性』問題
 
     [:octicons-arrow-right-24: 閱讀筆記](graphrag.md)
-
--   :material-movie-open-play-outline:{{ .lg .middle }} **video-autopilot-kit**
-
-    ---
-
-    `2026-07-20` 填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據
-
-    [:octicons-arrow-right-24: 閱讀筆記](video-autopilot-kit.md)
 
 </div>
 

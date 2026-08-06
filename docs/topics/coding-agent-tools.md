@@ -4,6 +4,7 @@
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-08-06 | [mattpocock/skills](../mattpocock-skills.md) | Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars |
 | 2026-08-04 | [Headroom](../headroom.md) | AI Agent 的 context 壓縮層：在 tool 輸出、log、RAG chunk 進入 LLM 前壓縮，JSON 省 60–95%、coding agent 省 15–20%，且可逆還原 |
 | 2026-07-27 | [i-have-adhd](../i-have-adhd.md) | 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案 |
 | 2026-07-26 | [Awesome DESIGN.md — AI Agent 的設計系統資料庫](../awesome-design-md.md) | 73+ 個知名品牌 DESIGN.md 合集 — 丟進專案讓 AI Agent 產出 pixel-perfect UI（★104k，含超跑與 90 年代懷舊系列） |
@@ -26,7 +27,6 @@
 | 2026-05-19 | [usage (aqua5230)](../aqua-usage-menubar.md) | aqua5230 隱私優先 macOS menu bar 用量追蹤器，把 Claude Code + Codex 5h/7d/今日 token 釘在右上角，零 API 呼叫純讀本機檔，台灣版專屬面板 |
 | 2026-05-19 | [Tech Leads Club Agent Skills](../tlc-agent-skills.md) | Tech Leads Club 安全驗證過的 Skill registry，CLI + MCP 雙入口，主打「13% 市集 Skill 有重大漏洞、我們不一樣」，跨 19 個 AI coding agent，4.2k stars |
 | 2026-05-15 | [Casper × Claude Code Skill 設計風格圖鑑](../casper-claude-skill-design-gallery.md) | 卡斯伯（六角學院）用 25 設計風格 × 15 動畫模式做的 Claude Code Skill 示範作品集，主軸是「主執行緒寫 Skill → SubAgent 用 Skill 產單檔網頁」的規模化工作流 |
-| 2026-05-15 | [mattpocock/skills](../mattpocock-skills.md) | Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars |
 | 2026-05-13 | [abdixere-api](../abdixere-api.md) | Saki-tw 的極簡 MCP API base，主張 Agent context memory 應該在工具層下放給 Agent 自己，不要靠多餘保護 |
 | 2026-05-13 | [Why Your AI Is Dumbing Down](../why-your-ai-is-dumbing-down.md) | Saki-tw 的法醫式分析：AI IDE 透過 CHECKPOINT 截斷對話 + 隱形 system prompt 注入「DO NOT TAKE ACTION」，把你付費的 LLM 偷偷閹割省 token |
 | 2026-04-29 | [Claude Slide Editor](../slide-editor.md) | garyyang1001 打造的瀏覽器內 HTML 簡報編輯器，串 Claude Code / Codex CLI 做元件級 AI 改寫，把 Claude Design 後續迭代成本壓到零頭 |

@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-08-06 | Coding Agent 工具 | [mattpocock/skills](mattpocock-skills.md) |
 | 2026-08-04 | AI 應用 | [lecture-to-notes](lecture-to-notes.md) |
 | 2026-08-04 | Coding Agent 工具 | [Headroom](headroom.md) |
 | 2026-08-03 | AI 應用 | [pdf-inspector](pdf-inspector.md) |
@@ -65,7 +66,6 @@
 | 2026-05-19 | Coding Agent 工具 | [Tech Leads Club Agent Skills](tlc-agent-skills.md) |
 | 2026-05-19 | 量化交易 | [QuantDinger](quantdinger.md) |
 | 2026-05-19 | 開發工具 | [CLI-Anything](cli-anything.md) |
-| 2026-05-15 | Coding Agent 工具 | [mattpocock/skills](mattpocock-skills.md) |
 | 2026-05-15 | 量化交易 | [Fincept Terminal](fincept-terminal.md) |
 | 2026-05-15 | 學習資源 | [Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md) |
 | 2026-05-15 | Coding Agent 工具 | [Casper × Claude Code Skill 設計風格圖鑑](casper-claude-skill-design-gallery.md) |
@@ -236,6 +236,8 @@
 
 #### 08 月
 
+- `2026-08-06` [mattpocock/skills](mattpocock-skills.md)  
+  Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars
 - `2026-08-04` [lecture-to-notes](lecture-to-notes.md)  
   演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI
 - `2026-08-04` [Headroom](headroom.md)  
@@ -359,8 +361,6 @@
   brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS
 - `2026-05-19` [CLI-Anything](cli-anything.md)  
   HKUDS 把任何 GUI 軟體用 7 步驟 pipeline 自動產出 agent-friendly CLI harness，60+ 軟體覆蓋，CLI-Hub 一鍵安裝，36k stars / 2 個月
-- `2026-05-15` [mattpocock/skills](mattpocock-skills.md)  
-  Matt Pocock (Total TypeScript) 把每天用的 Claude Skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnose / improve-codebase-architecture，3 個月 90k stars
 - `2026-05-15` [Fincept Terminal](fincept-terminal.md)  
   Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0
 - `2026-05-15` [Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)  
