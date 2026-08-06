@@ -1,9 +1,10 @@
 # AI Agent 框架
 
-本分類收錄 26 篇研究筆記。
+本分類收錄 27 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-08-06 | [qm](../qm.md) | Y Combinator 出品的『multiplayer agent harness for work』：每位員工/每個房間各有隔離的 memory·檔案·keychain·sandbox，在 Slack 與 web 協作；harness 無關(Pi/Codex/Claude Code/OpenCode 同一核心)、可自架 |
 | 2026-07-28 | [crewAI-examples](../crewai-examples.md) | CrewAI 官方 30 個完整範例（16 crews + 6 flows + 3 integrations + 5 notebooks），新舊兩代專案骨架並存可直接對照框架演進；但安全性做過一輪硬化、功能正確性沒有——stock_analysis 有重複方法、寫死 AMZN、README 與程式碼互相矛盾，SEC 工具的正則還會把財報數字的小數點和負號洗掉 |
 | 2026-07-27 | [Bring Your Own Agent (BYOA Core)](../bring-your-own-agent.md) | 台灣單人開發者用 5.5 週、90 commits 從零重建一套 Claude Code 等級的 agent harness（兩階段 compact、subagent 防遞迴、skill 漸進式載入、tool result 分頁、多 provider gateway），全繁中、Gherkin 規格先行、附 13 個 SWE eval task 量化每次 prompt 改動——0 star 但是最好讀的 harness 解剖圖 |
 | 2026-07-17 | [OpenAI Agents SDK](../openai-agents-sdk.md) | OpenAI 官方 Agent 框架 — Handoffs + Guardrails 起家，v0.18 補上 Sandbox Agents 與 Human-in-the-loop |

@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">222</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">223</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-08-06</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -16,7 +16,7 @@
 
     ---
 
-    26 篇筆記
+    27 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-frameworks.md)
 
@@ -134,6 +134,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](gs-quant.md)
 
+-   :material-account-group:{{ .lg .middle }} **qm**
+
+    ---
+
+    `2026-08-06` Y Combinator 出品的『multiplayer agent harness for work』：每位員工/每個房間各有隔離的 memory·檔案·keychain·sandbox，在 Slack 與 web 協作；harness 無關(Pi/Codex/Claude Code/OpenCode 同一核心)、可自架
+
+    [:octicons-arrow-right-24: 閱讀筆記](qm.md)
+
 -   :material-notebook-edit:{{ .lg .middle }} **lecture-to-notes**
 
     ---
@@ -245,14 +253,6 @@
     `2026-07-23` 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況
 
     [:octicons-arrow-right-24: 閱讀筆記](agent-sdk-builder-skills.md)
-
--   :material-microsoft:{{ .lg .middle }} **microsoft/skills**
-
-    ---
-
-    `2026-07-23` 微軟官方 Agent Skills 庫（175 skills）— 用 Skill/Custom Agent/AGENTS.md/MCP 把 coding agent 接地到 Azure SDK 與 Foundry，含官方 Agent Framework 建構 skill
-
-    [:octicons-arrow-right-24: 閱讀筆記](microsoft-skills.md)
 
 </div>
 

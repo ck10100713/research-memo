@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 2026-08-06 | Coding Agent 工具 | [mattpocock/skills](mattpocock-skills.md) |
 | 2026-08-06 | 量化交易 | [GS Quant（gs-quant）](gs-quant.md) |
+| 2026-08-06 | AI Agent 框架 | [qm](qm.md) |
 | 2026-08-04 | AI 應用 | [lecture-to-notes](lecture-to-notes.md) |
 | 2026-08-04 | Coding Agent 工具 | [Headroom](headroom.md) |
 | 2026-08-03 | AI 應用 | [pdf-inspector](pdf-inspector.md) |
@@ -241,6 +242,8 @@
   Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars
 - `2026-08-06` [GS Quant（gs-quant）](gs-quant.md)  
   Goldman Sachs 官方量化金融 Python 工具包：把 GS 自家衍生品定價／風險引擎、跨資產回測、時間序列分析包成統一 API；近期加碼官方 MCP server 與 agent skills
+- `2026-08-06` [qm](qm.md)  
+  Y Combinator 出品的『multiplayer agent harness for work』：每位員工/每個房間各有隔離的 memory·檔案·keychain·sandbox，在 Slack 與 web 協作；harness 無關(Pi/Codex/Claude Code/OpenCode 同一核心)、可自架
 - `2026-08-04` [lecture-to-notes](lecture-to-notes.md)  
   演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI
 - `2026-08-04` [Headroom](headroom.md)  
@@ -714,7 +717,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[CrewAI](crewai.md)、[crewAI-examples](crewai-examples.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[CrewAI](crewai.md)、[crewAI-examples](crewai-examples.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Ponytail](ponytail.md)、[Project Golem](project-golem.md)、[qm](qm.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 
