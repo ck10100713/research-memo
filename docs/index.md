@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">223</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">224</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-08-06</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-08-07</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -40,7 +40,7 @@
 
     ---
 
-    3 篇筆記
+    4 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/social-marketing.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-magnify:{{ .lg .middle }} **Claude SEO（claude-seo）**
+
+    ---
+
+    `2026-08-07` Claude Code SEO skill：25 sub-skills + 18 專家 agent 並行跑技術 SEO、E-E-A-T、Schema、GEO/AI 搜尋、本地/電商/國際 SEO；每條建議都附『怎麼知道它失敗了』的可證偽檢查
+
+    [:octicons-arrow-right-24: 閱讀筆記](claude-seo.md)
 
 -   :material-account-tie:{{ .lg .middle }} **mattpocock/skills**
 
@@ -245,14 +253,6 @@
     `2026-07-23` Jezweb 的 63-skill / 10-plugin 生產型 skill 市集——核心價值在兩份把官方規範編輯化的 authoring 準則（SKILL_SHAPE.md / CLAUDE.md）
 
     [:octicons-arrow-right-24: 閱讀筆記](jezweb-claude-skills.md)
-
--   :material-hammer-wrench:{{ .lg .middle }} **建構型 Agent SDK Skills 對照**
-
-    ---
-
-    `2026-07-23` 『建構型 skill』對照 — 教 coding agent 用 SDK 把 agent 寫出來：Claude Agent SDK（雙語第三方最成熟）、OpenAI、Microsoft Agent Framework 三方現況
-
-    [:octicons-arrow-right-24: 閱讀筆記](agent-sdk-builder-skills.md)
 
 </div>
 

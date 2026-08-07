@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-08-07 | 社群行銷 | [Claude SEO（claude-seo）](claude-seo.md) |
 | 2026-08-06 | Coding Agent 工具 | [mattpocock/skills](mattpocock-skills.md) |
 | 2026-08-06 | 量化交易 | [GS Quant（gs-quant）](gs-quant.md) |
 | 2026-08-06 | AI Agent 框架 | [qm](qm.md) |
@@ -238,6 +239,8 @@
 
 #### 08 月
 
+- `2026-08-07` [Claude SEO（claude-seo）](claude-seo.md)  
+  Claude Code SEO skill：25 sub-skills + 18 專家 agent 並行跑技術 SEO、E-E-A-T、Schema、GEO/AI 搜尋、本地/電商/國際 SEO；每條建議都附『怎麼知道它失敗了』的可證偽檢查
 - `2026-08-06` [mattpocock/skills](mattpocock-skills.md)  
   Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars
 - `2026-08-06` [GS Quant（gs-quant）](gs-quant.md)  
@@ -729,7 +732,7 @@
 
 ### 社群行銷
 
-[Claude Ads](claude-ads.md)、[Discord Lobster](discord-lobster.md)、[Insta-Booster](insta-booster.md)
+[Claude Ads](claude-ads.md)、[Claude SEO（claude-seo）](claude-seo.md)、[Discord Lobster](discord-lobster.md)、[Insta-Booster](insta-booster.md)
 
 ### AI 創作資源
 
