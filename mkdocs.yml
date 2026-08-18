@@ -180,6 +180,7 @@ nav:
       - OpenCode: opencode.md
       - OpenHarness: open-harness.md
       - Open SWE: open-swe.md
+      - OpenSlideX（本機優先簡報 + MCP）: open-slidex.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Slavingia Skills: slavingia-skills.md
       - Slide Editor: slide-editor.md
@@ -258,6 +259,7 @@ nav:
       - Deep-Live-Cam: deep-live-cam.md
       - FlyAI Skill: flyai-skill.md
       - ITA Matrix: ita-matrix.md
+      - Koharu（Rust 漫畫翻譯器 + Codex agent）: koharu.md
       - lecture-to-notes（演講影片轉筆記）: lecture-to-notes.md
       - LINE Chatbot Boilerplate: line-chatbot-boilerplate.md
       - LINE Bot Multimodal RAG (kkdai): linebot-multimodal-rag.md
