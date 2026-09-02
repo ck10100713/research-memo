@@ -85,9 +85,11 @@ nav:
       - Agent GoFundMe: agent-gofundme.md
       - 開源 Agent 框架比較: open-source-agent-frameworks.md
       - AgentBnB: agentbnb.md
+      - Agenvoy（自架 Go agent harness）: agenvoy.md
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
       - Bring Your Own Agent (BYOA Core): bring-your-own-agent.md
+      - Building Applications with AI Agents（O'Reilly 配套碼）: building-applications-with-ai-agents.md
       - CrewAI: crewai.md
       - crewAI-examples（官方範例集）: crewai-examples.md
       - Google ADK: google-adk.md
@@ -252,6 +254,7 @@ nav:
   - AI 應用:
       - topics/ai-apps.md
       - AI Avatar Bot (Live2D 虛擬人): ai-avatar-bot.md
+      - AI Job Search（Claude Code 求職框架）: ai-job-search.md
       - AI Real Estate Assistant: ai-real-estate-assistant.md
       - AppFlowy: appflowy.md
       - Cabinet: cabinet.md
@@ -311,6 +314,7 @@ nav:
       - topics/learning.md
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md
+      - awesome-agentic-ai-zh（繁中 Agent 學習地圖）: awesome-agentic-ai-zh.md
       - Claude Code from Source: claude-code-from-source.md
       - Claude Cookbooks: claude-cookbooks.md
       - Claude Use Cases Gallery: claude-use-cases.md
