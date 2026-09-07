@@ -186,6 +186,7 @@ nav:
       - OpenSlideX（本機優先簡報 + MCP）: open-slidex.md
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Slavingia Skills: slavingia-skills.md
+      - humanlayer/skills（context engineering plugin 包）: humanlayer-skills.md
       - slide-deck-skill（繁中網頁簡報 Skill）: slide-deck-skill.md
       - Slide Editor: slide-editor.md
       - soplint: soplint.md
