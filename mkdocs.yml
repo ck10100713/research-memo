@@ -86,6 +86,7 @@ nav:
       - 開源 Agent 框架比較: open-source-agent-frameworks.md
       - AgentBnB: agentbnb.md
       - Agenvoy（自架 Go agent harness）: agenvoy.md
+      - AstrBot（自架多平台 LLM 聊天機器人框架）: astrbot.md
       - Autoresearch: autoresearch.md
       - AutoGPT: autogpt.md
       - Bring Your Own Agent (BYOA Core): bring-your-own-agent.md
