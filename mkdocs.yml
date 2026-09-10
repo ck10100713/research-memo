@@ -155,6 +155,7 @@ nav:
       - usage (aqua5230 menu bar tracker): aqua-usage-menubar.md
       - Tech Leads Club Agent Skills: tlc-agent-skills.md
       - Claude Cowork Dispatch: dispatch.md
+      - dashi-taskboard（Codex Taskboard,CDP 注入看板）: dashi-taskboard.md
       - diagram-design（29.8k★ 編輯級圖表 Skill）: diagram-design.md
       - design-md-chrome: design-md-chrome.md
       - dot-skill: dot-skill.md
@@ -189,6 +190,7 @@ nav:
       - OpenClaw Claude Proxy: openclaw-claude-proxy.md
       - Slavingia Skills: slavingia-skills.md
       - humanlayer/skills（context engineering plugin 包）: humanlayer-skills.md
+      - dashi-ppt-skill（12 主題 HTML 簡報 + 真 PPTX 匯出）: dashi-ppt-skill.md
       - slide-deck-skill（繁中網頁簡報 Skill）: slide-deck-skill.md
       - Slide Editor: slide-editor.md
       - soplint: soplint.md
