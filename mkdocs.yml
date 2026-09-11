@@ -322,6 +322,7 @@ nav:
       - topics/learning.md
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md
+      - 深入理解 AI Agent（李博杰,全書開源）: ai-agent-book.md
       - awesome-agentic-ai-zh（繁中 Agent 學習地圖）: awesome-agentic-ai-zh.md
       - Claude Code from Source: claude-code-from-source.md
       - Claude Cookbooks: claude-cookbooks.md
