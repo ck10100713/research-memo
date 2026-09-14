@@ -206,6 +206,7 @@ nav:
       - AI Hedge Fund: ai-hedge-fund.md
       - Asset Pricing with Ambiguity: asset-pricing-with-ambiguity.md
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
+      - AutoHedge: autohedge.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
       - Daily Stock Analysis: daily-stock-analysis.md
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md

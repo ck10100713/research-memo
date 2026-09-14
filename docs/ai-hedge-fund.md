@@ -150,5 +150,5 @@ poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA
 ### 與其他專案的關聯
 
 - **TradingAgents**（本站已有筆記）：同為多 Agent 交易系統，TradingAgents 更學術（來自 Tauric Research），ai-hedge-fund 更工程導向且有 Web UI
-- **AutoHedge**（The-Swarm-Corporation）：更進一步支援 Solana 真實交易執行，是「下一步」的參考
+- **[AutoHedge](autohedge.md)**（The-Swarm-Corporation）：曾被列為「支援 Solana 真實交易執行、是下一步的參考」——**本站 2026-09-14 讀 code 後修正**：簽 Solana 交易的 `execute_trade` 確實存在，但沒有被任何 agent 掛上，README 宣稱遠大於實作，主線 2026-02 後停更
 - **Claude Financial Services Plugins**（本站已有筆記）：Anthropic 官方的金融 Agent 工具集，與本專案的 Agent 設計可以互相補充
