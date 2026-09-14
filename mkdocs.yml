@@ -39,6 +39,7 @@ theme:
     - toc.follow
   icon:
     repo: fontawesome/brands/github
+    logo: material/book-open-page-variant
 
 plugins:
   - search:
