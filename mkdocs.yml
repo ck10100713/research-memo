@@ -208,7 +208,9 @@ nav:
       - Asymptotic Log-Optimal Buy-and-Hold: asymptotic-log-optimal-buy-hold.md
       - AutoHedge: autohedge.md
       - Cost-Sensitive Distributionally Robust Portfolio: cost-sensitive-distributionally-robust-portfolio.md
+      - CZSC（纏論技術分析工具）: czsc.md
       - Daily Stock Analysis: daily-stock-analysis.md
+      - 反詐投資王（交易統計與投資反詐）: anti-gambling-trader-tw.md
       - DLP with Time-Varying Weights: dlp-time-varying-weights.md
       - DLP with Transaction Costs: dlp-with-transaction-costs.md
       - Drawdown Control with Restart Mechanism: drawdown-control-restart-mechanism.md
@@ -252,6 +254,7 @@ nav:
       - Claude Ads: claude-ads.md
       - Claude SEO: claude-seo.md
       - Discord Lobster: discord-lobster.md
+      - Open SEO Advisor（全域行銷營運技能）: open-seo-advisor-skill.md
       - Insta-Booster: insta-booster.md
   - AI 創作資源:
       - topics/ai-creative.md
@@ -285,6 +288,7 @@ nav:
       - pdf-inspector: pdf-inspector.md
       - Ramp AI Agents: ramp-ai-agents.md
       - Trend Monitor: trend-monitor.md
+      - VoiceStudio（本機版 ElevenLabs）: voicestudio.md
       - tw-house-ops: tw-house-ops.md
   - OSINT / 情報工具:
       - topics/osint.md
@@ -318,6 +322,7 @@ nav:
       - social-post（社群自動發文）: skill-social-post.md
   - 資源彙整 / Awesome List:
       - topics/awesome-lists.md
+      - Awesome Data（金融資料源清單）: awesome-data.md
       - Awesome Free Apps: awesome-free-apps.md
       - Awesome OpenClaw Skills: awesome-openclaw-skills.md
   - 學習資源:
@@ -325,6 +330,7 @@ nav:
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md
       - 深入理解 AI Agent（李博杰,全書開源）: ai-agent-book.md
+      - 深入理解 AI Infra（李博杰,全書開源）: ai-infra-book.md
       - awesome-agentic-ai-zh（繁中 Agent 學習地圖）: awesome-agentic-ai-zh.md
       - Claude Code from Source: claude-code-from-source.md
       - Claude Cookbooks: claude-cookbooks.md
@@ -338,6 +344,7 @@ nav:
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md
       - MCP for Beginners: mcp-for-beginners.md
+      - MiniMind（3 塊錢從 0 訓練 LLM）: minimind.md
       - OpenAI Agent 建構指南: openai-practical-guide-building-agents.md
       - LY Corp ADK Agent 入門: ly-corp-adk-agent.md
       - Reference 快速參考: reference.md
