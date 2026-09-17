@@ -27,9 +27,16 @@ python3 scripts/build_book.py <se-repo>/_more/mybook books/
 > `pdf/` 不進版控（見 `.gitignore`）。要產 PDF：
 >
 > ```bash
-> ./scripts/build_pdf.sh
+> ./scripts/build_pdf.sh          # 需要 pandoc、weasyprint、mermaid-cli（mmdc）
 > ```
 >
-> 字型刻意用 Noto Sans CJK TC 而非蘋方：蘋方在 PDF 裡的字型名是中文（「蘋方-繁」），
-> 部分閱讀器認不得，整份文件會顯示成方塊。`scripts/pdf_charfix.py` 另外把 Noto 沒有的
-> 符號換掉，避免拖進 Apple Color Emoji（sbix 點陣字型，相容性同樣不好）。
+> PDF 帶側邊書籤與可點目錄，mermaid 圖會先渲染成 SVG。中間產物放 `books/build/`
+> （也不進版控），圖以內容 hash 快取，只有改動過的會重畫。
+
+### 三個排版上的坑
+
+| 症狀 | 原因 | 作法 |
+|---|---|---|
+| 整份 PDF 顯示成方塊 | 蘋方在 PDF 裡的字型名是中文「蘋方-繁」，部分閱讀器認不得 | 改用 ASCII 名的 Noto Sans CJK TC |
+| 圖上的字不見 | mermaid 預設用 SVG 的 `<foreignObject>` 包 HTML，WeasyPrint 不支援 | `htmlLabels: false` |
+| 莫名拖進 Apple Color Emoji | 少數符號 Noto 沒有，或雖有但屬 `Emoji_Presentation=Yes` | `scripts/pdf_charfix.py` 換掉 |

@@ -5,3 +5,4 @@ __pycache__/
 archive/
 books/pdf/
 .DS_Store
+books/build/

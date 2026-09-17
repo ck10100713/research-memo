@@ -23,3 +23,20 @@ blockquote { border-left: 3px solid #bbb; padding-left: 10pt; color: #555; margi
 #TOC { page-break-after: always; }
 #TOC ul { list-style: none; padding-left: 1em; }
 #TOC a { text-decoration: none; color: #222; }
+
+/* PDF 側邊書籤：WeasyPrint 會把 bookmark-level 變成閱讀器的大綱面板 */
+h1 { bookmark-level: 1; }
+h2 { bookmark-level: 2; }
+h3 { bookmark-level: 3; }
+h4 { bookmark-level: 4; }
+
+/* pandoc --toc 產的目錄，錨點在 PDF 裡是可點的內部連結 */
+#TOC > ul { padding-left: 0; }
+#TOC li { margin: 1px 0; }
+#TOC > ul > li { margin-top: 10pt; font-weight: 600; }
+#TOC > ul > li > ul > li { font-weight: 400; }
+#TOC > ul > li > ul > li > ul { font-size: 9.5pt; color: #444; }
+
+/* mermaid 圖：A4 扣掉邊界約 257mm 高，留點餘裕避免一張圖自己撐破一頁 */
+img { display: block; margin: 1em auto; max-width: 100%; max-height: 225mm; }
+figure { margin: 1em 0; text-align: center; page-break-inside: avoid; }
