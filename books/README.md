@@ -27,9 +27,9 @@ python3 scripts/build_book.py <se-repo>/_more/mybook books/
 > `pdf/` 不進版控（見 `.gitignore`）。要產 PDF：
 >
 > ```bash
-> for f in books/*.md; do
->   n=$(basename "$f" .md); t=$(head -1 "$f" | sed 's/^# //')
->   tail -n +2 "$f" | pandoc -s --toc --toc-depth=3 -M title="$t" -c book.css -o "/tmp/$n.html"
->   weasyprint "/tmp/$n.html" "books/pdf/$n.pdf"
-> done
+> ./scripts/build_pdf.sh
 > ```
+>
+> 字型刻意用 Noto Sans CJK TC 而非蘋方：蘋方在 PDF 裡的字型名是中文（「蘋方-繁」），
+> 部分閱讀器認不得，整份文件會顯示成方塊。`scripts/pdf_charfix.py` 另外把 Noto 沒有的
+> 符號換掉，避免拖進 Apple Color Emoji（sbix 點陣字型，相容性同樣不好）。

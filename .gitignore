@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 archive/
 books/pdf/
+.DS_Store

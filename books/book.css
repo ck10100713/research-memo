@@ -1,8 +1,9 @@
 @page {
   size: A4; margin: 20mm 18mm;
-  @bottom-center { content: counter(page); font-size: 9pt; color: #888; }
+  @bottom-center { content: counter(page); font-family: "Noto Sans CJK TC";
+                   font-size: 9pt; color: #888; }
 }
-body { font-family: "PingFang TC", "Heiti TC", sans-serif; font-size: 10.5pt; line-height: 1.7; }
+body { font-family: "Noto Sans CJK TC"; font-size: 10.5pt; line-height: 1.7; }
 h1 { page-break-before: always; font-size: 20pt; border-bottom: 2px solid #333; padding-bottom: 4pt; }
 h1.title, #TOC + h1 { page-break-before: auto; }
 h2 { font-size: 15pt; margin-top: 1.4em; }
@@ -10,7 +11,7 @@ h3 { font-size: 12.5pt; margin-top: 1.2em; }
 h4, h5, h6 { font-size: 11pt; }
 h1, h2, h3, h4 { page-break-after: avoid; }
 p, li { orphans: 2; widows: 2; }
-code, pre { font-family: "SF Mono", Menlo, monospace; }
+code, pre { font-family: "Noto Sans Mono CJK TC"; }
 pre { background: #f6f8fa; padding: 8pt; font-size: 8.5pt; line-height: 1.45;
       white-space: pre-wrap; word-wrap: break-word; border-left: 3px solid #ccc; }
 code { font-size: 9pt; background: #f0f0f0; padding: 0 2px; }
