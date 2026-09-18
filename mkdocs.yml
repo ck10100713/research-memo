@@ -300,6 +300,7 @@ nav:
       - HighScalability: highscalability.md
       - Laws of Software Engineering: laws-of-software-engineering.md
       - 軟體工程 56 大定律（中文版）: laws-of-software-engineering-zh.md
+      - Copilot runtime 搬到 Rust（GitHub 實戰）: copilot-runtime-rust-port.md
   - 開發工具:
       - topics/dev-tools.md
       - MCP Toolbox for Databases: mcp-toolbox.md
