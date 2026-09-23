@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-09-23 | 學習資源 | [AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md) |
+| 2026-09-23 | 社群行銷 | [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md) |
 | 2026-09-18 | 軟體工程知識 | [Copilot runtime 搬到 Rust](copilot-runtime-rust-port.md) |
 | 2026-09-16 | 學習資源 | [ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md) |
 | 2026-09-16 | Coding Agent 工具 | [Argus](argus.md) |
@@ -17,7 +18,6 @@
 | 2026-09-15 | 資源彙整 / Awesome List | [awesome-data](awesome-data.md) |
 | 2026-09-15 | AI 應用 | [VoiceStudio](voicestudio.md) |
 | 2026-09-15 | 量化交易 | [反詐投資王（anti-gambling-trader-tw）](anti-gambling-trader-tw.md) |
-| 2026-09-15 | 社群行銷 | [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md) |
 | 2026-09-15 | 學習資源 | [MiniMind](minimind.md) |
 | 2026-09-14 | 量化交易 | [AutoHedge](autohedge.md) |
 | 2026-09-14 | 量化交易 | [Vibe-Trading（HKUDS）](vibe-trading.md) |
@@ -268,6 +268,8 @@
 
 - `2026-09-23` [AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md)  
   Outcome School 整理的 AI 工程師面試題庫，按 35 家公司分區(Anthropic、OpenAI、Cursor、Palantir…)，每家附面試流程；約 600 題、四成附答案，但答案全連回作者自家部落格，題目也沒標出處
+- `2026-09-23` [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md)  
+  設計給 Claude Code 之類 AI coding agent 用的「全域行銷營運技能」，也能當 CLI 獨立跑。七大模式（SEO 顧問／工程師／資安／文章寫手／外掛開發／Meta 廣告／產圖）＋ 26 個 AI 角色的矩陣營運層，v0.4 起加了 SEO/AEO 引導式建站。設計原則是不綁定單一廠商、預設唯讀 dry-run、免金鑰可試玩。注意核心健檢有個 robots/sitemap 必定誤報的 bug 拖了兩個月，v0.4.6 才修。跟本站的反詐投資王同一位作者
 - `2026-09-18` [Copilot runtime 搬到 Rust](copilot-runtime-rust-port.md)  
   Stephen Toub 寫的 65 分鐘長文：GitHub Copilot agent runtime 從 TypeScript/Node 整包換成 Rust，43 萬行 TS 換出 83 萬行production Rust，2026-05-12 到 08-21 約 14 週，主要由一個人 + 大量 agent 完成，128 個 PR 邊搬邊出貨。有硬數字：單次 turn 從 5.25 秒降到 292 毫秒（18 倍）、session 生命週期吞吐從 7.55/秒 到 120/秒。更值得看的是 agent 使用數據——工具呼叫 185 萬次裡探索類是編輯類的 10 倍、prompt cache 命中率 96.22%、壓縮 5,116 次、borrow checker 只佔編譯錯誤的 1.7%。還有兩個真實事故：agent 之間互相併吞分支、以及用一個 chat session 當「agentic mutex」擋建置塞車
 - `2026-09-16` [ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md)  
@@ -284,8 +286,6 @@
   29.5K★、AGPL-3.0 的「本機版 ElevenLabs」——聲音複製、聲音設計、影片配音、聽寫、轉錄、有聲書，16 個 TTS + 11 個 ASR 引擎、646 種語言，全程跑在自己機器上，不用帳號、金鑰、訂閱。Tauri v2 + React + FastAPI，預設接 loopback，內建 AudioSeal 浮水印與 MCP server。repo 本身也是 AI 輔助開發的樣本（CLAUDE.md 18KB、skills/、skills-lock.json）
 - `2026-09-15` [反詐投資王（anti-gambling-trader-tw）](anti-gambling-trader-tw.md)  
   台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜
-- `2026-09-15` [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md)  
-  設計給 Claude Code 之類 AI coding agent 用的「全域行銷營運技能」，也能當 CLI 獨立跑。七大模式（SEO 顧問／工程師／資安／文章寫手／外掛開發／Meta 廣告／產圖）＋ 26 個 AI 角色的矩陣營運層，目前四個模式完整實作。設計原則是不綁定單一廠商、預設唯讀 dry-run、免金鑰可試玩。跟本站的反詐投資王同一位作者
 - `2026-09-15` [MiniMind](minimind.md)  
   61K★、Apache-2.0 的「從 0 訓練一個小 LLM」教學專案——單張 3090、約 2.3 小時、約 3 塊人民幣就能把 64M 參數的 minimind-3 從預訓練練到會對話。關鍵訓練演算法與核心模組全部從 0 實現不依賴框架封裝，但結構對齊 Qwen3 生態、可轉 transformers/llama.cpp/ollama。涵蓋 Pretrain→SFT→LoRA→DPO→RLAIF(PPO/GRPO/CISPO)→Tool Use→Agentic RL 完整鏈路
 - `2026-09-14` [AutoHedge](autohedge.md)  

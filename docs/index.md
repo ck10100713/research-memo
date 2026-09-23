@@ -126,6 +126,14 @@
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-engineering-interview-questions-company-wise.md)
 
+-   :material-magnify-scan:{{ .lg .middle }} **Open SEO Advisor（open-seo-advisor-skill）**
+
+    ---
+
+    `2026-09-23` 設計給 Claude Code 之類 AI coding agent 用的「全域行銷營運技能」，也能當 CLI 獨立跑。七大模式（SEO 顧問／工程師／資安／文章寫手／外掛開發／Meta 廣告／產圖）＋ 26 個 AI 角色的矩陣營運層，v0.4 起加了 SEO/AEO 引導式建站。設計原則是不綁定單一廠商、預設唯讀 dry-run、免金鑰可試玩。注意核心健檢有個 robots/sitemap 必定誤報的 bug 拖了兩個月，v0.4.6 才修。跟本站的反詐投資王同一位作者
+
+    [:octicons-arrow-right-24: 閱讀筆記](open-seo-advisor-skill.md)
+
 -   :material-language-rust:{{ .lg .middle }} **Copilot runtime 搬到 Rust**
 
     ---
@@ -189,14 +197,6 @@
     `2026-09-15` 台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜
 
     [:octicons-arrow-right-24: 閱讀筆記](anti-gambling-trader-tw.md)
-
--   :material-magnify-scan:{{ .lg .middle }} **Open SEO Advisor（open-seo-advisor-skill）**
-
-    ---
-
-    `2026-09-15` 設計給 Claude Code 之類 AI coding agent 用的「全域行銷營運技能」，也能當 CLI 獨立跑。七大模式（SEO 顧問／工程師／資安／文章寫手／外掛開發／Meta 廣告／產圖）＋ 26 個 AI 角色的矩陣營運層，目前四個模式完整實作。設計原則是不綁定單一廠商、預設唯讀 dry-run、免金鑰可試玩。跟本站的反詐投資王同一位作者
-
-    [:octicons-arrow-right-24: 閱讀筆記](open-seo-advisor-skill.md)
 
 -   :material-brain:{{ .lg .middle }} **MiniMind**
 
