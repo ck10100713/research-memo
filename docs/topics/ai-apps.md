@@ -1,9 +1,13 @@
 # AI 應用
 
-本分類收錄 21 篇研究筆記。
+本分類收錄 25 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-09-15 | [VoiceStudio](../voicestudio.md) | 29.5K★、AGPL-3.0 的「本機版 ElevenLabs」——聲音複製、聲音設計、影片配音、聽寫、轉錄、有聲書，16 個 TTS + 11 個 ASR 引擎、646 種語言，全程跑在自己機器上，不用帳號、金鑰、訂閱。Tauri v2 + React + FastAPI，預設接 loopback，內建 AudioSeal 浮水印與 MCP server。repo 本身也是 AI 輔助開發的樣本（CLAUDE.md 18KB、skills/、skills-lock.json） |
+| 2026-09-04 | [abogen](../abogen.md) | 土耳其 Deniz Şafak 的 Python 有聲書工廠:把 EPUB/PDF/txt/markdown/字幕檔丟進去,用 Kokoro-82M(82M 參數、Apache-2.0)本機 TTS 生成自然語音,並同步吐出逐句/逐字字幕(SRT/ASS/VTT)。重點不在自研模型,而在完整 pipeline——章節解析、章節標記、M4B 封面/metadata、語音混音、佇列批次、離線下載,外加可插拔 TTS 引擎架構(Kokoro + Supertonic)與 PyQt6 桌面 + Flask Web UI 雙介面;Web UI 還接了 LLM 正規化、多角色配音、Audiobookshelf 整合 |
+| 2026-09-02 | [ai-job-search](../ai-job-search.md) | 丹麥地球物理學家失業後打造、建構在 Claude Code / Agent Skills 之上的『fork 到自己機器上跑』求職框架:五維 fit 評分 + 雙硬 gate、drafter-reviewer 雙 agent、會實際編譯 PDF 並逐頁檢查版面 + ATS 文字層驗證的 CV/求職信產生流;刻意不做海投、送出由人。近 4 萬星 MIT |
+| 2026-08-18 | [Koharu](../koharu.md) | Rust 寫的本機優先漫畫翻譯器,把偵測→OCR→修復→翻譯→排版→PSD 匯出串成 staged ML pipeline;更關鍵的是內建一個 in-process、OAuth 打 ChatGPT Codex backend 的 agent,用 function-calling tool + revision-safe 編輯驅動整個翻譯專案 |
 | 2026-08-04 | [lecture-to-notes](../lecture-to-notes.md) | 演講／研習錄影 → 結構化「可溯源」筆記 + 影片-逐字稿-摘要三向同步的 HTML 檢視器；本機 GPU pipeline(Whisper·投影片抽取·OCR·VLM),Claude Code skill + CLI |
 | 2026-08-03 | [pdf-inspector](../pdf-inspector.md) | Firecrawl 開源 Rust PDF 解析器 — 免 OCR 分類文字/掃描檔，200ms 內轉乾淨 Markdown |
 | 2026-07-28 | [AI Real Estate Assistant](../ai-real-estate-assistant.md) | 單人（1314/1400 commits）做出 6 萬行、7000 測試、13 個 LLM provider 的房產 RAG 搜尋平台，MIT 授權 + 明碼標價的 open-core 漏斗（Pro $29/mo）；最值得看的是它把「Render 免費層 512MB 逼出的 lazy import hack」連同「這不是最佳實踐」一起寫進 README |

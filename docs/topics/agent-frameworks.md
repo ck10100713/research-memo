@@ -1,9 +1,13 @@
 # AI Agent 框架
 
-本分類收錄 27 篇研究筆記。
+本分類收錄 31 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-09-09 | [LangBot](../langbot.md) | 跟 AstrBot 同賽道的自架多平台 LLM IM 機器人平台(17.7K stars、Python、Apache-2.0),前身是 2022 年的 QChatGPT(mirai QQ bot),2024-11 的 v3.4.0 移除 Mirai、加 WebUI 後正式改名 LangBot。一套後端接 QQ/微信/企微/飛書/釘釘/Discord/Telegram/Slack/LINE/KOOK/Matrix;LLM 從 OpenAI/Anthropic/Gemini/DeepSeek/智譜/Kimi/Grok/Ollama 到一票聚合平台;最大特色是能把整段對話丟給 Dify/Coze/n8n/Langflow/DeerFlow/WeKnora/百煉/螞蟻TBox 當外部大腦(runner),插件跑在獨立 Plugin Runtime 進程(SDK 隔離),沙盒用 Box Runtime(nsjail/e2b),向量庫支援 6 種、資料庫可 PostgreSQL,還內建 /mcp server + 倉庫內 skills 讓 coding agent 直接操作機器人本身。Web 前端是 React(Vite),不是 AstrBot 的 Vue |
+| 2026-09-08 | [AstrBot](../astrbot.md) | 中國社群最紅的自架多平台 LLM 聊天機器人平台/框架(40.2K stars、Python、AGPL-3.0)。一套後端同時接 QQ/OneBot、Telegram、企業微信、飛書、釘釘、微信公眾號、Slack、Discord、LINE、KOOK 等十幾個 IM;LLM 支援 OpenAI/Anthropic/Gemini/DeepSeek/智譜/Kimi/Grok/Ollama 及 Dify/Coze/百煉 Agent 平台;插件叫「Star」,插件市場 1000+ 個一鍵裝;內建原生 Agent + MCP + 函式呼叫 + Anthropic 風格 Skills + Agent Sandbox(Docker 隔離跑程式碼)+ 混合式 RAG 知識庫 + STT/TTS 多模態 + Vue WebUI。uv/Docker/一鍵雲端都能裝,資料庫用 SQLite+FAISS |
+| 2026-08-27 | [Agenvoy](../agenvoy.md) | 自架單一 Go binary 的個人 AI Agent harness:缺工具時「自己寫一個」而非停手,sandbox 測試後存進共用工具庫,再透過 MCP 分享給 Claude Code / Codex 等 agent;同時是 TUI + 本機 daemon + MCP server/client。台灣 Pardn Chiu 個人專案,6.5 個月 1,015 commits / 182 releases |
+| 2026-08-07 | [Building Applications with AI Agents](../building-applications-with-ai-agents.md) | O'Reilly《Building Applications with AI Agents》書籍配套碼:把「同一批企業場景」用 LangGraph / LangChain / Autogen / OpenAI 四種框架平行實作,再套上共用評測（LLM judge + drift 偵測）、可觀測性（Loki + Tempo）、fine-tuning（SFT/DPO/RLVR/GRPO）與三種分散式多 agent runtime（Ray / Redis Streams / Temporal） |
 | 2026-08-06 | [qm](../qm.md) | Y Combinator 出品的『multiplayer agent harness for work』：每位員工/每個房間各有隔離的 memory·檔案·keychain·sandbox，在 Slack 與 web 協作；harness 無關(Pi/Codex/Claude Code/OpenCode 同一核心)、可自架 |
 | 2026-07-28 | [crewAI-examples](../crewai-examples.md) | CrewAI 官方 30 個完整範例（16 crews + 6 flows + 3 integrations + 5 notebooks），新舊兩代專案骨架並存可直接對照框架演進；但安全性做過一輪硬化、功能正確性沒有——stock_analysis 有重複方法、寫死 AMZN、README 與程式碼互相矛盾，SEC 工具的正則還會把財報數字的小數點和負號洗掉 |
 | 2026-07-27 | [Bring Your Own Agent (BYOA Core)](../bring-your-own-agent.md) | 台灣單人開發者用 5.5 週、90 commits 從零重建一套 Claude Code 等級的 agent harness（兩階段 compact、subagent 防遞迴、skill 漸進式載入、tool result 分頁、多 provider gateway），全繁中、Gherkin 規格先行、附 13 個 SWE eval task 量化每次 prompt 改動——0 star 但是最好讀的 harness 解剖圖 |

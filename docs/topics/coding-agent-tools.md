@@ -1,9 +1,16 @@
 # Coding Agent 工具
 
-本分類收錄 77 篇研究筆記。
+本分類收錄 84 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-09-16 | [Argus](../argus.md) | 台灣開發者 nathawu 寫的「確認優先（Confirm-First）」閘門外掛，同時支援 Claude Code 與 OpenAI Codex——AI 先用白話文覆述最多 5 點需求重點（自己補的假設要標「（假設）」），你按下「正確，開始執行」之前，PreToolUse hook 硬性擋掉除提問工具外的所有工具呼叫。實作只有 148 行核心 + 83 行 Codex adapter，測試卻有 487 行（33 個 case，實測 32 pass / 1 skip）。設計上刻意 fail-open：hook 自己出錯就放行，絕不卡住正常使用。目前 5★、3 個 commit、**沒有 LICENSE 檔** |
+| 2026-09-10 | [dashi-taskboard](../dashi-taskboard.md) | chuspeeism 出的『Codex Taskboard』:一個 local-first 的議題看板(七狀態 kanban + 三欄消費者視圖),同一套本機 HTTP API 同時餵 React UI 跟 taskctl CLI。招牌是『嵌進 coding agent 桌面 app 裡面』——用 CDP 注入把看板塞進 Codex(ChatGPT.app)側邊欄當 OOPIF,或用一個真正的 Cordis 插件(pnpm dsh plugin)塞進 DeepSeek Harness。附 bundled Codex Skill(manage-taskboard)讓 agent 自己搬卡、驗收、等你點頭才 done。Tauri 打包 macOS/Windows/Linux 桌面 app,自帶 Node runtime;Apache-2.0。注意:repo 叫 dashi-taskboard 但產品叫 Codex Taskboard,dsh 是 DeepSeek Harness 的 CLI 不是 Dashi 品牌 |
+| 2026-09-10 | [dashi-ppt-skill](../dashi-ppt-skill.md) | 中國「大师的AI小灶」出品的 Claude / Codex Agent Skill:把一份文件丟給 agent,先整理成 goal.json 計畫,再用內建 React 生成器(非 reveal/Marp/Slidev)輸出 12 套視覺主題、可離線打開的 HTML 簡報。招牌是『產物即編輯器』——每頁自帶控制台(滑桿調模組數/換版式/換配色)+ 文字就地編輯 + 拖曳換圖,改動即時存回 index.html;能一鍵匯出 HTML 離線包、截圖式 PDF、與『逐節點保真、文字仍可編輯(無 OCR)』的真 PPTX。整包 AGPL-3.0、但導出引擎是專有授權;內容零上傳、本機優先;簡體介面 + 中英雙語編輯器,惟未內建 CJK 字型(靠系統字型) |
+| 2026-09-07 | [humanlayer/skills](../humanlayer-skills.md) | YC 新創 HumanLayer(12-factor agents、Advanced Context Engineering、CodeLayer 的同一批人)公開的 5 個 Claude Code plugin。不是大雜燴 skill 包,而是把自家「context engineering」哲學做成可安裝範本:improve-claude-md 用 `<important if>` 區塊救 CLAUDE.md、narrow-react-prop-types 收窄 React prop 型別、show-me 最小視覺化解說,以及兩個招牌——build-iterated-agentic-loop 與 design-control-loop,用控制理論(sensor/controller/actuator)幫你蓋出「排程跑、每次只開一個 PR、人站在迴圈外掌舵」的自動化 coding agent。每個 plugin 只包一個 skill,repo 本身就是一個 Claude Code marketplace,也能 npx skills add |
+| 2026-09-03 | [diagram-design](../diagram-design.md) | BestSelf Co 創辦人 Cathryn Lavery 開發、4.5 個月衝上 ~29.8k 星的跨 agent Claude 圖表 Skill(plugin):不產 Mermaid/Excalidraw,而是把『編輯設計品味』編碼成可執行規則(刪除哲學、4px grid、單一 accent、六條連線鐵律、anti-AI-slop 清單)產出自帶 inline-SVG 的單一 HTML。39 種圖表 × light/dark/full,可從網址套品牌、redraw draw.io/Mermaid、Playwright 匯出 PNG,跨平台幾何/像素級 CI |
+| 2026-09-03 | [slide-deck-skill](../slide-deck-skill.md) | 台灣林亞澤打造的 Claude Agent Skill:從零手刻的 16:9 純網頁(HTML/CSS/原生 JS)簡報系統,非 Marp/Slidev/reveal.js。內建雙螢幕講者主控台 + 手機無線遙控(雷射筆/螢光筆,走 Cloudflare Worker 或離線區網)+ PACE 超時變紅計時器 + Playwright 驗收(頁數=備註契約、排版溢出偵測)+ 16:9/A4 PDF 匯出。繁中優先 |
+| 2026-08-18 | [OpenSlideX](../open-slidex.md) | 本機優先的可編輯簡報 workspace，以 presentation.mdx 為單一真相源，內建 5 個 MCP workspace tool + 4 個專案內 Agent Skills，讓 Claude Code / Codex 用 revision-safe 的方式改 deck |
 | 2026-08-06 | [mattpocock/skills](../mattpocock-skills.md) | Matt Pocock (Total TypeScript) 把每天用的 agent skills 整理成「real engineering 而非 vibe coding」工具箱：grill-with-docs / tdd / diagnosing-bugs / improve-codebase-architecture，半年衝到 205k stars |
 | 2026-08-04 | [Headroom](../headroom.md) | AI Agent 的 context 壓縮層：在 tool 輸出、log、RAG chunk 進入 LLM 前壓縮，JSON 省 60–95%、coding agent 省 15–20%，且可逆還原 |
 | 2026-07-27 | [i-have-adhd](../i-have-adhd.md) | 6.8KB 的 10 條輸出規則讓 coding agent 停止把答案埋在廢話裡（動作優先、步驟編號、砍掉「Hope this helps!」），2.5 個月 10.6k stars；真正值得抄的是它把一段 prompt 包成有 eval harness、release gate、8 平台安裝指南的工程專案 |

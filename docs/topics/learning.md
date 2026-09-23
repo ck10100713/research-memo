@@ -1,9 +1,15 @@
 # 學習資源
 
-本分類收錄 21 篇研究筆記。
+本分類收錄 27 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-09-23 | [AI Engineering Interview Questions Company Wise](../ai-engineering-interview-questions-company-wise.md) | Outcome School 整理的 AI 工程師面試題庫，按 35 家公司分區(Anthropic、OpenAI、Cursor、Palantir…)，每家附面試流程；約 600 題、四成附答案，但答案全連回作者自家部落格，題目也沒標出處 |
+| 2026-09-16 | [ccc115a/se `_more/mybook` 三本書](../ccc115a-se-mybook.md) | 金門大學資工系陳鍾誠教授 115 學年上學期《現代軟體工程》課程 repo（MIT、30★）裡藏的 `_more/mybook`——三本各自寫完整的繁體中文技術書草稿，共 216 個分節 Markdown、約 198K 漢字、256 個 mermaid 圖：《現代軟體工程：從基礎到 AI Agent 實踐》（87 節，三篇 14 章 + 附錄 ABC，明講參考李博杰 agent-book）、《演進式架構實戰》（75 節，用淘寶 14 次架構演進當問題驅動主線）、《從 Docker 到 Kubernetes：Rust × WebSocket/SSR/MPA 實戰》（46 節）。每節一檔、靠 README 當目錄，本筆記附上把它們合併成單一本書的方法與腳本 |
+| 2026-09-15 | [《深入理解 AI Infra》(ai-infra-book)](../ai-infra-book.md) | 李博杰《深入理解 AI Agent》的姊妹作《深入理解 AI Infra：量化分析與系統設計》——開站 3.5 週 2.6K★、Apache-2.0 全書開源。核心命題：模型成了 LLM 時代的作業系統，AI Infra 成了 LLM 時代的計算機體系結構。方法論明著對標《計算機體系結構：量化研究方法》，12 章都從硬體約束量化推導系統設計，全書追問同五個問題：搬什麼、搬多少、搬幾次、經過哪裡、誰必須等它。附一個只靠 Python 標準庫、不用 GPU 就能複算全書數字的 CLI |
+| 2026-09-15 | [MiniMind](../minimind.md) | 61K★、Apache-2.0 的「從 0 訓練一個小 LLM」教學專案——單張 3090、約 2.3 小時、約 3 塊人民幣就能把 64M 參數的 minimind-3 從預訓練練到會對話。關鍵訓練演算法與核心模組全部從 0 實現不依賴框架封裝，但結構對齊 Qwen3 生態、可轉 transformers/llama.cpp/ollama。涵蓋 Pretrain→SFT→LoRA→DPO→RLAIF(PPO/GRPO/CISPO)→Tool Use→Agentic RL 完整鏈路 |
+| 2026-09-11 | [《深入理解 AI Agent》(ai-agent-book)](../ai-agent-book.md) | 前華為『天才少年』、Pine AI 首席科學家李博杰寫的《深入理解 AI Agent:設計原理與工程實踐》——45.7K★、Apache-2.0『整本書免費開源』(正文 + PDF/EPUB + 109 個配套實驗全放 GitHub)。以核心公式 Agent = LLM + 上下文 + 工具 用十章從原理講到生產:上下文工程(KV Cache/Skills/壓縮)、用戶記憶與 RAG、工具與 MCP、Coding Agent、語音/Computer Use/機器人交互、評估、模型後訓練(SFT/RL)、持續進化、multi-agent。用 whisper coding 口述式協作寫成,15 種語言,含繁體中文台灣版 |
+| 2026-08-20 | [awesome-agentic-ai-zh](../awesome-agentic-ai-zh.md) | 繁中為 canonical 的 AI Agent 學習地圖：8 階段 + 雙軌（CLI 使用者 / Agent 建構者）+ 240+ 資源策展 + 23 個動手練習，6k stars |
 | 2026-07-28 | [GenAI Agents (NirDiamant)](../genai-agents.md) | 23.5k ★、53 本可跑的 agent 教學 notebook，從對話機器人到多代理系統——但授權是「非商業限定 + 投稿者交出商業權利」的自訂條款，不是開源；且 requirements.txt 凍結在 2024-09，約三分之二內容其實是 LangGraph 應用集 |
 | 2026-06-05 | [The System Design Primer](../system-design-primer.md) | GitHub 35 萬星的系統設計入門聖經：可擴展系統原理 + 面試題解 + Anki 卡片 |
 | 2026-05-28 | [skillopt-qa](../skillopt-qa.md) | joshhu 對 Microsoft SkillOpt 的精簡忠實重現版，針對 HotpotQA 多跳問答，用 ~9 個檔案講清「文字空間優化器」全貌，含真實 Qwen3.6-27B 實驗結果（種子→優化 test F1 0.8424→0.8524），離線測試零網路 |

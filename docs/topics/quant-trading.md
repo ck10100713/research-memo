@@ -1,12 +1,15 @@
 # 量化交易
 
-本分類收錄 45 篇研究筆記。
+本分類收錄 48 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-09-15 | [CZSC（纏中說禪技術分析工具）](../czsc.md) | 纏中說禪（纏論）技術分析工具，6.2K★、2019 年至今維護六年。1.0 版把分型／筆／中樞等纏論核心演算法全部改用 Rust 重寫，透過 PyO3 以 czsc._native 暴露給 Python，底層 9 個 crate、220+ 個信號函數。定義了「信號—事件—交易」三層邏輯體系，把中文技術分析理論做成可回測的工程系統 |
+| 2026-09-15 | [反詐投資王（anti-gambling-trader-tw）](../anti-gambling-trader-tw.md) | 台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜 |
+| 2026-09-14 | [AutoHedge](../autohedge.md) | The Swarm Corporation 的「自主對沖基金 Agent」——6.1K★、Director→Quant→Risk→Execution 四 Agent + Solana 真單執行。但實際讀 code：整包約 22 KB Python、一半是 prompt 字串（還有一半是死的），會簽 Solana 交易的 execute_trade 沒接到任何 agent 上，.env 寫的私鑰變數名跟程式讀的不一樣，18 個 CI workflow 指向不存在的 tests/，repo 裡躺著 37 MB 時間戳壞掉的假交易紀錄，主線 2026-02 後停更。是「README 遠大於 code」的教材級案例 |
+| 2026-09-14 | [Vibe-Trading（HKUDS）](../vibe-trading.md) | HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 90 skill / 107 agent tool / 462 alpha / 10 回測引擎 / 18 家券商，安全設計靠結構性 paper/live 護欄而非 config flag，另有一道 grounding gate 擋住模型沒抓過就講出來的數字。約 155 位貢獻者、每天合 5–8 個 PR。2026-09 已 33K★、v0.1.15 |
 | 2026-08-06 | [GS Quant（gs-quant）](../gs-quant.md) | Goldman Sachs 官方量化金融 Python 工具包：把 GS 自家衍生品定價／風險引擎、跨資產回測、時間序列分析包成統一 API；近期加碼官方 MCP server 與 agent skills |
 | 2026-07-28 | [StockAgent](../stockagent.md) | ACM TIST 論文的官方實作：用 LLM 多代理模擬股市，刻意不餵歷史行情以避開 test set leakage；核心結論是「換一個 LLM 就換一種市場」——GPT 交易少但單量大、個體分散，Gemini 頻繁交易且群體高度趨同。程式碼有多處已驗證的落差，預設參數下所有事件都不會觸發 |
-| 2026-07-24 | [Vibe-Trading（HKUDS）](../vibe-trading.md) | HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 88 skill / 462 alpha / 8 回測引擎，安全設計靠結構性 paper/live 護欄而非 config flag |
 | 2026-05-19 | [Daily Stock Analysis](../daily-stock-analysis.md) | ZhuLinsen 用 GitHub Actions 跑零成本 A/H/美股 LLM 智能分析，37k stars、多 LLM + 多新聞源 + 多通知頻道、15 內建策略 + Agent 問股，工作日 18:00 自動推「決策仪表盘」 |
 | 2026-05-19 | [QuantDinger](../quantdinger.md) | brokermr810 自架式 AI 量化交易作業系統，一個 Docker Compose 串聯 AI 研究/Python 策略/回測/實盤(crypto+IBKR+MT5+Alpaca)，Agent Gateway + MCP，內建 USDT 計費可變 SaaS |
 | 2026-05-15 | [Fincept Terminal](../fincept-terminal.md) | Fincept Corp 開源 Bloomberg-style 金融終端，C++20 + Qt6 + 嵌入式 Python，37 AI agents（巴菲特/葛拉漢/林區...）、100+ 資料源、16 券商整合，21k stars / AGPL-3.0 |
