@@ -108,7 +108,6 @@ nav:
       - OpenClaw: openclaw.md
       - Page Agent: page-agent.md
       - Paperclip: paperclip.md
-      - Ponytail: ponytail.md
       - Project Golem: project-golem.md
       - qm（YC multiplayer agent harness）: qm.md
       - SkillOpt: skillopt.md
@@ -144,6 +143,7 @@ nav:
       - Claude for Financial Services: claude-financial-services-plugins.md
       - Agency Agents: agency-agents.md
       - Andrej Karpathy Skills: andrej-karpathy-skills.md
+      - Ponytail: ponytail.md
       - Asgard Skills: asgard-skills.md
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
