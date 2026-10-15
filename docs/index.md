@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">251</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">252</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-09-23</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-10-15</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -104,7 +104,7 @@
 
     ---
 
-    27 篇筆記
+    28 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/learning.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-chart-bell-curve:{{ .lg .middle }} **Awesome Quant Interview**
+
+    ---
+
+    `2026-10-15` 前私募 QR 寫的簡中 Quant Research 面試筆記：55 題八股文全附答案，加上項目復盤 8 問、策略方向論文清單和工具書單；內容紮實，但有幾處文獻張冠李戴、一個資訊洩漏例子寫錯
+
+    [:octicons-arrow-right-24: 閱讀筆記](awesome-quant-interview.md)
 
 -   :material-account-tie-voice:{{ .lg .middle }} **AI Engineering Interview Questions Company Wise**
 
@@ -245,14 +253,6 @@
     `2026-09-10` chuspeeism 出的『Codex Taskboard』:一個 local-first 的議題看板(七狀態 kanban + 三欄消費者視圖),同一套本機 HTTP API 同時餵 React UI 跟 taskctl CLI。招牌是『嵌進 coding agent 桌面 app 裡面』——用 CDP 注入把看板塞進 Codex(ChatGPT.app)側邊欄當 OOPIF,或用一個真正的 Cordis 插件(pnpm dsh plugin)塞進 DeepSeek Harness。附 bundled Codex Skill(manage-taskboard)讓 agent 自己搬卡、驗收、等你點頭才 done。Tauri 打包 macOS/Windows/Linux 桌面 app,自帶 Node runtime;Apache-2.0。注意:repo 叫 dashi-taskboard 但產品叫 Codex Taskboard,dsh 是 DeepSeek Harness 的 CLI 不是 Dashi 品牌
 
     [:octicons-arrow-right-24: 閱讀筆記](dashi-taskboard.md)
-
--   :material-forum-outline:{{ .lg .middle }} **LangBot**
-
-    ---
-
-    `2026-09-09` 跟 AstrBot 同賽道的自架多平台 LLM IM 機器人平台(17.7K stars、Python、Apache-2.0),前身是 2022 年的 QChatGPT(mirai QQ bot),2024-11 的 v3.4.0 移除 Mirai、加 WebUI 後正式改名 LangBot。一套後端接 QQ/微信/企微/飛書/釘釘/Discord/Telegram/Slack/LINE/KOOK/Matrix;LLM 從 OpenAI/Anthropic/Gemini/DeepSeek/智譜/Kimi/Grok/Ollama 到一票聚合平台;最大特色是能把整段對話丟給 Dify/Coze/n8n/Langflow/DeerFlow/WeKnora/百煉/螞蟻TBox 當外部大腦(runner),插件跑在獨立 Plugin Runtime 進程(SDK 隔離),沙盒用 Box Runtime(nsjail/e2b),向量庫支援 6 種、資料庫可 PostgreSQL,還內建 /mcp server + 倉庫內 skills 讓 coding agent 直接操作機器人本身。Web 前端是 React(Vite),不是 AstrBot 的 Vue
-
-    [:octicons-arrow-right-24: 閱讀筆記](langbot.md)
 
 </div>
 

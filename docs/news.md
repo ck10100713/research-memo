@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-10-15 | 學習資源 | [Awesome Quant Interview](awesome-quant-interview.md) |
 | 2026-09-23 | 學習資源 | [AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md) |
 | 2026-09-23 | 社群行銷 | [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md) |
 | 2026-09-18 | 軟體工程知識 | [Copilot runtime 搬到 Rust](copilot-runtime-rust-port.md) |
@@ -263,6 +264,11 @@
 ## 按年份 / 月份
 
 ### 2026 年
+
+#### 10 月
+
+- `2026-10-15` [Awesome Quant Interview](awesome-quant-interview.md)  
+  前私募 QR 寫的簡中 Quant Research 面試筆記：55 題八股文全附答案，加上項目復盤 8 問、策略方向論文清單和工具書單；內容紮實，但有幾處文獻張冠李戴、一個資訊洩漏例子寫錯
 
 #### 09 月
 
@@ -848,4 +854,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[《深入理解 AI Agent》(ai-agent-book)](ai-agent-book.md)、[《深入理解 AI Infra》(ai-infra-book)](ai-infra-book.md)、[awesome-agentic-ai-zh](awesome-agentic-ai-zh.md)、[ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[GenAI Agents (NirDiamant)](genai-agents.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[MiniMind](minimind.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[The System Design Primer](system-design-primer.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
+[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[《深入理解 AI Agent》(ai-agent-book)](ai-agent-book.md)、[《深入理解 AI Infra》(ai-infra-book)](ai-infra-book.md)、[awesome-agentic-ai-zh](awesome-agentic-ai-zh.md)、[ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[GenAI Agents (NirDiamant)](genai-agents.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md)、[Awesome Quant Interview](awesome-quant-interview.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[MiniMind](minimind.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[The System Design Primer](system-design-primer.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
