@@ -1,9 +1,10 @@
 # AI 應用
 
-本分類收錄 25 篇研究筆記。
+本分類收錄 26 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-10-22 | [Wan2GP(WanGP)](../wan2gp.md) | DeepBeepMeep 一人主導的「GPU 窮人」本機生成超級 app:從 Wan2.1 fork 起家,現在一個 Gradio 介面塞進 Wan 2.1/2.2、LTX-2.x、Hunyuan Video、MiniMax H3、Flux、Qwen Image、TTS、音樂、3D 等 277 個模型定義;靠自家 mmgp 做分塊 offload、量化與 VRAM 配置,部分模型 6 GB VRAM 就能跑。內建 Python API + MCP server + 官方 agent skill,Claude Code / Codex 可以直接當遙控器。授權從 Apache-2.0 一路改成自訂的 WanGP Community License 2.0 |
 | 2026-09-15 | [VoiceStudio](../voicestudio.md) | 29.5K★、AGPL-3.0 的「本機版 ElevenLabs」——聲音複製、聲音設計、影片配音、聽寫、轉錄、有聲書，16 個 TTS + 11 個 ASR 引擎、646 種語言，全程跑在自己機器上，不用帳號、金鑰、訂閱。Tauri v2 + React + FastAPI，預設接 loopback，內建 AudioSeal 浮水印與 MCP server。repo 本身也是 AI 輔助開發的樣本（CLAUDE.md 18KB、skills/、skills-lock.json） |
 | 2026-09-04 | [abogen](../abogen.md) | 土耳其 Deniz Şafak 的 Python 有聲書工廠:把 EPUB/PDF/txt/markdown/字幕檔丟進去,用 Kokoro-82M(82M 參數、Apache-2.0)本機 TTS 生成自然語音,並同步吐出逐句/逐字字幕(SRT/ASS/VTT)。重點不在自研模型,而在完整 pipeline——章節解析、章節標記、M4B 封面/metadata、語音混音、佇列批次、離線下載,外加可插拔 TTS 引擎架構(Kokoro + Supertonic)與 PyQt6 桌面 + Flask Web UI 雙介面;Web UI 還接了 LLM 正規化、多角色配音、Audiobookshelf 整合 |
 | 2026-09-02 | [ai-job-search](../ai-job-search.md) | 丹麥地球物理學家失業後打造、建構在 Claude Code / Agent Skills 之上的『fork 到自己機器上跑』求職框架:五維 fit 評分 + 雙硬 gate、drafter-reviewer 雙 agent、會實際編譯 PDF 並逐頁檢查版面 + ATS 文字層驗證的 CV/求職信產生流;刻意不做海投、送出由人。近 4 萬星 MIT |

@@ -291,6 +291,7 @@ nav:
       - Trend Monitor: trend-monitor.md
       - VoiceStudio（本機版 ElevenLabs）: voicestudio.md
       - tw-house-ops: tw-house-ops.md
+      - Wan2GP（低 VRAM 本機 AI 影片生成）: wan2gp.md
   - OSINT / 情報工具:
       - topics/osint.md
       - OsintRadar: osint-radar.md

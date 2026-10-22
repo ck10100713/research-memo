@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-10-22 | AI 應用 | [Wan2GP(WanGP)](wan2gp.md) |
 | 2026-10-15 | 學習資源 | [Awesome Quant Interview](awesome-quant-interview.md) |
 | 2026-09-23 | 學習資源 | [AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md) |
 | 2026-09-23 | 社群行銷 | [Open SEO Advisor（open-seo-advisor-skill）](open-seo-advisor-skill.md) |
@@ -267,6 +268,8 @@
 
 #### 10 月
 
+- `2026-10-22` [Wan2GP(WanGP)](wan2gp.md)  
+  DeepBeepMeep 一人主導的「GPU 窮人」本機生成超級 app:從 Wan2.1 fork 起家,現在一個 Gradio 介面塞進 Wan 2.1/2.2、LTX-2.x、Hunyuan Video、MiniMax H3、Flux、Qwen Image、TTS、音樂、3D 等 277 個模型定義;靠自家 mmgp 做分塊 offload、量化與 VRAM 配置,部分模型 6 GB VRAM 就能跑。內建 Python API + MCP server + 官方 agent skill,Claude Code / Codex 可以直接當遙控器。授權從 Apache-2.0 一路改成自訂的 WanGP Community License 2.0
 - `2026-10-15` [Awesome Quant Interview](awesome-quant-interview.md)  
   前私募 QR 寫的簡中 Quant Research 面試筆記：55 題八股文全附答案，加上項目復盤 8 問、策略方向論文清單和工具書單；內容紮實，但有幾處文獻張冠李戴、一個資訊洩漏例子寫錯
 
@@ -830,7 +833,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[ai-job-search](ai-job-search.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[abogen](abogen.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[Koharu](koharu.md)、[lecture-to-notes](lecture-to-notes.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[VoiceStudio](voicestudio.md)、[tw-house-ops](tw-house-ops.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[ai-job-search](ai-job-search.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[abogen](abogen.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[Koharu](koharu.md)、[lecture-to-notes](lecture-to-notes.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[VoiceStudio](voicestudio.md)、[tw-house-ops](tw-house-ops.md)、[Wan2GP(WanGP)](wan2gp.md)
 
 ### OSINT / 情報工具
 

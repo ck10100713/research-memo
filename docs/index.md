@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">252</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">253</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-10-15</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-10-22</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -56,7 +56,7 @@
 
     ---
 
-    25 篇筆記
+    26 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-movie-open-play:{{ .lg .middle }} **Wan2GP(WanGP)**
+
+    ---
+
+    `2026-10-22` DeepBeepMeep 一人主導的「GPU 窮人」本機生成超級 app:從 Wan2.1 fork 起家,現在一個 Gradio 介面塞進 Wan 2.1/2.2、LTX-2.x、Hunyuan Video、MiniMax H3、Flux、Qwen Image、TTS、音樂、3D 等 277 個模型定義;靠自家 mmgp 做分塊 offload、量化與 VRAM 配置,部分模型 6 GB VRAM 就能跑。內建 Python API + MCP server + 官方 agent skill,Claude Code / Codex 可以直接當遙控器。授權從 Apache-2.0 一路改成自訂的 WanGP Community License 2.0
+
+    [:octicons-arrow-right-24: 閱讀筆記](wan2gp.md)
 
 -   :material-chart-bell-curve:{{ .lg .middle }} **Awesome Quant Interview**
 
@@ -245,14 +253,6 @@
     `2026-09-10` 中國「大师的AI小灶」出品的 Claude / Codex Agent Skill:把一份文件丟給 agent,先整理成 goal.json 計畫,再用內建 React 生成器(非 reveal/Marp/Slidev)輸出 12 套視覺主題、可離線打開的 HTML 簡報。招牌是『產物即編輯器』——每頁自帶控制台(滑桿調模組數/換版式/換配色)+ 文字就地編輯 + 拖曳換圖,改動即時存回 index.html;能一鍵匯出 HTML 離線包、截圖式 PDF、與『逐節點保真、文字仍可編輯(無 OCR)』的真 PPTX。整包 AGPL-3.0、但導出引擎是專有授權;內容零上傳、本機優先;簡體介面 + 中英雙語編輯器,惟未內建 CJK 字型(靠系統字型)
 
     [:octicons-arrow-right-24: 閱讀筆記](dashi-ppt-skill.md)
-
--   :material-view-column:{{ .lg .middle }} **dashi-taskboard**
-
-    ---
-
-    `2026-09-10` chuspeeism 出的『Codex Taskboard』:一個 local-first 的議題看板(七狀態 kanban + 三欄消費者視圖),同一套本機 HTTP API 同時餵 React UI 跟 taskctl CLI。招牌是『嵌進 coding agent 桌面 app 裡面』——用 CDP 注入把看板塞進 Codex(ChatGPT.app)側邊欄當 OOPIF,或用一個真正的 Cordis 插件(pnpm dsh plugin)塞進 DeepSeek Harness。附 bundled Codex Skill(manage-taskboard)讓 agent 自己搬卡、驗收、等你點頭才 done。Tauri 打包 macOS/Windows/Linux 桌面 app,自帶 Node runtime;Apache-2.0。注意:repo 叫 dashi-taskboard 但產品叫 Codex Taskboard,dsh 是 DeepSeek Harness 的 CLI 不是 Dashi 品牌
-
-    [:octicons-arrow-right-24: 閱讀筆記](dashi-taskboard.md)
 
 </div>
 
