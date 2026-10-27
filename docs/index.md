@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">253</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">254</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-10-22</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-10-23</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -48,7 +48,7 @@
 
     ---
 
-    5 篇筆記
+    6 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-creative.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-palette:{{ .lg .middle }} **storytold(ArtCraft)**
+
+    ---
+
+    `2026-10-23` ArtCraft 團隊(前身是 FakeYou / vo.codes 語音生成)的 GitHub org:主力產品 ArtCraft 是「給藝術家的 IDE」,在 2D/3D 場景裡組好構圖再丟給 62 個圖像/影片/3D 模型生成;2026-09-30 起又用 AI agent 大量產出一整套純 Rust 的 clean-room 辦公/創作軟體(PhotoCraft 對標 Photoshop、WordCraft 對標 Word 等 13 個 app),PhotoCraft 三週 7.1 萬星、66 萬行 Rust、每個動作都能透過 CLI / JSON / MCP 讓 agent 操作
+
+    [:octicons-arrow-right-24: 閱讀筆記](storytold.md)
 
 -   :material-movie-open-play:{{ .lg .middle }} **Wan2GP(WanGP)**
 
@@ -245,14 +253,6 @@
     `2026-09-11` 前華為『天才少年』、Pine AI 首席科學家李博杰寫的《深入理解 AI Agent:設計原理與工程實踐》——45.7K★、Apache-2.0『整本書免費開源』(正文 + PDF/EPUB + 109 個配套實驗全放 GitHub)。以核心公式 Agent = LLM + 上下文 + 工具 用十章從原理講到生產:上下文工程(KV Cache/Skills/壓縮)、用戶記憶與 RAG、工具與 MCP、Coding Agent、語音/Computer Use/機器人交互、評估、模型後訓練(SFT/RL)、持續進化、multi-agent。用 whisper coding 口述式協作寫成,15 種語言,含繁體中文台灣版
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-agent-book.md)
-
--   :material-file-presentation-box:{{ .lg .middle }} **dashi-ppt-skill**
-
-    ---
-
-    `2026-09-10` 中國「大师的AI小灶」出品的 Claude / Codex Agent Skill:把一份文件丟給 agent,先整理成 goal.json 計畫,再用內建 React 生成器(非 reveal/Marp/Slidev)輸出 12 套視覺主題、可離線打開的 HTML 簡報。招牌是『產物即編輯器』——每頁自帶控制台(滑桿調模組數/換版式/換配色)+ 文字就地編輯 + 拖曳換圖,改動即時存回 index.html;能一鍵匯出 HTML 離線包、截圖式 PDF、與『逐節點保真、文字仍可編輯(無 OCR)』的真 PPTX。整包 AGPL-3.0、但導出引擎是專有授權;內容零上傳、本機優先;簡體介面 + 中英雙語編輯器,惟未內建 CJK 字型(靠系統字型)
-
-    [:octicons-arrow-right-24: 閱讀筆記](dashi-ppt-skill.md)
 
 </div>
 

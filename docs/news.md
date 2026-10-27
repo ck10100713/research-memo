@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-10-23 | AI 創作資源 | [storytold(ArtCraft)](storytold.md) |
 | 2026-10-22 | AI 應用 | [Wan2GP(WanGP)](wan2gp.md) |
 | 2026-10-15 | 學習資源 | [Awesome Quant Interview](awesome-quant-interview.md) |
 | 2026-09-23 | 學習資源 | [AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md) |
@@ -268,6 +269,8 @@
 
 #### 10 月
 
+- `2026-10-23` [storytold(ArtCraft)](storytold.md)  
+  ArtCraft 團隊(前身是 FakeYou / vo.codes 語音生成)的 GitHub org:主力產品 ArtCraft 是「給藝術家的 IDE」,在 2D/3D 場景裡組好構圖再丟給 62 個圖像/影片/3D 模型生成;2026-09-30 起又用 AI agent 大量產出一整套純 Rust 的 clean-room 辦公/創作軟體(PhotoCraft 對標 Photoshop、WordCraft 對標 Word 等 13 個 app),PhotoCraft 三週 7.1 萬星、66 萬行 Rust、每個動作都能透過 CLI / JSON / MCP 讓 agent 操作
 - `2026-10-22` [Wan2GP(WanGP)](wan2gp.md)  
   DeepBeepMeep 一人主導的「GPU 窮人」本機生成超級 app:從 Wan2.1 fork 起家,現在一個 Gradio 介面塞進 Wan 2.1/2.2、LTX-2.x、Hunyuan Video、MiniMax H3、Flux、Qwen Image、TTS、音樂、3D 等 277 個模型定義;靠自家 mmgp 做分塊 offload、量化與 VRAM 配置,部分模型 6 GB VRAM 就能跑。內建 Python API + MCP server + 官方 agent skill,Claude Code / Codex 可以直接當遙控器。授權從 Apache-2.0 一路改成自訂的 WanGP Community License 2.0
 - `2026-10-15` [Awesome Quant Interview](awesome-quant-interview.md)  
@@ -829,7 +832,7 @@
 
 ### AI 創作資源
 
-[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)、[video-autopilot-kit](video-autopilot-kit.md)
+[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[storytold(ArtCraft)](storytold.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)、[video-autopilot-kit](video-autopilot-kit.md)
 
 ### AI 應用
 

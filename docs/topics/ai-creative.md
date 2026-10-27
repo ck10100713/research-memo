@@ -1,9 +1,10 @@
 # AI 創作資源
 
-本分類收錄 5 篇研究筆記。
+本分類收錄 6 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-10-23 | [storytold(ArtCraft)](../storytold.md) | ArtCraft 團隊(前身是 FakeYou / vo.codes 語音生成)的 GitHub org:主力產品 ArtCraft 是「給藝術家的 IDE」,在 2D/3D 場景裡組好構圖再丟給 62 個圖像/影片/3D 模型生成;2026-09-30 起又用 AI agent 大量產出一整套純 Rust 的 clean-room 辦公/創作軟體(PhotoCraft 對標 Photoshop、WordCraft 對標 Word 等 13 個 app),PhotoCraft 三週 7.1 萬星、66 萬行 Rust、每個動作都能透過 CLI / JSON / MCP 讓 agent 操作 |
 | 2026-07-20 | [video-autopilot-kit](../video-autopilot-kit.md) | 填問卷變成你的系統 — YouTube/短影音自動化框架，ffmpeg pipeline + CapCut 自動化，零私人數據 |
 | 2026-06-11 | [Open Design](../open-design.md) | 本地優先、開源的 Claude Design 替代品：原生桌面 app，不自帶 agent——用你 PATH 上既有的 Claude Code/Codex/Cursor 等 21 種 CLI 當設計引擎，讀 DESIGN.md 品牌契約串出網頁/簡報/圖/影片，支援 HTML/PDF/PPTX/MP4 匯出，Apache-2.0，兩週衝破 6 萬星 |
 | 2026-04-15 | [Awesome Design Systems](../awesome-design-systems.md) | 200+ 全球企業設計系統精選清單 — Google Material、Apple HIG、Shopify Polaris 到各國政府 |
