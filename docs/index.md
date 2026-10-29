@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">254</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">257</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-10-23</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-10-28</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    85 篇筆記
+    86 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -32,7 +32,7 @@
 
     ---
 
-    48 篇筆記
+    49 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/quant-trading.md)
 
@@ -104,7 +104,7 @@
 
     ---
 
-    28 篇筆記
+    29 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/learning.md)
 
@@ -117,6 +117,30 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-timer-sand:{{ .lg .middle }} **hftbacktest**
+
+    ---
+
+    `2026-10-28` nkaz001 的高頻交易 / 造市回測框架:用逐筆 L2/L3 訂單簿重建市場,模擬掛單在佇列中的位置、行情與下單兩種延遲,讓回測結果盡量對得上實盤;Rust 核心 + Python(Numba njit)介面,同一份 Rust 策略能直接接 Binance Futures / Bybit 實盤。5k★、MIT,但 master 自 2025-12 後沒有新 commit
+
+    [:octicons-arrow-right-24: 閱讀筆記](hftbacktest.md)
+
+-   :material-crown-outline:{{ .lg .middle }} **poteto-mode(pstack)**
+
+    ---
+
+    `2026-10-28` Lauren Tan(@poteto,React core、Cursor)的 pstack plugin 入口 skill:一句 /poteto-mode 把任務對到 23 份 playbook 之一、步驟原文抄成 todolist,主控只負責設計 / 審查 / 驗證,實作派給 subagent;配 24 條 principle skill、多模型對抗審查(只收跑得出失敗的 finding)、能實驗就不問人。Cursor 原生,Claude Code 有官方對照表,社群另有多個移植版
+
+    [:octicons-arrow-right-24: 閱讀筆記](poteto-mode.md)
+
+-   :material-scale-balance:{{ .lg .middle }} **HowToLiveBetter(高性价比人生指南)**
+
+    ---
+
+    `2026-10-27` 簡中《高性价比人生指南》:34 節 767 條人生建議(健康、急救、省錢、法律紅線、勞保醫保、婚育、創業合規),每條寫明成本、收益、證據等級 A/B/C 和原始文獻;純 Markdown 當資料庫,靜態檢索頁 + CI 檢查寫作規範,附一個讓 Claude Code 照書回答的 skill。兩個月 7 萬星,法規部分只適用中國大陸
+
+    [:octicons-arrow-right-24: 閱讀筆記](howtolivebetter.md)
 
 -   :material-palette:{{ .lg .middle }} **storytold(ArtCraft)**
 
@@ -229,30 +253,6 @@
     `2026-09-15` 61K★、Apache-2.0 的「從 0 訓練一個小 LLM」教學專案——單張 3090、約 2.3 小時、約 3 塊人民幣就能把 64M 參數的 minimind-3 從預訓練練到會對話。關鍵訓練演算法與核心模組全部從 0 實現不依賴框架封裝，但結構對齊 Qwen3 生態、可轉 transformers/llama.cpp/ollama。涵蓋 Pretrain→SFT→LoRA→DPO→RLAIF(PPO/GRPO/CISPO)→Tool Use→Agentic RL 完整鏈路
 
     [:octicons-arrow-right-24: 閱讀筆記](minimind.md)
-
--   :material-bee:{{ .lg .middle }} **AutoHedge**
-
-    ---
-
-    `2026-09-14` The Swarm Corporation 的「自主對沖基金 Agent」——6.1K★、Director→Quant→Risk→Execution 四 Agent + Solana 真單執行。但實際讀 code：整包約 22 KB Python、一半是 prompt 字串（還有一半是死的），會簽 Solana 交易的 execute_trade 沒接到任何 agent 上，.env 寫的私鑰變數名跟程式讀的不一樣，18 個 CI workflow 指向不存在的 tests/，repo 裡躺著 37 MB 時間戳壞掉的假交易紀錄，主線 2026-02 後停更。是「README 遠大於 code」的教材級案例
-
-    [:octicons-arrow-right-24: 閱讀筆記](autohedge.md)
-
--   :material-robot-happy:{{ .lg .middle }} **Vibe-Trading（HKUDS）**
-
-    ---
-
-    `2026-09-14` HKUDS 的『個人交易 Agent』——pip 一行裝起，自然語言驅動 90 skill / 107 agent tool / 462 alpha / 10 回測引擎 / 18 家券商，安全設計靠結構性 paper/live 護欄而非 config flag，另有一道 grounding gate 擋住模型沒抓過就講出來的數字。約 155 位貢獻者、每天合 5–8 個 PR。2026-09 已 33K★、v0.1.15
-
-    [:octicons-arrow-right-24: 閱讀筆記](vibe-trading.md)
-
--   :material-book-open-page-variant:{{ .lg .middle }} **《深入理解 AI Agent》(ai-agent-book)**
-
-    ---
-
-    `2026-09-11` 前華為『天才少年』、Pine AI 首席科學家李博杰寫的《深入理解 AI Agent:設計原理與工程實踐》——45.7K★、Apache-2.0『整本書免費開源』(正文 + PDF/EPUB + 109 個配套實驗全放 GitHub)。以核心公式 Agent = LLM + 上下文 + 工具 用十章從原理講到生產:上下文工程(KV Cache/Skills/壓縮)、用戶記憶與 RAG、工具與 MCP、Coding Agent、語音/Computer Use/機器人交互、評估、模型後訓練(SFT/RL)、持續進化、multi-agent。用 whisper coding 口述式協作寫成,15 種語言,含繁體中文台灣版
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-agent-book.md)
 
 </div>
 

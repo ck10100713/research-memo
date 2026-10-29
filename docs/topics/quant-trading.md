@@ -1,9 +1,10 @@
 # 量化交易
 
-本分類收錄 48 篇研究筆記。
+本分類收錄 49 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-10-28 | [hftbacktest](../hftbacktest.md) | nkaz001 的高頻交易 / 造市回測框架:用逐筆 L2/L3 訂單簿重建市場,模擬掛單在佇列中的位置、行情與下單兩種延遲,讓回測結果盡量對得上實盤;Rust 核心 + Python(Numba njit)介面,同一份 Rust 策略能直接接 Binance Futures / Bybit 實盤。5k★、MIT,但 master 自 2025-12 後沒有新 commit |
 | 2026-09-15 | [CZSC（纏中說禪技術分析工具）](../czsc.md) | 纏中說禪（纏論）技術分析工具，6.2K★、2019 年至今維護六年。1.0 版把分型／筆／中樞等纏論核心演算法全部改用 Rust 重寫，透過 PyO3 以 czsc._native 暴露給 Python，底層 9 個 crate、220+ 個信號函數。定義了「信號—事件—交易」三層邏輯體系，把中文技術分析理論做成可回測的工程系統 |
 | 2026-09-15 | [反詐投資王（anti-gambling-trader-tw）](../anti-gambling-trader-tw.md) | 台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜 |
 | 2026-09-14 | [AutoHedge](../autohedge.md) | The Swarm Corporation 的「自主對沖基金 Agent」——6.1K★、Director→Quant→Risk→Execution 四 Agent + Solana 真單執行。但實際讀 code：整包約 22 KB Python、一半是 prompt 字串（還有一半是死的），會簽 Solana 交易的 execute_trade 沒接到任何 agent 上，.env 寫的私鑰變數名跟程式讀的不一樣，18 個 CI workflow 指向不存在的 tests/，repo 裡躺著 37 MB 時間戳壞掉的假交易紀錄，主線 2026-02 後停更。是「README 遠大於 code」的教材級案例 |

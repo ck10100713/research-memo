@@ -144,6 +144,7 @@ nav:
       - Agency Agents: agency-agents.md
       - Andrej Karpathy Skills: andrej-karpathy-skills.md
       - Ponytail: ponytail.md
+      - poteto-mode（pstack 工程流程 skill）: poteto-mode.md
       - Asgard Skills: asgard-skills.md
       - Difftastic: difftastic.md
       - Claude HUD: claude-hud.md
@@ -228,6 +229,7 @@ nav:
       - Positive Solutions of Delay Equation: positive-solutions-delay-equation.md
       - Frequency-Based Optimal Portfolio with Costs: frequency-based-optimal-portfolio-costs.md
       - GS Quant（Goldman Sachs 量化工具包）: gs-quant.md
+      - hftbacktest（高頻 / 造市回測）: hftbacktest.md
       - Jump Start Stock Trading Tutorial: jump-start-stock-trading-tutorial.md
       - Kronos: kronos.md
       - NOFX: nofx.md
@@ -347,6 +349,7 @@ nav:
       - AI Engineering from Scratch: ai-engineering-from-scratch.md
       - AI 工程面試題庫（按公司分）: ai-engineering-interview-questions-company-wise.md
       - Awesome Quant Interview（量化 QR 面試筆記）: awesome-quant-interview.md
+      - HowToLiveBetter（高性价比人生指南）: howtolivebetter.md
       - dotLLM: dotllm.md
       - Learn Claude Code: learn-claude-code.md
       - LLM Course: llm-course.md

@@ -1,9 +1,10 @@
 # 學習資源
 
-本分類收錄 28 篇研究筆記。
+本分類收錄 29 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-10-27 | [HowToLiveBetter(高性价比人生指南)](../howtolivebetter.md) | 簡中《高性价比人生指南》:34 節 767 條人生建議(健康、急救、省錢、法律紅線、勞保醫保、婚育、創業合規),每條寫明成本、收益、證據等級 A/B/C 和原始文獻;純 Markdown 當資料庫,靜態檢索頁 + CI 檢查寫作規範,附一個讓 Claude Code 照書回答的 skill。兩個月 7 萬星,法規部分只適用中國大陸 |
 | 2026-10-15 | [Awesome Quant Interview](../awesome-quant-interview.md) | 前私募 QR 寫的簡中 Quant Research 面試筆記：55 題八股文全附答案，加上項目復盤 8 問、策略方向論文清單和工具書單；內容紮實，但有幾處文獻張冠李戴、一個資訊洩漏例子寫錯 |
 | 2026-09-23 | [AI Engineering Interview Questions Company Wise](../ai-engineering-interview-questions-company-wise.md) | Outcome School 整理的 AI 工程師面試題庫，按 35 家公司分區(Anthropic、OpenAI、Cursor、Palantir…)，每家附面試流程；約 600 題、四成附答案，但答案全連回作者自家部落格，題目也沒標出處 |
 | 2026-09-16 | [ccc115a/se `_more/mybook` 三本書](../ccc115a-se-mybook.md) | 金門大學資工系陳鍾誠教授 115 學年上學期《現代軟體工程》課程 repo（MIT、30★）裡藏的 `_more/mybook`——三本各自寫完整的繁體中文技術書草稿，共 216 個分節 Markdown、約 198K 漢字、256 個 mermaid 圖：《現代軟體工程：從基礎到 AI Agent 實踐》（87 節，三篇 14 章 + 附錄 ABC，明講參考李博杰 agent-book）、《演進式架構實戰》（75 節，用淘寶 14 次架構演進當問題驅動主線）、《從 Docker 到 Kubernetes：Rust × WebSocket/SSR/MPA 實戰》（46 節）。每節一檔、靠 README 當目錄，本筆記附上把它們合併成單一本書的方法與腳本 |
