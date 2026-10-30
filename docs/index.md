@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">257</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">258</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-10-28</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-10-30</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    86 篇筆記
+    87 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-broom:{{ .lg .middle }} **ub-mode**
+
+    ---
+
+    `2026-10-30` Uncle Bob(Robert C. Martin)把 poteto-mode 的原則砍到只剩一份約 140 行的 SKILL.md:Make it Work → Make it Right → Practice 三段,每條原則壓成兩三句祈使句,並強制 TDD;最大差異是把『寫得好不好』交給自己寫的三個確定性工具把關(crapper 的 CRAP < 10、dryer 的重複度 < 0.8、mutator 的突變測試)。5 天 4.8k★,但 repo 沒有授權檔
+
+    [:octicons-arrow-right-24: 閱讀筆記](ub-mode.md)
 
 -   :material-timer-sand:{{ .lg .middle }} **hftbacktest**
 
@@ -245,14 +253,6 @@
     `2026-09-15` 台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜
 
     [:octicons-arrow-right-24: 閱讀筆記](anti-gambling-trader-tw.md)
-
--   :material-brain:{{ .lg .middle }} **MiniMind**
-
-    ---
-
-    `2026-09-15` 61K★、Apache-2.0 的「從 0 訓練一個小 LLM」教學專案——單張 3090、約 2.3 小時、約 3 塊人民幣就能把 64M 參數的 minimind-3 從預訓練練到會對話。關鍵訓練演算法與核心模組全部從 0 實現不依賴框架封裝，但結構對齊 Qwen3 生態、可轉 transformers/llama.cpp/ollama。涵蓋 Pretrain→SFT→LoRA→DPO→RLAIF(PPO/GRPO/CISPO)→Tool Use→Agentic RL 完整鏈路
-
-    [:octicons-arrow-right-24: 閱讀筆記](minimind.md)
 
 </div>
 
