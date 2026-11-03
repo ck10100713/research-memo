@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-11-03 | AI 創作資源 | [napali](napali.md) |
 | 2026-10-30 | Coding Agent 工具 | [ub-mode](ub-mode.md) |
 | 2026-10-28 | 量化交易 | [hftbacktest](hftbacktest.md) |
 | 2026-10-28 | Coding Agent 工具 | [poteto-mode(pstack)](poteto-mode.md) |
@@ -270,6 +271,11 @@
 ## 按年份 / 月份
 
 ### 2026 年
+
+#### 11 月
+
+- `2026-11-03` [napali](napali.md)  
+  用 Claude Code(Opus 5.5)跑 13 輪 agent 做出來的 Na Pali 海岸無人機空拍,沒有任何貼圖、模型或圖片,地形侵蝕、FFT 海浪、浪花、礁岩、一棵棵 SDF 樹、體積雲全部在一個 5,273 行的 index.html 裡用 WebGL2 shader 算。做法是水/天/地形/植被各派一個 specialist 平行改、再合併、最後由 judge 對照實景照片打分。MIT,129★
 
 #### 10 月
 
@@ -844,7 +850,7 @@
 
 ### AI 創作資源
 
-[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[Open Design](open-design.md)、[storytold(ArtCraft)](storytold.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)、[video-autopilot-kit](video-autopilot-kit.md)
+[AI 圖像生成 Prompt Gallery 生態](ai-image-prompt-galleries.md)、[Awesome Design Systems](awesome-design-systems.md)、[napali](napali.md)、[Open Design](open-design.md)、[storytold(ArtCraft)](storytold.md)、[Uniform Map AI Prompts Database](uniform-map-prompts.md)、[video-autopilot-kit](video-autopilot-kit.md)
 
 ### AI 應用
 

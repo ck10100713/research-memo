@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">258</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">259</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-10-30</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-11-03</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -48,7 +48,7 @@
 
     ---
 
-    6 篇筆記
+    7 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-creative.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-image-filter-hdr:{{ .lg .middle }} **napali**
+
+    ---
+
+    `2026-11-03` 用 Claude Code(Opus 5.5)跑 13 輪 agent 做出來的 Na Pali 海岸無人機空拍,沒有任何貼圖、模型或圖片,地形侵蝕、FFT 海浪、浪花、礁岩、一棵棵 SDF 樹、體積雲全部在一個 5,273 行的 index.html 裡用 WebGL2 shader 算。做法是水/天/地形/植被各派一個 specialist 平行改、再合併、最後由 judge 對照實景照片打分。MIT,129★
+
+    [:octicons-arrow-right-24: 閱讀筆記](napali.md)
 
 -   :material-broom:{{ .lg .middle }} **ub-mode**
 
@@ -245,14 +253,6 @@
     `2026-09-15` 29.5K★、AGPL-3.0 的「本機版 ElevenLabs」——聲音複製、聲音設計、影片配音、聽寫、轉錄、有聲書，16 個 TTS + 11 個 ASR 引擎、646 種語言，全程跑在自己機器上，不用帳號、金鑰、訂閱。Tauri v2 + React + FastAPI，預設接 loopback，內建 AudioSeal 浮水印與 MCP server。repo 本身也是 AI 輔助開發的樣本（CLAUDE.md 18KB、skills/、skills-lock.json）
 
     [:octicons-arrow-right-24: 閱讀筆記](voicestudio.md)
-
--   :material-shield-alert-outline:{{ .lg .middle }} **反詐投資王（anti-gambling-trader-tw）**
-
-    ---
-
-    `2026-09-15` 台灣人做的「反詐投資王」——把交易紀錄丟進去，用期望值、t 檢定＋置中 Bootstrap、樣本外驗證判斷你的獲利是可重複的優勢還是運氣＋倖存者偏差，並內建詐騙話術掃描、假績效鑑識、假老師機率檢驗。核心引擎純 Python 標準庫零依賴、全程本機執行。最特別的是它刻意「誠實到不討喜」：五級裁決有四級是勸退，資料不完整時直接 fail closed 拒算而不是猜
-
-    [:octicons-arrow-right-24: 閱讀筆記](anti-gambling-trader-tw.md)
 
 </div>
 
