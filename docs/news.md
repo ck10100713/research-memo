@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases(agentusecases.ai)](agentusecases.md) |
 | 2026-11-03 | AI 創作資源 | [napali](napali.md) |
 | 2026-10-30 | Coding Agent 工具 | [ub-mode](ub-mode.md) |
 | 2026-10-28 | 量化交易 | [hftbacktest](hftbacktest.md) |
@@ -274,6 +275,8 @@
 
 #### 11 月
 
+- `2026-11-05` [Agent Use Cases(agentusecases.ai)](agentusecases.md)  
+  Alex Finn 經營的 AI agent 實際用例目錄,每天從網路、X、Reddit、HN 掃描,目前收錄 1,872 筆。每筆都寫了做了什麼、結果如何(包含失敗)、要注意什麼,並附一段可以直接複製的 prompt。依 28 個 agent、11 個主題、數十個具體工作分類,Claude Code 以 256 筆居冠。適合找 agent 能做什麼的靈感,但很多筆來源只有一則貼文,沒有驗證
 - `2026-11-03` [napali](napali.md)  
   用 Claude Code(Opus 5.5)跑 13 輪 agent 做出來的 Na Pali 海岸無人機空拍,沒有任何貼圖、模型或圖片,地形侵蝕、FFT 海浪、浪花、礁岩、一棵棵 SDF 樹、體積雲全部在一個 5,273 行的 index.html 裡用 WebGL2 shader 算。做法是水/天/地形/植被各派一個 specialist 平行改、再合併、最後由 judge 對照實景照片打分。MIT,129★
 
@@ -874,7 +877,7 @@
 
 ### 資源彙整 / Awesome List
 
-[awesome-data](awesome-data.md)、[Awesome Free Apps](awesome-free-apps.md)、[Awesome OpenClaw Skills](awesome-openclaw-skills.md)
+[Agent Use Cases(agentusecases.ai)](agentusecases.md)、[awesome-data](awesome-data.md)、[Awesome Free Apps](awesome-free-apps.md)、[Awesome OpenClaw Skills](awesome-openclaw-skills.md)
 
 ### 學習資源
 

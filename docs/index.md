@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">259</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">260</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-11-03</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -96,7 +96,7 @@
 
     ---
 
-    3 篇筆記
+    4 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/awesome-lists.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-lightbulb-on-outline:{{ .lg .middle }} **Agent Use Cases(agentusecases.ai)**
+
+    ---
+
+    `2026-11-05` Alex Finn 經營的 AI agent 實際用例目錄,每天從網路、X、Reddit、HN 掃描,目前收錄 1,872 筆。每筆都寫了做了什麼、結果如何(包含失敗)、要注意什麼,並附一段可以直接複製的 prompt。依 28 個 agent、11 個主題、數十個具體工作分類,Claude Code 以 256 筆居冠。適合找 agent 能做什麼的靈感,但很多筆來源只有一則貼文,沒有驗證
+
+    [:octicons-arrow-right-24: 閱讀筆記](agentusecases.md)
 
 -   :material-image-filter-hdr:{{ .lg .middle }} **napali**
 
@@ -245,14 +253,6 @@
     `2026-09-15` AKShare 作者維護的金融資料源清單——把中國與國際的開源資料工具、官方 SDK、公開資料源與商業資料庫分四類列出。697★ 但 2025-03 後就沒更新，內容偏中國市場。價值在於它是 AKShare 生態的「資料源地圖」，不在於清單本身的完整度
 
     [:octicons-arrow-right-24: 閱讀筆記](awesome-data.md)
-
--   :material-microphone-message:{{ .lg .middle }} **VoiceStudio**
-
-    ---
-
-    `2026-09-15` 29.5K★、AGPL-3.0 的「本機版 ElevenLabs」——聲音複製、聲音設計、影片配音、聽寫、轉錄、有聲書，16 個 TTS + 11 個 ASR 引擎、646 種語言，全程跑在自己機器上，不用帳號、金鑰、訂閱。Tauri v2 + React + FastAPI，預設接 loopback，內建 AudioSeal 浮水印與 MCP server。repo 本身也是 AI 輔助開發的樣本（CLAUDE.md 18KB、skills/、skills-lock.json）
-
-    [:octicons-arrow-right-24: 閱讀筆記](voicestudio.md)
 
 </div>
 
