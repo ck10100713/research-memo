@@ -287,6 +287,7 @@ nav:
       - LINE Chatbot Boilerplate: line-chatbot-boilerplate.md
       - LINE Bot Multimodal RAG (kkdai): linebot-multimodal-rag.md
       - MemPalace: mempalace.md
+      - MUSE Evidence Review Core（引文可驗證的 AI 審稿）: muse-evidence-review-core.md
       - n8n Workflows: n8n-workflows.md
       - notebooklm-py: notebooklm-py.md
       - OpenHuman: openhuman.md

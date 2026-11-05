@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">262</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">263</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -56,7 +56,7 @@
 
     ---
 
-    26 篇筆記
+    27 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/ai-apps.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-file-check-outline:{{ .lg .middle }} **MUSE Evidence Review Core**
+
+    ---
+
+    `2026-11-05` 黑客松作品：拿 Meta muse-wonder-1.0 逐句審稿，每句判 SUPPORTED / CONTRADICTED / NOT_ESTABLISHED / NEEDS_HUMAN_REVIEW，引文在本機逐字對回原文；改稿後舊審查自動變 STALE。純 Python 標準函式庫，對 API 金鑰、送出同意、網路出口的防護做得很重
+
+    [:octicons-arrow-right-24: 閱讀筆記](muse-evidence-review-core.md)
 
 -   :material-format-list-bulleted-type:{{ .lg .middle }} **Agent Use Cases 全目錄（1872 筆）**
 
@@ -245,14 +253,6 @@
     `2026-09-16` 台灣開發者 nathawu 寫的「確認優先（Confirm-First）」閘門外掛，同時支援 Claude Code 與 OpenAI Codex——AI 先用白話文覆述最多 5 點需求重點（自己補的假設要標「（假設）」），你按下「正確，開始執行」之前，PreToolUse hook 硬性擋掉除提問工具外的所有工具呼叫。實作只有 148 行核心 + 83 行 Codex adapter，測試卻有 487 行（33 個 case，實測 32 pass / 1 skip）。設計上刻意 fail-open：hook 自己出錯就放行，絕不卡住正常使用。目前 5★、3 個 commit、**沒有 LICENSE 檔**
 
     [:octicons-arrow-right-24: 閱讀筆記](argus.md)
-
--   :material-chip:{{ .lg .middle }} **《深入理解 AI Infra》(ai-infra-book)**
-
-    ---
-
-    `2026-09-15` 李博杰《深入理解 AI Agent》的姊妹作《深入理解 AI Infra：量化分析與系統設計》——開站 3.5 週 2.6K★、Apache-2.0 全書開源。核心命題：模型成了 LLM 時代的作業系統，AI Infra 成了 LLM 時代的計算機體系結構。方法論明著對標《計算機體系結構：量化研究方法》，12 章都從硬體約束量化推導系統設計，全書追問同五個問題：搬什麼、搬多少、搬幾次、經過哪裡、誰必須等它。附一個只靠 Python 標準庫、不用 GPU 就能複算全書數字的 CLI
-
-    [:octicons-arrow-right-24: 閱讀筆記](ai-infra-book.md)
 
 </div>
 

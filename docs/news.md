@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-11-05 | AI 應用 | [MUSE Evidence Review Core](muse-evidence-review-core.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md) |
 | 2026-11-05 | AI Agent 框架 | [Harness²（google-research/harness2）](harness2.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases(agentusecases.ai)](agentusecases.md) |
@@ -277,6 +278,8 @@
 
 #### 11 月
 
+- `2026-11-05` [MUSE Evidence Review Core](muse-evidence-review-core.md)  
+  黑客松作品：拿 Meta muse-wonder-1.0 逐句審稿，每句判 SUPPORTED / CONTRADICTED / NOT_ESTABLISHED / NEEDS_HUMAN_REVIEW，引文在本機逐字對回原文；改稿後舊審查自動變 STALE。純 Python 標準函式庫，對 API 金鑰、送出同意、網路出口的防護做得很重
 - `2026-11-05` [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md)  
   agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt
 - `2026-11-05` [Harness²（google-research/harness2）](harness2.md)  
@@ -863,7 +866,7 @@
 
 ### AI 應用
 
-[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[ai-job-search](ai-job-search.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[abogen](abogen.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[Koharu](koharu.md)、[lecture-to-notes](lecture-to-notes.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[VoiceStudio](voicestudio.md)、[tw-house-ops](tw-house-ops.md)、[Wan2GP(WanGP)](wan2gp.md)
+[AI 虛擬人 Widget（ai-avatar-bot）](ai-avatar-bot.md)、[ai-job-search](ai-job-search.md)、[AI Real Estate Assistant](ai-real-estate-assistant.md)、[abogen](abogen.md)、[AppFlowy — 開源 AI 協作工作區](appflowy.md)、[Cabinet — AI-First 知識庫與新創作業系統](cabinet.md)、[Career-Ops](career-ops.md)、[Deep-Live-Cam](deep-live-cam.md)、[FlyAI Skill](flyai-skill.md)、[ITA Matrix 機票搜尋引擎](ita-matrix.md)、[Koharu](koharu.md)、[lecture-to-notes](lecture-to-notes.md)、[LINE Chatbot Boilerplate](line-chatbot-boilerplate.md)、[LINE Bot Multimodal RAG (kkdai)](linebot-multimodal-rag.md)、[MemPalace](mempalace.md)、[MUSE Evidence Review Core](muse-evidence-review-core.md)、[n8n-workflows](n8n-workflows.md)、[notebooklm-py](notebooklm-py.md)、[OpenHuman](openhuman.md)、[OpenClam](openclam.md)、[OpenDataLoader PDF](opendataloader-pdf.md)、[pdf-inspector](pdf-inspector.md)、[Ramp AI Agents — $32B 公司如何讓 AI Agent 主導一切](ramp-ai-agents.md)、[Trend Monitor](trend-monitor.md)、[VoiceStudio](voicestudio.md)、[tw-house-ops](tw-house-ops.md)、[Wan2GP(WanGP)](wan2gp.md)
 
 ### OSINT / 情報工具
 
