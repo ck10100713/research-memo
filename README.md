@@ -2,7 +2,7 @@
 
 AI 與軟體工程的技術研究筆記網站，使用 MkDocs Material 建構，由 Claude Code 驅動自動化研究流程。
 
-**[https://ck10100713.github.io/research-memo/](https://ck10100713.github.io/research-memo/)**
+**[https://research-memo.pochenkuo.com/](https://research-memo.pochenkuo.com/)**
 
 ## 數據
 
