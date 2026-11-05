@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md) |
+| 2026-11-05 | AI Agent 框架 | [Harness²（google-research/harness2）](harness2.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases(agentusecases.ai)](agentusecases.md) |
 | 2026-11-03 | AI 創作資源 | [napali](napali.md) |
 | 2026-10-30 | Coding Agent 工具 | [ub-mode](ub-mode.md) |
@@ -278,6 +279,8 @@
 
 - `2026-11-05` [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md)  
   agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt
+- `2026-11-05` [Harness²（google-research/harness2）](harness2.md)  
+  Google Research 的遞迴 harness 優化框架：不動模型權重，每遇到新任務就自己改 prompt / skill / script / hook 再跑，沒有標準答案也能挑出更好的 harness，並把學到的教訓存成跨任務經驗庫
 - `2026-11-05` [Agent Use Cases(agentusecases.ai)](agentusecases.md)  
   Alex Finn 經營的 AI agent 實際用例目錄,每天從網路、X、Reddit、HN 掃描,目前收錄 1,872 筆。每筆都寫了做了什麼、結果如何(包含失敗)、要注意什麼,並附一段可以直接複製的 prompt。依 28 個 agent、11 個主題、數十個具體工作分類,Claude Code 以 256 筆居冠。適合找 agent 能做什麼的靈感,但很多筆來源只有一則貼文,沒有驗證
 - `2026-11-03` [napali](napali.md)  
@@ -840,7 +843,7 @@
 
 ### AI Agent 框架
 
-[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Agenvoy](agenvoy.md)、[AstrBot](astrbot.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[Building Applications with AI Agents](building-applications-with-ai-agents.md)、[CrewAI](crewai.md)、[crewAI-examples](crewai-examples.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangBot](langbot.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[qm](qm.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
+[Agent GoFundMe](agent-gofundme.md)、[開源 AI Agent 框架比較](open-source-agent-frameworks.md)、[AgentBnB](agentbnb.md)、[Agenvoy](agenvoy.md)、[AstrBot](astrbot.md)、[Autoresearch](autoresearch.md)、[AutoGPT](autogpt.md)、[Bring Your Own Agent (BYOA Core)](bring-your-own-agent.md)、[Building Applications with AI Agents](building-applications-with-ai-agents.md)、[CrewAI](crewai.md)、[crewAI-examples](crewai-examples.md)、[Google Agent Development Kit (ADK)](google-adk.md)、[Harness²（google-research/harness2）](harness2.md)、[OpenAI Agents SDK](openai-agents-sdk.md)、[DeerFlow](deer-flow.md)、[LangBot](langbot.md)、[LangGraph Multi-Agent Research Assistant](langgraph-multi-agent.md)、[LangGraph Supervisor](langgraph-supervisor-py.md)、[LangGraph Swarm](langgraph-swarm-py.md)、[LangChain](langchain.md)、[LangGraph State API](langgraph-state-api.md)、[LobeHub](lobehub.md)、[MiroFish](mirofish.md)、[OpenClaw（龍蝦）](openclaw.md)、[Page Agent](page-agent.md)、[Paperclip](paperclip.md)、[Project Golem](project-golem.md)、[qm](qm.md)、[SkillOpt](skillopt.md)、[Webwright](webwright.md)、[多 Agent 辯論會系統](multi-agent-debate.md)
 
 ### Coding Agent 工具
 

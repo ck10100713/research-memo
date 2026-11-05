@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">261</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">262</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -16,7 +16,7 @@
 
     ---
 
-    30 篇筆記
+    31 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-frameworks.md)
 
@@ -125,6 +125,14 @@
     `2026-11-05` agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt
 
     [:octicons-arrow-right-24: 閱讀筆記](agentusecases-catalog.md)
+
+-   :material-sync:{{ .lg .middle }} **Harness²（google-research/harness2）**
+
+    ---
+
+    `2026-11-05` Google Research 的遞迴 harness 優化框架：不動模型權重，每遇到新任務就自己改 prompt / skill / script / hook 再跑，沒有標準答案也能挑出更好的 harness，並把學到的教訓存成跨任務經驗庫
+
+    [:octicons-arrow-right-24: 閱讀筆記](harness2.md)
 
 -   :material-lightbulb-on-outline:{{ .lg .middle }} **Agent Use Cases(agentusecases.ai)**
 
@@ -245,14 +253,6 @@
     `2026-09-15` 李博杰《深入理解 AI Agent》的姊妹作《深入理解 AI Infra：量化分析與系統設計》——開站 3.5 週 2.6K★、Apache-2.0 全書開源。核心命題：模型成了 LLM 時代的作業系統，AI Infra 成了 LLM 時代的計算機體系結構。方法論明著對標《計算機體系結構：量化研究方法》，12 章都從硬體約束量化推導系統設計，全書追問同五個問題：搬什麼、搬多少、搬幾次、經過哪裡、誰必須等它。附一個只靠 Python 標準庫、不用 GPU 就能複算全書數字的 CLI
 
     [:octicons-arrow-right-24: 閱讀筆記](ai-infra-book.md)
-
--   :material-chart-timeline-variant:{{ .lg .middle }} **CZSC（纏中說禪技術分析工具）**
-
-    ---
-
-    `2026-09-15` 纏中說禪（纏論）技術分析工具，6.2K★、2019 年至今維護六年。1.0 版把分型／筆／中樞等纏論核心演算法全部改用 Rust 重寫，透過 PyO3 以 czsc._native 暴露給 Python，底層 9 個 crate、220+ 個信號函數。定義了「信號—事件—交易」三層邏輯體系，把中文技術分析理論做成可回測的工程系統
-
-    [:octicons-arrow-right-24: 閱讀筆記](czsc.md)
 
 </div>
 

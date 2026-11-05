@@ -1,9 +1,10 @@
 # AI Agent 框架
 
-本分類收錄 30 篇研究筆記。
+本分類收錄 31 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-11-05 | [Harness²（google-research/harness2）](../harness2.md) | Google Research 的遞迴 harness 優化框架：不動模型權重，每遇到新任務就自己改 prompt / skill / script / hook 再跑，沒有標準答案也能挑出更好的 harness，並把學到的教訓存成跨任務經驗庫 |
 | 2026-09-09 | [LangBot](../langbot.md) | 跟 AstrBot 同賽道的自架多平台 LLM IM 機器人平台(17.7K stars、Python、Apache-2.0),前身是 2022 年的 QChatGPT(mirai QQ bot),2024-11 的 v3.4.0 移除 Mirai、加 WebUI 後正式改名 LangBot。一套後端接 QQ/微信/企微/飛書/釘釘/Discord/Telegram/Slack/LINE/KOOK/Matrix;LLM 從 OpenAI/Anthropic/Gemini/DeepSeek/智譜/Kimi/Grok/Ollama 到一票聚合平台;最大特色是能把整段對話丟給 Dify/Coze/n8n/Langflow/DeerFlow/WeKnora/百煉/螞蟻TBox 當外部大腦(runner),插件跑在獨立 Plugin Runtime 進程(SDK 隔離),沙盒用 Box Runtime(nsjail/e2b),向量庫支援 6 種、資料庫可 PostgreSQL,還內建 /mcp server + 倉庫內 skills 讓 coding agent 直接操作機器人本身。Web 前端是 React(Vite),不是 AstrBot 的 Vue |
 | 2026-09-08 | [AstrBot](../astrbot.md) | 中國社群最紅的自架多平台 LLM 聊天機器人平台/框架(40.2K stars、Python、AGPL-3.0)。一套後端同時接 QQ/OneBot、Telegram、企業微信、飛書、釘釘、微信公眾號、Slack、Discord、LINE、KOOK 等十幾個 IM;LLM 支援 OpenAI/Anthropic/Gemini/DeepSeek/智譜/Kimi/Grok/Ollama 及 Dify/Coze/百煉 Agent 平台;插件叫「Star」,插件市場 1000+ 個一鍵裝;內建原生 Agent + MCP + 函式呼叫 + Anthropic 風格 Skills + Agent Sandbox(Docker 隔離跑程式碼)+ 混合式 RAG 知識庫 + STT/TTS 多模態 + Vue WebUI。uv/Docker/一鍵雲端都能裝,資料庫用 SQLite+FAISS |
 | 2026-08-27 | [Agenvoy](../agenvoy.md) | 自架單一 Go binary 的個人 AI Agent harness:缺工具時「自己寫一個」而非停手,sandbox 測試後存進共用工具庫,再透過 MCP 分享給 Claude Code / Codex 等 agent;同時是 TUI + 本機 daemon + MCP server/client。台灣 Pardn Chiu 個人專案,6.5 個月 1,015 commits / 182 releases |
