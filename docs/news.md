@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases(agentusecases.ai)](agentusecases.md) |
 | 2026-11-03 | AI 創作資源 | [napali](napali.md) |
 | 2026-10-30 | Coding Agent 工具 | [ub-mode](ub-mode.md) |
@@ -275,6 +276,8 @@
 
 #### 11 月
 
+- `2026-11-05` [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md)  
+  agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt
 - `2026-11-05` [Agent Use Cases(agentusecases.ai)](agentusecases.md)  
   Alex Finn 經營的 AI agent 實際用例目錄,每天從網路、X、Reddit、HN 掃描,目前收錄 1,872 筆。每筆都寫了做了什麼、結果如何(包含失敗)、要注意什麼,並附一段可以直接複製的 prompt。依 28 個 agent、11 個主題、數十個具體工作分類,Claude Code 以 256 筆居冠。適合找 agent 能做什麼的靈感,但很多筆來源只有一則貼文,沒有驗證
 - `2026-11-03` [napali](napali.md)  
@@ -877,7 +880,7 @@
 
 ### 資源彙整 / Awesome List
 
-[Agent Use Cases(agentusecases.ai)](agentusecases.md)、[awesome-data](awesome-data.md)、[Awesome Free Apps](awesome-free-apps.md)、[Awesome OpenClaw Skills](awesome-openclaw-skills.md)
+[Agent Use Cases(agentusecases.ai)](agentusecases.md)、[Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md)、[awesome-data](awesome-data.md)、[Awesome Free Apps](awesome-free-apps.md)、[Awesome OpenClaw Skills](awesome-openclaw-skills.md)
 
 ### 學習資源
 

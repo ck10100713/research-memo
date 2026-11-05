@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">260</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">261</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -96,7 +96,7 @@
 
     ---
 
-    4 篇筆記
+    5 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/awesome-lists.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-format-list-bulleted-type:{{ .lg .middle }} **Agent Use Cases 全目錄（1872 筆）**
+
+    ---
+
+    `2026-11-05` agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt
+
+    [:octicons-arrow-right-24: 閱讀筆記](agentusecases-catalog.md)
 
 -   :material-lightbulb-on-outline:{{ .lg .middle }} **Agent Use Cases(agentusecases.ai)**
 
@@ -245,14 +253,6 @@
     `2026-09-15` 纏中說禪（纏論）技術分析工具，6.2K★、2019 年至今維護六年。1.0 版把分型／筆／中樞等纏論核心演算法全部改用 Rust 重寫，透過 PyO3 以 czsc._native 暴露給 Python，底層 9 個 crate、220+ 個信號函數。定義了「信號—事件—交易」三層邏輯體系，把中文技術分析理論做成可回測的工程系統
 
     [:octicons-arrow-right-24: 閱讀筆記](czsc.md)
-
--   :material-database-search:{{ .lg .middle }} **awesome-data**
-
-    ---
-
-    `2026-09-15` AKShare 作者維護的金融資料源清單——把中國與國際的開源資料工具、官方 SDK、公開資料源與商業資料庫分四類列出。697★ 但 2025-03 後就沒更新，內容偏中國市場。價值在於它是 AKShare 生態的「資料源地圖」，不在於清單本身的完整度
-
-    [:octicons-arrow-right-24: 閱讀筆記](awesome-data.md)
 
 </div>
 

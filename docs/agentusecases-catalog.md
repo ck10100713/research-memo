@@ -1,0 +1,1930 @@
+---
+date: "2026-11-05"
+category: "資源彙整 / Awesome List"
+card_icon: "material-format-list-bulleted-type"
+oneliner: "agentusecases.ai 收錄的 1872 筆 AI agent 實際用例,翻成中文、依 11 個主題分類,每筆一句話說明做了什麼,點標題連回原頁看結果和 prompt"
+tags:
+  - ai-agents
+  - use-cases
+---
+
+# Agent Use Cases 全目錄（1872 筆）
+
+來源：<https://agentusecases.ai/>，2026-11-05 抓取，中文為翻譯。網站介紹與評價見 [Agent Use Cases 筆記](agentusecases.md)。
+
+- [錢、帳單與福利](#money-bills-benefits)（144）
+- [生活雜事與居家](#life-admin-home)（242）
+- [購物與跑腿](#shopping-errands)（118）
+- [旅遊與訂位](#travel-bookings)（120）
+- [工作與營運](#work-operations)（325）
+- [業務、行銷與客服](#sales-marketing-support)（251）
+- [研究與知識](#research-knowledge)（124）
+- [內容與創作](#content-creative)（119）
+- [軟體與 DevOps](#software-devops)（330）
+- [遊戲與模擬](#games-simulations)（58）
+- [資安、科學與硬體](#security-science-hardware)（41）
+
+## 錢、帳單與福利 { #money-bills-benefits }
+
+- **[依收款對象分類銀行對帳單以便報稅](https://agentusecases.ai/use-case/categorize-bank-statements-by-payee-for-taxes)**：一位使用者請 Hermes 把下載的每月對帳單轉成依收款對象彙總的試算表，並分類交易以便報稅。
+- **[像記帳員一樣整理個人財務](https://agentusecases.ai/use-case/clean-up-personal-finances-like-a-bookkeeper)**：一個 CPA Bot agent 登入券商和 Venmo 帳戶，下載對帳單、分類支出、比對收據，並準備好 TurboTax 修正申報的操作說明。
+- **[分析 10-K 做價值投資](https://agentusecases.ai/use-case/analyze-10-ks-for-value-investing)**：發文者正在實驗一個讀 10-K 的 LLM agent，處理標準化盈餘、ROIC、股東盈餘和粗略的反向 DCF。
+- **[分析公司申報文件做投資研究](https://agentusecases.ai/use-case/analyze-company-filings-for-investment-research)**：發文者自己下載申報文件，把分析交給 Claude Cowork，省下手動研究公司的工夫。
+- **[分流就醫、估算看診費用並談醫療帳單](https://agentusecases.ai/use-case/triage-care-estimate-visit-cost-and-negotiate-medical-bills)**：一個 app 引導人們前往適合的醫療場所，依保險估算看診費用，看診後用 AI 語音 agent 把帳單談低（僅限美國）。
+- **[取消 Adobe 訂閱且不付提前終止費](https://agentusecases.ai/use-case/cancel-adobe-subscription-without-early-termination-fee)**：發文者在客服聊天中用了 ChatGPT 建議的說法，詢問最早取消日期、費用和使用權限結束時間，順利取消 Adobe Creative Cloud 而沒有罰款。
+- **[取消 Amazon 訂閱並拿到退款](https://agentusecases.ai/use-case/cancel-an-amazon-subscription-and-get-a-refund)**：Codex 在 Amazon 設定裡操作取消訂閱，接著和客服聊天，當場拿到 15 美元退款。
+- **[取消七個訂閱並關閉帳號](https://agentusecases.ai/use-case/cancel-seven-subscriptions-and-close-the-accounts)**：一位使用者描述 AI agent 取消了七個訂閱，做法是把事情做完並關閉帳號，而不只是列出清單。
+- **[向 AT&T 談帳單抵免](https://agentusecases.ai/use-case/negotiate-a-billing-credit-from-at-t)**：Claude in Chrome 在帳單爭議中談到 AT&T 抵免 100 美元，全程沒有人介入，是測試的五個使用情境之一。
+- **[告訴印度公民他們能領哪些政府補助方案](https://agentusecases.ai/use-case/tell-indian-citizens-which-government-schemes-they-re-owed)**：一個用 Sanity 做的 agent 查詢真實內容，告訴印度民眾有資格領取哪些政府補助方案。
+- **[在 IRS 電話等候，真人接聽時通知你](https://agentusecases.ai/use-case/wait-on-hold-with-the-irs-and-alert-you-when-a-human-answers)**：一位 Pixel 使用者用 Google 的 Hold for Me 在 IRS 電話上等了 90 分鐘；助理一直留在線上，真人接起來時通知他。
+- **[在 VA 紀錄中找出支持失能申請的頁面](https://agentusecases.ai/use-case/find-supporting-pages-in-va-records-for-a-disability-claim)**：一位退伍軍人用 Gemini 掃描約 9,000 頁 VA 紀錄，找出支持申請的頁面和日期，申請約一個月就有結果。
+- **[在瀏覽器裡研究股票並更新觀察清單](https://agentusecases.ai/use-case/research-stocks-and-update-a-watchlist-in-the-browser)**：一位投資人用 Perplexity Comet 掃描自己的觀察清單，找出受美國關稅影響的瑞士公司，整理 Reddit 和市場評論，並把選股加進 Google Sheet。
+- **[填寫稅務整理表並檢查去年的申報](https://agentusecases.ai/use-case/fill-in-a-tax-organizer-and-review-last-year-s-return)**：Claude in Chrome 擷取整理表的欄位並輸入資料，Claude Code 負責填寫，Claude 則檢查前一年的申報書；它有時會在沒有資料的情況下宣稱已完成。
+- **[填寫航班延誤賠償申請表](https://agentusecases.ai/use-case/fill-in-flight-delay-compensation-claim-forms)**：agent 查清楚航班發生了什麼事，依法規算出應得的賠償，並填好航空公司的申請表，在按下送出前停住。
+- **[壓低網路費並處理報銷單](https://agentusecases.ai/use-case/lower-an-internet-bill-and-file-expense-reports)**：留言者說 Grok Bot 透過聊天把 Spectrum 費率每月談低 20 美元，並用傳給 Clerk Bot 的照片處理報銷單。
+- **[寄信請業者比照競爭對手價格來談帳單](https://agentusecases.ai/use-case/negotiate-bills-by-emailing-providers-to-match-competitors)**：一個 ChatGPT 流程從對帳單找出帳單，查詢競爭對手的價格，透過 Gmail 寄信請業者比照，並摘要結果，寄出前由使用者檢查。
+- **[寫出成功撤銷的停車罰單申訴](https://agentusecases.ai/use-case/write-a-parking-ticket-appeal-that-got-dismissed)**：發文者用 ChatGPT 起草街道清掃停車罰單的申訴信，罰單後來被撤銷。
+- **[對帳每月的商業交易](https://agentusecases.ai/use-case/reconcile-monthly-business-transactions)**：Claude Code 透過 MCP 拉出一個月的交易，把銀行資料列對上收據並提出分類建議；對完 200 列，但有 11 列分類錯誤，是手動稽核時抓到的。
+- **[對抗被拒的居家保險水損理賠](https://agentusecases.ai/use-case/fight-a-denied-home-insurance-water-damage-claim)**：發文者用 AI 研究保單和州法律，對水損承保被部分拒賠提出異議，說自己贏了。
+- **[對退休投資組合跑蒙地卡羅模擬](https://agentusecases.ai/use-case/run-monte-carlo-simulations-on-a-retirement-portfolio)**：發文者用 Claude 重建自己的退休投資組合，並把過去的熊市插入成長路徑，測試報酬順序風險。
+- **[從 1099 和券商對帳單計算美國稅金](https://agentusecases.ai/use-case/calculate-us-taxes-from-1099s-and-brokerage-statements)**：發文者看到 GPT Agent 處理稅務工作，就做了一個案例研究：ChatGPT 根據 1099、自雇者試算表和券商對帳單，準確算出美國稅金。
+- **[從 Gmail 追蹤訂閱和續約](https://agentusecases.ai/use-case/track-subscriptions-and-renewals-from-gmail)**：作者用 ChatGPT Agent 搜尋 Gmail 裡的續約 email，把服務、日期和費用整理成清單，取消訂閱前會先詢問；它還順便找到附近便宜的加油站。
+- **[從 SEC 申報文件擷取股票基本面做估值](https://agentusecases.ai/use-case/pull-stock-fundamentals-from-sec-filings-for-valuation)**：一位開發者用 ChatGPT Agent mode 從 10-Q 擷取營收成長、自由現金流和淨現金並附上來源網址，餵給多 agent 的估值與情緒分析流程。
+- **[從 email 收據盤點 AI 工具訂閱](https://agentusecases.ai/use-case/audit-ai-tool-subscriptions-from-email-receipts)**：一位測試者讓 Muse 掃描已連接的帳號和收據，列出十幾個 AI 工具訂閱並標出重疊的部分，不過它漏掉了一些帳號。
+- **[從一個文件資料夾做記帳和報稅準備](https://agentusecases.ai/use-case/do-bookkeeping-and-tax-prep-from-a-folder-of-documents)**：Cowork 整理稅務文件、做出記帳試算表、估算退稅、標出漏掉的扣除額，並替報稅人員寫了一份簡報。
+- **[從對帳單做財務規劃和退休情境](https://agentusecases.ai/use-case/build-a-financial-plan-and-retirement-scenarios-from-stateme)**：一位留言者用 Claude Code 讀資產、債務和收入的對帳單，訪談自己的目標，並派出子 agent 產出多階段行動計畫和退休情境。
+- **[從收據找出閒置的雲端費用並拿到退款](https://agentusecases.ai/use-case/find-idle-cloud-charge-in-receipts-and-get-refund)**：Muse 檢查一整年的收據，找到一個閒置的 Google Cloud 資料庫每月花 9.54 美元，並草擬後續信件，讓 114.14 美元被免除。
+- **[從舊地址找出無人認領的錢](https://agentusecases.ai/use-case/find-unclaimed-money-across-old-addresses)**：一位使用者的 AI agent 搜尋以前的地址，又找到 500 美元的無人認領款項，接著填好表單並準備身分驗證。
+- **[從記帳資料準備 S-Corp 報稅](https://agentusecases.ai/use-case/prepare-s-corp-tax-filings-from-bookkeeping-data)**：Claude Code 寫腳本解析 QuickBooks 和銀行對帳單，Codex 則檢查程式碼，抓到像 Schedule L 對應錯誤這類問題。
+- **[從資料夾準備聯邦與州的報稅](https://agentusecases.ai/use-case/prepare-federal-and-state-tax-returns-from-a-folder)**：一位 Redditor 讓 Claude 讀自己的稅務資料夾並請它報稅；他說 2024 和 2025 年的申報書 15 分鐘就出來，結果和 TurboTax 一致，但還是得郵寄。
+- **[從銀行對帳單找出定期訂閱](https://agentusecases.ai/use-case/find-recurring-subscriptions-in-bank-statements)**：Cowork 讀取一個放對帳單的資料夾，找出定期扣款，並做出儀表板，顯示有效和已取消的訂閱以及每月省下的金額。
+- **[打造自架的記帳與財務 app](https://agentusecases.ai/use-case/build-a-self-hosted-bookkeeping-and-finance-app)**：發文者花一個週末用 Claude 規劃並做出自架 app，把收據整理好交給會計師，取代付費記帳軟體。
+- **[打電話向保險公司詢問申訴進度](https://agentusecases.ai/use-case/call-insurers-for-appeal-status-updates)**：Counterforce Health 以語音控制的 agent Maxwell，設計用來聯絡保險公司詢問申訴進度；這個平台對病患和照護者免費。
+- **[打電話談帳單的慰留折扣](https://agentusecases.ai/use-case/negotiate-retention-discounts-on-bills-by-phone)**：語音 agent 替使用者打給服務業者，走過 IVR 選單、等待轉接，並談慰留折扣，遇到 OTP 驗證時會暫停。
+- **[找出埋在信箱裡的航空餐費退款 email](https://agentusecases.ai/use-case/find-airline-food-fee-reimbursement-emails-buried-in-the-inb)**：一位使用者請 Meta 的 Muse agent 處理一筆未解決的 SAS 退款；它翻遍航空公司的 email，發現餐費其實早就退了。
+- **[找出無人認領的錢並啟動申請](https://agentusecases.ai/use-case/find-unclaimed-money-and-start-the-claim)**：Meta 的 Muse agent 約五分鐘找到超過 1,500 美元的無人認領款項，並協助填寫文件；申請已送出，但款項尚未入帳。
+- **[找出被遺忘的錢並談保險退款](https://agentusecases.ai/use-case/find-forgotten-money-and-negotiate-insurance-refunds)**：使用者讓 Meta 的 Muse 這類個人 agent 搜尋各州資料庫找被遺忘的錢，並談取消保險的退款，拿回數百美元。
+- **[找出訂閱和更便宜的手機方案來省錢](https://agentusecases.ai/use-case/find-subscriptions-and-cheaper-phone-plan-to-save-money)**：一位記者的 Muse 標出 Patreon 和 Substack 訂閱以及更便宜的手機方案，實際可省約 35 美元，遠低於 1,000 美元。
+- **[找更便宜的汽車保險](https://agentusecases.ai/use-case/find-cheaper-car-insurance)**：一位新創創辦人說 Muse 找到的汽車保險，每年比原方案便宜 3,500 美元。
+- **[把信用卡對帳單的支出整理進 Excel](https://agentusecases.ai/use-case/extract-expenses-from-credit-card-statements-into-excel)**：作者請 Claude Code 讀一個放信用卡對帳單的資料夾，學習他的習慣，把相關支出放進 Excel，省下好幾個小時；他打算接著檢查訂閱。
+- **[把收據和 email 裡的家庭支出記進試算表](https://agentusecases.ai/use-case/track-household-expenses-from-receipts-and-emails-into-a-spr)**：ChatGPT Work 讀取收據照片、Gmail 的購物 email 和刷卡通知，整理進試算表，並把收據圖片存到 Google Drive。
+- **[把獸醫費用變成可直接寄出的寵物保險理賠](https://agentusecases.ai/use-case/turn-vet-charges-into-ready-to-send-pet-insurance-claims)**：個人的 OpenClaw agent 在銀行明細中發現獸醫費用，從 Gmail 找出發票，填好保險公司的 PDF 表單，草擬 email 並追蹤回覆，讓飼主檢查後再寄出。
+- **[把轉寄的收據和銀行資料變成支出與稅務摘要](https://agentusecases.ai/use-case/turn-forwarded-receipts-and-bank-data-into-expense-and-tax-s)**：使用者回報 Cowork 用轉寄的收據產出週一的支出報告，用一整年的交易整理出報稅摘要，還做了居家維修紀錄。
+- **[抓出盜刷並追回訂閱費用](https://agentusecases.ai/use-case/catch-fraudulent-charges-and-recover-subscription-money)**：使用者說 Muse 抓到銀行漏掉的重複盜刷，也找到被遺忘的書籍訂閱並拿回錢；省下的金額未經查證。
+- **[挑對發票來報稅](https://agentusecases.ai/use-case/do-taxes-by-selecting-the-right-invoices)**：發文者說他用 GPT Agent 報稅，由它讀發票並挑出正確的那些。
+- **[搜尋 email 並打電話取消訂閱和退款](https://agentusecases.ai/use-case/cancel-and-refund-subscriptions-by-searching-email-and-calli)**：Grok Bot 讀了兩個帳號的 email，登入系統、打電話給業者並寄信，約十分鐘就取消並退款兩個拖了很久的訂閱。
+- **[摘要保險拒賠信以準備申訴](https://agentusecases.ai/use-case/summarize-an-insurance-denial-letter-for-an-appeal)**：發文者用 AI 助理摘要拒賠 PDF 來起草申訴信，但它捏造了一個申訴期限。
+- **[教 agent 用訊號和紀錄來交易](https://agentusecases.ai/use-case/teach-an-agent-to-trade-with-signals-and-logging)**：@mufasadubai 請 Manus 用 ProjectX API 寫了一支 Python 腳本來看即時圖表，設定 Telegram 訊號，並把交易記錄到 Google Sheets 和 CSV。
+- **[整夜跑 memecoin 檢查和警示](https://agentusecases.ai/use-case/run-overnight-memecoin-checks-and-alerts)**：Grok Bot 把學會的 4 分鐘 memecoin 檢查，整夜跨多個網站跑了 3,140 次，寫出報告並產生 160 則警示；使用者聲稱獲利 9,320 美元。
+- **[整理 QuickBooks Online 的年底帳務](https://agentusecases.ai/use-case/clean-up-year-end-bookkeeping-in-quickbooks-online)**：一位財務老手讓 Claude Cowork 控制瀏覽器操作 QuickBooks，建立科目並重新分類雜亂的分錄，再搭配 Claude for Excel 分類交易，一個下午就完成。
+- **[整理稅務文件並填寫 IRS 表單](https://agentusecases.ai/use-case/sort-tax-documents-and-fill-irs-forms)**：作者讓 Claude 整理薪資表單、1099 和券商摘要，擷取數字並填寫空白的 IRS 表單，但沒讓它用瀏覽器自動化去申報。
+- **[替被拒賠的案件寫申訴信並打電話給保險公司](https://agentusecases.ai/use-case/write-appeals-and-phone-insurers-on-denied-claims)**：Counterforce Health 的 AI 會針對拒賠寫申訴信，另有語音 agent 替使用者打給保險公司追蹤進度。
+- **[根據券商資料產生每日個人化交易研究報告](https://agentusecases.ai/use-case/generate-a-daily-personalized-trading-research-report-from-b)**：Lonnie VanZandt 的 Claude 助理透過 MCP 讀取他在 Schwab 的持股和觀察清單，掃過新聞和 Fed 資料來源，每天寫出一份報告。
+- **[檢查信用卡用錯卡和漏掉的權益](https://agentusecases.ai/use-case/audit-credit-card-use-for-wrong-card-charges-and-missed-bene)**：Grok Bot 透過連接 Plaid 的 app 讀取三張卡已入帳的交易，檢查餐飲、Amazon 和旅遊該刷哪張卡，以及沒用到的權益。
+- **[檢視 IRS 稅務法庭案件檔案並起草和解信](https://agentusecases.ai/use-case/review-irs-tax-court-case-files-and-draft-a-settlement-lette)**：一位稅務法庭的被告用 Claude in Chrome 在約 20 分鐘內打開並摘要入口網站上的文件，再用 Claude Desktop 和 Claude Code 整理證據、起草和解信。
+- **[檢視房東押金爭議有沒有違法](https://agentusecases.ai/use-case/review-a-landlord-deposit-dispute-for-legal-violations)**：一位房客用 ChatGPT 和 Gemini 檢視房東的公寓押金爭議，找出違法之處，避免損失 4,200 美元。
+- **[歸檔資料夾裡的收據](https://agentusecases.ai/use-case/file-receipts-from-a-folder)**：Grok Bot 歸檔了資料夾裡的 14 張收據，留下 2 張需要卡號的，並存下它發現的新付款方式。
+- **[每晚從銀行 email 追蹤個人財務](https://agentusecases.ai/use-case/track-personal-finances-nightly-from-bank-emails)**：一位不會寫程式的人請 Claude Code 做出財務追蹤器，抓取銀行 email、分類消費，並在 Raspberry Pi 上每晚執行。
+- **[準備並申報逾期的德國 VAT](https://agentusecases.ai/use-case/prepare-and-file-overdue-german-vat-statements)**：Cowork 搭配 Claude 的 Chrome 擴充功能，從發票 PDF 整理出帳目，再登入 Elster 送出逾期的 2025 年第三季 VAT 表單。
+- **[準備海外供應商付款供人審核](https://agentusecases.ai/use-case/set-up-overseas-supplier-payments-for-review)**：經核准的 agent 檢查各帳戶餘額，並在使用者設定的規則內，準備好供應商付款明細供審核。
+- **[為多收的費用提出保險理賠](https://agentusecases.ai/use-case/file-insurance-claims-for-overcharges)**：Tarun 發現多收費用後，叫 agent 把所有理賠都提出，目前已收回 200 美元。
+- **[為自由工作者記帳擷取收據資料](https://agentusecases.ai/use-case/extract-receipt-data-for-freelancer-bookkeeping)**：一個用 Claude Code 做的 app，從收據擷取廠商、日期、總額、稅額和明細，外幣收據也能用歷史匯率換算，給自由工作者和小型企業使用。
+- **[為被拒的保險理賠起草申訴](https://agentusecases.ai/use-case/draft-appeals-for-denied-insurance-claims)**：一套自建的 AI 系統讀取被拒的理賠、調出病患紀錄，並起草正式的申訴信，寄出前交給人審核。
+- **[爭議承包商報價與變更單](https://agentusecases.ai/use-case/dispute-contractor-pricing-and-change-orders)**：AI 檢視承包商的採購單、email 和明細項目，起草爭議信，找出使用者漏看的問題，最後拿回 2 萬美元的抵免。
+- **[爭議錯誤的醫療催收帳單](https://agentusecases.ai/use-case/dispute-an-erroneous-medical-collections-bill)**：一個財務機器人登入醫療帳戶，找到 EOB，發現一張 1.3 萬美元的催收帳單有誤，並傳真爭議文件，把它撤銷了。
+- **[產生 prompt 讓瀏覽器 agent 執行交易](https://agentusecases.ai/use-case/generate-prompts-for-a-browser-agent-to-execute-trades)**：一位開發者的訊號產生器讀取股票和加密貨幣的投資組合檔案，產出瀏覽器自動化 prompt，讓 Perplexity Comet 到券商網站執行交易。
+- **[用 AI agent 檢查帳務錯誤](https://agentusecases.ai/use-case/review-bookkeeping-for-errors-with-ai-agents)**：發文者拿一個月的假帳務測試 AI agent，裡面埋了六個錯誤，它們抓到五個，漏掉一個。
+- **[用 AT&T 聊天談低光纖帳單](https://agentusecases.ai/use-case/negotiate-a-lower-fiber-bill-with-at-t-chat)**：Meta Muse 和 AT&T 客服聊天，把光纖方案從每月 85.94 美元降到 60 美元，同時保留組合優惠且不綁約。
+- **[用 ChatGPT Agent 取消串流訂閱](https://agentusecases.ai/use-case/cancel-streaming-subscriptions-with-chatgpt-agent)**：一位寫作者登入後讓 agent 取消 Peacock、Disney 和 Netflix；過程中需要提醒一下，而且某些網站可能會擋。
+- **[用 ChatGPT Finance 分析消費與帳戶](https://agentusecases.ai/use-case/analyze-spending-and-accounts-via-chatgpt-finance)**：一位使用者把支票、信用卡和券商帳戶連到 ChatGPT 的 Finance 工具，請它列出消費類別、商家、餘額、APR 和到期日的明細。
+- **[用 ChatGPT 談買車](https://agentusecases.ai/use-case/negotiate-a-car-purchase-with-chatgpt)**：一位家長說 ChatGPT 做了購車清單並指導談判策略，幫女兒買車省下超過 3,000 美元。
+- **[用 ChatGPT 贏得機票退款爭議](https://agentusecases.ai/use-case/win-a-flight-refund-dispute-with-chatgpt)**：一位旅客用 ChatGPT 整理 IndiGo 取消航班的爭議說法，說自己拿回了 ₹43,992 的退款。
+- **[用 ChatGPT 起草有證據支持的保險申訴](https://agentusecases.ai/use-case/draft-evidence-backed-insurance-appeals-with-chatgpt)**：發文者用 ChatGPT 做出一份被接受的就業保險申訴，也協助寫了有證據支持的居家保險淹水申訴。
+- **[用 Claude Code 助理追蹤個人財務](https://agentusecases.ai/use-case/track-personal-finances-with-a-claude-code-assistant)**：作者做了一個 Claude Code 財務助理，透過 MCP 取得總經資料，加上自己的財務資料，用來追蹤財務、評估健康狀況並輔助投資決策。
+- **[用 Claude Code 從銀行對帳單起草報稅資料](https://agentusecases.ai/use-case/draft-a-tax-filing-from-bank-statements-with-claude-code)**：一份使用者回報彙整，其中一位請 Claude Code 從銀行對帳單和發票起草報稅資料，另一位整理了 1,400 張截圖。
+- **[用 Claude Code 整理扣除額和 Schedule C](https://agentusecases.ai/use-case/compile-deductions-and-schedule-c-with-claude-code)**：Claude Code 從試算表、email 和對帳單彙整慈善捐款與列舉扣除額，並做出 Schedule C；部分分類仍要手動處理。
+- **[用 Claude Cowork 產出投資備忘錄](https://agentusecases.ai/use-case/produce-investment-memos-with-claude-cowork)**：作者帶非開發者用 Claude Cowork 在約 15 分鐘內產出完整的投資備忘錄，之後還能持續追蹤這筆投資。
+- **[用 Claude 做的投資組合追蹤器追蹤個人投資](https://agentusecases.ai/use-case/track-personal-investments-with-a-claude-built-portfolio-tra)**：發文者用 Claude 做了個人投資組合追蹤器，用資金加權報酬率追蹤定期定額和單筆投入，也幫忙做研究。
+- **[用 Claude 把銀行對帳單彙整成消費儀表板](https://agentusecases.ai/use-case/consolidate-bank-statements-into-a-spending-dashboard-with-c)**：據報導，Miles Deutscher 用 Claude 把每月銀行對帳單合併成儀表板，視覺化消費、計算指標並分析投資組合配置。
+- **[用 Claude 爭議租車的損壞費用](https://agentusecases.ai/use-case/dispute-a-car-rental-damage-charge-with-claude)**：一位旅客讓 Claude 當 agent 去質疑 Sixt 的損壞費用；它建議指控公司竄改時間戳記並向主管機關投訴，文章說這招適得其反。
+- **[用 Claude 申請延誤或取消航班的退款](https://agentusecases.ai/use-case/claim-refunds-for-delayed-or-cancelled-flights-with-claude)**：航班延誤或取消後，Claude 會整理事實、研究規則，並起草退款申請的 email。
+- **[用 Claude 的 Medicare 價格分析砍醫院帳單](https://agentusecases.ai/use-case/cut-a-hospital-bill-using-claude-s-medicare-price-analysis)**：Claude 針對一張 195,628 美元的醫院帳單，做出各代碼的 Medicare 價格試算表；之後使用者自己寫信並談下約 163,000 美元，Claude 只做了分析。
+- **[用 Codex computer use 填表單與檢查報稅](https://agentusecases.ai/use-case/fill-forms-and-review-tax-filings-with-codex-computer-use)**：轉述 OpenAI 員工用 Codex computer use 處理表單和 PDF，其中一次報稅檢查抓到價值數千美元的錯誤。
+- **[用 OpenClaw 申報複雜的稅務](https://agentusecases.ai/use-case/file-a-complex-tax-return-with-openclaw)**：OpenClaw 用銀行交易做出 Schedule C 損益表，帶著操作 TurboTax 輸入超過 4 小時，還抓到前任會計師的錯誤。
+- **[用 RAG agent 為選股提供即時市場背景](https://agentusecases.ai/use-case/give-stock-screening-live-market-context-with-a-rag-agent)**：有留言者在即時資料庫上做了一個 RAG agent，為評估股票和篩選提供當下的市場背景。
+- **[用 Replit Agent 做買單失衡掃描器](https://agentusecases.ai/use-case/build-a-buy-order-imbalance-scanner-with-replit-agent)**：有留言者說，Replit 的 agent 用試用額度做出了可以運作的買單失衡掃描器。
+- **[用 agent 蒐集市場新聞輔助投資](https://agentusecases.ai/use-case/gather-market-news-for-investing-with-an-agent)**：有留言者正在設定一個能使用新聞 API 的 AI agent，蒐集市場新聞來輔助投資決策。
+- **[用 computer use 填寫 Form 1040](https://agentusecases.ai/use-case/fill-out-a-form-1040-with-computer-use)**：一位測試者把存在硬碟裡的資料交給 Claude Computer Use，看它能不能找到欄位並正確填好簡化版 Form 1040。
+- **[用 email 爭取床墊保固理賠](https://agentusecases.ai/use-case/fight-a-mattress-warranty-claim-by-email)**：一位使用者的 agent 和床墊公司的 agent 來回寄信，引用法規並強硬施壓，來解決保固理賠。
+- **[用交易紀錄做 Excel 投資組合追蹤器](https://agentusecases.ai/use-case/build-an-excel-portfolio-tracker-from-trade-logs)**：Claude Code 讀交易紀錄、寫並執行 Python、抓 Yahoo Finance 的即時資料並匯出 Robinhood 交易歷史，做出 Excel 投資組合追蹤器。
+- **[用券商匯出檔做投資組合規劃](https://agentusecases.ai/use-case/build-a-portfolio-plan-from-brokerage-exports)**：Claude Code 讀了一個放著券商 CSV 匯出檔和筆記的目錄，研究基金，產出買進、停止買進和持有清單，並為每檔配上一檔可做稅損收割的夥伴基金。
+- **[用即時市場資料產生投資分析](https://agentusecases.ai/use-case/generate-investment-analysis-from-live-market-data)**：發文者在 Claude Code 裡做了一個個人財富顧問，把即時市場資料、總經指標和新聞餵進投資分析。
+- **[用即時聊天談低 Comcast 網路費](https://agentusecases.ai/use-case/negotiate-a-lower-comcast-internet-bill-via-live-chat)**：DoNotPay 的 AI 聊天機器人和 Comcast 即時聊天協商，談到折扣，幫一位工程師每年省 120 美元。
+- **[用收據和銀行對帳單核對稅務](https://agentusecases.ai/use-case/check-taxes-against-receipts-and-bank-statements)**：一位使用者請 Claude 拿稅務數字去比對收據和銀行對帳單，標出不一致的地方，再自己檢查草稿。
+- **[用申訴信對抗醫院帳單](https://agentusecases.ai/use-case/fight-a-hospital-bill-with-an-appeal-letter)**：一位使用者請 ChatGPT 檢查醫院帳單並起草申訴信；保險公司和醫院隨後承認帳單有誤，並換發新帳單。
+- **[用發票 PDF 申請 FSA 報銷](https://agentusecases.ai/use-case/file-fsa-reimbursement-claims-from-invoice-pdfs)**：Claude Code 搭配 Chrome 擴充功能解析 Amazon 發票 PDF 並抓出重複項目，但無法上傳檔案而且很慢，使用者只好自己接手。
+- **[用白話文透過 AI agent 管理券商帳戶](https://agentusecases.ai/use-case/manage-a-brokerage-account-in-plain-english-with-an-ai-agent)**：Coinbase 在 SEC 註冊的 AI agent 利用完整的投資組合背景和帳戶歷史，依白話指令執行帳戶操作並提供投資點子。
+- **[用終端機 coding agent 做公司帳](https://agentusecases.ai/use-case/keep-company-books-with-terminal-coding-agents)**：作者用 Claude Code 和 Codex 替幾家瑞典公司做帳，它們會讀收據、比對銀行資料列、過帳，並在申報前抓到一個 VAT 錯誤。
+- **[用聊天 agent 在 GoDaddy 客服談低價](https://agentusecases.ai/use-case/negotiate-a-lower-godaddy-support-price-via-chat-agent)**：發文者叫 AI agent 在 GoDaddy 客服聊天裡談更便宜的價格，每 60 秒檢查一次回覆，說最後談到更好的價格。
+- **[用聊天機器人談低 Comcast 帳單](https://agentusecases.ai/use-case/negotiate-a-lower-comcast-bill-via-chatbot)**：DoNotPay 以 ChatGPT 為基礎的機器人替一位工程師和 Comcast 客服聊天，談到每月折扣 10 美元。
+- **[用舊名字搜尋各州的無人認領財產資料庫](https://agentusecases.ai/use-case/search-state-databases-for-unclaimed-property-under-old-name)**：發文者請 Claude 用本名和舊名字，搜尋自己住過的每一州的無人認領財產資料庫。
+- **[用財務 agent 管理投資、稅務和信用](https://agentusecases.ai/use-case/manage-investments-taxes-and-credit-with-a-finance-agent)**：發文者做了一個 Claude Code 個人財務 agent，用來追蹤投資、準備自雇稅務，並優化信用使用率。
+- **[用資金管理 skill 找回身分不明的款項](https://agentusecases.ai/use-case/recover-unidentified-funds-with-a-treasury-skill)**：Cornell 的財務和 AI 團隊用一個資金管理的 Claude skill 找出並認領身分不明的款項，追回 10 萬美元的欠款。
+- **[用銀行交易做出消費洞察 app](https://agentusecases.ai/use-case/build-a-spending-insights-app-from-bank-transactions)**：Plaid 介紹一個 Replit 連接器，讓不會寫程式的人用 prompt 請 Replit agent 做出讀取自己銀行交易的 app（廠商文章，沒有具名使用者）。
+- **[用銀行資料分析預算並研究投資](https://agentusecases.ai/use-case/analyze-budgets-and-research-investments-from-bank-data)**：發文者把銀行交易資料導入 ChatGPT，並用 Claude 做預算分析、投資研究，以及摘要和比較財務報告。
+- **[用風險和成本指標比較基金並畫圖](https://agentusecases.ai/use-case/compare-funds-on-risk-and-cost-metrics-with-charts)**：一位留言者請 ChatGPT 依最大回撤、夏普比率、費用率、稅務拖累和持股重疊來比較基金，再產生圖表。
+- **[申訴航空公司拒絕 EU261 延誤賠償](https://agentusecases.ai/use-case/dispute-an-airline-s-eu261-delay-compensation-rejection)**：一個以 Grok 為基礎的 agent 查了航班資料，主張機組人員問題不算特殊情況，寄出經核准的信件，在降落前就拿到 400 歐元。
+- **[申訴被拒的旅遊保險理賠](https://agentusecases.ai/use-case/appeal-a-denied-travel-insurance-claim)**：發文者在申訴被駁回的旅遊保險理賠時用了 Gemini，說申訴成功。
+- **[申請處方狗糧的寵物保險理賠](https://agentusecases.ai/use-case/file-pet-insurance-reimbursements-for-prescription-dog-food)**：Muse 收集 Chewy 發票和處方卡，上傳到保險公司的 app，一次處理多筆理賠。
+- **[當 AI 分析師研究持股](https://agentusecases.ai/use-case/research-stock-positions-as-an-ai-analyst)**：一個 Claude Code agent 每週兩次涵蓋約 15 檔持股和觀察清單，整理新聞並提出多空論點，由人來設定風險上限和核准交易。
+- **[監控 DeFi 部位並對高風險資金池發警示](https://agentusecases.ai/use-case/monitor-defi-positions-and-alert-on-risky-pools)**：AI agent 跨 37 條鏈監看使用者的 DeFi 和傳統帳戶，標出一個高風險的流動性池，避免可能的損失。
+- **[監看投資新聞並產出早晨總經摘要](https://agentusecases.ai/use-case/monitor-investing-news-and-produce-morning-macro-summaries)**：SouthernValue95 的 Meta Muse agent Alfred 監看 X 上的投資話題、轉錄 podcast、追蹤觀察清單標的的新聞與法規，並寫出早晨的總經摘要。
+- **[盤點訂閱並寄信給公司取消](https://agentusecases.ai/use-case/audit-subscriptions-and-email-companies-to-cancel-them)**：Claude Code 拉出多張信用卡的交易，標出定期扣款，並草擬取消信，追回 700 美元。
+- **[研究加密資產並執行兌換和永續合約交易](https://agentusecases.ai/use-case/research-crypto-assets-and-execute-swaps-and-perps-trades)**：Midas Markets agent 研究資產、分析投資組合和損益、依動能找代幣，並在 Hyperliquid 上執行兌換和永續合約部位。
+- **[自動對房東提出房客申訴](https://agentusecases.ai/use-case/file-tenant-complaints-against-a-landlord-automatically)**：一個 Claude agent 爬取違規資料庫，向紐約市住宅委員會提出 14 件申訴；據報導房東被罰款，漲租也被擋下。
+- **[自己做退稅計算器，不用付錢給 CPA](https://agentusecases.ai/use-case/build-a-personal-tax-refund-calculator-instead-of-paying-a-c)**：一位使用者請 Claude Code 用 2025 年稅率表做出互動式稅務計算器，省下 300 美元的 CPA 費用。
+- **[自己處理一邊的居家保險理賠](https://agentusecases.ai/use-case/run-your-side-of-a-home-insurance-claim)**：水管爆裂後，使用者請 Claude 讀保單、整理收據、追蹤理賠員的訊息和延誤、記錄往來信件和估價，並質疑承保決定。
+- **[處理消費爭議並追回退款](https://agentusecases.ai/use-case/fight-consumer-claims-and-recover-refunds)**：作者用 Claude 和它的 Chrome 擴充功能提出申訴、爭議扣款，回報十勝、追回超過 12,000 美元，但仍要自己看 email 和打電話。
+- **[補完兩年逾期的荷蘭稅務](https://agentusecases.ai/use-case/catch-up-on-two-years-of-overdue-dutch-taxes-2)**：一位落後兩年的使用者讓 Claude 理清支出、找出收據和發票，一個下午就處理完荷蘭的報稅。
+- **[補完兩年逾期的荷蘭稅務](https://agentusecases.ai/use-case/catch-up-on-two-years-of-overdue-dutch-taxes)**：Claude Code 幫一位落後近兩年的人理清支出、查找收據和發票，並搞定荷蘭的稅務系統。
+- **[討回被遺忘的加密貨幣空投和存款](https://agentusecases.ai/use-case/reclaim-forgotten-crypto-airdrops-and-deposits)**：一位使用者讓 Claude 和 GPT agent 掃描區塊鏈歷史，找出並討回被遺忘的空投和存款，拿回的金額是每年 AI 花費的 10 倍。
+- **[談帳單、處理退貨、取消訂閱](https://agentusecases.ai/use-case/negotiate-bills-handle-returns-and-cancel-subscriptions)**：一位 Meta 員工說 Muse 談下了 AT&T 帳單、找出 Amazon 退貨、退掉 IKEA 家具並提出寵物醫療理賠；另一位則讓它取消並退款一個被遺忘的訂閱。
+- **[讓 AI agent 向 IRS 申報雇主稅務](https://agentusecases.ai/use-case/let-ai-agents-file-employment-tax-returns-with-the-irs)**：一個開發中的 MCP server 讓 agent 以工具呼叫的方式向 IRS 提交報稅（先支援雇主表單 941 和 940）；目前還在 IRS 認證中，尚未上線。
+- **[讓 AI 模型各拿 1,000 美元自主交易股票](https://agentusecases.ai/use-case/let-ai-models-trade-stocks-autonomously-with-1k-each)**：發文者用平日盤前的同一個 prompt，讓四個 AI 模型各自操作 1,000 美元的投資組合共九週，ChatGPT 表現領先。
+- **[讓 ChatGPT 管理真實的微型股投資組合](https://agentusecases.ai/use-case/let-chatgpt-manage-a-real-micro-cap-stock-portfolio)**：一位作者進行為期六個月的實驗，ChatGPT 拿到每日價格資料並每週用 Deep Research 重新評估，來管理真實的微型股投資組合；第五週的限價單大多沒成交。
+- **[讓 agent 在你的圖表上調查市場變動和警示](https://agentusecases.ai/use-case/investigate-market-moves-and-alerts-with-an-agent-on-your-ch)**：OpenChart 讓 Claude 或 Codex 標註圖表型態、寫指標、調查價格警示，並把研究存到本機工作區。
+- **[讓 agent 在接案平台賺錢](https://agentusecases.ai/use-case/let-an-agent-earn-money-on-freelance-platforms)**：一位作者給 LLM agent 一個 shell 和網路存取，沒有任何資本；它在以 agent 為優先的市集賺到約 40 美元 USDC，在以人為優先的平台則是 0。
+- **[讓 agent 自主操作真實的 Kalshi 預測市場帳戶](https://agentusecases.ai/use-case/run-a-live-kalshi-prediction-market-account-autonomously)**：一個使用 Claude Code 的 agent 在監督下操作 20 美元的 Kalshi 帳戶九天，拿到 20.30 美元的獎勵金，但交易虧損 36.06 美元。
+- **[讓 agent 透過 MCP 管理個人財務](https://agentusecases.ai/use-case/let-agents-manage-personal-finances-via-mcp)**：發文者做了一個 MCP server，透過 Plaid 或上傳對帳單來連接銀行帳戶，讓使用者的 agent 能持續處理個人財務管理。
+- **[讓客服 agent 退款處理帳單爭議](https://agentusecases.ai/use-case/get-a-billing-dispute-refunded-by-a-support-agent)**：一位客戶對 Vercel 的錯誤帳單提出爭議，公司的客服 AI agent 自己產出並提供了退款。
+- **[起草未經授權續約的退款要求](https://agentusecases.ai/use-case/draft-a-refund-demand-for-an-unauthorized-renewal)**：發文者在 Skillshare 未經授權扣了 24 美元續約費後，用 ChatGPT 寫了一封更強硬的訊息，並威脅提出爭議和拒付。
+- **[跑一個 11 個 agent 的團隊做交易準備](https://agentusecases.ai/use-case/run-an-11-agent-team-for-trading-prep)**：一位交易員跑 11 個 Grok Bot agent，各有一項工作和一份職責範圍文件，並有一個 Red Team agent 必須先核准交易。
+- **[跑多 agent LLM 金融交易分析](https://agentusecases.ai/use-case/run-multi-agent-llm-financial-trading-analysis)**：一個由多個 LLM agent 協作做金融交易決策的框架。
+- **[跑每日投資組合新聞摘要 agent](https://agentusecases.ai/use-case/run-a-daily-portfolio-news-digest-agent)**：有留言者跑一個 agent，自動蒐集自己持股的新聞，每天早上當作客製的投資組合電子報來看。
+- **[躲過車商的加購推銷並找到禮物卡](https://agentusecases.ai/use-case/dodge-car-dealership-upsells-and-find-gift-cards)**：一位使用者說 Muse 幫他避開車商的加購和費用，省下 1,250 美元；另一位說它找到一張沒用過的 200 美元 Verizon 禮物卡。
+- **[追討航空公司的退款爭議](https://agentusecases.ai/use-case/chase-an-airline-refund-dispute)**：agent 每 48 小時強硬追信，建立書面紀錄並準備好向主管機關的申訴；1,200 美元的機票退款在一週內處理完成。
+- **[追蹤政治人物交易來操作小額 Robinhood 帳戶](https://agentusecases.ai/use-case/trade-a-small-robinhood-account-by-tracking-politician-trade)**：作者透過 MCP 把 Claude Code 接上 Robinhood 的 agent 交易 beta，帳戶只有 100 美元；它會盯政治人物和高階主管的交易、用即時損益追蹤部位，並下真實的單。
+- **[透過 Claude Code 和 Robinhood MCP 長期追蹤投資](https://agentusecases.ai/use-case/track-investments-over-time-via-claude-code-and-robinhood-mc)**：發文者詢問怎麼把 Claude Code 透過 MCP 接上 Robinhood，在研究或交易後持續追蹤投資；這是一個提問，還沒有成果。
+- **[透過 Robinhood MCP 交易股票](https://agentusecases.ai/use-case/trade-stocks-via-robinhood-mcp)**：一個 ChatGPT agent 在進行中的 agent 交易挑戰裡，賣出 TSM 股票並買進 HOOD 股票。
+- **[透過個人 agent 比價傘式保險](https://agentusecases.ai/use-case/shop-for-umbrella-insurance-through-your-personal-agent)**：個人 AI agent 使用 Coverage Cat 的 Agent API/MCP 評估傘式保險額度，比較各保險公司的選項和價格區間，背後有持牌經紀人支援。
+- **[透過稅務入口網站申報所得稅](https://agentusecases.ai/use-case/file-an-income-tax-return-through-the-tax-portal)**：Claude Desktop agent 替使用者申報 ITR-1：用 AIS 交叉核對薪資、處理換雇主、修掉驗證錯誤，然後送出。
+- **[闖過保險公司的電話選單找到真人](https://agentusecases.ai/use-case/navigate-insurer-phone-menus-to-reach-a-human)**：一位 Reddit 使用者讓 Meta 的 Muse AI 打給房屋保險公司的免付費電話，闖過電話選單找到真人，再打給對方變更保單。
+- **[靠 ChatGPT 指引申請無人認領財產](https://agentusecases.ai/use-case/claim-unclaimed-property-using-chatgpt-guidance)**：一位使用者拍下無人認領財產的通知信，ChatGPT 指引他到佛羅里達州財政部網站申請；另一位說他的未婚夫申請後收到了錢。
+
+## 生活雜事與居家 { #life-admin-home }
+
+- **[30 分鐘內投 50 份工作](https://agentusecases.ai/use-case/apply-to-50-jobs-in-under-30-minutes)**：Claude computer use 在 30 分鐘內送出 50 份求職申請，影片中有示範。
+- **[下班時傳 WhatsApp 給老婆](https://agentusecases.ai/use-case/message-your-wife-on-whatsapp-when-work-ends)**：使用者設定 OpenClaw 在他做完工作時傳 WhatsApp 給他太太，但把她的號碼加入白名單後，她的回覆也被轉給了 agent。
+- **[付帳單、清信箱和訂雜貨](https://agentusecases.ai/use-case/pay-bills-clear-inbox-and-order-groceries)**：據報導，一個叫 Scout 的 Muse agent 幫它的使用者付了帳單、清空信箱並訂了雜貨。
+- **[代你打電話給牙科保險公司](https://agentusecases.ai/use-case/call-a-dental-insurer-on-your-behalf)**：Meta 的 AI agent 打電話給牙科保險公司，報出會員編號、回答安全問題，並在等待期間掛著線，最後把使用者轉給客服人員。
+- **[代使用者聯絡 OpenAI 客服](https://agentusecases.ai/use-case/contact-openai-support-on-the-user-s-behalf)**：使用者讓 Operator 嘗試聯絡 OpenAI 客服，做到一半，使用者登入帳號時出現錯誤而中斷。
+- **[依 LinkedIn 名單草擬客製化求職開發信](https://agentusecases.ai/use-case/draft-personalized-job-outreach-emails-from-linkedin-leads)**：Pratyush Pandey 給 Claude Cowork 一些 LinkedIn 名單和他的履歷，它依職位草擬客製化的信，並在 Gmail 裡準備好。
+- **[依人員在場用 AI agent 調整燈光亮度](https://agentusecases.ai/use-case/set-lighting-brightness-with-an-ai-agent-on-presence)**：Home Assistant 的在場感應器觸發 n8n，由 Deepseek agent 依時段決定亮度並設定燈光。
+- **[依你的資料每週訂餐廳、每天推薦新發現](https://agentusecases.ai/use-case/book-weekly-restaurants-and-surface-daily-discoveries-from-y)**：一個 OpenClaw agent 能存取 ChatGPT、Google 和 Instagram 的紀錄，每週訂餐廳、每天寄推薦，並提出記憶更新讓使用者核准。
+- **[依指定條件整理 Mubi 待看清單](https://agentusecases.ai/use-case/curate-a-mubi-watchlist-from-stated-criteria)**：ChatGPT Agent 瀏覽 Mubi 片庫，挑出 10 部符合使用者條件的電影，附上簡短評語並加進待看清單。
+- **[依目標跑專注 agent 和 Gmail agent](https://agentusecases.ai/use-case/run-a-focus-agent-and-gmail-agent-on-goals)**：作者做了一個背景運作的專注 agent，把行事曆和目標連起來，另外還有一個 Gmail agent 負責處理信箱和過濾雜訊。
+- **[依睡姿控制電風扇](https://agentusecases.ai/use-case/control-a-fan-from-sleep-position)**：一個 AI 室友在 Raspberry Pi 上用姿態模型看使用者睡覺，並按遙控器按鈕開關電風扇。
+- **[依醫院紀錄填保險文件](https://agentusecases.ai/use-case/fill-out-insurance-paperwork-from-hospital-records)**：Felix Rieseberg 給 Claude Cowork 一個裝滿醫院 PDF 的資料夾和保險網站，它就把文件填好了，而他在餵新生兒。
+- **[做一個家庭晚餐建議 app](https://agentusecases.ai/use-case/build-a-household-dinner-suggestion-app)**：一位不會寫程式的人用 Codex 做了一個本機 app，依儲藏室庫存、花園收成、飲食限制、廚房電器和天氣來建議晚餐。
+- **[分析 Garmin 資料來規劃餐點和找健康規律](https://agentusecases.ai/use-case/analyze-garmin-data-for-meal-planning-and-health-patterns)**：發文者把 Garmin 資料匯出到 Claude 專案和餐點規劃工具，Claude 發現某天吃得比較多，和藥效變差之間有關聯。
+- **[分類信件、取消訂閱並管理行事曆](https://agentusecases.ai/use-case/triage-email-cancel-subscriptions-and-manage-calendars)**：一個 Grok Bot 助理會分類多個信箱、草擬並寄出回信、取消沒在用的訂閱，並管理行事曆，附提醒和時間重疊檢查。
+- **[協調背景執行緒並發送事務提醒](https://agentusecases.ai/use-case/coordinate-background-threads-and-send-admin-reminders)**：一個 dot 在同一個對話中管理背景執行緒，並主動提醒使用者把文件寄給會計師、確認退款進度。
+- **[向 USPTO 提出商標申請](https://agentusecases.ai/use-case/file-a-trademark-application-with-the-uspto)**：Claude Cowork 一步步帶著走完流程並填好文件，這個商標最後拿到了 USPTO 的最終核准。
+- **[在 7 美元的 VPS 上跑個人門房 agent](https://agentusecases.ai/use-case/run-a-personal-doorman-agent-on-a-7-vps)**：一個公開 agent 透過 IRC 招呼網站訪客，另一個私人 agent 處理信件和排程，每天花費上限 2 美元。
+- **[在 Cursor 裡跑私人事務 agent](https://agentusecases.ai/use-case/run-a-private-personal-admin-agent-in-cursor)**：作者用 Cursor 處理個人事務，像是草擬給牙醫的預約信，靠私人筆記和規則讓個人資料不會出現在公開草稿裡。
+- **[在 FHIR 紀錄上跑個人健康 agent](https://agentusecases.ai/use-case/run-a-personal-health-agent-over-fhir-records)**：一個個人 OpenClaw agent 透過護欄代理讀取健康資料，用來準備就診、草擬後續追蹤、填表、寫保險申訴和追蹤趨勢。
+- **[在 Home Assistant 自動控制各房間暖氣](https://agentusecases.ai/use-case/automate-per-room-heating-control-in-home-assistant)**：一位屋主做了 add-on 和 MCP server，讓 Cursor 能撰寫並部署 Home Assistant 自動化來控制各房間溫度，一個週末內迭代了五個版本。
+- **[在 LinkedIn 大量投行銷職缺](https://agentusecases.ai/use-case/apply-to-marketing-jobs-on-linkedin-in-bulk)**：一位 Comet 使用者讓 agent 在 40 分鐘內送出約 100 份 LinkedIn 申請，結果沒有任何面試。
+- **[在 LinkedIn 搜尋並投遞職缺](https://agentusecases.ai/use-case/search-and-apply-to-jobs-on-linkedin)**：有瀏覽器權限的 OpenClaw 做了履歷、搜尋職缺，三天內投了 100 多個，但也未經同意私訊了 LinkedIn 上的人。
+- **[在 Raspberry Pi 上跑離線車載助理](https://agentusecases.ai/use-case/run-an-offline-car-assistant-on-a-raspberry-pi)**：Pi 上的本地 Qwen 模型讀取車輛 OBD 資料和手冊來回答車況問題，透過雲端控制冷氣和車鎖，拋錨時還會通知其他 agent 去查火車票。
+- **[在家生成每日語音新聞快報](https://agentusecases.ai/use-case/generate-a-spoken-daily-news-bulletin-at-home)**：發文者用 ChatGPT、ElevenLabs 和 Home Assistant 做了晨間新聞簡報，透過家裡的設備唸出來，取代了 Alexa。
+- **[在瀏覽器裡完成線上課程作業](https://agentusecases.ai/use-case/complete-an-online-course-assignment-in-the-browser)**：有人叫 Perplexity Comet 完成 Coursera 的網頁設計作業，短片裡看起來做完了，CEO 則呼籲大家不要這樣做。
+- **[在診所網站填處方訂購表](https://agentusecases.ai/use-case/fill-out-a-prescription-order-form-on-a-clinic-site)**：ChatGPT Agent 在診所網站上填了藥名、劑量和天數，敏感資料則由使用者手動輸入。
+- **[在車上用語音幫家人加入牙科保險方案](https://agentusecases.ai/use-case/add-family-to-a-dental-plan-by-voice-from-the-car)**：使用者透過車子轉達指令給機器人，機器人在信箱裡找出文件，趁他開車時把家人加進牙科保險方案。
+- **[填寫冗長的家醫科表格](https://agentusecases.ai/use-case/fill-out-a-long-gp-form)**：agent 填完一份很長的家醫科表格，接著自動促成醫生來電和檢驗預約。
+- **[填寫多頁的簽證或移民表單](https://agentusecases.ai/use-case/fill-out-a-multi-page-visa-or-immigration-form)**：一位使用者請 ChatGPT 協助完成頁數很多的簽證表單，並用 dots 的語音通話流程在填寫時詢問所需的細節。
+- **[大量退訂 Gmail 電子報](https://agentusecases.ai/use-case/bulk-unsubscribe-from-gmail-newsletters)**：一位 PCWorld 寫手讓 Claude Cowork 挑出可以放心退訂的電子報，再透過 Chrome 擴充功能，用它自己寫的 JavaScript 函式點擊退訂按鈕來大量退訂。
+- **[安排和朋友的週五夜晚](https://agentusecases.ai/use-case/organize-a-friday-night-with-friends)**：Instinct agent 和朋友們的 agent 協調，挑好餐點、飲料和電影，對齊時間，下單後加進行事曆。
+- **[幫 MRI 找第二意見](https://agentusecases.ai/use-case/get-a-second-opinion-on-an-mri)**：有人分享用 Claude Code 分析自己 MRI 的經驗。
+- **[建立並管理語言學習的 Anki 字卡](https://agentusecases.ai/use-case/create-and-manage-anki-flashcards-for-language-learning)**：Claude Code 搭配 AnkiConnect 在 Anki 裡建立牌組、新增格式化的卡片並檢查重複，用於語言學習和文法練習。
+- **[建立晨間簡報和美食評分儀表板](https://agentusecases.ai/use-case/build-a-morning-briefing-and-food-rating-dashboard)**：一位留言者說 Muse 會爬信用卡、信件和行事曆，追蹤去過的餐廳並替食物評分，還提供包含行事曆、天氣、新聞和待跟進事項的每日簡報。
+- **[建議約會點子並提醒多安排約會之夜](https://agentusecases.ai/use-case/suggest-date-ideas-and-nudge-for-more-date-nights)**：用約會地點清單和準則訓練一個 Claude Code 助理，讓它建議約會、必要時提醒，並可能幫忙訂位。
+- **[引導 Claude 完成 mandamus 訴狀提交](https://agentusecases.ai/use-case/guide-claude-through-mandamus-complaint-filings)**：發文者準備了一份 Claude markdown 檔，指引如何在地方法院提出 mandamus 訴狀、送達傳票和訴狀，並提交送達證明表格。
+- **[彙整並篩選公寓房源](https://agentusecases.ai/use-case/compile-and-filter-apartment-listings)**：一位租屋者用 Claude 和 ChatGPT 彙整物業管理網站並篩選房源，結果還算可以，但混進一些不符條件的房源，最後他是透過朋友找到住處。
+- **[從 LinkedIn 替職缺的適合度打分數](https://agentusecases.ai/use-case/score-job-postings-against-your-fit-from-linkedin)**：一個 Claude Chrome 擴充功能的 Shortcut 會讀取開啟中的 LinkedIn 職缺，產出有分數的適配報告，不用複製貼上。
+- **[從 Telegram 新增待辦到 Todoist](https://agentusecases.ai/use-case/add-todo-items-to-todoist-from-telegram)**：一個 Telegram bot 搭配 LLM 和編排平台（n8n 或 windmill），能把自然語言訊息變成作者 Todoist 帳號裡的待辦。
+- **[從 Telegram 訊息把運動記到 Notion](https://agentusecases.ai/use-case/log-workouts-into-notion-from-telegram-messages)**：Telegram 聊天裡的 Claude agent 會依文字或語音訊息，把運動和每日近況記進 Notion。
+- **[從信箱找出未繳帳單並推薦食譜](https://agentusecases.ai/use-case/find-unpaid-bills-and-suggest-recipes-from-inbox)**：一位 WSJ 評測者把信箱和行事曆接到 Muse，它找出了未繳的帳單，還根據蔬果配送內容推薦食譜。
+- **[從文字、語音或照片記錄餐點並追蹤營養](https://agentusecases.ai/use-case/log-meals-from-text-voice-or-photos-and-track-nutrition)**：n8n 裡的 Telegram AI agent 會記錄以文字、語音或照片傳來的餐點，估算熱量和巨量營養素，在 Google Sheets 追蹤目標並發送每日報告。
+- **[從資料掮客那裡刪掉你的電話號碼來擋垃圾訊息](https://agentusecases.ai/use-case/scrub-your-phone-number-from-data-brokers-to-stop-spam)**：一個 Grok Bot skill 會在人物搜尋網站找出使用者的號碼、提出移除申請、完成確認信，並定期重新檢查。
+- **[從轉寄的信和傳單擷取學校日期](https://agentusecases.ai/use-case/extract-school-dates-from-forwarded-emails-and-flyers)**：一個家庭任務管理工具會從轉寄的學校信件抓日期，讀傳單照片，並依郵遞區號同步學校行事曆。
+- **[從頭到尾完成線上問卷](https://agentusecases.ai/use-case/complete-an-online-survey-end-to-end)**：發文者說 Muse 自己瀏覽問卷、解掉 captcha 並送出回覆，全程沒有人工介入。
+- **[打造心臟健康追蹤 app](https://agentusecases.ai/use-case/build-a-cardiac-health-tracking-app)**：一位 73 歲、沒寫過程式的使用者，用 Claude 做了一個 app，在住院後追蹤血壓、水分、體重、心率、症狀、餐點和活動量。
+- **[打造會通知照護者的吃藥提醒藥盒](https://agentusecases.ai/use-case/build-a-medication-reminder-pill-dispenser-that-alerts-careg)**：一份教學指南：用 Raspberry Pi 藥盒搭配 OpenClaw agent，記錄服藥、調整提醒、用攝影機確認有出藥，漏吃時通知照護者。
+- **[打造電子紙冰箱購物清單韌體](https://agentusecases.ai/use-case/build-e-ink-fridge-shopping-list-firmware)**：Claude Code 寫了約 2,400 行 C++ 韌體，給 ESP32 電子紙冰箱磁鐵當購物清單，跟手機網頁 app 同步，現在全家都在用。
+- **[找倫敦的出租公寓](https://agentusecases.ai/use-case/find-a-london-flat-to-rent)**：發文者用 Claude Cowork 在五天內搜尋並找到一間倫敦的出租公寓。
+- **[找出固定會議、信件和帳單，主動問要不要準備](https://agentusecases.ai/use-case/spot-recurring-meetings-emails-and-bills-and-offer-to-prep-t)**：架在 Gmail 和 Calendar 上的助理，會偵測固定會議、重複類型的信件和帳單，再問你要不要先準備或排程。
+- **[找合適的職缺並客製履歷](https://agentusecases.ai/use-case/find-fitting-job-postings-and-tailor-resumes)**：大家用 Claude 搜尋合適的職缺，並替使用者挑中的職缺客製履歷。
+- **[找布拉格公寓並聯絡房東](https://agentusecases.ai/use-case/find-prague-apartments-and-contact-landlords)**：Manus 瀏覽房源並回傳五間公寓，但被要求寄信給房東約看房時，卻陷入迴圈並出錯。
+- **[找租屋並跟房東議價](https://agentusecases.ai/use-case/search-rentals-and-negotiate-with-landlords)**：一個 OpenClaw agent 用瀏覽器自動化寄出 8 封詢問信，在試算表追蹤回覆，其中一例還經過三輪議價談租金，頁面偏展示風格。
+- **[找造型師並準備沙龍預約](https://agentusecases.ai/use-case/find-a-stylist-and-prep-a-salon-appointment)**：一位 CNET 記者讓 ChatGPT 的 agent 研究造型師並詢問預約細節，但在它真的訂位前就叫停了。
+- **[把 2,200 個下載檔案分到資料夾並附摘要](https://agentusecases.ai/use-case/sort-2-200-downloads-files-into-folders-with-summaries)**：Cowork 在不到 20 分鐘內，把 Downloads 資料夾裡 2,200 個散亂檔案依類型分組並摘要每個資料夾，大致上沒有破壞性的動作。
+- **[把 Cowork 當個人行政助理](https://agentusecases.ai/use-case/use-cowork-as-a-personal-executive-assistant)**：一位留言者說 Claude Cowork 正好是他需要的那種行政助理型個人 agent。
+- **[把 Gmail 旅遊信件變成 Google Calendar 行程](https://agentusecases.ai/use-case/turn-gmail-travel-emails-into-google-calendar-events)**：使用者試了 Manus 和 ChatGPT Agent 讀取 Gmail 的旅遊資訊並建立行事曆活動，Manus 很慢，兩個都失敗了。
+- **[把 Kindle Scribe 手寫筆記變成待辦和活動](https://agentusecases.ai/use-case/turn-handwritten-kindle-scribe-notes-into-to-dos-and-events)**：Alexa+ 會摘要從 Kindle Scribe 傳來的筆記，並轉成待辦清單、行事曆活動和提醒，這是功能介紹。
+- **[把 Twitter 追蹤名單搬到 Bluesky](https://agentusecases.ai/use-case/move-twitter-follows-over-to-bluesky)**：作者的 agent 會逐一查看他在 Twitter 追蹤的帳號，對應到 Bluesky 個人檔案，並在那邊追蹤。
+- **[把 agent 當全職個人秘書](https://agentusecases.ai/use-case/use-an-agent-as-a-full-time-personal-secretary)**：使用者說他把 Grok Bot 當全職秘書來做個人助理的工作，沒有給出詳細的任務清單。
+- **[把 n8n workflow 當成 Home Assistant 語音 agent](https://agentusecases.ai/use-case/use-n8n-workflows-as-a-home-assistant-voice-agent)**：一個自製整合會把語音請求和公開的實體送到 n8n workflow，workflow 可以用 AI 並觸發自動化，再把回覆唸出來。
+- **[把你的棋局分析成附解說的影片](https://agentusecases.ai/use-case/analyze-your-chess-games-into-commented-videos)**：一個 Claude Code skill 結合 Claude 視覺、Stockfish 和你的語音筆記，把 Lichess 的棋局做成有解說的分析影片。
+- **[把信箱裡的旅遊訂位加進行事曆](https://agentusecases.ai/use-case/add-travel-bookings-from-email-to-calendar)**：作者在固定資料夾執行 Claude Code，搭配存好的腳本，把新的旅遊訂位信處理成行事曆項目。
+- **[把口頭回答變成 Todoist 任務清單](https://agentusecases.ai/use-case/turn-spoken-answers-into-a-todoist-task-list)**：Alexa 把口頭回答傳給 ChatGPT，ChatGPT 整理成格式化的任務清單，用在家裡的工作流程。
+- **[把學校作業和繳交日整理進孩子的行事曆](https://agentusecases.ai/use-case/collate-school-homework-and-due-dates-into-a-child-s-calenda)**：一位家長讓 Meta Muse 透過憑證保險庫登入學校資訊系統，抓出作業和繳交日，建立附提醒的行事曆項目，每天自動執行。
+- **[把手寫預約加進行事曆並歸檔 PDF](https://agentusecases.ai/use-case/add-handwritten-appointments-to-calendar-and-file-pdfs)**：一位留言者描述自建的 agent：用 OCR 把手寫預約的照片轉進行事曆、上網搜尋，並把寄來的 PDF 歸檔到 paperless。
+- **[把找公寓的聯絡工作交給 AI 租客代理](https://agentusecases.ai/use-case/delegate-apartment-search-outreach-to-an-ai-renter-s-agent)**：Kaleno 的 AI 在租客同意下聯絡房源、追問缺少的細節並管理後續跟進，廠商說測試版有一半的聯絡是這樣處理的。
+- **[把新的英文單字記進 Notion 單字資料庫](https://agentusecases.ai/use-case/log-new-english-words-into-a-notion-vocabulary-database)**：作者把新的英文單字傳給 OpenClaw，它會加進 Notion 單字資料庫，並補上音標、詞性、定義和記憶口訣。
+- **[把日常雜事交給本機 agent](https://agentusecases.ai/use-case/hand-everyday-errands-to-a-local-agent)**：一位留言者列出交給信任的本機 agent 的事：規劃機票和飯店、轉換音樂、找沒有 DRM 的電子書、設計 3D 列印支架，以及追蹤信件裡的預約。
+- **[把會議筆記變成排好優先順序的每日行動清單](https://agentusecases.ai/use-case/turn-meeting-notes-into-a-prioritized-daily-action-list)**：一位作者把 Claude Code 當個人助理，把會議筆記處理成一天結束時的行動清單，之後又加上每日優先事項、筆記整合和預算追蹤。
+- **[把每場世界盃最終比分傳到朋友的 Signal 群組](https://agentusecases.ai/use-case/text-every-world-cup-final-score-to-a-friends-signal-group)**：一個用 Claude Code 做的 agent 每 30 分鐘查一次 ESPN，把 2026 世界盃每場最終比分用一個角色人設寫成文字，傳到三人的 Signal 群組，並用程式檢查比分。
+- **[把聊天訊息變成 Google Calendar 活動](https://agentusecases.ai/use-case/turn-chat-messages-into-google-calendar-events)**：一個 n8n 行事曆 agent 接收聊天訊息，抽出活動標題、地點和時間，並建立 Google Calendar 項目。
+- **[把醫療文件、財務和續租交給個人 agent](https://agentusecases.ai/use-case/delegate-medical-paperwork-finances-and-lease-renewal-to-a-p)**：作者給一個常駐的 OpenClaw agent 有限的信件、行事曆、檔案和訊息存取權，第一週它就處理了醫療文件、分析財務、處理續租，還生出五個專門的 agent。
+- **[把餐點和醫療指標記到健康試算表](https://agentusecases.ai/use-case/log-meals-and-medical-metrics-into-a-health-spreadsheet)**：一個 Claude Cowork skill 會在試算表裡追蹤飲食和醫療指標，在手機上告訴 Claude 的餐點也會記進每日紀錄。
+- **[控制瀏覽器播放影片和發回覆](https://agentusecases.ai/use-case/control-the-browser-to-play-videos-and-post-replies)**：Comet 接管瀏覽器，找到 YouTube 播放清單、開始播第一支影片再暫停，也能回覆推文和在 Reddit 發文。
+- **[搜尋 LinkedIn 並送出客製化的求職申請](https://agentusecases.ai/use-case/search-linkedin-and-submit-tailored-job-applications)**：Claude Code 操作真實的 Chrome 瀏覽器，依履歷找出符合的職缺並整理成 CSV，寫求職信、填表單並送出。
+- **[摘要投資狀況並把學校行事曆轉成 iCal 邀請](https://agentusecases.ai/use-case/summarize-investments-and-turn-school-calendars-into-ical-in)**：一位留言者用 Claude 準備每月的投資績效和淨資產摘要，並把學校行事曆和電子報轉成 iCal 邀請。
+- **[整理收藏的食譜並研究旅行航班](https://agentusecases.ai/use-case/organize-saved-recipes-and-research-trip-flights)**：一位 Engadget 寫手讓 Muse 從收藏的 Facebook 和 Instagram 貼文抓出食譜整理成分組清單，再研究直飛航班並設定價格追蹤。
+- **[整理移民文件包](https://agentusecases.ai/use-case/assemble-an-immigration-document-package)**：使用者讓 ChatGPT 瀏覽器操作，幾分鐘內把七年的報稅、銀行對帳單和移民文件收集成一個文件包。
+- **[整理雜亂檔案並幫電腦裡的發票改名](https://agentusecases.ai/use-case/organize-messy-files-and-rename-invoices-on-your-computer)**：作者用 Manus My Computer 在幾分鐘內整理好一個有數千檔案的資料夾，也提到拿它來分類照片和替發票改名。
+- **[替你需要的書預約圖書館保留](https://agentusecases.ai/use-case/place-library-holds-for-books-you-need)**：一個隨時在線的 agent 會依需求挑書，例如給 6 歲孩子的西洋棋書，並透過郡立圖書館網站預約，書到了圖書館會寄信通知。
+- **[替學校信件加標籤並草擬家長回信](https://agentusecases.ai/use-case/label-school-emails-and-draft-parent-replies)**：一位家長的 agent 會替學校和家長的信件加標籤、草擬回信讓她修改後寄出，把日期加進行事曆前也會先問她。
+- **[架設家用聊天伺服器並用手機管理帳號](https://agentusecases.ai/use-case/set-up-a-home-chat-server-and-manage-accounts-from-your-phon)**：一個跑在本地 Qwen 模型上的 Hermes agent 架好 Open WebUI 伺服器，並透過手機處理帳號管理，幫作者的青少年孩子開了自己的帳號。
+- **[查詢兩年的 WHOOP 和血液檢驗資料](https://agentusecases.ai/use-case/query-two-years-of-whoop-and-blood-lab-data)**：作者做了一個 Claude agent，能針對 WHOOP 生理數據和從信件 PDF 抽出的檢驗結果回答問題，並在 30 個問題上和 Databricks Genie agent 比較。
+- **[根據上傳文件和學校信件回答問題](https://agentusecases.ai/use-case/answer-questions-from-uploaded-documents-and-school-emails)**：在 Amazon 的示範中，Alexa+ 能根據上傳的食譜或 HOA 文件回答問題，並把轉寄的學校信件摘要進行事曆。
+- **[檢查並修正 Home Assistant 設定](https://agentusecases.ai/use-case/audit-and-fix-a-home-assistant-setup)**：作者讓 Claude 檢查他的 Home Assistant 設定，當 MCP 無法直接編輯時，就用 Chrome connector 在儀表板上點選，並把設定區塊貼進編輯器。
+- **[檢查發文紀錄裡沒兌現的承諾](https://agentusecases.ai/use-case/audit-your-posting-history-for-unkept-promises)**：有人把作者的社群發文紀錄交給 agent，它找到一個作者其實從沒做過的承諾。
+- **[每天依履歷和薪資資料篩選職缺](https://agentusecases.ai/use-case/screen-job-listings-daily-against-resume-and-salary-data)**：一位被裁員的求職者每天早上跑 agent，瀏覽 LinkedIn，對照 levels.fyi 的職級和薪資，評估職缺跟履歷合不合。
+- **[每天傳 WhatsApp 提醒孩子要帶什麼上學](https://agentusecases.ai/use-case/send-daily-whatsapp-reminders-of-what-to-pack-for-school)**：一位留言者做了一個 Claude Code 工具，前一天會傳 WhatsApp 提醒孩子的書包要裝什麼。
+- **[每天自動送出客製履歷和求職信的求職申請](https://agentusecases.ai/use-case/automate-daily-job-applications-with-tailored-cvs-and-cover-)**：一個 n8n 流程每天執行，搜尋職缺，用 AI 調整履歷和求職信，並以 email 寄出申請。
+- **[清信箱、追退款、預約冷暖氣保養](https://agentusecases.ai/use-case/clean-inbox-chase-refund-and-book-hvac-tune-up)**：Meta Muse 刪掉兩萬多封舊 Hotmail 信件，透過 ISP 客服聊天追查遺失的退款，還根據保養紀錄排好冷暖氣保養。
+- **[清掉 Android TV 的預載軟體](https://agentusecases.ai/use-case/debloat-an-android-tv)**：Rakesh Prakash 請他的 Hermes agent 清掉 Android TV 的預載軟體，它順利完成了。
+- **[清掉殘留的安裝檔並抓 YouTube 逐字稿](https://agentusecases.ai/use-case/clear-leftover-installers-and-fetch-a-youtube-transcript)**：Scout 在徵得同意後用 PowerShell 刪掉 31 個殘留安裝檔（4.4 GB），瀏覽器被擋時還裝了工具來存 YouTube 逐字稿。
+- **[測試 Operator 處理法律文件、辦派對和購物](https://agentusecases.ai/use-case/test-operator-on-legal-paperwork-party-planning-and-shopping)**：作者拿 Operator 試了五個情境，辦派對的結果「普普」，Amazon 購物則因為無法把商品加進購物車而失敗。
+- **[為 300 人婚禮跑賓客禮賓 agent](https://agentusecases.ai/use-case/run-a-guest-concierge-agent-for-a-300-person-wedding)**：發文者用 Gemini 驅動的 agent 做了婚禮籌備 app，包含賓客禮賓 agent，並寫下部署時遇到的各種失敗情況。
+- **[為家長整理學校信件](https://agentusecases.ai/use-case/summarize-school-emails-for-parents)**：一個 Grok bot 每晚讀孩子的學校信件，回報要帶什麼、穿什麼、簽什麼或繳什麼，並標出截止日和報名事項。
+- **[產生並寄出邀請來同步家人行事曆](https://agentusecases.ai/use-case/sync-family-calendars-by-generating-and-emailing-invites)**：發文者讓 Grok Bot 產生 .ics 邀請並寄出等待核准，還打算給它一個 iCloud 帳號來存取家人的行事曆。
+- **[用 Alexa 例行程序調節每日作息](https://agentusecases.ai/use-case/build-alexa-routines-to-regulate-a-daily-schedule)**：一位 TechRadar 寫手設定 Alexa 例行程序，在上午 11 點和下午 3 點詢問心情和喝水量，並提醒吃午餐，他說這對一天有幫助，但也警告別過度依賴。
+- **[用 Alexa+ 查近期活動和控制例行程序](https://agentusecases.ai/use-case/get-upcoming-events-and-control-routines-with-alexa)**：使用者說 Alexa+ 會告訴他近期的活動，重設裝置後燈光和例行程序控制也恢復正常。
+- **[用 Apple Health 資料做 AI 健康教練](https://agentusecases.ai/use-case/build-an-ai-health-coach-from-apple-health-data)**：作者把 Apple Health 資料（營養、活動、體重計、血壓、睡眠、運動）導到自己的伺服器或 agent，讓它當健康教練。
+- **[用 Apple Health 資料分析運動和血壓](https://agentusecases.ai/use-case/analyze-workouts-and-blood-pressure-from-apple-health-data)**：發文者用 ChatGPT 的 Apple Health 整合做跑步分析、健康規劃和血壓監測，但還讀不到用藥紀錄。
+- **[用 ChatGPT Dots 訂餐廳、做研究和架網站](https://agentusecases.ai/use-case/book-restaurants-research-and-build-sites-with-chatgpt-dots)**：作者拿 Dots 測試訂餐廳、做研究和架網站，訂位很慢才完成，研究和架站很有用，打電話則失敗。
+- **[用 ChatGPT 規劃每日行程和家事](https://agentusecases.ai/use-case/plan-daily-schedules-and-household-chores-with-chatgpt)**：一位三個孩子的家長用 ChatGPT 建立行程表，以及每週的居家維護和清潔任務清單。
+- **[用 ChatGPT 記錄餐點和估算熱量](https://agentusecases.ai/use-case/log-meals-and-estimate-calories-with-chatgpt)**：發文者把 ChatGPT 當成粗略的營養和健身追蹤工具，估算熱量並記錄吃了什麼。
+- **[用 Claude Code skills 處理個人生活事務](https://agentusecases.ai/use-case/run-personal-life-admin-with-claude-code-skills)**：Claude Code skills 會查垃圾收運時間、預約更便宜的驗車、新增行事曆活動，並從信件和簡訊寄出晨間簡報。
+- **[用 Claude Code 移除背景服務來優化電腦](https://agentusecases.ai/use-case/optimize-a-pc-by-removing-background-services-with-claude-co)**：使用者讓 Claude Code 移除約 30 個背景服務和開機啟動程式、在開機畫面更改 BIOS 設定，並靠截圖和點擊指示處理只有圖形介面的應用程式。
+- **[用 Claude Code 管信箱、做課程和預算](https://agentusecases.ai/use-case/manage-an-inbox-and-build-courses-and-budgets-with-claude-co)**：一位非技術背景的使用者，用它篩出需要回覆的信，把 15 份在家自學的 PDF 做成有旁白的互動課程，還做了預算儀表板。
+- **[用 Claude Code 管理 Home Assistant 自動化](https://agentusecases.ai/use-case/manage-home-assistant-automations-with-claude-code)**：Adam 透過 MCP server 用 Claude Code 搜尋實體、讀自動化 trace，並建立與除錯像是棚屋動作感應燈這類自動化。
+- **[用 Claude Code 處理生活雜務和待辦](https://agentusecases.ai/use-case/run-life-admin-and-to-dos-from-claude-code)**：一位新手媽媽兼創業者用 Claude Code 記待辦，把讓人壓力大的任務拆成 10 分鐘就能開始的第一步，並把她的偏好學進一個檔案。
+- **[用 Claude Code 規劃餐點和追蹤症狀](https://agentusecases.ai/use-case/plan-meals-and-track-symptoms-with-claude-code)**：Claude Code 負責規劃餐點、追蹤營養、分析症狀，並透過 USDA API 抓食譜營養資料存起來。
+- **[用 Claude 建立 Home Assistant 自動化](https://agentusecases.ai/use-case/build-home-assistant-automations-with-claude)**：一位沒時間的家長讓 Claude 建立 Home Assistant 自動化，包含一個從用電量推測爐子有沒有開的 helper。
+- **[用 Claude 搭配 Todoist 做 GTD 任務管理](https://agentusecases.ai/use-case/run-gtd-task-management-through-claude-with-todoist)**：一位留言者讓 Claude 控制 Todoist，再加上信件、行事曆、訊息、聯絡人和檔案，它一發現承諾就會自動建立任務。
+- **[用 Claude 管理家務並追蹤超市傳單](https://agentusecases.ai/use-case/manage-family-chores-and-track-grocery-ads-with-claude)**：使用者請 Claude 幫忙處理 Home Assistant 裝置、家庭行事曆和家務，並用白話訊息設定每日排程檢查超市傳單，再加上庫存追蹤。
+- **[用 Claude 規劃旅行和社交行程](https://agentusecases.ai/use-case/plan-trips-and-social-calendars-with-claude)**：一位留言者把 Claude 當旅行社和行程規劃師，也用來列生日清單、想送禮建議和調整日常安排。
+- **[用 Claude 規劃派對和代購](https://agentusecases.ai/use-case/plan-parties-and-shop-for-products-with-claude)**：一位留言者請 Claude 逐分鐘規劃活動和菜單，也當私人採購員，跨網站比價、比退貨政策和運費。
+- **[用 Claude 驅動的助理語音操控 Mac](https://agentusecases.ai/use-case/control-your-mac-by-voice-with-a-claude-backed-assistant)**：Atticus 讓使用者在 macOS 上用說的或打字下任務，簡單的在本機跑，複雜的透過 claude -p 交給 Claude，成功的步驟會存起來，下次重播更快。
+- **[用 Codex 處理 Home Assistant 設定](https://agentusecases.ai/use-case/run-codex-tasks-on-your-home-assistant-config)**：有個整合會對 Home Assistant 設定執行 Codex CLI 任務，用來診斷壞掉的自動化、檢查儀表板有沒有壞卡片，還有建立腳本。
+- **[用 Codex 處理家庭雜事和整理食譜](https://agentusecases.ai/use-case/handle-family-errands-and-recipe-sorting-with-codex)**：一位傳播工作者讓 Codex 寄信給兒子的醫生要求續藥，並把 240 份食譜篩成 62 份適合家人的，整理成索引、試算表和 Drive 資料夾。
+- **[用 Codex 處理寫程式以外的雜事](https://agentusecases.ai/use-case/use-codex-for-non-coding-chores)**：留言者拿 Codex 做 Pi-hole 升級、市場研究、建 wiki、搜尋檔案、編輯 PowerPoint、輕量 Excel 工作、爬資料和資料輸入。
+- **[用 Comet 瀏覽器處理採買、信件和照片任務](https://agentusecases.ai/use-case/run-grocery-email-and-photo-tasks-through-comet-browser)**：一位評測者讓 Comet 存取他的 Intermarché 帳號，並試了信件整理、分類 8,000 張 Dropbox 照片和行事曆規劃，結果有失敗，也有安全風險。
+- **[用 Cowork 處理家務雜事和帳單](https://agentusecases.ai/use-case/handle-household-logistics-and-bills-with-cowork)**：作者讓 Cowork 跑了好幾週，處理家庭雜務、定期帳單、餐點規劃和孩子的活動時間表。
+- **[用 Gemini 語音管理行事曆和排程](https://agentusecases.ai/use-case/manage-calendar-and-scheduling-by-voice-with-gemini)**：一位寫手拿 Gemini 測試日常任務，用語音排一段寫作時間和一場會議、檢查衝突並在 Google Calendar 改時間，部分項目需要手動確認。
+- **[用 Hermes 自動處理簡單的 Discord 任務和家教](https://agentusecases.ai/use-case/automate-simple-discord-tasks-and-tutoring-with-hermes)**：一位留言者把 Hermes Agent 當成個人家教，也用它自動處理 Discord 上的簡單任務。
+- **[用 Muse 買遊戲、問搬家報價、訂晚餐](https://agentusecases.ai/use-case/buy-games-get-mover-quotes-and-book-dinner-with-muse)**：一位評測者讓 Meta 的 Muse 買了 Switch 2 遊戲、打電話給四家搬家公司問報價，還幫忙訂了 OpenTable 餐廳。
+- **[用 OpenClaw agent 經營在家自學的家庭](https://agentusecases.ai/use-case/run-a-homeschooling-family-on-openclaw-agents)**：一位媽媽跑了五個 OpenClaw agent，依課程照片規劃課程、管理家庭行程，還做了一個部署到電視上的兒童電視 app。
+- **[用 OpenClaw 研究約會餐廳和活動](https://agentusecases.ai/use-case/research-date-restaurants-and-activities-with-openclaw)**：一位公關公司創辦人請 OpenClaw 研究南佛羅里達的餐廳和活動，整理成附連結的文件，說明每個推薦適合哪種約會。
+- **[用 Operator 填公寓申請表](https://agentusecases.ai/use-case/fill-out-apartment-applications-with-operator)**：有使用者讓 Operator 代他填網頁表單來申請公寓，說效果相當不錯。
+- **[用 PDF 做出 12 天的在家自學課程](https://agentusecases.ai/use-case/build-a-12-day-homeschool-curriculum-from-pdfs)**：Cowork 讀了 12 份講義和閱讀材料的 PDF，依科目整理，並照指定的時程做出 12 天的課程。
+- **[用 Telegram 助理打電話和寄信](https://agentusecases.ai/use-case/place-phone-calls-and-send-emails-from-a-telegram-assistant)**：一個 n8n 助理會在 Google Sheets 查聯絡人、打真實電話、寄信，並替使用者排行事曆活動。
+- **[用 Telegram 訊息新增家裡待辦](https://agentusecases.ai/use-case/add-home-todo-items-by-telegram-message)**：作者在公司時，透過 Telegram 叫 OpenClaw agent 經由自訂 API 把項目加進家裡的待辦清單，後來就沒再用了。
+- **[用 Telegram 語音助理管理信件、行事曆和任務](https://agentusecases.ai/use-case/run-email-calendar-and-tasks-from-a-telegram-voice-assistant)**：一個叫 Jackie 的助理透過 Telegram 接收語音或文字，摘要未讀信件、查看行事曆活動，並管理 Google Tasks。
+- **[用 agent 協調癌症病患的病歷和照護](https://agentusecases.ai/use-case/coordinate-a-cancer-patient-s-records-and-care-with-an-agent)**：一個家庭把垂危親人的病歷交給 agent 當協調者，它標出一個錯誤的止痛藥時程，和他基因標記裡的一個抄寫錯誤，這改變了他的治療計畫。
+- **[用 agent 找公寓（部分失敗）](https://agentusecases.ai/use-case/hunt-for-an-apartment-with-an-agent-partly-failed)**：一個自架 agent 花了超過 100 美元額度，找出壞掉的連結和與描述不符的房源，之後 ChatGPT 比較房源並排程搜尋，直到失去網站存取權。
+- **[用 agent 處理寵物搬遷、Airbnb 定價和糾紛](https://agentusecases.ai/use-case/run-pet-relocation-airbnb-pricing-and-disputes-with-agents)**：使用者讓 agent 處理寵物進出口文件和表格、Airbnb 定價與每週報告，以及一場他說已經打贏的商業糾紛，還會在 Chrome 裡歸檔文件。
+- **[用 agent 診斷精力不足的健康問題](https://agentusecases.ai/use-case/diagnose-a-low-energy-health-issue-with-an-agent)**：Noah 做了一個 agent，建議該做哪些血檢、看哪些醫生，他說它找到了四位醫生都沒發現的解法。
+- **[用 agentic 瀏覽器寫測驗、規劃旅行和找公寓](https://agentusecases.ai/use-case/use-agentic-browsers-for-quizzes-trip-planning-and-apartment)**：學生回報用 agentic 瀏覽器完成 Canvas 和 Coursera 測驗，其中一人還拿來規劃旅行、找公寓和摘要網頁。
+- **[用 bot agent 追蹤保健品實驗和熱量](https://agentusecases.ai/use-case/track-supplement-experiments-and-calories-with-a-bot-agent)**：使用者用 Grok Bot 做保健品的個人實驗和熱量追蹤，寫程式則搭配 Codex 和 OpenCode。
+- **[用 computer use 整理桌面資料夾](https://agentusecases.ai/use-case/organize-a-desktop-folder-with-computer-use)**：一位留言者叫 Claude computer use 整理資料夾，說它沒怎麼反問就做完了。
+- **[用 cronjob 跑 Claude 做晨間簡報和處理信件任務](https://agentusecases.ai/use-case/run-claude-on-a-cronjob-for-morning-briefings-and-email-task)**：使用者用 cron 做了一個循環執行的 Claude，會產生晨間簡報和 podcast，也會處理寄信或傳訊息交辦的任務。
+- **[用 tool calling 的 AI copilot 填 PDF 表單](https://agentusecases.ai/use-case/fill-pdf-forms-with-an-ai-copilot-using-tool-calling)**：瀏覽器內的 copilot 會依資料來源或使用者輸入填 PDF 欄位，協助處理外語表單，並在簽名前解釋合約條款。
+- **[用個人 agent 找工作和投履歷](https://agentusecases.ai/use-case/find-and-apply-to-jobs-with-a-personal-agent)**：Hira 為求職者提供專屬的個人 agent，全天候運行來尋找機會並自動投遞申請，可在 iMessage 上使用。
+- **[用個人 agent 追蹤睡眠、筆記、程式碼和地震](https://agentusecases.ai/use-case/track-sleep-notes-code-and-earthquakes-with-a-personal-agent)**：一個 OpenClaw agent 能存取 Garmin、Obsidian、GitHub、VPS 和聊天 app，會記錄睡眠、提醒太晚睡、部署程式碼、更新筆記，並監控東京地震。
+- **[用個人助理處理家庭雜務、提醒和研究](https://agentusecases.ai/use-case/handle-family-logistics-reminders-and-research-with-a-person)**：發文者讓 Muse 用自己的 VM 幫孩子搶工作坊名額、傳吃藥提醒、草擬面試問題和徵家事幫手的啟事，還幫忙比價。
+- **[用個人助理處理機票、報紙和摘要](https://agentusecases.ai/use-case/run-a-personal-assistant-for-flights-newspapers-and-summarie)**：使用者的 Grok Bot 會規劃航班、用圖書館登入抓報紙、查商店庫存，並傳送活動和天氣摘要，語音、權限和寫程式的表現則不太好。
+- **[用個人助理處理醫療數據和財務報告](https://agentusecases.ai/use-case/run-personal-assistant-tasks-like-medical-data-and-finance-r)**：留言者用好幾個分工不同的 Grok Bot，其中一個處理胰島素幫浦數據和飲食紀錄，另一個管理財務和晨報。
+- **[用健康 agent 追蹤訓練和營養習慣](https://agentusecases.ai/use-case/track-training-and-nutrition-habits-with-a-health-agent)**：發文者做了一個 agent，用兩個 Sheets 工具來追蹤並分析訓練和營養，之後預計加入睡眠和心理狀態追蹤。
+- **[用八個 agent 透過 Telegram 跑個人助理](https://agentusecases.ai/use-case/run-a-personal-assistant-through-telegram-with-eight-agents)**：作者用 n8n 做了一套多 agent 系統，有八個各司其職的 agent，透過 Telegram 以語音或文字操作，取代了他的個人助理。
+- **[用基因和血檢資料制定健康計畫](https://agentusecases.ai/use-case/build-a-health-plan-from-genetic-and-bloodwork-data)**：Farzad 把原始 23andme 檔案、血檢、動脈掃描和保健品清單丟給 Claude Code，聊了兩小時就產出一份量身訂做的健康與基因計畫。
+- **[用填表 agent 依圖片填寫表單](https://agentusecases.ai/use-case/fill-out-forms-from-images-with-a-form-filling-agent)**：作者用 Gemini 做了一個 agent，能規劃表單圖片裡的欄位並對應到邊界框，是為了一位想自動填表的朋友。
+- **[用存好的個人資料填 W-9 這類 PDF 表單](https://agentusecases.ai/use-case/fill-out-pdf-forms-like-a-w-9-from-saved-personal-details)**：一個 Claude Code skill 會依提供的資料填 PDF 表單、存檔，並記住可重複使用的資訊，掃描成圖片的 PDF 則是它的限制。
+- **[用客製履歷和求職信自動填寫求職申請](https://agentusecases.ai/use-case/auto-fill-job-applications-with-tailored-cvs-and-cover-lette)**：有留言者說，讓 agent 為求職申請客製履歷和求職信，再由使用者檢查，過程會輕鬆很多。
+- **[用寫程式 agent 處理日常非程式雜事](https://agentusecases.ai/use-case/use-a-coding-agent-for-everyday-non-programming-chores)**：使用者的 Claude Code 處理了非程式任務：修照片、分析 PDF 準備考試、殺掉卡住的程序、找資料、查保固，還有跨檔案替 agent 改名。
+- **[用手機控制電腦並啟動魔獸世界](https://agentusecases.ai/use-case/control-a-pc-and-launch-world-of-warcraft-from-your-phone)**：一位寫手讓 Claude Code 執行桌面任務，例如從 Calculator 到 Notepad，並透過手機上的 Dispatch 啟動 Battle.net，登入魔獸世界角色。
+- **[用收據和檢查報告追蹤居家維護](https://agentusecases.ai/use-case/track-home-maintenance-from-receipts-and-inspection-reports)**：agent 會分類收據和檢查報告，提出維護待辦，並幫屋主草擬給廠商的訊息。
+- **[用本地 AI 語音控制家裡](https://agentusecases.ai/use-case/control-the-home-by-voice-with-a-local-ai)**：使用者架了本地 AI 加語音指令的家庭助理，處理採買、燈光、冷氣和花園濕度監測。
+- **[用本機個人 agent 處理生活瑣事](https://agentusecases.ai/use-case/run-boring-parts-of-daily-life-with-a-local-personal-agent)**：作者在本機用本地模型和便宜的雲端模型跑個人 agent（Hermes），說它處理了生活中很多無聊的事，但沒講具體任務。
+- **[用瀏覽器 agent 做 Canvas 測驗和玩 Wordle](https://agentusecases.ai/use-case/take-canvas-quizzes-and-play-wordle-with-a-browser-agent)**：一位教育工作者測試 Comet：它四次猜中 Wordle、接管螢幕完成 Canvas 測驗，但做出來的 Canva 簡報前後不連貫。
+- **[用瀏覽器 agent 清空 Gmail 垃圾郵件匣](https://agentusecases.ai/use-case/clear-gmail-spam-folder-with-a-browser-agent)**：一位評測者讓 Comet 清空他的 Gmail 垃圾郵件匣，成功了，但把食譜食材加進 Instacart 購物車就卡關。
+- **[用瀏覽器關掉每個 subreddit 的通知](https://agentusecases.ai/use-case/turn-off-notifications-for-every-subreddit-via-browser)**：一位 Reddit 使用者想用 Claude for Chrome，在管理介面一路點選，把所有訂閱的 subreddit 通知都關掉。
+- **[用盯房源的 agent 找紐約公寓](https://agentusecases.ai/use-case/find-an-nyc-apartment-with-a-listing-watching-agent)**：Andrew Kordampalos 用 Zapier 和 Vercel 花約 20 美元做了 agent 來找紐約公寓，他說找到了，但有人回覆質疑它的房源數量。
+- **[用穿戴裝置資料做甲狀腺發作預警模型](https://agentusecases.ai/use-case/build-a-thyroid-episode-warning-model-from-wearable-data)**：有人給 Claude Code 9.5 年的 Apple Watch 和 Whoop 資料，它做出一個 ML 模型，回測顯示能在檢驗確認前就預警先前的一次發作。
+- **[用穿戴裝置資料指導訓練和飲食](https://agentusecases.ai/use-case/coach-training-and-diet-from-wearable-data)**：發文者讓 Claude 讀 Apple Health、營養和重訓 app 的資料，加上用藥與血檢檔案，並請它維護一個 HTML 儀表板。
+- **[用簡訊和 email 記錄餐點並規劃旅程](https://agentusecases.ai/use-case/log-meals-and-build-trip-itineraries-by-text-and-email)**：Hermes 把簡訊和 iMessage 照片裡的飲食記到熱量追蹤器，並用轉寄的確認信排出度假行程，還抓到一張訂錯日期的火車票。
+- **[用聊天 agent 管理 Gmail、行事曆和雜事](https://agentusecases.ai/use-case/control-gmail-calendar-and-errands-from-a-chat-agent)**：OpenClaw 使用者在 Telegram 上管理 Gmail 和 Calendar、退訂電子報、收每日簡報，還能申請健康報銷、找醫生預約。
+- **[用聊天草擬訊息、填網頁表單、做網站原型](https://agentusecases.ai/use-case/draft-messages-fill-web-forms-and-prototype-sites-by-chat)**：作者在 WhatsApp 上傳訊息給 OpenClaw agent，請它草擬訊息、在瀏覽器填表單，或研究一個主題後做出 HTML 原型並架站。
+- **[用自建的投遞 agent 找工作](https://agentusecases.ai/use-case/apply-to-jobs-with-a-self-built-application-agent)**：作者做了一個投遞 agent，他說因此拿到 Cohere 和 Scale AI 的面試。
+- **[用自然語言管理智慧家庭](https://agentusecases.ai/use-case/run-the-smart-home-by-natural-language)**：Karpathy 的 Dobby agent 控制燈光、空調、遮陽簾、泳池和保全，有訪客時會通知，還取代了六個 app。
+- **[用自製的桌面和手機 app 以語音操作 Codex](https://agentusecases.ai/use-case/use-codex-by-voice-from-a-custom-desktop-and-mobile-app)**：一位留言者在 Codex App Server 上做了桌面和手機 app，讓 Codex 能用在寫程式以外的事，送出語音轉文字的提示再收回回應。
+- **[用血檢 PDF 做圖表工具](https://agentusecases.ai/use-case/build-a-charting-tool-from-blood-test-pdfs)**：Matt Stockton 把 MyChart 的血檢 PDF 給 Claude，大約五分鐘就產出一個網頁 app，畫出數值的長期變化並標示異常值。
+- **[用西班牙語對話填寫移民表格](https://agentusecases.ai/use-case/fill-out-immigration-forms-through-a-spanish-conversation)**：一位開發者做了一個模式，Claude 用簡單的西班牙語提問，再把每個答案填進移民表格，SSN 這類敏感證號不會被送出去。
+- **[用訊息請助理管理行事曆和待辦](https://agentusecases.ai/use-case/manage-calendar-and-tasks-by-text-with-an-assistant)**：評測 Lindy 當 iMessage 助理，可以改會議時間、從截圖排行程，但也有隱藏邀請、信沒寄出等失敗回報。
+- **[用評量、客製課程和再評量來教學生](https://agentusecases.ai/use-case/teach-students-with-assessments-custom-lessons-and-reassessm)**：Hugh Shbalz 訓練 agent 進行標準化評量，編寫課程補足缺漏，再重新評估核心概念的掌握程度。
+- **[用語音設定每晚的智慧家庭流程](https://agentusecases.ai/use-case/set-up-nightly-smart-home-routines-by-voice)**：一位家長叫 Alexa+ 每晚 9 點調暗燈光並調低恆溫器，它當場就建好了自動化。
+- **[申請荷蘭租屋並安排看房](https://agentusecases.ai/use-case/apply-for-dutch-rentals-and-schedule-viewings)**：Uprent 的 agent 會送出看房申請、讀房東來信、草擬回覆並排看房時間，有人抱怨會對同一則廣告重複申請。
+- **[監控並回應家庭辦公室的感測器](https://agentusecases.ai/use-case/monitor-and-respond-to-home-office-sensors)**：Omar Shahine 在 MacBook 上跑本地 OpenClaw agent，接上居家自動化，讓它能觀察並回應他家辦公室的實體感測器。
+- **[監看天氣和海外事件並寄信給家人](https://agentusecases.ai/use-case/monitor-weather-and-overseas-events-and-email-family)**：使用者跑了一個 OpenClaw bot，監看海外事件和惡劣天氣警報，必要時寄信給家人，另外還會提醒送伴侶的禮物。
+- **[監看電腦記憶體並在關閉程式前先詢問](https://agentusecases.ai/use-case/monitor-pc-memory-and-ask-before-closing-apps)**：Grok Bot 發現 22 個 Python 程序造成 RAM 用量偏高，傳訊息附上明細，並在關閉應用程式前先徵求同意。
+- **[盤點並控制整個智慧家庭](https://agentusecases.ai/use-case/map-and-control-a-whole-smart-home)**：Karpathy 的 agent 掃描家裡網路、登入 Sonos、逆向 API、對應燈光、空調、遮陽簾、泳池和保全，並做出儀表板。
+- **[管理家庭信件、行事曆和學校群組](https://agentusecases.ai/use-case/manage-family-email-calendar-and-school-chats)**：一個叫 Anna 的 agent 可以透過簡訊或 WhatsApp 聯絡，管理家庭信件、行事曆和學校的 WhatsApp 群組，並自動處理表單和時程。
+- **[管理家庭行事曆並在瀏覽器購物](https://agentusecases.ai/use-case/manage-a-family-calendar-and-shop-in-the-browser)**：一位評測者測試 Meta Muse 的家庭行事曆管理（包含刪掉足球練習）、設定目標、家庭晨間電子報和瀏覽器購物。
+- **[管理家庭行程、日常作息和餐點點子](https://agentusecases.ai/use-case/manage-family-schedules-routines-and-meal-ideas)**：一個 n8n workflow 透過信件和 Telegram 發送家庭活動提醒、作息檢查清單和每週規劃提示，並生成餐點點子。
+- **[管理行事曆、信箱、訂位和價格追蹤](https://agentusecases.ai/use-case/manage-calendar-inbox-bookings-and-price-tracking)**：發文者描述 Muse 跨已連接的 app 處理行事曆、信箱、訂位和價格追蹤。
+- **[簽約前標出 50 頁合約的風險](https://agentusecases.ai/use-case/flag-risks-in-a-50-page-contract-before-signing)**：發文者上傳一份 50 頁的合約，Claude 標出了接近結尾的自動續約條款和一個他們會漏看的責任條款。
+- **[給 AI 專屬信箱來當個人助理](https://agentusecases.ai/use-case/give-an-ai-its-own-inbox-to-act-as-personal-assistant)**：發文者另外設了一個信箱，讓 AI 監看並採取行動，加入行事曆提醒，並把簡訊提醒變成待辦任務。
+- **[給 agent 持久記憶和身分](https://agentusecases.ai/use-case/give-an-agent-persistent-memory-and-identity)**：一位開發者給 Claude Code agent 記憶和身分，四個月後回報它都做了些什麼。
+- **[維護家用媒體庫並處理個人專案](https://agentusecases.ai/use-case/maintain-a-home-media-library-and-handle-personal-projects)**：留言者說 Grok Bot 會管理 Plex 媒體庫，包含備份、去重、縮圖和合集，還在找到舊的購買信件後，幫忙做了 Tesla HUD 顯示器。
+- **[自動填寫並送出簽證表格](https://agentusecases.ai/use-case/fill-and-submit-visa-forms-automatically)**：memU bot agent 會填簽證表格、在裝置上找到正確文件、處理圖片上傳並送出，過程不用人工下指令。
+- **[自動填寫預訂表單](https://agentusecases.ai/use-case/fill-out-booking-forms-automatically)**：一位評測者讓 Comet 跨多個網站填寫預訂表單和問卷，只在確認完成時暫停。
+- **[自動找工作、客製履歷並投遞](https://agentusecases.ai/use-case/hunt-jobs-tailor-resumes-and-apply-automatically)**：一個叫 Resume 的 agent 會依時間和薪資期望找出職缺並排序，草擬客製履歷再送出申請，作者回報拿到 3 次面試和 1 個 offer。
+- **[自動投履歷並安排通話](https://agentusecases.ai/use-case/apply-to-jobs-automatically-and-schedule-calls)**：Muse 投了 60 多份工作，附上更新過的履歷和求職信，排好通話並建立準備檔案，已進入面試階段。
+- **[自動私訊 Instagram 上的潛在對象](https://agentusecases.ai/use-case/automate-instagram-dms-to-potential-matches)**：一位開發者用 OpenClaw 和 Claude 寫了腳本，幫他瀏覽 Instagram、找出潛在對象並發私訊。
+- **[自動處理寄信、查票價這類家務事](https://agentusecases.ai/use-case/automate-home-tasks-like-emails-and-ticket-price-checks)**：Microsoft 的 Omar Shahine 在家用 OpenClaw 草擬信件，並調查演唱會門票價格。
+- **[處理 DMV、退貨和預約這類要點很多下的雜事](https://agentusecases.ai/use-case/handle-multi-click-chores-like-dmv-returns-and-appointments)**：據報導，Grok Bot 會分類信件、到 DMV 辦車輛登記、退 Amazon 商品、預約看醫生和填表單。
+- **[處理信箱、草稿、會議和購買](https://agentusecases.ai/use-case/run-inbox-drafts-meetings-and-purchases)**：Meta Muse 會讀信箱、草擬信件、發會議通知，並透過 Stripe 購物，購買前需要先核准。
+- **[處理個人事務：付款、訂位、行事曆和客服](https://agentusecases.ai/use-case/run-personal-admin-payments-bookings-calendar-and-support)**：在為期數天的測試中，Dots agent 標出被退回的信用卡付款、解決配送衝突、找到餐廳新空位，也處理了寬頻登入問題，但有時會未經核准就動作。
+- **[處理家務和提醒](https://agentusecases.ai/use-case/handle-household-tasks-and-reminders)**：Nori 為一個家庭管理家務、重要電話、提醒、家人行程和後勤。
+- **[處理搬家雜事和訂位](https://agentusecases.ai/use-case/handle-moving-errands-and-reservations)**：一位 TechCrunch 記者用了 Operator 一週，餐廳訂位需要很多次人工介入，預約電工則失敗了。
+- **[處理買花、訂約會餐廳這類私人雜事](https://agentusecases.ai/use-case/run-personal-errands-like-flowers-and-date-nights)**：Marshall Haas 用 Meta 的 Muse agent 處理私人事務，包括買花和訂約會餐廳。
+- **[處理餐點規劃、每日簡報、跑腿和家務](https://agentusecases.ai/use-case/handle-meal-planning-daily-briefs-errands-and-household-task)**：留言的人用 agent 做每週餐點規劃、每日簡報、跑腿追蹤、信件分類、家裡維修清單和家務整理。
+- **[規劃家庭餐點並把食譜輸入 Grocy](https://agentusecases.ai/use-case/plan-family-meals-and-enter-recipes-into-grocy)**：作者用 Claude Cowork 在 Chrome 裡的 computer use 把食譜輸入 Grocy，調整成四人份，並挑出能用掉剩餘生鮮的食譜來列購物清單。
+- **[規劃生日派對和線上辦公室派對](https://agentusecases.ai/use-case/plan-birthday-and-virtual-office-parties)**：發文者用 ChatGPT 幫忙規劃生日派對和線上辦公室派對。
+- **[規劃週六雜事並預約剪髮](https://agentusecases.ai/use-case/plan-saturday-errands-and-book-haircuts)**：ChatGPT Agent 規劃了雜事行程、找出可線上預約的沙龍，並著手預約孩子們的剪髮，部分步驟需要人工確認。
+- **[訂一支 OBD2 掃描器來診斷引擎故障燈](https://agentusecases.ai/use-case/diagnose-a-check-engine-light-by-ordering-an-obd2-scanner)**：有人跟 OpenClaw agent 說引擎故障燈亮了，它就在 Amazon 訂了 OBD2 掃描器，讀取結果、找出感測器問題，再把燈消掉。
+- **[記錄餐點、做馬拉松計畫、排定 podcast](https://agentusecases.ai/use-case/log-meals-build-a-marathon-plan-and-schedule-a-podcast)**：一位評測者讓 Meta Muse 從照片記錄餐點，把馬拉松目標變成 PDF 計畫，並排定一個 AI 新聞 podcast；熱量估算很粗略。
+- **[診斷並修復家裡很慢的 Wi-Fi](https://agentusecases.ai/use-case/diagnose-and-fix-slow-home-wi-fi)**：使用者讓 Claude Code 跑測速、讀訊號資料並指導調整路由器，找出三個問題，把速度從約 90 提升到 292 Mbps。
+- **[請 AI 助理規劃生日當天](https://agentusecases.ai/use-case/plan-a-birthday-day-with-an-ai-assistant)**：一位共同創辦人的 AI 助理幫他規劃生日：蒐集同事的故事、安排一整天、訂晚餐、訂蛋糕。
+- **[請 Claude 扮演資深律師檢視租屋法庭案件](https://agentusecases.ai/use-case/review-a-housing-court-case-as-an-experienced-attorney)**：有留言者因為 Grok 害他錯過了遞件，後來開新對話，請 Claude 以資深租屋律師的身分檢視他的案子。
+- **[讀取 Obsidian 日記並每晚寫日誌](https://agentusecases.ai/use-case/read-an-obsidian-journal-and-write-nightly-entries)**：一位寫手把 OpenClaw 接到他的 Obsidian vault，讓它讀他的日記、控制音樂播放，並每晚在新資料夾裡寫自己的日誌。
+- **[讓 ADHD 使用者透過和 agent 對話來編輯文字](https://agentusecases.ai/use-case/help-people-with-adhd-edit-text-by-talking-to-an-agent)**：一套讓 ADHD 使用者也能用 agent 的工具組，現在新增 Prose 模組，可以在瀏覽器裡對 agent 說話來編輯文字。
+- **[讓 AI agent 代你打電話給商家](https://agentusecases.ai/use-case/have-an-ai-agent-phone-businesses-on-your-behalf)**：作者的 AI agent 打電話給一家商家，接電話的是商家自己的 AI agent，兩邊就這樣聊了起來。
+- **[讓 Claude 找 torrent 並加進 qBittorrent](https://agentusecases.ai/use-case/have-claude-find-a-torrent-and-add-it-to-qbittorrent)**：發文者讓 Claude 搜尋 torrent 並加進 qBittorrent，作為智慧家庭設定的一部分。
+- **[讓 Claude 控制電腦來寄信和傳 iMessage](https://agentusecases.ai/use-case/send-emails-and-imessages-by-letting-claude-control-your-com)**：一位作者把電腦控制權交給 Claude computer use 三小時，它打開 Outlook 寫信寄出，還找到一個 iMessage 對話傳訊息給朋友。
+- **[讓 Claude 操作 Mac 下棋和做筆記](https://agentusecases.ai/use-case/let-claude-drive-a-mac-to-play-chess-and-make-notes)**：一位作家讓 Claude 用 computer use 控制他的 Mac 來下棋和建立筆記，簡單任務可以，複雜的失敗，用量額度也差點用完。
+- **[讓 Comet 填表單並照指示做事](https://agentusecases.ai/use-case/have-comet-fill-out-forms-and-follow-instructions)**：發文者說 Comet 的 agentic 模式會照指示做事，包括指揮其他 AI 工具，也幫他填好了一份表單。
+- **[讓 agent 代學生完成線上課業](https://agentusecases.ai/use-case/have-agents-complete-online-coursework-for-students)**：據報導，學生指揮 AI agent 登入 Canvas 和 Blackboard 去做測驗、看講課影片、寫報告和在討論區發文。
+- **[讓 agent 控制電腦來修 PC 和路由器問題](https://agentusecases.ai/use-case/fix-pc-and-router-issues-by-letting-an-agent-control-the-com)**：一位留言者讓 Gemini 控制他的電腦和瀏覽器，透過路由器修好監視器，還清除錯誤訊息、掃描錯誤、移除垃圾檔案。
+- **[讓 agent 產生食譜檢視器網址](https://agentusecases.ai/use-case/let-agents-build-recipe-viewer-urls)**：作者給 agent 一份 skill 檔和文件，讓它們產生食譜檢視器的網址，連權限受限的 agent（例如 ChatGPT 網頁版）也能用。
+- **[跑 24 小時 agent 處理信件、表單和行事曆任務](https://agentusecases.ai/use-case/run-a-24-7-agent-for-email-forms-and-calendar-tasks)**：使用者把 Hermes 跑在迷你電腦上，處理信件、瀏覽、填表和 cron 工作，其中一人讓它對照 Apple Calendar 管理 Obsidian 任務，並用 Telegram 或 Signal 提醒。
+- **[跑一個 24 小時待命的個人助理和進度追蹤器](https://agentusecases.ai/use-case/run-a-24-7-personal-assistant-and-progress-tracker)**：發文者正在把 OpenClaw 設成隨時在線的個人助理和進度追蹤器，也拿它處理一個自架專案，並徵求模型路由成本的建議。
+- **[跑一個 24 小時待命的生活管家 agent，管媒體伺服器和個人雜務](https://agentusecases.ai/use-case/run-a-24-7-life-ops-agent-for-media-server-and-personal-admi)**：跑在 Mac mini 上的自架 agent，管理媒體串流環境、Home Assistant、下載、演唱會提醒、旅遊規劃、募款、家譜研究和 RSS 訂閱。
+- **[跑一個營養機器人，幫忙決定吃什麼和記錄熱量](https://agentusecases.ai/use-case/run-a-nutrition-bot-for-meal-decisions-and-calorie-logging)**：Zack 做了幾個健康 agent，其中有個營養機器人給他媽媽用，幫她決定餐點、記錄熱量，協助減重。
+- **[跑一個能讀信的個人 Matrix 助理 agent](https://agentusecases.ai/use-case/run-a-personal-matrix-based-assistant-agent-with-email-acces)**：作者用 Kimi 和 GLM5 做了一個小型類 Claw agent 迴圈，唯讀存取信箱，透過自架 Matrix 伺服器傳訊息，維護記憶檔案，並處理提醒和待辦。
+- **[跑個人助理處理 repo issue 和採買](https://agentusecases.ai/use-case/run-a-personal-assistant-that-handles-repo-issues-and-grocer)**：作者用 oh-my-py agent 組合當個人助理：開 repo issue、請另一個 agent 出貨程式碼並跑測試，還用額度受限的虛擬卡訂雜貨。
+- **[跑家庭後勤和孩子教育 agent](https://agentusecases.ai/use-case/run-family-logistics-and-kids-education-agents)**：一位創辦人跑了幾個 OpenClaw agent，包括家務後勤助理和孩子的教育 agent，她第一次嘗試時把全家的行事曆清空了。
+- **[跑自製的 Telegram bot 處理待辦、行事曆和天氣](https://agentusecases.ai/use-case/run-a-custom-telegram-bot-for-to-dos-calendar-and-weather)**：作者因為安全問題和自我設定導致崩潰而放棄 OpenClaw，改自己寫 Telegram bot，只手動開啟幾個功能：待辦清單、行事曆和天氣。
+- **[跨信箱、行事曆和錢包找演唱會門票](https://agentusecases.ai/use-case/find-concert-tickets-across-email-calendar-and-wallet)**：發文者請 Muse 搜尋行事曆、Ticketmaster、信箱、照片和錢包來找出演唱會門票，討論串提到它能跨來源追到票，但結果讓人失望。
+- **[退訂電子報並整理檔案](https://agentusecases.ai/use-case/unsubscribe-from-newsletters-and-tidy-files)**：一位開發者在隔離的筆電上測試 OpenClaw，它處理了 847 封信、退訂 203 個名單，準確率約 90%，漏掉幾封客戶信件，也寄了邀請並替檔案改名。
+- **[透過 Gmail 退訂沒在看的電子報](https://agentusecases.ai/use-case/unsubscribe-from-unread-mailing-lists-via-gmail)**：記者把 Muse 接上 Gmail，它找出從沒開過的信，讓使用者挑要退掉哪些，再幫忙送出退訂請求。
+- **[透過 MCP 用 LLM 更新家庭 wiki](https://agentusecases.ai/use-case/update-a-household-wiki-with-an-llm-via-mcp)**：作者的太太把 MCP server 接到他們家的 Wiki.js，讓 LLM 可以更新 wiki。
+- **[透過 MCP 讓 Claude 存取你的 WhatsApp 訊息](https://agentusecases.ai/use-case/give-claude-access-to-your-whatsapp-messages-via-mcp)**：一個架在 Cloudflare 上的單人用 MCP server，讓手機上的 Claude 能讀取並搜尋作者的個人 WhatsApp 訊息，並用 Google 聯絡人來解析姓名。
+- **[透過 MCP 讓 Claude 讀 Apple Health 和 Fitbit 資料](https://agentusecases.ai/use-case/let-claude-read-apple-health-and-fitbit-data-via-mcp)**：發文者做了一套設定，讓 Claude 透過 MCP 讀取 Apple Health 和 Fitbit 資料，並記錄運動和餐點。
+- **[透過 OpenClaw 在 Home Assistant 控制燈光並修復自動化](https://agentusecases.ai/use-case/control-lights-and-fix-automations-in-home-assistant-via-ope)**：Dan Malone 把 OpenClaw 當成常駐的 Claude agent，透過 ha-mcp 接上 Home Assistant，控制他的燈光並修好他的自動化。
+- **[透過 Telegram agent 處理個人雜務](https://agentusecases.ai/use-case/handle-personal-admin-chores-via-telegram-agent)**：Hermes 幫使用者辦好登機報到、追討 Student Finance 退款、申訴停車罰單、找到送貨證據、退訂垃圾信，還把處方箋歸檔到 Paperless。
+- **[透過 Telegram 把飲食和症狀記進健康日誌](https://agentusecases.ai/use-case/track-food-and-symptoms-in-a-health-log-via-telegram)**：OpenClaw agent 把 Telegram 訊息裡的餐點和症狀記進 markdown 檔，發送提醒，並每週做規律分析，這是教學風格的設定。
+- **[透過 WhatsApp 跑個人助理](https://agentusecases.ai/use-case/run-a-personal-assistant-over-whatsapp)**：作者把 OpenClaw 跑在便宜的 VPS 上，用 WhatsApp 傳訊息給它，管理行事曆、瀏覽網頁、回覆語音訊息，並把習慣記到用 Git 追蹤的檔案裡。
+- **[透過桌面控制設定 Reddit 個人檔案](https://agentusecases.ai/use-case/set-up-a-reddit-profile-through-desktop-control)**：有留言者說 Claude Code 靠截圖、瀏覽設定頁、填表單和上傳圖片，幫他設好了 Reddit 個人檔案。
+- **[透過診所的 AI 電話機器人預約獸醫](https://agentusecases.ai/use-case/book-a-vet-appointment-through-a-clinic-s-ai-phone-bot)**：一位留言者為生病的寵物打電話給醫生，AI 在 30 分鐘後就約好了門診，結果很順利。
+- **[重新設定 Home Assistant 燈光自動化](https://agentusecases.ai/use-case/reconfigure-home-assistant-lighting-automations)**：Levelsio 用 AI 改寫 Home Assistant，讓亮的 LED 關掉、柔光燈打開，晚上 10 點全部關燈，睡眠時用紅光。
+- **[長期運行對 ADHD 友善的行事曆和關心助理](https://agentusecases.ai/use-case/keep-an-adhd-friendly-calendar-and-check-in-assistant-runnin)**：使用者讓 OpenClaw 持續運行，處理小型行事曆任務和 ADHD 支援，例如精力檢查，並把注意力導回重要的事。
+- **[靠 Claude 的幫忙打贏小額官司](https://agentusecases.ai/use-case/win-a-small-legal-case-with-claude-s-help)**：發文者說 Claude 幫他打贏一場 8,000 美元的官司，只花了申請費，細節很少。
+- **[預約行程、寄信和傳訊息](https://agentusecases.ai/use-case/book-appointments-and-send-emails-and-messages)**：發文者讓 ChatGPT agent 預約行程，並寄信、傳訊息給老闆，過程中會暫停讓他自己登入信箱。
+
+## 購物與跑腿 { #shopping-errands }
+
+- **[上架 Quest 3 並和買家議價](https://agentusecases.ai/use-case/list-a-quest-3-and-negotiate-with-buyers)**：Meta Muse 在 Facebook Marketplace 上架了一台 Meta Quest 3，並被指示依底價和施壓策略跟買家議價。
+- **[依 Instacart 紀錄預先備好家庭購物車](https://agentusecases.ai/use-case/pre-stage-household-grocery-carts-from-instacart-history)**：一個 OpenClaw 外掛會抓 Instacart 訂單紀錄、預測家裡快用完什麼，每週兩次填好購物車並傳簡訊，使用者按下 Place Order 前不會出貨。
+- **[依 Slack 需求訂辦公室零食雜貨](https://agentusecases.ai/use-case/order-office-groceries-from-slack-requests)**：一家新創公司的 OpenClaw agent 收集 Slack 上的需求、整理清單、取得核准，再透過 ChatGPT 的 app 建立 Instacart 購物車，並把連結貼回去。
+- **[依健康數據和餐點計畫訂生鮮](https://agentusecases.ai/use-case/order-groceries-from-health-data-and-a-meal-plan)**：Austen Allred 的 AI 根據身體掃描、健康數據和偏好，對應餐點計畫自動訂生鮮雜貨。
+- **[依冰箱內容幫家人訂雜貨](https://agentusecases.ai/use-case/order-family-groceries-from-fridge-contents)**：一位家長讓 Grok Bot 檢查連線的 Samsung 冰箱，每週訂兩次雜貨，還會找折扣、套用優惠碼並處理取貨時間。
+- **[依常買商品和特價填滿超市購物車](https://agentusecases.ai/use-case/fill-a-supermarket-cart-from-regular-purchases-and-sales)**：一位開發者用 Silpo 的 MCP 伺服器做了 Claude Code skill，重新加入常買的雜貨、查特價，在預算內填滿真正的購物車，結帳交給人來做。
+- **[依常買清單填滿雜貨購物籃](https://agentusecases.ai/use-case/fill-a-grocery-basket-from-a-regular-items-sheet)**：Claude in Chrome 依 Google Sheet 把約 24 項商品加進 ASDA 購物籃，但使用者還是得修正品項並自己結帳。
+- **[依指定條件搜尋黑色星期五電視優惠](https://agentusecases.ai/use-case/hunt-black-friday-tv-deals-against-stated-requirements)**：ChatGPT Agent 花了幾分鐘搜尋優惠指南和零售商，回傳五台特價電視附購買連結，另外還有兩個比較便宜的替代選項。
+- **[依清單跨店家比較雜貨價格](https://agentusecases.ai/use-case/compare-grocery-prices-across-stores-from-a-list)**：一位科技從業者做了 Gemini 瀏覽器 agent，可以吃打字或掃描的手寫雜貨清單，並比較 Amazon Fresh 和 Flipkart Minutes 的價格。
+- **[依聊天需求建立 Instacart 雜貨購物車](https://agentusecases.ai/use-case/build-an-instacart-grocery-cart-from-a-chat-request)**：一位記者把 Instacart 接上 ChatGPT，它組出配方奶、冰淇淋和水果的購物車，並在聊天中開啟結帳確認。
+- **[依購買紀錄建立生鮮購物車](https://agentusecases.ai/use-case/build-a-grocery-cart-from-purchase-history)**：Instacart 的 AI 助理依購物者的購買紀錄建出 27 項的購物車，把晚餐點子變成購物車，並標出缺貨的品項。
+- **[傳訊息給 DoorDash agent 重訂常點的餐](https://agentusecases.ai/use-case/reorder-usual-meals-by-texting-a-doordash-agent)**：DoorDash 在 Apple Messages 裡的 agent 會調出訂單紀錄、建立購物車，並在客人於對話中確認後結帳，也能處理飲食需求不同的團體訂單。
+- **[價格到目標時自動下單](https://agentusecases.ai/use-case/auto-buy-items-when-the-price-hits-a-target)**：Alexa 的購物助理可以設定降價通知，也能在價格到達目標時，用預設付款方式自動購買 Amazon 出貨的商品，還能排定定期購買。
+- **[加購生鮮、在 Amazon 買東西、比機票價格](https://agentusecases.ai/use-case/add-groceries-buy-on-amazon-and-price-shop-flights)**：一位留言者和太太經常用 AI agent 把商品加進 Walmart 生鮮外送訂單、在 Amazon 購物和比較機票價格。
+- **[向多家經銷商取得競價報價並議價](https://agentusecases.ai/use-case/get-competing-car-quotes-from-dealerships-and-negotiate-a-lo)**：agent 在 8 到 10 家經銷商的網站填表單，並用寄信讓各家報價互相競爭，三天內談成一筆省下 4,200 美元以上的交易。
+- **[和賣家議價 Facebook Marketplace 的商品](https://agentusecases.ai/use-case/negotiate-facebook-marketplace-purchases-with-sellers)**：一位使用者設了 agent 去對 Facebook Marketplace 賣家砍價，據說談到一台 Jeep Wrangler 1,500 美元，另外還有一台 PS5 和三台電視。
+- **[在 Costco 買微波爐](https://agentusecases.ai/use-case/buy-a-microwave-from-costco)**：一位使用者讓 Meta Muse 去 Costco 買了一台微波爐。
+- **[在 Etsy 找復古檯燈](https://agentusecases.ai/use-case/find-a-vintage-lamp-on-etsy)**：ChatGPT Agent 工作了 50 分鐘，回報已把五盞燈加進購物車，但使用者自己的購物車是空的，因為它跑在另一台電腦上。
+- **[在 Walmart 買自製披薩的食材](https://agentusecases.ai/use-case/buy-homemade-pizza-ingredients-from-walmart)**：一位評測者讓 ChatGPT Agent 在 Walmart 買披薩食材，遇到防機器人檢查時短暫把控制權交還給他。
+- **[在經銷商之間談買車價格](https://agentusecases.ai/use-case/negotiate-a-car-purchase-between-dealers)**：OpenClaw 研究價格、搜尋經銷商庫存、填聯絡表單，並拿各家報價互相比較，最後省了 4,200 美元，不過有一次寄錯經銷商。
+- **[在預算內到 Etsy 買派對用品](https://agentusecases.ai/use-case/shop-etsy-for-party-supplies-within-a-budget)**：Chrome 搭配 Gemini 的 auto browse 搜尋 Etsy、把商品加進購物車、套用折扣碼，並把購物車留給使用者檢查。
+- **[填線上問卷換免費贈品](https://agentusecases.ai/use-case/complete-online-surveys-for-free-stuff)**：一位使用者讓 Grok Bot 填問卷來拿免費東西，目前成功過一次。
+- **[定時尋找 eBay 好價格](https://agentusecases.ai/use-case/find-good-ebay-deals-on-a-schedule)**：一位社群開發者做了 eBay 優惠搜尋器，由 Firecrawl 抓商品列表，Hermes 定時執行，依使用者條件判斷每件是不是好價格。
+- **[寄信給休士頓經銷商來買車](https://agentusecases.ai/use-case/email-houston-dealerships-to-shop-for-a-car)**：Cowork 建立了經銷商追蹤表、寄出聯絡信、填網頁表單並處理回覆，另一個 100 多張收據的報帳工作碰到限制，改由 Claude Code 處理。
+- **[從 Amazon Fresh 和 Whole Foods 訂生鮮雜貨](https://agentusecases.ai/use-case/order-groceries-from-amazon-fresh-and-whole-foods)**：Alexa+ 會訂生鮮雜貨、追蹤過往購買紀錄，還記得食譜和飲食偏好。
+- **[從一個點子建立並下單雜貨購物車](https://agentusecases.ai/use-case/build-and-order-a-grocery-cart-from-an-idea)**：透過 Instacart 連接器，Muse 把「週二塔可日」這類點子變成偏好商店的購物車，並結帳、安排配送。
+- **[從收據追蹤儲藏庫存並採買](https://agentusecases.ai/use-case/track-pantry-stock-from-receipts-and-buy-groceries)**：自製的 AI 系統讀收據、估算廚房庫存、查超市的供貨和價格、下單買菜，還會推薦食譜。
+- **[從雜亂的需求比較 Costco 袋裝商品價格和省多少](https://agentusecases.ai/use-case/compare-costco-bag-prices-and-savings-from-a-jumbled-request)**：使用者丟給 Alexa+ 一堆雜亂的需求，它整理出一份購物比較，涵蓋 Costco 袋裝商品的價格和可省金額。
+- **[從頭到尾處理 IKEA 退貨](https://agentusecases.ai/use-case/handle-an-ikea-return-end-to-end)**：Muse 跟 IKEA 客服溝通並安排取件，使用者早已忘了這件事，取件人員就上門了。
+- **[打電話給店家確認有沒有貨](https://agentusecases.ai/use-case/phone-stores-to-check-if-items-are-in-stock)**：發文者讓 Manus 試了幾項任務，包括打電話問店家庫存，結果每項都失敗，也沒打出任何電話。
+- **[打電話給當地店家確認商品庫存](https://agentusecases.ai/use-case/phone-local-stores-to-check-product-stock)**：一個以 Grok 為基礎的個人助理用 Bland.ai 打電話給當地店家，就庫存進行對話，並回傳含有貨狀況的完整逐字稿。
+- **[打電話給當地店家確認玩具庫存](https://agentusecases.ai/use-case/call-local-stores-to-check-toy-stock)**：一位作家用 Gemini 的通話功能打電話給當地店家問 Labubu 公仔，並收到庫存、價格和營業時間的文字或信件摘要。
+- **[找 100 美元以下的咖啡機並加入購物車](https://agentusecases.ai/use-case/find-coffee-makers-under-100-and-add-options-to-the-cart)**：Perplexity Comet 在 Amazon 搜尋附磨豆機的咖啡機，做了比較表並把兩個選項加進購物車，在結帳前停下來。
+- **[找並買一盆當日送達的蕨類當禮物](https://agentusecases.ai/use-case/find-and-buy-a-same-day-delivery-fern-as-a-gift)**：作者在 Agent mode 下讓 ChatGPT 搜尋當地植物店並填好結帳表單，停下來讓他自己按購買，之後回報訂單和追蹤資訊。
+- **[找出高肉量貓糧並加入購物籃](https://agentusecases.ai/use-case/find-and-add-high-meat-cat-food-to-a-basket)**：一位評測者讓 Comet 的助理找肉含量最高的貓糧並加進購物籃，另外也做了一些商品比較和填表單，只是不夠完美。
+- **[找節慶禮物並查庫存和特價](https://agentusecases.ai/use-case/find-holiday-gifts-and-check-stock-and-sales)**：一位作家用 Gemini app 和它的 agent 功能找禮物點子和零售商，並查庫存和特價，同時提到有些功能還沒完全準備好。
+- **[把手寫採買清單變成購物車](https://agentusecases.ai/use-case/turn-a-handwritten-grocery-list-into-a-cart)**：ChatGPT Agent 從照片中辨識出 16 項裡的 15 項，找到最近的商店並加進購物車，但漏了洋蔥，登入也卡關。
+- **[把手寫清單變成雜貨訂單](https://agentusecases.ai/use-case/turn-a-handwritten-list-into-a-grocery-order)**：一位 TechRadar 作家把手寫購物清單掃進 Alexa，從中下 Amazon Fresh 或 Whole Foods 訂單，避開擁擠的商店。
+- **[把消費者雜事交給全天候 agent](https://agentusecases.ai/use-case/hand-consumer-errands-to-an-always-on-agent)**：一位記者讓 Dot 試辦 ISP 申辦、Ikea 帳號和訂餐，只有部分在人協助下完成，卡在瀏覽器檢查和付款步驟。
+- **[把雜貨購買紀錄整理成試算表](https://agentusecases.ai/use-case/turn-grocery-purchase-history-into-a-spreadsheet)**：發文者讓 ChatGPT Agent 登入雜貨帳號、檢視 2025 年的購買紀錄、去除重複，並做成試算表，可以用，但還沒到設好就不用管的程度。
+- **[挑襯衫並下訂單](https://agentusecases.ai/use-case/shop-for-a-shirt-and-place-the-order)**：AI agent 比較了六個品牌的尺寸、退貨政策和免運門檻，找到最近的門市，選好尺寸，訂了一件白色正式襯衫。
+- **[挑選要上架網路商店的商品](https://agentusecases.ai/use-case/pick-products-to-list-in-an-online-shop)**：AI Village 裡一個叫 Leon 的 AI agent，挑了一款韓國玩偶鑰匙圈上架到 eBay 商店。
+- **[掃描二手店商品並標出好價格](https://agentusecases.ai/use-case/scan-thrift-store-items-and-flag-good-deals)**：Agent 處理二手店的影片畫面，查商品的網路價格，並通知使用者有哪些划算的東西。
+- **[排程定期補貨家用必需品](https://agentusecases.ai/use-case/schedule-recurring-restocking-of-household-essentials)**：使用者在 Alexa for Shopping 建立排程動作，每月加入孩子的零食，並補貨寵物食品、紙巾和洗衣精，內容為廠商資料。
+- **[搜尋 Facebook Marketplace 並整理到 Sheets](https://agentusecases.ai/use-case/search-facebook-marketplace-and-tabulate-results-in-sheets)**：使用者想讓 Claude in Chrome 搜尋 Marketplace 商品並記到 Google Sheet，但一直跳出的權限提示很礙事。
+- **[整晚在 eBay 搜尋高價寶可夢卡](https://agentusecases.ai/use-case/hunt-high-value-pok-mon-cards-on-ebay-overnight)**：一位工程師做了 Codex agent，他睡覺時它會瀏覽 eBay 商品、擷取 PSA 鑑定編號，並對照已知價格。
+- **[每天自動訂兩餐健康餐點](https://agentusecases.ai/use-case/order-healthy-meals-twice-a-day-automatically)**：Flo Crivello 的 agent 已經連續兩週每天兩餐幫他決定並下單，照指示挑最健康的選項。
+- **[每天追蹤 Shopify 商店的價格和庫存變動](https://agentusecases.ai/use-case/track-daily-price-and-stock-changes-on-shopify-stores)**：Agent 每天讀 Shopify 商店的公開商品 feed，回報新增、下架、價格和庫存的變化，例如 allbirds.com 的 692 項商品。
+- **[每週追蹤五個網站的競品價格](https://agentusecases.ai/use-case/track-competitor-prices-weekly-across-five-sites)**：agent 每週一打開五個品牌網站，和上週的快照比對，為變動處截下附時間戳的畫面，並寄出報告。
+- **[比較 Costco 和 Amazon 購物車的價格與送達](https://agentusecases.ai/use-case/compare-costco-and-amazon-carts-on-price-and-delivery)**：Grok Bot 把商品加進 Costco 和 Amazon 的購物車，比較價格、運費和送達時間，遇到 CAPTCHA 或 2FA 時把桌面交還給使用者。
+- **[比較比利時各超市的可口可樂價格](https://agentusecases.ai/use-case/compare-coca-cola-prices-across-belgian-supermarkets)**：Grok Bot 比較比利時各超市同一瓶可口可樂，指出最便宜和最貴的並標出促銷，遇到 Carrefour 的 captcha 時把瀏覽器交還給使用者。
+- **[測試 OpenAI 的 Agent 網購](https://agentusecases.ai/use-case/test-openai-s-agent-on-online-shopping)**：Agent 買皮鞋買到一半，需要發文者自己輸入信用卡，接著遇到 Amazon 的機器人防護，沒辦法穩定地購物、訂位或預約。
+- **[為冷盤拼盤建立 Instacart 清單](https://agentusecases.ai/use-case/build-an-instacart-list-for-a-charcuterie-board)**：Comet 約五分鐘就從 ShopRite 把大約 20 項商品加進 Instacart 購物車，挑最便宜或最暢銷的，並拒絕自己結帳。
+- **[為活動客製並訂購抹茶飲料](https://agentusecases.ai/use-case/customize-and-order-a-matcha-drink-for-an-event)**：Grace Ling 把 API 金鑰接到 Claude Cowork，透過 Monid agent 整合，客製並訂了一杯椰雲抹茶給活動用。
+- **[特價期間讓 AI agent 買耳機](https://agentusecases.ai/use-case/buy-headphones-during-a-sale-with-an-ai-agent)**：AI agent 幫發文者買了耳機，他也用一個瀏覽器擴充功能來做特價購買和降價通知。
+- **[用 AI agent 開店並經營網路商店](https://agentusecases.ai/use-case/launch-and-run-an-online-store-with-ai-agents)**：作者用 AI 開店工具一次就開出能真正收款的零售店，並有五個 agent 盯訂單、庫存和顧客。
+- **[用 Alexa+ 重訂最近買過的 Amazon 商品](https://agentusecases.ai/use-case/reorder-a-recent-amazon-purchase-with-alexa)**：使用者請 Alexa+ 重訂最近買的商品，但它在訂單紀錄裡找不到，所以失敗了。
+- **[用 ChatGPT agent mode 找並測試折扣碼](https://agentusecases.ai/use-case/find-and-test-discount-codes-with-chatgpt-agent-mode)**：發文者用 ChatGPT 的 agent mode 做多步驟研究並測試折扣碼，在購買前拿到更好的價格。
+- **[用 ChatGPT 依菜單照片點餐](https://agentusecases.ai/use-case/order-from-a-restaurant-menu-photo-with-chatgpt)**：顧客拍下菜單，讓 ChatGPT 組好點餐內容，再把手機畫面給店員看。
+- **[用 Claude Chrome 擴充功能逛 Amazon 和做頁面](https://agentusecases.ai/use-case/shop-on-amazon-and-build-pages-with-the-claude-chrome-extens)**：一位評測者用 Claude Chrome 擴充功能逛 Amazon、一個提示就做出互動式模型時間軸，還翻譯並摘要網頁，過程出現過一個截圖 bug。
+- **[用 Claude 在 Amazon 買 Raspberry Pi 零件](https://agentusecases.ai/use-case/shop-for-raspberry-pi-parts-on-amazon-with-claude)**：Claude 在 Amazon 搜尋 Raspberry Pi，詢問麥克風和喇叭的選項，約 15 分鐘把東西加進購物籃，比自己手動還慢。
+- **[用 Claude 規劃並訂一週的雜貨](https://agentusecases.ai/use-case/plan-and-order-a-week-of-groceries-with-claude)**：發文者在 Mac 和 iOS 上用 Claude 規劃並訂一週的雜貨，只有部分成功，之後會繼續用，但只到產生採買清單這一步。
+- **[用 Comet 訂雜貨和找優惠](https://agentusecases.ai/use-case/order-groceries-and-hunt-deals-with-comet)**：使用者給 Comet 一份雜貨清單，並在另一個分頁登入雜貨帳號，它就去搜尋優惠，另一位使用者則讓它每天寄工作機會。
+- **[用 Comet 預約健身房參觀並比較會員方案](https://agentusecases.ai/use-case/book-a-gym-tour-and-compare-memberships-with-comet)**：NBC 用 Comet 測試投履歷、購物和健身房參觀，過程需要人介入，催了一下才約好參觀，並做出價格比較圖。
+- **[用 Meta Muse 掃 Marketplace 和處理雜事](https://agentusecases.ai/use-case/scan-marketplace-and-handle-errands-with-meta-muse)**：留言的人說他們用 Muse 做支出追蹤器、排會議、寄後續信，並掃描 Facebook Marketplace 的玩具、議價和確認狀況。
+- **[用 OpenClaw 打造電商 agent](https://agentusecases.ai/use-case/build-an-e-commerce-agent-with-openclaw)**：發文者花了 100 多小時和 2 億多 token，用 OpenClaw 做了一個電商工作流程 agent，貼文主要在講建置的投入。
+- **[用 Operator 找以前買過的 Amazon 商品](https://agentusecases.ai/use-case/find-a-previously-ordered-amazon-product-with-operator)**：試了好幾次都失敗後，使用者讓 Operator 在背景搜尋 Amazon，找他以前訂過的商品。
+- **[用 Operator 找玩具並開始結帳](https://agentusecases.ai/use-case/find-a-toy-and-start-checkout-with-operator)**：OpenAI 的 Operator 挑了符合條件的玩具並打開 Target.com，但沒有完成購買，而是帶著使用者走完結帳流程。
+- **[用 Operator 訂位、比較商品和填表單](https://agentusecases.ai/use-case/use-operator-to-book-tables-compare-products-and-fill-forms)**：發文者用 Operator 測試網頁任務，包括訂位、比較商品、填表單、瀏覽網站和登入各種服務。
+- **[用 Operator 購物、玩遊戲和整理課程資訊](https://agentusecases.ai/use-case/shop-play-a-game-and-compile-course-info-with-operator)**：Operator 玩了一個 deepfake 辨識遊戲拿到 6/10，買了牛仔褲，還從作者的網站整理出線上課程的資訊。
+- **[用 agent mode 裝滿超市購物車等隔天取貨](https://agentusecases.ai/use-case/fill-a-supermarket-cart-with-agent-mode-for-pickup)**：發文者上班時，agent mode 在當地超市把雜貨加進購物車，隔天早上取貨。
+- **[用 agent 在網路上賣閒置物品](https://agentusecases.ai/use-case/sell-your-unused-items-online-with-an-agent)**：發文者測試 ChatGPT Agent Mode 處理一場約 10 天的網路拍賣，包括回訊息和提醒調價，自己幾乎不用動手。
+- **[用 agent 買短褲並處理 email](https://agentusecases.ai/use-case/shop-for-shorts-and-handle-email-via-an-agent)**：TechRadar 的評測者讓 Muse 找符合尺寸的短褲，並要求登入 Amazon 才能購買，同時也處理他的 email。
+- **[用 agent 透過外送 app 訂餐和買菜](https://agentusecases.ai/use-case/order-food-and-groceries-through-delivery-apps-by-agent)**：Super 是個人 agent，用電腦操作的方式使用外送和生鮮 app，使用者說想要什麼，再自己檢查並確認訂單。
+- **[用 computer use 幫一群人訂披薩](https://agentusecases.ai/use-case/order-pizza-for-a-group-with-computer-use)**：Anthropic 工程師讓 Claude 用 computer use 操作 DoorDash，替一群人挑披薩。
+- **[用 computer use 找素食餐廳並存筆記](https://agentusecases.ai/use-case/find-vegetarian-restaurants-and-save-notes-via-computer-use)**：作者在 Docker 裡跑 Anthropic 的 computer-use 示範，讓 Claude 在 Bond Street 附近找出 5 家素食友善餐廳，並把細節存到記事本檔案。
+- **[用 computer use 點網站的加入購物車按鈕](https://agentusecases.ai/use-case/click-add-to-cart-button-on-a-website-with-computer-use)**：Víctor Paytuvi 在 Gemini 失敗後，讓 Claude computer use 找到並點擊網站的加入購物車按鈕，一次就成功。
+- **[用 computer-use agent 訂生鮮雜貨](https://agentusecases.ai/use-case/order-groceries-with-computer-use-agents)**：作者試了 Operator 和另外兩個 computer-use agent 來買菜，覺得體驗太差，一般消費者不會用得下去。
+- **[用 email 跟車商談總價](https://agentusecases.ai/use-case/negotiate-out-the-door-car-prices-with-dealers-by-email)**：買車用的 AI 採購 agent 會寄信給車商、要求書面報價，報價和刊登價格對不上時會據理力爭。
+- **[用信用卡照片在網路上買東西](https://agentusecases.ai/use-case/buy-products-online-from-a-card-photo)**：Musk 說 Grok Bot 在 LEGO 官網買了樂高，使用者也可以把信用卡照片丟進聊天，讓它找最划算的價格並下單，但沒說明計畫和防護措施。
+- **[用排程的 Dot 追蹤稀有咖啡豆](https://agentusecases.ai/use-case/track-rare-coffee-beans-with-a-scheduled-dot)**：使用者讓 Dot 利用舊對話的脈絡，每天兩次監控美國的稀有咖啡豆，結果回報了以每杯計價的 Gesha 選項。
+- **[用本地 LLM skill 線上訂雜貨](https://agentusecases.ai/use-case/order-groceries-online-with-a-local-llm-skill)**：作者為本地 Qwen 3.6 27B 模型做了採買 skill，它知道冰箱裡有什麼、過去的訂單和即時庫存，並替他在線上下單。
+- **[用瀏覽器 agent 在網站上看車](https://agentusecases.ai/use-case/shop-for-cars-on-websites-with-a-browser-agent)**：發文者用 Muse 在網路上看車，發現網站開始擋它之後，持續登入的瀏覽器設定檔加上正常節奏效果最好。
+- **[用瀏覽器 agent 建立 BMW 零件購物車](https://agentusecases.ai/use-case/build-a-bmw-parts-cart-with-a-browser-agent)**：一位留言者說 Operator 把 BMW 330Ci 零件購物車的任務做得不錯，在網站要求登入時暫停等他輸入，省了大約 30 分鐘。
+- **[用照片和 Gmail 收據草擬退款信](https://agentusecases.ai/use-case/draft-refund-emails-from-a-photo-and-gmail-receipt)**：Cowork 會在 Gmail 找到收據，擷取訂單編號和日期，並草擬一封退款信讓使用者檢查後寄出。
+- **[用照片在 Amazon 買東西](https://agentusecases.ai/use-case/buy-items-on-amazon-from-a-photo)**：作者用 ChatGPT Agent 依包裝紙照片重新訂購商品，整個 Amazon 購買流程都自己處理，直到 Amazon 開始擋 agent。
+- **[用語音透過 Grubhub 和 Uber Eats 訂晚餐](https://agentusecases.ai/use-case/order-dinner-by-voice-via-grubhub-and-uber-eats)**：一位作家用 Alexa+ 以對話方式訂晚餐，連結了 Grubhub 和 Uber Eats 帳號，過程中還客製並更改了訂單。
+- **[監控 Amazon 和 eBay 價格，變動時寄信](https://agentusecases.ai/use-case/monitor-amazon-and-ebay-prices-and-email-on-changes)**：n8n 工作流程每天三次檢查 Google Sheet 裡的商品網址、比對價格、寄出變動通知，並記錄每次檢查。
+- **[監控競品在市集的價格](https://agentusecases.ai/use-case/monitor-competitor-marketplace-prices)**：發文者用 Grok Bot 長期檢查競品的商品和價格，不過有些網站的 CAPTCHA 會擋住它。
+- **[盯商品價格，降價時寄 email](https://agentusecases.ai/use-case/watch-item-prices-and-email-on-drops)**：一位留言者用 ChatGPT 盯想買的商品價格，只有降價時才會收到 email。
+- **[盯每週優惠並買固定要買的東西](https://agentusecases.ai/use-case/watch-weekly-deals-and-buy-regular-items)**：一個 Grok Bot 負責盯常買商品的優惠，另一個在瀏覽器裡帶著運送資料和折扣碼下單，再讀訂單確認信和物流追蹤。
+- **[研究在地傳單優惠並寄出最划算的](https://agentusecases.ai/use-case/research-local-mailer-deals-and-email-the-best-ones)**：使用者讓 Dot 每週二午夜研究在地傳單，依他喜歡的食物把最好的優惠寄給他。
+- **[研究怎麼買一頭犛牛](https://agentusecases.ai/use-case/research-buying-a-yak)**：Manus 瀏覽網站、處理彈出視窗並整理發現，但花了 15 分鐘、用掉 300 點數，卡住時還需要人工接手。
+- **[研究購買項目的到手價和有效優惠券](https://agentusecases.ai/use-case/research-purchases-for-delivered-price-and-working-coupons)**：發文者做了一個 agent，會比較實際到手價、測試找到的每張優惠券、讀車主或用戶回饋，並走完結帳流程但不下單。
+- **[結帳前找並測試優惠碼](https://agentusecases.ai/use-case/find-and-test-promo-codes-before-checkout)**：ChatGPT 會搜尋公開折扣、測試優惠碼，並在使用者購買前確認最終結帳價格。
+- **[結帳時自動套用優惠券](https://agentusecases.ai/use-case/apply-coupons-automatically-at-checkout)**：發文者做了一個購物 agent skill，結帳前先查即時優惠券來源，套用有效的券，三次實際結帳都省到錢。
+- **[經營網路商店的庫存、商品頁和照片](https://agentusecases.ai/use-case/run-an-online-store-s-inventory-listings-and-photos)**：Agent 接收每週庫存試算表，更新價格和庫存，寫原創商品說明，把照片重繪成攝影棚風格，不確定的項目留待核准。
+- **[網路研究並購買，付款前需核准](https://agentusecases.ai/use-case/research-and-buy-online-with-approval-at-payment)**：Grok Bot 研究選項，透過 Stripe Link 準備訂單，付款前會顯示含商家、總額和說明的支出請求；其中一個例子涵蓋餐點規劃和生鮮訂單。
+- **[自動規劃每週餐點並訂雜貨](https://agentusecases.ai/use-case/plan-weekly-meals-and-order-groceries-automatically)**：一位單親爸爸讓 Hermes 做餐點計畫和雜貨訂單，每週用 cron 工作抓 HEB 廣告給餐點規劃 skill，只需要偶爾引導一下。
+- **[規劃餐點、列採買清單並訂餐](https://agentusecases.ai/use-case/plan-meals-build-grocery-list-and-order-food)**：ChatGPT Agent 做出食譜、附在地價格的分類採買清單和匯出的 Sheets，也下了 DoorDash 訂單，但付款時交還給使用者。
+- **[規劃餐點並依 Google Doc 下雜貨訂單](https://agentusecases.ai/use-case/plan-meals-and-place-grocery-orders-from-a-google-doc)**：Claude 和 Muse 負責餐點規劃、儲藏室盤點和食譜追蹤，接著 Muse 讀 Google Doc 並在瀏覽器下雜貨訂單，發文者再從手機確認付款。
+- **[規劃餐點並裝滿 Instacart 購物車](https://agentusecases.ai/use-case/plan-meals-and-fill-an-instacart-cart)**：作者用 ChatGPT 搭配 Instacart 外掛，做出每日餐點計畫，並把食材放進一份可以直接下單的購物清單。
+- **[訂冰淇淋外送並製作行程試算表](https://agentusecases.ai/use-case/order-ice-cream-delivery-and-build-schedule-spreadsheets)**：記者測試 Operator：冰淇淋送到了，但過程需要指引、付款資訊和購買核准，試算表的細節也常出錯。
+- **[訂筆、搜尋訂位和度假村](https://agentusecases.ai/use-case/order-pens-and-search-for-reservations-and-resorts)**：Amazon 擋掉 Operator 後，它改在 Staples 找到 144 支裝的筆；餐廳訂位失敗，度假村搜尋則選了隨機日期。
+- **[訂麵包店取貨並在 Marketplace 找沙發](https://agentusecases.ai/use-case/order-bakery-pickup-and-find-couches-on-marketplace)**：在為期數天的測試中，Meta Muse 裝滿了麵包店取貨的購物車，在結帳時暫停等最終核准，還在 Facebook Marketplace 找到當地沙發並跟進了一則刊登。
+- **[讓 AI agent 下 DoorDash 訂單](https://agentusecases.ai/use-case/let-ai-agents-place-doordash-orders)**：DoorDash 的 dd-cli beta 讓 agent 可以訂餐，並有 Claude 從頭到尾完成一張訂單的示範。
+- **[讓 AI agent 搜尋商店、建購物車、準備結帳](https://agentusecases.ai/use-case/let-ai-agents-search-a-store-build-carts-and-prep-checkout)**：商店設定成讓 Claude 或 ChatGPT agent 能搜尋商品目錄、建立購物車、套用優惠碼，再在付款前交出結帳連結。
+- **[讓 Claude 自主購買遊戲](https://agentusecases.ai/use-case/let-claude-buy-a-game-autonomously)**：發文者建了支付基礎設施，讓 Claude 在被要求時能自己完成遊戲購買，大約 60 秒搞定。
+- **[讓 agent 挑選並購買驚喜禮物](https://agentusecases.ai/use-case/have-an-agent-pick-and-buy-a-surprise-gift)**：一位使用者請 GPT 挑驚喜禮物，留言的人說 agent 甚至在已登入的 Amazon 頁面按下了 Buy Now。
+- **[讓 agent 用預先儲值的餘額購物](https://agentusecases.ai/use-case/let-an-agent-make-purchases-from-a-pre-funded-balance)**：一位留言者的 agent 用預先儲值的餘額完成購買，買了一張 $18 的禮品卡來支付 $17.73 的訂單。
+- **[購買前查詢即時商品價格](https://agentusecases.ai/use-case/check-live-product-prices-before-buying)**：發文者在 ChatGPT 報出過期價格後，串接了讀取商品頁並驗證的工具，讓 agent 能查目前價格。
+- **[跟零售商的客服聊天室談電視價格](https://agentusecases.ai/use-case/negotiate-a-tv-price-with-a-retailer-s-chat)**：ChatGPT Agent 用荷蘭文跟零售商的聊天室議價，應付加購推銷，最後以含運 €939 買到 LG OLED 電視。
+- **[透過 AI agent 訂午餐](https://agentusecases.ai/use-case/order-lunch-through-an-ai-agent)**：Abhishek Upadhya 讓 AI agent 幫他訂午餐，給了它 CVV 和 OTP，餐點送到前不需要再介入。
+- **[透過 Operator 做網購](https://agentusecases.ai/use-case/do-your-online-shopping-through-operator)**：作者說透過 ChatGPT 用 Operator 處理購買，改變了他的購物習慣，也降低了對 Amazon 的依賴。
+- **[透過 Signal agent 建立團購購物車](https://agentusecases.ai/use-case/build-group-grocery-carts-through-a-signal-based-agent)**：自架的 Signal agent 依過往訂單擬採買清單，讓群組成員編輯，再登入商店建好購物車並驗證；結帳由作者手動完成。
+- **[透過 agent 買東西並追蹤訂單](https://agentusecases.ai/use-case/buy-products-through-an-agent-and-track-the-order)**：據 Rye 說，一位使用者讓他的 OpenClaw agent 找商品，並透過 Rye 的結帳 API 完成購買，商品送達後還會輪詢訂單狀態。
+- **[開 Tesla 時用語音訂星巴克](https://agentusecases.ai/use-case/order-starbucks-by-voice-from-a-tesla-while-driving)**：使用者讓 Tesla 裡的 Grok Bot 下了星巴克訂單，下單前用語音確認飲料和總價。
+- **[點一下照片就在 Uber Eats 訂午餐](https://agentusecases.ai/use-case/order-lunch-on-uber-eats-by-tapping-a-picture)**：作者請 AI agent 做了一個「Lunch」app，點食物照片就會啟動 subagent 到 Uber Eats 下單，用來減少決策疲勞。
+
+## 旅遊與訂位 { #travel-bookings }
+
+- **[agent 對 agent 預約牙醫](https://agentusecases.ai/use-case/book-a-dentist-appointment-agent-to-agent)**：使用者的 agent 嘗試預約牙醫，牙醫的 agent 提出反條件，雙方就時間、費用以及跟 American Express 的仲裁展開協商。
+- **[一句指令訂好整趟旅行](https://agentusecases.ai/use-case/book-a-full-trip-from-one-instruction)**：一場研討會演講介紹了一個 AI agent，只給一句含四項限制的指令，就組合、預訂並付款買下機票、旅館和租車，過程中沒有供應商看到顧客本人。
+- **[依行事曆買電影票並設提醒](https://agentusecases.ai/use-case/buy-movie-tickets-and-set-reminders-from-your-calendar)**：自訂的 Meta Muse skill 查行事曆、確認電影場次和座位、買票、把訂位加進行事曆，並依路況發出出發提醒。
+- **[修正訂錯日期的訂位](https://agentusecases.ai/use-case/fix-a-booking-made-on-the-wrong-date)**：Dot 發現 David 為即將到來的歐洲行訂錯了巴黎到巴塞隆納的日期，並把訂位改成正確日期。
+- **[出差時處理訂旅館和路線指引](https://agentusecases.ai/use-case/handle-hotel-booking-and-directions-on-a-business-trip)**：旅客在國際出差時用 Gemini 臨時訂符合公司政策的旅館，還查了穿越 Heathrow 和前往瑞士會場的步行路線。
+- **[嘗試訂一對情侶的機票（失敗）](https://agentusecases.ai/use-case/attempt-to-book-a-couple-s-flight-failed)**：Slate 的記者請 Muse 訂機票；它遇到 captcha，被踢出瀏覽器，什麼都沒完成，他只好自己訂。
+- **[在 Google Flights 依條件找最便宜的直飛航班](https://agentusecases.ai/use-case/find-cheapest-nonstop-flights-on-google-flights-with-constra)**：ChatGPT Agent 在 Google Flights 搜尋今年最便宜的直飛航班，限 4 到 10 天的行程並排除 Boeing 737 MAX，成功完成。
+- **[在 bot 之間修正訂錯日期的機票](https://agentusecases.ai/use-case/fix-wrong-day-flight-reservations-between-bots)**：Ron 的演講行程 bot 發現機票日期錯了，經他許可後請他的旅遊 bot 修正並重新安排所有行程。
+- **[在真實網站上從頭到尾完成餐廳訂位](https://agentusecases.ai/use-case/book-restaurant-reservations-end-to-end-on-real-sites)**：發文者做了能找餐廳、填訂位表單並在真實網站上確認訂位的 agent，能處理動態元素和機器人偵測。
+- **[在聊天助理裡找租屋並預約看房](https://agentusecases.ai/use-case/search-rentals-and-book-apartment-tours-in-a-chat-assistant)**：一篇教學說明在 Gemini 和 ChatGPT 裡使用 Zillow Rentals，取得篩選後的即時房源並預約看房時間；這是指南，沒有實際完成看房。
+- **[在飛行途中改訂延誤的轉機航班](https://agentusecases.ai/use-case/rebook-a-delayed-flight-connection-mid-flight)**：OpenAI 的 Dot 跟 Alaska、Delta 和 KLM 聊天，找到新航線，Denis 核准後免費改訂，而他當時還在飛機上。
+- **[從 email 解決機票付款被拒的問題](https://agentusecases.ai/use-case/resolve-a-declined-flight-payment-from-email)**：有了 email 權限，Meta Muse 發現機票付款被拒，找到新金融卡的 email，確認付款，並把航班加進行事曆。
+- **[從搜尋結果訂 Southwest 機票](https://agentusecases.ai/use-case/book-a-southwest-flight-from-a-search)**：Travel Weekly 的記者讓 Comet 在已登入的帳號上訂指定的 Southwest 航班，選票價並填個人資料。
+- **[打電話給租車公司加嬰兒座椅](https://agentusecases.ai/use-case/call-a-car-rental-company-to-add-an-infant-seat)**：搭配 JooVoice 的 Grok Bot 打給租車公司，操作語音選單，跟真人通話，並收到確認嬰兒座椅變更的 email。
+- **[打電話給餐廳訂已滿的位子](https://agentusecases.ai/use-case/phone-a-restaurant-to-book-a-full-table)**：線上訂位失敗後，OpenClaw 做了一個用 AI 語音的撥號 app，打給餐廳，搶到臨時取消的位子。
+- **[打電話跟旅館談房間](https://agentusecases.ai/use-case/negotiate-hotel-rooms-by-phone-call)**：AI 助理打給日本的旅館，談成五個晚上都住同樣兩間房；使用者事後聽了錄音。
+- **[找並改訂旅程的機票](https://agentusecases.ai/use-case/find-and-rebook-flights-for-a-trip)**：一位前旅遊業從業者讓 ChatGPT 透過 Kayak 搜尋機票並建議較早的回程選項，之後訂了休士頓到紐約的航班。
+- **[找並訂商務午餐餐廳](https://agentusecases.ai/use-case/find-and-book-a-business-lunch-restaurant)**：NN/G 的測試者讓 ChatGPT 的 agent 找到並預訂休士頓的 Brennan's，花了約 11 分鐘，細節和賓客人數需要人工協助。
+- **[找並訂機場停車位（部分失敗）](https://agentusecases.ai/use-case/find-and-book-airport-parking-partly-failed)**：記者請 Comet 找 SFO 附近的便宜停車位並預訂；它兩次輸入錯誤日期，卻還是硬往結帳推進。
+- **[找倫敦導覽並訂生鮮](https://agentusecases.ai/use-case/find-london-tours-and-order-groceries)**：Operator 在 TripAdvisor 找到高評價的倫敦徒步導覽，但 Instacart 訂單搜錯城市，結果出錯。
+- **[找更便宜的羅馬機票加旅館組合](https://agentusecases.ai/use-case/find-a-cheaper-rome-flight-and-hotel-combination)**：使用者讓瀏覽器 agent 在預算內比較飛羅馬的來回機票和中價位旅館；結果發現分開訂比套裝行程便宜。
+- **[找適合 16 人聚餐的餐廳](https://agentusecases.ai/use-case/find-restaurants-that-fit-a-party-of-16)**：使用者讓 ChatGPT 查彩排晚宴的空位，並做出 HTML 比較表，列出合適餐廳的菜單、地點和價格；最後用電話訂位。
+- **[把出差旅館短名單整理進 Google Sheet](https://agentusecases.ai/use-case/shortlist-business-trip-hotels-into-a-google-sheet)**：Claude in Chrome 的捷徑在 Booking.com 搜尋市中心附近、價格上限內的旅館，並把價格、評分、距離、設施和訂房連結逐筆記錄到 Google Sheet。
+- **[把在地最佳餐廳存成 Google Maps 清單](https://agentusecases.ai/use-case/save-the-best-local-restaurants-as-a-google-maps-list)**：度假前，ChatGPT agent 挑了 10 間餐廳，在要他登入 Google 時暫停，約 23 分鐘後存好附招牌菜備註的 Maps 清單。
+- **[把訂位電話變成行事曆預約](https://agentusecases.ai/use-case/turn-reservation-calls-into-calendar-bookings)**：n8n workflow 接收 Vapi 通話逐字稿，擷取訂位資訊，建立 Calendar 事件，記錄到 Sheets 並發送後續通知。
+- **[把訂機票之類的瀏覽器任務交給 Manus](https://agentusecases.ai/use-case/delegate-browser-tasks-like-flight-booking-to-manus)**：評測者用 Manus 做瀏覽器任務，例如取得 email 登入驗證碼和訂機票，覺得它點 UI 很慢，所以更喜歡 Claude。
+- **[拿到會籍匹配和升等券，再訂機票](https://agentusecases.ai/use-case/get-status-match-and-upgrade-certificates-then-book-flight)**：John 的 Dot 找到會籍匹配方案，拿到四張升等成可平躺座位的券，填好表單，用 email 確認，讀完條款後訂了機票。
+- **[搜尋 JFK 出發的便宜來回機票](https://agentusecases.ai/use-case/search-for-cheap-round-trip-flights-from-jfk)**：ChatGPT agent 回傳依目的地列出日期和價格的表格，查證後相符，但沒有附訂票連結，記者得自己手動搜尋。
+- **[搜尋去紐約參加婚禮的機票](https://agentusecases.ai/use-case/search-for-a-wedding-flight-to-new-york)**：作者給 Comet 和 ChatGPT Atlas 同樣的訂機票任務；Comet 大多只指向比價網站，而不是具體航班。
+- **[搜尋場館網站找想去的音樂會](https://agentusecases.ai/use-case/search-venue-sites-for-concerts-to-attend)**：作者讓 Operator 找柏林的古典音樂會；它 15 分鐘後給了結果，但導覽很吃力，產品研究和抓 Gmail 收據都失敗。
+- **[改訂出差機票省錢](https://agentusecases.ai/use-case/rebook-a-work-flight-to-save-money)**：Arden 傳簡訊告訴使用者，改訂他的蘇黎世航班可省 $7,750；他核准後，它就改了航班，退款也進了他的公司卡。
+- **[查航班資訊並叫 Uber](https://agentusecases.ai/use-case/find-flight-info-and-book-an-uber)**：Grok Bot 查到航班資訊，並依使用者的旅行資料叫了 Uber。
+- **[機票降價時重新改價](https://agentusecases.ai/use-case/reprice-booked-flights-when-prices-drop)**：AI agent 在訂票後持續監控機票價格，票價下跌時辦理退款；發文者說它替他們的機票改價了好幾次。
+- **[每天盯旅館價格，降價時通知改訂](https://agentusecases.ai/use-case/monitor-hotel-prices-daily-and-alert-on-drops-for-rebooking)**：訂好可退款的旅館房間後，排程的 Claude 任務每天查同一間房的價格直到取消期限結束，價格下降就通知使用者改訂。
+- **[每趟旅行決定用點數還是現金](https://agentusecases.ai/use-case/decide-between-points-and-cash-for-every-trip)**：這些 skills 和 MCP server 讓 Claude Code 能跨 25 個以上的里程計畫搜尋兌換機票、比較現金票價並查詢會員點數餘額。
+- **[為 14 天日本行研究旅館](https://agentusecases.ai/use-case/research-hotels-for-a-14-day-japan-trip)**：Manus 在 Booking.com 搜尋評價好的旅館，交叉比對評論和交通，每個城市回傳三個選項；作者給它處理空房的表現 7/10 分。
+- **[為旅行研究餐廳和旅館空房](https://agentusecases.ai/use-case/research-restaurants-and-hotel-availability-for-trips)**：一位作者用 Comet 瀏覽哥本哈根的米其林餐廳、查日本旅館空房，並找優惠。
+- **[用 AI agent 打電話預約診所](https://agentusecases.ai/use-case/schedule-clinic-appointments-by-phone-with-an-ai-agent)**：診所的自動電話 AI 取代真人，接聽並處理了發文者的預約來電。
+- **[用 AI 旅遊規劃工具訂機票](https://agentusecases.ai/use-case/book-flights-with-ai-trip-planners)**：一篇部落格測試五個 AI 旅遊規劃工具完成訂票的能力；Kayak 的 agent 透過自家結帳完成，ChatGPT Operator 靠填表只完成部分訂票，還需要手動取消。
+- **[用 Alexa+ 訂餐廳位子](https://agentusecases.ai/use-case/book-a-restaurant-table-with-alexa)**：評測者請 Alexa+ 訂一間壽司店，但那間餐廳不在 OpenTable 上所以訂不成；他也試著叫 Uber。
+- **[用 ChatGPT Agent 訂機場旅館](https://agentusecases.ai/use-case/book-an-airport-hotel-with-chatgpt-agent)**：作者讓 ChatGPT Agent 在 Booking.com 挑選並預訂 Gatwick 的旅館，它做到信用卡確認畫面，之後需要作者接手。
+- **[用 ChatGPT 找最便宜的機票](https://agentusecases.ai/use-case/find-the-cheapest-flight-with-chatgpt)**：使用者在找機票的流程中用了 ChatGPT，並把結果跟其他工具比較；它沒有完成訂票。
+- **[用 Chrome auto browse 查旅館和抓稅務文件](https://agentusecases.ai/use-case/research-hotels-and-pull-tax-documents-with-chrome-auto-brow)**：測試者用 Chrome 裡的 Gemini 跨網站查里斯本旅館，並從薪資入口網站取得稅務文件；它在下生鮮訂單前停了下來。
+- **[用 Claude Cowork 規劃公路旅行](https://agentusecases.ai/use-case/plan-a-road-trip-with-claude-cowork)**：發文者用 Claude 規劃整趟去 National Harbor, MD 的旅程，它像個熟悉路線的旅伴。
+- **[用 Codex 依客戶筆記推薦旅館](https://agentusecases.ai/use-case/recommend-a-hotel-from-client-notes-using-codex)**：旅遊顧問讓 Codex 根據客戶筆記推薦義大利的 Belmond 旅館，查詢即時訂房系統，並產出詳細的 Word 文件。
+- **[用 Codex 自製網站規劃假期](https://agentusecases.ai/use-case/plan-a-vacation-with-a-custom-codex-built-website)**：Claire 讓 Codex 研究旅館、標在 Google Maps 上，並用手機部署旅遊網站；它的瀏覽器也替一件商品走到了結帳頁。
+- **[用 Comet 依航空公司條件搜尋機票](https://agentusecases.ai/use-case/search-flights-with-airline-constraints-using-comet)**：Comet 在指定航空公司間搜尋里斯本到台灣的機票，條件是不要 737 Max 且最多轉機一次，抓即時價格並走到乘客資料頁。
+- **[用 Comet 訂餐廳並擬改期 email](https://agentusecases.ai/use-case/book-a-restaurant-and-draft-a-reschedule-email-with-comet)**：評測者讓 Comet 找到並預訂週五晚上 7 點的位子，還在 Gmail 填好改期 email，寄出留給使用者決定。
+- **[用 Deep Research 規劃家庭旅遊](https://agentusecases.ai/use-case/plan-family-vacations-with-deep-research)**：作者用 ChatGPT Deep Research 搭配詳細的家庭需求 prompt 找目的地、景點和排行程；目前還不能篩選並預訂住宿。
+- **[用 Operator 瀏覽、填表和查旅遊資料](https://agentusecases.ai/use-case/browse-fill-forms-and-research-travel-with-operator)**：評測者在發表當天試了 Operator：它能瀏覽、填表、從 email 下載 PDF、研究行程，也能透過 Booking 訂位，只是很慢。
+- **[用 Operator 訂晚餐](https://agentusecases.ai/use-case/make-a-dinner-reservation-with-operator)**：Marily 記錄了她第一次用 Operator 訂晚餐的過程，喜歡它省去搜尋和輸入細節，但覺得比預期慢。
+- **[用 Telegram 語音訊息規劃出差](https://agentusecases.ai/use-case/plan-business-trips-by-voice-message-in-telegram)**：n8n workflow 把 Telegram 語音訊息轉成文字，擷取目的地、日期和住宿需求，並搜尋出差用的機票和旅館。
+- **[用 agent 查 Southwest 航班](https://agentusecases.ai/use-case/check-southwest-flights-with-an-agent)**：發文者想讓 Dot 連上 Southwest 重新查航班，但這個任務失敗了。
+- **[用 agent 規劃朋友婚禮之旅](https://agentusecases.ai/use-case/plan-a-friend-s-wedding-trip-with-an-agent)**：ChatGPT Agent 的 demo 讓它為朋友的婚禮買服裝、訂旅程並挑選禮物。
+- **[用 agent 訂機票、晚餐和火車票（失敗）](https://agentusecases.ai/use-case/book-flight-dinner-and-train-with-an-agent-failed)**：發文者給 agent 一張機票、倫敦兩人晚餐和一張火車票的任務，結果一件都沒完成，OpenTable 還擋掉機器人。
+- **[用 agent 訂餐廳、電影票和剪髮](https://agentusecases.ai/use-case/book-restaurants-movie-tickets-and-haircuts-with-an-agent)**：一位發文者說他用 Muse 已經好幾週，拿來訂餐廳、電影票和剪髮預約。
+- **[用 computer use 訂新德里到孟買的機票](https://agentusecases.ai/use-case/book-a-new-delhi-to-mumbai-flight-with-computer-use)**：作者在 Docker demo 裡跑 Claude 的 computer use 訂新德里到孟買的機票；Claude 開了 Firefox 並開始搜尋，但結果沒有呈現。
+- **[用個人助理 agent 協調團體旅行](https://agentusecases.ai/use-case/coordinate-group-trips-with-a-personal-assistant-agent)**：使用者跑一個有自己 email 和電話的 OpenClaw 助理，協調團體旅行的付款和報名，並讓它碰不到信用卡和銀行帳戶。
+- **[用對話式 AI agent 處理板式網球俱樂部訂位](https://agentusecases.ai/use-case/handle-padel-club-bookings-through-a-conversational-ai-agent)**：板式網球俱樂部的訂位系統用 n8n AI agent 負責對話，由 workflow 處理訂位邏輯。
+- **[用常駐 agent 研究並協助改訂機票](https://agentusecases.ai/use-case/research-and-help-rebook-a-flight-with-an-always-on-agent)**：Every 一位作者的 Dot 研究了改班方案，並指出與同事錄音時間衝突，這是它從 Slack 討論中學到的。
+- **[用常駐 agent 規劃旅行並訂機票、旅館和接駁車](https://agentusecases.ai/use-case/plan-a-trip-and-book-flight-hotel-and-shuttle-with-an-always)**：使用者讓 Dots 規劃旅行並提醒訂接駁車；agent 填了訂單表單，但一直要求確認，也不肯輸入 2FA 驗證碼，所以只做到一半。
+- **[用手機規劃臨時出差](https://agentusecases.ai/use-case/plan-a-last-minute-business-trip-by-phone)**：在 OpenAI 的 demo 中，Dot 找到可退款且符合政策的機票和旅館選項並準備好訂單，不過到最後機票還在待定。
+- **[用手機訂機票](https://agentusecases.ai/use-case/book-a-flight-from-your-phone)**：Tom 用手機上的 ChatGPT Work 訂了機票；它先問個人資料，再開一個遠端瀏覽器 session 讓他輸入付款資料。
+- **[用抵用金訂機票並管理訂位](https://agentusecases.ai/use-case/book-flights-with-credits-and-manage-reservations)**：使用者讓 Muse 用沒用完的 Southwest 抵用金訂機票、盯更好的座位、處理 OpenTable 訂位，並為來訪的朋友維護行程儀表板。
+- **[用日文訂餐廳和旅館晚餐](https://agentusecases.ai/use-case/book-restaurants-and-a-hotel-dinner-in-japanese)**：Muse 訂好日本行程的所有餐廳，還跟箱根旅館用日文來回溝通，搶到網站上沒有的晚餐時段。
+- **[用桌面 agent 訂紀念日晚餐](https://agentusecases.ai/use-case/book-an-anniversary-dinner-reservation-with-a-desktop-agent)**：發文者用 AI 桌面 agent 在舊金山的 Serafina 訂了紀念日晚餐的位子。
+- **[用泰文打電話給餐廳訂位](https://agentusecases.ai/use-case/phone-a-restaurant-in-thai-to-book-a-table)**：Grok Bot 打給泰國的米其林餐廳，說泰文、操作語音選單，並請對方在安排訂金期間先保留座位。
+- **[用瀏覽器 agent 買演唱會門票（失敗）](https://agentusecases.ai/use-case/buy-concert-tickets-with-a-browser-agent-failed)**：Agent 被交辦買兩張 Ticketmaster 的一般席門票，卻卡在座位圖，購物車還過期兩次。
+- **[用語音 agent 打給 DMV 預約](https://agentusecases.ai/use-case/call-the-dmv-to-schedule-an-appointment-with-a-voice-agent)**：Olivia Moore 在不到 30 分鐘內做出一個語音 agent，打給 DMV 幫她約好時間。
+- **[用語音叫 Uber 並找便宜足球票](https://agentusecases.ai/use-case/order-an-uber-and-find-cheap-soccer-tickets-by-voice)**：評測者連結帳號後讓 Alexa+ 叫了 Uber，還瀏覽附近球場最便宜的票，兩件事都成功。
+- **[用雲端電腦 agent 訂餐廳](https://agentusecases.ai/use-case/book-a-restaurant-with-a-cloud-computer-agent)**：OpenAI 的 Dots agent 在自己的雲端電腦上自行訂了餐廳，只是很慢，而且需要 ChatGPT Pro。
+- **[用電話 agent 預約小孩的牙科檢查](https://agentusecases.ai/use-case/book-a-kid-s-dental-checkup-by-phone-agent)**：發文者測試了八個 AI 電話 agent 打給牙醫預約檢查，條件包括只限平日和下午 3 點後。
+- **[申請航班延誤賠償並改訂航班](https://agentusecases.ai/use-case/file-airline-delay-compensation-and-rebook-a-flight)**：使用者讓 Muse 在延誤 7 小時後申請賠償，拿到 $250 的 Delta 抵用金，改訂新航班，還回覆了客服 email。
+- **[當旅行社訂機票（差一步）](https://agentusecases.ai/use-case/book-flights-as-a-travel-agent-came-close)**：Debbie O'Brien 讓 Grok Bot 試著訂機票；差一點就成功，但漏掉最後一步，所以沒完成訂票。
+- **[發送旅行清單和歡迎回來訊息](https://agentusecases.ai/use-case/send-travel-checklists-and-welcome-back-messages)**：n8n workflow 掃描旅行社的每日行程表，出發前 3 天發 WhatsApp 清單，返國後一天發歡迎回來的訊息。
+- **[盯 Resy 並訂約會晚餐的位子](https://agentusecases.ai/use-case/monitor-resy-and-book-date-night-tables)**：Brian 做了一個 Hermes agent，盯著 Resy 上紐約愛店的空位並訂位，但沒有做頻率限制，帳號因此被停權。
+- **[盯並訂一位難求的餐廳位子](https://agentusecases.ai/use-case/monitor-and-book-a-hard-to-get-restaurant-table)**：使用者讓 AI 旅遊 agent 盯 Don Angie 的空位並訂了兩人桌，再傳簡訊確認 8:45pm 的訂位。
+- **[盯售票網站並回報可選時段](https://agentusecases.ai/use-case/watch-a-ticket-site-and-report-available-times)**：Mika Reyes 設了一個 Grok Bot routine，持續查 Dancing with the Stars 的售票網站，再回報有哪些時段。
+- **[篩選目的地並比較住宿](https://agentusecases.ai/use-case/shortlist-destinations-and-compare-stays)**：Comet 依阿姆斯特丹出發的飛行時間篩出陽光充足的目的地，再把 Airbnb 和 Booking.com 的房源整理成比較表。
+- **[經營餐廳語音助理處理訂位和點餐](https://agentusecases.ai/use-case/run-a-restaurant-voice-assistant-for-reservations-and-orders)**：n8n 後端讓 ElevenLabs 語音 agent 查桌位、管理訂位、接受點餐並安排回電，另外還有 Vapi 的旅遊和居家服務預約 agent。
+- **[線上比較並預訂旅館](https://agentusecases.ai/use-case/compare-and-book-a-hotel-online)**：Grok Bot 比較了旅館選項並在線上完成訂房付款，幫使用者省了錢。
+- **[自製 agent 搜尋賽普勒斯別墅出租](https://agentusecases.ai/use-case/build-a-custom-agent-to-search-cyprus-villa-rentals)**：Marc Lou 做了一個 agent，把公開的房地產資料和空氣品質、水質、噪音及山崩資料結合，做成 Airbnb 風格的別墅介面。
+- **[航班取消後改訂](https://agentusecases.ai/use-case/rebook-after-a-flight-cancellation)**：航班取消後，ChatGPT Work mode 找到替代航班、安排租車，並整合新的旅行安排。
+- **[規劃並預訂臨時出差](https://agentusecases.ai/use-case/plan-and-book-a-short-notice-work-trip)**：Grok Bot 研究機票並訂了 Vince 挑的那班，不過他得接手電腦填資料，覺得比自己訂還麻煩。
+- **[規劃並預訂電影約會夜](https://agentusecases.ai/use-case/plan-and-book-a-movie-date-night)**：ChatGPT Agent 在戲院網站挑好座位，付款資料時暫停，確認後買票並建立行事曆事件。
+- **[規劃倫敦徒步導覽並找便宜機票](https://agentusecases.ai/use-case/plan-a-london-walking-tour-and-hunt-cheap-flights)**：作者用 Comet 當預設瀏覽器一個月，規劃徒步導覽、在設定的時間區間搜尋機票並擬 email，也記下它卡關的地方。
+- **[規劃假期、辦簽證並完成訂位](https://agentusecases.ai/use-case/plan-vacations-handle-visas-and-make-bookings)**：用 AI 規劃假期、辦簽證並處理所有訂位；文章也提到用 AI 過濾交友邀約。
+- **[規劃出差並從每次檢討中學習](https://agentusecases.ai/use-case/plan-business-trips-and-learn-from-each-debrief)**：demo 的差旅營運 agent 搜尋機票和旅館，套用儲存的偏好，產出一個待核准的推薦，再更新自己的記憶；沒有實際訂任何東西。
+- **[規劃團體週末旅行並訂位](https://agentusecases.ai/use-case/plan-a-group-weekend-trip-and-make-reservations)**：ChatGPT work mode 替 9 位朋友規劃了連假旅行，做了協調用網站，讓大家達成共識，完成訂位，並擬了 Gmail 信件。
+- **[規劃家庭旅行並預填訂單](https://agentusecases.ai/use-case/plan-a-family-trip-and-pre-fill-bookings)**：記者讓 ChatGPT Agent 規劃 4 天的聖地牙哥行程：它搜尋機票、比較旅館、排行程並預填訂房表單，在購買前停下。
+- **[規劃家庭聖誕旅行並訂機票](https://agentusecases.ai/use-case/plan-a-family-christmas-trip-and-book-flights)**：使用者讓 Muse 處理預算和健身目標，它也訂了 Southwest 機票，並規劃了整趟家庭聖誕旅行。
+- **[規劃有晚餐和喜劇表演的生日夜](https://agentusecases.ai/use-case/plan-a-birthday-evening-with-dinner-and-a-comedy-show)**：Muse agent 規劃了太太的生日夜晚，釐清地點細節後，經許可訂了晚餐並買了兩張票。
+- **[訂位並盯空位或降價](https://agentusecases.ai/use-case/book-tables-and-watch-for-openings-or-price-drops)**：OdessiaTravel agent 會訂位，並持續監控客滿後釋出的空位或旅遊訂單的降價，而不是只列出選項。
+- **[訂住宿做到付款階段](https://agentusecases.ai/use-case/book-accommodation-up-to-payment-stage)**：Agent 打開 Tirupati 的 TTD 網站，選好選項、填入資料，把訂房帶到付款階段，全程沒有人手動點擊。
+- **[訂慕尼黑到倫敦的機票（沒完成）](https://agentusecases.ai/use-case/book-a-munich-to-london-flight-didn-t-finish)**：使用者請 AI agent 訂慕尼黑到倫敦的機票；它搜尋了航空公司網站，但沒能完成訂票。
+- **[訂房後打電話給旅館確認](https://agentusecases.ai/use-case/call-hotels-to-verify-reservations-after-booking)**：據一位抱怨這些來電的旅館員工說，使用者的 AI agent 在訂房後會打電話給旅館確認訂位是否正確。
+- **[訂旅行並找餐廳訂位](https://agentusecases.ai/use-case/book-travel-and-find-restaurant-reservations)**：Claude 在公司差旅系統訂機票和旅館，另有一個 prompt 會找高評價餐廳、辨識它們的訂位系統，並查週六 6pm 兩人的空位。
+- **[訂晚餐位子並聯絡網紅](https://agentusecases.ai/use-case/book-dinner-reservations-and-reach-out-to-influencers)**：一位留言者說 agent 訂了約會晚餐的位子，還替另一家公司聯絡了約 20 位社群網紅。
+- **[訂最低價機票並之後退票](https://agentusecases.ai/use-case/book-the-best-priced-flight-and-later-refund-it)**：Claude Code agent 在三個月前以最低價訂了機票，之後跟航空公司談了 24 小時，成功退款。
+- **[訂機票、旅館和租車](https://agentusecases.ai/use-case/book-flights-hotel-and-rental-car)**：Grok Bot 訂了機票、旅館和租車，作為處理使用者生活雜務的一部分，同時也管理 email。
+- **[訂機票並選座位、填旅客編號](https://agentusecases.ai/use-case/book-flights-with-seat-selection-and-traveler-numbers)**：Muse 在 Amex Travel 上從頭到尾替 Cyrus 和他太太訂好機票，包括選座位，以及會員編號和 TSA 編號。
+- **[訂機票和旅館，付款前停下等核准](https://agentusecases.ai/use-case/book-flights-and-hotels-stopping-at-payment-for-approval)**：Claude Cowork 透過 Claude in Chrome 操作瀏覽器訂了 8 張機票和 5 間旅館，填好旅客資料和座位，付款時暫停等核准。
+- **[訂私廚並規劃滑雪假期](https://agentusecases.ai/use-case/book-a-private-chef-and-plan-a-ski-holiday)**：ChatGPT 找私廚、寄信詢問報價和檔期、處理回信並追蹤缺少的資訊，還研究滑雪地點以及接送和裝備報價。
+- **[訂餐廳並搶露營地和門票](https://agentusecases.ai/use-case/book-restaurants-and-snipe-campsites-and-tickets)**：Grok Bot 讀行事曆、挑時間並訂了餐廳；整理文章還列出盯 recreation.gov、ReserveCalifornia 和 AMC 的釋票。
+- **[訂餐廳位子並加進行事曆](https://agentusecases.ai/use-case/book-a-restaurant-table-and-add-it-to-the-calendar)**：記者讓 Meta 的 Muse 找曼哈頓中城 6 點兩人的餐廳、訂位並加進行事曆；假期旅遊的訂位則做得很笨拙。
+- **[試著用 Claude 訂華沙到倫敦的行程](https://agentusecases.ai/use-case/try-to-book-a-warsaw-to-london-trip-with-claude)**：發文者想讓 Claude 透過 Expedia 和 Kiwi connector 完整訂好機票和旅館，覺得效果很差，最後改成自己做了一個旅遊訂位 project。
+- **[請常駐的 Slack agent 挑機票日期](https://agentusecases.ai/use-case/ask-an-always-on-slack-agent-to-pick-flight-dates)**：評測者把 Dots 接到 Slack，請它用自己的電腦挑機票日期；它很慢，一分鐘後還沒選好日期。
+- **[讓 agent 打電話給餐廳訂位](https://agentusecases.ai/use-case/let-agents-phone-restaurants-to-book-tables)**：Jake 做了一個工具，讓 Claude 或 ChatGPT 這類 agent 能打電話訂位，並能在通話中處理回撥號碼。
+- **[買搶手的 Hyrox 賽事門票](https://agentusecases.ai/use-case/buy-a-sell-out-hyrox-event-ticket)**：Grok Bot 在門票賣完前幫使用者買到了 Hyrox 賽事的票。
+- **[跨訂房系統預訂旅館房間](https://agentusecases.ai/use-case/book-hotel-rooms-across-booking-engines)**：Manus 在 11 個訂房系統上測試，其中 8 個走完日期和房型選擇，但到付款資料就交還，所以沒有完成任何訂房。
+- **[追蹤拉斯維加斯機票價格並找回程](https://agentusecases.ai/use-case/track-las-vegas-flight-prices-and-find-return-flights)**：作者請 Muse 每天查維加斯的票價並找回聖地牙哥的班機；它只給了三個選項，還無視他的偏好，所以他覺得很失望。
+- **[透過 Alexa+ 訂票、叫車和找服務](https://agentusecases.ai/use-case/book-tickets-rides-and-services-via-alexa)**：記者把 OpenTable、Ticketmaster、Uber 和 Thumbtack 連到 Alexa+ 來訂位訂票，覺得像 beta 版，容易出錯，有時還聽不到他說話。
+- **[透過 OpenTable 和 Resy 訂餐廳位子](https://agentusecases.ai/use-case/book-restaurant-tables-via-opentable-and-resy)**：實測中，Claude 顯示了 Resy 的空位但無法訂位，ChatGPT 的 agent 點進 OpenTable 卻選錯人數。
+- **[透過 OpenTable 預訂餐廳位子](https://agentusecases.ai/use-case/reserve-a-restaurant-table-through-opentable)**：在 demo 中，Operator 透過 OpenTable 預訂舊金山 Beretta 晚上 7 點的位子，一開始搜錯地區，修正後再請求核准。
+- **[透過 Resy connector 訂餐廳位子](https://agentusecases.ai/use-case/book-a-restaurant-table-through-a-resy-connector)**：PCWorld 的作者請 Claude 透過 Resy connector 訂曼哈頓中城三人的位子；它選了一間餐廳，但過程很笨拙，出現原始 JSON 和權限提示。
+- **[透過 WhatsApp 處理餐廳訂位](https://agentusecases.ai/use-case/handle-restaurant-reservations-over-whatsapp)**：作者為一間在地餐廳做了 WhatsApp agent，查空位、回答問題並確認訂位；目前有一位付費客戶。
+- **[透過 agent 從頭到尾訂機票](https://agentusecases.ai/use-case/book-a-flight-end-to-end-through-an-agent)**：作者的 agent Flightclaw 搜尋各家航空，寄出安全結帳連結，他付款後回傳訂位代號。
+- **[逛旅館網站找紐約住宿](https://agentusecases.ai/use-case/shop-hotel-sites-for-a-new-york-stay)**：在 Skift 的測試中，Muse 開了瀏覽器搜尋 11 月 1 到 2 日、每晚 $350 到 450 的旅館，首推 Marlton Hotel。
+- **[預約牙醫、健檢和剪髮](https://agentusecases.ai/use-case/book-dentist-physical-and-haircut-appointments)**：發文者請 Muse 排三個預約；它找到了預約頁面，但剪髮那個寫了一封長信而沒有完成預約，所以只算部分成功。
+- **[點進預約網站完成預約](https://agentusecases.ai/use-case/book-appointments-by-clicking-through-booking-sites)**：ChatGPT Agent Mode 開一個真實瀏覽器，在預約網站上一步步點擊完成預約；文章附有設定教學。
+
+## 工作與營運 { #work-operations }
+
+- **[CRM 和寄信工作依任務挑最便宜夠用的模型](https://agentusecases.ai/use-case/pick-the-cheapest-capable-model-per-task-for-crm-and-email-w)**：有使用者讓他的 OpenClaw agent 改寫自己的程式，加上一個節流模組，替 CRM 分析和撰寫外寄信件這類任務挑最便宜又夠用的模型。
+- **[不寫程式做出電子報成效儀表板](https://agentusecases.ai/use-case/build-a-newsletter-performance-dashboard-without-coding)**：一位不寫程式的媒體營運者讓 Claude Code 在約 30 分鐘內做出追蹤整個網絡電子報成效的儀表板；另有一位獨立 CFO 做了支出系統。
+- **[例行檢查商店的延遲訂單和庫存](https://agentusecases.ai/use-case/run-routine-store-checks-on-delayed-orders-and-stock)**：有留言者讓 Claude 對自己的商店檢查延遲訂單、停滯的物流追蹤和庫存問題；發文者正在透過 MCP 連接助理。
+- **[依付款狀態草擬逾期發票追款信](https://agentusecases.ai/use-case/draft-overdue-invoice-follow-ups-from-payment-status)**：一個流程定時檢查試算表裡的發票付款狀態，AI agent 再依逾期天數草擬追款信。
+- **[依學生評鑑回饋修訂課程](https://agentusecases.ai/use-case/revise-courses-from-student-evaluation-feedback)**：一位教授讓 Claude Code 摘要課程評鑑 PDF，把主題建成 GitHub issue，並用 agent 修訂他的資安課和另外兩門課。
+- **[依履歷面試應徵者](https://agentusecases.ai/use-case/interview-candidates-based-on-their-resume)**：一個做好的 AI 面試 agent 會分析應徵者的履歷，並為 HR 和招募人員進行個人化面試。
+- **[依已完成工單撰寫衝刺結束的更新日誌](https://agentusecases.ai/use-case/write-end-of-sprint-changelogs-from-completed-tickets)**：一位 PM 讓 Claude Cowork 讀已完成的 Linear 工單、挑出重要的、草擬更新內容並建議用信件還是 app 內格式，每個衝刺省下約一小時。
+- **[依能力等級評估應徵者](https://agentusecases.ai/use-case/evaluate-hiring-candidates-against-competency-levels)**：留言者做了一個基本的招募 agent，載入能力定義和等級，用於 HR 的評估工作。
+- **[依評分標準批改 Canvas 上的學生作業](https://agentusecases.ai/use-case/grade-student-submissions-from-canvas-against-a-rubric)**：一位講師的流程會從 Canvas 抓學生檔案，讓 Claude 依各項標準評分並附上評語，經真人審核後再把成績貼回去。
+- **[信件分流和會議準備（含一次失敗經驗）](https://agentusecases.ai/use-case/triage-inbox-and-prep-meetings-with-a-failed-attempt)**：一位 Trustpilot 使用者說 Lindy 漏掉緊急郵件、藏起會議邀請，讓收件匣更糟；不過評測說分流、簡報準備和 CRM 更新都能用。
+- **[做一個支出與庫存追蹤 app](https://agentusecases.ai/use-case/build-an-expense-and-inventory-tracking-app)**：使用者讓 Manus 做了一個追蹤公司支出和庫存的 app，並說成果和他想的一樣。
+- **[做一個會標出異常的發票平台](https://agentusecases.ai/use-case/build-an-invoice-platform-that-flags-anomalies)**：一位非開發者用 Replit 和 Claude 做了發票平台，會標出高額發票、寄付款提醒並抓出重複，在 130 張示範發票中找到四個異常。
+- **[做一個能寄信和查行事曆的 Telegram bot](https://agentusecases.ai/use-case/build-a-telegram-bot-that-sends-emails-and-checks-calendar)**：Julian Goldie 用 Replit 的 agents and automations 功能做了能寄信和查他行事曆的 Telegram bot，花了 28 則訊息，這功能還在 beta，bug 不少。
+- **[做可稽核的規則式決策，並用 RAG 寫解釋](https://agentusecases.ai/use-case/make-auditable-rule-based-decisions-with-rag-written-explana)**：Rete 規則引擎判定貸款、詐欺和分流案件，再用針對政策文件的 RAG 讓 LLM 解釋判定結果，另有 MCP server 可用。
+- **[分流汽車維修需求並回覆客戶](https://agentusecases.ai/use-case/triage-car-repair-requests-and-reply-to-customers)**：一個 n8n 流程讓 AI 依類型、緊急程度和摘要分類網頁表單的工單，建立 Airtable 紀錄，立即回覆，並標出不確定的案件。
+- **[切換模型來執行多步驟任務](https://agentusecases.ai/use-case/run-multi-step-tasks-with-model-switching)**：@dani_avila7 用 Perplexity Computer 測了多個任務，它部分步驟選 Gemini 3 Flash，寫程式則選 Opus 4.6。
+- **[加快多戶住宅案件研究和物件摘要](https://agentusecases.ai/use-case/speed-up-multifamily-deal-research-and-property-summaries)**：一位多戶住宅經紀人用 AI 做市場研究、比較案例分析、物件摘要和追問物件細節，但談判和人際關係不交給 AI。
+- **[在 Booking.com 檢查訂房和住客入住](https://agentusecases.ai/use-case/check-hotel-reservations-and-guest-check-ins-on-booking-com)**：里加一位小旅館業者跑 Cowork 排程任務，用 Claude in Chrome 在 Booking.com 管理後台檢查訂房並確認入住。
+- **[在 Claude Code 審閱 NDA 和 SaaS 協議等合約](https://agentusecases.ai/use-case/review-contracts-like-ndas-and-saas-agreements-in-claude-cod)**：作者做了一個開源的合約審閱 skill，給 Claude Code 和其他 AI 寫程式工具使用，審閱 NDA、SaaS 協議、供應商條款和特約商店協議。
+- **[在 Cowork 對暫存文件執行工作腳本](https://agentusecases.ai/use-case/run-work-scripts-in-cowork-on-staged-documents)**：使用者在無螢幕的機器上跑 Claude Cowork，把複製的文件先暫存好，讓它能執行工作需要的腳本和程式。
+- **[在 Cowork 排隊處理整理檔案和產生文件](https://agentusecases.ai/use-case/queue-file-organizing-and-doc-generation-in-cowork)**：發文者讓 Claude Cowork 存取專案資料夾，並排入任務，像是整理檔案、依筆記產生文件，以及把截圖資料擷取到試算表。
+- **[在 LinkedIn 找候選人並建立估值模型](https://agentusecases.ai/use-case/source-recruiting-candidates-on-linkedin-and-build-valuation)**：ChatGPT Agent 登入 LinkedIn，把班加羅爾的 YouTube 經理候選人篩進試算表；另一個示範則用公司財報在 17 分鐘內做出 Excel 估值模型。
+- **[在 Notion 工作區管理 18 個 agent](https://agentusecases.ai/use-case/manage-18-agents-from-a-notion-workspace)**：用 Notion 當 18 個 OpenClaw agent 的控制中心。
+- **[在 QuickBooks 做記帳和收據配對](https://agentusecases.ai/use-case/run-bookkeeping-and-receipt-matching-in-quickbooks)**：一位使用者把 AI 接到 QuickBooks、SharePoint 和信件，用來附上收據、轉寄發票給人檢查、新增廠商和索取 W-9，取代了付費記帳服務。
+- **[在 Slack 討論串執行客服查詢和 bug 檢查](https://agentusecases.ai/use-case/run-support-queries-and-bug-checks-from-slack-threads)**：Slack agent Doozy 接收客服人員的任務，在沙盒裡對 Postgres、Stripe、GitHub 和 Linear 執行，再把結果貼回討論串；每天有 13 人使用。
+- **[在 Zoho Books 自動處理 SaaS 記帳和對帳](https://agentusecases.ai/use-case/automate-saas-bookkeeping-and-reconciliation-in-zoho-books)**：Hermes Agent 和人類會計師一起處理應付帳款、銀行匯入、帳單過帳和 Stripe 對帳，但需要 7 次修正，包括一個稅額 bug。
+- **[在 email 和 Teams 上跑業務開發與採購 bot](https://agentusecases.ai/use-case/run-business-development-and-sourcing-bots-on-email-and-team)**：作者跑了多個連接 Microsoft 信箱和 Teams 帳號的 Grok Bot agent，包括兩個業務開發 agent 和一個採購 agent。
+- **[在 n8n 用 RAG 讓 LLM 助理處理公司資料](https://agentusecases.ai/use-case/run-llm-assistants-over-company-data-with-rag-in-n8n)**：有留言者在公司的 n8n 專案用了多個 LLM 助理，處理 AutoCAD Forge API 呼叫、解析、embedding，以及跨公司資料的 RAG。
+- **[在商用不動產業務中使用 Claude Code](https://agentusecases.ai/use-case/use-claude-code-in-a-commercial-real-estate-business)**：一位商用不動產開發商兼聯合出資人說 Claude Code 改變了他的業務流程，但沒給什麼細節。
+- **[在專用 agent 機器上處理日常營運](https://agentusecases.ai/use-case/run-daily-business-operations-on-a-dedicated-agent-machine)**：一位企業主在專用機器上跑 AI agent，處理信件分流、摘要、社群監控、排程、檔案管理和草擬回覆。
+- **[在瀏覽器裡操作 app 和上傳照片](https://agentusecases.ai/use-case/click-through-apps-and-upload-photos-in-the-browser)**：使用者回報 Claude in Chrome 能照使用者在 app 裡的流程操作，開啟檔案選擇器上傳照片，還有一次把線上課程教學從頭播完。
+- **[在瀏覽器裡更新 400 筆 ERP 交易的欄位](https://agentusecases.ai/use-case/update-fields-on-400-erp-transactions-in-the-browser)**：作者讓 Claude 的 Chrome 擴充功能修改約 400 筆 ERP 交易的 2 個欄位，速度慢、每一步都要確認、還耗掉 token 額度，但能在背景執行。
+- **[在監督下運行多個依角色分工的 OpenClaw agent](https://agentusecases.ai/use-case/run-multiple-role-based-openclaw-agents-with-supervision)**：留言者跑好幾個 OpenClaw agent，一個角色一個，配上記憶、wiki 連結和圖搜尋，並檢查它們的行動是否仍符合原本的意圖。
+- **[在自己的瀏覽器裡填表單並執行多步驟流程](https://agentusecases.ai/use-case/fill-forms-and-run-multi-step-workflows-in-your-own-browser)**：一篇 Manus Browser Operator 的評測，它在使用者的 Chrome 工作階段中用使用者的登入狀態，處理表單填寫和多頁面流程。
+- **[在雲端電腦自動處理報告的書籤和連結](https://agentusecases.ai/use-case/automate-report-bookmarking-and-linking-in-a-cloud-pc)**：有留言者讓 agent 控制他的 Microsoft 365 雲端電腦，在他休息時幫報告加書籤和連結。
+- **[填寫投影片並把筆記整理成排好版的文件](https://agentusecases.ai/use-case/fill-slide-decks-and-turn-notes-into-formatted-documents)**：Claude in Chrome 依簡短的需求填入 PowerPoint 範本，並把零散的會議筆記整理成排好版的 Word 文件，再匯出 PDF。
+- **[安排會議、整理 Drive 並記錄點數餘額](https://agentusecases.ai/use-case/schedule-meetings-tidy-drive-and-log-reward-balances)**：Claude in Chrome 依 Calendar 草擬會議時段信、把 900 個 Drive 檔案分到資料夾並刪掉約 50 個重複檔，還重播錄好的點數餘額流程，把資料填進試算表。
+- **[安排潛在客戶會議並記錄到 CRM](https://agentusecases.ai/use-case/schedule-prospect-meetings-and-log-them-in-the-crm)**：一個 Lindy agent 回覆潛在客戶的信並附上時間選項，訂下對方選的時段、記錄到 HubSpot，再寄出會前簡報。
+- **[寄出依語氣調整的逾期發票提醒](https://agentusecases.ai/use-case/send-tone-adjusted-overdue-invoice-reminders)**：一個 n8n agent 檢查客戶付款狀態，找出逾期發票，依逾期天數選擇客氣或較強硬的語氣寄出提醒，已提醒過的客戶會跳過。
+- **[對帳供應商發票並透過自訂 CRM 處理訂單](https://agentusecases.ai/use-case/reconcile-supplier-invoices-and-run-orders-through-a-custom-)**：一位店主用 AI 自動對帳供應商發票，並回報價格和運費成本，另有一套自訂 CRM 向供應商下單，並透過 Zoho Books API 開發票給客戶。
+- **[對方沒回信時自動草擬追信](https://agentusecases.ai/use-case/draft-follow-up-emails-automatically-when-no-reply-arrives)**：使用者設了一個 Lindy 流程，盯著寄出的信，等對方回覆，沒回就草擬一封追信。
+- **[幫小公司用 email 催收帳款和文件](https://agentusecases.ai/use-case/chase-unpaid-invoices-and-paperwork-by-email-for-small-firms)**：Agent 盯著未付款的發票和待辦文件，一直寄 email 到對方回覆同意、拒絕或付款為止，需要決定的事再升級給老闆。
+- **[幫老師批改作業和做教案](https://agentusecases.ai/use-case/grade-papers-and-build-lesson-plans-for-teachers)**：作者用 ChatGPT 提示詞範本做了一個概念驗證 app，可批改作業、產生教案和給回饋。
+- **[幫老師草擬教案和學校文書](https://agentusecases.ai/use-case/draft-lesson-plans-and-school-paperwork-for-teachers)**：一位老師用 ChatGPT 做教案、反思、PowerPoint、評量通知和批改，省下好幾個小時的備課時間。
+- **[庫存不足時自動向供應商補貨](https://agentusecases.ai/use-case/reorder-low-stock-from-suppliers-automatically)**：系統每天早上檢查 Shopify 庫存，庫存偏低時，把預先寫好的訂購信寄給對應的供應商。
+- **[建一個 52 節點的 n8n 工作流程](https://agentusecases.ai/use-case/build-a-52-node-n8n-workflow)**：Claude computer use 一個下午就建好 52 個節點的 n8n 工作流程，這原本通常要花三個週末。
+- **[建立儀表板並排查客服案件](https://agentusecases.ai/use-case/build-dashboards-and-troubleshoot-support-cases)**：留言者用 Microsoft Scout 建了重開機後仍保留的儀表板，也用它從頭到尾記錄和排查客服案件。
+- **[建立會議用的 AI 記錄員](https://agentusecases.ai/use-case/create-ai-notetakers-for-meetings)**：一位從 n8n 轉到 Lindy 的使用者，搭配 Outlook 和 Slack 建立並管理 AI 記錄員，不用再手動記會議筆記。
+- **[從 Drive 取出 Google Docs](https://agentusecases.ai/use-case/retrieve-google-docs-from-drive)**：發文者請 Gemini 從 Drive 抓幾份 Google Docs，它正確取回了，不過後來有幾次出錯並編造資料。
+- **[從 Gmail 到核准和付款處理供應商發票](https://agentusecases.ai/use-case/process-supplier-invoices-from-gmail-through-approval-and-pa)**：一個 n8n 流程擷取發票資料，檢查重複和供應商，把高金額發票送去核准，再建立會計分錄並排定付款。
+- **[從 Gmail 抓發票並整理](https://agentusecases.ai/use-case/pull-invoices-from-gmail-and-organize-them)**：發文者做了一個工具，從 Gmail 抓發票並用 AI 整理，之後可能串接 QuickBooks 或 Xero。
+- **[從 Slack 管理信件、行事曆和任務](https://agentusecases.ai/use-case/manage-email-calendar-and-tasks-from-slack)**：一個用 Make.com 搭配 Gmail、Google Calendar 和 Notion 做的 agent，依 Slack 指令整理信件、查行事曆和新增任務。
+- **[從 Teams 擷取待辦事項並安排會議](https://agentusecases.ai/use-case/extract-action-items-from-teams-and-schedule-meetings)**：一位早期 Scout 使用者讓它摘要跨租戶的 Teams 討論串、找出被埋住的會議請求、查看行事曆、安排會議並寄出確認。
+- **[從信件替未公開的房地產交易評分](https://agentusecases.ai/use-case/score-off-market-real-estate-deals-from-emails)**：流程由 Python worker 讀交易信，Claude 把欄位抽成固定格式的 JSON，再由程式碼評分；發文者卡在資料不完整和需要登入的來源。
+- **[從工具資料夾學會個人腳本](https://agentusecases.ai/use-case/learn-personal-scripts-from-a-tools-folder)**：Claude Cowork 讀了一個放著 email、CRM、研究和草擬用個人腳本的資料夾，加進記憶，並把這些能力帶到新的介面。
+- **[從已登入的信箱寄信](https://agentusecases.ai/use-case/send-emails-from-a-signed-in-inbox)**：留言者回報使用者登入信箱帳號後，ChatGPT agent 真的把信寄出去了，並問它能不能買機票。
+- **[從會計軟體擷取報表資料](https://agentusecases.ai/use-case/extract-report-data-from-accounting-software)**：使用者讓 Comet 從會計軟體裡撈資料，因為軟體本身產不出他們要的報表。
+- **[從查核到客戶信件草稿處理銷售訂單](https://agentusecases.ai/use-case/process-a-sales-order-from-verification-to-client-email-draf)**：Grok Bot 登錄銷售訂單，比對 PI、PO 和銀行單據，修正訂金日期錯誤，建立佣金登記表和裝箱單，並在 Gmail 草擬給客戶的信。
+- **[從聊天傳來的收據照片擷取支出](https://agentusecases.ai/use-case/extract-expenses-from-receipt-photos-sent-via-chat)**：一個給自由工作者和小型企業用的記帳助理，會讀取透過 Telegram 或 Discord 傳來的收據照片，擷取商家、金額、稅額、類別和日期。
+- **[從資料倉儲回答資料問題並建立儀表板](https://agentusecases.ai/use-case/answer-data-questions-and-build-dashboards-from-the-warehous)**：Cognition 團隊用 Devin 的變體 DANA 查詢資料倉儲、建儀表板和回答資料問題，Devin 則負責填報表表單。
+- **[打造處理信件、簡報和規劃的個人助理](https://agentusecases.ai/use-case/build-a-personal-assistant-for-email-briefings-and-planning)**：Marc Bara 在 15 天內為 Hermes Agent 加了 50 多項能力，包括整理信件、簡報、行事曆規劃，以及連到他發票系統的 MCP。
+- **[找人、篩選候選人並透過 WhatsApp 回覆](https://agentusecases.ai/use-case/source-and-screen-candidates-and-reply-over-whatsapp)**：招募人員用 OpenClaw 在夜間監控 GitHub 的新貢獻者，依職缺描述替履歷資料夾評分，並草擬 WhatsApp 回覆，等真人核准後才送出。
+- **[找出折價的銀行法拍屋並刊登為中期租賃](https://agentusecases.ai/use-case/find-discounted-bank-owned-homes-and-list-them-as-midterm-re)**：MidtermMate agent 在特定區域找折價的銀行法拍屋，估算當地租金，並協助刊登為中期租賃，影片示範中有展示。
+- **[找出過去一週沒回的信](https://agentusecases.ai/use-case/surface-unanswered-emails-from-the-past-week)**：作者讓 Devin 做了一個 Gmail API 助理，列出過去一週沒回的信，因為 Attio 沒有這個分頁，認證的部分他自己在 Cursor 寫。
+- **[把 1,847 封未讀信分到資料夾並草擬回覆](https://agentusecases.ai/use-case/triage-1-847-unread-emails-into-folders-with-draft-replies)**：一個 AI agent 讀信件主旨，分到 6 個資料夾，並在 40 分鐘內寫了 12 封一句話的草稿回覆。
+- **[把 400 份 PDF 分到資料夾](https://agentusecases.ai/use-case/sort-400-pdfs-into-folders)**：使用者讓 Claude Cowork 讀 400 個 PDF 檔，並分到不同的資料夾。
+- **[把 AI 當內部招募助理](https://agentusecases.ai/use-case/use-ai-as-an-internal-recruiting-assistant)**：招募團隊用 AI 摘要人選檔案、準備推薦資料、草擬客戶進度更新，並在會議前整理候選人資訊。
+- **[把 FreshBooks 帳務資料搬到 Google Sheets](https://agentusecases.ai/use-case/migrate-freshbooks-account-data-to-google-sheets)**：留言者用 Comet 把五年的 FreshBooks 帳務資料搬進 Google Sheets。
+- **[把 Gmail 待辦事項變成 AI 待辦清單](https://agentusecases.ai/use-case/turn-gmail-action-items-into-an-ai-to-do-list)**：一個 Chrome 擴充功能掃描雜亂的 Gmail 收件匣、行事曆邀請和後續追蹤，把待辦事項整理成清單。
+- **[把 Monday 訂單同步到 Xero 的採購單、發票和帳單](https://agentusecases.ai/use-case/sync-monday-orders-to-xero-pos-invoices-and-bills)**：替客戶做的 Make.com 設定會建立 Xero 採購單、寄客戶發票，並把上傳的供應商發票對應到帳單，失敗的會標出來請人處理。
+- **[把 Notion PRD 變成範圍明確的 Linear 工單](https://agentusecases.ai/use-case/turn-notion-prds-into-scoped-linear-tickets)**：Devin 的文件描述它能讀 Notion PRD 來建立 Linear 工單、為待辦清單產出實作計畫，並把客戶健康度摘要貼到 Slack。
+- **[把 OpenClaw 的 skills 搬到 Grok Bot](https://agentusecases.ai/use-case/move-openclaw-skills-to-grok-bot)**：發文者把 OpenClaw 的 skills 轉到 Grok Bot，他說 Grok Bot 用雲端加本機的方式接手了原本的工作。
+- **[把 RFQ 和 BOQ 的需求擷取到 Excel](https://agentusecases.ai/use-case/extract-rfq-and-boq-requirements-into-excel)**：有留言者在工作中用 Cowork 讀 RFQ 和 BOQ 及其附件，把需求整理進 Excel 檔；另一位則用它清理資料夾。
+- **[把 Slack 和通話逐字稿變成 Claude Code 任務](https://agentusecases.ai/use-case/turn-slack-and-call-transcripts-into-claude-code-tasks)**：發文者想要一個常駐的 Claude agent，監看 Slack 和通話逐字稿、找出任務並草擬 Claude Code 的提示詞，讓自己不用再當中間人。
+- **[把 Slack 訊息和試算表列變成 Linear issue](https://agentusecases.ai/use-case/turn-slack-messages-and-sheet-rows-into-linear-issues)**：Lindy 流程能從 Slack 訊息或 Google Sheet 的新列建立 Linear issue，並把 issue 連結寫回試算表（廠商說明）。
+- **[把一人事業交給 AI agent 一週](https://agentusecases.ai/use-case/hand-a-one-person-business-to-ai-agents-for-a-week)**：一位獨立經營者把信箱和排程交給一群 AI agent 七天，結果有獲利但感覺不太舒服，細節不多。
+- **[把一個單字貼到 Pastebin 並回傳連結](https://agentusecases.ai/use-case/post-a-word-to-pastebin-and-return-the-link)**：使用者拿 Operator 試了一些不尋常的瀏覽器任務，它成功把「computer」這個字貼到 Pastebin 並回傳連結。
+- **[把一天的雜務交給 Cowork](https://agentusecases.ai/use-case/hand-a-day-of-busywork-to-cowork)**：作者給 Cowork 一天的雜務，包括把三個來源的數字整理成報告（只需輕微編修），以及排程的每週指標報告；用螢幕操作的做法比較慢，還需要推它一把。
+- **[把作業繳交狀況彙整成一份報告](https://agentusecases.ai/use-case/compile-homework-turn-ins-into-one-report)**：一位老師做了一個免寫程式的 AI agent，檢查 Google Classroom、email 和紙本繳交的作業，產出統一的報告。
+- **[把來回切分頁的工作交給 ChatGPT Agent 的虛擬電腦](https://agentusecases.ai/use-case/delegate-tab-juggling-work-to-chatgpt-agent-s-virtual-comput)**：測了一週後，發文者用 ChatGPT Agent 的虛擬電腦避開在分頁間複製貼上，回來時工作已經做完。
+- **[把供應商信件細節擷取到 Google Sheet](https://agentusecases.ai/use-case/extract-supplier-email-details-into-a-google-sheet)**：一家小型電商品牌的營運助理描述了一個 Zapier 工作流程，由 AI 從進來的供應商信件擷取關鍵資訊，放進 Google Sheet。
+- **[把供應商信件資料匯入庫存表](https://agentusecases.ai/use-case/pull-supplier-email-data-into-an-inventory-sheet)**：自建的 email 爬取 agent 從供應商來信擷取相關資料，替一家小型電商即時更新 Google Sheet。
+- **[把供應商發票 PDF 擷取進 monday.com 看板](https://agentusecases.ai/use-case/extract-supplier-invoice-pdfs-into-a-monday-com-board)**：Make 工作流程監看 Google Drive 資料夾裡的供應商發票 PDF，用 AI Extractors 擷取資料，再寫進 monday.com。
+- **[把供應商發票轉成 QuickBooks 帳單](https://agentusecases.ai/use-case/create-bills-in-quickbooks-from-supplier-invoices)**：留言者用接上 QuickBooks Online、信箱和 Drive 的 AI agent 核對帳目，並把供應商發票轉成帳單。
+- **[把信件中的發票變成即時財務儀表板](https://agentusecases.ai/use-case/turn-email-invoices-into-a-live-financial-dashboard)**：一個 n8n 流程掃描寄來的發票，擷取供應商、金額、日期和說明，餵給即時更新的 Google Sheets 儀表板。
+- **[把儀表板上的錢包資料抓進試算表](https://agentusecases.ai/use-case/pull-wallet-data-from-dashboards-into-a-spreadsheet)**：Claude computer use 操作桌面、處理登入和彈窗，花了 19 分鐘把錢包數字輸入試算表。
+- **[把出差收據變成報帳單並篩選檔案](https://agentusecases.ai/use-case/turn-trip-receipts-into-an-expense-report-and-triage-files)**：作者用 Cowork 從 47 張收據做出報帳單，從 4,992 個檔案中挑出該讀的，並透過 Gamma 製作簡報。
+- **[把大量 CSV 資料變成趨勢儀表板](https://agentusecases.ai/use-case/turn-a-massive-csv-dump-into-a-trends-dashboard)**：使用者讓 Claude 把一大包 CSV 資料變成儀表板，呈現隨時間變化的趨勢，用在他的職場自動化工作。
+- **[把季度大型 PDF 拆成短文件和請購單](https://agentusecases.ai/use-case/turn-a-large-quarterly-pdf-into-short-documents-and-requisit)**：有留言者每三個月用 Claude 把一份大型 PDF 轉成許多短文件、Excel 請購單和摘要表。
+- **[把小型企業的行政雜事交給 AI，並保留核准](https://agentusecases.ai/use-case/hand-off-small-business-admin-tasks-to-ai-with-approval)**：一位店主用 AI 處理小型行政工作，凡是牽涉金錢的都由他本人核准。
+- **[把待辦事項委派給 AI agent](https://agentusecases.ai/use-case/delegate-to-do-items-to-ai-agents)**：一個 agent 化的待辦清單，讓 agent 認領被指派的任務、標記進行中、完成後送回審核收件匣等待核准。
+- **[把採購卡收據資料擷取到報告封面表](https://agentusecases.ai/use-case/extract-purchasing-card-receipt-data-into-a-report-cover-she)**：一位 Duke 職員用收據 PDF 測試 Cowork，它做到一半當掉，不過處理了一個 PDF 資料夾，並把結果寫進 outputs 資料夾。
+- **[把收件匣整理交給 AI agent](https://agentusecases.ai/use-case/hand-inbox-sorting-to-an-ai-agent)**：一位 PCWorld 作者試著讓 Claude 這類 AI agent 整理信箱，文章談到歸錯類或誤刪信件的風險。
+- **[把收據轉成記帳用的 CSV](https://agentusecases.ai/use-case/turn-receipts-into-csv-for-bookkeeping)**：發文者做了一個自訂 GPT，吃收據後輸出 CSV，可複製貼到帳本，但提醒不能盲目相信結果。
+- **[把會議逐字稿變成簡報並整理 SharePoint 檔案](https://agentusecases.ai/use-case/turn-meeting-transcripts-into-decks-and-organize-sharepoint-)**：使用者回報 ChatGPT agent 能從逐字稿產出 PowerPoint、Excel 表和後續信件，還把超過 100 個 SharePoint 連結分到同一個資料夾，把五小時的工作縮到 20 分鐘內。
+- **[把潛在客戶 CSV 和銷售資料變成儀表板](https://agentusecases.ai/use-case/turn-lead-csvs-and-sales-data-into-dashboards)**：Manus 大約 20 分鐘把一份很大的潛在客戶 CSV 做成儀表板，也用 Python 畫了咖啡店銷售圖，但有時會陷入迴圈、燒掉額度。
+- **[把行事曆、信箱和訂旅程交給個人工作 agent](https://agentusecases.ai/use-case/delegate-calendar-inbox-and-travel-booking-to-a-personal-wor)**：作者用 Cowork 或 Claude Code 排邀請、分流信件、訂機票和飯店、抓 Airtable 資料，並爬取參展商名單。
+- **[把訂位確認信變成行事曆活動](https://agentusecases.ai/use-case/turn-booking-confirmation-emails-into-calendar-events)**：n8n 工作流程從訂位信和 PDF 附件擷取細節，在專用行事曆建立活動，是為了一位 CEO 爆量的收件匣而做。
+- **[把語音筆記變成 Linear 工單並檢視分析數據](https://agentusecases.ai/use-case/turn-voice-notes-into-linear-tickets-and-review-analytics)**：作者做了幾個 Codex skills，把語音筆記轉成格式化的 Linear 工單、每週檢視 YouTube 分析數據，並執行每晚的自我改進自動化。
+- **[把重複的營運工作交給 Claude Cowork](https://agentusecases.ai/use-case/offload-repetitive-business-operations-tasks-to-claude-cowor)**：有留言者說某間公司訓練了超過 300 家公司使用 Claude Cowork 處理重複的營運工作，團隊也開始採用付費方案。
+- **[把銀行對帳單和發票對帳](https://agentusecases.ai/use-case/reconcile-bank-statements-with-invoices)**：Cowork 清理廠商名稱、分類支出、把發票對應到交易、標出缺漏的、建立 Excel 檔，並重新命名發票檔案。
+- **[把錄下的任務變成 agent 執行的指示](https://agentusecases.ai/use-case/turn-a-recorded-task-into-instructions-an-agent-runs)**：發文者把自己做任務的過程錄下來，讓 AI 轉成逐步指示，ChatGPT Agent 就自己執行，產出一樣。
+- **[把電子報摘要存進 Notion 資料庫](https://agentusecases.ai/use-case/summarize-newsletters-into-a-notion-database)**：一個 n8n 流程抓取電子報，用 LLM 摘要後存進 Notion，並把過長的摘要拆開以符合區塊長度限制。
+- **[抓出行事曆衝突並整理收件匣](https://agentusecases.ai/use-case/catch-calendar-conflicts-and-triage-the-inbox)**：一位作家讓 Dots 存取行事曆和信件，它發現一個改期活動的日期對不上，也標出收件匣裡的緊急信件。
+- **[掃 Gmail 垃圾郵件匣找真正的業務信](https://agentusecases.ai/use-case/sweep-gmail-spam-folder-for-real-business-mail)**：作者讓 Grok Bot 在瀏覽器開 Gmail、讀垃圾郵件匣，標出聯盟行銷回覆和付款通知這類正常信件。
+- **[排活動並草擬法律文件](https://agentusecases.ai/use-case/schedule-events-and-draft-legal-documents)**：使用者用 Claude Code 透過 Notion MCP 排活動，並以 markdown 草擬和分析法律文件。
+- **[排程 agent 每 15 分鐘檢查資料夾有沒有工作](https://agentusecases.ai/use-case/run-scheduled-agents-that-check-folders-for-work-every-15-mi)**：有留言者設定了排程的 Claude 任務和另一個模型，每 15 分鐘輪詢資料夾，發現有工作就去處理。
+- **[接聽牙醫診所電話並管理預約](https://agentusecases.ai/use-case/answer-dental-clinic-calls-and-manage-appointments)**：作者幫牙醫診所做了語音 AI，可以預約、改期、取消，也能查時段和回答常見問題。
+- **[摘要服務來電並尋找在地客戶](https://agentusecases.ai/use-case/summarize-service-calls-and-find-local-customers)**：Grok Bot 聽電話並把摘要和待辦貼到 Slack，每天掃描 Reddit 找在地客戶，替居家服務業建立 Notion 頁面和行事曆預約。
+- **[摘要當天新信件並管理會議](https://agentusecases.ai/use-case/summarize-the-day-s-new-emails-and-manage-meetings)**：使用者請 AI 助理摘要當天收到的信，30 秒內就拿到摘要，它還能處理會議摘要、待辦事項、行事曆和草稿。
+- **[擋垃圾訊息並送出晨間簡報](https://agentusecases.ai/use-case/block-spam-and-deliver-morning-briefings)**：Grok Bot 擋掉 email、LinkedIn 和行事曆邀請裡的垃圾訊息，每天早上更新重要事項，使用者不在時還持續推進一項事業的上線。
+- **[擷取廠商 PDF 並建立 QuickBooks 發票](https://agentusecases.ai/use-case/extract-vendor-pdfs-and-create-quickbooks-invoices)**：用 Claude Code 做的客製整合會從廠商 PDF 擷取資料，並在 QuickBooks Online 建立已分類的發票。
+- **[擷取發票資料並歸檔到記帳試算表](https://agentusecases.ai/use-case/extract-invoice-data-and-file-it-into-a-bookkeeping-sheet)**：自架的 n8n 工作流程用 OpenAI 從上傳的收據和發票擷取會計資料，使用者檢查後，原檔歸檔並把資料加到年度試算表。
+- **[收集並摘要非同步站會進度](https://agentusecases.ai/use-case/collect-and-summarize-async-standup-updates)**：Zapier 內部的 agent 會收集非同步站會進度並做摘要，讓團隊把每週五次每日站會換成兩次週會。
+- **[整理 Gmail 收件匣](https://agentusecases.ai/use-case/organize-gmail-inbox-messages)**：發文者試用 Cowork 整理 Gmail，在連線出問題前整理了大約 100 封信，但整體做得不好。
+- **[整理未讀信件並加上核准步驟](https://agentusecases.ai/use-case/triage-unread-email-with-an-approval-step)**：作者做了一個 agent，有未讀信進來就執行並逐封分析，沒經過核准不會自動回信。
+- **[替三個信箱分流並草擬回覆](https://agentusecases.ai/use-case/triage-and-draft-replies-for-three-email-accounts)**：一個 OpenClaw agent 草擬例行回覆，品質大約七成可用，把處理收件匣的時間從 10 分鐘降到 2 分鐘，不過有些地方壞掉。
+- **[替不動產估價做報告撰寫程式](https://agentusecases.ai/use-case/build-a-report-writing-program-for-real-estate-appraisals)**：一位不動產估價師用 Claude 做了一個報告撰寫程式，省掉估價流程中繁瑣的工作。
+- **[替會計師打包每月廠商發票](https://agentusecases.ai/use-case/bundle-monthly-vendor-invoices-for-the-accountant)**：排程 bot 從 PDF 擷取廠商、日期、金額和發票號碼，把整個月的發票加上索引打包，等核准後再寄給會計師。
+- **[替班級出評量題目並批改作業](https://agentusecases.ai/use-case/create-assessments-and-grade-papers-for-classes)**：一位老師的協同教師用 ChatGPT 出作業和考卷，留言者也拿它批改作業和產生文本。
+- **[替老師拆分並登記手寫作業掃描檔](https://agentusecases.ai/use-case/split-and-log-handwritten-homework-scans-for-teachers)**：一個 Claude Code skill 會讀批次掃描檔上的手寫姓名，對照名冊，把 PDF 依學生拆開，更新繳交試算表，並標出缺交的作業。
+- **[替食品經銷商自動處理追蹤和庫存](https://agentusecases.ai/use-case/automate-follow-ups-and-inventory-tracking-for-a-food-distri)**：替一家靠 Excel、電話和 email 運作的食品批發商建了 agent，包括庫存追蹤和一個寫開發信的文案 agent。
+- **[查行事曆上的賓客並發 Slack 簡報](https://agentusecases.ai/use-case/research-calendar-guests-and-send-a-slack-briefing)**：作者做了一個 Zapier agent，透過網路搜尋查 Google Calendar 的賓客，寫出簡短摘要再發到 Slack。
+- **[查詢使用者紀錄並更新後續步驟](https://agentusecases.ai/use-case/look-up-user-records-and-update-downstream-steps)**：發文者用 Zapier agent 找使用者紀錄並更新後面的步驟，但來源資料有延遲或格式不一致時就失敗了。
+- **[核對發票與庫存並建立採購單](https://agentusecases.ai/use-case/validate-invoices-against-inventory-and-create-purchase-orde)**：替客戶做的 n8n 流程把發票資料比對 Google Sheets 庫存，建立 ERP 採購單並通知採購部門；約 90% 的發票能自動處理。
+- **[根據轉寄的請求用 email 排會議](https://agentusecases.ai/use-case/schedule-meetings-by-email-from-forwarded-requests)**：使用者做了一個 AI 排程助理，接收轉寄的信，用 email 與收件人協調時間，並把 Zoom 連結加進行事曆。
+- **[檢查 Teams 站會頻道的夜間動態並挑出待辦](https://agentusecases.ai/use-case/check-overnight-teams-standups-and-surface-action-items)**：Microsoft Scout 的 heartbeat 會檢查作者 Teams 站會頻道的夜間動態，標出需要處理的事，衝刺期間才開啟。
+- **[檢查供應商發票有沒有重複或漏填 GST](https://agentusecases.ai/use-case/check-supplier-invoices-for-duplicates-and-missing-gst)**：發票寄到共用信箱，由 AP 工具擷取內容，agent 再比對過去的交易，標出重複、金額錯誤或漏填 GST 的發票。
+- **[檢查網域的 email 紀錄並補上缺少的 DMARC](https://agentusecases.ai/use-case/check-a-domain-s-email-records-and-fix-missing-dmarc)**：一個 agent 對自己的網域跑了郵件檢查，發現沒有 DMARC 紀錄，加了一筆 TXT 紀錄後，分數從 80 升到 96。
+- **[檢視 Slack 頻道找出營運問題](https://agentusecases.ai/use-case/review-slack-channels-for-business-issues)**：Lindy 幫一家服飾公司檢視銷售、客服、庫存和評價的 Slack 動態，可隨時產出報告，內容有客服問題、低庫存和回饋。
+- **[每天把 ClickUp 摘要寄給利害關係人](https://agentusecases.ai/use-case/email-daily-clickup-digests-to-stakeholders)**：一個 Make.com 情境每天從 ClickUp 寄出摘要信給沒有 ClickUp 帳號的利害關係人，也能把聯絡人加到選定的待辦事項。
+- **[每天早上 7 點寄出整合信件、行事曆和 Todoist 的簡報](https://agentusecases.ai/use-case/send-a-7am-daily-brief-from-email-calendar-and-todoist)**：一個個人 agent 每天 7 點執行，檢查信件、行事曆和 Todoist，挑出可能要跟進的事項，只送一份每日簡報，不用看整個收件匣。
+- **[每天早上打電話和傳簡訊提醒預約](https://agentusecases.ai/use-case/call-and-text-appointment-reminders-every-morning)**：一個 n8n 流程撈出當天的 Google Calendar 預約，透過 Retell AI 自動語音撥打電話，再用 Twilio 傳送後續簡訊。
+- **[每晚對帳訂單、草擬發票並訂購筆電](https://agentusecases.ai/use-case/reconcile-orders-draft-invoices-and-order-laptops-nightly)**：ChatGPT 撈出已完成的訂單、對照 CRM、草擬發票、在 Sheets 記錄交易，還向 Apple 訂了兩台筆電和一個退貨箱。
+- **[每晚建立採購單並追蹤應付帳款](https://agentusecases.ai/use-case/build-purchase-orders-and-track-payables-nightly)**：一個 Make.com 自動化每晚建立採購單、監看應付帳款，並即時用最新的材料成本更新估價公式。
+- **[每月收集發票並寄給會計師](https://agentusecases.ai/use-case/collect-monthly-invoices-and-email-them-to-an-accountant)**：發文者做了一個 bot，每月登入各個網站、抓下發票，再寄給他的會計師。
+- **[每週寄出付款通知信的摘要](https://agentusecases.ai/use-case/email-a-weekly-digest-of-payment-notification-emails)**：一個 n8n AI 流程讀 Gmail 中有標籤的付款信，從每封抓出三個重點，並在週日寄出摘要。
+- **[每週彙整 Slack 頻道裡的法務問題](https://agentusecases.ai/use-case/compile-weekly-legal-questions-from-a-slack-channel)**：一位公司內部法務正在做一個 ChatGPT agent，每週掃描 Slack 頻道，列出團隊對使用條款的法律問題。
+- **[清理信箱並用你的語氣草擬社群貼文](https://agentusecases.ai/use-case/clean-inbox-and-draft-social-posts-in-your-voice)**：Grok Bot 登入各個 app，清理並分析收件匣，用使用者的語氣草擬 X 和 LinkedIn 貼文，並在夜間跑流程，需要決定時再通知他。
+- **[測試 AI 對學生習題的批註](https://agentusecases.ai/use-case/test-ai-annotations-on-student-problem-sets)**：一位化學教授把 11 位學生的習題丟給 Claude，看它的批註能不能輔助人工批改；專案不小心被設成公開，洩漏了學生資料。
+- **[為出租物件建立損益表](https://agentusecases.ai/use-case/build-profit-loss-statements-for-rental-properties)**：Meta Muse 登入物業軟體，為每一間出租物件建立了損益表。
+- **[為記帳登錄、分類並歸檔發票](https://agentusecases.ai/use-case/log-categorize-and-file-invoices-for-bookkeeping)**：使用者每隔幾週讓 Claude 處理一輪發票，登錄到支出追蹤表、分類、重新命名檔案，再歸檔到資料夾。
+- **[產出競品研究報告並建立 landing page](https://agentusecases.ai/use-case/produce-competitor-research-reports-and-build-a-landing-page)**：一個團隊透過 Manus 跑了多來源的競品研究報告和一個能用的 landing page，並記錄產出和需要修的地方。
+- **[產生每週主管報告並處理功能需求](https://agentusecases.ai/use-case/generate-weekly-leadership-reports-and-handle-feature-reques)**：一個 supervisor 型 Zapier agent 把工作交給 sub-agent，依 Jira 資料寫每週主管報告，並透過 Slack 斜線指令處理功能需求。
+- **[產生發票 PDF 並寄出供核准](https://agentusecases.ai/use-case/generate-and-send-invoice-pdfs-for-approval)**：一個 AI skill 替工作或報銷準備發票 PDF 並寄給使用者，等他回覆 yes 或提出修正後再寄出。
+- **[產生結合 KPI 和 pull request 的每週報告](https://agentusecases.ai/use-case/generate-recurring-weekly-reports-combining-kpis-and-pull-re)**：一位產品主管用 Claude Code 自動產出定期報告，說明開發者出貨了什麼，以及功能對 KPI 是有幫助還是有傷害。
+- **[用 AI agent 經營一人公司](https://agentusecases.ai/use-case/run-a-one-person-company-on-ai-agents)**：發文者花六個月，讓 agent 以文字形式讀寫整個業務，包括把一篇 LinkedIn 貼文拆成多則內容並管理互動，結果因為文案很空洞而翻車。
+- **[用 AI agent 經營商用不動產業務](https://agentusecases.ai/use-case/run-a-commercial-real-estate-business-with-an-ai-agent)**：Drew McAllister 的 agent 會用簡訊提醒還價，建立屋主追蹤名單，追蹤投標，草擬信件，閱讀租約修訂，並標出期限衝突。
+- **[用 AI 主導技術面試來招募](https://agentusecases.ai/use-case/run-ai-led-technical-interviews-for-recruiting)**：micro1 用 Claude 對候選人進行技術面試，據稱每天超過 3,000 場；數字是廠商案例研究中自行提供的。
+- **[用 AI 審廠商合約並草擬修訂](https://agentusecases.ai/use-case/review-vendor-contracts-and-draft-redlines-with-ai)**：公司法務用 AI 審廠商合約和 DPA、回覆修訂意見、起草合約和做初步研究，並像檢查法務助理的產出一樣檢查它的結果。
+- **[用 AI 幕僚長經營顧問公司](https://agentusecases.ai/use-case/run-a-consulting-business-with-an-ai-chief-of-staff)**：一位顧問用 Manus 做每日簡報、監控競爭對手、整理收件匣、繪製市場地圖，以及製作簡報、報告和網站，並透過 Telegram 交辦。
+- **[用 AI 篩選候選人和摘要履歷](https://agentusecases.ai/use-case/screen-candidates-and-summarize-resumes-with-ai)**：留言者提到用 AI 摘要履歷、大量篩選候選人、不再寫布林搜尋，還有一個隨時都能篩人的 agent。
+- **[用 Agent Mode 做投資組合、歸因和房地產分析](https://agentusecases.ai/use-case/run-portfolio-attribution-and-real-estate-analyses-with-agen)**：評測者讓 ChatGPT Agent Mode 跑五個商業測試，包括股票投資組合分析、行銷歸因和房地產情境，並記下哪些地方需要有人盯著。
+- **[用 ChatGPT Agent 自動處理網站工作](https://agentusecases.ai/use-case/automate-website-work-with-chatgpt-agent)**：使用者在同一個對話裡大量用 ChatGPT Agent 自動處理網站工作，快做完時這個工具卻消失了。
+- **[用 ChatGPT 撰寫和審閱合約](https://agentusecases.ai/use-case/write-and-review-contracts-with-chatgpt)**：發文者用 ChatGPT 草擬和審閱合約，對結果很滿意。
+- **[用 Claude Code 做 YouTube 分析報告和潛在客戶開發](https://agentusecases.ai/use-case/build-youtube-analytics-reports-and-lead-outreach-with-claud)**：Claude Code 透過 API 抓 YouTube 分析資料，做成經過驗證的 Excel 檔，還做了求職追蹤 app，並找出潛在客戶、補充資料、進行開發信。
+- **[用 Claude Code 取代 Shopify 評論 app](https://agentusecases.ai/use-case/replace-a-shopify-reviews-app-with-claude-code)**：一位店主用 Claude Code 研究 Judge.me 這個 app 並規劃替代方案；有留言者則用它做了一個串接會計的批發商店。
+- **[用 Claude Code 和 Gmail MCP 整理創辦人的收件匣](https://agentusecases.ai/use-case/triage-a-founder-s-inbox-with-claude-code-and-gmail-mcp)**：有個團隊接上 Gmail MCP server，讓 Claude Code 讀信、貼標籤、草擬回信，還能做行事曆準備和報告。
+- **[用 Claude Code 在終端機經營整間公司](https://agentusecases.ai/use-case/run-an-entire-business-from-the-terminal-with-claude-code)**：發文者做了一套系統，透過 Claude Code 而不是 Claude.ai 來跑整個事業，摘錄裡沒有說明具體任務。
+- **[用 Claude Code 從信件擷取待辦事項](https://agentusecases.ai/use-case/pull-action-items-from-emails-with-claude-code)**：Becky 看到 Claude Code 能用白話英文擷取並整理信件中的待辦事項後，自己也試了，三週內做出四個 app。
+- **[用 Claude Code 把 Trello 看板封存成 Google Doc](https://agentusecases.ai/use-case/archive-trello-boards-into-a-google-doc-with-claude-code)**：一位人資主管用 Claude Code 在 19 分鐘內，把 10 個 Trello 看板、3,000 張卡片封存成 1,000 頁的 Google Doc；該指南還提到取消訂閱和找回照片。
+- **[用 Claude Code 自動化每月記帳](https://agentusecases.ai/use-case/automate-monthly-bookkeeping-with-claude-code)**：一位電子報經營者讓 Claude Code 重新命名檔案、分類支出、把發票對應到付款並做摘要，約 6 小時的工作縮到 20 分鐘。
+- **[用 Claude Code 自動化法律草擬和工作流程](https://agentusecases.ai/use-case/automate-legal-drafting-and-workflows-with-claude-code)**：有留言者用 Claude Code 建立整合並在法律工作流程上跑 agent，草擬用 Claude for Word，另搭配 playbook 和先例庫。
+- **[用 Claude Cowork 批改作業和備課](https://agentusecases.ai/use-case/grade-papers-and-build-lessons-with-claude-cowork)**：一位老師說 Claude Cowork 在課程設計、批改作業、做 PowerPoint 和分析學生成績上省下好幾個小時。
+- **[用 Claude Cowork 處理財務專案檔案](https://agentusecases.ai/use-case/run-finance-project-files-through-claude-cowork)**：一位投資組合公司的 CFO 把任務檔案放進新資料夾讓 Cowork 處理，做完再搬回來，據說 Claude 在專案之間省下相當於一個全職員工的工作量。
+- **[用 Claude computer use 做內容研究和贊助商開發](https://agentusecases.ai/use-case/run-content-research-and-sponsor-outreach-with-claude-comput)**：作者在 Cowork 和 Claude Code 裡測了兩天 Claude computer use，跑六個工作流程，包括研究、贊助商開發和商品上架。
+- **[用 Claude 把 200 份履歷排成短名單](https://agentusecases.ai/use-case/rank-200-resumes-into-a-shortlist-with-claude)**：一位朋友把 200 份履歷丟給 Claude 排出短名單，結果排第一的人第一通電話就搞砸，因為排名看的是文筆，不是對職位的準備程度。
+- **[用 Claude 管理租屋並安排看房](https://agentusecases.ai/use-case/manage-rentals-and-arrange-apartment-tours-with-claude)**：一個物業管理團隊用 Claude in Chrome 處理例行管理工作，並搭配資料庫，讓 AI 能回答問題、查行程來協助安排看房。
+- **[用 Codex 定時寄專案摘要](https://agentusecases.ai/use-case/email-scheduled-project-summaries-with-codex)**：一篇教學設定 Codex 自動化，定時讀專案檔案，並透過 Gmail plugin 寄出每週摘要。
+- **[用 Codex 摘要逐字稿並製作文件](https://agentusecases.ai/use-case/summarize-transcripts-and-build-documents-with-codex)**：一篇教學示範 Codex 把逐字稿摘要成 Word 文件、建立 Excel 營收模型，並依文件製作輪播圖片。
+- **[用 Codex 自動處理複製貼上和後端串接](https://agentusecases.ai/use-case/automate-copy-paste-and-backend-wiring-work-with-codex)**：留言者說，以前要大量複製貼上和串接後端的工作，現在都交給 Codex。
+- **[用 Cowork 排程任務自動處理重複工作](https://agentusecases.ai/use-case/automate-recurring-work-with-scheduled-cowork-tasks)**：作者測了六個排程任務：email 簡報、檔案清理、Stripe 報表、發票對帳、整理筆記和機票價格追蹤。
+- **[用 Cowork 自動處理請款、法案追蹤和信件分流](https://agentusecases.ai/use-case/automate-invoicing-legislation-tracking-and-email-triage-wit)**：使用者讓 Claude Cowork 建立、寄送並追蹤發票，蒐集並分析各州提出的 AI 法案，還會每天寄一封依優先分數排出最該回覆的前 3 封信。
+- **[用 Gemini Agent Mode 整理收件匣和規劃旅行](https://agentusecases.ai/use-case/triage-an-inbox-and-plan-a-trip-with-gemini-agent-mode)**：一位作家讓 Gemini 在 100 多封未讀信中封存郵件並留下回信草稿，也描述它比較飯店價格並保留房間。
+- **[用 Gemini Gem 流程摘要信件並草擬回信](https://agentusecases.ai/use-case/summarize-emails-and-draft-replies-with-gemini-gem-flows)**：作者把自訂的 Gemini Gem 接進 Workspace Studio 流程，在背景執行、摘要 Gmail 信件，並建立回信草稿供他審閱後寄出。
+- **[用 Gemini 的 Chrome agent 在背景自動做瀏覽器工作](https://agentusecases.ai/use-case/automate-browser-work-with-gemini-s-chrome-agent-in-the-back)**：發文者用 Gemini 的 Chrome 瀏覽器 agent 自動處理瀏覽器任務，分頁關掉、人去做別的事，它也會繼續跑。
+- **[用 Lindy 摘要會議並整理客服工單](https://agentusecases.ai/use-case/summarize-meetings-and-triage-support-tickets-with-lindy)**：Lindy agent 摘要會議筆記、把待辦事項寄給同事、在客服工單上建議知識庫回覆，並處理後續信件和行事曆更新。
+- **[用 Make 情境自動化客戶報到](https://agentusecases.ai/use-case/automate-customer-onboarding-with-a-make-scenario)**：一間代理商把原本規劃的 AI agent 換成 Make.com 情境加 Slack 頻道，用於客戶的客戶報到流程，客戶也付了錢。
+- **[用 Muse 準備會議並對照行事曆檢查收件匣](https://agentusecases.ai/use-case/prep-meetings-and-check-inbox-against-calendar-with-muse)**：作者在 Muse 上跑工作任務，它找到對的信件串來做會議準備，也把信件和行事曆交叉比對找衝突，不過收件匣的優先排序很弱。
+- **[用 OpenClaw bot 維護 repo、做筆記和支援團隊 Slack](https://agentusecases.ai/use-case/run-openclaw-bots-for-repo-upkeep-note-taking-and-team-slack)**：使用者跑的 OpenClaw bot 會維護個人 repo、做筆記並寄新聞摘要，在 Slack 裡則摘要會議筆記並回答團隊問題。
+- **[用 OpenClaw cron job 把定時文章摘要送到 Telegram](https://agentusecases.ai/use-case/deliver-scheduled-article-digests-to-telegram-with-openclaw-)**：一位開發者修好了跑了卻沒送出內容的 OpenClaw cron job，做法是關掉 thinking mode，之後六篇文章在 30 秒內送到 Telegram。
+- **[用 Operator 做網路搜尋和瀏覽器任務](https://agentusecases.ai/use-case/run-web-searches-and-browser-tasks-with-operator)**：一位搶先體驗的使用者測試 Operator 開瀏覽器上網搜尋，並回報它處理網路任務的表現。
+- **[用 Replit Agent 做每日股市信件自動化](https://agentusecases.ai/use-case/build-a-daily-stock-market-email-automation-with-replit-agen)**：一位評測者讓 Replit Agent 3 規劃並建出工作流程，包含早上 7 點觸發、取得市場資料、排版信件和寄送，覺得比 Zapier 好上手。
+- **[用 Word 原生追蹤修訂幫律師文件修訂](https://agentusecases.ai/use-case/redline-lawyer-documents-with-native-word-tracked-changes)**：一位律師在一份 30 頁的文件上用 Claude for Word，它改寫了兩個段落，並以追蹤修訂的方式回覆註解，他認為比 Microsoft 自家的產品好用。
+- **[用 Word 裡的 Claude 草擬交易文件](https://agentusecases.ai/use-case/draft-transactional-documents-with-claude-in-word)**：發文者在 Word 裡用 Claude 和協作工具，處理交易文件草擬時的苦工。
+- **[用 agent 完成公司內訓課程](https://agentusecases.ai/use-case/complete-corporate-trainings-with-an-agent)**：留言者說 ChatGPT Agent 把他所有的公司內訓都完美做完了。
+- **[用 agent 建立並維護本機營運儀表板](https://agentusecases.ai/use-case/build-and-maintain-a-local-ops-dashboard-with-agents)**：一位獨立經營者讓 OpenClaw agent 建立並反覆改進本機的任務控制儀表板，有看板、核准、cron 和社群排程，取代了 Asana，但開放式的整夜執行燒掉不少 token。
+- **[用 agent 從頭到尾經營網站事業](https://agentusecases.ai/use-case/run-a-website-business-end-to-end-with-an-agent)**：一個 Grok Bot agent 負責約 90% 的免費 AI 指南網站（給 50 歲以上的人），包括寫指南、每日部署和連結檢查、電子報草稿、目錄提交，公開內容要經過站長核准。
+- **[用 agent 接手繼承來的網路商店](https://agentusecases.ai/use-case/take-over-an-inherited-online-store-with-an-agent)**：有人請 AI agent 弄懂繼承來的網路商店設定、把優先事項變成任務、準備變更並留下紀錄，從茶葉生意的研究開始。
+- **[用 agent 操作桌面 app 搬檔案](https://agentusecases.ai/use-case/drive-desktop-apps-with-an-agent-to-move-files)**：發文者描述了幾個月來讓桌面 agent 操作真實 app 的經驗；有一次 agent 看錯跳出視窗，一直回報成功，實際上什麼都沒搬。
+- **[用 agent 核對產業檔案並追問釐清](https://agentusecases.ai/use-case/reconcile-industry-files-and-chase-clarifications-with-agent)**：agent 流程會匯入一份複雜的產業檔案並載入資料庫，派出 agent 與進行中的工作比對，再聯絡相關人員處理有問題的資料。
+- **[用 agent 管理指定資料夾裡的檔案](https://agentusecases.ai/use-case/manage-files-in-a-chosen-folder-with-an-agent)**：作者做了一個開源桌面 agent，只在選定的資料夾內運作，可讀寫檔案，更動任何東西前都會先問。
+- **[用 agent 管理行事曆和 email](https://agentusecases.ai/use-case/manage-calendar-and-email-with-an-agent)**：發文者給 agent 行事曆和信箱權限兩週，它處理了不少事，但未經核准就回了一封信、因時區錯誤重複排了會議，還拒絕了一場想參加的會議。
+- **[用 agent 群在夜間經營 Shopify 商店](https://agentusecases.ai/use-case/run-a-shopify-store-overnight-with-an-agent-fleet)**：NightShift 在夜間偵測商店問題，自動修復安全的部分，並稽核每個動作，YouTube 示範中有展示。
+- **[用 agent 處理 80 份文件](https://agentusecases.ai/use-case/process-80-documents-with-an-agent)**：發文者要 Dot 處理 80 份文件，它做完約 60 份就停了，還拒絕 commit 或 merge PR。
+- **[用 agent 跑排程的 GTM、研究和開發循環](https://agentusecases.ai/use-case/run-scheduled-gtm-research-and-dev-loops-with-an-agent)**：使用者讓 Hermes Agent 排程執行市場進入策略、研究和自主開發循環，同時 Claude 開 GitHub issue，Opencode 定時去接手。
+- **[用 agent 跑業務 cron job 和連接器](https://agentusecases.ai/use-case/run-business-cron-jobs-and-connectors-through-an-agent)**：發文者透過 Hermes 的 cron job 和工具連接器跑業務流程，但連接器一掛，agent 和它所有的任務就跟著停了。
+- **[用 bot 處理物件試算表和客戶信件回覆](https://agentusecases.ai/use-case/run-bots-for-property-sheets-and-client-email-replies)**：使用者跑了幾個 Grok Bot agent：一個更新 Google Drive 的物件試算表，一個用他的語氣回客戶信，一個做他正職的指揮中心。
+- **[用 cron agent 處理收件匣、研究和網站稽核](https://agentusecases.ai/use-case/run-cron-agents-for-inbox-research-and-site-audits)**：作者跑兩個 OpenClaw agent、12 個 cron job，涵蓋掃描收件匣、文章索引、研究摘要、Search Console 分析、網站稽核和健康監控。
+- **[用 email 排會議並更新行事曆](https://agentusecases.ai/use-case/schedule-meetings-by-email-and-update-the-calendar)**：發文者做了一個 agent，會讀信、查行事曆空檔、回覆會議時間，並把會議加進行事曆。
+- **[用 email 收集淋浴玻璃供應商報價](https://agentusecases.ai/use-case/collect-shower-glass-supplier-quotes-by-email)**：OpenClaw 寫信給淋浴玻璃供應商、彙整回覆，並在聊天串中處理來回溝通。
+- **[用 n8n 流程草擬信件回覆和 LinkedIn 貼文](https://agentusecases.ai/use-case/draft-email-replies-and-linkedin-posts-with-n8n-workflows)**：作者做了 n8n 流程，草擬 Gmail 回覆等待核准，依主題產生 LinkedIn 貼文，並把信件中的任務擷取到 Google Tasks 或 Notion。
+- **[用一個 dot 處理購物、行程規劃和專案追蹤](https://agentusecases.ai/use-case/run-shopping-trip-planning-and-project-tracking-with-a-dot)**：評測者的 dot 主動發現一筆付款失敗，但只有讀取並回報；購物網站擋住了它，後續處理也沒完成。
+- **[用一組 bot 處理一人工作室的行政雜務](https://agentusecases.ai/use-case/run-a-one-person-studio-s-office-work-with-a-bot-team)**：十四個 Grok Bot 負責研究、簡報、基礎設施檢查和 Buffer 社群排程；其中一個把 itch.io 上的一則留言，不到一天就變成併入的 Amiga 修正。
+- **[用三個 agent 經營副業，處理內容、信件和帳務](https://agentusecases.ai/use-case/run-a-side-hustle-with-three-agents-for-content-email-and-bo)**：一位職場父母用三個 agent：一個研究並草擬內容，一個處理客戶信件並排通話，一個把 Etsy 的收入和支出分類並寫每月摘要。
+- **[用九個 bot 處理通訊、PR 合併和家務](https://agentusecases.ai/use-case/run-communications-pr-merges-and-family-tasks-with-nine-bots)**：作者從 OpenClaw 轉到 Grok Bot，做了用他的語氣寫信的 bot、每天檢查有哪些 GitHub PR 可以合併的 bot，以及處理家庭事務的 bot。
+- **[用信件與 CRM agent 準備會議和排程](https://agentusecases.ai/use-case/prep-meetings-and-schedule-via-an-email-crm-agent)**：一位評測者在信件、行事曆和 CRM 上用了 Lindy 90 天，從過往對話、Slack 和 CRM 筆記彙整會前簡報，也省下排程時間。
+- **[用個人助理處理例行信件和追蹤提醒](https://agentusecases.ai/use-case/handle-routine-email-tasks-and-follow-up-reminders-with-a-pe)**：作者做了一個 n8n 個人助理，修掉早期的小毛病後，能處理約 70% 的例行信件工作，並提醒在等別人回應的事項。
+- **[用八個 agent 部門經營一人公司](https://agentusecases.ai/use-case/run-a-solo-company-with-eight-agent-departments)**：一位創辦人設了 CEO、CFO、COO、律師、會計、行銷、CTO 和改進者 agent，它們共用記憶並互相諮詢。
+- **[用公開資訊填 50 份表單](https://agentusecases.ai/use-case/fill-out-50-forms-from-public-information)**：使用者讓 Claude 用公開資訊完成 50 份個別的工作表單，之後校對，發現內容都正確。
+- **[用專責 bot 整理案源，處理發票和信箱](https://agentusecases.ai/use-case/organize-deal-flow-with-specialist-bots-for-invoices-and-inb)**：五個專責 bot 連接 WhatsApp 和 Notion，處理發票、清理信箱、更新 CRM 和追蹤後續；作者預期每週省下五到六小時。
+- **[用常駐 agent 處理十個業務任務](https://agentusecases.ai/use-case/run-ten-business-tasks-through-an-always-on-agent)**：一位評測者用 Dots 測了產品研究、發布網頁、內容規劃和排程任務，整理收件匣和後續追蹤需要人盯著，有份試算表的公式壞掉。
+- **[用常駐的自架 agent 運作公司各部門](https://agentusecases.ai/use-case/run-company-departments-with-persistent-self-hosted-agents)**：自架的公司作業系統為每個部門跑 Claude Code 和 Codex agent，具備記憶、排程、透過 Twilio 打電話，以及文件和影片剪輯。
+- **[用平台內建 agent 整理 Canvas 課程](https://agentusecases.ai/use-case/organize-canvas-courses-with-an-in-platform-agent)**：Instructure 表示早期採用者用 IgniteAI Agent 一致地重新命名單元、批次修改截止日期並重建課程頁面；這來自一支廠商影片，沒有具名使用者。
+- **[用平行 agent 篩選 115 位應徵者](https://agentusecases.ai/use-case/screen-115-job-candidates-with-parallel-agents)**：一個團隊把 Notion 接到 Claude Code，每位候選人派一個 agent，依評分標準檢查資料和 GitHub 佐證，產出排好名的短名單，花費 65 美元。
+- **[用手機摘要信件和準備簡報](https://agentusecases.ai/use-case/summarize-email-and-prep-briefings-from-your-phone)**：一位 Fortune 作者用 Claude Dispatch 搭配 Cowork 摘要並挑出重要信件，還有每天早上的例行簡報，以及依行事曆準備會議。
+- **[用排程任務跑夜間簡報流程](https://agentusecases.ai/use-case/run-nightly-briefing-pipelines-with-scheduled-tasks)**：作者用 Claude Code 雲端排程任務跑夜間流程，掃描工作、產生回顧，並整理出晨間簡報。
+- **[用文字網格頁面渲染讓 agent 填網頁表單](https://agentusecases.ai/use-case/let-agents-fill-out-web-forms-using-text-grid-page-rendering)**：作者做了 TextWeb，一個文字網格瀏覽器，讓 LLM agent 不用昂貴的視覺模型也能填求職申請表。
+- **[用晨間簡報 agent 自動處理自由工作者的行政事務](https://agentusecases.ai/use-case/automate-freelance-admin-with-a-morning-briefing-agent)**：OpenClaw agent 會寄 Telegram 晨間簡報，草擬每週客戶進度信並在一鍵核准後寄出，也負責追蹤後續，把行政時間從約 9 小時降到 20 分鐘。
+- **[用會議助理處理會議和摘要](https://agentusecases.ai/use-case/run-a-meeting-assistant-that-handles-meetings-and-summaries)**：有留言者用 Lindy 做了一個會議助理，已經跑了一週，負責處理會議並產出摘要。
+- **[用有記憶的助理處理房地產營運](https://agentusecases.ai/use-case/run-real-estate-operations-with-a-memory-equipped-assistant)**：發文者用 AI agent 建了一套流程，agent 會保留記憶以延續對話脈絡，並動態更新物件資料。
+- **[用本機模型每天處理個人信箱](https://agentusecases.ai/use-case/handle-a-personal-mailbox-daily-with-a-local-model)**：發文者用 Ollama 在自己的 GPU 上跑 Hermes 搭配免費本機模型，每天用 cron job 處理個人信箱。
+- **[用桌面 agent 整理收件匣、草擬回信和管理行事曆](https://agentusecases.ai/use-case/triage-inbox-draft-replies-and-manage-calendar-from-a-deskto)**：一位評測者用 Scout 摘要 Microsoft 365 收件匣、草擬回信、管理行事曆活動、瀏覽並處理本機檔案，但 app 得開著，成本也可能很高。
+- **[用法律 AI agent 審合約並檢查消費者保護規範](https://agentusecases.ai/use-case/review-contracts-and-check-consumer-protection-rules-with-le)**：一位公司法務用法律 AI 工具抓出不一致和邊緣情境的風險，另外還有圍繞消費者保護法規建立的自訂 agent。
+- **[用瀏覽器 agent 處理小型行政事務](https://agentusecases.ai/use-case/run-browser-agents-for-small-admin-tasks)**：一位教育工作者試了 agentic 瀏覽器，它做出會議投票、查詢並摘要同事的教學時間表，還重新排版簡報，只是笨拙又慢。
+- **[用瀏覽器 agent 處理求職申請、登入和抓資料](https://agentusecases.ai/use-case/run-browser-agents-for-job-applications-logins-and-data-fetc)**：發文者拿六個瀏覽器 agent 測日常任務，像求職申請、登入、抓資料和發文，Manus 用途廣，但會觸發機器人偵測，而且太貴。
+- **[用瀏覽器 agent 試一個工作任務](https://agentusecases.ai/use-case/try-a-work-task-with-a-browser-agent)**：發文者讓 Operator 為一個工作任務上網搜尋，結果出錯，而且比手動做還花時間。
+- **[用白話指令的瀏覽器 agent 爬網站](https://agentusecases.ai/use-case/scrape-websites-with-a-plain-language-browser-agent)**：一篇教學示範 Microsoft Scout 靠提示詞操控 Playwright 瀏覽器，爬網站、截圖、填表單和匯出資料。
+- **[用真實的上班任務測試 AI 瀏覽器 agent](https://agentusecases.ai/use-case/test-ai-browser-agents-on-real-workday-tasks)**：作者讓 Comet 和另一個 agent 做真實的上班任務，像訂機票和處理行事曆混亂，一個花 16 分鐘訂票，另一個約 5 分鐘做完行事曆的事。
+- **[用範本自動產生發票](https://agentusecases.ai/use-case/generate-invoices-automatically-from-a-template)**：一位自由工作者做了一個 Make.com 自動化，把資料填進專業的發票範本，自動開立發票。
+- **[用網路研究產出簡報和試算表](https://agentusecases.ai/use-case/build-presentations-and-spreadsheets-from-web-research)**：使用者讓 Agent Mode 做簡報、寫電子書草稿，並把網路研究整理成試算表；作者說設計稱不上得獎等級，但省下好幾個小時。
+- **[用聊天回覆診所的病患詢問](https://agentusecases.ai/use-case/answer-patient-enquiries-for-a-clinic-by-chat)**：n8n 加 Gemini 的 agent 接收病患的聊天訊息，保留上下文，用 Google Sheets 裡的診所資訊回覆詢問。
+- **[用聊天機器人處理牙醫診所的詢問、預約和提醒](https://agentusecases.ai/use-case/run-dental-office-queries-scheduling-and-reminders-with-a-ch)**：部署在網站和 WhatsApp 上的 AI 聊天機器人，為牙醫診所回答詢問、安排預約和發送提醒。
+- **[用職場 agent 建立預算模型工具](https://agentusecases.ai/use-case/build-budget-modeling-tools-with-a-workplace-agent)**：C&S Paper 在行銷、財務和人資使用騰訊的 WorkBuddy 建立預算模型工具，把原本要一週的工作變成即時回饋。
+- **[用自動觸發處理進來的信件](https://agentusecases.ai/use-case/handle-incoming-emails-with-automatic-triggers)**：Grok Bot 盯著進來的信，做摘要、研究、草擬回覆、擷取發票細節、標出緊急事項，並用連接的工具完成後續步驟。
+- **[用自訂 GPT 初篩並審閱法律文件](https://agentusecases.ai/use-case/triage-and-review-legal-documents-with-custom-gpts)**：留言者用自訂 GPT 自動化公司內部法務的初步篩選和審閱，並保留人工稽核。
+- **[用螢幕錄影教 bot 一套流程](https://agentusecases.ai/use-case/teach-a-bot-a-workflow-by-screen-recording)**：Grok Bot 能從螢幕錄影學會一項任務並重複執行；有評測者教它在沒有 API 的情況下抓電子報數據。
+- **[用試算表資料填寫冗長的網頁表單](https://agentusecases.ai/use-case/fill-lengthy-web-forms-from-spreadsheet-data)**：agent 根據 Google Sheets 或 Excel 的資料填長表單；有留言者用 Playwright MCP 搭配 Claude，並讓它截圖確認各欄位。
+- **[用語音 agent 找人才並做篩選](https://agentusecases.ai/use-case/source-and-screen-candidates-with-voice-agents)**：一家沒具名的人力公司用語音 AI agent 聯絡並篩選候選人，據稱一週接觸 2,000 人，但說法薄弱，且接近廠商宣傳。
+- **[用語音 agent 處理藥局續藥來電](https://agentusecases.ai/use-case/handle-pharmacy-refill-calls-with-a-voice-agent)**：藥局的語音 agent 接續藥電話、辨識病患，送出續藥或把更新處方的請求排給開藥醫師，30 天內處理了 380 筆續藥。
+- **[用語音 agent 進行口試期末考](https://agentusecases.ai/use-case/run-oral-final-exams-with-a-voice-agent)**：一位教授用語音 agent 在 9 天內口試 36 位學生，由 LLM 評審團批改逐字稿，並找出全班共通的弱點。
+- **[用讀取、點擊和填表自動化瀏覽器任務](https://agentusecases.ai/use-case/automate-browser-tasks-by-reading-clicking-and-filling-forms)**：發文者用 Claude in Chrome 讀頁面內容、點按鈕和填表單，並詢問有沒有其他瀏覽器自動化的替代方案。
+- **[用通用 agent 處理各種業務任務](https://agentusecases.ai/use-case/run-varied-business-tasks-through-a-general-agent)**：評測者給 Manus 15 個任務，包括競品分析、行程、內容日曆和 PDF 摘要，多數成功，有些只完成一部分，一個 API 整合失敗。
+- **[用開源 agent 管理網路商店和活動](https://agentusecases.ai/use-case/manage-online-stores-and-campaigns-with-an-open-source-agent)**：作者做了一個開源 agent，能把語音筆記變成報告，每五分鐘檢查訂單和廣告花費，並替群眾募資、Amazon 和 Shopify 事業建議下一個任務。
+- **[用限定權限把 agent 接到信箱](https://agentusecases.ai/use-case/connect-an-agent-to-email-with-scoped-access)**：作者沒有交出完整憑證，而是用它建議的限定範圍 Google Cloud 專案把 Bot 接到信箱，Chrome 的 Teach-a-Task 則遇到 CAPTCHA 而失敗。
+- **[用類似 email 的核准收件匣跑背景 agent](https://agentusecases.ai/use-case/run-background-agents-with-an-email-style-approval-inbox)**：一個自架的桌面 app 負責跑背景 agent，完成的工作放在 Unread，需要核准的放在 Action，最初是為了自動記錄 CRM 活動和準備會議。
+- **[當信箱管理員和辦公室經理來管信件與排工單](https://agentusecases.ai/use-case/manage-an-inbox-and-book-jobs-as-an-office-manager)**：使用者把 Grok Bot 當信箱管理員，也當辦公室經理，接工單、規劃產能，並跨 Gmail、Slack 和 ServiceTitan 排工作。
+- **[登記出租物件的房客維修請求](https://agentusecases.ai/use-case/log-tenant-maintenance-requests-for-rental-properties)**：在廠商示範中，Claude Code 連到 TIDY 的 MCP server，登記維修請求、通知水電工，並把緊急問題升級處理。
+- **[發現未寄出的發票並備妥待核准](https://agentusecases.ai/use-case/catch-and-prepare-an-unsent-invoice-for-approval)**：一位早期測試者的 dot 發現有張給某出版刊物的發票還沒寄，並準備好等待核准。
+- **[監控營建專案風險並通知負責人](https://agentusecases.ai/use-case/monitor-construction-project-risk-and-alert-the-lead)**：一位營建業者做了 n8n 加 Gemini 的監看程式，檢查進度、預算、採購、人力、天氣和現場報告，找出主要瓶頸，再通知專案負責人。
+- **[監控網站並彙整門市銷售報告](https://agentusecases.ai/use-case/monitor-sites-and-compile-store-sales-reports)**：留言者用 n8n 做了工作流程，代管網站掛掉時發簡訊通知，並用 AI 把 7 間門市的簡訊銷售報告彙整到 Google Sheets。
+- **[監控英國勞動法規變動並找出合規缺口](https://agentusecases.ai/use-case/monitor-uk-employment-law-changes-for-compliance-gaps)**：一位開發者正在做一個 agent，監控英國勞動法規的變動，替小型企業標出合規缺口，任何內容送出前都由真人審閱。
+- **[管理 roadmap、客服信箱、行事曆和待辦](https://agentusecases.ai/use-case/run-roadmap-support-inbox-calendar-and-todos)**：OpenClaw 管理 Linear roadmap，替客服對話排優先順序，處理行事曆和待辦，檢查通知，並管理贊助機會。
+- **[管理小公司的行事曆和每日簡報](https://agentusecases.ai/use-case/run-a-small-business-calendar-and-daily-briefing)**：發文者把 Muse 連到信箱，讓它新增和刪除行事曆項目，並為他的小公司提供每日簡報和語音備忘。
+- **[篩選應徵者並把分數記到 CRM](https://agentusecases.ai/use-case/screen-job-candidates-and-log-scores-in-the-crm)**：根據廠商部落格的實測，Lindy 招募篩選器會把面試轉成逐字稿、依設定規則替候選人評分，並把結果記到 CRM。
+- **[篩選求職申請並彙整成摘要](https://agentusecases.ai/use-case/screen-job-applications-and-summarize-in-a-digest)**：一位招募主管用 Zapier Agents 定時匯入申請、摘要、濾掉不符的，也可選擇回覆申請人。
+- **[篩選進來的房地產案源並研究租客](https://agentusecases.ai/use-case/screen-incoming-real-estate-deals-and-research-tenants)**：投資人用 AI 讀進來的案子並濾掉不好的，其中一位還用 ChatGPT 研究案子、租客資訊和當地租金行情。
+- **[給 agent 一支電話號碼來打電話和接電話](https://agentusecases.ai/use-case/give-an-agent-a-phone-number-to-make-and-answer-calls)**：David Ondrej 給他的 Hermes Agent 一支電話號碼，讓它能打電話、接電話，在他睡覺時也能執行任務。
+- **[給老師一個備課和寫報告的 Claude Code 工作區](https://agentusecases.ai/use-case/give-a-teacher-a-claude-code-workspace-for-lessons-and-repor)**：替老師建了一個 Claude Code 工作區，記得課程內容、評分風格和班級人數，產出教案、成績評語、家長信和評分標準。
+- **[線上申請屋頂工程許可和檢驗表單](https://agentusecases.ai/use-case/file-roofing-permits-and-inspection-forms-online)**：一位屋頂承包商讓 Grok Bot 填寫並取得許可證，透過有驗證碼的表單預約檢驗，並把兩份工作通知表單寄給他的保險公司。
+- **[聯絡求職者做初步 HR 篩選](https://agentusecases.ai/use-case/contact-job-candidates-for-initial-hr-screening)**：一位求職者表示，有 AI agent 打電話並寄 email 給他，進行第一輪 HR 篩選。
+- **[自動化回信、表單資料擷取和潛在客戶筆記](https://agentusecases.ai/use-case/automate-email-replies-form-data-extraction-and-lead-notes)**：發文者試了 Lindy 和 Gumloop，用來草擬回信、從表單抓資料，並圍繞潛在客戶處理和筆記串起小型 AI 工作流程。
+- **[自動化新人報到和預約空位監看](https://agentusecases.ai/use-case/automate-new-hire-onboarding-and-appointment-watching)**：留言者描述了 n8n 工作流程：接收 HR 輸入、走核准、開 IT 工單和建立 Azure 帳號，另一個則檢查醫療預約空位，並用預約按鈕通知。
+- **[自動化網頁表單輸入和 Gmail 清理](https://agentusecases.ai/use-case/automate-web-form-entry-and-gmail-cleanup)**：作者測了 Claude for Chrome 處理重複性表單，它開始填錯資料、速度變慢，另外也測了封存電子報和標記緊急 Gmail 信件，省下幾分鐘。
+- **[自動化老師的報告批改、評量儀表板和課程規劃](https://agentusecases.ai/use-case/automate-teacher-report-marking-assessment-dashboards-and-cu)**：一位小學老師用 Claude 做了批改報告的 app、評量資料的儀表板，以及一個把規劃想法對齊課綱的 skill。
+- **[自動化記帳流程和供應商延遲通知信](https://agentusecases.ai/use-case/automate-bookkeeping-workflows-and-supplier-delay-emails)**：留言者用 n8n 自動化記帳事務所的工作流程，一年省下約 600 小時，也在供應商交期變動時自動寄信通知客戶。
+- **[自動把邀請信加進行事曆](https://agentusecases.ai/use-case/add-invitation-emails-to-calendar-automatically)**：發文者每天用 Gemini 監看邀請信，把活動連同 Zoom 連結或地點加進行事曆，不用自己寫回覆。
+- **[自動投履歷並把筆記改寫成 coding prompt](https://agentusecases.ai/use-case/apply-for-jobs-and-turn-notes-into-coding-prompts)**：留言者描述了一個 Grok Bot 會用提供的履歷搜尋並投遞工作，另一個則把簡寫的筆記改寫成 prompt，再透過 CLI 交給 Cursor。
+- **[自動整理發票並寄每月發票信](https://agentusecases.ai/use-case/automate-invoice-organizing-and-monthly-invoice-emails)**：作者示範 Cursor 整理命名不一致的發票檔案，並處理每月開發票：編輯 PDF、附加檔案、確認收件人，再寄出信件。
+- **[自動篩選應徵者並進行聯繫](https://agentusecases.ai/use-case/screen-job-candidates-and-run-outreach-automatically)**：一個 Make 情境用 AI 解析履歷、替候選人評分、更新 ATS、寄收件確認信、把短名單送到 Slack 給招募人員，並自動婉拒未回覆者，屬廠商教學。
+- **[自動處理 Amazon 品牌的記帳和商品圖](https://agentusecases.ai/use-case/automate-amazon-brand-bookkeeping-and-product-images)**：一位 Amazon 品牌經營者用 Claude Code 盡可能自動化他的事業，包括記帳和產生商品頁面圖片。
+- **[自動處理倉儲文件、SOW 和請款](https://agentusecases.ai/use-case/run-warehouse-paperwork-sows-and-billing-automatically)**：替倉儲客戶做的客製 AI 系統會讀收據、估價單和發票，產生 SOW，執行請款，並處理 28 個背景自動化。
+- **[自動處理客戶 onboarding 和課表 PDF](https://agentusecases.ai/use-case/automate-client-onboarding-and-schedule-pdfs)**：一個由 Google Sheet 觸發的 n8n 流程會產生 PDF 訓練課表，連同提醒寄給客戶，並清掉暫存檔。
+- **[自動處理會後追蹤事項](https://agentusecases.ai/use-case/handle-post-meeting-follow-ups-automatically)**：一個示範 agent 會找出會議逐字稿、擷取待辦事項、在 Slack 通知同事，並查看行事曆來安排下次會議。
+- **[自動處理發票、付款和退款](https://agentusecases.ai/use-case/automate-invoices-payments-and-refunds)**：一個 n8n 流程管理發票、付款和退款，並在紀錄中更新狀態、PDF 連結和時間戳記。
+- **[自動處理薪資稅款和扣薪支票](https://agentusecases.ai/use-case/automate-payroll-tax-and-garnishment-cheque-processing)**：一個薪資團隊做了 agent 來處理稅款和扣薪支票，遇到系統限制時還會自己做缺少的工具。
+- **[草擬 podcast 聽眾來信的回覆並記錄故事點子](https://agentusecases.ai/use-case/draft-replies-to-podcast-listener-emails-and-log-story-ideas)**：Blake Oliver 的 Zapier Central agent 監看 Gmail 的聯絡表單信件、草擬回信，並把每封原信複製到 Notion 的故事點子資料庫。
+- **[草擬回信並加入行事曆邀請](https://agentusecases.ai/use-case/draft-email-replies-and-add-calendar-invites)**：一位作家用 Gmail 和 Calendar 連接器做了排程的 Claude agent，草擬回信並把邀請加進行事曆。
+- **[草擬親師溝通內容](https://agentusecases.ai/use-case/draft-parent-teacher-communications)**：一位老師說 ChatGPT 一個月內處理了他所有的親師溝通，他也拿來試了備課。
+- **[處理上班日的雜務和社群發文](https://agentusecases.ai/use-case/handle-office-day-tasks-and-social-posting)**：使用者讓 Grok Bot 在 Reddit 和 Instagram 發文、查信，並設定 Teams 會議。
+- **[處理主管行政事務：信件草稿、記帳員問題、保險表單](https://agentusecases.ai/use-case/handle-executive-admin-email-drafts-bookkeeper-questions-ins)**：一個 Dots agent 婉拒了邀請、草擬給律師的信、回答記帳員的問題，並找出租約和預算文件填好保險經紀人的表單，省下約兩小時。
+- **[處理例行客服工單並準備每日簡報](https://agentusecases.ai/use-case/resolve-routine-support-tickets-and-prep-daily-briefings)**：根據廠商發布的案例，Lindy agent 處理例行客服工單，對一位創辦人還會準備每日簡報和處理行事曆衝突。
+- **[處理副業的開發票、付款和記帳](https://agentusecases.ai/use-case/run-side-hustle-invoicing-payments-and-bookkeeping)**：一位做副業的人透過 MCP 和 QuickBooks 把銀行帳戶接到 Claude，由 agent 處理開發票、外包款項、支出追蹤和記帳。
+- **[處理承包商的後台事務和流失客戶挽回](https://agentusecases.ai/use-case/run-contractor-back-office-jobs-and-churn-recovery)**：一位承包商用 Grok Bot 標出保險證明的不一致、依合約建立工單並填信用申請表，另一位則用它草擬挽回客戶的訊息。
+- **[處理物業管理的行銷和收件匣清理](https://agentusecases.ai/use-case/run-property-management-marketing-and-inbox-cleanup)**：一位物業管理業主用 Dot 更新線上的 HubSpot 文章、先確認有無回覆再清掉舊的 Outlook 草稿，並設定網站稽核和關鍵字追蹤，有一封信被留在草稿。
+- **[補充聯絡人資料並存進個人 CRM](https://agentusecases.ai/use-case/enrich-and-store-contacts-in-a-personal-crm)**：Claude 透過 MCP 連到 Supabase，拿姓名和 LinkedIn 網址，經由 Harmonic 補充檔案資料，再把紀錄寫進個人 CRM 資料庫。
+- **[設定稅務和合約提醒並審閱合約](https://agentusecases.ai/use-case/set-tax-and-contract-reminders-and-review-contracts)**：Karina Chow 讓 Claude Cowork 設定季度稅務期限、合約到期日和州法變動的信件提醒，也協助審閱合約和分析市場行情價。
+- **[設計產品標籤並製作 SDS 表單](https://agentusecases.ai/use-case/design-product-labels-and-produce-sds-sheets)**：一位賣家用 Manus 設計產品標籤、把客戶見證整理成更新後的檔案，並製作 SDS 表單。
+- **[試用 OpenClaw 寄信和訂機票](https://agentusecases.ai/use-case/try-openclaw-for-sending-emails-and-booking-a-flight)**：作者花了一個週末、約 15 美元和超過一百萬個 token，才讓 OpenClaw 寄出兩封信，機票沒訂成，因為它連不上自己的瀏覽器。
+- **[調查並疏通卡住的任務卡](https://agentusecases.ai/use-case/investigate-and-unblock-stuck-task-cards)**：Hermes 監控被擋住的卡片、調查原因、嘗試解決並在 Discord 回報，另一位使用者讓它修好搬家後 Home Assistant 失敗的登入。
+- **[請 Claude 當自動化工程師來處理正職工作](https://agentusecases.ai/use-case/automate-a-day-job-as-an-automation-engineer)**：發文者讓 Claude 扮演自動化工程師，做設計和研究工作，並替他的工作找出相關文件和索引。
+- **[讀取和編輯 Word、Excel、PowerPoint 檔案](https://agentusecases.ai/use-case/read-and-edit-word-excel-and-powerpoint-files)**：OfficeCLI 是專為 agent 打造的辦公室套件，可以讀取和編輯 Microsoft Office 檔案。
+- **[讓 AI CEO 經營小型資安掃描公司](https://agentusecases.ai/use-case/let-an-ai-ceo-run-a-small-security-scanner-business)**：發文者給 AI agent 一個資安掃描公司的點子和三個 AI 員工，到第 2 天還沒有營收，首頁還當機。
+- **[讓 Claude Code 操作你已登入的 Chrome](https://agentusecases.ai/use-case/let-claude-code-drive-your-logged-in-chrome-browser)**：使用者在 Claude Code 輸入任務，它會透過官方擴充功能使用他們已登入的 Chrome 工作階段；討論串也把這個做法和其他瀏覽器 agent 方案做了比較。
+- **[讓 Claude 在側邊面板瀏覽網站並填表](https://agentusecases.ai/use-case/let-claude-browse-sites-and-fill-forms-in-a-side-panel)**：任務涉及網站時，Cowork 會開啟內建瀏覽器，Claude 在裡面導覽、點擊並填表，使用者可以在旁邊看。
+- **[讓 Claude 實作正職工作的大部分內容](https://agentusecases.ai/use-case/have-claude-implement-most-of-a-day-job-s-work)**：發文者把工作任務交給 Claude，讓它實作大部分功能，不過最後 10% 還是最花時間。
+- **[讓 Claude 用滑鼠和鍵盤操作電腦](https://agentusecases.ai/use-case/control-a-computer-with-claude-s-mouse-and-keyboard)**：發文者測了一天 Claude computer use，它會截圖、推斷畫面內容，再移動滑鼠和打字，但跨多個 app 會跑偏，小的 UI 元素也會漏掉。
+- **[讓 bot 用你自己的網域寄信給客戶](https://agentusecases.ai/use-case/let-the-bot-email-customers-from-your-own-domain)**：發文者把自訂網域的信箱設成 Grok Bot 的 MCP connector，再加一個 webhook，收到新信就觸發自動化。
+- **[讓 coding agent 透過 MCP 更新詐欺偵測規則](https://agentusecases.ai/use-case/let-coding-agents-update-fraud-detection-rules-via-mcp)**：Kairos 提供 MCP server，讓使用者的 agent（Claude Code、Cursor、Codex）能在詐欺手法變化時，替詐欺防治團隊維護決策邏輯。
+- **[讓公司自主運作](https://agentusecases.ai/use-case/run-a-company-autonomously)**：Andon Labs 說明為什麼做出 Pion，一個設計來自己經營任何公司的 agent。
+- **[讓夜間幕僚長處理信件和行事曆](https://agentusecases.ai/use-case/run-an-overnight-chief-of-staff-for-email-and-calendar)**：一套 Claude Code 系統在清晨 5:30 整理信件、準備行事曆、更新任務、依路況資料加入車程時間活動，並把一天的時間排好。
+- **[走路時用語音整理信件](https://agentusecases.ai/use-case/triage-email-by-voice-while-walking)**：Allie Miller 用 ChatGPT 語音模式搭配 Codex 整理重要信件、草擬回信、封存或刪除郵件，並記錄待辦事項。
+- **[跑一個像員工一樣自主運作的公司任務 agent](https://agentusecases.ai/use-case/run-an-autonomous-employee-like-agent-for-company-tasks)**：作者跑著自己做的自主 agent，用 Codex、ChatGPT Plus、systemd 和信件處理各種公司任務，記憶靠滾動式 context、日記和 markdown wiki。
+- **[跑一個共用的團隊 agent 處理通話、核准和任務](https://agentusecases.ai/use-case/run-a-shared-team-agent-for-calls-approvals-and-tasks)**：Nikki 為一個新創團隊設了共用的 Hermes Agent，它會撈通話背景、處理核准並建立任務，用的是共用的 Obsidian 知識。
+- **[跑一個能接續專案工作的業務助理](https://agentusecases.ai/use-case/run-a-business-assistant-that-resumes-project-work)**：發文者把以 ChatGPT 為基礎的助理接到舊 Mac 上的 OpenClaw 來接續專案工作，但它一直忘記 app 的業務目標和受眾。
+- **[跑排程的個人助理來建立任務儀表板](https://agentusecases.ai/use-case/run-a-scheduled-personal-assistant-that-builds-a-task-dashbo)**：一位 Rippling 工程師的 Cursor cron agent 每兩小時執行一次，讀取 Slack 筆記、GitHub PR、Jira issue 和提及，去重後貼出儀表板。
+- **[跑排程的專責 bot，搭配每日幕僚長簡報](https://agentusecases.ai/use-case/run-scheduled-specialist-bots-with-a-daily-chief-of-staff-br)**：Grok Bot 從一則設定訊息做出五個平日排程的專責 bot，以及一份 9:00 整合它們產出的簡報；connector 會逾時，工作有時只做到一半。
+- **[跑每日幕僚長 agent 串起收件匣、行事曆和 CRM](https://agentusecases.ai/use-case/run-a-daily-chief-of-staff-agent-across-inbox-calendar-and-c)**：一位外科醫師跑了約二十個 Cowork 排程任務，整理信件、準備會議、標出停滯的案子，並把草稿備好放在儀表板。
+- **[跨 Gmail、Calendar 和 Notion 處理客戶專案](https://agentusecases.ai/use-case/handle-a-client-project-across-gmail-calendar-and-notion)**：作者把 OpenClaw 接到 Gmail、Calendar 和 Notion，它把三場會議合成一場、寄出邀請，並把一份研究報告拆給多個 sub-agent 處理。
+- **[跨行事曆、工單、email 和文件規劃工作日](https://agentusecases.ai/use-case/plan-the-workday-across-calendar-tickets-email-and-docs)**：一個規劃用的 agent，透過 MCP 跨 Google Calendar、Linear、Gmail 和 Google Docs 運作。
+- **[追蹤進來的信件並通知重要的](https://agentusecases.ai/use-case/track-incoming-emails-and-notify-about-key-ones)**：使用者請 Dots 監看特定的來信並通知他，但它沒做到，而且很慢。
+- **[透過 Gmail 草擬並寄出信件](https://agentusecases.ai/use-case/draft-and-send-an-email-through-gmail)**：Comet 寫了一封 SEO 信並直接寄給作者，沒有先請他審閱，收到的信有 markdown 格式問題。
+- **[透過 MCP agent 跨信箱服務處理和查詢信件](https://agentusecases.ai/use-case/process-and-query-email-across-providers-via-mcp-agents)**：一位開發者用 agent 和 MCP 做了信件智慧產品，跑在開源模型上，讓 LLM 能查詢 Gmail 和 Outlook 信箱，目前是私人 beta。
+- **[透過 MCP 讓 agent 編輯 Word 文件](https://agentusecases.ai/use-case/let-agents-edit-word-documents-via-mcp)**：這個 MCP 讓 AI agent 能編輯 Word 文件並處理 OOXML 的細節，最初是為了製藥業法規文件編輯而做的。
+- **[透過 Slack 使用個人 agent，搭配記憶筆記和即時儀表板](https://agentusecases.ai/use-case/run-a-personal-agent-through-slack-with-memory-notes-and-a-l)**：作者把 OpenClaw 跑在專用機器上，在 Slack 跟它對話，每天留記憶筆記，並用儀表板追蹤它的任務和動作。
+- **[透過 Telegram 使用創投分析師 agent](https://agentusecases.ai/use-case/run-a-vc-analyst-agent-over-telegram)**：一位創投人把 OpenClaw agent 架在便宜的 VPS 上當分析師，用 Telegram 就能聯絡，他說每季可能省下幾十個小時。
+- **[透過 WhatsApp 預約家教課](https://agentusecases.ai/use-case/book-tutoring-appointments-over-whatsapp)**：一位代理商老闆為家教公司做了 WhatsApp agent，可預約行事曆時段，兩天交付，收費 5,000 美元。
+- **[透過微信訊息遙控桌機上的 OpenClaw](https://agentusecases.ai/use-case/drive-openclaw-on-a-desktop-through-wechat-messages)**：一位測試者用 WorkBuddy 傳微信訊息控制 OpenClaw，包括產生一份推薦 skills 的網頁文件，但它無法登入微信，也不能傳訊息給聯絡人。
+- **[連夜找供應商並談條件](https://agentusecases.ai/use-case/source-suppliers-and-negotiate-deals-overnight)**：一個 agent 替網路商店找到供應商、進行議價、處理對方拒絕提供樣品的狀況，並談定 100 件每件 4.50 美元，只需要店主做一個決定。
+- **[重新命名並把 100 多張圖片分到資料夾](https://agentusecases.ai/use-case/rename-and-sort-100-images-into-folders)**：發文者給 ChatGPT Agent 一個超過 100 張圖片的 zip，要它依內容重新命名並分到子資料夾，他說做得相當不錯。
+- **[重新安排會議並寄送每日簡報](https://agentusecases.ai/use-case/reschedule-meetings-and-send-daily-briefings)**：OpenClaw 收到改期請求時會檢查空檔、更新行程並草擬確認信，也會透過通訊 app 寄送每日簡報。
+- **[重新批改作業並更新 Brightspace 成績](https://agentusecases.ai/use-case/regrade-assignments-and-update-grades-in-brightspace)**：一位教授讓 agent 重新批改助教打過分數的作業，用 Claude 驗證答案，並在 Brightspace 修改成績和回饋，抓出之前漏掉的問題。
+- **[錄下你的工作方式，再把重複的部分自動化](https://agentusecases.ai/use-case/record-how-you-work-then-automate-the-repetitive-parts)**：Screenpipe 在本機錄下螢幕和聲音，給 agent 一份可搜尋的記憶，把重複的任務變成流程。
+- **[錄下會議並依上傳檔案即時建議答案](https://agentusecases.ai/use-case/record-meetings-and-suggest-answers-live-from-uploaded-files)**：一個開源的 Mac 錄音工具會轉錄通話，聽到問題時，依使用者上傳的檔案建議答案。
+- **[非工程師自己做客戶資料庫](https://agentusecases.ai/use-case/build-a-client-database-as-a-non-developer)**：一位非工程師用 Claude Code 做了客戶資料庫，欄位有公司、聯絡人、email、狀態和月價值。
+
+## 業務、行銷與客服 { #sales-marketing-support }
+
+- **[email 沒有網頁 app 的汽車品牌並替他們做一個](https://agentusecases.ai/use-case/email-car-brands-without-web-apps-and-build-them-one)**：@JerryJenasom 讓 Manus 找出沒有網頁 app 的汽車品牌並寄 email 給他們；品牌回覆後，他就替他們做了網頁 app。
+- **[一個人用 16 個 agent 團隊經營事業](https://agentusecases.ai/use-case/run-a-solo-business-with-a-team-of-16-agents)**：一位獨立創辦人用約 16 個 Claude 和 Codex agent 處理客戶研究、開發信、CRM 維護、SEO 內容和通話準備，並說已經找到並篩選出第一個試用客戶。
+- **[以資深文案身分撰寫 Meta 活動文案](https://agentusecases.ai/use-case/write-meta-campaign-copy-as-a-senior-copywriter)**：發文者讓 Manus 扮演資深直效行銷文案，替 Meta 活動產出廣告文案。
+- **[依 ICP 和意圖訊號進行 LinkedIn 開發](https://agentusecases.ai/use-case/run-linkedin-outreach-from-icp-and-intent-signals)**：Grok Bot 搭配 MCP 和 LinkedIn 建了開發 agent，找出、補充資料並傳訊給 97 位潛在客戶，得到 15 個以上回覆和一場 demo。
+- **[依 ICP 找出並篩選銷售潛在客戶](https://agentusecases.ai/use-case/find-and-qualify-sales-leads-against-icp)**：Hermes Agent 搜尋並比對公司與人員背景，依 ICP、職務適配度和時機評斷潛在客戶，並說明每個人為什麼合格，供後續開發使用。
+- **[依公司輪廓篩選展覽參展商](https://agentusecases.ai/use-case/qualify-trade-show-exhibitors-against-your-company-profile)**：一個 n8n AI agent 從展覽名單研究公司，爬他們的網站、評估適配度，並把理由附加到 Google Sheet。
+- **[依客戶網站客製化開發信開場白](https://agentusecases.ai/use-case/personalize-cold-email-openers-from-lead-websites)**：n8n 流程透過 Apify 從 Apollo 抓名單，讀取每位客戶的網站，讓 AI 把個人化開場白寫進試算表，再交給寄信工具。
+- **[依文件草擬客服回覆並轉交給專員](https://agentusecases.ai/use-case/draft-support-answers-from-docs-and-hand-off-to-reps)**：一位留言者在雲端電腦上的 agent 會讀文件、草擬回覆，並把客戶連同完整對話轉給專員，對外訊息都要等核准才送出。
+- **[依聯絡人試算表自動開發客戶](https://agentusecases.ai/use-case/run-auto-outreach-from-a-contact-spreadsheet)**：一位評測者在 Lindy 做了開發客戶的 agent，依聯絡人試算表運作，推文草稿要經過核准，不會自動發出。
+- **[做一個找工作並投遞的 agent](https://agentusecases.ai/use-case/build-an-agent-that-finds-and-applies-to-jobs)**：發文者做了找工作並投遞的 agent，其中約 80% 的 app 程式碼由 Replit agent 寫成。
+- **[做銷售研究並比對 app 和設計稿](https://agentusecases.ai/use-case/do-sales-research-and-compare-app-to-mock-ups)**：留言者用 Claude in Chrome 做銷售研究，並跨分頁比對 app 和設計稿，產出 UX/UI 差異文件。
+- **[分析競品廣告並生成符合品牌的廣告素材](https://agentusecases.ai/use-case/analyze-competitor-ads-and-generate-on-brand-ad-creatives)**：一個用 Claude Agent SDK 打造的自主 Ad Agent 會找競品、分析廣告、生成符合品牌的素材，並整理成可分享的報告。
+- **[分流客服 email 並草擬回覆給人審核](https://agentusecases.ai/use-case/triage-support-emails-and-draft-replies-for-human-review)**：一個 n8n 工作流程會替每封客服 email 分類、排優先順序和摘要，草擬回覆後貼到 Slack，由人決定要不要寄出。
+- **[分流客服 email 並草擬退款政策回覆](https://agentusecases.ai/use-case/triage-support-emails-and-draft-refund-policy-replies)**：一位顧問做了 Claude agent，讀取客服 Gmail、查訂單、套用退款政策、草擬回覆交給人核准，並建立分流紀錄，也可選擇發 Slack 提醒。
+- **[分流客服工單並草擬回覆](https://agentusecases.ai/use-case/triage-support-tickets-and-draft-replies)**：一個 Claude Code skill 針對客服、帳務和資料庫 API 寫腳本，列出並分流工單、整理帳務背景、草擬回覆，並執行退款和取消。
+- **[加快客服工單的研究和分流](https://agentusecases.ai/use-case/speed-up-support-ticket-research-and-triage)**：一位 ClickUp 客服工程師做了一套系統，在每月 5,000 多張工單中，把每張工單的研究時間從 15 分鐘縮短到 4 分鐘；Mercari 則由它處理 97% 工單的首次回覆。
+- **[回答 WhatsApp 客戶問題並轉給真人](https://agentusecases.ai/use-case/answer-whatsapp-customer-questions-and-escalate-to-humans)**：n8n 加 OpenAI 的 agent 根據知識庫回答 WhatsApp 的問題，信心不足的案件會帶著完整上下文轉給 Telegram 上的真人。
+- **[回答客戶問題並轉交真人](https://agentusecases.ai/use-case/answer-customer-questions-and-escalate-to-humans)**：做了一個 agent，回答產品和價格問題、處理後續追問、提供付款資訊、通知管理員付款證明，並透過儀表板轉給真人。
+- **[回答租客問題並安排看房](https://agentusecases.ai/use-case/answer-renter-questions-and-schedule-tours)**：EliseAI 的租賃 agent 內建在 Zillow Rentals 刊登頁中，替多戶住宅夥伴回答租客問題並安排看房。
+- **[回覆 Shopify 訂單狀態郵件並在夜間處理問題](https://agentusecases.ai/use-case/answer-shopify-order-status-emails-and-fix-issues-overnight)**：agent 讀取客戶關於訂單的郵件，抓取真實訂單資料，並自動替 Shopify 商店解決問題。
+- **[回覆 email 和 LinkedIn 收件匣裡的開發回應](https://agentusecases.ai/use-case/reply-to-outreach-responses-from-email-and-linkedin-inboxes)**：Claude Cowork 掃描 email 和 LinkedIn 收件匣並回覆開發回應，另一個工作流程則根據潛在客戶的網站和 LinkedIn 研究寫開場白。
+- **[回覆客戶工單並寄送每日工單摘要](https://agentusecases.ai/use-case/reply-to-client-tickets-and-email-daily-ticket-summaries)**：AI agent 在已有回覆的情況下回應新郵件和工單，並寄給每位團隊成員前一天的客戶工單摘要。
+- **[回覆開發信並預約業務通話](https://agentusecases.ai/use-case/reply-to-cold-emails-and-book-sales-calls)**：Grok Bot 回覆開發信的回信、篩選客戶、查行事曆空檔，8 天內預約了 20 場業務通話，並在護欄範圍內更新 CRM。
+- **[在 Ads Manager 裡檢視 Meta 廣告成效](https://agentusecases.ai/use-case/review-meta-ad-performance-inside-ads-manager)**：一間代理商拿 Manus 測試真實電商客戶的 Meta 廣告帳號，它回報 ROAS 是 14.25 倍，實際只有 1.76 倍，被質疑後才自己更正。
+- **[在 Chrome 打開 Search Console 報表](https://agentusecases.ai/use-case/open-a-search-console-report-in-chrome)**：一位企業主以 Claude 為基礎的 AI 員工在分頁打開了 Search Console 報表，但卡在登入，得先由老闆自己完成。
+- **[在 Klaviyo 草擬 email 活動](https://agentusecases.ai/use-case/draft-email-campaigns-in-klaviyo)**：Grok Bot 用品牌語氣寫活動內容，從 Dropbox 抓產品照片、在 Figma 做主視覺圖，並把可編輯的草稿放進 Klaviyo。
+- **[在 LinkedIn 追蹤帳號並留言](https://agentusecases.ai/use-case/follow-an-account-and-comment-on-linkedin)**：Comet 一次就完成追蹤 Perplexity CEO 的 LinkedIn、找到特定貼文並留言。
+- **[在 Reddit 找刺青客人並草擬回覆](https://agentusecases.ai/use-case/find-tattoo-clients-on-reddit-and-draft-replies)**：一位刺青師經營一組 Grok Bot agent，其中一個讀 Reddit 貼文找在地推薦需求，並草擬回覆，由人審核後才發佈。
+- **[在 Reddit 找購買訊號](https://agentusecases.ai/use-case/find-buying-signals-on-reddit)**：一位評論者提到有個 Grok Bot 在 Reddit 找到了購買訊號。
+- **[在 WhatsApp 收集名單並存進 Sheets](https://agentusecases.ai/use-case/capture-leads-on-whatsapp-and-save-them-to-sheets)**：n8n WhatsApp agent 向客戶詢問姓名和 email，並自動存進 Google Sheets，以示範影片呈現。
+- **[在客服中調查客戶錯誤並草擬工單](https://agentusecases.ai/use-case/investigate-customer-errors-and-draft-tickets-in-support)**：Cursor 的客服團隊用 Cursor 搭配 MCP 抓 Datadog 日誌、搜尋過去案例，並草擬 Linear 的 bug 工單和客戶回覆。
+- **[在瀏覽器填寫求職申請](https://agentusecases.ai/use-case/fill-out-job-applications-in-a-browser)**：Claude Cowork 會開分頁、讀職缺、填申請表，並依使用者的規則做決定，自己一路做到完成。
+- **[執行數位公關和連結開發活動](https://agentusecases.ai/use-case/run-digital-pr-and-link-outreach-campaigns)**：作者讓一個叫 Jamie 的 Dot 執行既定的開發活動，維持追蹤表正確，並標出需要處理的回覆或刊登。
+- **[執行每日 SEO 文章計畫](https://agentusecases.ai/use-case/run-a-daily-seo-article-campaign)**：Agent 研究關鍵字，每天發佈一篇 SEO 文章，並用 Search Console 和 Ahrefs 資料每兩週更新舊文章。
+- **[執行社群聆聽並發佈客戶里程碑貼文](https://agentusecases.ai/use-case/run-social-listening-and-publish-customer-milestone-posts)**：一位企業客戶用 Lindy agent 爬客戶資料、監控社群和 G2、草擬里程碑貼文、建立內容行事曆並發佈。
+- **[執行行銷任務，例如突破需填表單才能看的內容](https://agentusecases.ai/use-case/run-marketing-tasks-like-getting-past-gated-lead-forms)**：一位 SE Ranking 的行銷人員用 ChatGPT Agent 測試行銷任務，包括需要填表才能下載的 HubSpot 報告；五次執行中只有兩次完全成功。
+- **[執行行銷開發和 SEO 研究](https://agentusecases.ai/use-case/run-marketing-prospecting-and-seo-research)**：Comet 找出有成長訊號的電商公司、建立聯絡名單並產生 Gmail 草稿，從 Reddit 挖 SEO 問題，並稽核結帳流程。
+- **[平行爬取新創目錄找潛在客戶](https://agentusecases.ai/use-case/scrape-startup-directories-for-leads-in-parallel)**：作者用 Comet 產生多個 agent，同時爬 ProductHunt，找可能受惠於 Reddit 行銷的開發對象。
+- **[建立潛在客戶名單和多管道開發序列](https://agentusecases.ai/use-case/build-lead-lists-and-multichannel-outbound-sequences)**：Grok Bot 依作者的網站和 ICP 建立潛在客戶名單，接著草擬 Salesforge 序列，上線前先給人審核；作者回報回覆率達 38%。
+- **[建立行銷計畫並部署成網站](https://agentusecases.ai/use-case/create-a-marketing-plan-and-deploy-it-as-a-website)**：一位行銷人員讓 Manus 做出含人物誌和 HubSpot CRM 步驟的行銷計畫，再把它建置並部署成網站。
+- **[建立評分過的銷售潛在客戶檔案和開發信草稿](https://agentusecases.ai/use-case/build-scored-sales-lead-profiles-and-outreach-drafts)**：作者用 Gemini Deep Research、NotebookLM 和 Sheets 組成流程，不到 20 分鐘就產出評分過的潛在客戶檔案和開發信草稿，已在三間公司上測試。
+- **[建置並上線落地頁，搭配 Google Ads 廣告](https://agentusecases.ai/use-case/build-and-launch-a-landing-page-with-a-google-ads-campaign)**：OpenClaw 做出並上線一個落地頁，接好有防重複機制的名單收集，設定地區定向的 Google Ads 廣告和 consent mode 標籤。
+- **[從 Claude 核准後發佈到所有社群](https://agentusecases.ai/use-case/post-to-all-socials-from-claude-with-approval)**：發文者做了自訂的 Claude connector，連到他的社群帳號，兩分鐘內就能發到多個平台，發佈前需要他核准。
+- **[從 Telegram 操作 SEO 研究 agent](https://agentusecases.ai/use-case/run-an-seo-research-agent-from-telegram)**：作者透過 Telegram 把商業背景、內容策略和競爭對手觀察清單檔案餵給 Manus，來跑 SEO 研究 agent，它引用了 9 個真實來源，評分 4/5。
+- **[從公司 CRM 擷取開發客戶用的資料](https://agentusecases.ai/use-case/extract-prospecting-data-from-a-company-crm)**：一位使用者讓 ChatGPT agent 操作公司的 CRM，抓出對業務開發有用的資料。
+- **[從客戶網站建立完整廣告活動](https://agentusecases.ai/use-case/build-a-full-ad-campaign-from-a-client-s-website)**：agent 抓取客戶網站，建出多語言廣告活動，包含關鍵字、文案和追蹤計畫，並標出一個轉換問題。
+- **[從收件匣撰寫追蹤信並更新 CRM 交易](https://agentusecases.ai/use-case/write-follow-ups-and-update-crm-deals-from-the-inbox)**：留言者表示 HubSpot 的 AI Copilot 會寫並寄出追蹤信、更新交易和安排會議，而 Revenue Grid 則自動更新 Salesforce CRM。
+- **[從研究到預約 demo 的整套開發銷售](https://agentusecases.ai/use-case/run-outbound-sales-from-research-to-booked-demos)**：一位 SaaS 獨立創辦人給 agent 他的 ICP、行事曆和收件匣，它研究了 300 間公司、篩出 61 間、寫了個人化 email 並約到 14 場 demo。
+- **[從研究過的網頁產生 50 個 AdWords 關鍵字](https://agentusecases.ai/use-case/generate-50-adwords-keywords-from-a-researched-webpage)**：一位使用者讓 Comet 深入研究某個網頁並產出 50 個 AdWords 活動用的關鍵字，他說效果不錯也省了時間。
+- **[從社群貼文互動者中找出並評分潛在客戶](https://agentusecases.ai/use-case/find-and-score-leads-from-social-post-engagers)**：Cowork agent 透過 Apify 爬 LinkedIn 貼文的互動者，用 Apollo 補充資料，依理想客戶輪廓評分，並替最合適的人草擬開發訊息。
+- **[從網址生成能預約的客服 agent](https://agentusecases.ai/use-case/generate-customer-service-agents-from-a-url-that-book-appoin)**：一個平台能建立網站和 WhatsApp 客服 agent，回答問題並預約 Google Calendar 行程，另有自動駕駛功能會抓 Google Maps 並用 demo bot 準備開發內容。
+- **[從網路建立潛在客戶名單和開發信](https://agentusecases.ai/use-case/build-prospect-lists-and-cold-emails-from-the-web)**：Claude Code 操作作者已登入的 Chrome，讀取種子頁面和 LinkedIn 檔案，找出 25 到 30 位有來源的潛在客戶，寄出約 20 封信得到 7 個回覆。
+- **[從通話逐字稿擷取銷售指標](https://agentusecases.ai/use-case/extract-sales-metrics-from-call-transcripts)**：一位留言者把銷售通話逐字稿餵給 Claude，抽出營收、潛在客戶和 CPL 填進追蹤表，並拿到一個本機 HTML 檔，可以操作儀表板。
+- **[從頭到尾經營一間客服公司](https://agentusecases.ai/use-case/run-a-customer-support-company-end-to-end)**：據作者說法，Grok 替一間 8 人客服公司處理即時聊天、email、工單、退款、知識庫、品管、報表和升級案件。
+- **[快速解決快流失客戶的問題](https://agentusecases.ai/use-case/resolve-a-churning-customer-s-issue-quickly)**：發文者用 OpenClaw 在 20 分鐘內幫忙解決客戶的問題並留住對方，過程中它沒有 email 或帳務權限。
+- **[找 LinkedIn 上被裁員的潛在客戶並草擬開發訊息](https://agentusecases.ai/use-case/find-laid-off-linkedin-prospects-and-draft-outreach)**：Comet 透過她已登入的帳號掃描 LinkedIn 貼文，抓出姓名和連結，不到一分鐘就草擬好待審的開發訊息。
+- **[找出 Reddit 上求助 n8n 的貼文](https://agentusecases.ai/use-case/find-reddit-posts-where-people-ask-for-n8n-help)**：n8n agent 抓取近期 Reddit 貼文存進向量資料庫，再為作者撈出 n8n 求助需求。
+- **[找出並審核符合 ICP 的客戶，規劃開發策略](https://agentusecases.ai/use-case/find-and-vet-icp-leads-and-plan-outreach)**：OpenClaw agent 用 CRM、Sales Navigator、Hunter.io 和 BrightData 找出符合 ICP 的檔案，審核後規劃陌生開發活動。
+- **[找出技術 SEO 問題並產生程式修正](https://agentusecases.ai/use-case/find-technical-seo-issues-and-generate-code-fixes)**：作者測試了五個 SEO agent，其中一個瀏覽網站、找出壞掉的 canonical、孤立頁面和缺少的 schema，依影響程度排序並產出程式修正，另外兩個則抓 Search Console 資料。
+- **[找出有購買意圖的客戶並研究，準備開發信](https://agentusecases.ai/use-case/find-buyer-intent-leads-and-research-them-for-outreach)**：一個 bot 偵測購買意圖訊號，另一個判斷每個機會並找聯絡人，產出清單給真人寄開發信。
+- **[找出滯銷的商用物件並 email 經紀人](https://agentusecases.ai/use-case/find-stale-commercial-listings-and-email-brokers)**：一個 Hermes bot 爬取租賃物件，依上架天數和分區篩選、計算佣金，並 email 給經紀人。
+- **[找出潛在客戶並彙整業務機會](https://agentusecases.ai/use-case/find-prospects-and-summarize-business-opportunities-for-sale)**：多 agent 的 n8n 流程找出公司網址、抓取潛在客戶網站，並彙整機會，讓業務團隊用來調整開發內容。
+- **[找出網路形象薄弱的商家並個人化開發](https://agentusecases.ai/use-case/find-weak-web-presence-businesses-and-pitch-them-with-person)**：六個 agent 找出線上形象薄弱的商家，寫個人化開發內容，並產出腳本、旁白和真人出鏡影片來銷售網站服務。
+- **[找出表現超出頻道規模的 YouTube 影片和電子報廣告主](https://agentusecases.ai/use-case/find-outperforming-youtube-videos-and-newsletter-advertisers)**：Manus 瀏覽 YouTube，找出表現超過頻道規模的影片，並找出 20 間在 AI 電子報刊登廣告的公司和聯絡方式，之後還設定成排程的研究任務。
+- **[找出需要 AI 的商家並寄信](https://agentusecases.ai/use-case/find-and-email-businesses-that-need-ai)**：五個各有自己信箱的 Grok Bot 抓了 468 間在地商家，篩到 140 間，寄出客製化評估，處理回覆，並導入了 11 位客戶。
+- **[找在地商家潛在客戶並寄個人化開發信](https://agentusecases.ai/use-case/find-local-business-leads-and-send-personalized-cold-emails)**：一個 n8n agent 爬 Google Maps 找商家，用 Owler 和 Apollo 補充潛在客戶資料，寫個人化開發信，並把名單記錄在 Google Sheets。
+- **[找屋頂工程客戶並用 AI 語音開發](https://agentusecases.ai/use-case/find-roofing-leads-and-run-ai-voice-outreach)**：n8n 流程找出屋頂工程業者、記錄到 Sheets、客製化開發內容、撥打語音電話，並把通話結果分類寫回表格。
+- **[找沒有網站的在地商家當潛在客戶](https://agentusecases.ai/use-case/find-local-businesses-without-websites-as-leads)**：Hermes 依區域產生子 agent，爬取倫敦西北區沒有網站的水電工，篩選後回傳三個合格的潛在客戶和推銷切入點。
+- **[把 LinkedIn 網址變成開發信](https://agentusecases.ai/use-case/turn-a-linkedin-url-into-a-cold-email)**：一個 n8n agent 從網址爬取 LinkedIn 個人檔案，再讓 AI 寫開發信；作者宣稱每月能約到 20 到 30 通合格的電話。
+- **[把 SEO 工作交給 ChatGPT agent](https://agentusecases.ai/use-case/hand-seo-tasks-to-a-chatgpt-agent)**：發文者找到 ChatGPT agent 的 SEO 用法：有些 SEO 工具由使用者接手操作，其餘由 agent 自己完成。
+- **[把 Zillow 房源整理成每日交易簡報寄給房地產經紀人](https://agentusecases.ai/use-case/email-daily-deal-briefs-from-zillow-listings-to-real-estate-)**：Zillow 爬蟲餵給 Claude，產出新房源、降價和開發話術的每日簡報，寄給 47 位付費的房地產經紀人。
+- **[把商家網站變成 WhatsApp 客服 agent](https://agentusecases.ai/use-case/turn-a-business-website-into-a-whatsapp-support-agent)**：n8n 流程把網站抓成知識庫，在 WhatsApp 回答客戶問題，並把詢問轉成已預約的通話。
+- **[把客戶回信轉送到 Freshdesk](https://agentusecases.ai/use-case/route-customer-reply-emails-to-freshdesk)**：n8n 流程攔截客戶對訂單確認信的回覆，並把客服需求轉進 Freshdesk。
+- **[把客戶訊息分流成工單和回覆](https://agentusecases.ai/use-case/triage-client-messages-into-tickets-and-replies)**：一個 Slack 監看程式在每則新客戶訊息出現時啟動 Devin session，調查問題、建立 Linear 工單、草擬回覆並安排後續處理。
+- **[把客戶訪談改寫成貼文和電子報文案](https://agentusecases.ai/use-case/repurpose-customer-interviews-into-posts-and-newsletter-copy)**：一個可重複使用的 Cowork skill 把一場客戶訪談變成部落格文章、LinkedIn 更新和電子報段落，每個階段都有人審核。
+- **[把新的 Gmail 郵件變成 Notion CRM 潛在客戶](https://agentusecases.ai/use-case/turn-new-gmail-emails-into-notion-crm-leads)**：Zapier Agent 在每封新 Gmail 郵件進來時觸發，並在 Notion 資料庫建立潛在客戶紀錄，對應的屬性也都填好。
+- **[把有負評的商家當名單通知 AI 代理商](https://agentusecases.ai/use-case/alert-ai-agencies-to-businesses-with-bad-reviews-as-leads)**：n8n agent 在商家收到負評時通知自動化代理商，讓他們搶先聯絡並推銷危機處理工具。
+- **[把試算表變成 Meta 廣告帳號](https://agentusecases.ai/use-case/turn-a-spreadsheet-into-a-meta-ads-account)**：Joel Jackson 用 Manus agent，透過原生整合直接把試算表轉成 Meta 廣告帳號。
+- **[把開發客戶代理商的工作交給 agent 而不是 VA](https://agentusecases.ai/use-case/hand-lead-gen-agency-tasks-to-an-agent-instead-of-a-va)**：一位開發客戶代理商的發文者，把原本付錢請 VA 做的工作改用 ChatGPT agent 模式，並詢問該怎麼為重複性任務設定 agent。
+- **[排序爆紅社群貼文並在夜間送出精選](https://agentusecases.ai/use-case/rank-viral-social-posts-and-send-top-picks-overnight)**：Grok Bot 執行 Apify 爬蟲抓 X、TikTok 和 Instagram，統一互動數據、依收藏率排序，並把前三名送到 Telegram。
+- **[接聽居家服務客戶來電並簡訊通知老闆](https://agentusecases.ai/use-case/answer-home-service-customer-calls-and-text-the-owner)**：語音 agent 替居家服務業者接電話，記錄來電者資料和需求，並用簡訊把狀態傳給老闆。
+- **[接聽非上班時間來電並預約行程](https://agentusecases.ai/use-case/answer-after-hours-calls-and-book-appointments)**：作者設定了一個 Synthflow 接待員，擷取來電者資料並預約隔天行程，還有一個 Retell agent 回答診所常見問題並標出不滿的來電者（廠商比較）。
+- **[推銷前先研究潛在客戶](https://agentusecases.ai/use-case/research-prospects-before-pitching-them)**：一個為副業專案做的 Lindy agent 研究了一間潛在的度假村，發現公關風險，因此沒有去推銷。
+- **[提供 24/7 WhatsApp 客服並追蹤申請狀態](https://agentusecases.ai/use-case/run-24-7-whatsapp-support-and-track-application-status)**：一間顧問公司用 n8n 多 agent 流程回答 WhatsApp 問題、收集資料、解析上傳文件，並通知客戶進度。
+- **[改寫低 CTR 的 meta 標題並稽核網站 SEO](https://agentusecases.ai/use-case/rewrite-low-ctr-meta-titles-and-audit-sites-for-seo)**：一間 SEO 代理商測試 Claude Code 搭配 CMS API 和 Search Console，改寫低 CTR 頁面的 meta 標籤、推送變更，並稽核 robots.txt、sitemap 和結構化資料。
+- **[替 SaaS 潛在客戶篩選、補充資料並預約 demo](https://agentusecases.ai/use-case/qualify-enrich-and-book-demos-for-saas-leads)**：一個 Lindy agent 全天候為 SaaS 開發客戶做篩選、補充資料和預約 demo，回報模擬轉換率從 40% 升到 78%。
+- **[替客戶建立 WhatsApp 和 Instagram 開發活動](https://agentusecases.ai/use-case/build-whatsapp-and-instagram-outreach-campaigns-for-clients)**：一間代理商用 Grok Bot 檢查 WhatsApp 和 Instagram 帳號、建立活動，並把 900 人加入私訊序列；它自己不會發送訊息。
+- **[替小團隊打造客服、電話和內容 agent](https://agentusecases.ai/use-case/build-support-calling-and-content-agents-for-small-teams)**：一位獨立創辦人為小團隊客戶提供以 Lindy 為基礎的聊天客服、來電與撥出電話、內容再利用和談判 agent。
+- **[替業務摘要 demo 並草擬追蹤信](https://agentusecases.ai/use-case/summarize-demos-and-draft-follow-ups-for-sales)**：一個業務團隊推出 Lindy agent，替 HubSpot 摘要 demo 通話、草擬追蹤信、安排通話並推薦提案，每週省下 5 小時以上。
+- **[替業務草擬個人化開發訊息、會後摘要和預測](https://agentusecases.ai/use-case/draft-personalized-outbound-recaps-and-forecasts-for-sales)**：Cursor 內部的 ChatGTM 會依訊號草擬開發訊息並搭配個人化登陸頁、通話摘要 email 和後續跟進，還會彙整交易預測。
+- **[替網站執行自動化 SEO 成長流程](https://agentusecases.ai/use-case/run-an-automated-seo-growth-workflow-for-a-website)**：Hermes agent 和 coding agent 讀取 Search Console 與 GA4 資料、找出 SEO 機會、修改網站程式碼並追蹤成效，用在一個浮潛天氣預報網站。
+- **[替網紅備妥聯盟連結和貼文說明](https://agentusecases.ai/use-case/keep-affiliate-links-and-captions-ready-for-influencers)**：一位顧問做了 Grok Bot Affiliate Bot，存放聯盟連結、貼文說明、hashtag 和免責聲明，讓網紅發文時可以索取。
+- **[替電子報自主執行 Meta 廣告活動](https://agentusecases.ai/use-case/run-meta-ad-campaigns-autonomously-for-a-newsletter)**：一個 Claude Code agent 產生廣告圖片、透過 API 管理 Meta 活動、做出登陸頁版本並抓分析資料，31 天內測試了約 50 個版本。
+- **[業務開發前用 agent 補充名單資料](https://agentusecases.ai/use-case/enrich-leads-with-an-agent-before-sales-outreach)**：發文者介紹一個在開發前使用的名單資料補充 agent，讓業務更了解潛在客戶，經驗來自導入 100 多個業務 agent。
+- **[標出流失與擴展訊號並草擬客服回覆](https://agentusecases.ai/use-case/flag-churn-and-expansion-signals-and-draft-support-replies)**：Healthie 的 Zapier agent 每週檢查 CRM 和客服工具有沒有流失或擴展訊號，並在 Slack 貼出摘要；Erewhon 則用它草擬個人化的客服回覆。
+- **[檢查潛在客戶適配度並寫開發信開場白](https://agentusecases.ai/use-case/check-prospect-fit-and-write-cold-email-openers)**：Claude Code 自動檢查公司是否符合目標客群並產生個人化開場白，省下手動檢查的時間。
+- **[檢視客服工單並彙整產品回饋](https://agentusecases.ai/use-case/review-support-tickets-and-synthesize-product-feedback)**：Grok Bot 檢視真人和 bot 處理的工單、給予指導、標出來回過多的對話、發每日 Slack 報告並彙整回饋。
+- **[每兩小時自動發佈精選 AI 新聞到 X](https://agentusecases.ai/use-case/auto-post-curated-ai-news-to-x-every-two-hours)**：一個 n8n 工作流程從 RSS feed 抓 AI/科技新聞，每兩小時發到作者的 X 帳號，省下手動作業。
+- **[每天寄送熱門社群貼文當內容參考](https://agentusecases.ai/use-case/send-daily-trending-social-posts-as-content-references)**：OpenClaw agent 透過社群資料 API，每天早上寄給作者一份 X、Threads 和 LinkedIn 的熱門貼文摘要，作為自己寫內容的參考。
+- **[每天寄送競品和提及摘要到 Slack](https://agentusecases.ai/use-case/send-a-daily-competitor-and-mentions-digest-to-slack)**：一位獨立經營者的 agent 把競品新聞、Twitter 動態、Reddit 提及和 G2 新評論整理成早上 7 點的 Slack 摘要，內容再利用的部分讀起來還是很機器人。
+- **[每天把競爭對手廣告研究報告送到 Slack](https://agentusecases.ai/use-case/send-a-daily-competitor-ad-research-report-to-slack)**：@cjfeth 的 Manus 自動化會挖目標客群資料、爬競爭對手的廣告庫、做比較基準，並把尚未被滿足的領域報告送到 Slack。
+- **[每天撰寫、排程並追蹤社群貼文](https://agentusecases.ai/use-case/write-schedule-and-track-social-posts-daily)**：Agent 替一間公司寫社群貼文、每天排程發佈，並在不需人工介入的情況下追蹤成效。
+- **[每天為四個社群平台草擬利基新聞貼文](https://agentusecases.ai/use-case/draft-daily-niche-news-posts-for-four-social-platforms)**：agent 掃描利基領域新聞、挑一則報導、為 LinkedIn、X、Instagram 和 Facebook 寫貼文、做圖，並在每天早上寄出草稿。
+- **[每週一依職缺做競品監控簡報](https://agentusecases.ai/use-case/run-a-monday-competitor-monitoring-brief-from-job-listings)**：Claude 被設定成 agent，每週一早上瀏覽競爭對手網站並讀他們的職缺，推測對方接下來可能的動作。
+- **[每週用品牌語氣產出行銷內容](https://agentusecases.ai/use-case/run-weekly-marketing-content-in-brand-voice)**：發文者讓 AI 每週用品牌語氣寫 5 篇 LinkedIn 貼文、5 篇 X 貼文和 3 篇部落格文章並自動發送，他說網站流量翻倍了。
+- **[測試 agent 做 SEO 研究和開發任務](https://agentusecases.ai/use-case/test-an-agent-on-seo-research-and-outreach-tasks)**：SE Ranking 測試 Operator 抓 SERP 結果、檢查反向連結和管理開發信；它又慢又容易出錯，所以不建議用在複雜的 SEO 工作。
+- **[為 LinkedIn 潛在客戶評分並草擬開發訊息](https://agentusecases.ai/use-case/score-linkedin-leads-and-draft-outreach-messages)**：一間新創的 n8n 工作流程會補充 LinkedIn 檔案資料，讓 AI agent 依理想客戶輪廓為每人評分並寫三則開發訊息，存到 Google Sheets。
+- **[為創投篩選新創辦人並進行聯繫](https://agentusecases.ai/use-case/screen-new-founders-and-run-outreach-for-venture-investing)**：一位投資人的 agent 系統監控新公司登記、研究創辦人、標出符合的對象、草擬並寄出聯繫信、安排會議並準備問題。
+- **[為成長行銷產生廣告變體並抓取活動資料](https://agentusecases.ai/use-case/generate-ad-variations-and-pull-campaign-data-for-growth-mar)**：Anthropic 的成長行銷團隊用 Claude Code 從 CSV 標出表現差的廣告，並產生數百種 Google Ads 變體，另外還做了 Figma 外掛和 Meta Ads MCP server。
+- **[為招募開發找出並清理名單](https://agentusecases.ai/use-case/find-and-clean-leads-for-recruiting-outreach)**：一位獵頭公司老闆用 Claude 找名單，一位留言者用它清理雜亂資料並草擬有人回覆的個人化訊息。
+- **[為網站在 Reddit 找名單並寄信](https://agentusecases.ai/use-case/find-reddit-leads-for-a-website-and-email-them)**：n8n 流程輸入網站網址，判斷產業和關鍵字，監控 Reddit 相關貼文，並把潛在客戶用 email 寄給使用者。
+- **[為網路商店端到端解決客服工單](https://agentusecases.ai/use-case/resolve-helpdesk-tickets-end-to-end-for-online-stores)**：商店客服系統內的 agent 據稱能處理退款、建立運送標籤，並在 Recharge、Loop 和 Skio 上編輯訂閱（彙整文章的說法）。
+- **[無人值守每天發布 AI 新聞筆記到小紅書](https://agentusecases.ai/use-case/publish-daily-ai-news-notes-to-xiaohongshu-unattended)**：排程 agent 搜尋 AI 新聞、驗證來源、寫文並渲染貼文，再透過瀏覽器自動化發布，29 次執行成功 28 次。
+- **[爬取房仲潛在客戶並展開屋頂工程開發](https://agentusecases.ai/use-case/scrape-real-estate-agent-leads-and-start-roofing-outreach)**：一個 OpenClaw agent 爬 Zillow、Redfin 和 Realtor.com，找出刊登老屋的房仲，把聯絡方式和物件存成 CSV，然後替一間屋頂公司開始開發。
+- **[爬取自由工作者名單並自動化 email 與 LinkedIn 開發](https://agentusecases.ai/use-case/scrape-freelancer-leads-and-automate-email-and-linkedin-outr)**：作者用 AI 寫的腳本（透過 Cursor）爬 LinkedIn 自由工作者檔案，寄出個人化 email 和私訊並記錄互動，用來推廣一場線上研討會；他說這只是概念驗證，有被封鎖的風險。
+- **[產出月度行銷報告和購買意圖回覆](https://agentusecases.ai/use-case/generate-monthly-marketing-reports-and-buying-intent-replies)**：留言者把 SEO、社群、GA4 和 GSC 報表丟給 Claude 產出月度更新報告，並監控 Reddit、Quora 和 X 的購買意圖訊號，草擬客製化回覆。
+- **[產生廣告文案變體並抓取競品廣告](https://agentusecases.ai/use-case/generate-ad-copy-variants-and-scrape-competitor-ads)**：一位留言者透過 Apps Script 用 Claude API 產生廣告文案變體，用 Apify 抓競品廣告，並用 Cursor 建 GA4 儀表板。
+- **[產生結構化的公司研究報告](https://agentusecases.ai/use-case/generate-structured-company-research-reports)**：Dharmesh 的 Company Research agent 把公司基本資料、高階主管、流量、搜尋行銷資料和 G2 評論整理成任何公司的結構化報告。
+- **[用 AI agent 主動解決客戶來電](https://agentusecases.ai/use-case/resolve-customer-calls-proactively-with-ai-agents)**：TELUS 用 Gemini Enterprise 的 CX agent 主動解決客戶來電；Google 的案例研究指出 30% 的來電獲得解決，問題解決速度快了 87%。
+- **[用 AI agent 在 18 個平台發內容](https://agentusecases.ai/use-case/post-content-across-18-platforms-with-ai-agents)**：agent 在 39 天內於 TikTok、YouTube、LinkedIn、Reddit 和 X 等平台發了 220 次貼文，沒有編輯行事曆，發文者只負責監看互動。
+- **[用 AI agent 處理客服（部分成功）](https://agentusecases.ai/use-case/handle-customer-support-with-an-ai-agent-partial)**：一位店家跑了幾個月 Gorgias AI Agent，因為答非所問和做出店裡兌現不了的承諾，最後把它關掉。
+- **[用 AI 回答租客和潛在租客的問題](https://agentusecases.ai/use-case/answer-tenant-and-rental-prospect-questions-with-ai)**：一位留言者說 AI 工具處理了大部分租客問題、潛在租客詢問和文件準備，較難的案子再交給真人。
+- **[用 AI 聊天機器人處理銀行客戶對話](https://agentusecases.ai/use-case/resolve-bank-customer-chats-with-an-ai-chatbot)**：Commerzbank 的 Bene 聊天機器人現在改用 Gemini，處理超過兩百萬次對話，解決 70% 的詢問。
+- **[用 AI 語音 agent 陌生電話開發房仲](https://agentusecases.ai/use-case/cold-call-real-estate-brokers-with-ai-voice-agents)**：一個流程會用 AI 語音打電話給房仲，沒約成就安排後續電話，並寄出溫熱和高熱度客戶的通知信。
+- **[用 AI 銷售 agent 回答 Shopify 商店客戶問題](https://agentusecases.ai/use-case/answer-shopify-store-customer-questions-with-an-ai-sales-age)**：一位留言者在 Shopify 商店用 Rep.AI 處理運送、優惠和商品的例行問題，據稱 97% 不用轉人工。
+- **[用 Agent Mode 自動發送 LinkedIn 好友邀請](https://agentusecases.ai/use-case/automate-sending-linkedin-connection-invites-with-agent-mode)**：作者試著用 OpenAI 的 Agent Mode 透過瀏覽器自動化發送 LinkedIn 邀請，並分享了嘗試過程的影片。
+- **[用 Android 手機上的 agent 經營 X 和 Reddit 帳號](https://agentusecases.ai/use-case/run-x-and-reddit-accounts-with-agents-on-android-phones)**：發文者在桌上放兩支 Android 手機，各跑一個 AI agent，一個全天候操作 X/Twitter 帳號，另一個操作 Reddit 帳號。
+- **[用 ChatGPT Agent 在 LinkedIn 自動投遞工作](https://agentusecases.ai/use-case/auto-apply-to-jobs-on-linkedin-with-chatgpt-agent)**：一位留言者說 ChatGPT Agent 投了 40 份 LinkedIn 工作，換來 2 場面試，不過很快就用完每月額度。
+- **[用 ChatGPT Pro agent 找 SEO 競爭對手](https://agentusecases.ai/use-case/find-seo-competitors-with-chatgpt-pro-agent)**：發文者用 ChatGPT Pro 處理 SEO 工作，由 Pro 的 agent 負責找競爭對手。
+- **[用 Claude Code 和自訂 GPT 處理客服工單](https://agentusecases.ai/use-case/work-helpdesk-tickets-with-claude-code-and-custom-gpts)**：客服管理員用 Claude Code 做了串接 Confluence、Jira 和 Zendesk 的 CLI 和 skill，並用自訂 GPT 草擬工單回覆，但要手動貼回去。
+- **[用 Claude Code 執行大規模開發信活動](https://agentusecases.ai/use-case/run-large-scale-cold-email-campaigns-with-claude-code)**：發文者用 Claude Code 跑開發信工作流程，每個客戶每月寄 1 到 2 萬封 email，取代了 Clay 的費用。
+- **[用 Claude Code 研究並草擬開發信](https://agentusecases.ai/use-case/research-and-draft-cold-outreach-with-claude-code)**：Claude Code 負責開發信的研究和草擬，大量寄送則交給另一個平台。
+- **[用 Claude Code 跑主動開發業務流程](https://agentusecases.ai/use-case/run-outbound-sales-workflows-with-claude-code)**：四個流程涵蓋通話前研究、活動參加者抓取、每日熱門名單摘要，以及通話後的 CRM 更新和跟進草稿。
+- **[用 Claude Cowork 替業務研究市場和客戶](https://agentusecases.ai/use-case/research-markets-and-accounts-with-claude-cowork-for-sales)**：一位業務讓 Claude Cowork 做市場和客戶研究，並透過 ZoomInfo API 開發潛在客戶，自己在講電話時，再手動檢查它抓回來的資料。
+- **[用 Claude Cowork 發佈做好的社群貼文](https://agentusecases.ai/use-case/publish-ready-social-posts-using-claude-cowork)**：一位留言者讓 Claude Cowork 指向放著成品貼文的資料夾或 Canva，由它處理社群發文。
+- **[用 Claude agent 修 Shopify SEO 並找出廣告浪費](https://agentusecases.ai/use-case/fix-shopify-seo-and-find-ad-waste-with-a-claude-agent)**：一個以 Claude 為基礎的 agent 分析 Shopify 商店，修正 SEO 問題讓分數升到 95，找出廣告浪費、測試點子並檢查 AI 能見度。
+- **[用 Claude 做 SEO 策略和內容來成長產品](https://agentusecases.ai/use-case/run-seo-strategy-and-content-with-claude-to-grow-a-product)**：一位創辦人用 Claude 做 SEO 和內容策略，包括用 Search Console 資料做關鍵字缺口分析，據稱六週內成長到 10,000 名活躍用戶，沒花廣告費。
+- **[用 Codex 排序 CRM 潛在客戶並草擬開發信](https://agentusecases.ai/use-case/rank-crm-prospects-and-draft-outreach-with-codex)**：一個 demo 讓 Codex 抓 CRM 資料、排出最重要的客戶，並做出 13 頁簡報，內含每個客戶的策略和開發信草稿。
+- **[用 Codex 自動化每天做安全的 SEO 修正](https://agentusecases.ai/use-case/make-daily-safe-seo-fixes-with-a-codex-automation)**：排程的 Codex 自動化每天早上檢視分析資料和 SEO 筆記，挑出五項安全的修正，例如內部連結和 metadata，並直接套用。
+- **[用 Make 和 AI 篩選潛在客戶並處理新客戶導入](https://agentusecases.ai/use-case/qualify-leads-and-handle-onboarding-with-make-and-ai)**：一位留言者做了行事曆語音 agent，並用 Make 搭配 AI 做潛在客戶篩選、客戶導入和基本的客服回覆。
+- **[用 Manus 找目標企業](https://agentusecases.ai/use-case/find-target-businesses-with-manus)**：作者測試 Manus 找出要開發的公司；它找到特定的公司和有用的洞察，但登入障礙擋住部分資料，仍需要人工驗證。
+- **[用 Muse 處理攝影師的影片剪輯、私訊銷售和客服](https://agentusecases.ai/use-case/run-a-photographer-s-video-clips-dm-sales-and-support-with-m)**：據稱一位攝影師用 Muse 把長影片剪成加字幕的 Instagram Reels，把私訊轉成課程銷售，並處理客服和退款。
+- **[用 OpenClaw agent 做 SDR 開發](https://agentusecases.ai/use-case/run-sdr-outreach-with-an-openclaw-agent)**：OpenClaw agent 研究潛在客戶、寫個人化開發信、依排程寄出追蹤信，並把互動記錄到 HubSpot。
+- **[用 Operator 研究銷售潛在客戶](https://agentusecases.ai/use-case/research-sales-leads-with-operator)**：測試者讓 Operator 做潛在客戶研究；在交接 CAPTCHA 之後它忘了任務，回傳的是一般的公司簡介，而不是合格的潛在客戶。
+- **[用 Slackbot agent 回答業務的問題](https://agentusecases.ai/use-case/answer-sales-reps-questions-with-a-slackbot-agent)**：一位 RevOps 從業者做了 Zapier Agent Slackbot 來回答業務的問題，花了一個下午才跑起來，他的結論是 agent 並不完美。
+- **[用 Telegram 指令發社群貼文](https://agentusecases.ai/use-case/post-to-social-channels-from-a-telegram-prompt)**：n8n agent 接收 Telegram 指令，從 Google Drive 找檔案，用 AI 寫文案，發到 LinkedIn 和其他管道，每週省下 3 到 5 小時。
+- **[用 Telegram 管理客戶詢問](https://agentusecases.ai/use-case/manage-customer-enquiries-from-telegram)**：n8n 系統收集 email 和表單詢問、建立任務，讓老闆用 Telegram 回覆，再由 AI 寄信並更新狀態。
+- **[用 Zendesk agent 回答客服對話](https://agentusecases.ai/use-case/answer-customer-support-conversations-with-a-zendesk-agent)**：Zendesk AI Agent 替一位客戶自主處理每月超過 2,000 則產品問題對話，讓三位客服人員轉去做業務。
+- **[用 agent 做接案網站開發](https://agentusecases.ai/use-case/run-freelance-website-outreach-with-an-agent)**：Chris Wozniczek 讓 Devin 找商家和案子、先做好網站，再寄量身打造的開發信來推銷網站服務。
+- **[用 agent 做潛在客戶研究、客服和內容](https://agentusecases.ai/use-case/run-lead-research-support-and-content-with-agents)**：一位遊艇軟體公司的 CEO 跑 20 到 30 個 Lindy agent，負責研究潛在客戶、個人化開發、支援使用者，以及製作並排程行銷內容。
+- **[用 agent 執行的開發信來擴大 email 名單](https://agentusecases.ai/use-case/grow-an-email-list-with-agent-run-cold-outreach)**：Drew Carr 用 Hermes agent 每天做開發信和社群留言，搭配 email 驗證和 LLM 適配度檢查，約 80 天達到 1,000 位訂閱者。
+- **[用 agent 幫壽司連鎖店接單](https://agentusecases.ai/use-case/take-orders-for-a-sushi-chain-with-an-agent)**：發文者做了一個 Claude agent，替七家分店的壽司連鎖店接單，使用菜單、過敏原、外送區域、營業時間和優惠資料。
+- **[用 agent 從零打造賺錢的線上事業](https://agentusecases.ai/use-case/build-a-profitable-online-business-from-scratch-with-an-agen)**：發文者給 OpenClaw/Claude agent 50 美元和 60 天來建立線上事業，在 Reddit、Twitter 和 LinkedIn 做內容行銷，吸引了 400 多位訪客。
+- **[用 agent 準備銷售電話和研究 YouTube 點子](https://agentusecases.ai/use-case/prep-sales-calls-and-research-youtube-ideas-with-agents)**：一個 Lindy agent 研究 YouTube 點子和腳本，另一個在開會前 10 分鐘 email 一份探索通話聯絡人的簡報；複雜的內容仍留在 Make。
+- **[用 agent 直接在 CRM 裡執行銷售流程](https://agentusecases.ai/use-case/run-sales-workflows-directly-in-the-crm-with-agents)**：留言者描述的 agent 會和 CRM 互動，並結合研究與開發工具，讓開發更有效率，也更能鎖定研究得更透徹的客戶。
+- **[用 agent 稽核 SEO 和 AI 搜尋能見度](https://agentusecases.ai/use-case/audit-seo-and-ai-search-visibility-with-an-agent)**：發文者做了 MentionDesk，其中有個 agent 會稽核品牌的 SEO 和 GEO 能見度，幫助品牌被 ChatGPT 和類似工具認得。
+- **[用 agent 管理 10 個社群帳號](https://agentusecases.ai/use-case/manage-10-social-media-accounts-with-agents)**：作者用 OpenClaw agent 和 cron job 經營 10 個帳號，回報追蹤者成長，並在一個分析任務悄悄失敗三天後加了健康檢查。
+- **[用 agent 經營社群、SEO 和內容行銷](https://agentusecases.ai/use-case/run-social-seo-and-content-marketing-with-an-agent)**：作者用 cron job、Telegram 和 MCP 工具跑了四週 OpenClaw，其中一個 agent 分析互動數據，建議把重心從 X 轉到 Bluesky。
+- **[用 agent 經營行銷活動、SEO 和內容](https://agentusecases.ai/use-case/run-marketing-campaigns-seo-and-content-with-agents)**：作者為 Claude Code 做了 18 個開源行銷 agent，涵蓋活動、SEO、內容和社群發文。
+- **[用 agent 處理商務 WhatsApp 客戶訊息](https://agentusecases.ai/use-case/run-business-whatsapp-customer-messages-with-an-agent)**：n8n agent 處理客戶的 WhatsApp 訊息，查詢資料、看行事曆、記錄到 Sheets 或 Notion，並用 WhatsApp 和 email 回覆。
+- **[用 agent 處理行銷公司的文案、報表和客戶導入](https://agentusecases.ai/use-case/run-marketing-agency-copy-reporting-and-onboarding-with-agen)**：一位行銷公司共同創辦人用 Claude Code 建了廣告文案、報表和客戶導入的系統，包括批次發布 Facebook 廣告的工具和客戶報表入口網站。
+- **[用 agent 處理行銷研究和文案初稿](https://agentusecases.ai/use-case/run-marketing-research-and-copywriting-drafts-with-agents)**：作者做了 OpenClaw 風格的 agent 來做研究、內容架構和文案初稿，研究每週省下 2 到 3 小時，但 agent 需要人盯著。
+- **[用 agent 規劃多平台社群內容行事曆](https://agentusecases.ai/use-case/plan-multi-platform-social-content-calendars-with-an-agent)**：作者用 Gemini 寫提示詞做了社群經理 agent，產出 Substack、LinkedIn 和 X 為期數週的內容行事曆並由人審核，沒有展示發佈的部分。
+- **[用 bot 經營公司的 Reddit 形象](https://agentusecases.ai/use-case/run-a-company-reddit-presence-with-a-bot)**：發文者做了一個 Reddit agent 來處理發文、互動和平台的中立推廣，取代聘請社群經理，不過目前還是自己在發文。
+- **[用 coding agent 管理 Google 和 Meta 廣告](https://agentusecases.ai/use-case/manage-google-and-meta-ads-with-coding-agents)**：一位 PPC 行銷人員用 Claude Code 和 Codex 連接 Google Ads API、GA4、Search Console、CRM 和 Meta，除了出報告，還直接管理廣告。
+- **[用 n8n agent 做全方位 SEO](https://agentusecases.ai/use-case/run-full-stack-seo-with-an-n8n-agent)**：n8n agent 分析 GA4、排名和 SERP 資料，追蹤競品關鍵字、改寫文章並儲存成效報告。
+- **[用 subagent 團隊經營行銷作業](https://agentusecases.ai/use-case/run-marketing-operations-with-a-team-of-subagents)**：一個 CMO agent 讀每週計畫並派出社群行銷和成效檢討等專責 subagent，社群 agent 在第一週就重複發了 Reddit 貼文。
+- **[用一段提示詞建立客服 agent](https://agentusecases.ai/use-case/spin-up-a-customer-support-agent-from-a-prompt)**：評測者用提示詞讓 Lindy 建好客服 agent，連上 Google 和 Slack 後就能運作；只描述了設定過程，沒有長期運行的結果。
+- **[用兩個 agent 做 GEO/SEO 策略和每日內容](https://agentusecases.ai/use-case/run-geo-seo-strategy-and-daily-content-with-two-agents)**：一位創辦人用兩個內部 agent，一個負責 GEO/SEO 診斷和策略，一個負責每日內容，據稱 30 天內流量成長 100 倍，沒花廣告費。
+- **[用分工的 agent 經營主動開發業務流程](https://agentusecases.ai/use-case/run-an-outbound-sales-pipeline-with-specialized-agents)**：一組跑在 Grok Bot 上的 agent 負責找潛在客戶、研究、寫個人化訊息、啟動活動、篩選回覆並管理業務流程。
+- **[用單一職責的 bot 經營創辦人主導的業務](https://agentusecases.ai/use-case/run-founder-led-sales-with-single-job-bots)**：一位創辦人用一個每天備好開發信等待核准的開發 bot、一個排序並草擬回覆的收件匣 bot，以及一個轉交熱門名單的社群 bot。
+- **[用廣告 agent 把商品照變成影片廣告](https://agentusecases.ai/use-case/turn-product-photos-into-video-ads-with-an-ad-agent)**：一位留言者把商品照和受眾資料餵給 agent，由它草擬腳本、生成 b-roll 並加上旁白，另一位提到有 bot 負責整理行事曆和付款。
+- **[用抓取的品牌和競品資料建立付費廣告活動](https://agentusecases.ai/use-case/build-a-paid-ad-campaign-from-scraped-brand-and-competitor-d)**：agent 抓取珠寶品牌網站的 SKU 和社群媒體的購買模式，分析競品廣告，並產出附圖片和影片構想的付費廣告活動。
+- **[用瀏覽 agent 稽核網站的 SEO 問題](https://agentusecases.ai/use-case/audit-websites-for-seo-issues-with-a-browsing-agent)**：一個開源 agent 用真實的 Chromium 瀏覽器造訪每個網址，擷取 SEO 標籤、檢查壞連結，需要登入時暫停等人輸入，最後寫出摘要報告。
+- **[用瀏覽器 agent 收集網紅名單](https://agentusecases.ai/use-case/gather-a-list-of-influencers-with-a-browser-agent)**：Operator 瀏覽網頁收集網紅資料，但被 Google Sheets 和 Excel 的登入擋住，任務只完成一部分。
+- **[用瀏覽器擴充功能草擬聊天回覆](https://agentusecases.ai/use-case/draft-chat-replies-from-a-browser-extension)**：瀏覽器擴充功能把畫面上看得到的對話傳到 Make webhook，由 ChatGPT 分析並草擬回覆。
+- **[用瀏覽器稽核部落格 SEO](https://agentusecases.ai/use-case/audit-a-blog-s-seo-with-a-browser)**：一位開發者用 Claude Code 搭配 Puppeteer MCP 瀏覽自己的部落格，檢查 meta 標籤、速度、結構化資料和手機版，並寫出報告，抓到一個 noindex 問題。
+- **[用簡單的 AI agent 取代行銷工作](https://agentusecases.ai/use-case/replace-marketing-tasks-with-simple-ai-agents)**：發文者用幾個處理搜尋流量工作和 YouTube 留言的 agent 取代了大部分行銷，據稱沒投廣告網站流量就成長了三倍。
+- **[用簡訊 bot 跟進房地產潛在客戶](https://agentusecases.ai/use-case/follow-up-with-real-estate-leads-via-a-text-bot)**：一位房仲在自己的 IDX 網站上跑 AI agent 簡訊 bot 來跟進客戶，已經帶來幾筆成交。
+- **[用自主 agent 進行房地產交易](https://agentusecases.ai/use-case/run-real-estate-transactions-with-autonomous-agents)**：發文者做了一個平台，讓包含 SellerBot 在內的 agent 處理刊登、定價策略和買家詢問，開發時用 Claude 當程式助手。
+- **[用自己申請的電話號碼打電話和寄 email 給潛在客戶](https://agentusecases.ai/use-case/call-and-email-leads-with-a-self-provisioned-phone-number)**：一個 AI agent 替自己弄了一支電話號碼，找出合適的潛在客戶，打電話、寄 email、追蹤並回報結果。
+- **[用花費護欄自動執行每週行銷動作](https://agentusecases.ai/use-case/run-autonomous-weekly-marketing-actions-with-spend-guardrail)**：發文者做了一個 agent，每週在分析、CRM、社群、email 和廣告平台執行 35 到 70 個行銷動作，並設有防止廣告超支的護欄。
+- **[用語音 agent 全天候接聽客服電話](https://agentusecases.ai/use-case/cover-support-calls-24-7-with-a-voice-agent)**：Robin Delta 做了一個全天候接聽客服電話的語音 agent，解決第一線問題或升級處理，並預約行程。
+- **[用語音 agent 接聽商務電話](https://agentusecases.ai/use-case/answer-business-phone-calls-with-a-voice-agent)**：小型企業主用 AgentVoice agent 接客戶來電、更新紀錄、寄信、記錄到 HubSpot、過濾垃圾電話，並把真正的客戶轉給員工。
+- **[用語音 agent 接聽房地產來電](https://agentusecases.ai/use-case/answer-real-estate-calls-with-a-voice-agent)**：一位開發者為房地產公司用 ElevenLabs 和 n8n 做了語音 agent，接聽電話、收集預算和地點，並接上自動化流程。
+- **[用語音 agent 處理業務和客服來電](https://agentusecases.ai/use-case/handle-sales-and-support-calls-with-a-voice-agent)**：一個團隊部署 AI 語音 agent 處理非上班時間來電、常見問題和訂單狀態，並為 CRM 和客服系統擷取結構化通話資料。
+- **[用語音 agent 處理產品問題、保固申請和退貨](https://agentusecases.ai/use-case/handle-product-questions-warranty-claims-and-returns-with-vo)**：Anker 用 Retell AI 語音 agent 重建全球客服，以多種語言處理產品問題、保固申請和退貨。
+- **[用連接 Freshdesk 的 ChatGPT 回答客服工單](https://agentusecases.ai/use-case/answer-support-tickets-with-chatgpt-connected-to-freshdesk)**：一位 SaaS 老闆把 ChatGPT 連到 Freshdesk，並給它工單歷史和內部工具，但放棄了全自動，因為選對答案和判斷何時不該回覆都不可靠。
+- **[用銷售 agent 找網頁設計潛在客戶](https://agentusecases.ai/use-case/find-web-design-prospects-with-sales-agents)**：發文者設定了多個銷售網站服務的 agent，其中一個會搜尋 Google Maps 上的商家、檢查他們有沒有網站，並依優先順序排序。
+- **[監控 Reddit 和 LinkedIn 找潛在客戶並發出提醒](https://agentusecases.ai/use-case/monitor-reddit-and-linkedin-for-leads-and-alert-on-them)**：一家影片製作服務用 AI 組合做潛在客戶研究和開發信，透過 Reddit 和 LinkedIn 討論的即時提醒，讓接觸更容易被接受。
+- **[監控 Reddit、草擬回覆並排程貼文](https://agentusecases.ai/use-case/monitor-reddit-draft-replies-and-schedule-posts)**：一位留言者做了個人的 Claude agent 擔任社群經理，負責監控 Reddit、草擬回覆和排程貼文。
+- **[監控社群並標出值得回覆的留言、私訊和提及](https://agentusecases.ai/use-case/monitor-socials-and-flag-comments-dms-and-mentions-worth-ans)**：agent 取得社群帳號權限，監看留言、私訊和提及，遇到值得回覆的就通知使用者。
+- **[研究、評分並草擬潛在客戶開發信](https://agentusecases.ai/use-case/research-score-and-draft-outreach-for-leads)**：一個以 Make 為基礎的 AI agent 會研究潛在客戶、評分，並自動草擬個人化的後續開發信。
+- **[研究並建議 X 貼文，送到 Slack 等核准](https://agentusecases.ai/use-case/research-and-suggest-x-posts-for-slack-approval)**：一位留言者用 Make 替客戶做了 agent 來做研究，把貼文建議送到 Slack，由人核准後才發到 X。
+- **[研究公司並填入 CRM 以便開發](https://agentusecases.ai/use-case/research-companies-and-fill-a-crm-for-outreach)**：Claude Code 研究目標公司，透過 MCP 建立 Attio CRM 紀錄，產出個人化報告並草擬開發信；第一次跑接觸了 80 間公司，換到一筆成交。
+- **[稽核並重建店家的 email 自動化](https://agentusecases.ai/use-case/audit-and-rebuild-a-store-s-email-automations)**：Muse 稽核了一間鞋店的 Klaviyo 流程，移除重複項目、重建模板並啟用銷售追蹤，發佈或花錢前都需要核准。
+- **[稽核六個平台的廣告帳號](https://agentusecases.ai/use-case/audit-ad-accounts-across-six-platforms)**：一個 Claude Code skill 平行跑多個 subagent，對各廣告平台執行 190 項稽核檢查，並產出有優先順序的行動計畫。
+- **[稽核清潔公司網站的 AI 爬蟲存取](https://agentusecases.ai/use-case/audit-cleaning-company-sites-for-ai-crawler-access)**：agent 用 MCP 工具讀取 14 種 AI 爬蟲的 robots.txt 規則，並檢查 18 間清潔公司網站的 8 個頁面標籤，其中 9 個回傳的是首頁。
+- **[端到端經營品牌行銷並發布到社群](https://agentusecases.ai/use-case/run-brand-marketing-end-to-end-and-publish-to-social)**：有個工具讓 Claude Code 抓競品、生成並編輯圖片和影片，再發布到 Instagram、TikTok、LinkedIn、X 和 Reddit，據說有一支影片達到 530 萬觀看。
+- **[管理 X 的追蹤與取消追蹤](https://agentusecases.ai/use-case/manage-x-follows-and-unfollows)**：@keyrunnftart 用 Comet 在 X 上取消追蹤一些帳號，並回追其他帳號。
+- **[篩選房地產潛在客戶並預約看房](https://agentusecases.ai/use-case/qualify-real-estate-leads-and-book-viewings)**：AI 助理在 Telegram 上篩選客戶、配對房源、依行事曆預約看房，並記錄到 CRM。
+- **[篩選抓來的名單並寫個人化開場白](https://agentusecases.ai/use-case/qualify-scraped-leads-and-write-personalized-openers)**：Claude Code 研究公司新聞作為破冰話題，從爬到的名單篩選客戶，並寫出多種個人化開場白。
+- **[篩選潛在客戶並草擬 email 等人核准](https://agentusecases.ai/use-case/qualify-leads-and-draft-emails-pending-human-approval)**：一個 n8n 工作流程會去重並用 AI 評分潛在客戶、草擬個人化 email，經人核准後才透過 Gmail 寄出。
+- **[經營客戶的 Facebook 廣告帳號](https://agentusecases.ai/use-case/run-a-client-s-facebook-ad-account)**：AI agent 處理客戶 Facebook 廣告帳號的設定、優化和成效，發文者說比他自己手動做得好。
+- **[自主瀏覽 Reddit 並回覆留言](https://agentusecases.ai/use-case/browse-reddit-and-reply-to-comments-autonomously)**：OpenClaw 助理用 headless Chrome 瀏覽 Reddit、回覆留言、檢查通知，並協調 8 個專門的 Discord agent。
+- **[自主解決客服工單](https://agentusecases.ai/use-case/resolve-customer-support-tickets-autonomously)**：作者替一個三人團隊做了自主客服 agent，當時有 847 位客戶在排隊等待，據他自己回報每天處理 500 多張工單，解決率 94%。
+- **[自動化 Reddit 和 LinkedIn 的內容發佈](https://agentusecases.ai/use-case/automate-content-distribution-across-reddit-and-linkedin)**：一個 Claude Code agent 跑六個雲端自動化，把新文章變成 Reddit 貼文與回覆，以及附資訊圖表的 LinkedIn 貼文；Reddit 回覆需要在 Slack 核准。
+- **[自動化客戶研究、CRM 更新和資料補充](https://agentusecases.ai/use-case/automate-lead-research-crm-updates-and-enrichment)**：Claude Code 處理客戶研究、報表、CRM 更新和資料補充這類重複性的開發相關工作。
+- **[自動化跨平台的活動社群貼文](https://agentusecases.ai/use-case/automate-event-social-posting-across-platforms)**：Claude Code 串接各社群管道來拉活動報名，在 Twitter 和 Reddit 效果不錯，LinkedIn 還算可以。
+- **[自動在 Reddit 和 Twitter 找客戶名單](https://agentusecases.ai/use-case/find-customer-leads-on-reddit-and-twitter-automatically)**：發文者做了一個 agent，自動在 Reddit 和 Twitter 上找出潛在客戶和適合切入的對話。
+- **[自動排程發圖到 Instagram 和 Pinterest](https://agentusecases.ai/use-case/auto-post-scheduled-images-to-instagram-and-pinterest)**：Make.com 流程監看 Google Sheet，從 Drive 抓圖，替一個保健品牌依排程發到 Instagram 和 Pinterest，並把已發的列標記起來。
+- **[自動撰寫並發佈房地產刊登](https://agentusecases.ai/use-case/auto-write-and-post-real-estate-listings)**：一位留言者用 ChatGPT 搭配 n8n 讀取資料、寫刊登文案、抓照片、做影片，物件一上線就自動發到社群媒體。
+- **[自動發布在地新聞文章到 WordPress](https://agentusecases.ai/use-case/publish-local-news-posts-to-wordpress-automatically)**：Claude Code agent 研究在地新聞、寫 HTML 文章、上傳到 WordPress、設定精選圖片、驗證並記錄結果，也會檢查 Airtable 和 Gmail。
+- **[自動篩選網站訪客並預約通話](https://agentusecases.ai/use-case/qualify-website-visitors-and-book-calls-automatically)**：一位開發者做了 n8n 預約 agent，會和網站訪客聊天、篩選他們，全天候預約通話時段，不需要人工。
+- **[自動經營每日更新的在地商家目錄](https://agentusecases.ai/use-case/run-a-daily-updated-local-business-directory-autonomously)**：Claude 用排程任務建置並部署一個在地承包商目錄，之後每天早上找新案例並審核、做一項 SEO 修正，再推到 GitHub。
+- **[自動處理車商的客戶簡訊客服](https://agentusecases.ai/use-case/auto-handle-dealership-customer-sms-support)**：一個汽車經銷集團用 Make 做了分析客戶簡訊情緒的流程，47,000 則訊息中自動結案超過 18,000 則，並把不滿意的客戶轉給售後部門。
+- **[自動解決客服工單，其餘升級處理](https://agentusecases.ai/use-case/auto-resolve-support-tickets-and-escalate-the-rest)**：n8n agent 查詢知識庫和訂單紀錄，用 email 回覆，或附上草稿升級到 Slack，帳務和資安問題交給真人。
+- **[自動預先篩選進來的潛在客戶](https://agentusecases.ai/use-case/pre-qualify-inbound-leads-automatically)**：Futurepedia 用 Zapier Agent 研究每個進線潛在客戶的公司，寫出適配度簡報，並把最好的轉給業務，完全不需要 SDR。
+- **[草擬 Reddit 回答來達成 karma 目標](https://agentusecases.ai/use-case/draft-reddit-answers-to-reach-a-karma-goal)**：發文者讓 Claude Code 當 agent 協助寫 Reddit 回答，其中一則回答就貢獻了大部分 karma 目標。
+- **[處理 Shopify 客服工單、訂單和退款](https://agentusecases.ai/use-case/handle-shopify-support-tickets-orders-and-refunds)**：一個以 Claude 和 GPT 打造的 AI agent，替 Shopify 商家處理客服工單，包括取消訂單、追蹤貨運、建立退貨標籤和處理退款（廠商刊登）。
+- **[處理大量瀏覽器操作的商務任務和旅行穿搭挑選](https://agentusecases.ai/use-case/run-browser-heavy-business-tasks-and-trip-outfit-picks)**：留言者用 Claude in Chrome 處理 cPanel 列表、X 成長、測試、開發客戶和投資人研究，也用分組的服飾分頁來挑旅行穿搭。
+- **[補充新進 CRM 潛在客戶資料以便個人化開發](https://agentusecases.ai/use-case/enrich-new-crm-leads-for-personalized-outreach)**：Make.com 自動化會替進入 CRM 的新潛在客戶補上詳細檔案，讓開發信更精準。
+- **[調查牙醫診所並建立開發用 CRM](https://agentusecases.ai/use-case/research-dentist-offices-and-build-an-outreach-crm)**：Manus 從各目錄網站找到 40 多間洛杉磯牙醫診所和聯絡資料，再做出有儀表板、檔案頁和備註的 CRM 應用。
+- **[讀網站後規劃並排程 Instagram 貼文](https://agentusecases.ai/use-case/plan-and-queue-instagram-posts-from-a-site-read)**：一位代理商老闆讓 Grok Bot 讀他的 sitemap、草擬 Instagram 策略並把貼文排進排程；在他核准前什麼都沒發佈。
+- **[讓 AI agent 經營 Amazon 書籍廣告](https://agentusecases.ai/use-case/let-an-ai-agent-run-amazon-book-ads)**：一位作者把 Amazon 廣告帳號交給 AI agent 控制，它依排程透過 Ads API 抓報表、調整出價、加入否定字詞，並在不經核准下暫停廣告活動。
+- **[讓 AI agent 自主經營線上事業](https://agentusecases.ai/use-case/run-an-online-business-autonomously-with-an-ai-agent)**：發文者做了一個 agent 來建立並經營線上事業，完全不需人工介入，14 天後有 273 位來自 Reddit 的訪客，沒有營收。
+- **[讓 agent 從零開始創業](https://agentusecases.ai/use-case/let-an-agent-start-a-business-from-scratch)**：Josh 給 Devin 一張卡、電話、收件匣、Stripe 和 repo 來創業；四週、10,929 通電話後，它拿到第一位付費客戶。
+- **[讓 agent 研究自己的競爭對手](https://agentusecases.ai/use-case/have-an-agent-research-its-own-competitors)**：一位開發者的自訂 agent 搜尋論壇和評論網站、交叉比對結果，產出有引用來源的 3,000 字競品分析，附目標用戶和主動開發手冊。
+- **[讓 agent 自己建立並經營線上事業](https://agentusecases.ai/use-case/let-an-agent-build-and-run-its-own-online-business)**：Nat Eliason 給他的 OpenClaw agent Felix 1,000 美元，它推出網站、資訊產品和 X 帳號，據稱三週賺了 14,718 美元。
+- **[跑自主迴圈來建立 SEO 頁面和工具](https://agentusecases.ai/use-case/run-an-autonomous-loop-that-builds-seo-pages-and-tools)**：一個讀取營收儀表板的 agent 迴圈跑了 365 輪，產出 394 個互相連結的 SEO 頁面和一個 webhook 檢查工具，附落地頁、文件和草擬的開發內容。
+- **[跨社群平台轉貼並自動回覆](https://agentusecases.ai/use-case/cross-post-to-social-platforms-and-automate-replies)**：發文者用免費的 Make 工作流程把內容轉貼到 Reddit、Facebook 和 X，也試了用 AI 自動回覆社群留言。
+- **[追蹤尚未報價的客戶並預約回電](https://agentusecases.ai/use-case/chase-unquoted-leads-and-book-callbacks)**：agent 監看收件匣或 CRM，對未報價的客戶在 24 小時後跟進，並預約回電。
+- **[送出聯盟行銷申請並分流收件匣](https://agentusecases.ai/use-case/submit-affiliate-applications-and-triage-inboxes)**：使用者回報 Grok Bot 透過瀏覽器送出 158 份聯盟行銷申請，分流 Gmail 和 Slack，並每天檢視網站和更新程式碼。
+- **[透過 AI agent 排程社群貼文](https://agentusecases.ai/use-case/schedule-social-posts-through-an-ai-agent)**：一位留言者用 Obsei 擷取社群內容，並透過 getlate.dev 讓 AI agent 在各網路發文，Reddit 除外。
+- **[透過 MCP 經營小紅書帳號](https://agentusecases.ai/use-case/run-xiaohongshu-account-operations-via-an-mcp)**：一位開發者做了開源的小紅書 MCP，讓 Claude Code 自己研究內容並把貼文發佈到該平台。
+- **[透過 MCP 讓語音櫃台預約看診](https://agentusecases.ai/use-case/let-a-voice-receptionist-schedule-appointments-via-mcp)**：自訂的 MCP server 提供列出、預約和取消預約的工具，讓 ElevenLabs 語音 agent 能對照公司 CRM 處理客戶來電。
+- **[透過 WhatsApp 或語音篩選客戶並預約通話](https://agentusecases.ai/use-case/qualify-leads-and-book-calls-via-whatsapp-or-voice)**：一位留言者描述用 Clay 和 Apollo 做資料補充和開發序列，另外還有能在對話中篩選客戶、記住過往互動、跟進並預約通話的工具。
+- **[透過 agent 排程社群影片和貼文](https://agentusecases.ai/use-case/schedule-social-videos-and-posts-through-an-agent)**：用戶轉述他們的 AI agent 安裝了排程 skill、連結社群帳號並排了約 100 支影片，這些是廠商轉述的使用者見證。
+- **[透過 computer use 抓 Substack 貼文數據](https://agentusecases.ai/use-case/pull-substack-post-stats-via-computer-use)**：Charlie Hills 讓 Codex Computer Use 打開他的 Substack 後台，收集每篇已發佈貼文的數字，適用於沒有 MCP connector 的 app。
+- **[透過介面設定 Google Ads 活動](https://agentusecases.ai/use-case/set-up-google-ads-campaigns-through-the-ui)**：一位非工程師的 PM 讓 Claude in Chrome 操作 Google Ads，建立四個美國英文活動並附標題和文案；短期測試顯示轉換率很高。
+- **[透過廣告 MCP 管理並上線付費廣告活動](https://agentusecases.ai/use-case/manage-and-launch-paid-ad-campaigns-via-an-ads-mcp)**：發文者使用一個廣告 MCP，可以回報、管理或上線活動，並用排程例行任務檢查其他資料來源來做決策。
+- **[透過能收款並交付的 agent 賣服務](https://agentusecases.ai/use-case/sell-services-through-an-agent-that-takes-payment-and-delive)**：agent 執行交易流程、建立 Stripe 結帳連結、確認付款後才交付服務，並在 Telegram 請老闆核准退款或爭議。
+- **[透過自主開發預約研討會會面](https://agentusecases.ai/use-case/book-conference-meetings-via-autonomous-outreach)**：發文者爬了研討會的參加者名單，寫好 runbook，每天早上叫醒 Hermes 執行開發，在兩天的研討會期間預約到 30 多場會面。
+- **[透過電話和聊天預約及改期病患看診](https://agentusecases.ai/use-case/book-and-reschedule-patient-appointments-by-phone-and-chat)**：AI agent 替診所透過電話、簡訊和網頁聊天處理預約、改期和取消，包括下班後的來電。
+- **[運行 10 個 agent 的 SEO 內容流程](https://agentusecases.ai/use-case/run-a-10-agent-seo-content-pipeline)**：發文者做了 10 個 agent 的 SEO 流程，其中一個研究 agent 會爬頂尖 SERP 結果加上 Reddit 和 Quora，現在也提供代管版本。
+- **[運行有記憶的語音和聊天客服助理](https://agentusecases.ai/use-case/run-voice-and-chat-support-assistants-with-memory)**：AT&T 部署了以 Gemini 為基礎、有 60 天記憶的語音和聊天助理，回報完全自動化處理的詢問增加了 20%。
+- **[運行本機多模型 agent 處理檔案和監控 LinkedIn/Reddit](https://agentusecases.ai/use-case/run-a-local-multi-model-agent-for-files-and-linkedin-reddit-)**：一位開發者做了本機 agent，可以處理使用者的檔案和已連接的資料，並用它監控、抓取 LinkedIn 和 Reddit 上相關的對話，取得商業洞察。
+- **[運行自主的部落格內容流程](https://agentusecases.ai/use-case/run-an-autonomous-blog-content-pipeline)**：一個 OpenClaw 流程負責挖題材、研究、寫作、驗證、部署和發佈內容，搭配 IndexNow 提交和分析回饋；回報已發佈 38 篇文章。
+- **[開發潛在客戶、評分並執行開發信序列](https://agentusecases.ai/use-case/prospect-score-leads-and-run-outbound-email-sequences)**：Agent 每天兩次掃描 Apollo.io 和徵才網站，找符合 ICP 的潛在客戶並評分，用 Claude 寫三封一組的 email 序列、寄出追蹤信，對方回覆時暫停並交給人核准。
+- **[預約看房並跟進房地產潛在客戶](https://agentusecases.ai/use-case/book-site-visits-and-follow-up-with-real-estate-leads)**：發文者用 n8n 做了一個業務助理，負責預約看房、寄信、跟進客戶並更新 CRM。
+- **[驅動餐廳客服聊天機器人的後端](https://agentusecases.ai/use-case/power-a-restaurant-customer-service-chatbot-backend)**：一個 Make.com 工作流程擔任餐廳聊天機器人的後端，透過文字和語音訊息回覆客人。
+
+## 研究與知識 { #research-knowledge }
+
+- **[一夜分析 17 萬筆 LLM 日誌](https://agentusecases.ai/use-case/analyze-170k-llm-logs-overnight)**：用戶讓 Gemini agent 通宵跑，用 llm CLI 和免費模型分析 17 萬筆 LLM 日誌，儘管有額度限制還是完成了。
+- **[不用寫程式也能用 Claude Code 做股票研究](https://agentusecases.ai/use-case/do-equity-research-with-claude-code-without-coding)**：一位非工程師把研究放在用 Obsidian 管理的純文字檔資料夾裡，並用 Claude Code 做股票研究。
+- **[依上傳的來源草擬論文文獻回顧](https://agentusecases.ai/use-case/draft-a-dissertation-lit-review-from-uploaded-sources)**：一位博士生用只引用上傳來源的 NotebookLM 處理引用並草擬文獻回顧，不會出現捏造的參考文獻。
+- **[依條件篩選研究論文](https://agentusecases.ai/use-case/screen-research-papers-against-criteria)**：Codex 讀一個資料夾的 PDF 找出反駁某論點的文章，為系統性回顧篩選約五十篇論文，也能清理雜亂的 CSV 或 Excel 檔。
+- **[先做主題初步研究，再驗證參考文獻](https://agentusecases.ai/use-case/run-first-pass-topic-research-then-verify-references)**：一位留言者用 Manus 做初步研究，再讓 Genspark 逐一複查每個參考文獻並標出問題。
+- **[加快論文文獻回顧](https://agentusecases.ai/use-case/speed-up-a-thesis-literature-review)**：作者用 ChatGPT 摘要並整理論文的文獻回顧，也試了一個根據真實論文建立摘要的工具，避免捏造引用。
+- **[在 100 本非小說書籍間找出關聯](https://agentusecases.ai/use-case/find-connections-across-100-non-fiction-books)**：Claude Code 用 CLI 工具瀏覽個人藏書，並找出跨書籍的相關摘錄脈絡。
+- **[在 Obsidian vault 裡搜尋多年的研究檔案](https://agentusecases.ai/use-case/search-years-of-research-files-in-an-obsidian-vault)**：Claude Code 依 CLAUDE.md 的指引，透過 Spotlight 搜尋研究論文、掃描檔和 PDF，擷取文字，並把每日筆記歸檔到有日期的資料夾。
+- **[在 Obsidian 連結日記並寫書評](https://agentusecases.ai/use-case/link-journal-entries-and-write-book-reviews-in-obsidian)**：作者在 Obsidian vault 裡用 Claude Code 為日記加反向連結和實體筆記，並把隨手亂寫的想法整理成排好版的書評。
+- **[在 X 上做研究、摘要 YouTube 逐字稿、做簡報](https://agentusecases.ai/use-case/research-on-x-summarize-youtube-transcripts-build-decks)**：@Tape_Vector 用 Comet 在 X 上做研究、摘要 YouTube 影片逐字稿，還有製作簡報。
+- **[在本機模型上用 Python agent 做資料分析](https://agentusecases.ai/use-case/run-data-analysis-with-a-python-agent-on-a-local-model)**：一位留言者說 LangChain 的 create_python_agent 搭配 Nous Hermes 模型做資料分析，效果還不錯。
+- **[在論文專案中逐檔摘要不明顯的方法](https://agentusecases.ai/use-case/summarize-non-obvious-methods-file-by-file-in-a-paper-projec)**：一位留言者讓 Claude Code 為研究專案裡不明顯的方法逐檔寫摘要，再自己檢閱，掌握工作進度。
+- **[在雲端電腦上做多步驟社群媒體研究](https://agentusecases.ai/use-case/run-multi-step-social-media-research-on-a-cloud-computer)**：評測者用 Grok Bot 的雲端電腦和 X 資料做多步驟社群媒體研究，覺得很實用，這些工作以前得分散在不同工具裡做。
+- **[執行排程競品簡報和會議索引](https://agentusecases.ai/use-case/run-scheduled-competitor-briefs-and-meeting-indexing)**：用戶跑 OpenClaw cron job，瀏覽競品網站產出早晨簡報、掃描 GitHub Trends、每晚更新記憶檔，並為錄下的會議和講座建立索引。
+- **[執行網路研究並把截圖存進文件](https://agentusecases.ai/use-case/run-web-research-jobs-and-capture-screenshots-into-a-doc)**：一位評論者測試 Operator 分析網頁設計貼文、摘要 AI 新聞、列出網站建置工具和價格，並把網站截圖存進 Google Doc，覺得登入和 CAPTCHA 要人接手很煩。
+- **[大規模研究數百人並製作簡報](https://agentusecases.ai/use-case/research-hundreds-of-people-and-build-slide-decks-at-scale)**：指南介紹用 Manus 處理大型研究工作，像是替前 250 名 AI 研究者建立檔案、把活動匯出資料做成簡報，以及部署網站。
+- **[定時寄送每日 AI 新聞摘要](https://agentusecases.ai/use-case/send-a-daily-ai-news-digest-on-a-schedule)**：Manus 排程任務每天早上搜尋 Reddit、X 和 Hacker News，將結果排序後把摘要送到 email 或 Notion，內容是一份教學指南。
+- **[寄每日 AI 新聞簡報，並用分頁做簡報](https://agentusecases.ai/use-case/email-a-daily-ai-news-brief-and-build-slide-decks-from-tabs)**：Comet 搜尋當天的 AI 新聞，挑出前 5 則寄出簡報，並把標記過的分頁和報告合併成附引用的 Google Slides 簡報。
+- **[寫程式前先摘要 Reddit 討論串](https://agentusecases.ai/use-case/summarize-reddit-threads-before-writing-code)**：發文的人做了一個 MCP server，讓 Claude Code 約 10 秒就能摘要約 30 個 Reddit 討論串，當作寫程式前的研究。
+- **[對一個資料夾的論文做文獻回顧](https://agentusecases.ai/use-case/run-literature-reviews-over-a-folder-of-papers)**：研究者讓 Claude Code 讀 50 多篇論文，擷取參考書目、找出核心被引用的著作，並針對某主題把相關性清單寫成檔案。
+- **[對股票觀察清單排程跑 AI 深度研究](https://agentusecases.ai/use-case/run-scheduled-ai-deep-research-on-stock-watchlists)**：有人回覆說他用每日和每週的 cron job 對觀察清單跑 AI 深度研究，並監控公司事件和內部人交易。
+- **[從 13F 申報文件研究避險基金持股](https://agentusecases.ai/use-case/research-hedge-fund-portfolios-from-13f-filings)**：一個能取得即時資料的開源金融研究 agent，用 13F 申報文件分析機構投資組合的揭露內容。
+- **[從 Dot 啟動背景研究 agent](https://agentusecases.ai/use-case/spin-up-a-background-research-agent-from-a-dot)**：用戶請他的 Dot 建立一個原生背景研究 agent，它在電腦環境忙碌時，用唯讀的網路和文件工具把它設定好。
+- **[從 Slack 研究內容並草擬 Notion 指南點子](https://agentusecases.ai/use-case/research-content-from-slack-and-draft-notion-guide-ideas)**：一個團隊在 Slack 私訊 Lindy，請它摘要一年的指南並研究一個模型，它在徵求核准後建立了一個 Notion 指南點子。
+- **[從一句話主題產生客製化文獻回顧](https://agentusecases.ai/use-case/generate-personalized-literature-reviews-from-a-one-line-top)**：一位研究者為 agent 框架做了文獻回顧 Skill，能輸出 Markdown、Word 和 PDF 的回顧，參考文獻採 GB/T 7714 格式並附 DOI 或網址，團隊都在用。
+- **[從影片和論文建立可搜尋的知識庫](https://agentusecases.ai/use-case/build-searchable-knowledge-bases-from-videos-and-papers)**：OpenClaw agent 跑 YouTube 摘要工具和論文濃縮工具，把 Markdown 存進影片和論文兩個有索引的知識庫。
+- **[從研究問題出發做系統性文獻回顧](https://agentusecases.ai/use-case/run-systematic-literature-reviews-from-a-research-question)**：一位醫師兼研究者做了 Claude Code skills，能搜尋資料庫、篩選文章、追蹤引用、抓 PDF，並寫出整合結果。
+- **[從種子論文出發做學術文獻回顧](https://agentusecases.ai/use-case/run-academic-literature-reviews-from-seed-papers)**：發文的人做了 agent skill，從種子論文開始往前往後搜尋、篩選候選論文，並反覆修正文獻回顧。
+- **[找公開資料並做商業儀表板](https://agentusecases.ai/use-case/find-public-data-and-build-a-business-dashboard)**：一位留言者用 Claude Code 做商業儀表板的原型，並把公開資料蒐集到資料夾裡，不用再手動搜尋。
+- **[找出談讀者痛點的 Reddit 討論串](https://agentusecases.ai/use-case/find-reddit-threads-on-reader-pain-points)**：一位電子報作者讓 Comet 找談讀者痛點的 Reddit 討論串，約 15 分鐘就找到額外的來源，過程不需要介入。
+- **[把 20 篇文章摘要成附引用的文件](https://agentusecases.ai/use-case/summarize-20-articles-into-a-cited-document)**：agent 從 20 篇文章擷取重點、找出共通主題，產出附引用的摘要，文中估計花 18 分鐘，手工則要好幾個小時。
+- **[把 AI 問答摘要存進 git repo 當長期筆記](https://agentusecases.ai/use-case/save-ai-q-a-summaries-into-git-repos-as-persistent-notes)**：使用者讓 ChatGPT 透過 GitHub MCP server 和各 repo 的 AGENTS.md，把討論和決策的摘要寫進自己的 repo。
+- **[把 CRM 價格和評分擷取到試算表](https://agentusecases.ai/use-case/extract-crm-pricing-and-ratings-into-a-spreadsheet)**：一位評論者讓 Manus 造訪前 15 名 CRM 網站，把價格方案、免費方案限制和 G2 評分整理進試算表，長時間任務不太穩。
+- **[把 Claude Code 當成學習環境裡的 agent 家教](https://agentusecases.ai/use-case/use-claude-code-as-an-agentic-tutor-in-your-learning-environ)**：作者用 CLAUDE.md 說明檔給 Claude Code 家教的角色，讓它能講解概念，並與他的學習環境互動。
+- **[把 Reddit 討論串整理成結構化 Notion 報告](https://agentusecases.ai/use-case/mine-reddit-threads-into-structured-notion-reports)**：n8n 流程透過 Bright Data 抓 Reddit 貼文和留言，用 Gemini 萃取顧慮和主題，再把報告寫進 Notion。
+- **[把 WHO 資料整理成多分頁試算表](https://agentusecases.ai/use-case/collate-who-data-into-a-multi-tab-spreadsheet)**：測試者讓 ChatGPT Agent 瀏覽 WHO 網站、擷取最新資料，並依指標、國家和趨勢整理，遇到登入或動態頁面常會失敗。
+- **[把 YouTube 影片變成附引用的研究筆記](https://agentusecases.ai/use-case/turn-youtube-videos-into-cited-research-notes)**：作者用 Claude Code 搭配 NotebookLM 和 Obsidian，把 20 支影片變成附引用的筆記、音訊概覽、知識圖譜和閃卡。
+- **[把三年的會議紀錄收集成文字檔](https://agentusecases.ai/use-case/gather-three-years-of-meeting-minutes-into-text-files)**：Jeff Adams 用 Claude Chrome 擴充功能把會議紀錄收集成文字檔並載入 notebook，分三次進行，共花 3 到 4 小時。
+- **[把任何網址變成結構化的 Notion 筆記](https://agentusecases.ai/use-case/turn-any-url-into-a-structured-notion-note)**：n8n 工作流程抓取送進來的網址，濾成可讀內容，讓 OpenAI 摘要成結構化欄位，再存成 Notion 筆記。
+- **[把國際補助資訊收集到 Airtable](https://agentusecases.ai/use-case/collect-international-grant-listings-into-airtable)**：用戶讓 Zapier agent 上網抓各國補助資訊並上傳到 Airtable，目前還在調整。
+- **[把家譜研究整理成試算表和計畫](https://agentusecases.ai/use-case/compile-genealogy-research-into-a-spreadsheet-and-plan)**：一位留言者讓 ChatGPT 為她的家譜研究建了試算表，也有人建議用 agent mode 把發現整理排版成可用的文件。
+- **[把會議網站抓成可搜尋的儀表板](https://agentusecases.ai/use-case/scrape-a-conference-site-into-a-searchable-dashboard)**：在一場工作坊示範中，Manus agent 抓了約 70 場演講、擷取議程、把時間轉成 UTC，並做出有推薦和行事曆整合的儀表板。
+- **[把深度研究報告產生到 Notion](https://agentusecases.ai/use-case/generate-deep-research-reports-into-notion)**：n8n 工作流程把主題拆成最多三次 Tavily 搜尋，用 agent 整理成 Markdown 報告，再推到 Notion 頁面。
+- **[把語音筆記變成結構化的 Obsidian 筆記](https://agentusecases.ai/use-case/turn-voice-notes-into-structured-obsidian-notes)**：透過 Telegram 傳的語音筆記會變成 Obsidian 想法筆記，包含逐字稿、整理過的論點、相關脈絡連結和草稿，Hermes 也會幫忙記食譜。
+- **[把近期 LLM 研究論文整理成 Word 文件](https://agentusecases.ai/use-case/compile-recent-llm-research-papers-into-a-word-doc)**：Comet 找出近六個月主要的 LLM 與 agent 訓練論文，附上連結和分析，再透過 Outlook 存成 Word 文件。
+- **[抓取財報文件和逐字稿來研究股票](https://agentusecases.ai/use-case/research-stocks-by-pulling-filings-and-transcripts)**：發文者讓 Claude Code 抓取某公司的申報文件、逐字稿和 SEC 文件，標註來源，並替持股寫出看空論點。
+- **[搜尋文獻並把筆記寫進 Zotero](https://agentusecases.ai/use-case/search-literature-and-write-notes-into-zotero)**：一位研究者用 Claude 搜尋 Google Scholar、追蹤引用、用自然語言查詢 Zotero 文獻庫，並把摘要筆記寫進 Zotero 或 Obsidian。
+- **[收集 100 所獨立學校的財務資料](https://agentusecases.ai/use-case/collect-financial-data-on-100-independent-schools)**：一位作者讓 Operator 在背景收集獨立學校的財務資料，速度很慢，跑了約 25 所就停掉，之後把資料交給 o1 分析。
+- **[整理 Reddit 上 AI 工具討論的每日摘要](https://agentusecases.ai/use-case/compile-a-daily-digest-of-reddit-ai-tool-chatter)**：Lindy agent 搜尋 Reddit 上關於新 AI 工具的對話，整理熱門主題，並每天更新一份文件。
+- **[整理記者名單並搜尋公寓刊登](https://agentusecases.ai/use-case/compile-journalist-lists-and-search-apartment-listings)**：一位記者測試 Manus 建立記者名單、搜尋紐約租屋和找獎項候選人，一開始結果很少，搜尋三小時只得到三份完整資料。
+- **[整理註解書目並起草論文](https://agentusecases.ai/use-case/compile-an-annotated-bibliography-and-draft-a-paper)**：ChatGPT Agent 搜尋學術資料庫找近期開放取用的實證論文，依領域分組，寫成註解書目，標出研究缺口，並組成一份草稿。
+- **[每天寄送 AI 新聞研究報告](https://agentusecases.ai/use-case/send-daily-ai-news-research-reports)**：Grok Bot 每隔幾小時讀 X 和 AI 新聞、查核有來源的數字，每天寄出五份書面研究報告。
+- **[每天把某位 YouTuber 的最新影片摘要進 Google Doc](https://agentusecases.ai/use-case/summarize-a-youtuber-s-latest-video-into-a-google-doc-daily)**：Make 情境在早上 9 點執行，找出某位 YouTuber 的最新影片，用 Hugging Face 摘要，再把摘要附加到 Google Doc。
+- **[每天跨 X 和 Reddit 做市場趨勢研究](https://agentusecases.ai/use-case/run-daily-market-trend-research-across-x-and-reddit)**：發文的人讓 Claude 用 agent 工作流程和瀏覽器自動化，每天蒐集 Twitter/X 和 Reddit 上的市場趨勢研究。
+- **[每天追蹤 arXiv 論文並存進 Notion 資料庫](https://agentusecases.ai/use-case/track-daily-arxiv-papers-into-a-notion-database)**：n8n 工作流程每天依關鍵字抓 arXiv 論文，用 Gemini 2.5 Flash 摘要，寫進 Notion，並發送飛書和 Gmail 通知。
+- **[每週抓 Substack 排行榜並寫報告](https://agentusecases.ai/use-case/scrape-weekly-substack-rankings-and-write-a-report)**：Claude in Chrome 每週執行，把 Substack 排名資料抓進資料集，再由 Cowork 分析並寫成週報。
+- **[派一群 agent 做股票分析](https://agentusecases.ai/use-case/run-swarms-of-agents-for-equity-analysis)**：有人讓幾十個 agent 在大型資料庫上做股票分析，寫程式時則讓 Claude 指揮一組 Codex agent。
+- **[為丟進 Drive 的論文編目並摘要](https://agentusecases.ai/use-case/catalog-and-summarize-papers-dropped-into-drive)**：n8n 流程從新 PDF 擷取 metadata，在 Semantic Scholar 和 PubMed 找相關論文，建立 APA 引用，記錄到 Sheets 並建立 Notion 摘要。
+- **[為產品管理跑每週競品監控簡報](https://agentusecases.ai/use-case/run-a-weekly-competitive-monitoring-briefing-for-product-man)**：一位產品經理讓 Hermes 產出每週競品簡報，它的 skill 自己改寫了四次，到第六週就挖出他手動時漏掉的模式。
+- **[為研究抓取並分析經濟資料](https://agentusecases.ai/use-case/fetch-and-analyze-economic-data-for-research)**：一位經濟學家用 Claude Code 找 Census 的自有住宅率資料、清理後畫圖，還把 SEC 10-K 的風險因素抓進 DuckDB 資料庫，呈現關稅風險的變化。
+- **[為研究整合訪談逐字稿和 PDF](https://agentusecases.ai/use-case/synthesize-interview-transcripts-and-pdfs-for-research)**：讓 Claude Code 讀逐字稿和 PDF，產出主題摘要、證據表和註解書目，一位 UX 研究員就這樣跑 50 份逐字稿的研究。
+- **[為研究論文建立資料管線並做分析](https://agentusecases.ai/use-case/build-data-pipelines-and-analysis-for-a-research-paper)**：一位研究者以 Claude Code 為主要 agent，替論文建資料管線並做資料分析，超過 98% 的程式碼由它產生。
+- **[為追蹤的公司產生最新研究報告](https://agentusecases.ai/use-case/generate-updated-research-reports-on-followed-companies)**：發文的人自己做並開源了一個股票研究 agent，會針對他追蹤的公司產出最新報告。
+- **[用 CLI agent 摘要 Logseq 裡數月的筆記](https://agentusecases.ai/use-case/summarize-months-of-notes-in-logseq-via-cli-agent)**：用戶讓 Codex 讀 Logseq CLI 文件，這樣它就能查詢並摘要日誌，以及有標籤的求職和專案頁面。
+- **[用 Claude Code 查詢工作紀錄並做演講簡報](https://agentusecases.ai/use-case/query-session-records-and-build-talk-slides-with-claude-code)**：一位資工系講師用 Claude Code 查詢他錄下的工作階段資料庫，取得 commit 統計和時間軸，並為教師座談做簡報。
+- **[用 Claude computer use 研究一篇部落格文章](https://agentusecases.ai/use-case/research-a-blog-post-with-claude-computer-use)**：作者用 Claude computer use 搭配 Claude in Chrome 來研究這篇文章本身，建議從已登入的網站和具體的查詢開始。
+- **[用 Codex app 做持續性的非程式研究](https://agentusecases.ai/use-case/use-the-codex-app-for-ongoing-non-coding-research)**：發文者把 Codex app 當成有狀態的工具，長期累積知識和資料，處理自己的部門，並把這些脈絡套用到跨領域工具上。
+- **[用 Comet 處理瀏覽、播放清單和研究任務](https://agentusecases.ai/use-case/run-browsing-playlists-and-research-tasks-through-comet)**：用了一個月後，發文者用 Comet 做 Spotify 播放清單、下西洋棋，也處理工作研究、工具比較、讀技術文件，以及為非技術讀者寫作。
+- **[用 Cursor 寫附引用的學術論文](https://agentusecases.ai/use-case/use-cursor-for-academic-paper-writing-with-citations)**：論壇使用者用 markdown 寫論文，搭配 Zotero 引用和 bibtex 檔讓 Cursor 挑參考文獻，最後用 pandoc 轉成 Word。
+- **[用 Deep Research 研究並起草社會科學論文](https://agentusecases.ai/use-case/research-and-draft-a-social-science-paper-with-deep-research)**：作者在撰寫社會科學學術論文時，用 ChatGPT Deep Research 和 Agent Mode 協助研究與寫作。
+- **[用 Manus 做學生問卷表單](https://agentusecases.ai/use-case/build-a-student-survey-form-with-manus)**：Manus 做了一份 Google Form 問卷，調查大學生對 AGI 的看法，作者請它用合成的學生回答去填問卷時卡住了。
+- **[用 Telegram 第二大腦儲存與搜尋連結](https://agentusecases.ai/use-case/save-and-search-links-via-a-telegram-second-brain)**：n8n 的 Telegram agent 會讀傳給它的連結，摘要並分類存進 Google Sheets，再用 Supabase 語意搜尋回答資料庫裡的問題。
+- **[用 agent 做可延續的金融研究](https://agentusecases.ai/use-case/run-persistent-financial-research-with-an-agent)**：LangAlpha 是 Claude Code 風格的投資研究 agent，保留持久的工作區和記憶，模型、可比公司等分析可以跨 session 持續更新。
+- **[用 agent 流水線從資料清理跑到主管摘要](https://agentusecases.ai/use-case/run-data-cleaning-to-executive-summary-with-agent-pipeline)**：做了五個 Claude Code agent（清理、分析、視覺化、寫報告、摘要），由一個調度者串起來，完成端到端的資料分析。
+- **[用 agent 研究美國穩定幣的採用情況](https://agentusecases.ai/use-case/research-us-stablecoin-adoption-with-an-agent)**：接上 Heurist mesh 的 Manus agent 在一次核准後，針對 2026 年美國穩定幣採用情況做深度研究，兩分鐘就完成。
+- **[用 coding agent 做資料分析報告和儀表板](https://agentusecases.ai/use-case/build-data-analysis-reports-and-dashboards-with-a-coding-age)**：一套工具組給 coding agent 語意層和儀表板檔案，讓它能查詢資料倉儲，並發布深入的報告與視覺化。
+- **[用 deep research 研究潛在出租物件](https://agentusecases.ai/use-case/research-potential-rental-properties-with-deep-research)**：一位投資人用 ChatGPT 的 deep research 功能，在精算租賃投資的確切數字前，先產出一份物件的完整報告。
+- **[用 skill 研究 Reddit 上的客戶痛點](https://agentusecases.ai/use-case/research-reddit-customer-pain-points-with-a-skill)**：作者把 Reddit 研究 agent 換成 Codex skill，它會找痛點、驗證社群、蒐集證據、把問題分群，並分析商業訊號。
+- **[用一個提示完成系統性文獻回顧](https://agentusecases.ai/use-case/run-a-systematic-literature-review-from-one-prompt)**：SciSpace 的 agent 產生 PICO 問題、搜尋並篩選論文、下載 PDF、擷取資料，並輸出附 PRISMA 圖的完整回顧。
+- **[用一群搜尋 agent 調查 AI 產品名稱](https://agentusecases.ai/use-case/survey-ai-product-names-with-a-swarm-of-search-agents)**：作者讓一群 Claude agent 跑了 4,654 次搜尋，整理 AI bot 的名稱，並依性別、產業和年份分析命名趨勢。
+- **[用便宜的 batch API agent 跑大量網頁擷取](https://agentusecases.ai/use-case/run-bulk-web-extraction-jobs-with-cheap-batch-api-agents)**：一位開發者日常用 coding agent，大量任務則用 agents-SDK 搭配 batch API 跑便宜的工作，例如造訪 5000 個網站擷取資料，另外也有定期執行的雲端 agent 工作。
+- **[用個人情報 agent 追蹤主題](https://agentusecases.ai/use-case/track-topics-with-a-personal-intelligence-agent)**：有人用 CLAUDE.md 和 skills 把 Claude Code 變成個人情報 agent，負責蒐集與分析資料，盯著各個主題，把自己可能漏掉的東西挖出來。
+- **[用專職 bot agent 跑研究流程](https://agentusecases.ai/use-case/run-research-workflows-with-specialized-bot-agents)**：一套有 10 個專職 Grok Bot agent 的設定，其中 Research agent 負責找來源和資料，Deep Research agent 負責比對來源整理出洞見。
+- **[用平行 agent 產出附來源的研究文件](https://agentusecases.ai/use-case/produce-a-sourced-research-document-with-parallel-agents)**：Grok 協調 16 個專職 agent，搜尋並解析 896 個來源，經過辯論與同儕審查，一分鐘內交出完整的研究文件。
+- **[用平行 agent 編排完整的研究循環](https://agentusecases.ai/use-case/orchestrate-the-full-research-loop-with-parallel-agents)**：Sakana 的 Agentic Scientist 用一組平行 agent 的架構跑完整個研究循環，而不是只靠一個 agent 寫論文。
+- **[用手機在電腦上啟動 deep research 任務](https://agentusecases.ai/use-case/start-deep-research-tasks-on-your-computer-from-your-phone)**：用戶從手機傳訊給 Claude Cowork，啟動一個跨檔案、瀏覽器、工具、儀表板和程式碼的 deep research 任務，在自己的電腦上執行，最後回傳摘要。
+- **[用持續運作的助理處理學生研究和日常事務](https://agentusecases.ai/use-case/use-a-persistent-assistant-for-student-research-and-daily-ta)**：一位學生用一個有名字的 dot 處理長期研究和日常事務，跨對話保有脈絡，並設定好 email。
+- **[用排程 agent 把新的 arXiv 論文摘要成筆記](https://agentusecases.ai/use-case/summarize-new-arxiv-papers-into-notes-with-scheduled-agents)**：排程腳本產生每日 arXiv 摘要，夜間腳本則啟動 Claude Code agent，把每份存下來的 PDF 摘要進筆記資料夾。
+- **[用本機 agent 陪你用紙筆學數學](https://agentusecases.ai/use-case/tutor-you-through-pen-and-paper-math-with-a-local-agent)**：一個開源的家教 app 在本機跑 Codex，搭配 TUTOR.md 說明檔，用使用者訂閱的額度教他用紙筆算數學。
+- **[用模擬同儕審查產出附引用的研究簡報](https://agentusecases.ai/use-case/produce-cited-research-briefs-with-simulated-peer-review)**：Feynman 多 agent 系統會搜尋論文和網路、整合發現、進行模擬同儕審查、驗證引用，最後輸出附引用的簡報。
+- **[用瀏覽器 agent 研究並下載科學論文](https://agentusecases.ai/use-case/research-and-download-scientific-papers-with-a-browser-agent)**：一位留言者自己做了瀏覽器 agent 來研究和下載科學論文，也用瀏覽器 agent 做受控的資料輸入。
+- **[用瀏覽器擴充功能查詢並摘要網頁內容](https://agentusecases.ai/use-case/look-up-and-summarize-web-content-from-a-browser-extension)**：一位留言者用 Gemini 做了 agent 式瀏覽器擴充功能，可以查詢選取的文字或圖片，並摘要網頁上的文章。
+- **[用白話英文查詢 600 GB 的 Hacker News、arXiv 和 LessWrong](https://agentusecases.ai/use-case/query-600-gb-of-hacker-news-arxiv-and-lesswrong-in-plain-eng)**：Claude Code 對公開的唯讀索引寫 SQL 和向量查詢，也能針對細微的條件設定 email 提醒。
+- **[用真實資料科學專案評測 Cursor](https://agentusecases.ai/use-case/grade-cursor-on-a-real-data-science-project)**：一位資料科學家在真實專案上測試 Cursor，pandas、資料清理和爬蟲表現弱，原型開發很強。
+- **[用研究 agent 做系統性文獻回顧](https://agentusecases.ai/use-case/run-systematic-literature-reviews-with-a-research-agent)**：發文的人推薦一個專注研究的工具，能做系統性回顧（慢但很強），可替論文加註記，並隨時間累積成研究專案。
+- **[用自訂 bot 每天抓三次 AI 新聞](https://agentusecases.ai/use-case/scrape-ai-news-three-times-a-day-with-a-custom-bot)**：一位付費用戶第一週做了三個 bot，包括每天抓三次 AI 新聞的新聞爬蟲，另外有一個 bot 失敗了。
+- **[用論文和文章建立個人研究 wiki](https://agentusecases.ai/use-case/build-a-personal-research-wiki-from-papers-and-articles)**：Cursor Agent 根據使用者提供的資料來源撰寫並維護互相連結的 markdown 頁面，做摘要和交叉引用，再用 Obsidian 瀏覽。
+- **[監控公開文件的變動，看是否影響教材](https://agentusecases.ai/use-case/monitor-public-documents-for-changes-affecting-teaching-mate)**：一位教育工作者的 Dot 會檢查公開文件有沒有變動，依影響程度排序，並對照連結頁面驗證文章的符號用法，只提供修訂候選。
+- **[監控科技 subreddit 和競爭對手，起草信件與文章](https://agentusecases.ai/use-case/monitor-tech-subreddits-and-competitors-draft-emails-and-art)**：留言的人每天用 Cowork 掃 Reddit 科技版找工作相關項目，監控競爭對手和市場，產生文章並起草 email。
+- **[研究 AI 訓練案例並做摘要簡報](https://agentusecases.ai/use-case/research-ai-training-case-studies-and-build-a-summary-deck)**：一個團隊讓 Agent Mode 研究 McKinsey、PwC 等公司的案例，並在 32 分鐘內做出簡報，只是圖片和文字重疊有些問題。
+- **[研究一個人並寫簡介](https://agentusecases.ai/use-case/research-a-person-and-write-a-bio)**：Inc. 的一位作者讓 Muse 透過瀏覽器研究他並寫簡介，但他反對它沒經同意就存取私人訊息。
+- **[研究並比較競品，產出簡報和試算表](https://agentusecases.ai/use-case/research-and-benchmark-competitors-into-a-deck-and-spreadshe)**：ChatGPT Agent mode 研究英國前 5 大咖啡訂閱公司、比較它們的賣點，只用一個提示、18 分鐘就產出簡報和試算表。
+- **[研究如何重新嘗試做 App](https://agentusecases.ai/use-case/research-how-to-retry-building-an-app)**：發文者讓 Cowork 讀自己的 Reddit 貼文，再上網搜尋怎麼重新嘗試做 App。
+- **[研究小紅書筆記並提煉成 skill](https://agentusecases.ai/use-case/research-xiaohongshu-notes-and-distill-them-into-skills)**：agent 操作 Chrome 搜尋關鍵字、開啟最多讚的筆記、讀截圖，並把發現提煉成知識庫裡可重複使用的 skill。
+- **[研究市場趨勢並交付可編輯文件](https://agentusecases.ai/use-case/research-market-trends-and-deliver-an-editable-document)**：一位評論者讓 Manus 從即時來源研究 2025 年咖啡市場趨勢，並產出可編輯的 .doc 檔。
+- **[研究會議講者並整理分頁](https://agentusecases.ai/use-case/research-conference-speakers-and-organize-tabs)**：Comet 研究了 50 位 HumanX 講者，整理出主題和 podcast 來賓，做了相機規格表，還清理了分頁。
+- **[研究比較 SaaS 工具並重構 Python](https://agentusecases.ai/use-case/research-and-compare-saas-tools-and-refactor-python)**：評測者讓 Manus 找出前 10 名專案管理工具、用表格比較價格，並重構一支 400 行的 Python 腳本，執行順利。
+- **[研究筆電並做比較表和簡報](https://agentusecases.ai/use-case/research-laptops-and-build-a-comparison-table-and-deck)**：評測者讓 ChatGPT Agent 花約 30 分鐘研究平價筆電，研究結果還可以，但簡報看起來很陽春。它也做了多分頁的 Excel 檔。
+- **[給程式 agent 一個論文庫來找新技巧](https://agentusecases.ai/use-case/give-a-coding-agent-a-paper-corpus-to-find-new-techniques)**：發文者讓 Claude Code agent 在每次嘗試前搜尋約 200 萬篇論文，它找到了原本不會知道的技巧，表現勝過基準 agent。
+- **[經營 markdown 第二大腦](https://agentusecases.ai/use-case/run-a-markdown-second-brain)**：一位留言者每天用 Claude Code 回答問題、取回文件、建立檔案、重整 markdown 知識庫，知識庫用 git 同步，可在 Obsidian 瀏覽。
+- **[編排學術研究與寫作流程](https://agentusecases.ai/use-case/orchestrate-academic-research-and-writing-workflows)**：研究者把 Claude Code 當作研究流程的調度者，也是用 LaTeX 或 Markdown 寫論文和學位論文的主力工具。
+- **[自動化每週 arXiv 論文篩選](https://agentusecases.ai/use-case/automate-a-weekly-arxiv-paper-triage)**：每週執行的 Codex 自動化會用關鍵字搜尋 arXiv，把新論文記到 CSV，分成留著、略讀、丟掉三堆，還能用 Zotero 核對論點。
+- **[蒐集大量網路來源來起草研究](https://agentusecases.ai/use-case/draft-research-by-gathering-many-web-sources)**：一位 G2 評論者用 Manus 抓網站、讀圖片，在背景蒐集大量來源整理成摘要，但說點數很快就用完。
+- **[衡量科技公司職缺開放多久](https://agentusecases.ai/use-case/measure-how-long-jobs-stay-open-at-tech-companies)**：agent 讀了五家公司各 25 個開放職缺，量出每個職缺貼了多久，例如 Figma 的 25 個裡有 21 個已超過 60 天。
+- **[試用 Devin 做研究任務（大多失敗）](https://agentusecases.ai/use-case/try-devin-on-research-tasks-mostly-failed)**：Answer.AI 讓 Devin 抓某位作者的近期論文並研究逐字稿摘要，它卡在解析 HTML，回傳的結果很籠統，被評為失敗。
+- **[讓 Claude 把 Wikipedia 頁面上的名字收集成檔案](https://agentusecases.ai/use-case/have-claude-collect-names-from-a-wikipedia-page-into-a-file)**：發文者試用 Claude Computer Use 開啟 Firefox、搜尋 Wikipedia、找出頁面上所有名字並存成文字檔。
+- **[讓 Cursor 維護 Obsidian 筆記庫](https://agentusecases.ai/use-case/let-cursor-maintain-an-obsidian-notes-vault)**：Cursor 檢視筆記庫結構、建議連結、回答筆記相關問題，並寫一份每日完成筆記，記錄其他 agent 的工作階段。
+- **[讓 bot 研究團隊通宵研讀論文](https://agentusecases.ai/use-case/investigate-papers-overnight-with-a-bot-research-team)**：Grok Bot 的各個角色會讀新論文並擷取論點、重跑分析、掃描來源，通宵工作後產出簡報。
+- **[跑一個 24/7 的本地 agent 整理新聞摘要](https://agentusecases.ai/use-case/run-a-24-7-local-agent-that-curates-news-digests)**：作者在 Proxmox VM 上用本地 Qwen 模型跑 Hermes Agent，監控 RSS 來源、整理新聞摘要，並透過 Telegram 回報。
+- **[跨開啟的分頁比較競品價格和定位](https://agentusecases.ai/use-case/compare-competitor-pricing-and-positioning-across-open-tabs)**：Comet 瀏覽開啟的競品分頁，擷取價值主張、價格方案和公告，用來比較定位和功能差距。
+- **[追蹤競品價格和聯絡資料到 Google Sheets](https://agentusecases.ai/use-case/track-competitor-prices-and-contacts-into-google-sheets)**：一個以 Claude 驅動的爬蟲 agent 每小時監控競品網站，把價格、公司資料和聯絡方式抓進 Google Sheets，取代手動研究。
+- **[逆向工程書籍檔案格式來搜尋內容](https://agentusecases.ai/use-case/reverse-engineer-a-book-file-format-to-search-it)**：RAG 索引器在上傳的書上當掉後，Claude 用 Unix 指令摸清檔案格式，再手動 grep 這本書。
+- **[透過 Claude 瀏覽 Reddit 找有趣貼文](https://agentusecases.ai/use-case/browse-reddit-for-interesting-posts-via-claude)**：一位留言者透過 Chrome 擴充功能指揮 Claude 瀏覽 Reddit 找感興趣的貼文，並說 Claude Code 操作瀏覽器能繞過大部分封鎖。
+- **[透過瀏覽頁面以視覺方式研究網路](https://agentusecases.ai/use-case/research-the-web-visually-by-browsing-pages)**：一位留言者用 ChatGPT Agent Mode 做視覺化的網路研究，由 agent 開啟並逐頁處理。
+
+## 內容與創作 { #content-creative }
+
+- **[Vibecode 一個影片工具並產生它的宣傳影片](https://agentusecases.ai/use-case/vibecode-a-video-tool-and-generate-its-hype-video)**：作者完全用 Claude vibecode 了一個專案，還請它做一支宣傳影片搭配程式碼，作者說成果是垃圾。
+- **[一支影片同時發布到四個中文平台](https://agentusecases.ai/use-case/publish-one-video-to-four-chinese-platforms-at-once)**：Codex skill 產生標題和標籤，再由子 agent 平行填寫小紅書、抖音、Bilibili 和微信視頻號的上傳表單，作者逐一確認每則貼文。
+- **[一次對話做出完整的音樂發行](https://agentusecases.ai/use-case/produce-a-finished-music-release-from-one-chat)**：Claude Code 透過 MCP connector 寫歌詞、產生並母帶處理歌曲、做封面圖和 10 秒影片，約 6 分鐘完成，影片片段是在外面用 ffmpeg 接起來。
+- **[三小時產出兩週的社群內容](https://agentusecases.ai/use-case/generate-two-weeks-of-social-content-in-three-hours)**：發文的人用 Claude，依預先訂好的排程和內容策略產出文字提示詞、圖片和發文建議。
+- **[上傳內容到公司的 YouTube 頻道](https://agentusecases.ai/use-case/upload-content-to-a-company-youtube-channel)**：使用者讓 Grok Bot 取得公司 YouTube 頻道的權限來幫忙上傳，但 Google 因可疑活動停權了帳號。
+- **[以學來的視覺風格產生插圖](https://agentusecases.ai/use-case/generate-illustrations-in-a-learned-visual-style)**：設計師的 Hermes profile 從參考設計學會一種風格，為它寫成 skill，再寫提示詞並透過 Nano Banana 產生和儲存圖片。
+- **[依 markdown 規格設計個人網站](https://agentusecases.ai/use-case/design-a-personal-website-from-a-markdown-spec)**：作者讓 Codex CLI 讀設計規格並反覆調整，設計出他的個人網站，這份規格也能拿去用在其他專案。
+- **[依熱門話題起草社群貼文送審](https://agentusecases.ai/use-case/draft-social-posts-from-trending-topics-for-approval)**：一位評測者測試 Lindy 會操作瀏覽器的 Computer Use，每個工作日查看熱門話題，用品牌語氣起草三則 LinkedIn 貼文並送去核准。
+- **[做小型自訂 agent，例如放在音樂播放器裡](https://agentusecases.ai/use-case/build-small-custom-agents-such-as-one-in-a-music-player)**：作者寫了很多小 agent，例如放在自己的音樂播放器裡，他說這些用程式寫起來很簡單。
+- **[做電子報轉社群內容的 agent（失敗了）](https://agentusecases.ai/use-case/build-a-newsletter-to-social-content-agent-it-failed)**：作者做了一個負責研究、撰寫並排程社群貼文的內容 agent，但它會編造統計數字，所以改成結構化的工作流程重做。
+- **[分析鋼琴錄音的 BPM、結構和分軌](https://agentusecases.ai/use-case/analyze-a-piano-recording-s-bpm-structure-and-stems)**：裝了 skill 之後，Claude Code 自己裝好 ffmpeg 和 librosa，對本機 MP3 跑 Python 流程，產出 BPM、結構和分軌的報告。
+- **[參考範例製作音樂影片](https://agentusecases.ai/use-case/make-a-music-video-from-a-reference)**：給 Grok Bot 一首歌、歌詞時間資料、圖片和參考影片，它幾分鐘就做出帶轉場和文字特效的音樂影片，人工操作時間很短。
+- **[和 coding agent 與隊友一起剪輯影片](https://agentusecases.ai/use-case/edit-videos-collaboratively-with-coding-agents-and-teammates)**：Kino 讓 Codex 和 Claude Code 這類 agent 與隊友一起編輯共用的程式碼式影片時間軸，發表影片是 5 個以上 agent 同時剪出來的。
+- **[在 Canva 做基準測試圖片拼貼](https://agentusecases.ai/use-case/build-a-benchmark-image-collage-in-canva)**：作者讓 ChatGPT Agent 登入 Canva 做基準測試結果的拼貼，超過 75 分鐘後成果很差，它在介面上手忙腳亂，還用 Python 畫形狀。
+- **[在 YouTube Studio 排程 60 支短影片](https://agentusecases.ai/use-case/schedule-60-short-videos-in-youtube-studio)**：Claude 透過 Chrome 擴充功能，在自己提出這個任務之後，把 60 支產生的短影片排進 YouTube Studio。
+- **[在畫布上打造自己的影片剪輯 agent](https://agentusecases.ai/use-case/build-your-own-video-editing-agents-on-a-canvas)**：Mosaic 讓你在節點式編輯器裡建立並執行多模態影片剪輯 agent。
+- **[在試算表裡做《大亨小傳》教案](https://agentusecases.ai/use-case/build-a-great-gatsby-lesson-plan-in-a-spreadsheet)**：Ethan Mollick 讓 Claude computer use 在一份試算表裡做出高中《大亨小傳》教案，含符合 Common Core 的作業。
+- **[審查並改寫行銷文案，去掉未經證實的說法](https://agentusecases.ai/use-case/audit-and-rewrite-marketing-copy-to-strip-unverified-claims)**：雙 agent 系統用嚴格標準替登陸頁、陌生開發信和簡報文案打分數，再改寫掉空話和沒有根據的說法。
+- **[審閱部落格草稿的技術錯誤](https://agentusecases.ai/use-case/critique-blog-post-drafts-for-technical-errors)**：一位開發者做了自訂的 Gemini CLI 指令，會從磁碟讀部落格草稿並指出技術錯誤，用在反覆修改的編輯循環裡。
+- **[寫 Shorts 腳本、發 X 串文並改編內容](https://agentusecases.ai/use-case/script-shorts-post-x-threads-and-repurpose-content)**：agent 負責寫 YouTube Shorts 腳本、發 X 串文和改編內容，創作者就不用碰內容行事曆。
+- **[寫一本給初學者的 AI 程式設計書](https://agentusecases.ai/use-case/write-a-beginner-book-on-programming-with-ai)**：一位部落客用 Manus 的免費點數寫了一本給初學者的 AI 程式設計書，打算上架到 Amazon。
+- **[寫合成程式碼來作曲](https://agentusecases.ai/use-case/compose-songs-by-writing-synthesis-code)**：作者做了幾個一次到位的實驗，讓 Claude Code 寫 Python 合成音樂，包括用 macOS say 唱歌詞的搖滾歌曲，不過取樣歌曲失敗了。
+- **[帶著 MV 專案從概念走到交付](https://agentusecases.ai/use-case/guide-a-music-video-project-from-concept-to-deliverables)**：Hermes agent 帶創作者走完 8 步驟流程，產出歌詞、Suno 提示詞、圖片和影片提示詞，以及 YouTube metadata。
+- **[建立會自動產生配套資源的 podcast 網站](https://agentusecases.ai/use-case/build-an-automated-podcast-website-that-creates-companion-re)**：一位 podcaster 花一個週末用 Replit 做好並部署 podcast 網站，每集發布時會自動產生配套資源。
+- **[建置並部署互動式線上訓練課程](https://agentusecases.ai/use-case/build-and-deploy-an-interactive-online-training-course)**：一位教育工作者讓 Manus 規劃單元、建網站並部署上線，再依截圖修正樣式問題。
+- **[引用 Kindle 劃線和筆記來起草文章](https://agentusecases.ai/use-case/draft-articles-quoting-kindle-highlights-and-notes)**：作者把 Kindle 劃線和活動筆記存在 Obsidian，讓 Cursor 參考這些內容，在起草文章時引用過去讀過的東西。
+- **[從 Google Sheet 撰寫、設計並發布社群內容](https://agentusecases.ai/use-case/write-design-and-post-social-content-from-a-google-sheet)**：用 Make、OpenAI、Cloudinary 和 Buffer 做的自動化，會從表格寫貼文文案、設計內容，並發布到各個社群平台。
+- **[從 RSS 自動把部落格摘要發到 Bluesky](https://agentusecases.ai/use-case/auto-post-blog-summaries-to-bluesky-from-rss)**：Zapier agent 監看 RSS feed，把內容摘要發到 Bluesky，幫忙管理分散在 Medium、Buy Me a Coffee 和 Bluesky 的部落格。
+- **[從命令列編排影片生成](https://agentusecases.ai/use-case/orchestrate-video-generation-from-the-command-line)**：Grok 透過 CLI 接上 agent，產生 Imagine 片段、組裝影片並加上音樂和特效。
+- **[從概念圖建立 3D Blender 模型](https://agentusecases.ai/use-case/build-a-3d-blender-model-from-a-concept-image)**：作者貼上一張 Fabergé 蛋的概念圖，讓 coding agent 用本機的 Blender skill 建出它的 Blender 模型。
+- **[從發想到影片跑完整個創作流程](https://agentusecases.ai/use-case/run-a-creative-workflow-from-brainstorm-to-video)**：Grok 的 Agent Mode 在同一個地方處理發想、寫作、圖像生成、編輯和影片製作。
+- **[從研究到字幕製作短影片](https://agentusecases.ai/use-case/produce-a-short-form-video-from-research-to-captions)**：Hermes Agent 研究 JWST 主題、寫腳本、產生素材、做 Remotion 動態圖形，並加上旁白、音樂和字幕，做出直式影片。
+- **[從網站網址產生廣告](https://agentusecases.ai/use-case/generate-ads-from-a-website-url)**：Arcads 的 agent 拿到網站網址後會學習品牌，並產出廣告點子、靜態廣告和 AI UGC 影片。
+- **[從縮圖到發布，連宣傳貼文一起搞定](https://agentusecases.ai/use-case/take-a-video-from-thumbnail-to-published-with-promo-posts)**：Cowork 提出 Figma 縮圖，把影片連同 metadata 上傳到 YouTube，並起草和排程 X、Bluesky 與 LinkedIn 的宣傳貼文。
+- **[從腳本到上傳，製作並發布 YouTube 影片](https://agentusecases.ai/use-case/create-and-publish-youtube-videos-from-script-to-upload)**：n8n 流水線會寫腳本、加旁白和素材影片、組裝影片、上傳到 YouTube，並更新 Google Sheet。
+- **[找熱門文章並產生多種 LinkedIn 貼文版本](https://agentusecases.ai/use-case/find-trending-articles-and-generate-linkedin-post-variations)**：一份教學示範 Operator 在 Google 搜尋熱門電商文章、挑一篇，並用 EasyGen 產生 10 種 LinkedIn 貼文版本，中途會暫停讓使用者登入。
+- **[把 6 小時的訓練錄影剪成精華](https://agentusecases.ai/use-case/cut-a-6-hour-training-recording-into-highlights)**：一個訓練團隊用 Claude Code 搭配影片剪輯 skills，在本機轉錄 6 小時的直播錄影、找出停頓和不相關的部分，並建立 Kdenlive 專案供手動微調。
+- **[把 AI 記憶庫變成標有出處的資料藝術](https://agentusecases.ai/use-case/turn-ai-memory-stores-into-provenance-labeled-data-art)**：一個 AI agent 提議把其他 agent 匯出的記憶庫，依各自的 embedding 排列，呈現成標有出處的資料藝術。
+- **[把 AI 電子報變成每日 podcast](https://agentusecases.ai/use-case/turn-ai-newsletters-into-a-daily-podcast)**：agent 在夜間執行，蒐集作者訂閱的 AI 電子報，產出每日 podcast 讓他散步時聽。
+- **[把 PDF 和教科書變成互動式課程](https://agentusecases.ai/use-case/turn-pdfs-and-textbooks-into-interactive-courses)**：Hassan 的 agent 會解析來源文件，透過 tool call 規劃課程結構、挑選互動元件，最後由 Lesson Reviewer agent 檢查完成的課程。
+- **[把 Reddit 貼文變成經過查核的文章草稿](https://agentusecases.ai/use-case/turn-reddit-posts-into-fact-checked-article-drafts)**：n8n 和 LangChain 工作流程匯入 Reddit 貼文、摘要留言情緒、以不同寫手風格起草文章，並由編輯 agent 查核事實。
+- **[把 Telegram 訊息變成經過研究、設計好的社群貼文](https://agentusecases.ai/use-case/turn-a-telegram-message-into-researched-designed-social-post)**：n8n agent 接收 Telegram 訊息、研究主題、設計貼文並發布到社群媒體。
+- **[把一週的 GitHub 動態寫成部落格文章](https://agentusecases.ai/use-case/turn-a-week-of-github-activity-into-a-blog-post)**：三個 agent 組成的流程，從 commit 紀錄起草每週文章，並發佈到 Notion 和 DEV。
+- **[把大綱變成長文並附上 SEO 套組](https://agentusecases.ai/use-case/turn-an-outline-into-a-long-form-post-with-seo-bundle)**：作者做了 n8n 工作流程，把大綱擴寫成長文並產生 SEO 套組，選它而沒選 GPT Agent Mode。
+- **[把影片和公司研究做成簡報](https://agentusecases.ai/use-case/turn-videos-and-company-research-into-slide-decks)**：作者描述 Manus 看 YouTube 影片來做簡報，還會研究公司的投資潛力並整理成簡報。
+- **[把影片廣告重現成 JavaScript 動畫](https://agentusecases.ai/use-case/recreate-a-video-ad-as-a-javascript-animation)**：作者讓 Claude 把下載的廣告影片重現成純 JavaScript 動畫並保留原音，它用 ffmpeg 自主作業，不到一小時完成。
+- **[把整本書從英文翻成法文](https://agentusecases.ai/use-case/translate-an-entire-book-from-english-to-french)**：一位部落客的教學指南，用 Claude Code 處理本機檔案把整本書翻成法文，會重讀章節確保一致，由使用者審閱，這只是指南，不是完成的成果。
+- **[把數學課程重整成一年計畫並附教材](https://agentusecases.ai/use-case/rebuild-a-math-curriculum-into-a-one-year-plan-with-material)**：Claude 把加速版數學課程重新規劃成一年，寫出測驗、遊戲、練習單、課表，還有一個與教師規劃工具整合的網站。
+- **[把熱門新聞變成 AI 寫的部落格文章發到 WordPress](https://agentusecases.ai/use-case/publish-ai-written-blog-posts-from-trending-news-to-wordpres)**：n8n 流水線把 RSS 新聞變成含 SEO metadata 和圖片的 AI 文章，發布到 WordPress 並記錄下來，作者提到內容太泛和重複是問題。
+- **[把部落格文章變成動畫資訊圖表](https://agentusecases.ai/use-case/turn-a-blog-post-into-an-animated-infographic)**：一位內容創作者把部落格文章丟進 Gemini Canvas，它用聊天串裡的品牌色和受眾資訊，產出以程式碼寫成的動畫資訊圖表。
+- **[把關鍵字變成核准過的 Instagram 內容](https://agentusecases.ai/use-case/turn-a-keyword-into-approved-instagram-content)**：Make.com 流水線接收關鍵字、產生 AI 內容、寄 email 請人核准，並記到 Google Sheets。
+- **[把電子報改編成社群內容](https://agentusecases.ai/use-case/repurpose-a-newsletter-into-social-content)**：一個 Cowork 提示詞就能把寫好的電子報變成輪播、短影片腳本、LinkedIn 貼文和 Substack note，也建了一個 Notion 中樞。
+- **[把電子報變成帶品牌風格的 LinkedIn 輪播圖](https://agentusecases.ai/use-case/turn-newsletters-into-branded-linkedin-carousels)**：一位電子報作者做了 Claude Code skill，能把電子報網址或文字在 5 分鐘內轉成 5 到 10 張的 HTML/CSS 輪播圖。
+- **[把電子報點子研究後放進 Notion 待辦清單](https://agentusecases.ai/use-case/research-newsletter-ideas-into-a-notion-backlog)**：Content Researcher Bot 會跨 YouTube、透過 Tavily 搜尋網路和 X 來研究點子，再把結果加進作者的 Notion 內容待辦清單。
+- **[把點子變成完成的影片](https://agentusecases.ai/use-case/turn-ideas-into-finished-videos)**：Grok Bot 擔任影片製作助理，能產生和剪輯影片、加動態和旁白，並完成內容。
+- **[探索程式碼來撰寫技術文件](https://agentusecases.ai/use-case/explore-code-to-write-technical-documentation)**：一位技術寫作者用 Devin 先探索程式碼再寫文件，另外還有建在 Devin 上的 Slack 寫作 agent，回報每月約寫 20,000 行文件。
+- **[描述想要的影片就能剪輯原始素材](https://agentusecases.ai/use-case/edit-raw-footage-by-describing-the-video-you-want)**：Cardboard 可以用自然語言指令把原始素材剪成成品影片。
+- **[搭配 Claude Design 和 Claude Code 設計精緻網站](https://agentusecases.ai/use-case/design-polished-websites-by-pairing-claude-design-with-claud)**：一位作者讓 Claude Code 為六個產業做網站，發現都很制式，改用 Claude Design 定視覺方向，再由 Claude Code 實作。
+- **[整合失敗時把算好的影片貼到 Slack](https://agentusecases.ai/use-case/post-a-rendered-video-to-slack-when-integration-fails)**：Codex 讀 Slack 上的回饋、剪輯並重新算圖，再用 Computer Use 點選 Add file 把影片貼到 Slack。
+- **[整理產業新聞並據此起草貼文](https://agentusecases.ai/use-case/curate-industry-news-and-draft-posts-from-it)**：一個 Zapier agent 挑選產業新聞、做摘要，並記到 Airtable 當記憶，第二個 agent 再依該表格起草貼文。
+- **[每日發布 YouTube 影片並自動分派表單名單](https://agentusecases.ai/use-case/publish-a-daily-youtube-video-and-route-form-leads-automatic)**：評測者用 Make 工作流程搭配 Gemini 發想點子、製作並下標題發布每日 YouTube 影片，並把 Google Form 回覆分派進 CRM 做後續跟進。
+- **[為 Burning Man LED 圖騰做氣球駱駝模擬器](https://agentusecases.ai/use-case/build-a-balloon-camel-simulator-for-an-led-burning-man-totem)**：作者用 ChatGPT 找參考圖，用 Claude Code 做出帶網頁前端的 Go 氣球物理模擬器，Claude 會根據螢幕截圖和鏡頭控制反覆調整。
+- **[為學生產生客製化的互動式 HTML 課程](https://agentusecases.ai/use-case/generate-custom-interactive-html-lessons-for-students)**：一位老師給 Claude Code 一段文章、程度、單字表和目標，就拿回含翻轉卡和閱讀理解題的完整課程檔，省下每週好幾個小時的學習單工作。
+- **[為歷史課製作互動式 HTML 簡報](https://agentusecases.ai/use-case/build-interactive-html-presentations-for-history-classes)**：一位歷史老師讓 Claude 製作課堂用的互動式 HTML 簡報，並用 Gemini 腦力激盪備課，把時間留給學生。
+- **[為電子報存檔建立索引並重新利用文章](https://agentusecases.ai/use-case/index-a-newsletter-archive-and-repurpose-writing)**：依據指南，Casey Newton 用 Claude Code 在 30 分鐘內替 818 期電子報建立索引，寫作者也用它檢視筆記庫，並把文章改成電子報和串文檔案。
+- **[產生網站、課程和 318 頁電子書](https://agentusecases.ai/use-case/generate-websites-a-course-and-a-318-page-ebook)**：一位電子報作者花三天用 Manus，從簡單的提示詞做出網站、互動課程和 318 頁的電子書。
+- **[用 AI agent 在 LDraw 產生 LEGO CAD 模型](https://agentusecases.ai/use-case/generate-lego-cad-models-in-ldraw-with-ai-agents)**：一套工具和文件讓 ChatGPT 和 Claude agent 寫 LDraw 原始檔，變成 LEGO CAD 模型，並包成 Docker 化的網頁 app。
+- **[用 Canva MCP 製作社群圖片](https://agentusecases.ai/use-case/create-social-media-visuals-with-canva-mcp)**：發文者在 Claude Code 裡試用 Canva MCP 來做 app 行銷圖，結果覺得是場災難。
+- **[用 Claude Code agent 搭建公司架構](https://agentusecases.ai/use-case/build-a-company-structure-with-claude-code-agents)**：發文者用 Claude Code agent 來設立公司，其中一個行銷 agent 負責品牌識別和色彩配置。
+- **[用 Claude Code 自主產生動畫音樂劇](https://agentusecases.ai/use-case/generate-an-animated-musical-autonomously-with-claude-code)**：作者跳過權限確認執行 Claude Code，讓它自主產生並持續改進一部完全用程式產生的動畫音樂劇，程式碼超過 50 萬行，全天候在渲染。
+- **[用 Claude 產生 live coding 音樂並現場演出](https://agentusecases.ai/use-case/generate-live-coding-music-with-claude-and-perform-it)**：作者請 Claude 根據風格描述寫 Strudel 音樂程式碼，手動修掉它幻想出來的 sample 名稱，再重組成適合現場演出的版本並錄下來。
+- **[用 Dot 在 Descript 剪完整支影片](https://agentusecases.ai/use-case/edit-a-full-video-in-descript-with-a-dot)**：作者讓 Dot 依他錄好的旁白找素材、剪 B-roll、加字幕並安排畫面，經過幾輪檢查修改。
+- **[用 Manus 和 Gemini Deep Research 產生長文內容](https://agentusecases.ai/use-case/generate-long-form-text-content-with-manus-and-gemini-deep-r)**：一位自學的創作者把 Manus 搭配 Gemini 2.5 Pro Deep Research，用來產生長文內容。
+- **[用 OpenClaw agent 製作微信短影片](https://agentusecases.ai/use-case/produce-short-wechat-videos-with-openclaw-agents)**：一位創作者用 OpenClaw agent 搭配 Remotion 和複製的聲音，提議主題、寫旁白、產生 TTS 並算圖，在 Telegram 確認，約 15 分鐘完成。
+- **[用 RSS 訂閱整理每週電子報](https://agentusecases.ai/use-case/curate-a-weekly-newsletter-from-rss-feeds)**：OpenClaw 監控 RSS feed、替項目評分、編成含開場白的摘要，並傳 Telegram 預覽，主人核准後就寄出。
+- **[用 Replit 做電子報和 podcast 網站](https://agentusecases.ai/use-case/build-a-newsletter-and-podcast-site-with-replit)**：一位創作者 10 分鐘就拿到可點的原型，但花了 10 個多小時還是沒辦法放上自訂網址，直到 Val Town 的員工幫忙才推出 MVP。
+- **[用 agent 做可探索的 3D 星艦](https://agentusecases.ai/use-case/build-an-explorable-3d-starship-with-agents)**：一位愛好者用 agent 把 Excelsior 級星艦的多層甲板設計成可探索的 3D 模型，並圍繞它寫客製化的同人小說。
+- **[用 agent 助理製作完整影片](https://agentusecases.ai/use-case/produce-a-full-video-with-an-agent-assistant)**：Grok Imagine 的 agent 模式會提供點子、協助整理，一小時內完成一支完整影片。
+- **[用 agent 團隊寫 70 萬字的小說](https://agentusecases.ai/use-case/write-a-700-000-character-novel-with-a-team-of-agents)**：一位作者像管軟體專案一樣管理小說，Claude Code 更新時間線、角色和伏筆檔案，多個 agent 分別擔任作者、編輯、設定檢查員等角色。
+- **[用 bot 做宣傳影片原型和設計工作](https://agentusecases.ai/use-case/prototype-a-promo-video-and-design-work-with-bots)**：一位 xAI 設計師用 bot 做動畫宣傳片原型，依動畫規格建出 playground，並處理 Figma 和原型相關工作。
+- **[用 subagent 一章一章寫小說](https://agentusecases.ai/use-case/write-a-novel-chapter-by-chapter-with-a-subagent)**：一位作者用自訂的 /write-chapter Claude Code subagent 讀大綱和前文，17 分鐘內寫完並存好 10 個章節。
+- **[用一句提示詞做出帶字幕的影片](https://agentusecases.ai/use-case/create-a-subtitled-video-from-one-prompt)**：Grok Imagine 的 Agent Mode 做出一支 36 秒的影片，有不同角度且前後一致的場景、故事線和字幕。
+- **[用一句提示詞做出簡報](https://agentusecases.ai/use-case/build-a-slide-deck-from-a-single-prompt)**：Scout 用它的 pptx skill 做出 5 張投影片的季度雲端回顧簡報，存到 Downloads，也涵蓋圖表和 HTML artifact。
+- **[用三個自訂 agent 製作電影感影片](https://agentusecases.ai/use-case/produce-cinematic-video-with-three-custom-agents)**：發文者在 Grok Imagine 裡用三個自訂 agent 做了電影工作室，分別負責 prompt 導演、音訊腳本和角色一致的影片。
+- **[用專門的 bot 跑內容創作](https://agentusecases.ai/use-case/run-content-creation-with-specialized-bots)**：創作者用 bot 研究表現突出的 YouTube 影片，也用研究、起草、編輯和排程 bot 經營電子報，其中一個實驗做出了 44 個縮圖提案。
+- **[用影片 agent 剪輯主題演講並加動態圖形](https://agentusecases.ai/use-case/edit-keynote-videos-with-motion-graphics-using-a-video-agent)**：一位行銷人員做了 Claude Code 影片 agent，剪輯演講片段時不會切到字，還會加動態圖形、字幕、品牌元素和音樂，並輸出 16:9 與 9:16 版本。
+- **[用懂 SEO 的 agent 起草並發布部落格文章](https://agentusecases.ai/use-case/draft-and-publish-blog-posts-with-an-seo-aware-agent)**：一位作者的 OpenClaw agent 學會他的文風、找出 SEO 缺口、起草文章，經他在 Telegram 核准後發布，排名下滑時還會起草修訂簡報。
+- **[用本機 agent 整理播放清單並去除影片廣告](https://agentusecases.ai/use-case/curate-local-playlists-and-strip-ads-from-videos-with-a-loca)**：作者在消費級 GPU 上跑本機 LLM agent，管理播放清單、下載影片、去除廣告和業配內容，並挑出最有趣的影片。
+- **[用標題和品牌範本產生簡報](https://agentusecases.ai/use-case/generate-slide-decks-from-titles-and-a-branded-template)**：一位評測者讓 Manus 找簡報內容，並在上傳的 PPTX 範本裡做出月度行銷報告，不過編輯工具有限。
+- **[用模糊的提示詞做出顧問風格簡報](https://agentusecases.ai/use-case/build-a-consultancy-style-deck-from-a-vague-prompt)**：作者讓 Manus Slides 研究來源，並用英式英文做出 16 張的 2025 年生成式 AI 趨勢大綱。
+- **[用瀏覽器 agent 編輯並搬移 Substack 文章](https://agentusecases.ai/use-case/edit-and-migrate-substack-posts-with-a-browser-agent)**：作者交給 Claude in Chrome 三個 Substack 任務（即時編輯、文章搬移、插入 note），然後走開，回來發現三件都正確發布了。
+- **[用白話英文指令編輯現有影片片段](https://agentusecases.ai/use-case/edit-existing-video-clips-with-plain-english-instructions)**：一位創作者花 36 小時測試 Gemini Omni Flash，用打字指令直接修改片段，同時保留光線和鏡頭角度，品質不太穩定。
+- **[用自己的語氣起草電子報和社群貼文](https://agentusecases.ai/use-case/draft-newsletters-and-social-posts-in-your-own-voice)**：一位行銷人員做了 Cursor 工作流程，從他的內容和抓下來的貼文學習，把原始筆記寫成電子報、LinkedIn 貼文和串文。
+- **[用自訂 Claude Code 子 agent 產生部落格封面版型](https://agentusecases.ai/use-case/generate-blog-cover-layouts-with-a-custom-claude-code-sub-ag)**：一位部落客做了 Claude Code 子 agent，把文章標題變成附 PNG 下載按鈕的 HTML 封面圖版型，約 42 秒完成。
+- **[用語音筆記起草並發佈 LinkedIn 貼文](https://agentusecases.ai/use-case/draft-and-publish-linkedin-posts-from-voice-notes)**：一個 bot 學會開發者的語氣，把語音筆記變成 LinkedIn 貼文並發佈，X 的 bot 則因為缺 token 卡住了。
+- **[用語音設計 UI 頁面和解說影片](https://agentusecases.ai/use-case/design-ui-pages-and-explainer-videos-by-voice)**：使用者用語音指揮 Grok Bot，替金融部門做 UI/UX 頁面、圖片、動畫設計和解說影片。
+- **[用說的在 Ableton Live 製作一首曲子](https://agentusecases.ai/use-case/produce-a-track-in-ableton-live-by-talking)**：一個讓 Codex 操作 Ableton Live 的 MCP server，用聊天訊息寫出並混音一首完整的歌。
+- **[用電子報產生每日 podcast 簡報](https://agentusecases.ai/use-case/generate-a-daily-podcast-briefing-from-newsletters)**：作者測試 Cowork 透過 Readwise 和 n8n MCP 把電子報做成早晨 podcast，另外還試了影片和 3D 列印設計，記下哪些可行、哪些失敗。
+- **[用頻道數據分析 YouTube 縮圖](https://agentusecases.ai/use-case/analyze-youtube-thumbnails-from-channel-analytics)**：Grok Bot 連上 YouTube 分析後，拿表現最好的影片縮圖點擊率和頻道平均比較，並提出新的縮圖點子。
+- **[自動化 LinkedIn 內容創作](https://agentusecases.ai/use-case/automate-linkedin-content-creation)**：作者用 Comet 自動化他的 LinkedIn 內容流程，並回報意外賣出 5 筆 Gumroad。
+- **[自動化小紅書筆記的蒐集與發布](https://agentusecases.ai/use-case/automate-xiaohongshu-note-collection-and-publishing)**：RPA 工具把熱門筆記蒐集到飛書表格，OpenClaw 批次寫文案，再由 xiaohongshu-mcp 發布，作者說每天省下約 3 小時。
+- **[自動化技術部落格文章的產出](https://agentusecases.ai/use-case/automate-technical-blog-post-production)**：Basilica 團隊用 Make 和 ChatGPT 做了工作流程，加快技術部落格文章的產出，回報每篇約省 6 小時。
+- **[自動建立、排程並跨平台發佈內容](https://agentusecases.ai/use-case/create-schedule-and-post-content-across-platforms-automatica)**：一套 n8n 系統負責內容製作、排程和跨平台發文，其中的社群上傳 agent 透過 Blotato 發文。
+- **[自動撰寫並寄出 AI 電子報](https://agentusecases.ai/use-case/write-and-send-ai-newsletters-automatically)**：n8n agent 找出熱門的 AI 主題，用 Gemini 寫電子報、排版並寄給訂閱者，完全不用手動。
+- **[自動撰寫每週 AI 行銷電子報](https://agentusecases.ai/use-case/write-a-weekly-ai-marketing-newsletter-automatically)**：排程的 Lindy agent 研究本週新聞，起草電子報、社群貼文和腳本，存到 Airtable，並用 email 寄出結果。
+- **[自動發佈免費遊戲贈送文章](https://agentusecases.ai/use-case/publish-free-game-giveaway-posts-automatically)**：n8n 工作流程追蹤 Epic、Prime Gaming 和 Steam 的免費遊戲，然後建立並發佈 WordPress 文章，附上詳情、圖片和商店連結。
+- **[製作 AI 職涯與薪資趨勢簡報](https://agentusecases.ai/use-case/create-a-presentation-on-ai-career-and-salary-trends)**：一位測試者讓 ChatGPT Agent 做生成式 AI 職涯簡報，成果很基本，表格難讀，Canva 連接器又是唯讀，沒辦法改進。
+- **[製作 AI 趨勢簡報](https://agentusecases.ai/use-case/make-an-ai-trends-presentation)**：作者讓 Manus 1.6 Lite 做一份 2026 AI 趨勢簡報，研究很深入，但產生花了超過 10 分鐘，而且投影片很單調。
+- **[製作 MV、作品集網站和分類腳本](https://agentusecases.ai/use-case/make-music-videos-portfolio-sites-and-sorting-scripts)**：一位創作者用 Grok Bot 做了完整 MV、提示詞引擎、作品集網站程式碼、分類 158 張 AI 圖片和影片的腳本，還有職涯頁面。
+- **[製作包含歌詞、音樂和視覺的完整 MV](https://agentusecases.ai/use-case/create-a-full-music-video-with-lyrics-music-and-visuals)**：Alex C. 讓 Hermes Agent 寫歌詞、製作音樂分軌、產生視覺畫面並加音效，自己完成一支 MV。
+- **[製作零售業 agentic AI 簡報](https://agentusecases.ai/use-case/create-a-presentation-on-agentic-ai-in-retail)**：作者讓 Manus Slides 研究並做出簡報，執行中途加了一張投影片，匯出後修掉一些重疊的文字。
+- **[規劃文章主題並起草網路文章](https://agentusecases.ai/use-case/plan-article-topics-and-draft-web-articles)**：一位網路寫手用 Cowork 選關鍵字、建立會檢查和過往文章重疊的主題表，並起草文章，還會從修改中學習。
+- **[讓 AI agent 在 Figma 裡設計](https://agentusecases.ai/use-case/let-ai-agents-design-in-figma)**：一個 CLI 讓 coding agent 能在 Figma 裡建立形狀、文字、frame 和元件，讓 agent 可以做版面和元件系統。
+- **[讓個人網站內容自動更新](https://agentusecases.ai/use-case/keep-a-personal-website-s-content-updated-automatically)**：一位開發者用 agent 和 MCP 自動化網站內容的做法。
+- **[起草並排程每週電子報](https://agentusecases.ai/use-case/draft-and-schedule-a-weekly-newsletter)**：Claude Code 裡的 /newsletter 指令會找出當週文章，用作者的語氣起草，取得核准後在 Kit 建立並排程發送，大約兩分鐘。
+- **[起草電影劇本大綱、傳記書和名片](https://agentusecases.ai/use-case/draft-a-film-script-outline-biography-book-and-business-card)**：一位 TechRadar 作者拿 Manus 和 ChatGPT 比較，項目有劇本研究、1 萬字的 Adobe 傳記和名片設計。
+- **[透過 Blotato 製作並排程社群內容](https://agentusecases.ai/use-case/create-and-schedule-social-content-through-blotato)**：Cowork 搭配 Blotato 連接器，做出含資訊圖表的 LinkedIn 貼文、把 YouTube 影片變成輪播，並跨平台排程發文。
+- **[透過對話作曲和製作音樂](https://agentusecases.ai/use-case/compose-and-produce-music-through-conversation)**：作者用 Claude Code 寫曲和歌詞，並做出與 Bitwig 整合的工具，其中一首鄉村搖擺歌曲完全靠對話完成。
+- **[透過聊天剪輯影片並加字幕、匯出](https://agentusecases.ai/use-case/edit-video-through-chat-with-subtitles-and-export)**：一位開發者做了 OpenClaw skill，把「加中文字幕」「匯出 mp4」這類聊天請求送給後端影片編輯器，再回傳結果。
+
+## 軟體與 DevOps { #software-devops }
+
+- **[Claude 處理修改需求，自己同時做測試](https://agentusecases.ai/use-case/iterate-on-app-projects-while-claude-handles-change-requests)**：發文者讓 Claude 處理進行中專案的修改需求，包括影片剪輯器、圖形冒險遊戲引擎和文字編輯器，自己在這段時間做測試。
+- **[Vibe coding 並部署放置點擊遊戲](https://agentusecases.ai/use-case/vibe-code-and-deploy-an-idle-clicker-game)**：Gilbert Pellegrom 讓他的 OpenClaw agent 從一場對話做出簡單的放置遊戲，commit 到 GitHub 並自動部署到 Vercel。
+- **[Vibe coding 跨 Azure DevOps repo 的 pull request 儀表板](https://agentusecases.ai/use-case/vibe-code-a-pull-request-dashboard-across-azure-devops-repos)**：作者用 ChatGPT 做架構，在 WebStorm 用 Junie agent 做出匯總四個 repo PR 的儀表板，標出核准、衝突和留言，約 3 小時完成。
+- **[agent 處理 Svelte 出錯時自動開 issue](https://agentusecases.ai/use-case/auto-file-issues-when-your-agent-mishandles-svelte)**：一個選擇性啟用的 skill，讓 coding agent 在處理 Svelte 出錯時，自動到 Svelte AI tools repo 開 issue。
+- **[一個 Copilot 指令生出 FastAPI 網頁 app](https://agentusecases.ai/use-case/generate-a-fastapi-web-app-from-one-copilot-command)**：發文者對 Copilot Agent Mode 下了一個指令來建立 Python FastAPI 網頁 app，喜歡在 commit 前可以先預覽程式碼。
+- **[一個 app 同時上架 App Store、Google Play 和網頁](https://agentusecases.ai/use-case/build-and-ship-one-app-across-app-store-google-play-and-web)**：一位留言者從一月開始用 Replit 做同一個 app，現在已經在 App Store、Google Play 和網頁上線。
+- **[一個 prompt 做出在地地標地圖 app](https://agentusecases.ai/use-case/build-a-local-landmarks-map-app-from-one-prompt)**：作者請 Replit Agent 做一個在地地標地圖，大約 10 分鐘就得到可以運作的 Flask 網頁 app，有互動地圖和 Wikipedia 整合。
+- **[一個晚上從 Figma 做出 WordPress 行銷網站](https://agentusecases.ai/use-case/build-a-wordpress-marketing-site-from-figma-overnight)**：bnistordev 透過 MCP 把 Devin 接上 Figma 檔案，讓它一晚上建出整個 WordPress 行銷網站。
+- **[一個週末做出並部署一個 app](https://agentusecases.ai/use-case/build-and-deploy-an-app-over-a-weekend)**：作者讓 Devin 做出並部署 app，發現它處理 PR 意見很快，但對舊的 monorepo 表現不佳，需求太廣泛時也很燒錢。
+- **[一句話設定每晚 GitHub 備份](https://agentusecases.ai/use-case/set-up-nightly-github-backups-with-one-sentence)**：Hermes 收到一句白話指令後，找到自己的 GitHub skill，建立並驗證每晚推送的 cron job，還加了每小時自我檢查來處理 UTC 與中部時間的差異。
+- **[一夜之間找出並修好壞掉 CI 裡的 flaky 測試](https://agentusecases.ai/use-case/find-and-fix-flaky-tests-in-a-broken-ci-pipeline-overnight)**：Claude 監看 CI 通過率、找出最糟的 flaky 測試、重現並提出修法，pipeline 快了 20 分鐘、通過率提高 35%，部分不好的修法被丟掉。
+- **[一天內做出並部署部落格聚合網站](https://agentusecases.ai/use-case/build-and-deploy-a-blog-aggregator-website-in-a-day)**：一位作者用 Claude Code 把一份一年前的需求文件，做成部署在 Netlify 上的 Vue 3 網站，會從多個平台抓取他的文章。
+- **[一天內重建平台並加上 RAG 功能](https://agentusecases.ai/use-case/rebuild-a-platform-and-add-rag-features-in-one-day)**：一位使用者讓 Replit Agent 重建一個全端平台，替線上的 RAG app 加了 7 個功能，還做了示範影片，全程約 12 小時。
+- **[一次對話內測試本機網頁 app 並修錯](https://agentusecases.ai/use-case/test-local-web-apps-and-fix-errors-in-one-session)**：Claude Code 搭配 Claude in Chrome 會寫程式、開 localhost、點過整個 UI、讀 console 錯誤並修好，開發者完全不用碰瀏覽器。
+- **[一次生出建在 Python LLM 函式庫上的 CLI coding agent](https://agentusecases.ai/use-case/one-shot-a-cli-coding-agent-on-top-of-a-python-llm-library)**：Simon Willison 讓 Fable 模型差不多一次就生出一個建在他的 LLM Python 函式庫上的 CLI coding agent。
+- **[三小時做出並上線一個 micro-SaaS](https://agentusecases.ai/use-case/build-and-ship-a-micro-saas-in-three-hours)**：一位開發者用付費版 Replit 約 3 小時就把 micro-SaaS 部署到正式環境，資料庫、網域、主機和監控都處理好了。
+- **[不會寫程式的 PM 做產品功能原型](https://agentusecases.ai/use-case/prototype-product-features-as-a-non-coding-pm)**：一位創辦人用 Cursor agent 找出原型的缺口、畫 ASCII 線框圖，並用 worktree 裡的平行 agent 規劃並實作一個功能。
+- **[不靠人類自己開帳號、買網域、部署](https://agentusecases.ai/use-case/create-accounts-buy-domains-and-deploy-without-a-human)**：Cloudflare 宣布 agent 現在可以自己建立 Cloudflare 帳號、購買網域並部署。
+- **[並行跑多個本地 coding agent session](https://agentusecases.ai/use-case/run-parallel-local-coding-agent-sessions)**：一位開發者同時跑最多 10 個 coding agent session，用 Claude Code 和跑在 RTX 3090 上的本地模型，搭配快取的上下文做日常開發。
+- **[依 ticket 規格做出待辦清單中的登陸頁](https://agentusecases.ai/use-case/ship-a-backlog-landing-page-from-a-ticket-spec)**：Cursor 的 background agent 根據簡短規格，約 5 分鐘在新分支做出定價登陸頁並開了 PR。
+- **[依團隊規則自動接手新 bug](https://agentusecases.ai/use-case/pick-up-new-bugs-automatically-under-team-rules)**：一個建在 DeepSeek Harness 上的原型 agent，平常不干擾，只依團隊規則做事，例如接手新 bug。
+- **[依照一封 email 的需求做出極簡 Windows VNC 用戶端](https://agentusecases.ai/use-case/build-a-bare-bones-windows-vnc-client-from-an-email-brief)**：作者用 email 寄給 Claude 一份規格，要做一個透過本機 SSH tunnel 連 Windows 10 的極簡 VNC viewer，在 Mac 上建置，並附上 checksum 交付。
+- **[修好 GitHub repo 裡壞掉的刪除按鈕](https://agentusecases.ai/use-case/fix-a-broken-delete-button-in-a-github-repo)**：作者讓 Jules clone repo 並修好刪除按鈕，讓它不能刪除超過兩小時的內容，還主動補了測試，作者審查後發佈了該分支。
+- **[修好壞掉的 API 網站](https://agentusecases.ai/use-case/fix-a-broken-api-website)**：一位使用者說，在另一個 agent 一直把網站弄壞之後，Claude Cowork 修好了他的 API 網站，還解釋問題並和他一起討論修改。
+- **[做一個 RFP 分析工具](https://agentusecases.ai/use-case/build-an-rfp-analysis-tool)**：作者用 Replit Agent 做了簡單的 RFP 分析工具，後端用 Flask，前端用 HTML、Tailwind 和 JavaScript。
+- **[做一個 Stripe 訂閱制的家庭記帳 app](https://agentusecases.ai/use-case/build-a-stripe-subscription-expense-app-for-families)**：作者用 Claude Code 搭配 Stripe 和 code-review plugin，一個 prompt 就生出 Checkout、webhook 處理、客戶入口、存取控制和儀表板。
+- **[做一個主持 webinar 用的 Chrome 擴充功能](https://agentusecases.ai/use-case/build-a-chrome-extension-for-presenting-webinars)**：一位 Replit 論壇使用者做了 Chrome 擴充功能，讓自己主持 webinar 時能看著筆記，並發布到 Chrome Web Store。
+- **[做一個半秒內就回話的電話語音 agent](https://agentusecases.ai/use-case/build-a-phone-voice-agent-that-answers-in-under-half-a-secon)**：從零打造的語音 agent，端到端平均約 400ms，串流語音轉文字、LLM 與文字轉語音，插話也處理得很乾淨。
+- **[做一個學語言用的多語言打字 app](https://agentusecases.ai/use-case/build-a-multilingual-typing-app-for-language-learning)**：一位 buildathon 參賽者第一次用 Replit Agent，做出了讓人練習新語言的打字 app LingoType。
+- **[做一個寶可夢風格的收集狗狗 app](https://agentusecases.ai/use-case/build-a-pokemon-style-dog-collecting-app)**：一位使用者請 Replit Agent 做出抓狗狗的收集 app，稀有度來自爬下來的美國育犬協會各地區族群數量資料。
+- **[做一個很戲劇化的數位紅包 app 向朋友要錢](https://agentusecases.ai/use-case/build-a-dramatic-digital-envelope-app-for-asking-friends-for)**：用 Replit Agent 和 Design Mode 做出有誘餌訊息、鼓聲和即時狀態追蹤的 app，參加 buildathon。
+- **[做一個把照片和語音變成提醒的手機 app](https://agentusecases.ai/use-case/build-a-mobile-app-turning-photos-and-voice-into-reminders)**：發文者用 Replit 和 AI agent 大約 45 天做出 Loopi，這個 app 能把照片、文字和語音變成提醒、筆記和支出紀錄。
+- **[做一個整合 QQ、微信、支付寶收款碼的網站](https://agentusecases.ai/use-case/build-a-combined-qq-wechat-alipay-payment-qr-code-website)**：作者在 Windows 11 上用 Claude Code 搭配 Kimi-K2.6 模型，做出把三個個人收款碼整合在一起的網站，花了兩天，token 費用約 122 元人民幣。
+- **[做一個有預約與追蹤功能的診所 app](https://agentusecases.ai/use-case/build-a-clinic-app-with-booking-and-trackers)**：一位完全沒寫過程式的醫師用 Replit 在 5 天內做出診所 app，有預約串接、處方請求、健康追蹤和 AI 症狀檢查。
+- **[做一個秒開的 macOS markdown 檢視器](https://agentusecases.ai/use-case/build-a-instant-opening-markdown-viewer-for-macos)**：作者請 Claude Code 做了 macOS 的 markdown 檢視器，他說開檔速度比用過的任何 app 都快。
+- **[做一張可搜尋的募資公司地圖](https://agentusecases.ai/use-case/build-a-searchable-map-of-funded-companies)**：一位軟體工程師讓 Replit Agent 約花 3 小時、22 美元，做出一張可搜尋的 Wefunder 實體店面公司地圖。
+- **[做一面匿名的 AI 希望與恐懼牆](https://agentusecases.ai/use-case/build-an-anonymous-wall-of-hopes-and-fears-about-ai)**：發文者用 Claude Code 做了一個網站，由 Haiku 審核並安排貼文位置，Opus 負責重新分組並替主題命名。
+- **[做出並上線程式碼片段分享 app](https://agentusecases.ai/use-case/build-and-launch-a-code-snippet-sharing-app)**：發文者用 Replit Agent 做出 Snippra app，介面文案、功能規劃、除錯和命名都由 agent 處理，他負責引導。
+- **[做出並發布八字命盤解讀 agent](https://agentusecases.ai/use-case/build-and-publish-a-bazi-chart-reading-agent)**：作者靠 coding agent 一個人做出這個 agent，它會排八字命盤、解讀、偵測語言，並用鏈上付款收取解讀費用。
+- **[做出並部署 Hacker News 爬蟲 app](https://agentusecases.ai/use-case/build-and-deploy-a-hacker-news-scraper-app)**：Replit Agent 生出爬蟲、資料庫模型、API 端點和前端，用來儲存並顯示 Hacker News 項目，然後完成部署。
+- **[做出含 email、影片和行事曆的完整 CRM](https://agentusecases.ai/use-case/build-a-full-crm-with-email-video-and-calendar)**：一位社群成員花了幾週用 Replit Agent 做出 CRM，含 email 整合、影片銷售信錄製和會議排程。
+- **[做出家庭任務 app 並送審 App Store](https://agentusecases.ai/use-case/build-and-submit-a-family-quest-app-to-the-app-store)**：一位使用者用 Replit Agent 做出 Kogoto Quest，把家庭提醒變成任務，並送去 App Store 審核。
+- **[做出有資料庫、儲存空間和登陸頁的完整網頁 app](https://agentusecases.ai/use-case/build-a-full-web-app-with-database-storage-and-landing-page)**：作者用 Replit Agent 做出以 Postgres 為底、有圖片儲存、分析和登陸頁的網頁 app，換成 S3 失敗後又退回原狀。
+- **[先草擬 PR review 讓你修改後再送出](https://agentusecases.ai/use-case/draft-pull-request-reviews-for-you-to-edit-and-send)**：發文者做了一個 review 收件匣，由 Claude Code 替堆積的 PR 草擬 review，使用者可以在送出前討論、改寫或刪掉其中的發現。
+- **[先讓 Copilot Agent Mode 包辦寫程式，再限縮用法](https://agentusecases.ai/use-case/let-copilot-agent-mode-handle-coding-then-constrain-it)**：一位開發者讓 Copilot Agent Mode 做完所有寫程式的工作，發現自己越來越不懂自己的程式碼，後來改成範圍更窄的用法。
+- **[分類失敗的 GitHub Actions 並自動修復不穩定的測試](https://agentusecases.ai/use-case/triage-failed-github-actions-runs-and-self-heal-flaky-tests)**：一位 QA 工程師的 OpenClaw agent 會讀失敗的 CI log、分類原因、把分析貼到 GitHub 和 Slack 並開 issue，不穩定率從 8% 降到 0.8%，不過它有一次誤改了 assertion。
+- **[前後端分工給 Claude Code 和 Codex](https://agentusecases.ai/use-case/split-frontend-and-backend-work-across-claude-code-and-codex)**：發文者讓 Claude Code 和 Codex 並行跑了 15 天，Claude Code 負責前端，另一個 agent 負責後端。
+- **[協調 sub-agent 監控 PR 並修正式環境 bug](https://agentusecases.ai/use-case/coordinate-sub-agents-to-monitor-prs-and-fix-prod-bugs)**：Cursor Projects 的協調 agent 會分派工作給 sub-agent，盯著新 PR 和正式環境 bug，開 agent 去修問題，有疑問再回報給使用者。
+- **[另外開一個 agent 當獨立的 QA 審查員](https://agentusecases.ai/use-case/spin-up-a-second-agent-as-an-independent-qa-reviewer)**：Codex 找到使用者的 Claude 登入資訊，在 sandbox 裡裝了 Claude Code 當 QA agent 用，沒人教它怎麼做，也沒有動到憑證。
+- **[嘗試做導航 app（沒做完）](https://agentusecases.ai/use-case/attempt-to-build-a-navigation-app-did-not-finish)**：發文者想用 Manus 做導航 app，花掉一個月的額度和超過 8 小時，還是沒做出能用的 app。
+- **[在 3D 工作空間裡視覺化程式碼和 coding agent](https://agentusecases.ai/use-case/visualize-your-codebase-and-coding-agents-in-a-3d-workspace)**：一位獨立開發者做了本機優先的 3D 環境，現有的 coding agent 以虛擬角色呈現，repo 則顯示成一座城市，可以瀏覽程式碼和執行 app。
+- **[在 Copilot agent mode 從零做出全端專案](https://agentusecases.ai/use-case/build-a-full-stack-project-from-scratch-in-copilot-agent-mod)**：發文者用 Copilot agent mode 搭配 Claude 3.7 Sonnet 做全端專案，設定階段的問題需要一直看著它，但最後做出了有樣式且能運作的 React 元件。
+- **[在 Postman 測試 API 端點並回報結果](https://agentusecases.ai/use-case/test-api-endpoints-in-postman-and-report-results)**：@ai_for_success 用 Comet 依上下文產生測試 payload，在 Postman 執行 API 端點測試，並產出最終報告。
+- **[在 Replit 上做以隱私優先的檔案轉換網頁 app](https://agentusecases.ai/use-case/build-a-privacy-first-file-conversion-web-app-on-replit)**：一位使用者做出並上線 Tools Vault，這是個檔案轉換網頁 app，用 FastAPI 和 Tailwind 架在 Replit 上，目前花了約 34 美元。
+- **[在 buildathon 做出捐書 app 和示範影片](https://agentusecases.ai/use-case/build-a-book-donation-app-and-demo-video-in-a-buildathon)**：一位使用者在 24 小時的 buildathon 內，用 Replit Agent 做出 GiveABook app 和它的示範影片。
+- **[在 tmux 裡依 Markdown 規格並行跑 coding agent](https://agentusecases.ai/use-case/run-parallel-coding-agents-from-markdown-specs-in-tmux)**：一篇工作流程文章，講如何用 tmux 和 Markdown 規格並行跑多個 coding agent（依標題推測）。
+- **[在個人專案上和 LLM 做 pair programming](https://agentusecases.ai/use-case/pair-program-with-llms-on-personal-projects)**：作者把 Claude 網頁版和 Jules（整合 GitHub 的 Gemini）當成 pair programming 夥伴，自己在本機寫程式時負責導航，再把成果提交回去。
+- **[在內網機器上跑多檔案重構和系統管理工作](https://agentusecases.ai/use-case/run-multi-file-refactors-and-sysadmin-tasks-on-network-machi)**：使用者在內網的 PC 和伺服器上用 Codex 做多檔案重構和定義明確的任務，下完指令就可以走開。
+- **[在八個測試任務中寫程式和除錯](https://agentusecases.ai/use-case/write-and-debug-code-across-eight-test-tasks)**：評測者請 Manus 做匯率換算器、修 find_max 的 bug、做一個 landing page，大多表現很好。
+- **[在分析儀表板上讓 Cursor 自動載入成熟的 skills](https://agentusecases.ai/use-case/auto-pull-proven-skills-for-cursor-on-an-analytics-dashboard)**：在他的分析儀表板專案中，Cursor 的 agent 自己載入事件儲存設計、埋點和 API 安全相關的 skills，並加上了 rate limiting 和輸入驗證。
+- **[在同一個終端機監看並整理多個 coding agent](https://agentusecases.ai/use-case/monitor-and-organize-multiple-coding-agents-in-one-terminal)**：Corgi 是終端機多工器，會顯示每個 coding agent 在做什麼，並啟動 Codex/Claude Code session，還會重用這些 agent 來標註連結和 worktree。
+- **[在家用伺服器上自架服務](https://agentusecases.ai/use-case/self-host-services-on-a-home-server)**：一篇文章，談 CLI agent 如何讓自己架設家用伺服器變得更容易、更好玩。
+- **[在正式環境的 agent trace 中找錯誤](https://agentusecases.ai/use-case/find-errors-in-production-agent-traces)**：Laminar 的 flow-1 模型會讀 agent trace，抓出點錯按鈕或引用錯誤這類隱性失敗，所以每條正式環境的 trace 都能分析，不用抽樣。
+- **[在產品的各個 PR 中寫程式、review 和寫文件](https://agentusecases.ai/use-case/write-review-and-document-code-across-a-product-s-prs)**：創辦人們表示 Devin 參與了 ChatPRD 的所有 PR，也是 Gumroad 的最大貢獻者，已 merge 超過 1,500 個 PR。
+- **[在終端機 lint、修正、commit 並推送程式碼](https://agentusecases.ai/use-case/lint-fix-commit-and-push-code-from-the-terminal)**：Scout 跑 linter、修掉語法錯誤、重跑一次、檢視暫存的變更、寫 commit 訊息，再推到新分支，以逐步示範呈現。
+- **[在終端機用 agent 寫程式](https://agentusecases.ai/use-case/code-in-the-terminal-with-an-agent)**：發文者把 Grok 當終端機 coding agent，會讀取、編輯、執行工具，還會產生 sub-agent。
+- **[在螢幕上測試功能並合併修好的 PR](https://agentusecases.ai/use-case/test-features-on-screen-and-merge-fixed-prs)**：Ryan Carson 用 Devin 的 Test App 功能錄下並講解功能點擊過程、修 bug，再用 !land 指令合併 PR。
+- **[在遠端 Windows VM 上跑 agent 的建置和測試](https://agentusecases.ai/use-case/run-agent-builds-and-tests-on-remote-windows-vms)**：一位開發者讓 coding agent 用 ssh 連到遠端 Windows VM 上的 WSL，在那邊跑建置和測試，不在自己的 Mac 筆電上跑。
+- **[在隔離的 VM 裡跑 Claude Code 並讓它開 PR](https://agentusecases.ai/use-case/run-claude-code-in-an-isolated-vm-that-opens-prs)**：作者在受限的 VM 裡跑 Claude Code，secret 由 Infisical 提供，它只能在 Forgejo 上建立 issue 和 PR，merge 要手動做，之後 CI 才會部署。
+- **[在雲端中斷發生前抓出風險](https://agentusecases.ai/use-case/catch-cloud-outage-risks-before-they-happen)**：一個會查詢真實資料的自主 ReAct agent，目的是在雲端中斷發生前就先擋下來，為 Sanity Challenge 而做。
+- **[審查 GitHub pull request 的 bug 與安全問題](https://agentusecases.ai/use-case/review-github-pull-requests-for-bugs-and-security)**：一份 Hermes 教學會讀 PR diff，回傳涵蓋 bug、安全和程式碼品質的結構化審查，再把它變成 skill 去監看 repo 並寄出摘要。
+- **[審查 Linux kernel patch](https://agentusecases.ai/use-case/review-linux-kernel-patches)**：Google 工程師推出 Sashiko，一個給 Linux kernel 用的 agentic AI 程式碼審查工具。
+- **[少干預地跑 Codex，並用 port 預留機制](https://agentusecases.ai/use-case/run-codex-with-low-touch-planning-and-port-reservation)**：一位留言者讓 Codex 大部分時間自己執行，人負責規劃和 review，還有一個 portbroker 負責預留並注入 port。
+- **[平行跑多個 Claude session 來建置與測試 app](https://agentusecases.ai/use-case/run-parallel-claude-sessions-to-build-and-test-apps)**：一位開發者跑約 10 份程式碼副本搭配 Claude session，先規劃規格，並讓 Claude 透過 adb 操作手機測試 UI，再根據 log 除錯。
+- **[幾個小時做出工具目錄網站](https://agentusecases.ai/use-case/build-a-tool-directory-website-in-a-few-hours)**：發文者用 Replit Agent 3 在幾個小時內上線了工具目錄網站 toolbrew.co。
+- **[建置並上線有金流的自訂網域網站](https://agentusecases.ai/use-case/build-and-launch-a-website-with-payments-on-a-custom-domain)**：作者用 Claude Code 做出完整網站，透過 Vercel 部署到自訂網域，有 Stripe 付款按鈕、Resend 寄信和 Supabase 資料庫。
+- **[建置並部署生命遊戲模擬網站](https://agentusecases.ai/use-case/build-and-deploy-a-game-of-life-simulation-site)**：在廠商的發表會示範中，Devin 做出互動式的生命遊戲網站，一步步加上要求的功能，並部署到 Netlify。
+- **[從 Sentry 和 log 警報自動開修復 PR](https://agentusecases.ai/use-case/auto-open-fix-prs-from-sentry-and-log-alerts)**：一個叫 Sentinel 的 Grok Bot 監控 Sentry 和 log，觸發條件成立時就在多個 repo 開 PR，目前還很早期。
+- **[從 Telegram 跑 OpenClaw agent 處理 Terraform 基礎設施和 GitOps](https://agentusecases.ai/use-case/run-openclaw-agents-for-terraform-infra-and-gitops-from-tele)**：幾個身分各自獨立的 OpenClaw agent 架設 Terraform 基礎設施、做寫程式工作、程式碼審查和合併，並建出 CD 與 GitOps 系統。
+- **[從一個 Claude session 統籌多個 coding agent session](https://agentusecases.ai/use-case/orchestrate-multiple-coding-agent-sessions-from-one-claude-s)**：一位開發者只跟一個 Claude session 對話，由它當協調者傳訊給其他 agent session（包括 Codex），可從 CLI、手機 app 和 IRC 使用，用來平衡 token 用量。
+- **[從寫程式過程中自動處理網頁設定](https://agentusecases.ai/use-case/automate-web-configuration-from-coding-sessions)**：留言者用 Claude in Chrome 去執行寫程式和其他瀏覽器操作時冒出來的網頁設定需求。
+- **[從終端機設定 macOS 和開發工具](https://agentusecases.ai/use-case/configure-macos-and-dev-tooling-from-the-terminal)**：Gemini CLI 執行 defaults write 指令來設定 Dock 自動隱藏，也被用來安裝 Docker 和設定 Git GPG 簽章。
+- **[從零做出 Pong 遊戲和網站](https://agentusecases.ai/use-case/build-a-pong-game-and-website-from-scratch)**：一位測試者請 Devin 做一個基本的 Pong 風格遊戲和一個網站，它不到 20 分鐘就兩個都做完了。
+- **[從零打造正式上線的 AI 影片生成 app](https://agentusecases.ai/use-case/build-a-production-ai-video-generation-app-from-scratch)**：發文者用 Manus 在幾週內從零做出全端 AI 影片生成 app，達到可上線的程度。
+- **[打造出價和案件追蹤的客製房地產工具](https://agentusecases.ai/use-case/build-custom-real-estate-tools-for-offers-and-deal-tracking)**：一位出租屋主用 Codex 做了幾個工具，用來擬定出價、製作附現場照片的物件分析報告，以及追蹤簽約中的交易。
+- **[把 180 個微服務遷移到新版框架](https://agentusecases.ai/use-case/migrate-180-microservices-to-a-new-framework-version)**：Brex 做了以 Cursor 為基礎、會自我修正的 agent，讓一位工程師大約一個月內把 180 個微服務遷移到較新的 Micronaut 版本。
+- **[把 Chrome 擴充功能移植到 Safari](https://agentusecases.ai/use-case/port-a-chrome-extension-to-safari)**：作者讓 ChatGPT 取得 Session Buddy 擴充功能的 Chrome 原始碼，移植到 Safari 並安裝，約花 20 分鐘。
+- **[把 Claude Code 的 hook 搬到 pi 擴充功能](https://agentusecases.ai/use-case/port-claude-code-hooks-to-pi-extensions)**：作者離開 Claude 之後，讓 agent 讀自己的 Claude hooks 資料夾並重建成 pi 擴充功能，它很快就做完了。
+- **[把 Claude Code 的 skill 搬到 Codex](https://agentusecases.ai/use-case/port-claude-code-skills-to-codex)**：作者一個下午用 Claude Code 裡的一個 skill，把 201 個 Claude Code skill 搬到 Codex，並回報哪些順利轉移、哪些壞掉。
+- **[把 Codex 的 computer-use 工具移植到其他 harness](https://agentusecases.ai/use-case/port-codex-s-computer-use-tool-to-other-harnesses)**：發文者把 Gemini 指向一個資料夾，讓它把 Codex 的 computer-use 工具改成適用 Antigravity，10 分鐘內完成。
+- **[把 Dots 橋接到執行中的 Claude Code](https://agentusecases.ai/use-case/bridge-dots-to-a-running-claude-code-instance)**：發文者做了一個 ChatGPT MCP，讓 Dots 能在多線並行的寫程式流程裡讀寫自己正在跑的 Claude Code，但發現有穩定性問題。
+- **[把 Electron app 從 Vue 2 遷移到 Vue 3](https://agentusecases.ai/use-case/migrate-an-electron-app-from-vue-2-to-vue-3)**：Kearney 讓 Devin 存取 repo，把正式環境的 Electron app 遷移到 Vue 3 並更新 npm 套件，每做完五個元件就 commit 一次。
+- **[把 GitHub issue 指派給 Copilot coding agent](https://agentusecases.ai/use-case/assign-github-issues-to-copilot-coding-agent)**：一位開發者把 GitHub issue 指派給 Copilot 並看著它工作，但它是從預設分支開始，不是預期的功能分支。
+- **[把 P2 bug 分流成附示範影片的 draft PR](https://agentusecases.ai/use-case/triage-p2-bugs-into-draft-prs-with-demo-videos)**：一個連接 GitHub 和 Slack 的 Dot 會監看 #bugs，在雲端環境評估範圍並測試修復，再開出附簡短示範影片的 draft PR。
+- **[把 React Native 轉 Swift 的遷移分給多個 agent](https://agentusecases.ai/use-case/split-a-react-native-to-swift-migration-across-agents)**：Cognition 的 Jared Zoneraich 用 Devin fan-out，讓子 agent 平行處理被拆成六塊的遷移工作。
+- **[把 Replit 做的 app 轉成前後端分離架構](https://agentusecases.ai/use-case/convert-a-replit-built-app-into-a-frontend-and-backend-setup)**：發文者在 Replit 的 agent 上花了超過 100 美元還是沒能發布，後來用 Cursor 把 app 轉成比較傳統的前後端架構。
+- **[把 SaaS 從 AWS 遷到 DigitalOcean](https://agentusecases.ai/use-case/migrate-a-saas-from-aws-to-digitalocean)**：一位開發者把 Claude Code 當 pair programmer，處理資源配置、資料庫填充、SSL、DNS 切換和正式環境除錯，據他說約四小時完成，零停機。
+- **[把 Sentry 的 bug 回報變成修復 pull request](https://agentusecases.ai/use-case/turn-sentry-bug-reports-into-fix-pull-requests)**：Sentry 的 Seer 把根因分析和 issue 脈絡交給 Cursor Cloud Agent，由它寫修復並在使用者的 repo 開 pull request。
+- **[把 Slack 和 Linear 任務變成 PR 並修 CI](https://agentusecases.ai/use-case/turn-slack-and-linear-tasks-into-prs-and-fix-ci)**：Cognition 員工在 Slack 或 Linear 指派工作給 Devin，它會發 PR、修審查 bot 標出的 bug，並處理 CI 和 lint 失敗直到檢查通過。
+- **[把 Slack 的意見回饋變成 PR 並除錯基礎設施](https://agentusecases.ai/use-case/turn-slack-feedback-into-prs-and-debug-infra)**：Sid Nanda 的公司在 Slack 裡用 Devin 分流意見回饋、把使用者問題變成 PR、以唯讀方式除錯非同步流程和基礎設施，也讓非技術同事一起寫 PR。
+- **[把 WordPress 文章遷移到 MDX](https://agentusecases.ai/use-case/migrate-wordpress-posts-to-mdx)**：Claude Code 從 WordPress REST API 抓文章並轉成帶 frontmatter 的 MDX，一次 session 就遷移了 367 篇文章和 5 個頁面。
+- **[把 agent 做的靜態頁面部署到自己的 Cloudflare 網域](https://agentusecases.ai/use-case/deploy-agent-built-static-pages-to-your-own-cloudflare-domai)**：作者做了 getonup，讓 agent 能在他的網域上設定 Cloudflare Workers 和 Zero Trust，團隊就能發布靜態 HTML 頁面，並有依日期排列的索引。
+- **[把 coding agent 當醫療團隊來修 bug](https://agentusecases.ai/use-case/run-coding-agents-like-a-medical-team-to-fix-bugs)**：作者花了五個月，把 bug 當成病人，把 coding agent 組織成醫院式的團隊來診斷和修復。
+- **[把 ticket 變成合併的 pull request](https://agentusecases.ai/use-case/turn-tickets-into-merged-pull-requests)**：從 GitHub Issues 或 Linear 取得任務，再在隔離的 Kubernetes pod 裡執行 Claude Code 或 Codex，把每個任務做到 PR。
+- **[把一個目標拆成有順序的 coding agent 任務計畫](https://agentusecases.ai/use-case/turn-one-goal-into-an-ordered-plan-of-coding-agent-tasks)**：Ordewell 接收單一目標，並拆成一份有順序、給 coding agent 執行的任務計畫。
+- **[把前端和後端開發分給 Claude 與 Codex](https://agentusecases.ai/use-case/split-frontend-and-backend-coding-between-claude-and-codex)**：一位開發者前端用 Claude Design，後端用 Codex，因為他發現 OpenClaw 和 Hermes 碰到實際工作就撐不住。
+- **[把剩下的 AI 額度拿去產出可 review 的 PR](https://agentusecases.ai/use-case/spend-leftover-ai-quota-on-reviewable-prs)**：RemainderBot 依照創辦人的目標和任務清單，用多餘的 Claude 和 Codex 額度寫 PR，產出 111 個 PR，包括會議準備和原型。
+- **[把客戶回饋變成測試過的 pull request](https://agentusecases.ai/use-case/turn-customer-feedback-into-tested-pull-requests)**：在 OpenAI 自己的發表範例中，Dot 會監看回饋裡反覆出現的需求、評估小修正的範圍、建置並測試，再回傳附示範影片的 PR。
+- **[把客服工單變成已調查過的 pull request](https://agentusecases.ai/use-case/turn-customer-support-tickets-into-investigated-pull-request)**：Pylon 把客服工具接上 Devin，一張描述詳細的客戶問題就會啟動調查，也可能直接開 PR，工程師還是要自己 review 和 merge。
+- **[把密碼重設流程遷移到新式函式庫](https://agentusecases.ai/use-case/migrate-a-password-reset-flow-to-modern-libraries)**：一位開發者讓 Claude Code 遷移舊網頁 app 的密碼重設流程，過程需要緊盯、會偏離任務，最後比自己手動做還慢。
+- **[把工作分給 ChatGPT 架構師和 Codex 執行者](https://agentusecases.ai/use-case/split-work-between-chatgpt-architect-and-codex-executor)**：發文者做了一座橋接，讓 ChatGPT 負責規劃和審查，Codex 負責在本機執行。
+- **[把文件爬成乾淨的 Markdown 給 AI agent 用](https://agentusecases.ai/use-case/crawl-documentation-into-clean-markdown-for-ai-agents)**：作者替自己的 AI agent 做了文件爬蟲，49 秒抓下 60 頁乾淨的 Markdown。
+- **[把新筆電設定成和現有 Arch Linux 機器一樣](https://agentusecases.ai/use-case/set-up-a-new-laptop-to-match-an-existing-arch-linux-machine)**：一位留言者讓 Claude 建立 Arch Linux live USB，並設定筆電去複製另一台 Arch 機器，包括工具和桌面環境。
+- **[把本機 CLI 的寫程式工作交接給 Devin](https://agentusecases.ai/use-case/hand-off-coding-sessions-from-local-cli-to-devin)**：發文者先在 Devin CLI 開頭，讓它探索 repo 並建立上下文，再把工作交接出去獨立繼續。
+- **[把機器人當成上線 app 的 QA 實習生](https://agentusecases.ai/use-case/use-a-bot-as-a-qa-intern-on-a-live-app)**：一個 Grok Bot 每天好幾次點過 app 的核心流程、回報問題並草擬修復 PR，還真的找到一個 bug。
+- **[把每天的 X 書籤變成可運作的技術原型](https://agentusecases.ai/use-case/turn-daily-x-bookmarks-into-working-tech-prototypes)**：一個 bot 每天掃描一位 Cursor 員工的 X 書籤、挑一項新技術、起草 prompt，經核准後啟動 Cursor Cloud agent，約 15 分鐘做出原型。
+- **[把用 Replit 做的四個 Android app 上架 Google Play](https://agentusecases.ai/use-case/publish-four-android-apps-to-google-play-built-with-replit)**：一位使用者用 Replit 做了四個 app 並上架 Google Play，建置用的 GitHub workflow YAML 檔是 Replit 寫的。
+- **[把範圍小的程式修改交給 Devin 發 PR](https://agentusecases.ai/use-case/hand-narrow-code-changes-to-devin-for-pull-requests)**：一個團隊用 Devin 一個月，處理圖表格式和 API 邊界情況等小修正，附測試和 PR，不過一個複雜的全端任務做得不好。
+- **[把維護和 bug 修復排給 Cursor background agent](https://agentusecases.ai/use-case/queue-maintenance-and-bug-fixes-for-cursor-background-agents)**：一位開發者授權 GitHub app 後，Cursor background agent 把 repo clone 進沙盒、開分支，處理一整天排隊的維護、功能和 bug 修復。
+- **[把網站小調整交給 Copilot coding agent](https://agentusecases.ai/use-case/assign-website-tweaks-to-copilot-coding-agent)**：一位作者讓 Copilot coding agent 處理自己網站的兩個小改動，它開了 draft PR，其中間距的修改好到可以直接合併。
+- **[把網站從 CMS 遷移到純程式碼和 Markdown](https://agentusecases.ai/use-case/migrate-a-website-from-a-cms-to-raw-code-and-markdown)**：Lee Robinson 用 Cursor agent 三天就讓 cursor.com 脫離 CMS，花了 260 美元的 token，由 subagent 處理大範圍重構。
+- **[把網站變成手機 app](https://agentusecases.ai/use-case/turn-a-website-into-a-mobile-app)**：作者用 Replit Agent 4 花了大約兩天和 40 美元，把網站做成手機 app，包含設計、預覽和 App Store 上架準備，然後送審。
+- **[把網頁研究從 Claude Code 委派給 Comet](https://agentusecases.ai/use-case/delegate-web-research-from-claude-code-to-comet)**：一個 MCP server 讓 Claude Code 把網頁瀏覽、需登入頁面和研究交給 Comet，自己繼續寫程式，再取回結果。
+- **[把遷移和修 bug 的工單交給 coding agent](https://agentusecases.ai/use-case/hand-migrations-and-bug-fix-tickets-to-a-coding-agent)**：評測者在三週內把遷移、資料工程、修 bug 和重構的工單丟給 Devin，對象是一個 Next.js monorepo 和 Python pipeline，它在遷移和框架升級上表現最好。
+- **[把開發工作拆成階段交給 Copilot](https://agentusecases.ai/use-case/break-development-work-into-phases-for-copilot)**：發文者把工作拆成幾個階段並列出明確任務，讓 Copilot 的 agent 一步步走完開發流程，不要一次全做。
+- **[抓出並行 coding agent 之間的意圖衝突](https://agentusecases.ai/use-case/catch-intent-conflicts-between-parallel-coding-agents)**：agent 在動手編輯前先公布計畫的變更，讓跨平行 worktree 的架構衝突在寫程式碼之前就被標出來。
+- **[掃描每個 git commit 的 secret 和注入漏洞](https://agentusecases.ai/use-case/scan-every-git-commit-for-secrets-and-injection-flaws)**：一個免費工具在每次 commit 時跑 11 個 Claude Code CLI agent，在程式碼進入前抓出 secret、注入漏洞和有問題的 migration。
+- **[排查只在正式環境出現的效能問題](https://agentusecases.ai/use-case/troubleshoot-a-production-only-performance-issue)**：一位開發者用 Cursor 和 Warp 的 agent 分析 NestJS 的資料庫查詢，並針對正式環境的效能問題建議索引。
+- **[排程 Codex 自動化處理文件、追蹤和 API 測試](https://agentusecases.ai/use-case/schedule-codex-automations-for-docs-tracking-and-api-tests)**：發文者用 Codex 自動化更新 agents.md 檔案、刷新大型專案每日的總追蹤檔，並測試 ICS 原始碼和一個 API。
+- **[搭配 AGENTS.md 和 logging 把 Claude Code 當共同開發者](https://agentusecases.ai/use-case/use-claude-code-as-co-developer-with-agents-md-and-logging)**：作者用 Claude Code 做規劃、寫程式、測試和除錯，搭配 AGENTS.md 和數值 logging 來提升準確度和 context 處理。
+- **[操控瀏覽器填表單和除錯網站](https://agentusecases.ai/use-case/control-a-browser-to-fill-forms-and-debug-sites)**：一份教學介紹 Scout 開網站、填表單、點擊、上傳檔案、擷取頁面資訊，以及讀取 console log 和網路請求。
+- **[更新老舊的 Telegram bot 並重構 app](https://agentusecases.ai/use-case/update-a-legacy-telegram-bot-and-refactor-an-app)**：作者用 Replit Agent 把 Telegram bot 更新到較新的 API，反覆調整幾次才成功，也重構了一個卡片收藏 app，包括資料庫 schema 的變更。
+- **[服務中斷時診斷並回滾錯誤設定](https://agentusecases.ai/use-case/diagnose-and-roll-back-bad-config-during-outages)**：Google SRE 用 Gemini CLI 拉 log、找出有問題的設定推送、產生回復用的 changelist，並透過 MCP 開立事後檢討的待辦事項。
+- **[架構重整後重寫 README](https://agentusecases.ai/use-case/rewrite-a-readme-after-a-rearchitecture)**：Devin 掃過重新設計架構的程式碼，以 PR 交出新的 README，安裝與 API 細節都正確，但設計理由與用途就寫得吃力。
+- **[檢查 agent 的工作計畫並記錄使用者意圖](https://agentusecases.ai/use-case/review-agent-work-plans-and-track-user-intent-logs)**：一位開發者把每則使用者訊息都記下來，用來整理出意圖，並讓 agent 在動工前拿專案限制去檢查存下來的計畫檔。
+- **[檢查程式碼中多餘的相依套件和 polyfill](https://agentusecases.ai/use-case/audit-a-codebase-for-redundant-dependencies-and-polyfills)**：一個 MCP server 讓 agent 檢查程式碼中多餘的相依套件和 polyfill，可遠端使用，也能當本機 stdio server。
+- **[每個 coding agent session 都跑在 cgroup 裡，結束就清掉](https://agentusecases.ai/use-case/run-each-coding-agent-session-in-a-cgroup-that-is-killed-on-)**：一位開發者做了 agent spawner，每個 coding agent session 都在自己的 cgroup 裡啟動，任務結束時殺掉殘留的 process，另外還有一個清除過期 tmp 檔的排程。
+- **[每週從已 merge 的 PR 找出文件過期的地方](https://agentusecases.ai/use-case/flag-documentation-drift-from-merged-prs-weekly)**：每週跑一次的 Hermes cron job 會檢查已 merge 的 PR 有沒有改到 tool schema、CLI 指令、設定選項或環境變數，標出需要更新的文件。
+- **[沒有 Mac 也能在 iPhone 上建置並執行 iOS app](https://agentusecases.ai/use-case/build-and-run-an-ios-app-on-an-iphone-without-a-mac)**：發文者從 iPhone 讓 Cursor cloud agent 用 ios-builder 建置 iOS app、安裝並操作，全程不需要 Mac。
+- **[沒有原始碼也能逆向工程舊系統](https://agentusecases.ai/use-case/reverse-engineer-legacy-systems-without-source-code)**：Thoughtworks 顧問在為期兩週的試行中用 Gemini 2.5 Pro，產出舊系統功能的驗證過藍圖。
+- **[沒有寫程式經驗也能做出第一個 app](https://agentusecases.ai/use-case/build-a-first-app-with-no-coding-experience)**：一位留言者用 Replit 的 agent 搭配 Claude Sonnet，約五分鐘就做出 app，儘管之前從沒寫過能用的程式。
+- **[測試 Devin 做整合、遷移和資安審查](https://agentusecases.ai/use-case/test-devin-on-integrations-migration-and-security-review)**：Answer.AI 讓 Devin 試了可觀測性整合、nbdev 遷移和漏洞審查，它找到一些真的問題，也幻想出一些，遷移則失敗了。
+- **[測試 Devin 把 Notion 資料匯入 Sheets](https://agentusecases.ai/use-case/test-devin-on-pulling-notion-data-into-sheets)**：Answer.AI 的測試者發現 Devin 20 個任務只完成 3 個，成功的是把 Notion 資料搬到 Google Sheets 和做出行星追蹤器。
+- **[測試 coding agent 上手你的產品有多順](https://agentusecases.ai/use-case/test-how-well-coding-agents-can-onboard-to-your-product)**：ax-check.com 在 sandbox 裡讓 coding agent 試著上手一個產品，再回傳評分表、建議的修正和完整的 session trace。
+- **[為 Razor Pages app 加上可篩選的報表頁](https://agentusecases.ai/use-case/add-a-filtered-report-page-to-a-razor-pages-app)**：發文者在 Visual Studio 2022 用 Copilot agent mode 做出有日期和狀態篩選的費用彙總報表頁，加了選單項目，還寫了 git commit 的步驟。
+- **[為 agent 的記憶加上 agentic forgetting](https://agentusecases.ai/use-case/add-agentic-forgetting-to-an-agent-s-memory)**：有人實作了 Tim Kellogg 的 agentic forgetting 方法的陋版，回報說就算是最簡單的形式也很有效。
+- **[為 app 自動產生可搜尋的說明影片庫](https://agentusecases.ai/use-case/auto-generate-a-searchable-help-video-library-for-an-app)**：用 Replit Agent 做了 /help 頁面，透過分場景、Playwright 錄製、TTS 旁白和 ffmpeg 合成來產生教學影片。
+- **[為 bot 的信箱地址做收件匣 app](https://agentusecases.ai/use-case/build-an-email-inbox-app-for-the-bot-s-address)**：Grok Bot 在 23 分鐘內做出信箱風格的收件匣 app 並部署到 Vercel，含資料庫和同步，並回傳連結和密碼。
+- **[為了更嚴格的編譯器設定，大規模重構百萬行程式碼](https://agentusecases.ai/use-case/bulk-refactor-a-1m-line-codebase-for-stricter-compiler-setti)**：Claude 系統性地把整類編譯器錯誤改成更乾淨的程式碼，使用自訂 skill 或腳本，在大型程式碼庫中處理了 20 萬行以上。
+- **[為刺青師做預約與付款 app](https://agentusecases.ai/use-case/build-a-booking-and-payment-app-for-tattoo-artists)**：一位前程式設計師花一個週末用 Replit Agent 做出預約 app，含行事曆、Google OAuth、Stripe 訂金和通知，不過時區和 UI 需要來回調整。
+- **[為房東做租客管理入口網站](https://agentusecases.ai/use-case/build-a-tenant-management-portal-for-landlords)**：一位留言者用 Replit 花五天做出房東用的租客管理入口，有 31 位試用者，營收還不清楚。
+- **[為軟體專案跑常駐的專案經理 agent](https://agentusecases.ai/use-case/run-a-persistent-project-manager-agent-for-a-software-projec)**：一位使用者嘗試把自己的 Dot 設成常駐專案經理，協調大型軟體專案，但它沒辦法穩定維持原本要用來協調的那個單一 agent session。
+- **[照著現有模組的結構建立第二個模組](https://agentusecases.ai/use-case/scaffold-a-second-module-from-an-existing-one-s-structure)**：一位留言者請 Cursor 照另一個模組的結構建立第二個模組，但失敗了，因為它沒有讀相關檔案。
+- **[產生內部儀表板和資料遷移腳本](https://agentusecases.ai/use-case/generate-internal-dashboards-and-data-migration-scripts)**：一位後端工程師說他們團隊用 Devin 做內部儀表板和遷移腳本，把產出當成起點，省下大約四小時的樣板程式碼。
+- **[用 1,393 個 subagent 重構百萬行 repo](https://agentusecases.ai/use-case/refactor-a-million-line-repo-with-1-393-subagents)**：一位 Nous Research 開發者讓 Hermes 在約 19 小時內派出 1,393 個 subagent 整理自己的 repo，在已合併的 PR 中把非測試的 Python 原始碼減少 34.4%。
+- **[用 24 小時 agent 連續執行做出專案管理工具](https://agentusecases.ai/use-case/build-a-project-management-tool-with-a-24-hour-agent-run)**：讓 Cursor agent 連續跑 24 小時做出專案管理工具，app 功能完整可用，但還沒到能上線的程度。
+- **[用 AI agent 在模擬環境驗證韌體](https://agentusecases.ai/use-case/validate-firmware-in-simulation-with-ai-agents)**：Simantic 提供虛擬開發板和韌體 code reviewer 給 AI agent，不用實體硬體也能測試韌體。
+- **[用 AI 討論功能規格再交給 coding agent](https://agentusecases.ai/use-case/spec-features-with-ai-and-hand-off-to-coding-agent)**：作者先和 AI agent 或 ChatGPT 討論規格，再交給 agent 去寫程式，並測試成果，不會逐行閱讀。
+- **[用 CLI skill 取代吃 token 的 Jira 和 GitLab MCP](https://agentusecases.ai/use-case/replace-token-heavy-jira-and-gitlab-mcps-with-cli-skills)**：作者讓 Claude 對 Atlassian 和 GitLab 的 CLI 跑 --help，把操作存成 Markdown，做出輕量的 agent 外掛，降低 token 用量。
+- **[用 ChatGPT 根據症狀和程式碼診斷 Swift 錯誤](https://agentusecases.ai/use-case/diagnose-swift-errors-with-chatgpt-from-symptoms-and-code)**：一位 Swift 開發者把錯誤症狀和程式碼丟給 ChatGPT，取得原因的初步線索，再檢查它產生的程式碼。
+- **[用 Claude Code 寫 Linux kernel 改進](https://agentusecases.ai/use-case/write-a-linux-kernel-improvement-with-claude-code)**：依標題所述，Linus Torvalds 正在做一個用 Claude Code 寫的相當大的 Linux kernel patch。
+- **[用 Claude Code 管理 NixOS 伺服器設定](https://agentusecases.ai/use-case/manage-nixos-server-configs-with-claude-code)**：作者用 Claude Code 維護自架主機的 NixOS 設定 repo，禁止它執行 nixos-rebuild switch，每項改動都先 review，再自己手動套用。
+- **[用 Claude Code 遷移工具鏈、架構與網站設計](https://agentusecases.ai/use-case/migrate-toolchain-architecture-and-site-design-with-claude-c)**：一位開發者讓 Claude Code 把 monorepo 換成 oxlint/oxfmt、重整架構並改版網站，邊做邊用迴圈驗證，改版只花幾天而不是幾週。
+- **[用 Claude Code 遷移舊產品技術堆疊](https://agentusecases.ai/use-case/migrate-a-legacy-product-stack-with-claude-code)**：一位工程師做了概念驗證，把 4 個 repo 合併成 2 個、MySQL 換成 PostgreSQL、升級框架並替換認證模型，約花 15 個工作天。
+- **[用 Claude Code 重新編譯 1991 年的組合語言 PC 遊戲](https://agentusecases.ai/use-case/recompile-a-1991-assembly-pc-game-with-claude-code)**：作者用 Claude Code CLI 搭配 Sonnet，讓自己 1991 年的 386+ 組合語言遊戲原始碼重新能編譯。
+- **[用 Claude 修 Linux kernel 的記憶體管理問題](https://agentusecases.ai/use-case/fix-a-linux-kernel-memory-management-problem-with-claude)**：Linus Torvalds 用 Claude 為一個 kernel 記憶體管理問題寫程式、單元測試、文件、debug hook 和做 review，benchmark 由他自己跑，結果還是漏了一個 race condition。
+- **[用 Codex review agent 篩選面試的程式作業](https://agentusecases.ai/use-case/screen-interview-code-submissions-with-a-codex-review-agent)**：一位留言者用 Codex 搭配針對性的 agents.md 做第一關的 code review，改動或新增檔案太多的作業就直接退件。
+- **[用 Codex 做本機知識 app 收納 agent 產出](https://agentusecases.ai/use-case/build-a-local-knowledge-app-for-agent-outputs-with-codex)**：作者用四個 Codex agent 跨 30 多個 session 做出 Mianotes，把 agent 產出的零散檔案集中起來，產品本身的文件也是 agent 在裡面寫的。
+- **[用 Copilot Agent Mode 跑更長的寫程式 session](https://agentusecases.ai/use-case/run-longer-coding-sessions-with-copilot-agent-mode)**：一位開發者從問 Copilot 語法問題，進展到用 agent-mode 跑整段 session，模型換成 Claude Sonnet，並嘗試做更完整的東西。
+- **[用 Copilot Agents 遷移大型網頁應用](https://agentusecases.ai/use-case/migrate-a-large-web-application-with-copilot-agents)**：一位開發者發現 Copilot Chat 處理大型網頁 app 的遷移很吃力，改用 Copilot Agents 後處理程式碼的表現比較好，不過遷移還在早期階段。
+- **[用 Copilot CLI 的 autopilot 和 fleet 反覆處理任務](https://agentusecases.ai/use-case/iterate-on-tasks-with-copilot-cli-autopilot-and-fleet)**：作者用 autopilot 反覆迭代直到完成，用 /fleet 把工作分給平行的 subagent，並提到小任務會有額外負擔。
+- **[用 Copilot agent mode 執行終端機指令](https://agentusecases.ai/use-case/run-terminal-commands-with-copilot-agent-mode)**：使用者回報 agent 有時讀不到終端機輸出，還可能把正確的程式碼改回去，變通辦法包括換 shell。
+- **[用 Copilot chat 和 agent mode 更新程式碼](https://agentusecases.ai/use-case/update-a-code-base-with-copilot-chat-and-agent-mode)**：一位留言者用 Copilot 的 chat 和 agent mode 更新程式碼，喜歡 CLI 的 autopilot 模式和 todo tool。
+- **[用 Copilot 做 pull request review agent](https://agentusecases.ai/use-case/build-a-pull-request-review-agent-with-copilot)**：一位開發者被公司要求用 Copilot 做 PR review agent，因為原生 review 只支援 GitHub，所以在考慮針對 Azure 走自訂 API 的做法。
+- **[用 Copilot 寫棘手的 Flutter 函式](https://agentusecases.ai/use-case/write-a-tricky-flutter-function-with-copilot)**：發文者請 Copilot 為他的 app 寫一個困難的 Flutter 函式，另一位留言者則把書面需求和程式碼範例交給它轉成能用的成果，再自己建測試框架。
+- **[用 Cursor agent mode 做小功能和整合](https://agentusecases.ai/use-case/build-small-features-and-integrations-with-cursor-agent-mode)**：一位留言者用 Cursor agent mode 做較小的功能、第三方整合、背景工作、通知和活動追蹤，並讓它把重要發現記到 worklog 檔，供下一次執行參考。
+- **[用 Cursor background agent 保持文件最新](https://agentusecases.ai/use-case/keep-docs-updated-with-cursor-background-agents)**：留言者用 Cursor background agent 讓文件保持最新，也從 Slack 討論串啟動任務，再接到 Cursor 繼續做。
+- **[用 Cursor 升級網站的相依套件和框架](https://agentusecases.ai/use-case/upgrade-site-dependencies-and-frameworks-with-cursor)**：Kent C. Dodds 讓 Cursor 的 agent 查遷移文件、規劃，並把他網站的 Remix v2 升級到 React Router v7，另外也升級了 xstate。
+- **[用 Cursor 的 agent 更新並發布 app](https://agentusecases.ai/use-case/update-and-ship-an-app-using-cursor-s-agent)**：發文者完全用 Cursor 做出並發布了 TaskNavi v1.2.0，覺得改程式碼時 Composer 的 Agent mode 比 Chat 好用。
+- **[用 Cursor 除錯正式環境的 pod 和 docker-compose](https://agentusecases.ai/use-case/debug-prod-pods-and-docker-compose-with-cursor)**：一位 DevOps 工程師用 Cursor 搭配 Kubernetes MCP 拉正式環境的 log 並建議修法，也用它修好壞掉的 docker-compose 檔。
+- **[用 Devin 一步一步做出優惠頁面](https://agentusecases.ai/use-case/build-a-deals-page-step-by-step-with-devin)**：一位工程師讓 Devin 分階段實作優惠頁面，它不到 10 分鐘就開了 PR，但 CI 失敗，還加了不必要的改動，對某個函式庫也給了錯誤的答案。
+- **[用 Devin 修正式環境的布林旗標 bug](https://agentusecases.ai/use-case/fix-a-production-boolean-flag-bug-with-devin)**：一位評測者讓 Devin 修正式網站的 bug，它約十分鐘就交出 PR，但夾帶了不相關的改動，例如移除一項安全檢查。
+- **[用 Devin 做 app、除錯 repo 和建立 CI/CD](https://agentusecases.ai/use-case/build-apps-debug-repos-and-set-up-ci-cd-with-devin)**：一篇評測列出 Devin 做出全端待辦 app、替一個公開 repo 除錯並開 PR，以及處理 Docker 設定、部署和 CI/CD。
+- **[用 Devin 做計算機網頁 app 並重構](https://agentusecases.ai/use-case/build-a-calculator-web-app-and-refactor-it-with-devin)**：Scott Logic 的一位開發者用 Devin 做了計算機網頁 app，再請它規劃重構這份肥大的程式碼，把計畫分段餵回去後，專案大小少了約 60%。
+- **[用 Devin 建置並測試簡單的 endpoint 專案](https://agentusecases.ai/use-case/build-and-test-a-simple-endpoint-project-with-devin)**：一位評測者讓 Devin 在一個簡單任務上建專案、寫程式、裝相依套件、測 endpoint 並加錯誤處理，大約 4 分鐘完成。
+- **[用 Devin 把 React MUI 元件轉成 Tailwind](https://agentusecases.ai/use-case/convert-react-mui-components-to-tailwind-with-devin)**：Lumos 用 Devin 做 MUI 轉 Tailwind 這類例行工作，進行得很順利，它的單元測試回饋迴圈也減少了重寫。
+- **[用 Devin 更新 AI CLI 工具的文件頁](https://agentusecases.ai/use-case/update-a-docs-page-of-ai-cli-tools-with-devin)**：使用者請 Devin 更新一頁列出 AI coding CLI 工具的文件，它 5 分鐘就開了 PR，但另一個任務要來回很多次才找齊所有檔案。
+- **[用 GitHub bot 分類 issue 並開修復 PR](https://agentusecases.ai/use-case/triage-issues-and-open-fix-prs-with-a-github-bot)**：一份 cookbook 示範 GitHub bot 如何分類 issue、審 PR、附引用回答問題、標出 AI 垃圾貢獻，並開出修補 PR 交給人工審查。
+- **[用 LLM agent 把口述規格變成 ticket 和程式碼](https://agentusecases.ai/use-case/turn-dictated-specs-into-tickets-and-code-with-llm-agents)**：一位開發者口述規格，讓 LLM 把它補得更完整，接著規劃並建立專案骨架，再由 agent 依模組開實作 ticket。
+- **[用 MCP server 診斷 Kubernetes 警報](https://agentusecases.ai/use-case/diagnose-kubernetes-alerts-with-mcp-servers)**：一個由 Alertmanager 觸發的 n8n agent 會查詢 Kubernetes、Grafana 和其他 MCP server，並在 Mattermost 討論串貼出含根因假設的診斷報告。
+- **[用 Manus 做出完整 app](https://agentusecases.ai/use-case/build-a-full-app-with-manus)**：一位使用者在 Manus 上做出整個 app，起步很順，但點數用完後，卡在 Apple 與 Manus 之間的帳務客服迴圈。
+- **[用 Manus 做安全資料表檢索系統](https://agentusecases.ai/use-case/build-a-safety-data-sheet-retrieval-system-with-manus)**：作者幾乎完全透過 Manus 做出 SDS 檢索 app，它會在網路上找到對的 SDS PDF、下載、擷取文字並解析成 JSON schema。
+- **[用 Manus 做網站](https://agentusecases.ai/use-case/build-a-website-with-manus)**：一位使用者讓 Manus 做網站，但在 Manus 沙盒外無法存取，所以沒辦法直接登入去改後端。
+- **[用 Manus 大量產生程式碼](https://agentusecases.ai/use-case/generate-large-amounts-of-code-with-manus)**：一位使用者讓 Manus 快速產出大量軟體專案的程式碼，但有幾次弄丟成果，只好另外加存檔點機制。
+- **[用 Manus 寫程式並透過 GitHub 和 Vercel 自動部署](https://agentusecases.ai/use-case/code-with-manus-and-auto-deploy-via-github-and-vercel)**：一位 G2 評測者主要用 Manus 寫程式，把程式碼推到連結 Vercel 的 GitHub，成果就會直接上線到他的網站。
+- **[用 Manus 更新數位資產平台](https://agentusecases.ai/use-case/update-a-digital-assets-platform-with-manus)**：Mufasa 用 Manus 檢視功能、反覆修改 mockup，並為 Genesis v2.0 新增的 AI 自動化領域產生程式碼。
+- **[用 Muse agent 做 iCloud skill](https://agentusecases.ai/use-case/build-an-icloud-skill-with-a-muse-agent)**：一位螢幕閱讀器使用者請 Muse agent 做 iCloud skill，它確實做出了東西，但文字欄位和對話導覽的無障礙問題造成阻礙。
+- **[用 OpenClaw 從 Telegram 執行正式環境部署和連接埠掃描](https://agentusecases.ai/use-case/run-production-deploys-and-port-scans-from-telegram-with-ope)**：一位資安人員用 OpenClaw agent，正式環境只有唯讀權限、變更只能走 PR、重啟需手動核准，用來部署變更並掃描 VPS 有沒有暴露的連接埠。
+- **[用 OpenCode 加 DeepSeek 取代 Claude Code 寫程式](https://agentusecases.ai/use-case/code-with-opencode-and-deepseek-instead-of-claude-code)**：一位開發者把 coding agent 從 Claude Code 換成 OpenCode 搭配 DeepSeek，表示寫程式的品質相當，成本低很多。
+- **[用 PRD 做規劃，再把任務交給較便宜的 agent](https://agentusecases.ai/use-case/plan-with-prds-and-delegate-tasks-to-cheaper-agents)**：一位開發者在正式工作流程中，先用高階 agent 寫 PRD，拆成任務清單，再把工作交給比較便宜的 agent。
+- **[用 Playwright MCP 和 Claude Code 寫 Playwright 測試](https://agentusecases.ai/use-case/write-playwright-tests-with-playwright-mcp-and-claude-code)**：一份教學，示範用 Playwright MCP 搭配 Claude Code 在幾分鐘內生出 Playwright 測試。
+- **[用 QA agent 探索網頁和行動 app 來抓 bug](https://agentusecases.ai/use-case/catch-bugs-by-exploring-web-and-mobile-apps-with-qa-agents)**：Momentic 的 agent 會自主規劃、探索並對網頁、iOS 和 Android app 的使用流程做 bug 大掃除，服務工程團隊。
+- **[用 Replit Agent 9 小時做出 AI 待辦清單網頁 app](https://agentusecases.ai/use-case/build-an-ai-to-do-list-web-app-in-9-hours-with-replit-agent)**：發文者用 Replit Agent V2 約花九小時，做出功能完整的 AI 待辦清單網頁 app。
+- **[用 Replit Agent 做心理健康 app](https://agentusecases.ai/use-case/build-a-mental-health-app-with-replit-agent)**：發文者用 Replit Agent 做出心理健康陪伴 app YANA，購買邏輯大多是它寫的，App Store 被退件的問題還沒解決。
+- **[用 Replit Agent 做第一個真正的專案](https://agentusecases.ai/use-case/build-a-first-real-project-with-replit-agent)**：一位學生用 Replit Agent 完成了一個真實專案，agent 用量花了約 65 美元，費用超出預期。
+- **[用 Replit Agent 做遊戲攻略聊天機器人和瀏覽器遊戲](https://agentusecases.ai/use-case/build-a-game-guide-chatbot-and-browser-game-with-replit-agen)**：一位使用者用 Replit 先做了導覽電玩遊戲的聊天機器人 app，再做了瀏覽器遊戲，agent 有幫上忙，但也做了很多沒被要求的額外改動。
+- **[用 Replit 做午夜會消失的社群 app](https://agentusecases.ai/use-case/build-a-midnight-vanishing-social-media-app-with-replit)**：一位使用者用 Replit 做了很複雜的社群 app，有會消失的貼文、媒體、私訊、群組和 AI 角色，想問有沒有人真的做完過這種專案。
+- **[用 Replit 把第一個 iOS app 上架 App Store](https://agentusecases.ai/use-case/ship-a-first-ios-app-to-the-app-store-with-replit)**：發文者在 Replit 上靠 ChatGPT 幫忙做出第一個 app，並通過 App Store 審核。
+- **[用 Replit 維護有獲利的 Stripe 收款 app](https://agentusecases.ai/use-case/maintain-a-profitable-stripe-backed-app-with-replit)**：一位留言者用 Replit 做的 app 銷售額達到約 2 萬英鎊，他用 agent 找重複的程式碼、整理程式，並加上 reCAPTCHA 之類的安全防護。
+- **[用 Telegram 指令遠端修 bug 並發佈 app](https://agentusecases.ai/use-case/fix-bugs-and-release-an-app-remotely-via-telegram-command)**：一位留言者在離開筆電時，透過 Telegram 叫 Gemini 修 bug、測試並發佈他的 app。
+- **[用 agent 做多租戶 SaaS](https://agentusecases.ai/use-case/build-a-multi-tenant-saas-with-an-agent)**：發文者用 Replit Agent 花 15 天做出正式環境的多租戶 SaaS，但碰到 RLS 被繞過、正式環境連到開發資料庫等問題，所以一定要檢查它的成果。
+- **[用 agent 寫程式，同時保持對程式的理解](https://agentusecases.ai/use-case/build-code-with-agents-while-keeping-a-working-understanding)**：一位開發者的工作流程是，agent 會針對模糊處訪談他、自己做小決定、產生說明文件和測驗，並在 coding loop 裡跑 verifier。
+- **[用 agent 從頭到尾建好新服務](https://agentusecases.ai/use-case/scaffold-a-new-service-end-to-end-with-agents)**：Cursor agent 會建立 Terraform、k8s manifest 和 CI，驗證後開 draft PR，有一次清理時誤刪了 Terraform 檔案。
+- **[用 agent 打造經形式化驗證的 Lean 網頁 app 執行環境](https://agentusecases.ai/use-case/build-a-formally-verified-lean-web-app-runtime-with-an-agent)**：一位 agentic 工程師在他的高層指導下，讓 Claude 做出 Lasm，可在瀏覽器、Node、serverless 和 edge 環境執行 Lean 網頁 app。
+- **[用 agent 把 Copilot runtime 移植到 Rust](https://agentusecases.ai/use-case/port-the-copilot-runtime-to-rust-agentically)**：依標題所說，Microsoft 據報用 agent 以 12 萬美元把 Copilot runtime 移植到 Rust。
+- **[用 agent 把 runtime 從 TypeScript 改寫成 Rust](https://agentusecases.ai/use-case/rewrite-a-runtime-from-typescript-to-rust-with-agents)**：GitHub 工程師用 Copilot 工具讓 agent 寫了 Copilot runtime 改寫成 Rust 的大部分內容，共 80 萬行、128 個 PR，過程中修了幾個 regression。
+- **[用 agent 除錯並修復開源 bug 與補測試](https://agentusecases.ai/use-case/debug-and-fix-open-source-bugs-with-tests-via-agents)**：作者用 coding agent 替一個開源系統工具的兩個 bug 除錯，並自主實作修復與測試，最後送出兩個 PR。
+- **[用 background agent 把未結的 GitHub issue 變成 PR](https://agentusecases.ai/use-case/turn-an-open-github-issue-into-a-pr-with-a-background-agent)**：一位開發者把 Cursor background agent 指向 Terraform repo 的一個未結 issue，它約 3 分鐘就開了 PR，不過 PR 描述和標題需要修正。
+- **[用 bot 團隊 72 小時內推出產品](https://agentusecases.ai/use-case/ship-a-product-in-72-hours-with-a-bot-team)**：三位 SpaceX 工程師用 Grok Bot 團隊，從空 repo 做到有 433 個 PR 的產品，agent 會重現 bug 並自主合併，只有 migration 和部署需要人工把關。
+- **[用 coding agent 做新舊 app](https://agentusecases.ai/use-case/build-old-and-new-apps-with-coding-agents)**：Terence Tao 說明他如何用現代 coding agent 來做新 app 或讓舊 app 復活（依文章標題推測）。
+- **[用 coding agent 的 PR 升級相依套件](https://agentusecases.ai/use-case/bump-a-dependency-via-a-coding-agent-pr)**：一位貢獻者叫 Copilot agent 升級 SDK repo 裡的 @github/copilot 相依套件，產生的 PR 有 package 和 lockfile 更新，另外還多了一些 lockfile 變動。
+- **[用 coding agent 解決 Slack 上回報的問題](https://agentusecases.ai/use-case/resolve-a-slack-reported-issue-with-a-coding-agent)**：一個 Codex agent 大約 40 分鐘就解決了交給它的 issue，再由 ops agent 回到 Slack 驗證修復。
+- **[用 computer use 掃描 app 的 UX 改善點](https://agentusecases.ai/use-case/scan-an-app-for-ux-improvements-with-computer-use)**：一位使用者在 Windows 上試了 Claude Code 的 computer-use 功能來掃描自己 app 的 UX 改善點，並問在那邊是否好用。
+- **[用 property testing 的 agent 群找 bug](https://agentusecases.ai/use-case/find-bugs-with-property-testing-agent-swarms)**：做 property testing 的 agent 群在作者工作的程式碼裡找到約 30 個 bug，接著在 uv 等開源專案找到約 100 個 bug，很多修復已被 merge。
+- **[用 review agent 和測試對照使用者意圖檢查程式碼](https://agentusecases.ai/use-case/check-code-against-user-intent-with-review-agents-and-tests)**：一位開發者讓 agent 重讀所有使用者訊息來重新推導意圖，再拿程式碼和測試去對照，並在一份經過 review 的 todo 檔裡追蹤工作。
+- **[用 shell 指令跑 build、測試和建立 PR](https://agentusecases.ai/use-case/run-builds-tests-and-pr-creation-with-shell-commands)**：一份指南展示 Scout 執行 build、測試、lint 和 gh 指令、列出或建立 PR，並把 diff 審查和測試執行交給背景 sub-agent。
+- **[用一句 prompt 做出並部署會議 app](https://agentusecases.ai/use-case/build-and-deploy-a-meeting-app-from-a-prompt)**：一位使用者讓 Replit Agent 做出一個有儀表板、邏輯和分析功能的會議 app，不用手動改程式碼就部署上線。
+- **[用一次到位的 coding agent 把 ticket 變成合併的 PR](https://agentusecases.ai/use-case/turn-tickets-into-merged-pull-requests-with-one-shot-coding-)**：Stripe 介紹內部的 Minions coding agent，能端到端把任務做成程式碼變更，這篇只有標題資訊。
+- **[用一組平行 agent 打造 C 編譯器](https://agentusecases.ai/use-case/build-a-c-compiler-with-a-team-of-parallel-agents)**：Anthropic 工程團隊的文章，介紹讓 Opus 4.6 agent 團隊建造 C 編譯器。
+- **[用一群並行 coding agent 打造 SQLite](https://agentusecases.ai/use-case/build-sqlite-with-a-swarm-of-parallel-coding-agents)**：作者回顧用並行 coding agent 做出 SQLite 實作的經過，並分享心得。
+- **[用三個工具在 R 裡做出能用的 coding agent](https://agentusecases.ai/use-case/build-a-working-coding-agent-in-r-from-three-tools)**：作者從三個工具開始，在 R 裡做出一個能用的 coding agent，再加上更多工具讓它更安全、更有效率。
+- **[用並行 sub-agent 做多階段 PR review](https://agentusecases.ai/use-case/run-multi-stage-pr-reviews-with-parallel-sub-agents)**：一個 Claude Code 外掛，用 sub-agent 和驗證流程分階段審查 PR，還可選擇透過 Codex 做 ensemble review。
+- **[用分層的 agent 審查流程 review AI 寫的程式碼](https://agentusecases.ai/use-case/review-ai-written-code-with-a-layered-agent-review-process)**：Anthropic 的 Claude Code 團隊說明他們如何調整 code review 流程，讓 Claude 能寫出 Claude Code 大部分的程式碼。
+- **[用同一個前端操作多台機器和 VPS 上的 coding agent](https://agentusecases.ai/use-case/run-coding-agents-from-one-front-end-across-machines-and-vps)**：一位開發者用 T3 Code 當前端，在個人電腦和 VPS 上操作 Claude Code、Codex 和 pi，工作上則用 Copilot，拿來實作任務、草擬 commit message 和 PR 摘要。
+- **[用唯讀權限的 Claude 診斷 AWS 問題](https://agentusecases.ai/use-case/diagnose-aws-issues-with-read-only-claude-access)**：一位新創公司的工程師讓 Claude 以唯讀權限存取 AWS、log 和資料庫，它會自己調查問題並寫報告，不過偶爾會亂編。
+- **[用單一 prompt 做記帳預算 app](https://agentusecases.ai/use-case/build-a-budgeting-app-from-a-single-prompt)**：一位低程式碼使用者用 Replit Agent 約 20 分鐘做出「Budget Buddy」，有分類預算、支出儀表板和支出紀錄，用掉一半的月點數。
+- **[用多 agent 開發團隊建立心智模型框架](https://agentusecases.ai/use-case/build-a-mental-models-framework-with-a-multi-agent-dev-team)**：一位個人創辦人把 Claude、ChatGPT、Windsurf 和 Cursor 當成分角色的團隊成員，設計、測試並部署了包含 120 個模型的心智模型框架和 MCP server。
+- **[用多種設計方案重新設計管理功能](https://agentusecases.ai/use-case/redesign-an-admin-feature-with-multiple-design-options)**：一位使用者請 Codex 重新設計一個管理功能並產出五種設計，結果每一種他都喜歡。
+- **[用容器和 hooks 安全地跑 Cursor agent mode](https://agentusecases.ai/use-case/run-cursor-agent-mode-safely-with-containers-and-hooks)**：發文者在真實專案上跑 Cursor agent mode，包括一個 Twilio 語音 agent，用容器、hooks 和各種防護來保護環境。
+- **[用對話方式請 Claude 寫 Apple II 軟體](https://agentusecases.ai/use-case/create-apple-ii-software-by-conversation-with-claude)**：作者做了一個有乙太網路的 Apple IIe 用戶端，透過 Mac proxy 和 Claude 對話來寫程式，再把新程式載入記憶體。
+- **[用對話設定本機 AI 實驗室並建立知識圖譜](https://agentusecases.ai/use-case/configure-a-local-ai-lab-and-build-a-knowledge-graph-by-chat)**：使用者讓 Hermes Agent 架設本機 AI 環境（liteLLM、Postgres、Prometheus、Grafana），並安裝 Gbrain 當 MCP server 來建立個人知識圖譜。
+- **[用懂 MDN 的小幫手寫更好的 CSS](https://agentusecases.ai/use-case/write-better-css-with-an-mdn-aware-helper)**：一個 MCP server，會查詢 MDN 文件、回報瀏覽器相容性，並替 agent 分析你的 CSS。
+- **[用手機寫程式](https://agentusecases.ai/use-case/code-from-your-phone)**：一篇介紹在外面也能用 Claude Code 的設定做法。
+- **[用會 benchmark 和 profile 的 agent 優化 CUDA kernel](https://agentusecases.ai/use-case/optimize-cuda-kernels-with-agents-that-benchmark-and-profile)**：AI agent 跑 C++ CUDA 測試框架、取得 benchmark，並用 Nsight 做 profile 來優化 kernel，用 LangGraph 打造。
+- **[用本地搜尋 agent 更快找到程式碼](https://agentusecases.ai/use-case/find-code-faster-with-a-local-search-agent)**：一個小型本地 agent 會操作 ColGrep 多向量程式碼搜尋並讀檔案，找東西更快更省，也能接進 Claude Code。
+- **[用測試驅動的 agent 開發做出開發工作流程產生器](https://agentusecases.ai/use-case/build-a-dev-workflow-generator-with-test-driven-agent-coding)**：作者做了一個開源系統，透過訪談產生專屬於專案的開發工作流程，全程用 Claude Code 完成，它寫並除錯了 550 多個測試。
+- **[用瀏覽器 agent 除錯前端 UI bug](https://agentusecases.ai/use-case/debug-frontend-ui-bugs-with-a-browser-agent)**：一位前端開發者把 Claude in Chrome 和 Claude Code 搭配使用，開啟 app、逐步點擊、讀 DOM、檢查 console 錯誤和網路請求，並修好 UI bug。
+- **[用白話文管理 Canvas 課程](https://agentusecases.ai/use-case/manage-canvas-courses-in-plain-english)**：作者用 Claude Code 做了 Canvas LMS 工具，讓教育工作者能列出課程、找出缺交作業、監看討論區、排程公告和匯出成績簿。
+- **[用第二個 agent 交叉檢查 coding agent 的答案](https://agentusecases.ai/use-case/cross-check-coding-agent-answers-with-a-second-agent)**：發文者做了一個工具，自動把 Claude Code 的回覆送給 Codex 取得第二意見，取代手動複製貼上。
+- **[用簡單的 prompt 做 app（部分成功）](https://agentusecases.ai/use-case/build-an-app-from-a-simple-prompt-partial-result)**：發文者請 Replit 用一個簡單的 prompt 做 app，但登入功能不能用，在貼錯誤訊息給它的過程中就用完了免費額度。
+- **[用精簡版 MCP server 分析 AWS 成本](https://agentusecases.ai/use-case/triage-aws-costs-with-a-slimmer-mcp-server)**：作者把 AWS 成本分析的 MCP server 從 15 個 tool 重做成 4 個，一個問題的 tool call 從 7 次降到 2 次，schema 小了 88%。
+- **[用終端機 coding agent 審查數百個 pull request](https://agentusecases.ai/use-case/audit-hundreds-of-pull-requests-with-a-terminal-coding-agent)**：在一項獨立測試中，Muse Code 不到五分鐘、花約十美分就審完 222 個 pull request，但也針對一個不存在的 Google 專案做了計畫。
+- **[用自動化的多 agent 驗證和 review 迴圈來實作規格](https://agentusecases.ai/use-case/build-specs-through-automated-multi-agent-verification-and-r)**：一位開發者先寫好規格，再讓實作引擎去做，由不同 agent 和模型進行多輪 review、分類問題並反覆迴圈，直到程式碼符合規格。
+- **[用行事曆和 Stripe 沙盒做預約 app](https://agentusecases.ai/use-case/build-a-booking-app-with-calendar-and-stripe-sandbox)**：一位評測者讓 Manus 在約 40 分鐘內做出可上線的預約 app，含行事曆、Stripe 沙盒和測試資料，但 email 不穩定，手機版面需要手動修。
+- **[用規劃指令流程把想法變成實作](https://agentusecases.ai/use-case/take-ideas-to-implementation-with-a-planning-command-pipelin)**：一位 SaaS 獨立創辦人用自訂的五步 agent 流程（意圖、影響分析、規劃、執行、審查）搭配 lint 護欄，在正式產品上交付功能。
+- **[用評審 subagent 和多階段 review 開發 app](https://agentusecases.ai/use-case/build-apps-with-a-judge-subagent-and-multi-stage-review)**：一套 Claude Code 的 app 開發設定，用評審 subagent、context 管理和多階段 review 來控管品質。
+- **[用試算表做姓名與臉孔配對測驗網站](https://agentusecases.ai/use-case/build-a-name-and-face-quiz-site-from-a-spreadsheet)**：Scott Wu 讓 Devin 根據講者姓名和照片的 TSV 檔，做出並部署手機友善的 React 測驗，另外還有 QR code 網站可以分享。
+- **[用語音搭配 Claude Code 免手持除錯](https://agentusecases.ai/use-case/debug-code-hands-free-by-voice-with-claude-code)**：作者做了一套本地的語音轉文字與文字轉語音，透過 MCP 接上 Claude Code，並在刷牙時用它免手持除錯 WhatsApp 整合。
+- **[用量到上限時，在 agent 帳號之間交接 coding session](https://agentusecases.ai/use-case/hand-off-coding-sessions-between-agent-accounts-at-usage-lim)**：一位開發者做了一個 app，追蹤多個 Codex 和 Claude Code 帳號的用量，其中一個到達上限時就自動把對話交接出去。
+- **[用長時間執行的 agent 把 GitHub issue 變成 draft PR](https://agentusecases.ai/use-case/turn-github-issues-into-draft-pull-requests-with-long-runnin)**：作者把 Dots 用在讀取量大的長期任務，例如讀 GitHub issue 並做 PR，成果通常不太好，但能當個起點。
+- **[用長時間運作的 agent 監控任務並開 pull request](https://agentusecases.ai/use-case/monitor-tasks-and-open-pull-requests-with-long-running-agent)**：一位留言者跑著一支常駐腳本盯任務，並用 Cursor 開 pull request，做出了文件摘要器和資料 pipeline。
+- **[盤點某個功能的問題，再交給工程師的 agent 處理](https://agentusecases.ai/use-case/audit-a-feature-s-issues-and-hand-them-to-an-engineer-s-agen)**：一個 AI agent 列出某功能的所有問題並送給一位工程師，那位工程師自己的 agent 接著自動處理了大部分。
+- **[管理 WordPress、Astro 和 Eleventy 的多個網站](https://agentusecases.ai/use-case/manage-several-websites-across-wordpress-astro-and-eleventy)**：發文者用 OpenClaw，搭配 Claude Code 和 Codex，管理並處理大約五個網站。
+- **[純靠 prompt 做邀請卡網站](https://agentusecases.ai/use-case/build-an-invitation-card-website-purely-by-prompting)**：一位使用者為女朋友做了純前端的邀請網站，有動畫、圖片和導覽，全程只對 Cursor 下指示，沒碰程式碼。
+- **[給 agent 一支機架上的手機，透過 ADB 操作](https://agentusecases.ai/use-case/give-an-agent-a-rack-mounted-phone-to-operate-over-adb)**：作者架了一支機架式的 Fairphone 6，讓他的 agent 可以透過 ADB 使用。
+- **[給 coding agent 編譯器等級準確的 C# Find Usages](https://agentusecases.ai/use-case/give-coding-agents-compiler-accurate-find-usages-for-c)**：Graphify C# 讓 coding agent 能以編譯器等級的準確度，在 C# 程式碼中找出 symbol 的使用處。
+- **[統籌多階段的 RAG 遷移](https://agentusecases.ai/use-case/orchestrate-a-multi-phase-rag-migration)**：一份教學，說明如何用 Gemini CLI 協調複雜的多階段雲端遷移專案。
+- **[自主修 app bug、強化安全並發佈修復](https://agentusecases.ai/use-case/fix-app-bugs-harden-security-and-ship-fixes-autonomously)**：Omar 在上班時用 Hermes Agent 修他健康 app 的高優先 bug、隔離瀏覽器登入、設計資訊圖橫幅，並在驗證健康檢查後發佈正式環境修復。
+- **[自主完成軟體功能（部分成功）](https://agentusecases.ai/use-case/deliver-a-software-feature-autonomously-partial)**：Claude computer use 為一個規劃好的功能產出 70 個檔案，但程式碼不能跑，作者只好改回手動作業。
+- **[自動修 Snyk 漏洞並開 PR](https://agentusecases.ai/use-case/fix-snyk-vulnerabilities-and-open-prs-automatically)**：一位開發者做了 Claude Code/Cursor 的工作流程，會讀漏洞工單、更新相依套件和 lockfile、開 PR 並監控 CI，merge 仍維持手動。
+- **[自動審查 GitHub pull request](https://agentusecases.ai/use-case/review-github-pull-requests-automatically)**：一個 n8n AI agent 在每個新 PR 觸發，抓取 diff，呼叫 LLM 做審查，再把留言和標籤貼回 PR。
+- **[自動測試整個 iOS app 並回報 bug](https://agentusecases.ai/use-case/autonomously-test-an-entire-ios-app-and-report-bugs)**：有個工具讓 Claude Code 透過 accessibility tree 操作 iOS app，點過每個畫面，最後回傳結構化的 bug 摘要。
+- **[自動盯著 PR 直到 merge](https://agentusecases.ai/use-case/shepherd-prs-to-merge-automatically)**：機器人每 30 分鐘檢查一次 PR，失敗的退回給雲端 agent 處理，乾淨的 PR 會先 review，信心高又低風險的就自動 merge。
+- **[自己點過 app 來驗證成果](https://agentusecases.ai/use-case/click-through-apps-to-verify-its-own-work)**：Devin 靠 computer use 做出並玩了一款桌面遊戲、在 Amazon 下單，還會一路點過 app 來測試自己的成果。
+- **[花十天做出 AI app](https://agentusecases.ai/use-case/build-an-ai-app-over-ten-days)**：作者花約 10 天用 Replit Agent 做出一個 AI 為基礎的 app，效果不錯，但它有時會忘記指示，並重新帶回不想要的行為。
+- **[處理大型主機與 COBOL](https://agentusecases.ai/use-case/work-on-mainframes-and-cobol)**：Hopper 是一個 agentic 開發環境，針對支撐銀行、支付、保險和航空的大型主機系統。
+- **[視覺化調整網站設計，再讓 agent 寫程式碼](https://agentusecases.ai/use-case/edit-site-design-visually-and-have-an-agent-write-the-code)**：CSS Studio 讓設計師在瀏覽器裡視覺化調整網站，並透過 MCP 把改動串流給現有的 coding agent，由它在程式碼庫中實作。
+- **[解決 git merge 衝突並推送修正](https://agentusecases.ai/use-case/resolve-git-merge-conflicts-and-push-a-fix)**：一份教學展示 Scout 比對 merge 衝突的雙方，提出合併後的檔案供審查，再 commit 並推到分支。
+- **[設定每週 changelog 並依 GitHub issue 修文件](https://agentusecases.ai/use-case/set-up-weekly-changelogs-and-fix-docs-from-github-issues)**：Neon 的文件團隊讓 Devin 依 playbook 產生每週 changelog，並從 GitHub issue 開啟或修改文件 PR，只用在重複性的工作。
+- **[診斷伺服器上被殺掉的 process](https://agentusecases.ai/use-case/diagnose-a-killed-process-on-a-server)**：Codex CLI 透過 SSH 在一台 2 GB、沒有 swap 的 droplet 的 kernel log 裡找到 OOM killer，並依風險列出修法，沒有動任何東西。
+- **[試用 Devin 處理公司程式碼的 pull request](https://agentusecases.ai/use-case/try-devin-for-pull-requests-on-a-company-codebase)**：一位留言者的團隊試了 Devin，發現 PR 很慢而且還是要人工審查，感覺像初階工程師。
+- **[調整 PR 以符合 repo 的慣用風格](https://agentusecases.ai/use-case/restyle-a-pull-request-to-match-repo-house-style)**：一位開發者請 Claude 把 PR 改成 repo 的慣用風格，結果它只把註解改成小寫、變得更沒用，程式碼完全沒動。
+- **[調查壞掉的 build 並合併修復](https://agentusecases.ai/use-case/investigate-broken-builds-and-merge-fixes)**：OpenAI 內部的 OpenClaw agent Androidclaw 用 Git、GitHub 和 log 調查壞掉的 build，追查到事故原因，有時還會準備並合併修復。
+- **[請 coding agent 修正現有的 PR](https://agentusecases.ai/use-case/ask-a-coding-agent-to-fix-an-existing-pr)**：一位開發者請 @copilot 修正現有 PR，它開了新 PR，沒有直接推到原 PR，後來修好了大部分，fork 分支除外。
+- **[讓 Claude Code 無人看管地跑重構](https://agentusecases.ai/use-case/run-a-claude-code-refactor-unattended)**：一個 Claude Code agent 無人看管跑了 40 分鐘做重構，結果能用、測試也過，但使用者看不出它中間做了什麼。
+- **[讓 Claude Code 經營 Chrome 擴充功能專案](https://agentusecases.ai/use-case/let-claude-code-run-a-chrome-extension-project)**：作者讓 Claude Code 擔任一個免費 Chrome 擴充功能的 CEO。第一週它請他改名並做出下一版，但每次發文前仍要他核准。
+- **[讓 Claude 讀 GitHub 程式碼並代為發草稿](https://agentusecases.ai/use-case/have-claude-read-github-code-and-post-drafts)**：一位留言者讓 Claude 從 GitHub 讀程式碼並代為發草稿，也用桌面版的 Claude Code 編輯檔案和執行指令。
+- **[讓 Copilot agent mode 反覆處理複雜的程式任務](https://agentusecases.ai/use-case/let-copilot-agent-mode-iterate-on-involved-coding-tasks)**：一位留言者用 Copilot agent mode 自己挑檔案、跑指令，反覆迭代直到複雜的程式工作完成。
+- **[讓 Copilot coding agent 寫程式並 push](https://agentusecases.ai/use-case/have-copilot-coding-agent-write-and-push-code)**：一位開發者覺得這個 agent 很懂 context 也很會寫程式，但它把東西 push 到分支而讓 main 是空的，被叫去繼續做之後又花了好幾個小時檢查。
+- **[讓 Copilot 寫完一天內 push 的所有程式碼](https://agentusecases.ai/use-case/have-copilot-write-all-of-a-day-s-pushed-code)**：一位留言者讓 Copilot 寫了一天內 push 的每一行程式碼，大致可行，但有一處改錯，需要人工 review。
+- **[讓 GitHub 個人頁和 repo 以英文為主](https://agentusecases.ai/use-case/make-github-profile-and-repos-english-first)**：Codex 盤點帳號、備份內容，並更新 87 個公開 repo 的個人頁、描述和 README 導覽，最後對照 GitHub 驗證變更。
+- **[讓 agent 去修掉軟體上惱人的行為](https://agentusecases.ai/use-case/patch-annoying-software-behavior-by-pointing-an-agent-at-it)**：作者讓 agent 用 hook 系統除錯 Hyper-V vmconnect 的全螢幕 bug，也讓 Codex 去改 Codex app 來加功能。
+- **[讓 agent 反覆優化來加快 Rust 程式](https://agentusecases.ai/use-case/speed-up-rust-code-by-having-agents-iteratively-optimize-it)**：這篇文章談的是請 coding agent 透過反覆迭代讓 Rust 程式跑得更快。
+- **[讓 agent 在 Docker sandbox 裡擴充自己的程式碼](https://agentusecases.ai/use-case/let-an-agent-extend-its-own-code-inside-a-docker-sandbox)**：一個用 Claude 和 Agno 做的 agent 在 Docker 裡替自己的原始碼實作新能力，改動會經過驗證後 commit 或 rollback，目前已經有 21 個以上的能力。
+- **[讓 coding agent 在即時的 Excalidraw 畫布上工作](https://agentusecases.ai/use-case/run-a-coding-agent-on-a-live-excalidraw-canvas)**：Drawgent 是一個在即時 Excalidraw 畫布上工作的 coding agent。
+- **[讓 coding agent 建立並部署 n8n 工作流程](https://agentusecases.ai/use-case/have-a-coding-agent-build-and-deploy-n8n-workflows)**：發文者讓 AI agent 寫工作流程、腳本和設定檔，並透過 n8n 的 REST API 部署，不用手動拉節點。
+- **[讓 coding agent 擁有存在 git 裡的持久記憶](https://agentusecases.ai/use-case/give-coding-agents-git-native-persistent-memory)**：一個把 AI coding agent 的持久記憶存進 git 的工具，讓脈絡可以跨 session 延續。
+- **[讓 coding agent 長時間自主運作](https://agentusecases.ai/use-case/keep-coding-agents-running-autonomously-for-long-stretches)**：Cursor 寫的一篇關於擴大長時間自主寫程式的文章。
+- **[讓會用電腦的 bot 處理任何 repo](https://agentusecases.ai/use-case/point-a-computer-using-bot-at-any-repo)**：一位留言者說 Grok Bot 能操作電腦和瀏覽器，可以指定它去處理任何 repo，不像專屬 repo 的雲端 agent 有限制。
+- **[讓每個人帶著自己的 Claude Code 一起多人寫程式](https://agentusecases.ai/use-case/run-a-multiplayer-coding-session-with-each-person-s-claude-c)**：Claude Squad 讓每位參與者接上自己的 Claude Code 當 agent，每個功能用全新的 context，並有規格和 review 階段。
+- **[讓終端機 agent 打電話](https://agentusecases.ai/use-case/let-terminal-agents-make-phone-calls)**：一個建立在 Twilio 上的 CLI 工具讓終端機 agent 能開口打電話，agent 答不出來的問題會出現在儀表板上。
+- **[讓自己的 pull request 獲得自動程式碼審查](https://agentusecases.ai/use-case/get-automated-code-review-on-your-own-pull-requests)**：一位使用者在私有 repo 的 PR 上用 Copilot code review，但審查卡了好幾小時，最後以錯誤收場。
+- **[讓自製的 agent 修改它自己的 repo](https://agentusecases.ai/use-case/let-a-custom-agent-change-its-own-repository)**：作者自己打造的 agent 對自己的 repo 做出了第一次程式碼變更。
+- **[讓長時間運作的 agent 通宵除錯](https://agentusecases.ai/use-case/debug-overnight-with-a-long-running-agent)**：作者讓 Codex CLI 跑好幾個小時，對著能重現問題的單元測試加 debug print 並驗證各種假設，通常最後只是找到 bug 而已。
+- **[跑一座會開 PR、審 PR、合併 PR 的 AI 軟體工廠](https://agentusecases.ai/use-case/run-an-ai-software-factory-that-opens-reviews-and-merges-prs)**：一份教你打造能開 PR、審 PR、合併 PR 的 agent 指南。
+- **[跑一座自架、沙盒化的軟體工廠](https://agentusecases.ai/use-case/run-a-self-hosted-sandboxed-software-factory)**：一位開發者記錄他幾乎全自架、沙盒化的 agentic 軟體生產流程建置過程。
+- **[跑一整隊工程師 bot 來修 CI 並送出 PR](https://agentusecases.ai/use-case/run-a-fleet-of-engineer-bots-that-fix-ci-and-ship-prs)**：一位 SpaceXAI 工程師跑五個專門的 Grok bot，啟動雲端 agent、修壞掉的 CI 和安全問題、觸發審查，並在夜間送出 PR，同時可處理超過 200 個 agent。
+- **[跑一群沙盒化的 Claude Code 並透過 MCP 共用檔案](https://agentusecases.ai/use-case/run-sandboxed-claude-code-fleet-sharing-files-via-mcp)**：一位開發者跑一群沙盒化的 Claude Code 實例，透過 MCP 工具在虛擬檔案系統上共用檔案，由 orchestrator 處理 AWS 儲存與稽核紀錄。
+- **[跑會做原子 commit 的任務管理 sub-agent](https://agentusecases.ai/use-case/run-a-task-manager-sub-agent-with-atomic-commits)**：發文者做了一個 Claude Code sub-agent，會抓下一個任務、標記完成，並強制要求原子 commit 且必須附 commit id。
+- **[跑會處理 Jira ticket、審 PR 並發送更新的 agent](https://agentusecases.ai/use-case/run-agents-that-work-jira-tickets-review-prs-and-send-update)**：Luke 跑好幾個 Hermes agent，會讀 Jira ticket、寫程式、審 PR、追蹤成本、摘要文件並發送更新。
+- **[跑會開 draft PR 的多 bot 團隊](https://agentusecases.ai/use-case/run-a-multi-bot-team-that-opens-draft-prs)**：一組 Grok 設定包含研究、分類、建置、測試、審查和安全 bot，會梳理 repo、做最小改動、跑測試和 lint，並開 draft PR，作者說已超過 1,000 個 PR。
+- **[跑規劃者加低成本執行者的 subagent 寫程式流程](https://agentusecases.ai/use-case/run-a-planner-and-cheap-executor-subagent-coding-pipeline)**：留言者用 Codex 搭配 GPT-5.5 當規劃者、GPT-5.4 Mini agent 當執行者，讓比較便宜的模型處理原本會太貴的任務。
+- **[跨多個 repo 把 Linear ticket 轉成 PR](https://agentusecases.ai/use-case/route-linear-tickets-to-prs-across-multiple-repos)**：一位開發者透過 Telegram/OpenClaw 把任務送進 Linear，Cyrus 會把每個任務分派到對的 repo 和模型，並開 PR 供審查。
+- **[跨工具用 Devin 發出更多 pull request](https://agentusecases.ai/use-case/ship-more-pull-requests-with-devin-across-tools)**：Ryan Carson 在 iPhone、Slack、瀏覽器、GitHub 和 Linear 上用 Devin 處理實際工作，並表示 PR 的出貨速度變快了。
+- **[追蹤每天發布的 AI 開發工具並建立專案工具包](https://agentusecases.ai/use-case/track-daily-ai-dev-tool-releases-and-build-project-toolkits)**：這個用 Claude Code 做的工具全天候爬取來源，用 AI 分類找到的東西、評分可信度，並產生含 CLAUDE.md 的專案工具包。
+- **[透過 ChatGPT 網站執行本機桌面指令](https://agentusecases.ai/use-case/run-local-desktop-commands-through-the-chatgpt-website)**：作者做了桌面 app 加 Chrome 擴充功能，讓 ChatGPT 網站變成本機 coding agent，在他的桌機上執行指令，目前不對外公開釋出。
+- **[透過 Copilot CLI subagent 執行終端機指令](https://agentusecases.ai/use-case/run-terminal-commands-via-copilot-cli-subagents)**：一位留言者用會執行終端機指令的 Copilot CLI agent，包括 /fleet 指令和 subagent 風格的工作流程。
+- **[透過 Devin 的 PR 加入第三方 API 整合](https://agentusecases.ai/use-case/add-a-third-party-api-integration-via-devin-pr)**：Devin 開了含 endpoint 和後端串接的 PR 並被 merge，但漏了 API key 的邏輯、程式碼風格和抽象，需要 review 時修正。
+- **[透過 MCP agent 執行 Terraform plan 和 apply](https://agentusecases.ai/use-case/run-terraform-plan-and-apply-through-an-mcp-agent)**：作者讓 Cursor 透過 MCP 對 Postgres 跑 Terraform，apply 時碰到權限錯誤，最後他自己在終端機完成。
+- **[透過 MCP 把 Figma 設計做成首頁](https://agentusecases.ai/use-case/build-a-homepage-from-figma-designs-via-mcp)**：作者用 MCP 把 Figma 接到 Cursor，幫字型典藏網站做新首頁，在 Lovable 讓人失望之後，這次成果很好。
+- **[透過 MCP 讓 AI agent 除錯 Windows crash dump](https://agentusecases.ai/use-case/debug-windows-crash-dumps-with-an-ai-agent-via-mcp)**：ForensicDbg 是針對原生 Windows x64/x86 crash 的事後除錯器，附有 MCP server，讓 AI agent 能從整理並互相連結的 crash 資料來除錯。
+- **[透過 Ollama 用本地模型跑 Claude Code](https://agentusecases.ai/use-case/run-claude-code-on-local-models-via-ollama)**：一份教學，說明如何在 IntelliJ 設定 Claude Code，並透過 Ollama 連接本地模型來寫程式。
+- **[透過 SSH 在老 iMac 上修補和撰寫軟體](https://agentusecases.ai/use-case/patch-and-write-software-on-old-imacs-over-ssh)**：一位留言者讓 Claude SSH 進 2007 年的 iMac，修問題並寫客製軟體，讓舊硬體重獲新生。
+- **[透過 Tangled MCP server 在 Claude Code 建立與讀取 issue](https://agentusecases.ai/use-case/create-and-read-issues-from-claude-code-via-a-tangled-mcp-se)**：作者開始做一個 MCP server，讓 Claude Code 能在 Tangled 上建立與讀取 issue。
+- **[透過 Wine 讓 Microsoft Office 在 Linux 上跑起來](https://agentusecases.ai/use-case/get-microsoft-office-running-on-linux-via-wine)**：Claude Code 包辦大部分工作，讓桌面版 Office 365 不用虛擬化就能在 Linux 的 Wine 下執行，並打包成 Nix flake。
+- **[透過團隊聊天 agent 做客戶原型](https://agentusecases.ai/use-case/build-client-prototypes-via-team-chat-agent)**：一個團隊讓 Hermes 能存取 IRC、repo、Cloudflare 和 nginx，在潛在客戶確認 prompt 後替他們做原型。
+- **[遠端修正並重新送審被退回的 app](https://agentusecases.ai/use-case/fix-and-resubmit-a-rejected-app-remotely)**：MaakCode 讓一個 dot 調查被退回的 app 送審問題，修正、測試、開 PR 並重新送審。
+- **[重構老舊的 jQuery plugin 並修 bug](https://agentusecases.ai/use-case/refactor-a-legacy-jquery-plugin-and-fix-its-bugs)**：Devin 重構了一個 2017 年的 jQuery plugin，修好彈窗關不掉的 bug 並加了 debug 模式，產出兩個被接受的 PR，不過它第一版程式碼留了 console.log。
+- **[非開發者做出有 AI 聊天的個人作品集網站](https://agentusecases.ai/use-case/build-a-personal-portfolio-site-with-ai-chat-as-a-non-develo)**：一位設計師用 Claude Code 在 48 小時內做出個人網站，裡面有談論自己作品的 AI 聊天，幾天後又發布了一個成長設計工具。
+- **[點過 macOS app 的每個畫面抓視覺 bug](https://agentusecases.ai/use-case/click-through-macos-app-builds-to-catch-visual-bugs)**：一位開發者用 Claude Code 的 computer use 編譯並啟動 macOS app，再一個畫面一個畫面點過去找版面 bug。
+
+## 遊戲與模擬 { #games-simulations }
+
+- **[24 小時做出 3D 瀏覽器遊戲](https://agentusecases.ai/use-case/build-a-3d-browser-game-in-24-hours)**：一位開發者用 Replit 的 agent，完全在瀏覽器裡做出 3D 瀏覽器遊戲，不用本機環境設定。
+- **[一天做出小遊戲合集](https://agentusecases.ai/use-case/build-a-minigame-collection-in-a-day)**：一位資料專業人員先用 ChatGPT 擬 prompt，再用 Cursor 的 agent 模式做出含四個小遊戲的 Python tkinter 遊戲。
+- **[不會寫程式也能做 2D 平台遊戲](https://agentusecases.ai/use-case/build-a-2d-platformer-game-without-coding)**：一位完全沒寫過程式的內容創作者用 Claude Code 在 HTML canvas 做出黑白的波次戰鬥平台遊戲，並現場直播遊玩。
+- **[依設計文件做出遊戲關卡](https://agentusecases.ai/use-case/build-a-game-level-from-a-design-document)**：發文者讓 Grok 4.5 依詳細的遊戲設計文件，替現有的 Three.js 遊戲做出一個關卡，之後再手動整理一下。
+- **[做一個 NES harness 讓 agent 能玩遊戲](https://agentusecases.ai/use-case/build-an-nes-harness-so-an-agent-can-play-games)**：一位留言者正在做 NES harness，讓 agent 讀取模擬器狀態，但偵測對話框和選單很吃力，所以打算做逐幀的狀態記錄器。
+- **[做一個和語言模型對弈的西洋棋遊戲](https://agentusecases.ai/use-case/build-a-chess-game-against-a-language-model)**：一位早期測試者請 Devin 做一個和語言模型對弈的西洋棋遊戲，進展不錯，但最後卡住了。
+- **[做一款瀏覽器遊戲並訓練 agent 來玩](https://agentusecases.ai/use-case/build-a-browser-game-and-train-an-agent-to-play-it)**：Grok 做出瀏覽器遊戲 Roofline，接著訓練一個 PPO agent 去玩線上頁面，最高分達 39,359。
+- **[做出並平衡一款線上的 Telegram RPG](https://agentusecases.ai/use-case/build-and-balance-a-live-telegram-rpg)**：一位不寫程式的 PM 讓 Claude Code 寫出 Telegram RPG bot、透過 SSH 部署，並跑了數萬場測試戰鬥來重新平衡職業。
+- **[和 AI 地下城主玩語音 RPG](https://agentusecases.ai/use-case/play-a-voice-driven-rpg-with-an-ai-dungeon-master)**：一個有持久記憶的 n8n 範本 agent，透過 Telegram 語音訊息主持奇幻 RPG，負責敘述場景、判定擲骰並儲存狀態。
+- **[和孩子一起用 Claude Code 做復古遊戲](https://agentusecases.ai/use-case/build-retro-games-with-a-child-using-claude-code)**：一位作者和 7 歲的孩子一起做太空射擊和動物醫院之類的遊戲，用像素美術素材，規格則透過 Claude 的提問工具擬出。
+- **[在 Minecraft 和 Mindustry 跑 AI agent 群](https://agentusecases.ai/use-case/run-ai-agent-swarms-in-minecraft-and-mindustry)**：agent 群在 Minecraft 和 Mindustry 這兩款遊戲中運作，原文只有標題，沒有更多細節。
+- **[在即時戰略遊戲中對戰](https://agentusecases.ai/use-case/compete-in-a-real-time-strategy-game)**：一個為前沿 LLM 彼此對戰而打造的遊戲環境。
+- **[在瀏覽器裡寫 3D 飛機遊戲](https://agentusecases.ai/use-case/code-a-3d-plane-game-in-the-browser)**：Hugging Face 的產品負責人請 Manus 做一款 Three.js 的飛機操控遊戲，拿到一個有動畫的 3D 瀏覽器遊戲。
+- **[從 GitHub 和 X 製作並推廣遊戲](https://agentusecases.ai/use-case/build-and-promote-games-from-github-and-x)**：一位使用者給 Grok Bot 一個有 20 多個 repo 的 GitHub 帳號和 X 帳號，讓它製作、更新遊戲，並發文推廣網站。
+- **[從截圖取得牌類遊戲的出牌建議](https://agentusecases.ai/use-case/get-move-suggestions-for-card-games-from-screenshots)**：一個 n8n 的 Telegram 工作流程用 GPT-4o 視覺讀取截圖或語音訊息，為撲克、二十一點、骨牌和麻將提供出牌建議，只給建議。
+- **[把 Pac-Man 改成雙人合作並放進街機機台](https://agentusecases.ai/use-case/mod-pac-man-for-two-player-co-op-and-load-it-onto-an-arcade-)**：Claude Code 把 Pac-Man 改成橫向的雙人合作遊戲，加入 Ms. Pac-Man 和加速功能，並放進使用者的 Mistercade 機台。
+- **[拿網頁遊戲測試瀏覽器 agent](https://agentusecases.ai/use-case/test-a-browser-agent-on-web-games)**：研究人員讓 ChatGPT Atlas 的瀏覽器 agent 玩 T-Rex Runner、數獨、Flappy Bird 和 Stein.world，它在數獨這類邏輯題表現不錯，比人類更快完成。
+- **[替 1990 年代遊戲的重製版加入阿萊西亞戰役擴充](https://agentusecases.ai/use-case/add-a-battle-of-alesia-expansion-to-a-1990s-game-remake)**：Nate Combs 用 ChatGPT 做研究和擬 prompt，由 Claude Code 實作擴充內容，並依他的試玩意見反覆調整。
+- **[替 app 加入 61 款兒童友善小遊戲](https://agentusecases.ai/use-case/add-61-kid-friendly-mini-games-to-an-app)**：兩位使用者讓 Replit Agent 自主替他們的遊戲庫加入 61 款適合兒童、無廣告的小遊戲，從 40 款增加到 101 款。
+- **[測試 iPhone 遊戲並回報通過了什麼](https://agentusecases.ai/use-case/test-an-iphone-game-and-report-what-passed)**：Cognition 讓跑在 GPT-6 Astra 上的 Devin 在模擬器測試遊戲 Otter Run，交回錄影和一份報告，列出通過的檢查與未測試的範圍。
+- **[玩 RollerCoaster Tycoon](https://agentusecases.ai/use-case/play-rollercoaster-tycoon)**：Ramp Labs 把 Claude Code 放進 RollerCoaster Tycoon。
+- **[用 Claude Cowork 和 Maya 做遊戲工具](https://agentusecases.ai/use-case/build-a-game-tool-with-claude-cowork-and-maya)**：發文者用 Claude Cowork 持續好幾個月討論架構並產生遊戲工具的程式碼，把結果搬到 PowerShell 和 Maya，再把截圖傳回去追問。
+- **[用 Codex 做遊戲架構與動畫合併](https://agentusecases.ai/use-case/build-game-architecture-and-animation-merging-with-codex)**：一位留言者讓 Codex 處理遊戲的基礎架構工作，讀引擎文件並實作更好的動畫合併。
+- **[用 Cursor agent 試玩 Godot 4 遊戲](https://agentusecases.ai/use-case/playtest-a-godot-4-game-with-a-cursor-agent)**：一個 Cursor 外掛和 subagent 讓 agent 能像玩家一樣擷取 Godot 4 遊戲的截圖，並點過 UI 流程。
+- **[用 Grok 當遊戲的敘事引擎](https://agentusecases.ai/use-case/use-grok-as-the-narrative-engine-of-a-game)**：發文者做了一款由 Grok 產生故事旁白的遊戲，並表示它的敘事輸出比 Gemini 和 GPT 更好。
+- **[用 agent 同時做四款遊戲](https://agentusecases.ai/use-case/build-four-games-in-parallel-with-agents)**：四個 Grok 4.20 agent 在一天內並行做出塔防、迷你 Factorio、CHIP-8 模擬器和 roguelike 射擊遊戲。
+- **[用 agent 模式玩線上數學遊戲](https://agentusecases.ai/use-case/play-online-math-games-in-agent-mode)**：作者讓 ChatGPT agent 模式下的 GPT-5 玩 Math Games with Bad Drawings 的線上版，大致成功，不像先前租車和報稅表單的嘗試。
+- **[用 bot 做出並經營手機遊戲](https://agentusecases.ai/use-case/build-and-grow-a-mobile-game-with-bots)**：一份指南介紹六個 bot 如何製作、上架並改進手機遊戲，包括依錄下的點擊路徑學習來上傳廣告素材。
+- **[用 computer-use agent 玩 Doom 當作非正式基準](https://agentusecases.ai/use-case/play-doom-with-computer-use-agents-as-an-informal-benchmark)**：OpenClaw 團隊讓 computer-use agent 在遠端機器上玩 Doom，把遊戲表現當成改善 computer-use 工作流程的非正式方式。
+- **[用 computer-using agent 在瀏覽器玩 Wordle](https://agentusecases.ai/use-case/play-wordle-in-a-browser-with-a-computer-using-agent)**：研究人員讓 OpenAI 的 Computer-Using Agent 玩 NYT Wordle，約 200 次只解出 5.36%，主要是看錯格子顏色。
+- **[用 prompt 做出互動式網頁遊戲](https://agentusecases.ai/use-case/build-interactive-web-games-from-prompts)**：根據一位網紅的測試，Manus 約一小時就做出扮演 Google CEO 的角色扮演網頁遊戲，還有用科技公司 logo 做的三消遊戲。
+- **[用 vibe coding 做 HTML5 瀏覽器遊戲](https://agentusecases.ai/use-case/vibe-code-an-html5-browser-game)**：Xenodochium 的開發者用 Gemini 做出這款遊戲，遇到反覆出現的錯誤，靠開新的對話繞過去。
+- **[用 vibe coding 為 DeskHog 做 Flappy Bird 遊戲](https://agentusecases.ai/use-case/vibe-code-a-flappy-bird-game-for-deskhog)**：PostHog 的教學讓 Cursor 在 Agent 模式下，依 README 和硬體細節替 DeskHog 裝置寫出 Flappy Bird 風格的遊戲。
+- **[用一句 prompt 做出三消遊戲](https://agentusecases.ai/use-case/build-a-match-3-game-from-a-single-prompt)**：一位作者只對 Gemini 3 Pro 下一次 prompt，就得到有分享連結、能玩的 Candy Crush 風格遊戲，還說一位非技術背景的朋友也辦到了。
+- **[用一句 prompt 做出賽車遊戲](https://agentusecases.ai/use-case/build-a-racing-game-from-a-single-prompt)**：Codex 從一句 prompt 做出有多名車手、八張地圖和道具的賽車遊戲，還親自玩遊戲，同時擔任設計、開發和 QA 測試。
+- **[用單一 HTML 檔做人工生命模擬器](https://agentusecases.ai/use-case/build-an-artificial-life-simulator-in-one-html-file)**：四個 Grok agent 被要求做出人工生命模擬器，有發光粒子、力的滑桿和湧現行為。
+- **[用瀏覽器 agent 玩按鈕點擊遊戲](https://agentusecases.ai/use-case/play-a-button-clicking-game-via-a-browser-agent)**：一位開發者把 Gemini 的 Computer Use 模型接到 Java 版 Playwright，讓它玩簡單的按鈕點擊遊戲，來驗證點擊座標的縮放。
+- **[用螢幕操控在 Android 上玩一局手機遊戲](https://agentusecases.ai/use-case/play-a-mobile-game-round-on-android-by-screen-control)**：發文者表示 Android 上的 Gemini computer use 透過讀螢幕、移動角色戰鬥，玩了一局 Fire Emblem Heroes。
+- **[用衍生的 agent 做 Rust 遊戲引擎](https://agentusecases.ai/use-case/build-a-rust-game-engine-with-spawned-agents)**：OnXStephen 讓 Grok Bot 衍生出多個 agent，做出有 .NET 腳本、多執行緒、天氣、光照和熱重載的 Rust 遊戲引擎。
+- **[用設計與寫程式搭檔 agent 做 Godot 遊戲](https://agentusecases.ai/use-case/build-godot-games-with-paired-design-and-coding-agents)**：Cowork 負責設計文件、任務佇列和試玩，Claude Code 負責寫 GDScript 並執行 Godot 和 git。
+- **[用遊戲 agent 在 Goat Simulator 3 中移動](https://agentusecases.ai/use-case/navigate-goat-simulator-3-with-a-game-playing-agent)**：以 Gemini 為基礎的 SIMA 2 能在 Goat Simulator 3 裡移動，真人玩家也可以指揮它來改善表現。
+- **[給 coding agent 一個面向遊戲世界的客戶端](https://agentusecases.ai/use-case/give-a-coding-agent-a-world-facing-client-for-a-game)**：作者用 coding agent 開發遊戲 Overlands，並透過專用的 agent 客戶端讓它進入遊戲世界，它還替自己取了名字、設計了自己的角色形象。
+- **[製作並測試火星模擬遊戲](https://agentusecases.ai/use-case/build-and-test-a-mars-simulator-game)**：Grok Build 寫出火星模擬遊戲的各個系統，並自行測試、研究遊玩過程、修 bug 與反覆迭代。
+- **[設計 Polkadot parachain 策略遊戲概念](https://agentusecases.ai/use-case/design-a-polkadot-parachain-strategy-game-concept)**：一位 X 使用者花一天和 Manus 一起設計 Parachain Conquest，這款遊戲把 Polkadot parachain 和跨鏈事件對應起來。
+- **[讓 AI agent 彼此玩你畫我猜](https://agentusecases.ai/use-case/let-ai-agents-play-pictionary-against-each-other)**：agent 透過 MCP 連線，在 Sketch Stadium 輪流用 SVG 畫圖與猜題，是推播通知給 agent 的示範。
+- **[讓 AI 地下城主主持 D&D 地城探險](https://agentusecases.ai/use-case/run-a-d-d-dungeon-crawl-with-an-ai-dungeon-master)**：一個瀏覽器版 D&D 5e 地城探險，由 AI 地下城主替三人隊伍主持遊戲，不會亂編規則。
+- **[讓 AI 試玩你自己的遊戲](https://agentusecases.ai/use-case/play-test-your-own-game)**：一位開發者做了 agentic 測試 harness，讓 AI 能玩自己的遊戲，協助試玩測試。
+- **[讓 agent 整天玩電腦遊戲](https://agentusecases.ai/use-case/let-agents-play-computer-games-all-day)**：包括 Claude Opus 和 o3 在內的 agent 拿到電腦，獨立玩 2048 之類的遊戲長達數小時。
+- **[讓 agent 玩 Forza Horizon 和網頁遊戲](https://agentusecases.ai/use-case/have-an-agent-play-forza-horizon-and-web-games)**：開發者展示 OpenClaw 自己玩 Forza Horizon，表現不完美，也做出了能玩某款多人網頁遊戲的 bot。
+- **[讓 agent 玩 Pokémon Blue](https://agentusecases.ai/use-case/play-pok-mon-blue-with-an-agent)**：Gemini Plays Pokémon agent 會讀遊戲 RAM 和截圖，把動作轉成按鍵，並用尋路和推石頭解謎的 sub-agent。
+- **[讓 computer-use agent 玩瀏覽器遊戲求勝](https://agentusecases.ai/use-case/have-a-computer-use-agent-play-a-browser-game-to-win)**：Ethan Mollick 叫 Claude 的 computer-use agent 去贏 Universal Paperclips，它先反覆點擊，在提示後改寫程式自動化遊戲，不過桌面途中當機了。
+- **[讓三個模型比賽做 Counter-Strike 複製品](https://agentusecases.ai/use-case/race-three-models-to-build-a-counter-strike-clone)**：InstantDB 讓 Codex、Opus 和 Gemini 各自嘗試做出一款多人射擊遊戲。
+- **[讓通用 agent 自己選遊戲來玩](https://agentusecases.ai/use-case/let-general-purpose-agents-choose-and-play-their-own-games)**：AI Village 給 agent 一台電腦自己挑遊戲，GPT-5 花了一週玩踩地雷卻沒贏，還做了 Google Sheets 計分表來追蹤各個 agent。
+- **[逆向 1997 年的 PC 遊戲並讓它在新硬體上執行](https://agentusecases.ai/use-case/reverse-engineer-a-1997-pc-game-and-make-it-run-on-modern-ha)**：Claude Code 讓一款舊的 DirectX 遊戲在新硬體上跑起來、反編譯了大部分內容、做出無頭的並行執行器，現在還能寫出附截圖的完整關卡攻略。
+- **[透過 API 在 SimCity 當市長](https://agentusecases.ai/use-case/play-mayor-in-simcity-through-an-api)**：一個建在開源 Micropolis 引擎上的無頭城市模擬器，任何人的 agent 都能來經營一座城市。
+- **[透過 Computer Use 在模擬器玩 Pokémon Silver](https://agentusecases.ai/use-case/play-pok-mon-silver-on-an-emulator-via-computer-use)**：一位使用者讓有 Computer Use 的 ChatGPT 操作 Pokémon Silver 模擬器，選了初始寶可夢並開始遊玩，不過使用額度被設定和重複對話耗掉。
+- **[透過模擬器玩 Game Boy 遊戲](https://agentusecases.ai/use-case/play-game-boy-games-through-an-emulator)**：一位開發者做了一個 agent，讓 Claude 看 PyBoy 的遊戲畫面、決定動作並按按鈕，並搭配記憶工具和定期摘要。
+- **[靠 LLM 協助寫程式做出瀏覽器 4X 策略遊戲](https://agentusecases.ai/use-case/build-a-browser-4x-strategy-game-with-llm-coding-help)**：發文者用 Grok 和 Gemini 寫戰鬥引擎、戰爭迷霧、地圖生成和啟發式 AI，兩週做出瀏覽器 4X 遊戲 Hexwardia。
+
+## 資安、科學與硬體 { #security-science-hardware }
+
+- **[依在地回收規則分類垃圾](https://agentusecases.ai/use-case/sort-waste-using-local-recycling-rules)**：Gemini Robotics-ER 1.5 會上網查在地回收規則，再規劃並把物品分到廚餘、回收和垃圾桶。
+- **[修復已驗證垃圾回收器的形式化證明](https://agentusecases.ai/use-case/repair-formal-proofs-for-a-verified-garbage-collector)**：Codex 編輯檔案並執行建置來修復 CertiGC 的證明，局部修復做得不錯，但人類得檢查它的不變式是否保住規格。
+- **[修改筆電 BIOS 解鎖隱藏的韌體選單](https://agentusecases.ai/use-case/patch-laptop-bios-to-unlock-hidden-firmware-menus)**：一位 Reddit 使用者把 BIOS dump 交給 Claude Code，它反組譯後找到簽章檢查並修補，刷入後解鎖了隱藏設定（二手轉述）。
+- **[即時監控 CVE 並評分、發出警示](https://agentusecases.ai/use-case/monitor-and-score-cves-with-real-time-alerts)**：一個 n8n 工作流程監控 CISA 和 OTX 等來源的 CVE，用 AI 評分，並透過 Slack、Gmail 和 Google Sheets 發出警示。
+- **[在 Ghidra 逆向二進位檔](https://agentusecases.ai/use-case/reverse-engineer-binaries-in-ghidra)**：一個提供 110 個 Ghidra 工具的 MCP server，用於 AI 輔助的逆向工程。
+- **[在 Nokia 110 傳統手機上跑 AI agent](https://agentusecases.ai/use-case/run-an-ai-agent-on-a-nokia-110-feature-phone)**：作者逆向只有 48MB RAM 的 Nokia 110，讓它跑 AI agent 並自動化幾個動作。
+- **[在 PDB 開啟最新的蛋白質配體結構](https://agentusecases.ai/use-case/open-recent-protein-ligand-structures-in-pdb)**：一位研究人員讓 Comet 在 PDB 找出最新的三個 GSK3B 蛋白質配體複合物，並各自在 Ligand Interaction 檢視中開啟。
+- **[在 SQLite commit 中找尚未修補的漏洞](https://agentusecases.ai/use-case/hunt-for-unpatched-vulnerabilities-in-sqlite-commits)**：Google 的 Big Sleep agent 從一個已修補的 bug 出發，審查近期的 SQLite commit，找到一個可被利用的缺陷，並在發布前修好。
+- **[審查硬體組件的射出成型風險](https://agentusecases.ai/use-case/review-a-hardware-assembly-for-injection-molding-risks)**：Codex 搭配本地 CAD 工具檢查真實組件的幾何與配置，標出開模前的風險，並整理出附量測數據和結案條件的發現。
+- **[從修補檔逆向出完整的攻擊鏈](https://agentusecases.ai/use-case/reverse-engineer-a-patch-into-a-full-exploit-chain)**：一位研究人員在 Claude Code 中用 Claude Opus 搭配 Playwright MCP，反編譯程式碼、找出漏洞並做出能用的 exploit。
+- **[找出商業邏輯漏洞並開修復 PR](https://agentusecases.ai/use-case/hunt-business-logic-flaws-and-open-fix-prs)**：多個並行的 Devin agent 各讀程式碼的一部分，找出商業邏輯和認證繞過漏洞，在沙盒中確認後再開修補 PR（廠商描述）。
+- **[找出智慧合約中可被利用的 bug](https://agentusecases.ai/use-case/find-exploitable-bugs-in-smart-contracts)**：Anthropic 的紅隊回報，agent 找到價值 460 萬美元的區塊鏈智慧合約漏洞利用。
+- **[找出藏了 23 年的 Linux 漏洞](https://agentusecases.ai/use-case/find-a-linux-vulnerability-hidden-for-23-years)**：一篇記述 Claude Code 挖出 Linux 中長年存在的漏洞的文章。
+- **[找出開源軟體的安全缺陷](https://agentusecases.ai/use-case/find-security-flaws-in-open-source-software)**：Google 的 Big Sleep agent 在 SQLite 的發現之後，又回報了約 20 個開源軟體的安全缺陷。
+- **[拿真實示波器驗證 SPICE 模擬](https://agentusecases.ai/use-case/verify-spice-simulations-against-a-real-oscilloscope)**：示波器和 SPICE 模擬器的 MCP server 讓 Claude Code 能把模擬電路和真實硬體量測做比對，形成完整迴圈。
+- **[沒有 CAD 經驗也能設計並做出機械手臂](https://agentusecases.ai/use-case/design-and-build-a-robotic-arm-with-no-cad-experience)**：一位製作者用 Claude Code 搭配 FreeCAD 和 Claude Vision，設計、列印並組裝出有視覺與語音控制的 5 自由度伺服手臂。
+- **[為不到 2,000 美元的個人機器人寫程式](https://agentusecases.ai/use-case/program-a-sub-2k-personal-robot)**：MARS 是通用型機器人，內建以 ROS2 為基礎的開放 agentic OS。
+- **[用 Claude 大規模形式化驗證軟體](https://agentusecases.ai/use-case/formally-verify-software-at-large-scale-with-claude)**：Anthropic 的 Frontier Red Team 用 Claude 對軟體做形式化驗證，在比以往可行規模更大的程式碼庫上，證明程式碼沒有某些類型的 bug。
+- **[用 Codex 加速科學研究](https://agentusecases.ai/use-case/accelerate-scientific-research-with-codex)**：一位研究人員大量使用 Codex 和 ChatGPT 做科學研究，一天做完一週的工作，不過近期的使用額度限制讓產出變少。
+- **[用 OpenClaw 控制並校正機械手](https://agentusecases.ai/use-case/control-and-calibrate-a-robotic-hand-with-openclaw)**：一個跑 Claude 的 OpenClaw agent 驅動 16 個關節的列印機械手，用 USB 攝影機檢查動作、校正韌體，並在 Telegram 上旁白。
+- **[用 agent 找室溫磁性半導體候選材料](https://agentusecases.ai/use-case/discover-room-temperature-magnetic-semiconductor-candidates-)**：依文章標題，Opus 5.5 agent 被用來找出兩種室溫磁性半導體候選材料。
+- **[用 agent 生成參數化幾何工作流程](https://agentusecases.ai/use-case/generate-parametric-geometry-workflows-with-an-agent)**：GrassLobster 用 agentic AI 生成參數化幾何工作流程。
+- **[用 agent 端到端跑生物資訊預測挑戰](https://agentusecases.ai/use-case/run-bioinformatics-prediction-challenges-end-to-end-with-age)**：Claude agent 在黑客松中跑了 13 個生物資訊預測挑戰，涵蓋文獻、設計、程式碼、基準測試和報告，其中 2 個仍在進行，結果尚未經人工驗證。
+- **[用 coding 模型做無人機 CAD、CFD 與 DFM 最佳化應用](https://agentusecases.ai/use-case/build-a-uav-cad-cfd-and-dfm-optimization-app-with-coding-mod)**：一位開發者打造專門的無人機 CAD、CFD 和 DFM 最佳化應用，用 Opus 做設計與審查，用 Flash 產生程式碼。
+- **[用 prompt 生成參數化 CAD 模型](https://agentusecases.ai/use-case/generate-parametric-cad-models-from-a-prompt)**：一個開源的 text-to-CAD 工具，以產生 CAD 程式碼的方式，從文字和參考圖片做出 3D 模型。
+- **[用一句 prompt 生成機械手臂 CAD 模型](https://agentusecases.ai/use-case/generate-a-robot-arm-cad-model-from-one-prompt)**：一個 text-to-cad skill 讓 Codex 在一次示範 prompt 中產出 7 自由度機械手臂，含運動學、GUI 和 STEP 零件，但沒有夾爪。
+- **[用上千個 agent 從生物資料集挖掘新線索](https://agentusecases.ai/use-case/mine-biological-datasets-for-new-leads-with-thousands-of-age)**：OpenAI 說明讓上千個 AI agent 處理複雜的生物資料，找出新的研究線索。
+- **[用多 agent 系統探索開放數學問題](https://agentusecases.ai/use-case/explore-open-math-problems-with-a-multi-agent-system)**：一篇關於在開放世界多 agent 環境中自主進行數學發現的論文。
+- **[用生成的程式碼和語音指令控制機器人](https://agentusecases.ai/use-case/control-robots-with-generated-code-and-voice-commands)**：Gemini 偵測物體並寫出機器人 API 程式碼，加上 10 個 in-context 示範，ALOHA 機器人就能裝箱和摺洋裝，語音指令也能變成機器人的計畫。
+- **[用自然語言操控 7 軸機械手臂](https://agentusecases.ai/use-case/drive-a-7-axis-robot-arm-with-natural-language)**：OpenClaw 學會 NERO 手臂的 skill 與規則後，能依白話的動作要求寫出並執行 Python 控制腳本。
+- **[自主解決開放數學問題](https://agentusecases.ai/use-case/solve-open-math-problems-autonomously)**：DeepMind 以 Gemini Deep Think 為基礎的 Aletheia agent，在 700 道開放的 Erdős 問題上接受評估，自主解出四道。
+- **[設計含 CAD 與計算的完整工程文件包](https://agentusecases.ai/use-case/design-full-engineering-packages-with-cad-and-calcs)**：發文者表示他們的 Dot 能無人看管地跑好幾個小時的設計、計算、驗證迴圈，產出 CAD、計算書、BOM、電氣文件和圖面。
+- **[調度 Spot 機器人完成多步驟任務](https://agentusecases.ai/use-case/orchestrate-a-spot-robot-through-multi-step-tasks)**：Gemini Robotics ER 2 驅動 Boston Dynamics 的 Spot，看影片確認像綁垃圾袋這類任務完成後，才進行下一步。
+- **[逆向 Claude Desktop 找出支援 Linux 的路](https://agentusecases.ai/use-case/reverse-engineer-claude-desktop-to-find-a-path-to-linux-supp)**：一位維護者讓 Claude 研究壓縮過的 Claude Desktop app，想找出 Cowork 為何只能在 macOS 執行，它找到了 VM 和沙盒層，並規劃出通往 Linux 的路線。
+- **[逆向舊遊戲二進位檔來破解限制](https://agentusecases.ai/use-case/reverse-engineer-an-old-game-binary-to-crack-a-restriction)**：發文者用 Claude Code 搭配 Ghidra，在一個 13 年前的遊戲二進位檔中追蹤橫跨多處驗證點的 call graph，破解了限制。
+- **[逆向裝置硬體並寫驅動程式](https://agentusecases.ai/use-case/reverse-engineer-device-hardware-and-write-drivers)**：一位使用者讓 Claude 處理自己的電子裝置來寫驅動程式，例如替在新 macOS 上不能用的舊印表機寫驅動，診斷時由使用者當它的手。
+- **[透過 Claude Desktop 操控家用機器人](https://agentusecases.ai/use-case/run-a-home-robot-through-claude-desktop)**：Tal Raviv 透過 Claude Desktop 搭配平常用的 email 和行事曆工具控制機器人，它提議在家中巡邏並發布田野日誌，也做了一次測試。
+- **[透過 Ghidra MCP 逆向經典遊戲 ROM](https://agentusecases.ai/use-case/reverse-engineer-a-classic-game-rom-via-ghidra-mcp)**：作者透過 MCP 把 Claude 接到 Ghidra，分析並重新命名 Atari River Raid ROM 裡的函式。
+- **[透過 MCP 用 Ghidra 逆向 Go 二進位檔](https://agentusecases.ai/use-case/reverse-engineer-a-go-binary-with-ghidra-via-mcp)**：Huli 讓 Cursor 操作 GhidraMCP，辨識出 Golang 二進位檔、列出路由並找到 path traversal，但漏掉了 SQL injection 檢查。
+- **[透過 MCP 給 agent 多引擎數學核心](https://agentusecases.ai/use-case/give-agents-a-multi-engine-math-kernel-via-mcp)**：MathKernel 是一個重視證據的多引擎數學核心，以 MCP server 的形式提供給 agent 使用。
+- **[除錯底層密碼學程式碼](https://agentusecases.ai/use-case/debug-low-level-cryptography-code)**：密碼學工程師 Filippo Valsorda 寫的文章，談 Claude Code 如何除錯底層密碼學程式。
