@@ -339,6 +339,7 @@ nav:
       - Awesome OpenClaw Skills: awesome-openclaw-skills.md
   - 學習資源:
       - topics/learning.md
+      - AI On-Duty（排程與 CI/CD 策展影片課）: ai-onduty.md
       - AI Agents (黃佳): ai-agents.md
       - AI Agents for Beginners (Microsoft): ai-agents-for-beginners.md
       - 深入理解 AI Agent（李博杰,全書開源）: ai-agent-book.md

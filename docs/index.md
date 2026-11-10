@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">263</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">264</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-11-10</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -104,7 +104,7 @@
 
     ---
 
-    29 篇筆記
+    30 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/learning.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-clock-alert-outline:{{ .lg .middle }} **AI On-Duty（AI 自動化工作流：困難部分）**
+
+    ---
+
+    `2026-11-10` 繁中策展影片課，主題是排程與 CI/CD：GitHub Actions、Cloudflare Cron Triggers、把 Claude Code 放進 CI。13 章 49 單元 201 支影片，每個單元對照 2026 官方文件標時效（49 單元查 29 個，17 個已飄移），repo 本身用週排程驗連結、死了自動開 issue
+
+    [:octicons-arrow-right-24: 閱讀筆記](ai-onduty.md)
 
 -   :material-file-check-outline:{{ .lg .middle }} **MUSE Evidence Review Core**
 
@@ -245,14 +253,6 @@
     `2026-09-16` 金門大學資工系陳鍾誠教授 115 學年上學期《現代軟體工程》課程 repo（MIT、30★）裡藏的 `_more/mybook`——三本各自寫完整的繁體中文技術書草稿，共 216 個分節 Markdown、約 198K 漢字、256 個 mermaid 圖：《現代軟體工程：從基礎到 AI Agent 實踐》（87 節，三篇 14 章 + 附錄 ABC，明講參考李博杰 agent-book）、《演進式架構實戰》（75 節，用淘寶 14 次架構演進當問題驅動主線）、《從 Docker 到 Kubernetes：Rust × WebSocket/SSR/MPA 實戰》（46 節）。每節一檔、靠 README 當目錄，本筆記附上把它們合併成單一本書的方法與腳本
 
     [:octicons-arrow-right-24: 閱讀筆記](ccc115a-se-mybook.md)
-
--   :material-eye-lock:{{ .lg .middle }} **Argus**
-
-    ---
-
-    `2026-09-16` 台灣開發者 nathawu 寫的「確認優先（Confirm-First）」閘門外掛，同時支援 Claude Code 與 OpenAI Codex——AI 先用白話文覆述最多 5 點需求重點（自己補的假設要標「（假設）」），你按下「正確，開始執行」之前，PreToolUse hook 硬性擋掉除提問工具外的所有工具呼叫。實作只有 148 行核心 + 83 行 Codex adapter，測試卻有 487 行（33 個 case，實測 32 pass / 1 skip）。設計上刻意 fail-open：hook 自己出錯就放行，絕不卡住正常使用。目前 5★、3 個 commit、**沒有 LICENSE 檔**
-
-    [:octicons-arrow-right-24: 閱讀筆記](argus.md)
 
 </div>
 

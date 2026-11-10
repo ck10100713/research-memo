@@ -8,6 +8,7 @@
 
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
+| 2026-11-10 | 學習資源 | [AI On-Duty（AI 自動化工作流：困難部分）](ai-onduty.md) |
 | 2026-11-05 | AI 應用 | [MUSE Evidence Review Core](muse-evidence-review-core.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md) |
 | 2026-11-05 | AI Agent 框架 | [Harness²（google-research/harness2）](harness2.md) |
@@ -278,6 +279,8 @@
 
 #### 11 月
 
+- `2026-11-10` [AI On-Duty（AI 自動化工作流：困難部分）](ai-onduty.md)  
+  繁中策展影片課，主題是排程與 CI/CD：GitHub Actions、Cloudflare Cron Triggers、把 Claude Code 放進 CI。13 章 49 單元 201 支影片，每個單元對照 2026 官方文件標時效（49 單元查 29 個，17 個已飄移），repo 本身用週排程驗連結、死了自動開 issue
 - `2026-11-05` [MUSE Evidence Review Core](muse-evidence-review-core.md)  
   黑客松作品：拿 Meta muse-wonder-1.0 逐句審稿，每句判 SUPPORTED / CONTRADICTED / NOT_ESTABLISHED / NEEDS_HUMAN_REVIEW，引文在本機逐字對回原文；改稿後舊審查自動變 STALE。純 Python 標準函式庫，對 API 金鑰、送出同意、網路出口的防護做得很重
 - `2026-11-05` [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md)  
@@ -890,4 +893,4 @@
 
 ### 學習資源
 
-[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[《深入理解 AI Agent》(ai-agent-book)](ai-agent-book.md)、[《深入理解 AI Infra》(ai-infra-book)](ai-infra-book.md)、[awesome-agentic-ai-zh](awesome-agentic-ai-zh.md)、[ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[GenAI Agents (NirDiamant)](genai-agents.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md)、[Awesome Quant Interview](awesome-quant-interview.md)、[HowToLiveBetter(高性价比人生指南)](howtolivebetter.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[MiniMind](minimind.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[The System Design Primer](system-design-primer.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
+[AI On-Duty（AI 自動化工作流：困難部分）](ai-onduty.md)、[AI Agents (黃佳)](ai-agents.md)、[AI Agents for Beginners](ai-agents-for-beginners.md)、[《深入理解 AI Agent》(ai-agent-book)](ai-agent-book.md)、[《深入理解 AI Infra》(ai-infra-book)](ai-infra-book.md)、[awesome-agentic-ai-zh](awesome-agentic-ai-zh.md)、[ccc115a/se `_more/mybook` 三本書](ccc115a-se-mybook.md)、[Claude Code from Source — 逆向工程架構全書](claude-code-from-source.md)、[Anthropic Claude Cookbooks — 40.8K stars 的官方範例庫](claude-cookbooks.md)、[Claude Use Cases Gallery](claude-use-cases.md)、[DeepTutor](deep-tutor.md)、[Gemma 4 與 Local LLM](gemma-4-local-llm.md)、[GenAI Agents (NirDiamant)](genai-agents.md)、[Karpathy LLM Wiki](karpathy-llm-wiki.md)、[AI Engineering from Scratch](ai-engineering-from-scratch.md)、[AI Engineering Interview Questions Company Wise](ai-engineering-interview-questions-company-wise.md)、[Awesome Quant Interview](awesome-quant-interview.md)、[HowToLiveBetter(高性价比人生指南)](howtolivebetter.md)、[dotLLM](dotllm.md)、[Learn Claude Code](learn-claude-code.md)、[LLM Course](llm-course.md)、[MCP for Beginners](mcp-for-beginners.md)、[MiniMind](minimind.md)、[OpenAI: A Practical Guide to Building Agents](openai-practical-guide-building-agents.md)、[LY Corp — Google ADK 入門：打造 AI Agent 與多代理人系統](ly-corp-adk-agent.md)、[Reference 快速參考手冊](reference.md)、[reverse-SynthID](reverse-synthid.md)、[skillopt-qa](skillopt-qa.md)、[The System Design Primer](system-design-primer.md)、[Claude Code 最佳實踐完整研究報告（zeuikli）](zeuikli-claude-code-best-practices.md)
