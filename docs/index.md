@@ -3,7 +3,7 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">265</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">266</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
   <div class="stat"><div class="stat-num">2026-11-12</div><div class="stat-label">最近更新</div></div>
 </div>
@@ -88,7 +88,7 @@
 
     ---
 
-    3 篇筆記
+    4 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/agent-skills.md)
 
@@ -125,6 +125,14 @@
     `2026-11-12` Chrome 團隊（加上 Edge、Firefox、MDN）出的 coding agent skill：agent 寫前端前先用本機 CLI 搜 209 篇現代 Web 指南，拿到 dialog、popover、anchor positioning 這類原生寫法和 Baseline 相容資料，避免它照訓練資料寫舊式 JS；官方 eval 說能把通過率從五成多拉到八、九成
 
     [:octicons-arrow-right-24: 閱讀筆記](modern-web-guidance.md)
+
+-   :material-school-outline:{{ .lg .middle }} **socratic-tutor（Jane Street 蘇格拉底家教 Skill）**
+
+    ---
+
+    `2026-11-12` Jane Street 開源的第一個 agent skill：把 LLM 變成嚴格的蘇格拉底式家教，先診斷程度、拆 0-5 級技能地圖，一次只問一題、答錯不給答案、穿插無預警複習，全部子技能到 4/5 才結業；純 prompt、沒有任何程式碼
+
+    [:octicons-arrow-right-24: 閱讀筆記](skill-socratic-tutor.md)
 
 -   :material-clock-alert-outline:{{ .lg .middle }} **AI On-Duty（AI 自動化工作流：困難部分）**
 
@@ -245,14 +253,6 @@
     `2026-09-23` 設計給 Claude Code 之類 AI coding agent 用的「全域行銷營運技能」，也能當 CLI 獨立跑。七大模式（SEO 顧問／工程師／資安／文章寫手／外掛開發／Meta 廣告／產圖）＋ 26 個 AI 角色的矩陣營運層，v0.4 起加了 SEO/AEO 引導式建站。設計原則是不綁定單一廠商、預設唯讀 dry-run、免金鑰可試玩。注意核心健檢有個 robots/sitemap 必定誤報的 bug 拖了兩個月，v0.4.6 才修。跟本站的反詐投資王同一位作者
 
     [:octicons-arrow-right-24: 閱讀筆記](open-seo-advisor-skill.md)
-
--   :material-language-rust:{{ .lg .middle }} **Copilot runtime 搬到 Rust**
-
-    ---
-
-    `2026-09-18` Stephen Toub 寫的 65 分鐘長文：GitHub Copilot agent runtime 從 TypeScript/Node 整包換成 Rust，43 萬行 TS 換出 83 萬行production Rust，2026-05-12 到 08-21 約 14 週，主要由一個人 + 大量 agent 完成，128 個 PR 邊搬邊出貨。有硬數字：單次 turn 從 5.25 秒降到 292 毫秒（18 倍）、session 生命週期吞吐從 7.55/秒 到 120/秒。更值得看的是 agent 使用數據——工具呼叫 185 萬次裡探索類是編輯類的 10 倍、prompt cache 命中率 96.22%、壓縮 5,116 次、borrow checker 只佔編譯錯誤的 1.7%。還有兩個真實事故：agent 之間互相併吞分支、以及用一個 chat session 當「agentic mutex」擋建置塞車
-
-    [:octicons-arrow-right-24: 閱讀筆記](copilot-runtime-rust-port.md)
 
 </div>
 

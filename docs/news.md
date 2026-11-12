@@ -9,6 +9,7 @@
 | 日期 | 類型 | 文章 |
 | --- | --- | --- |
 | 2026-11-12 | Coding Agent 工具 | [Modern Web Guidance（GoogleChrome/modern-web-guidance）](modern-web-guidance.md) |
+| 2026-11-12 | Agent Skills | [socratic-tutor（Jane Street 蘇格拉底家教 Skill）](skill-socratic-tutor.md) |
 | 2026-11-10 | 學習資源 | [AI On-Duty（AI 自動化工作流：困難部分）](ai-onduty.md) |
 | 2026-11-05 | AI 應用 | [MUSE Evidence Review Core](muse-evidence-review-core.md) |
 | 2026-11-05 | 資源彙整 / Awesome List | [Agent Use Cases 全目錄（1872 筆）](agentusecases-catalog.md) |
@@ -282,6 +283,8 @@
 
 - `2026-11-12` [Modern Web Guidance（GoogleChrome/modern-web-guidance）](modern-web-guidance.md)  
   Chrome 團隊（加上 Edge、Firefox、MDN）出的 coding agent skill：agent 寫前端前先用本機 CLI 搜 209 篇現代 Web 指南，拿到 dialog、popover、anchor positioning 這類原生寫法和 Baseline 相容資料，避免它照訓練資料寫舊式 JS；官方 eval 說能把通過率從五成多拉到八、九成
+- `2026-11-12` [socratic-tutor（Jane Street 蘇格拉底家教 Skill）](skill-socratic-tutor.md)  
+  Jane Street 開源的第一個 agent skill：把 LLM 變成嚴格的蘇格拉底式家教，先診斷程度、拆 0-5 級技能地圖，一次只問一題、答錯不給答案、穿插無預警複習，全部子技能到 4/5 才結業；純 prompt、沒有任何程式碼
 - `2026-11-10` [AI On-Duty（AI 自動化工作流：困難部分）](ai-onduty.md)  
   繁中策展影片課，主題是排程與 CI/CD：GitHub Actions、Cloudflare Cron Triggers、把 Claude Code 放進 CI。13 章 49 單元 201 支影片，每個單元對照 2026 官方文件標時效（49 單元查 29 個，17 個已飄移），repo 本身用週排程驗連結、死了自動開 issue
 - `2026-11-05` [MUSE Evidence Review Core](muse-evidence-review-core.md)  
@@ -888,7 +891,7 @@
 
 ### Agent Skills
 
-[book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)、[research（研究筆記產生器）](skill-research.md)、[social-post](skill-social-post.md)
+[book-to-skill（書轉 Skill 產生器）](skill-book-to-skill.md)、[research（研究筆記產生器）](skill-research.md)、[social-post](skill-social-post.md)、[socratic-tutor（Jane Street 蘇格拉底家教 Skill）](skill-socratic-tutor.md)
 
 ### 資源彙整 / Awesome List
 
