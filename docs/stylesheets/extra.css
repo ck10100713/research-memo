@@ -26,3 +26,26 @@
   font-size: 0.8rem;
   color: var(--md-default-fg-color--light);
 }
+
+/* 統計數字跟著格子寬度縮放，窄螢幕不擠 */
+.stats-bar .stat {
+  container-type: inline-size;
+}
+
+.stats-bar .stat-num {
+  font-size: clamp(1.2rem, 1rem + 2cqi, 1.6rem);
+}
+
+/* 長表格往下捲時欄位名稱固定在上方
+   ponytail: Material 的 table 本身就是 overflow:auto 的捲動容器，所以限高加在 table 上 */
+.md-typeset table:not([class]) {
+  max-block-size: 70vh;
+}
+
+.md-typeset table:not([class]) thead th {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  background-color: var(--md-default-bg-color);
+  box-shadow: inset 0 -0.05rem var(--md-typeset-table-color);
+}

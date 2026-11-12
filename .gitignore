@@ -6,3 +6,4 @@ archive/
 books/pdf/
 .DS_Store
 books/build/
+.playwright-mcp/
