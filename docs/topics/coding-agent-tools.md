@@ -1,9 +1,10 @@
 # Coding Agent 工具
 
-本分類收錄 87 篇研究筆記。
+本分類收錄 88 篇研究筆記。
 
 | 日期 | 筆記 | 摘要 |
 | --- | --- | --- |
+| 2026-11-12 | [Modern Web Guidance（GoogleChrome/modern-web-guidance）](../modern-web-guidance.md) | Chrome 團隊（加上 Edge、Firefox、MDN）出的 coding agent skill：agent 寫前端前先用本機 CLI 搜 209 篇現代 Web 指南，拿到 dialog、popover、anchor positioning 這類原生寫法和 Baseline 相容資料，避免它照訓練資料寫舊式 JS；官方 eval 說能把通過率從五成多拉到八、九成 |
 | 2026-10-30 | [ub-mode](../ub-mode.md) | Uncle Bob(Robert C. Martin)把 poteto-mode 的原則砍到只剩一份約 140 行的 SKILL.md:Make it Work → Make it Right → Practice 三段,每條原則壓成兩三句祈使句,並強制 TDD;最大差異是把『寫得好不好』交給自己寫的三個確定性工具把關(crapper 的 CRAP < 10、dryer 的重複度 < 0.8、mutator 的突變測試)。5 天 4.8k★,但 repo 沒有授權檔 |
 | 2026-10-28 | [poteto-mode(pstack)](../poteto-mode.md) | Lauren Tan(@poteto,React core、Cursor)的 pstack plugin 入口 skill:一句 /poteto-mode 把任務對到 23 份 playbook 之一、步驟原文抄成 todolist,主控只負責設計 / 審查 / 驗證,實作派給 subagent;配 24 條 principle skill、多模型對抗審查(只收跑得出失敗的 finding)、能實驗就不問人。Cursor 原生,Claude Code 有官方對照表,社群另有多個移植版 |
 | 2026-09-16 | [Argus](../argus.md) | 台灣開發者 nathawu 寫的「確認優先（Confirm-First）」閘門外掛，同時支援 Claude Code 與 OpenAI Codex——AI 先用白話文覆述最多 5 點需求重點（自己補的假設要標「（假設）」），你按下「正確，開始執行」之前，PreToolUse hook 硬性擋掉除提問工具外的所有工具呼叫。實作只有 148 行核心 + 83 行 Codex adapter，測試卻有 487 行（33 個 case，實測 32 pass / 1 skip）。設計上刻意 fail-open：hook 自己出錯就放行，絕不卡住正常使用。目前 5★、3 個 commit、**沒有 LICENSE 檔** |

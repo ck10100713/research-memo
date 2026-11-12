@@ -3,9 +3,9 @@
 研究與整理感興趣的技術專案、架構模式與工具鏈。
 
 <div class="stats-bar">
-  <div class="stat"><div class="stat-num">264</div><div class="stat-label">研究筆記</div></div>
+  <div class="stat"><div class="stat-num">265</div><div class="stat-label">研究筆記</div></div>
   <div class="stat"><div class="stat-num">12</div><div class="stat-label">主題分類</div></div>
-  <div class="stat"><div class="stat-num">2026-11-10</div><div class="stat-label">最近更新</div></div>
+  <div class="stat"><div class="stat-num">2026-11-12</div><div class="stat-label">最近更新</div></div>
 </div>
 
 ## 分類導覽
@@ -24,7 +24,7 @@
 
     ---
 
-    87 篇筆記
+    88 篇筆記
 
     [:octicons-arrow-right-24: 前往](topics/coding-agent-tools.md)
 
@@ -117,6 +117,14 @@
 最近新增或整理完成的研究筆記。
 
 <div class="grid cards" markdown>
+
+-   :material-web:{{ .lg .middle }} **Modern Web Guidance（GoogleChrome/modern-web-guidance）**
+
+    ---
+
+    `2026-11-12` Chrome 團隊（加上 Edge、Firefox、MDN）出的 coding agent skill：agent 寫前端前先用本機 CLI 搜 209 篇現代 Web 指南，拿到 dialog、popover、anchor positioning 這類原生寫法和 Baseline 相容資料，避免它照訓練資料寫舊式 JS；官方 eval 說能把通過率從五成多拉到八、九成
+
+    [:octicons-arrow-right-24: 閱讀筆記](modern-web-guidance.md)
 
 -   :material-clock-alert-outline:{{ .lg .middle }} **AI On-Duty（AI 自動化工作流：困難部分）**
 
@@ -245,14 +253,6 @@
     `2026-09-18` Stephen Toub 寫的 65 分鐘長文：GitHub Copilot agent runtime 從 TypeScript/Node 整包換成 Rust，43 萬行 TS 換出 83 萬行production Rust，2026-05-12 到 08-21 約 14 週，主要由一個人 + 大量 agent 完成，128 個 PR 邊搬邊出貨。有硬數字：單次 turn 從 5.25 秒降到 292 毫秒（18 倍）、session 生命週期吞吐從 7.55/秒 到 120/秒。更值得看的是 agent 使用數據——工具呼叫 185 萬次裡探索類是編輯類的 10 倍、prompt cache 命中率 96.22%、壓縮 5,116 次、borrow checker 只佔編譯錯誤的 1.7%。還有兩個真實事故：agent 之間互相併吞分支、以及用一個 chat session 當「agentic mutex」擋建置塞車
 
     [:octicons-arrow-right-24: 閱讀筆記](copilot-runtime-rust-port.md)
-
--   :material-book-multiple:{{ .lg .middle }} **ccc115a/se `_more/mybook` 三本書**
-
-    ---
-
-    `2026-09-16` 金門大學資工系陳鍾誠教授 115 學年上學期《現代軟體工程》課程 repo（MIT、30★）裡藏的 `_more/mybook`——三本各自寫完整的繁體中文技術書草稿，共 216 個分節 Markdown、約 198K 漢字、256 個 mermaid 圖：《現代軟體工程：從基礎到 AI Agent 實踐》（87 節，三篇 14 章 + 附錄 ABC，明講參考李博杰 agent-book）、《演進式架構實戰》（75 節，用淘寶 14 次架構演進當問題驅動主線）、《從 Docker 到 Kubernetes：Rust × WebSocket/SSR/MPA 實戰》（46 節）。每節一檔、靠 README 當目錄，本筆記附上把它們合併成單一本書的方法與腳本
-
-    [:octicons-arrow-right-24: 閱讀筆記](ccc115a-se-mybook.md)
 
 </div>
 
